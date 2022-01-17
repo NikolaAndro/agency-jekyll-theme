@@ -1,5 +1,5 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://nikolaandro.github.io
+baseurl: /Workouts_Page/
 
 # Site settings
 title: Awesome Title
@@ -17,12 +17,12 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
 - name: 
   pic: 
-  position: Lead Designer
+  position: 
   social:
 
 - name: Nikola Andric
   pic: 7
-  position: Lead Designer
+  position: The Workout Collector
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/nikola-andric-128597179/
