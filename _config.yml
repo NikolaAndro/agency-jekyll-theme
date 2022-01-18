@@ -17,8 +17,6 @@ people:
       url: #
     - title: facebook
       url: https://www.facebook.com/nikola.vuckovic.927
-    - title: stack-overflow
-      url: #
 
 - name: Александар Богдановић
   pic: 2
@@ -28,8 +26,6 @@ people:
       url: #
     - title: facebook
       url: https://www.facebook.com/profile.php?id=100010649713713
-    - title: linkedin
-      url: #
 
 - name: Немања Цукавац
   pic: 3
@@ -39,15 +35,11 @@ people:
       url: #
     - title: facebook
       url: https://www.facebook.com/nemanja.cukavac
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
     url: https://www.instagram.com/fk_kotroman_skola_fudbala/
-  - title: facebook
-    url:
 
 # Postal address (add as many lines as necessary)
 address:
