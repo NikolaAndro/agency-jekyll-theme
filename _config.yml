@@ -11,7 +11,7 @@ description: "Write an awesome description for your new site here. You can edit 
 # Team names, titles and social links
 people:
 - name: Никола Вучковић 
-  pic: 4
+  pic: 7
   position: Тренер
   social:
     - title: twitter
@@ -20,7 +20,7 @@ people:
       url: https://www.facebook.com/nikola.vuckovic.927
 
 - name: Александар Богдановић
-  pic: 2
+  pic: 9
   position: Тренер
   social:
     - title: twitter
@@ -29,7 +29,7 @@ people:
       url: https://www.facebook.com/profile.php?id=100010649713713
 
 - name: Немања Цукавац
-  pic: 3
+  pic: 8
   position: Спортски Директор
   social:
     - title: twitter
