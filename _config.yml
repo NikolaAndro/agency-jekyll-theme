@@ -14,7 +14,7 @@ people:
   pic: 7
   position: Тренер
   social:
-    - title: twitter
+    - title: instagram
       url: #
     - title: facebook
       url: https://www.facebook.com/nikola.vuckovic.927
@@ -23,8 +23,6 @@ people:
   pic: 9
   position: Тренер
   social:
-    - title: twitter
-      url: #
     - title: facebook
       url: https://www.facebook.com/profile.php?id=100010649713713
 
@@ -32,7 +30,7 @@ people:
   pic: 8
   position: Спортски Директор
   social:
-    - title: twitter
+    - title: instagram
       url: #
     - title: facebook
       url: https://www.facebook.com/nemanja.cukavac
