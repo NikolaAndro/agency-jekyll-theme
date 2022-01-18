@@ -10,7 +10,7 @@ alt: image-alt
 project-date: January 2022
 client: Start Bootstrap
 category: Women Workout
-description: This is a great workout dedicated to ladies to focus on the upper glutes and chin ups!
+description: This is a great workout dedicated to ladies to focus on the upper glutes and chin ups! <br><br> You have a free ten minutes at the end of your full body workouts to add in some exercises you’d like to focus more on.<br><br> Perform each glute day (Thursday and Friday) as a circuit for 3 rounds and rest 90 seconds between each round.
 mon1_exc1: Barbell hip thrust plus - 3 x 10
 mon1_exc2: Chin-up - 3 x AMRAP
 mon1_exc3: Glute dominant goblet squat - 3 x 12
