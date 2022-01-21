@@ -76,16 +76,16 @@ sat1_exc4: Leg press legs high - 5 x 20, NO REST
 sat1_exc5: Dumbbell walking lunge - 5 x 20, rest 1 min. (back to leg press)
 sat1_exc6: Leg curl - 6 x 12-15, rest 1 min. + 5 partial reps after reaching failure after each set
 sun1_exc1: REST
-sun1_exc2: REST
-sun1_exc3: REST
-sun1_exc4: REST
-sun1_exc5: REST
-sun1_exc6: REST
-sun1_exc7: REST
-sun1_exc8: REST
-sun1_exc9: REST
-sun1_exc10: REST
-sun1_exc11: REST
+sun1_exc2: 
+sun1_exc3: 
+sun1_exc4: 
+sun1_exc5: 
+sun1_exc6: 
+sun1_exc7: 
+sun1_exc8: 
+sun1_exc9: 
+sun1_exc10: 
+sun1_exc11: 
 mon2_exc1: Incline dumbbell bench press (warm up sets) 2 x 10, rest 1 min.
 mon2_exc2: Incline dumbbell bench press - 12/10/8/8/8/8, rest 1 min. + double drop set after the last set
 mon2_exc3: Barbell bench press - medium grip - 12/10/10/8, rest 1 min. + double drop set after the last set
@@ -149,27 +149,27 @@ fri2_exc13: Hanging oblique crunch - 4 x 8 each side, NO REST
 fri2_exc14: BOSU knee tuck, NO REST 
 fri2_exc15: Lateral bars knee raise (dip position) 4 x 15, reat 90 sec. (back to hanging oblique crunches)
 sat2_exc1: REST
-sat2_exc2: REST
-sat2_exc3: REST
-sat2_exc4: REST
-sat2_exc5: REST
-sat2_exc6: REST
-sat2_exc7: REST
-sat2_exc8: REST
-sat2_exc9: REST
-sat2_exc10: REST
-sat2_exc11: REST
+sat2_exc2: 
+sat2_exc3: 
+sat2_exc4: 
+sat2_exc5: 
+sat2_exc6: 
+sat2_exc7: 
+sat2_exc8: 
+sat2_exc9: 
+sat2_exc10: 
+sat2_exc11: 
 sun2_exc1: REST
-sun2_exc2: REST
-sun2_exc3: REST
-sun2_exc4: REST
-sun2_exc5: REST
-sun2_exc6: REST
-sun2_exc7: REST
-sun2_exc8: REST
-sun2_exc9: REST
-sun2_exc10: REST
-sun2_exc11: REST
+sun2_exc2: 
+sun2_exc3: 
+sun2_exc4: 
+sun2_exc5: 
+sun2_exc6: 
+sun2_exc7: 
+sun2_exc8: 
+sun2_exc9: 
+sun2_exc10: 
+sun2_exc11: 
 mon3_exc1: Barbell bench press medium grip - 2 x 10, rest 1 min (warm up sets)
 mon3_exc2: Barbell bench press medium grip - 12/10/8/8/6/6, rest 1 min. + double drop set after the last set
 mon3_exc3: Incline bench press - 10/10/8/8/6, rest 1 min. + rest pause (15 sec) then push2-3 morre reps after 3rd and 4th set + double drop set after the last set
@@ -246,16 +246,16 @@ sat3_exc10:
 sat3_exc11:
 sat3_exc12:
 sun3_exc1: REST
-sun3_exc2: REST
-sun3_exc3: REST
-sun3_exc4: REST
-sun3_exc5: REST
-sun3_exc6: REST
-sun3_exc7: REST
-sun3_exc8: REST
-sun3_exc9: REST
-sun3_exc10: REST
-sun3_exc11: REST
+sun3_exc2: 
+sun3_exc3: 
+sun3_exc4: 
+sun3_exc5: 
+sun3_exc6: 
+sun3_exc7: 
+sun3_exc8: 
+sun3_exc9: 
+sun3_exc10: 
+sun3_exc11: 
 mon4_exc1: Incline dumbbell bench press - 2 x 10, rest 1 min. (warm up sets)
 mon4_exc2: Incline dumbbell bench press - 12/10/8/8/8/20, rest 90 sec.
 mon4_exc3: Dumbbell bench press - 12/10/10/10/10, rest 90 sec.
@@ -318,27 +318,27 @@ fri4_exc12: Squatting cable straight-bar biceps curl - 4 x 12, rest 1 min. (back
 fri4_exc13: Overhead cable curl - 6 x 12-15, NO REST
 fri4_exc14: Diamond push-up - 6 x 12-15, rest 1 min.
 sat4_exc1: REST
-sat4_exc2: REST
-sat4_exc3: REST
-sat4_exc4: REST
-sat4_exc5: REST
-sat4_exc6: REST
-sat4_exc7: REST
-sat4_exc8: REST
-sat4_exc9: REST
-sat4_exc10: REST
-sat4_exc11: REST
+sat4_exc2: 
+sat4_exc3: 
+sat4_exc4: 
+sat4_exc5: 
+sat4_exc6: 
+sat4_exc7: 
+sat4_exc8: 
+sat4_exc9: 
+sat4_exc10: 
+sat4_exc11: 
 sun4_exc1: REST
-sun4_exc2: REST
-sun4_exc3: REST
-sun4_exc4: REST
-sun4_exc5: REST
-sun4_exc6: REST
-sun4_exc7: REST
-sun4_exc8: REST
-sun4_exc9: REST
-sun4_exc10: REST
-sun4_exc11: REST
+sun4_exc2: 
+sun4_exc3: 
+sun4_exc4: 
+sun4_exc5: 
+sun4_exc6: 
+sun4_exc7: 
+sun4_exc8: 
+sun4_exc9: 
+sun4_exc10: 
+sun4_exc11: 
 mon5_exc1: Incline bench press - 2 x 10, rest 1 min. (warm up sets)
 mon5_exc2: Incline bench press - 10/10/8/8/6/6, rest 1 min.
 mon5_exc3: Incline dumbbell bench press - 5 x 8-12, rest 1 min. + double drop set after the final set 
@@ -415,16 +415,16 @@ sat5_exc9:
 sat5_exc10:
 sat5_exc11:
 sun5_exc1: REST
-sun5_exc2: REST
-sun5_exc3: REST
-sun5_exc4: REST
-sun5_exc5: REST
-sun5_exc6: REST
-sun5_exc7: REST
-sun5_exc8: REST
-sun5_exc9: REST
-sun5_exc10: REST
-sun5_exc11: REST
+sun5_exc2: 
+sun5_exc3: 
+sun5_exc4: 
+sun5_exc5: 
+sun5_exc6: 
+sun5_exc7: 
+sun5_exc8: 
+sun5_exc9: 
+sun5_exc10: 
+sun5_exc11: 
 mon6_exc1: Dumbbell bench press - 2 x 10, rest 1 min. (warm up sets)
 mon6_exc2: Dumbbell bench press - 12/10/8/6/6, rest 1 min. + double drop set after the final set
 mon6_exc3: Incline dumbbell bench press - 12/10/10/8, rest 1 min. + double drop set after the final set
@@ -492,27 +492,27 @@ fri6_exc10: Double arm triceps kick back - 4 x 12, rest 1 min. (back to preacher
 fri6_exc11: Cable rope hammer curl - 6 x 15, NO REST (use blood restriction) 
 fri6_exc12: Cable rope push down - 6 x 15, NO REST (use blood restriction) (back to hammer curl)
 sat6_exc1: REST
-sat6_exc2: REST
-sat6_exc3: REST
-sat6_exc4: REST
-sat6_exc5: REST
-sat6_exc6: REST
-sat6_exc7: REST
-sat6_exc8: REST
-sat6_exc9: REST
-sat6_exc10: REST
-sat6_exc11: REST
+sat6_exc2: 
+sat6_exc3: 
+sat6_exc4: 
+sat6_exc5: 
+sat6_exc6: 
+sat6_exc7: 
+sat6_exc8: 
+sat6_exc9: 
+sat6_exc10: 
+sat6_exc11: 
 sun6_exc1: REST
-sun6_exc2: REST
-sun6_exc3: REST
-sun6_exc4: REST
-sun6_exc5: REST
-sun6_exc6: REST
-sun6_exc7: REST
-sun6_exc8: REST
-sun6_exc9: REST
-sun6_exc10: REST
-sun6_exc11: REST
+sun6_exc2: 
+sun6_exc3: 
+sun6_exc4: 
+sun6_exc5: 
+sun6_exc6: 
+sun6_exc7: 
+sun6_exc8: 
+sun6_exc9: 
+sun6_exc10: 
+sun6_exc11: 
 mon7_exc1: Machine chest fly - 5 x 12-15, rest 45 sec. 
 mon7_exc2: Dumbbell bench press - 10/8/8/6/4, rest 90 sec.
 mon7_exc3: Smith machine incline bench press - 10/8/8/8/8, rest 1 min. + rest and pause after 2nd, 3r, and 4th set + double drop set after the final set
