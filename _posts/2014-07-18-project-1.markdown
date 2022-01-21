@@ -538,40 +538,48 @@ tu7_exc11: Ab wheel roll-out - 4 x 12, NO REST
 tu7_exc12: Hanging oblique crunch - 4 x 24, rest 90 sec. (back to ab wheel roll-out)
 tu7_exc13: Seated bar on sholders twist - 4 x 40, NO REST
 tu7_exc14: Barbell press sit-up - 4 x 12, rest 1 min. (back to twists)
-wed7_exc1:
-wed7_exc2:
-wed7_exc3:
-wed7_exc4:
-wed7_exc5:
-wed7_exc6:
-wed7_exc7:
-wed7_exc8:
-wed7_exc9:
+wed7_exc1: Barbell back squat - 2 x 10, rest 1 min. (warm up sets)
+wed7_exc2: Barbell back squat - 7 x 10, rest 2 min.
+wed7_exc3: Leg press - 5 x 12, rest 90 sec. + strip set after the final set
+wed7_exc4: Hack squat - 4 x 15, rest 90 sec.
+wed7_exc5: Leg extension - 20/15/15/12, NO REST
+wed7_exc6: Leg curl - 20/15/15/12, rest 1 min. (back to leg extension)
+wed7_exc7: Barbell stiff-legged deadlifg - 4 x 12, rest 2 min.
+wed7_exc8: Machine seated calf raise - 4 x 12, NO REST
+wed7_exc9: Smith machine standing calf raise - 4 x 12, rest 1 min. (back to seated calf raise)
 wed7_exc10:
 wed7_exc11:
-th7_exc1:
-th7_exc2:
-th7_exc3:
-th7_exc4:
-th7_exc5:
-th7_exc6:
-th7_exc7:
-th7_exc8:
-th7_exc9:
-th7_exc10:
-th7_exc11:
-fri7_exc1:
-fri7_exc2:
-fri7_exc3:
-fri7_exc4:
-fri7_exc5:
-fri7_exc6:
-fri7_exc7:
-fri7_exc8:
-fri7_exc9:
-fri7_exc10:
-fri7_exc11:
-sat7_exc1:
+th7_exc1: Neutral grip arnold press - 2 x 10, rest 1 min. (warm up sets)
+th7_exc2: Neutral grip arnold press - 12/10/8/8/8/8, rest 90 sec. + double drop set after the final set
+th7_exc3: Standing barbell shoulder press - 5 x 10, rest 90 sec. + double drop set after the final set
+th7_exc4: Dumbbell lateral raise - 4 x 12, rest 1 min. + double drop set after the final set
+th7_exc5: Machine shoulder press - 4 x 12, NO REST + double drop set after the final set
+th7_exc6: Plate front raise - 5 x 12, rest 1 min. (back to machine shoulder press)
+th7_exc7: Single arm leaning cable lateral raise (left)- 6 x 12, NO REST
+th7_exc8: Single arm leaning cable lateral raise (right) - 6 x 12, NO REST
+th7_exc9: Cable straight bar upright row - 6 x 12, rest 1 min. (back to leaning lateral raise)
+th7_exc10: Bent over low cable reverse fly - 6 x 12-15, NO REST
+th7_exc11: Standing face pull - 6 x 12-15, rest 45 sec. (back to bent over fly)
+th7_exc12: Seated dumbbell front raise - 5 x 10, NO REST
+th7_exc13: Seated dumbbell lateral raise - 5 x 10, NO REST
+th7_exc14: Bent over dumbbell rear delt fly - 5 x 10, rest 1 min (back to front raise)
+fri7_exc1: EX-bar close grip curl - 5 x 10, rest 1 min.
+fri7_exc2: Seated dumbbell biceps curl - 4 x 10, NO REST
+fri7_exc3: Standing dumbbell biceps curl - 4 x 10, rest 1 min. (back to seated curls)
+fri7_exc4: EZ-bar preacher curl - 4 x 12, NO REST
+fri7_exc5: Incline dumbbell biceps curl - 4 x 12, rest 1 min. + ater last 2 sets do tripple drop set with 30 sec. of intra-set stretching between each drop (back to EZ-bar preacher curls)
+fri7_exc6: Concentration curl (left) - 4 x 12, NO REST
+fri7_exc7: Concentration curl (right) - 4 x 12, REST 45 sec.
+fri7_exc8: Hammer curl - 4 x 10, rest 45 sec. + double drop set after the final set
+fri7_exc9: High cable curl - 6 x 15, rest 45 sec. (use blood restriction)
+fri7_exc10: Barbell skullcrusher - 5 x 10, rest 1 min. + double drop set after the final set
+fri7_exc11: Seated triceps press - 4 x 12, rest 45 sec. + double drop set after the final set
+fri7_exc12: Close grip bench press - 4 x 10, rest 1 min.
+fri7_exc13: Underhand straight-bar push-down - 4 x 12, NO REST (use blood restriction)
+fri7_exc14: Overhand straight-bar push-down - 4 x 12, NO REST (use blood restriction)
+fri7_exc15: Close grip push up - 4 x 12, rest 1 min. (back to underhand pull-down) (use blood restriction)
+fri7_exc16: Cable overhead triceps extension - 4 x 12, rest 45 sec. + ater last 2 sets do tripple drop set with 30 sec. of intra-set stretching between each drop
+sat7_exc1: REST
 sat7_exc2:
 sat7_exc3:
 sat7_exc4:
@@ -582,7 +590,7 @@ sat7_exc8:
 sat7_exc9:
 sat7_exc10:
 sat7_exc11:
-sun7_exc1:
+sun7_exc1: REST
 sun7_exc2:
 sun7_exc3:
 sun7_exc4:
