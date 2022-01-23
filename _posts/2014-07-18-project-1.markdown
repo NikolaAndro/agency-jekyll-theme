@@ -601,33 +601,33 @@ sun7_exc8:
 sun7_exc9:
 sun7_exc10:
 sun7_exc11:
-mon8_exc1:
-mon8_exc2:
-mon8_exc3:
-mon8_exc4:
-mon8_exc5:
-mon8_exc6:
-mon8_exc7:
-mon8_exc8:
+mon8_exc1: Incline dumbbell bench press - 2 x 10, rest 1 min. (warm up sets)
+mon8_exc2: Incline dumbbell bench press - 12/10/8/8/8/6, rest 1 min. + triple drop set after each of the last 2 sets + after the final drop rest-pause for 10-15 sec and then try to squeeze 2-4 more reps with the weight you used for the heavy set of 6 reps
+mon8_exc3: Incline dumbbell bench press - 5 x 8-10, rest 1 min. (30 degrees) + double drop set after the final set
+mon8_exc4: Smith machine bench press - 10/8/8/8/8, rest 1 min. + rest-pause after 2nd, 3rd, and 4th set + double drop set after the final set
+mon8_exc5: Incline cable chest fly - 5 x 12, NO REST
+mon8_exc6: Incline cable chest press - 5 x 10, rest 30 sec. (back to chest fly)
+mon8_exc7: Dumbbell chest fly - 5 x 12, NO REST
+mon8_exc8: Smith machine push-up - 5 x 10, rest 45 sec. (start with 10 reps on the floor then move to smith machine and move it 1 notch up after every 10 reps. Stop each set when you can't do any more reps) (back to dumbbell fly)
 mon8_exc9:
 mon8_exc10:
 mon8_exc11:
-tu8_exc1:
-tu8_exc2:
-tu8_exc3:
-tu8_exc4:
-tu8_exc5:
-tu8_exc6:
-tu8_exc7:
-tu8_exc8:
-tu8_exc9:
-tu8_exc10:
+tu8_exc1: Barbell bent-over row - 2 x 10, rest 1 min. (warm up sets)
+tu8_exc2: Barbell bent-over row - 12/10/8/6/4, rest 90 sec. + triple drop set after the final set
+tu8_exc3: Weighted pull up - 5 x 8-10, rest 90 sec.
+tu8_exc4: Single arm dumbbell row (left) - 3 x 12, NO REST
+tu8_exc5: Single arm dumbbell row (right) - 3 x 12, rest 1 min. (back to left)
+tu8_exc6: Single arm dumbbell arc row (left) - 3 x 12
+tu8_exc7: Single arm dumbbell arc row (right) - 3 x 12, rest 1 min. (back to left)
+tu8_exc8: Lat pull-down - 3 x 10-15, NO REST
+tu8_exc9: Straight arm rope pull-down, NO REST
+tu8_exc10: Standing low cable bar row - 3 x 10-15, rest 45 sec. (back to lat pull-down)
 tu8_exc11:
-wed8_exc1:
-wed8_exc2:
-wed8_exc3:
-wed8_exc4:
-wed8_exc5:
+wed8_exc1: Barbell back squat - 2 x 10, rest 1 min. (warm up sets)
+wed8_exc2: Barbell back squat - 5 x 5, rest 3 min. 
+wed8_exc3: Sumo deadlift - 3 x 10, rest 3 min.
+wed8_exc4: Barbell stiff-leggeed deadlift - 3 x 10, rest 90 sec.
+wed8_exc5: Machine seated calf raise - 4 x 12, rest 1 min. + triple drop set after final set with 30 sec of intra-set stretching between each drop
 wed8_exc6:
 wed8_exc7:
 wed8_exc8:
