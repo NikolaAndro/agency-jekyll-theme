@@ -628,17 +628,17 @@ wed8_exc2: Barbell back squat - 5 x 5, rest 3 min.
 wed8_exc3: Sumo deadlift - 3 x 10, rest 3 min.
 wed8_exc4: Barbell stiff-leggeed deadlift - 3 x 10, rest 90 sec.
 wed8_exc5: Machine seated calf raise - 4 x 12, rest 1 min. + triple drop set after final set with 30 sec of intra-set stretching between each drop
-wed8_exc6:
-wed8_exc7:
-wed8_exc8:
-wed8_exc9:
+wed8_exc6: Seated leg tuck with dumbbells - 4 x 10, NO REST
+wed8_exc7: Kneeling cable crunch - 4 x 12, rest 1 min (back to leg tucks)
+wed8_exc8: Cable reverse crunch - 4 x 10, NO REST
+wed8_exc9: V-up - 4 x 12, rest 1 min. (back to reverse crunch)
 wed8_exc10:
 wed8_exc11:
-th8_exc1:
-th8_exc2:
-th8_exc3:
-th8_exc4:
-th8_exc5:
+th8_exc1: Seated barbel shoulder press - 2 x 10, NO REST (warm up sets)
+th8_exc2: Dumbbell lateral raise - 2 x 10, (back to shoulder press) (warm up sets)
+th8_exc3: Seated banded barbel shoulder press - 5 x 8-10, NO REST + after the last two sets remove the bands and press untill failure)
+th8_exc4: Dumbbell lateral raise - 5 x 12 (back to shoulder press) + single drop set after each and every set
+th8_exc5: Seated dumbbell shoulder press - 5 x 8-10, rest 90 sec. + double dropset after each of the final two sets
 th8_exc6:
 th8_exc7:
 th8_exc8:
