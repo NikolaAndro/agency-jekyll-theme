@@ -639,11 +639,11 @@ th8_exc2: Dumbbell lateral raise - 2 x 10, (back to shoulder press) (warm up set
 th8_exc3: Seated banded barbel shoulder press - 5 x 8-10, NO REST + after the last two sets remove the bands and press untill failure)
 th8_exc4: Dumbbell lateral raise - 5 x 12 (back to shoulder press) + single drop set after each and every set
 th8_exc5: Seated dumbbell shoulder press - 5 x 8-10, rest 90 sec. + double dropset after each of the final two sets
-th8_exc6:
-th8_exc7:
-th8_exc8:
-th8_exc9:
-th8_exc10:
+th8_exc6: Leg press shoulder press - 5 x 10-12, NO REST + double dropset after each of the final two sets
+th8_exc7: Dumbbell lateral raise - 5 x 12, rest 90 sec. (back to shouolder press) + double dropset after each of the final two sets
+th8_exc8: Standing behind the head shoulder press - 5 x 12, NO REST (after each set add a mechanical drop set by switching to the front shoulder press for another 6-8 reps)
+th8_exc9: Plate front raise - 5 x 12, rest 90 sec (back to shoulder press)
+th8_exc10: 
 th8_exc11:
 fri8_exc1:
 fri8_exc2:
