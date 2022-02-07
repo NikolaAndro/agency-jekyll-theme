@@ -643,20 +643,28 @@ th8_exc6: Leg press shoulder press - 5 x 10-12, NO REST + double dropset after e
 th8_exc7: Dumbbell lateral raise - 5 x 12, rest 90 sec. (back to shouolder press) + double dropset after each of the final two sets
 th8_exc8: Standing behind the head shoulder press - 5 x 12, NO REST (after each set add a mechanical drop set by switching to the front shoulder press for another 6-8 reps)
 th8_exc9: Plate front raise - 5 x 12, rest 90 sec (back to shoulder press)
-th8_exc10: 
-th8_exc11:
-fri8_exc1:
-fri8_exc2:
-fri8_exc3:
-fri8_exc4:
-fri8_exc5:
-fri8_exc6:
-fri8_exc7:
-fri8_exc8:
-fri8_exc9:
-fri8_exc10:
-fri8_exc11:
-sat8_exc1:
+th8_exc10: Dumbbell lateral raise - 3 x 12, rest 90 sec. + run the rack after each and every set
+th8_exc11: Incline dumbbell reverse fly - 4 x 12, rest 1 min. + double drop set after each of the final 2 sets
+th8_exc12: Single arm leaning cable lateral raise (left) - 3 x 10, NO REST
+th8_exc13: Single-arm cable front raise (left) - 3 x 10, NO REST
+th8_exc14: Single arm leaning cable lateral raise (right) - 3 x 10, NO REST
+th8_exc15: Single-arm cable front raise (right) - 3 x 10, rest 45 sec (back to left arm lateral raise)
+th8_exc16: Bent over low cable reverse fly - 4 x 12, NO REST
+th8_exc17: Standing face pull - 4 x 12, NO REST
+th8_exc18: Cable straight bar upright row - 4 x 12, rest 90 sec. (back to bent over reverse fly)
+fri8_exc1: Cable straight bar biceps cur; - 2 x 10, NO REST (warm up sets)
+fri8_exc2:  Double-arm triceps kick-back - 2 x 10, rest 1 min. (back to straight bar biceps) (warm up sets)
+fri8_exc3: Cable straight bar biceps cur; - 5 x 12-15, NO REST + double drop set after the final set
+fri8_exc4: Double-arm triceps kick-back - 5 x 12-15, rest 1 min. (back to straight bar biceps) + double drop set after the final set
+fri8_exc5: Close-grip EZ-bar curl - 5 x 12-15, NO REST + double drop set after the 2 final sets
+fri8_exc6: EZ-bar skullcrusher - 5 x 12-15, rest 1 min. (back to ez-bar curl) + double drop set after the 2 final sets
+fri8_exc7: Preacher curl - 5 x 15, NO REST (use blood restriction)
+fri8_exc8: Dumbbell kick-back - 5 x 15, rest 45 sec. (back to preacher curl)
+fri8_exc9: Incline dumbbell biceps curl - 5 x 10, NO REST + after last 2 sets, triple drop set with 30 sec. of intra-set stretching between each drop
+fri8_exc10: Cable overhead triceps extension - 5 x 10, rest 1 min. + after last 2 sets, triple drop set with 30 sec. of intra-set stretching between each drop
+fri8_exc11: Cable rope hammer curls - 5 x 12, NO REST (use blood restriction)
+fri8_exc12: Cable rope push-down - 5 x 15, rest 45 sec. (back to rope curls) (use blood restriction)
+sat8_exc1: REST
 sat8_exc2:
 sat8_exc3:
 sat8_exc4:
@@ -667,7 +675,7 @@ sat8_exc8:
 sat8_exc9:
 sat8_exc10:
 sat8_exc11:
-sun8_exc1:
+sun8_exc1: REST
 sun8_exc2:
 sun8_exc3:
 sun8_exc4:
