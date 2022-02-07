@@ -4,8 +4,8 @@ subtitle: 9 weeks
 layout: default
 modal-id: 3
 date: 2022-02-07
-img: max_build.jpg
-thumbnail: max_build.jpg
+img: daniel.jpg
+thumbnail: daniel.jpg
 alt: image-alt
 project-date: January 2022
 client: Start Bootstrap
