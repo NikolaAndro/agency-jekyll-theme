@@ -708,40 +708,43 @@ tu9_exc8: Straight-arm rope pull down - 4 x 12-15, rest 45 se. (back to reverse 
 tu9_exc9: Band-assisted pull up - 4 x 10, NO REST
 tu9_exc10: Suspended row - 4 x 10, rest 90 sec. (back to pull-ups) (Go to failure, then step back to raise your torso and go to failure again)
 tu9_exc11:
-wed9_exc1:
-wed9_exc2:
-wed9_exc3:
-wed9_exc4:
-wed9_exc5:
-wed9_exc6:
-wed9_exc7:
-wed9_exc8:
-wed9_exc9:
-wed9_exc10:
+wed9_exc1: Barbel back squat - 2 x 10, rest 1 min. (warm up set)
+wed9_exc2: Barbel back squat - 15/12/12/10, rest 2 min. + single drop set after the final set
+wed9_exc3: Leg press - 20/12/12/100, NO REST (on the final set treat the 100 reps as a continuous drop set and swithch foot placement on each drop)
+wed9_exc4: Waling Lunge - 4 x 24, rest 90 sec. (back to leg press)
+wed9_exc5: Hack squat - 4 x 10-12, rest 90 sec. + triple drop set after the final set with 30 sec. of intra-sest stretching between each drop
+wed9_exc6: Dumbbell stiff-legged deadlift - 4 x 15, NO REST
+wed9_exc7: Dumbbell squat - 4 x 15, rest 90 sec. (back to deadlift)
+wed9_exc8: Lying leg curl - 6 x 15, NO REST + Blood restriction
+wed9_exc9: Leg extension - 6 x 15, rest 45 sec. + blood restriction
+wed9_exc10: Smith machine standing calf raise - 5 x 10, rest 90 sec. + double drop set after the FOURTH set + triple drop set after the final set with 30 sec. of intra-stretching between each drop
 wed9_exc11:
-th9_exc1:
-th9_exc2:
-th9_exc3:
-th9_exc4:
-th9_exc5:
-th9_exc6:
-th9_exc7:
-th9_exc8:
-th9_exc9:
-th9_exc10:
-th9_exc11:
-fri9_exc1:
-fri9_exc2:
-fri9_exc3:
-fri9_exc4:
-fri9_exc5:
-fri9_exc6:
-fri9_exc7:
-fri9_exc8:
-fri9_exc9:
-fri9_exc10:
-fri9_exc11:
-sat9_exc1:
+th9_exc1: Seated barbell shoulder press - 2 x 10, rest 1 min. (warm up sets)
+th9_exc2: Seated barbell shoulder press - 12/10/10/10/8, rest 90 sec. + double drop set after the final set
+th9_exc3: Neutral grip Arnold press - 4 x 10, rest 1 min. + double drop set after the final set
+th9_exc4: Dumbbell lateral raise - 4 x 12, rest 1 min. + double drop set after the final set
+th9_exc5: EZ bar front raise - 4 x 12, rest 1 min.
+th9_exc6: Incline bench dumbbell reverse fly - 4 x 12, rest 1 min. + double drop set after the final set
+th9_exc7: Standing dumbbell shrug - 6 x 12-15, rest 1 min. 
+th9_exc8: Feet-elevated bench side plank (left) - 4 x 12 with a hip dip, NO REST
+th9_exc9: Feet-elevated bench side plank (right) - 4 x 12 with a hip dip, NO REST (back to the left side)
+th9_exc10: Half Turkish get-up (left) - 4 x 12, NO REST
+th9_exc11: Half Turkish get-up (right) - 4 x 12, NO REST (back to left side)
+th9_exc12: Hollow body hold - 4 x 1 min. rest 1 min. 
+fri9_exc1: Barble curl - 2 x 10, rest 1 min. (warm up sets)
+fri9_exc2:  Barble curl - 4 x 10, rest 45 sec. + double drop set after the final set
+fri9_exc3: Alternating biceps curl - 4 x 24, rest 45 sec.
+fri9_exc4: EZ-bar preacher curl - 4 x 12, rest 45 sec.
+fri9_exc5: Incline dumbbell biceps curl - 4 x 12, rest 45 sec. + double drop set after the final set
+fri9_exc6: Alternating hammer curl - 4 x 20 (10 each side), rest 45 sec.
+fri9_exc7: Overhead cable curl - 6 x 15, rest 30 sec.
+fri9_exc8: EZ-bar skullcrusher - 4 x 10, rest 45 sec. + double drop set after the final set
+fri9_exc9: Seated triceps press - 4 x 12, rest 45 sec. + double drop set after the final set
+fri9_exc10: Tricepsp dip (extra weight if possible) - 4 x 12, rest 1 min. 
+fri9_exc11: Cable rope push down - 15/12/10/10, rest 45 sec.
+fri9_exc12: Cable V-bar push-down - 6 x 12, NO REST
+fri9_exc13: Diamond push-up - 6 x 12, rest 1 min. (back to v-bar push-down)
+sat9_exc1: REST
 sat9_exc2:
 sat9_exc3:
 sat9_exc4:
@@ -752,7 +755,7 @@ sat9_exc8:
 sat9_exc9:
 sat9_exc10:
 sat9_exc11:
-sun9_exc1:
+sun9_exc1: REST
 sun9_exc2:
 sun9_exc3:
 sun9_exc4:
