@@ -686,27 +686,27 @@ sun8_exc8:
 sun8_exc9:
 sun8_exc10:
 sun8_exc11:
-mon9_exc1:
-mon9_exc2:
-mon9_exc3:
-mon9_exc4:
-mon9_exc5:
-mon9_exc6:
-mon9_exc7:
-mon9_exc8:
-mon9_exc9:
-mon9_exc10:
-mon9_exc11:
-tu9_exc1:
-tu9_exc2:
-tu9_exc3:
-tu9_exc4:
-tu9_exc5:
-tu9_exc6:
-tu9_exc7:
-tu9_exc8:
-tu9_exc9:
-tu9_exc10:
+mon9_exc1: Incline bench press - 2 x 10, rest 1 min (warm up sets)
+mon9_exc2: Incline bench press - 12/10/8/6/6, rest 90 sec. + double drop set after the final set
+mon9_exc3: Incline dumbbell bench press - 5 x 10, rest 1 min. + double drop set after the final set 
+mon9_exc4: Dumbbell bench press - 4 x 10, rest 1 min.
+mon9_exc5: Incline dumbbell chest fly - 4 x 12, rest 1 min.
+mon9_exc6: Machine Chest Fly - 4 x 12, rest 1 min. + double drop set after the final set
+mon9_exc7: High-to-low cable chest fly - 6 x 12-15, NO REST
+mon9_exc8: Push-up - 6 x 12-15, rest 1 min. (back to high-to-low flies)
+mon9_exc9: Weighted sit ups - 4 x 10, rest 1 min.
+mon9_exc10: Suspended crunch - 4 x 10, rest1 min. 
+mon9_exc11: Hanging exercise ball leg raise - 4 x 10, rest 1 min.
+tu9_exc1: Lat pull down - 2 x 10, NO REST (warm up sets)
+tu9_exc2: Cable seated row - 2 x 10, rest 1 min. (warm up sets)
+tu9_exc3: Lat pull down - 5 x 12-15, NO REST + double drop set after the final set
+tu9_exc4: Cable seated row - 5 x 12-15, rest 90 sec. (back to lat pull down) + double drop set after the final set
+tu9_exc5: Incline dumbbell row - 4 x 10, rest 1 min. + double drop set after each of the final two ssets with 30 sec. of intra-set stretching between each drop
+tu9_exc6: Reverse grip lat pull down - 4 x 12-15, NO REST
+tu9_exc7: Standing low cable rope row - 4 x 12-15, NO REST
+tu9_exc8: Straight-arm rope pull down - 4 x 12-15, rest 45 se. (back to reverse grip lat pull-down)
+tu9_exc9: Band-assisted pull up - 4 x 10, NO REST
+tu9_exc10: Suspended row - 4 x 10, rest 90 sec. (back to pull-ups) (Go to failure, then step back to raise your torso and go to failure again)
 tu9_exc11:
 wed9_exc1:
 wed9_exc2:
