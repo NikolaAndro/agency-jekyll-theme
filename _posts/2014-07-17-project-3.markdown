@@ -1,5 +1,5 @@
 ---
-title: Body Building by Daniel
+title: Shredding by Daniel
 subtitle: 9 weeks
 layout: default
 modal-id: 3
