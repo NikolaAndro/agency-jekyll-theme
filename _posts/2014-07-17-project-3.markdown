@@ -11,7 +11,7 @@ project-date: January 2022
 client: Start Bootstrap
 category: Body Building
 description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. THERE IS NO REST BETWEEN THE SETS!!!
-mon1_exc1: Bar-rows - 4 x 12, NO REST 
+mon1_exc1: V-rows - 4 x 12, NO REST 
 mon1_exc2: Squatting EZ-bar cable rows - 12 upper hand, 12 under hand x 4
 mon1_exc3: Cable sitting rows - 4 x 12 (upper grip pull towards hips)
 mon1_exc4: Single arm kneeling row (right)- 4 x 12 upper grip, 12 neutral grip (use single arm thing with longer strips)
@@ -22,9 +22,9 @@ mon1_exc8: Rotating biceps curls - 4 x 12, dropp 5 lbs after each set
 mon1_exc9: Hammer curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set) 
 mon1_exc10: 45 degree bench biceps curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set)
 mon1_exc11: Cable biceps curls - 4 x 12
-mon1_exc12: Straight bar cable biceps curls - 4 x 12
+mon1_exc12: EZ - bar cable biceps curls - 4 x 12
 mon1_exc13: Preacher biceps curls - 4 x 12
-mon1_exc14: Add any abs you wish
+mon1_exc14: Add any abs you wish and STRETCH
 tu1_exc1: 
 tu1_exc2: 
 tu1_exc3:
