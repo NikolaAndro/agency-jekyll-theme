@@ -10,7 +10,7 @@ alt: image-alt
 project-date: January 2022
 client: Start Bootstrap
 category: Body Building
-description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. THERE IS NO REST BETWEEN THE SETS!!!
+description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. THERE IS NO REST BETWEEN THE SETS!!!  The most important part of shredding is your diet. Figure it out...
 mon1_exc1: V-rows - 4 x 12, NO REST 
 mon1_exc2: Squatting EZ-bar cable rows - 12 upper hand, 12 under hand x 4
 mon1_exc3: Cable sitting rows - 4 x 12 (upper grip pull towards hips)
