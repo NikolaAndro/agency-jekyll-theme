@@ -25,17 +25,18 @@ mon1_exc11: Cable biceps curls - 4 x 12
 mon1_exc12: EZ - bar cable biceps curls - 4 x 12
 mon1_exc13: Preacher biceps curls - 4 x 12
 mon1_exc14: Add any abs you wish and STRETCH
-tu1_exc1: 
-tu1_exc2: 
-tu1_exc3:
-tu1_exc4: 
-tu1_exc5: 
-tu1_exc6: 
-tu1_exc7:
-tu1_exc8: 
-tu1_exc9: 
-tu1_exc10: 
-tu1_exc11: 
+tu1_exc1: Deadlift - 4 x 12
+tu1_exc2: Cabled hamstring curl - 4 x 12 each leg
+tu1_exc3: Buddy hamstring curls on hyper extension machine - 4 x 12
+tu1_exc4: Leg extensions - 4 x 12
+tu1_exc5: Leg press - 4 x 12
+tu1_exc6: Leg extensions - 3 x 12, (start with the weight you used on hte last set of the previous leg extensions) 
+tu1_exc7: Seated shoulder lateral raises - 4 x 12 (increase weight on each set)
+tu1_exc8: Seated lateral shoulder raise + hug - 4 x 12
+tu1_exc9: Seated rear flies - 4 x 12
+tu1_exc10: Cable-rope front raise - 4 x 12
+tu1_exc11: Machine back fly machine - 4 x 12 
+tu1_exc12: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
 wed1_exc1: 
 wed1_exc2: 
 wed1_exc3: 
