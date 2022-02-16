@@ -11,23 +11,23 @@ project-date: January 2022
 client: Start Bootstrap
 category: Women Workout
 description: This is a great workout dedicated to ladies to focus on the upper glutes and chin ups! <br><br> You have a free ten minutes at the end of your full body workouts to add in some exercises you’d like to focus more on.<br><br> Perform each glute day (Thursday and Friday) as a circuit for 3 rounds and rest 90 seconds between each round.
-mon1_exc1: Barbell hip thrust plus - 3 x 10
-mon1_exc2: Chin-up - 3 x AMRAP
-mon1_exc3: Glute dominant goblet squat - 3 x 12
-mon1_exc4: Reset push-up - 3 x AMRAP
-mon1_exc5: American deadlift - 3 x 15
-mon1_exc6: Cable kneeling glute kickback 3 x 12 each leg
+mon1_exc1: Dumbbell hip thrust plus - 3 x 20, rest 2-4 min. (Do a standard rep, then contract your glutes as hard as you're able to and try to drive your hips higher)
+mon1_exc2: Inverted Row - 3 x AMRAP, rest 2-4 min. (Aim for 10-20 reps, position torso closer to parallel relative to the ground to increase difficulty
+mon1_exc3: Walking lunge - 3 x 25, rest 2-4 min. (25 per side)
+mon1_exc4: Double pause push-up - 3 x AMRAP, rest 2-3 min. (1 sec. pause halfway on the way up and down)
+mon1_exc5: Spread eagle reverse hyperextension - 3 x 20, rest 1-2 min. (keep your knees out)
+mon1_exc6: Quadruped leg swing - 3 x 30, rest 1-2 min. (3 sets per side)
 mon1_exc7: 
 mon1_exc8: 
 mon1_exc9: 
 mon1_exc10: 
 mon1_exc11: 
-tu1_exc1: Barbell hip thrust 12/10/8/6
-tu1_exc2: Weighted dchin-up - 3 x 3
-tu1_exc3: Back squat 8/6/4
-tu1_exc4: Arnold press - 3 x 12
-tu1_exc5: Sumo deadlift - 8/6/4
-tu1_exc6: Cable pull-through - 3 x 12
+tu1_exc1: A1: Side-lying hip abduction - 1 x 20, NO REST
+tu1_exc2: A2: Extra range side lying hip abduction - 1 x 20, NO REST
+tu1_exc3: Squat Pulse - 1 x 30, NO REST
+tu1_exc4: Band Hip Hinge Abduction - 1 x 30, NO REST
+tu1_exc5: RKC Plank - 1 x 20, REST 2-3 min.
+tu1_exc6: 
 tu1_exc7:
 tu1_exc8: 
 tu1_exc9: 
