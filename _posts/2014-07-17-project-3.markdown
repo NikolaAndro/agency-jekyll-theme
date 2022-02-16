@@ -1,6 +1,6 @@
 ---
 title: Shredding by Daniel
-subtitle: 9 weeks
+subtitle: 4 weeks
 layout: default
 modal-id: 3
 date: 2022-02-07
