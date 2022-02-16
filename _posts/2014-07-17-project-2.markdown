@@ -22,8 +22,8 @@ mon1_exc8:
 mon1_exc9: 
 mon1_exc10: 
 mon1_exc11: 
-tu1_exc1: A1: Side-lying hip abduction - 1 x 20, NO REST
-tu1_exc2: A2: Extra range side lying hip abduction - 1 x 20, NO REST
+tu1_exc1: A1 - Side-lying hip abduction - 1 x 20, NO REST
+tu1_exc2: A2 -  Extra range side lying hip abduction - 1 x 20, NO REST
 tu1_exc3: Squat Pulse - 1 x 30, NO REST
 tu1_exc4: Band Hip Hinge Abduction - 1 x 30, NO REST
 tu1_exc5: RKC Plank - 1 x 20, REST 2-3 min.
