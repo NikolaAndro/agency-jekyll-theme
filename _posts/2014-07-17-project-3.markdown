@@ -59,19 +59,20 @@ th1_exc9:
 th1_exc10:
 th1_exc11:
 th1_exc12: 
-fri1_exc1: 
-fri1_exc2: 
-fri1_exc3: 
-fri1_exc4: 
-fri1_exc5: 
-fri1_exc6: 
-fri1_exc7: 
-fri1_exc8: 
-fri1_exc9: 
-fri1_exc10:
-fri1_exc11: 
-fri1_exc12: 
-fri1_exc13:
+fri1_exc1: Squat (shoulderwidth) - 4 x 12
+fri1_exc2: Landmine RDL - 4 x 12
+fri1_exc3: Hack Squat - 4 x 12
+fri1_exc4: Leg Extensions - 4 x 12
+fri1_exc5: Hanstrinig Curls - 4 x 12
+fri1_exc6: Sumo squat (hills on the plate, dumbbell in hands) - 4 x 12
+fri1_exc7: Calf raises until you die
+fri1_exc8: Shoulder Lateral Raise 4 x 12 (increase weight each set)
+fri1_exc9:  Hip - bring to front Raise - 4 x 12
+fri1_exc10:  Dumbbell in the Elbow lateral raises - 4 x 12 (increase weight each set)
+fri1_exc11: Dumbbell in the Elbow Twists - 4 x 12 (start where you finished last exercise and decrease weight each set)
+fri1_exc12: Cable Face pulls - 4 x 12
+fri1_exc13: Cable front raises - 4 x 12
+fri1_exc14: Machine rear delt fly - 4 x 12
 sat1_exc1: 
 sat1_exc2: 
 sat1_exc3: 
