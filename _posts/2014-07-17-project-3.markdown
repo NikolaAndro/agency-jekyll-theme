@@ -48,15 +48,16 @@ wed1_exc8:
 wed1_exc9: 
 wed1_exc10:
 wed1_exc11:
-th1_exc2: 
-th1_exc3: 
-th1_exc4: 
-th1_exc5: 
-th1_exc6: 
-th1_exc7: 
-th1_exc8: 
-th1_exc9: 
-th1_exc10:
+th1_exc1: Lat pull down (wide) - 4 x 12
+th1_exc2: Lat pull down underhand (shoulder width) - 4 x 12
+th1_exc3: T-bar rows - 4 x 12
+th1_exc4: Cable-rope straight arms pull down - 4 x 12
+th1_exc5: Machine rows - 4 x 12
+th1_exc6: Rotating biceps curls - 4 x 12
+th1_exc7: Hammer curls - 4 x 12
+th1_exc8: EZ-bar cable culrs - 4 x 12
+th1_exc9: Cable-rope culrs - 4 x 12
+th1_exc10: Preacher Curls - 4 x 12
 th1_exc11:
 th1_exc12: 
 fri1_exc1: Squat (shoulderwidth) - 4 x 12
