@@ -26,7 +26,7 @@ mon1_exc11: Cable biceps curls - 4 x 12
 mon1_exc12: EZ - bar cable biceps curls - 4 x 12
 mon1_exc13: Preacher biceps curls - 4 x 12
 mon1_exc14: Add any abs you wish and STRETCH
-tu1_workouttype: Legs & Shoulders
+day2: Legs & Shoulders
 tu1_exc1: Deadlift - 4 x 12
 tu1_exc2: Cabled hamstring curl - 4 x 12 each leg
 tu1_exc3: Buddy hamstring curls on hyper extension machine - 4 x 12
@@ -39,7 +39,7 @@ tu1_exc9: Seated rear flies - 4 x 12
 tu1_exc10: Cable-rope front raise - 4 x 12
 tu1_exc11: Machine back fly machine - 4 x 12 
 tu1_exc12: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
-wed1_workouttype: Chest & Triceps
+day3: Chest & Triceps
 wed1_exc1: 
 wed1_exc2: 
 wed1_exc3: 
@@ -51,7 +51,7 @@ wed1_exc8:
 wed1_exc9: 
 wed1_exc10:
 wed1_exc11:
-tu1_workouttype: Back & Biceps
+day4: Back & Biceps
 th1_exc1: Lat pull down (wide) - 4 x 12
 th1_exc2: Lat pull down underhand (shoulder width) - 4 x 12
 th1_exc3: T-bar rows - 4 x 12
@@ -64,7 +64,7 @@ th1_exc9: Cable-rope culrs - 4 x 12
 th1_exc10: Preacher Curls - 4 x 12
 th1_exc11:
 th1_exc12: 
-fri1_workouttype: Legs & Shoulder
+day5: Legs & Shoulder
 fri1_exc1: Squat (shoulderwidth) - 4 x 12
 fri1_exc2: Landmine RDL - 4 x 12
 fri1_exc3: Hack Squat - 4 x 12
@@ -94,6 +94,7 @@ sat1_exc6: Rope pull-down - 4 x 12
 sat1_exc6: V-bar pull-down 4 x 12
 sat1_exc6: Cable rope overhead push 4 x 12
 sat1_exc6: Triceps machine press down - 4 x 15
+day7: Sunday
 sun1_exc1: REST
  
 
