@@ -11,7 +11,7 @@ project-date: January 2022
 client: Start Bootstrap
 category: Body Building
 description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. <b>THERE IS NO REST BETWEEN THE SETS!!!</b><br><br>Note that every week you will workout the following groups of muscles in the following manner  <br><br> Monday ~ Back & Biceps <br> Tuesday ~ Legs & Shoulders <br> Wednesday ~ Chest & Triceps <br> Thursday ~ Back & Biceps <br> Friday ~ Legs & Shoulders <br> Saturday ~ Chest & Triceps <br> Sunday ~ rest <br><br> Also note that every week you workout each muscle group twice! The first time in the week you want to go a bit lower weight than you would go the second time in the week. <br><br> The most important part of shredding is your diet. Figure it out...
-mon1_workouttype: Back & Biceps
+day1: Monday (Back & Biceps)
 mon1_exc1: V-rows - 4 x 12, NO REST 
 mon1_exc2: Squatting EZ-bar cable rows - 12 upper hand, 12 under hand x 4
 mon1_exc3: Cable sitting rows - 4 x 12 (upper grip pull towards hips)
