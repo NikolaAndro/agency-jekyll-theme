@@ -1,6 +1,7 @@
 <style>
 pweek    {color: DodgerBlue; font-size: 300%;text-decoration: underline;}
 pday     {color: Gold; font-size: 250%;}
+workouttype     {color: Gold; font-size: 250%;}
 </style> 
 <!-- Portfolio Modals -->
  {% for post in site.posts %}
@@ -21,7 +22,7 @@ pday     {color: Gold; font-size: 250%;}
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <pweek> Week 1 </pweek><br><br>
-                                <pday> Monday </pday><br><br>
+                                <pday> Monday ({{ post.mon1_workouttype1 }}) </pday><br><br>
                                     <p>{{ post.mon1_exc1 }}</p>
                                     <p>{{ post.mon1_exc2 }}</p>
                                     <p>{{ post.mon1_exc3 }}</p>
@@ -34,7 +35,7 @@ pday     {color: Gold; font-size: 250%;}
                                     <p>{{ post.mon1_exc10 }}</p>
                                     <p>{{ post.mon1_exc11 }}</p>
                                     <p>{{ post.mon1_exc12 }}</p>
-                                <pday> Tuesday </pday><br><br>
+                                <pday> Tuesday ({{ post.tue1_workouttype1 }})  </pday><br><br>
                                     <p>{{ post.tu1_exc1 }}</p>
                                     <p>{{ post.tu1_exc2 }}</p>
                                     <p>{{ post.tu1_exc3 }}</p>
@@ -47,7 +48,7 @@ pday     {color: Gold; font-size: 250%;}
                                     <p>{{ post.tu1_exc10 }}</p>
                                     <p>{{ post.tu1_exc11 }}</p>
                                     <p>{{ post.tu1_exc12 }}</p>
-                                <pday> Wednesday </pday><br><br>
+                                <pday> Wednesday ({{ post.wed1_workouttype1 }})  </pday><br><br>
                                     <p>{{ post.wed1_exc1 }}</p>
                                     <p>{{ post.wed1_exc2 }}</p>
                                     <p>{{ post.wed1_exc3 }}</p>
@@ -59,7 +60,7 @@ pday     {color: Gold; font-size: 250%;}
                                     <p>{{ post.wed1_exc9 }}</p>
                                     <p>{{ post.wed1_exc10 }}</p>
                                     <p>{{ post.wed1_exc11 }}</p>
-                                <pday> Thursday </pday><br><br>
+                                <pday> Thursday ({{ post.th1_workouttype1 }})  </pday><br><br>
                                     <p>{{ post.th1_exc1 }}</p>
                                     <p>{{ post.th1_exc2 }}</p>
                                     <p>{{ post.th1_exc3 }}</p>
@@ -72,7 +73,7 @@ pday     {color: Gold; font-size: 250%;}
                                     <p>{{ post.th1_exc10 }}</p>
                                     <p>{{ post.th1_exc11 }}</p>
                                     <p>{{ post.th1_exc12 }}</p> 
-                                <pday> Friday </pday><br><br>
+                                <pday> Friday ({{ post.fri1_workouttype1 }})  </pday><br><br>
                                     <p>{{ post.fri1_exc1 }}</p>
                                     <p>{{ post.fri1_exc2 }}</p>
                                     <p>{{ post.fri1_exc3 }}</p>
@@ -86,7 +87,7 @@ pday     {color: Gold; font-size: 250%;}
                                     <p>{{ post.fri1_exc11 }}</p>
                                     <p>{{ post.fri1_exc12 }}</p>
                                     <p>{{ post.fri1_exc13 }}</p>
-                                <pday> Saturday </pday><br><br>
+                                <pday> Saturday ({{ post.sat1_workouttype1 }})  </pday><br><br>
                                     <p>{{ post.sat1_exc1 }}</p>
                                     <p>{{ post.sat1_exc2 }}</p>
                                     <p>{{ post.sat1_exc3 }}</p>
