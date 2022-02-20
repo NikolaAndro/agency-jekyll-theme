@@ -11,6 +11,7 @@ project-date: January 2022
 client: Start Bootstrap
 category: Body Building
 description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. <b>THERE IS NO REST BETWEEN THE SETS!!!</b><br><br>Note that every week you will workout the following groups of muscles in the following manner  <br><br> Monday ~ Back & Biceps <br> Tuesday ~ Legs & Shoulders <br> Wednesday ~ Chest & Triceps <br> Thursday ~ Back & Biceps <br> Friday ~ Legs & Shoulders <br> Saturday ~ Chest & Triceps <br> Sunday ~ rest <br><br> Also note that every week you workout each muscle group twice! The first time in the week you want to go a bit lower weight than you would go the second time in the week. <br><br> The most important part of shredding is your diet. Figure it out...
+mon1_workouttype: Back & Biceps
 mon1_exc1: V-rows - 4 x 12, NO REST 
 mon1_exc2: Squatting EZ-bar cable rows - 12 upper hand, 12 under hand x 4
 mon1_exc3: Cable sitting rows - 4 x 12 (upper grip pull towards hips)
@@ -25,6 +26,7 @@ mon1_exc11: Cable biceps curls - 4 x 12
 mon1_exc12: EZ - bar cable biceps curls - 4 x 12
 mon1_exc13: Preacher biceps curls - 4 x 12
 mon1_exc14: Add any abs you wish and STRETCH
+tu1_workouttype: Legs & Shoulders
 tu1_exc1: Deadlift - 4 x 12
 tu1_exc2: Cabled hamstring curl - 4 x 12 each leg
 tu1_exc3: Buddy hamstring curls on hyper extension machine - 4 x 12
@@ -37,6 +39,7 @@ tu1_exc9: Seated rear flies - 4 x 12
 tu1_exc10: Cable-rope front raise - 4 x 12
 tu1_exc11: Machine back fly machine - 4 x 12 
 tu1_exc12: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
+wed1_workouttype: Chest & Triceps
 wed1_exc1: 
 wed1_exc2: 
 wed1_exc3: 
@@ -48,6 +51,7 @@ wed1_exc8:
 wed1_exc9: 
 wed1_exc10:
 wed1_exc11:
+tu1_workouttype: Back & Biceps
 th1_exc1: Lat pull down (wide) - 4 x 12
 th1_exc2: Lat pull down underhand (shoulder width) - 4 x 12
 th1_exc3: T-bar rows - 4 x 12
@@ -60,6 +64,7 @@ th1_exc9: Cable-rope culrs - 4 x 12
 th1_exc10: Preacher Curls - 4 x 12
 th1_exc11:
 th1_exc12: 
+fri1_workouttype: Legs & Shoulder
 fri1_exc1: Squat (shoulderwidth) - 4 x 12
 fri1_exc2: Landmine RDL - 4 x 12
 fri1_exc3: Hack Squat - 4 x 12
@@ -74,6 +79,7 @@ fri1_exc11: Dumbbell in the Elbow Twists - 4 x 12 (start where you finished last
 fri1_exc12: Cable Face pulls - 4 x 12
 fri1_exc13: Cable front raises - 4 x 12
 fri1_exc14: Machine rear delt fly - 4 x 12
+sat1_workouttype: Chest & Triceps
 sat1_exc1: Push ups - 20/20/20 (incline/regular/decline)
 sat1_exc2: Bench press - 4 x 12
 sat1_exc3: Dumbbell bench press - 4 x 12
