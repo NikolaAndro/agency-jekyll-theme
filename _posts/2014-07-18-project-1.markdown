@@ -11,6 +11,7 @@ project-date: January 2022
 client: Start Bootstrap
 category: Muscle Building
 description: This is a very intense workout for muscle building. 5-6 workouts a week. About 1.5 h per workout on average. <br><br><b>Specifics:</b> <br><br> <b>Drop set</b> - usually done after the last set. If it is a double drop set, you will lower the weight for 10% and perform the exercise until failure, then drop weight for another 10% and perform until failure. <br><br> <b>Blood Restriction</b> - use a band and tigh it at the beginning of your arm or leg (depending on what the restriction is for), then perform the exercise. <br><br> <b>Intra-set stretching</b> - When doing biceps, you will extend your elbows and just hold the weight. If it is being aplied to calves, then you will hold your calves stretched below the step level. <br><br> <b>Rest and Pause</b> - after performing all the reps, put the weight down, rest for 15 sec. and pump as much more as you can. <br><br> <b>Rest Days</b> - feel free to do some more exercises on what you feel you did not hit enough. Some running, yoga, or any other activity would be great. On Sundays, give your body a full day of rest with propper nutrition.
+day1: Monday (Chest & Abs)
 mon1_exc1: Incline bench press (warm-up sets) - 2 x 10, rest 1 min.
 mon1_exc2: Incline bench press - 12/10/8/6/6, rest 90 sec. + double drop set after the last set
 mon1_exc3: Incline dumbbell bench press - 5 x 10, rest 1 min. + double drop set after the last set
@@ -22,6 +23,7 @@ mon1_exc8: Push-up - 6 x 12-15, rest 1 min. (back to high to low fly)
 mon1_exc9: Weighted sit-up - 4 x 10, rest 1 min.
 mon1_exc10: Suspended crunch - 4 x 10, rest 1 min.
 mon1_exc11: Hanging exercise ball leg raise - 4 x 10, rest 1 min.
+day2: Tuesday (Back & Abs)
 tu1_exc1: Lat pull-down (warm-up sets) - 2 x 10, rest 1 min.
 tu1_exc2: Lat pull-down - 12/10/10/10/8, rest 90 sec. + double drop set after the last set
 tu1_exc3: Barbell bent over row - 4 x 12, rest 90 sec. + double drop set after the last set
@@ -33,6 +35,7 @@ tu1_exc8: Back extension with extra weight, 4 x 12, rest 1 min.
 tu1_exc9: Ab wheel roll-out, 4 x 10, NO REST
 tu1_exc10: Hanging leg raise- 4 x 10, NO REST
 tu1_exc11: Medicine ball russian twist - 4 x 20, rest 90 sec (back to ab wheel roll-outs)
+day3: Wednesday (Legs - quads & calves)
 wed1_exc1: Barbell back squat (warm-up sets) 2 x 10, rest 1 min.
 wed1_exc2: Barbell back squat - 12/10/10/8/6, rest 2 min.
 wed1_exc3: Hack squat - 4 x 12-15, rest 90 sec. + single drop set after the last set
@@ -44,6 +47,7 @@ wed1_exc8: Leg press calf raise, 4 x 12-15, rest 1 min. (back to machine seated 
 wed1_exc9: 
 wed1_exc10:
 wed1_exc11:
+day4: Thursday (Shoulders & Abs)
 th1_exc1: Seated barbell shoulder press (warm-up sets) - 2 x 10, rest 1 min.
 th1_exc2: Seated barbell shoulder press, 12/10/10/10/8, rest 90 sec. + double drop set after the last set
 th1_exc3: Neutral grip Arnold press - 4 x 10, rest 1 min.
@@ -56,6 +60,7 @@ th1_exc9: Feet on the bench side plank with hip dip (right) - 4 x 12, rest 1 min
 th1_exc10: Half Turkish get-up, 4 x 12 (left side) - 4 x 12, NO REST
 th1_exc11: Half Turkish get-up, 4 x 12 (right side) - 4 x 12, rest 1 min. (back to left side)
 th1_exc12: Hollow body hold - 4 x 60 sec. rest 1 min.
+day5: Friday (Arms)
 fri1_exc1: Barbell curl (warm up sets) - 2 x 10, rest 1 min.
 fri1_exc2: Barbell curl - 4 x 10, rest 45 sec. + double drop set after the last set
 fri1_exc3: Alternating biceps curl - 4 x 12 each, rest 45 sec. + single drop set after the last set
@@ -69,6 +74,7 @@ fri1_exc10: Triceps dip with extra weight - 4 x 12, rest 1 min.
 fri1_exc11: Cable rope push-down - 15/12/10/10, rest 45 sec. + single drop set after the last set
 fri1_exc12: Cable V-bar push-down - 6 x 12, NO REST
 fri1_exc13: Diamond push-up - 6 x 12, rest 1 min. (back to V-bar push-down)
+day6: Saturday (legs - hamstrings)
 sat1_exc1: Lying leg curl (warm up sets) 2 x 10, rest 1 min.
 sat1_exc2: Lying leg curl - 5 x 15, rest 1 min. 
 sat1_exc3: Dumbbell stiff-legged deadlift - 4 x 12, rest 90 sec.
