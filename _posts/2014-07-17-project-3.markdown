@@ -98,7 +98,7 @@ day7: Sunday
 day8: Monday (Back & Biceps)
 sun1_exc1: REST
 mon2_exc1: V-rows - 4 x 12, NO REST 
-mon3_exc2: Squatting EZ-bar cable rows - 12 upper hand, 12 under hand x 4
+mon2_exc2: Squatting EZ-bar cable rows - 12 upper hand, 12 under hand x 4
 mon2_exc3: Cable sitting rows - 4 x 12 (upper grip pull towards hips)
 mon2_exc4: Single arm kneeling row (right)- 4 x 12 upper grip, 12 neutral grip (use single arm thing with longer strips)
 mon2_exc5: Single arm kneeling row (left)- 4 x 12 upper grip, 12 neutral grip + 15 upper grip and 15 neutral on the last set burnout (light weight)
