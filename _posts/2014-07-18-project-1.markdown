@@ -81,17 +81,9 @@ sat1_exc3: Dumbbell stiff-legged deadlift - 4 x 12, rest 90 sec.
 sat1_exc4: Leg press legs high - 5 x 20, NO REST
 sat1_exc5: Dumbbell walking lunge - 5 x 20, rest 1 min. (back to leg press)
 sat1_exc6: Leg curl - 6 x 12-15, rest 1 min. + 5 partial reps after reaching failure after each set
+day7: Sunday
 sun1_exc1: REST
-sun1_exc2: 
-sun1_exc3: 
-sun1_exc4: 
-sun1_exc5: 
-sun1_exc6: 
-sun1_exc7: 
-sun1_exc8: 
-sun1_exc9: 
-sun1_exc10: 
-sun1_exc11: 
+day8: Monday (Chest & Abs)
 mon2_exc1: Incline dumbbell bench press (warm up sets) 2 x 10, rest 1 min.
 mon2_exc2: Incline dumbbell bench press - 12/10/8/8/8/8, rest 1 min. + double drop set after the last set
 mon2_exc3: Barbell bench press - medium grip - 12/10/10/8, rest 1 min. + double drop set after the last set
@@ -104,6 +96,7 @@ mon2_exc9: Push-up - 4 x 12, rest 1 min. (backt to cable fly)
 mon2_exc10: Barbell floor wiper - 4 x 24, no rest
 mon2_exc11: Decline plate sit-up - 4 x 25, no rest
 mon2_exc12: Decline sit-up twist - 4 x 24, rest 90 sec. (back to floor whiper)
+day9: Tuesday (Back)
 tu2_exc1: Pull-up (warm-up sets) - 2 x 5-10
 tu2_exc2: Weighted pull-up - 12/10/10/8/8, rest 90 sec. + single drop set after the last set
 tu2_exc3: Reverse grip lat pull down - 4 x 10, rest 90 sec. + double drop set after the last set
@@ -116,6 +109,7 @@ tu2_exc9:
 tu2_exc10:
 tu2_exc11:
 tu2_exc12:
+day10: Wednesday (Legs & Abs)
 wed2_exc1: Barbell back squat (warm-up sets) 2 x 10, rest 1 min.
 wed2_exc2: Barbell back squat - 10/8/6/4/4, rest 2 min.
 wed2_exc3: Leg press - 4 x 20, rest 90 sec.
@@ -127,6 +121,7 @@ wed2_exc8: Machine seated calf raise - 4 x 15, 1 min. rest
 wed2_exc9: Dumbbell straight-legged hip raise (abs) - 4 x 12, rest 1 min.
 wed2_exc10: Decline reverse crunch - 4 x 15, rest 45 sec.
 wed2_exc11: Kneeling cable oblique crunch - 4 x 12 each side, rest 1 min.
+day11: Thursday (Shoulders)
 th2_exc1: Seated dumbbell shoulder press - 2 x 10, NO REST (warm up sets)
 th2_exc2: Seated dumbbell lateral raise - 2 x 10, rest 1 min. (back to shoulder press)
 th2_exc3: Seated dumbbell shoulder press - 12/10/10/10/8, NO REST + double drop set after the last set
@@ -139,6 +134,7 @@ th2_exc9: Cable straight-bar upright row - 4 x 10, NO REST
 th2_exc10: Cable straight-bar front raise - 4 x 10, reat 1 min. (back to upright row)
 th2_exc11: Single-arm leaning cable lateral raise (left) - 4 x 12, NO REST
 th2_exc12: Single-arm leaning cable lateral raise (right) - 4 x 12, NO REST
+day12: Friday (Arms & Abs)
 fri2_exc1: Close-grip EZ-bar curl - 2 x 10, NO REST (warm-up sets)
 fri2_exc2: EZ-bar skullcrusher - 2 x 10, rest 1 min. (back to curls)
 fri2_exc3: Close-grip EZ-bar curl - 4 x 12, NO REST + double drop set after the last set
@@ -154,28 +150,11 @@ fri2_exc12: Cable straight-bar push-down - 6 x 15, rest 1 min. (back to curls)
 fri2_exc13: Hanging oblique crunch - 4 x 8 each side, NO REST
 fri2_exc14: BOSU knee tuck, NO REST 
 fri2_exc15: Lateral bars knee raise (dip position) 4 x 15, reat 90 sec. (back to hanging oblique crunches)
+day:13: Saturday
 sat2_exc1: REST
-sat2_exc2: 
-sat2_exc3: 
-sat2_exc4: 
-sat2_exc5: 
-sat2_exc6: 
-sat2_exc7: 
-sat2_exc8: 
-sat2_exc9: 
-sat2_exc10: 
-sat2_exc11: 
+day14: Sunday
 sun2_exc1: REST
-sun2_exc2: 
-sun2_exc3: 
-sun2_exc4: 
-sun2_exc5: 
-sun2_exc6: 
-sun2_exc7: 
-sun2_exc8: 
-sun2_exc9: 
-sun2_exc10: 
-sun2_exc11: 
+day15: Monday (Chest & Abs) 
 mon3_exc1: Barbell bench press medium grip - 2 x 10, rest 1 min (warm up sets)
 mon3_exc2: Barbell bench press medium grip - 12/10/8/8/6/6, rest 1 min. + double drop set after the last set
 mon3_exc3: Incline bench press - 10/10/8/8/6, rest 1 min. + rest pause (15 sec) then push2-3 morre reps after 3rd and 4th set + double drop set after the last set
