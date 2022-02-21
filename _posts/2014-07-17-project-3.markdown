@@ -10,19 +10,19 @@ alt: image-alt
 project-date: January 2022
 client: Start Bootstrap
 category: Body Building
-description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. <b>THERE IS NO REST BETWEEN THE SETS!!!</b><br><br>Note that every week you will workout the following groups of muscles in the following manner  <br><br> Monday ~ Back & Biceps <br> Tuesday ~ Legs & Shoulders <br> Wednesday ~ Chest & Triceps <br> Thursday ~ Back & Biceps <br> Friday ~ Legs & Shoulders <br> Saturday ~ Chest & Triceps <br> Sunday ~ rest <br><br> Also note that every week you workout each muscle group twice! The first time in the week you want to go a bit lower weight than you would go the second time in the week. <br><br> The most important part of shredding is your diet. Figure it out...
+description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. <b>THERE IS NO REST BETWEEN THE SETS!!!</b><br><br>Note that every week you will workout the following groups of muscles in the following manner  <br><br> Monday ~ Back & Biceps <br> Tuesday ~ Legs & Shoulders <br> Wednesday ~ Chest & Triceps <br> Thursday ~ Back & Biceps <br> Friday ~ Legs & Shoulders <br> Saturday ~ Chest & Triceps <br> Sunday ~ rest <br><br> Also note that every week you workout each muscle group twice! The second time in the week you want to go a bit lower weight than you would go the first time in the week because you have more energy after your Sunday rest day. <br><br> The most important part of shredding is your diet. Figure it out...
 day1: Monday (Back & Biceps)
 mon1_exc1: V-rows - 4 x 12, NO REST 
 mon1_exc2: Squatting EZ-bar cable rows - 12 upper hand, 12 under hand x 4
 mon1_exc3: Cable sitting rows - 4 x 12 (upper grip pull towards hips)
 mon1_exc4: Single arm kneeling row (right)- 4 x 12 upper grip, 12 neutral grip (use single arm thing with longer strips)
-mon1_exc5: Single arm kneeling row (left)- 4 x 12 upper grip, 12 neutral grip
+mon1_exc5: Single arm kneeling row (left)- 4 x 12 upper grip, 12 neutral grip + 15 upper grip and 15 neutral on the last set burnout (light weight)
 mon1_exc6: Standing Straight bar straight arm pull down - 4 x 12
 mon1_exc7: Standing cable-rope traight arm pull down - 4 x 12
 mon1_exc8: Rotating biceps curls - 4 x 12, dropp 5 lbs after each set
 mon1_exc9: Hammer curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set) 
 mon1_exc10: 45 degree bench biceps curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set)
-mon1_exc11: Cable biceps curls - 4 x 12
+mon1_exc11: Cable rope biceps curls - 4 x 12
 mon1_exc12: EZ - bar cable biceps curls - 4 x 12
 mon1_exc13: Preacher biceps curls - 4 x 12
 mon1_exc14: Add any abs you wish and STRETCH
@@ -95,7 +95,21 @@ sat1_exc6: V-bar pull-down 4 x 12
 sat1_exc6: Cable rope overhead push 4 x 12
 sat1_exc6: Triceps machine press down - 4 x 15
 day7: Sunday
+day8: Monday (Back & Biceps)
 sun1_exc1: REST
- 
+mon2_exc1: V-rows - 4 x 12, NO REST 
+mon3_exc2: Squatting EZ-bar cable rows - 12 upper hand, 12 under hand x 4
+mon2_exc3: Cable sitting rows - 4 x 12 (upper grip pull towards hips)
+mon2_exc4: Single arm kneeling row (right)- 4 x 12 upper grip, 12 neutral grip (use single arm thing with longer strips)
+mon2_exc5: Single arm kneeling row (left)- 4 x 12 upper grip, 12 neutral grip + 15 upper grip and 15 neutral on the last set burnout (light weight)
+mon2_exc6: Standing Straight bar straight arm pull down - 4 x 12
+mon2_exc7: Standing cable-rope traight arm pull down - 4 x 12
+mon2_exc8: Rotating biceps curls - 4 x 12, dropp 5 lbs after each set
+mon2_exc9: Hammer curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set) 
+mon2_exc10: 45 degree bench biceps curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set)
+mon2_exc11: Cable rope biceps curls - 4 x 12
+mon2_exc12: EZ - bar cable biceps curls - 4 x 12
+mon2_exc13: Preacher biceps curls - 4 x 12
+mon2_exc14: Add any abs you wish and STRETCH
 
 ---
