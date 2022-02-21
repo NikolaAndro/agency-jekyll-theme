@@ -4,7 +4,7 @@ subtitle: 9 weeks
 layout: default
 modal-id: 1
 date: 2022-01-12
-img: max_build.jpg
+img: max_build-1.jpg
 thumbnail: max_build.jpg
 alt: image-alt
 project-date: January 2022
@@ -150,7 +150,7 @@ fri2_exc12: Cable straight-bar push-down - 6 x 15, rest 1 min. (back to curls)
 fri2_exc13: Hanging oblique crunch - 4 x 8 each side, NO REST
 fri2_exc14: BOSU knee tuck, NO REST 
 fri2_exc15: Lateral bars knee raise (dip position) 4 x 15, reat 90 sec. (back to hanging oblique crunches)
-day:13: Saturday
+day13: Saturday
 sat2_exc1: REST
 day14: Sunday
 sun2_exc1: REST
