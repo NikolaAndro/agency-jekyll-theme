@@ -33,12 +33,13 @@ tu1_exc3: Buddy hamstring curls on hyper extension machine - 4 x 12
 tu1_exc4: Leg extensions - 4 x 12
 tu1_exc5: Leg press - 4 x 12
 tu1_exc6: Leg extensions - 3 x 12, (start with the weight you used on hte last set of the previous leg extensions) 
-tu1_exc7: Seated shoulder lateral raises - 4 x 12 (increase weight on each set)
-tu1_exc8: Seated lateral shoulder raise + hug - 4 x 12
-tu1_exc9: Seated rear flies - 4 x 12
-tu1_exc10: Cable-rope front raise - 4 x 12
-tu1_exc11: Machine back fly machine - 4 x 12 
-tu1_exc12: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
+tu1_exc7: Claf raises - 21 x 5 (7 out, 7 in, 7 streight)
+tu1_exc8: Seated shoulder lateral raises - 4 x 12 (increase weight on each set)
+tu1_exc9: Seated lateral shoulder raise + hug - 4 x 12
+tu1_exc10: Seated rear flies - 4 x 12
+tu1_exc11: Cable-rope front raise - 4 x 12
+tu1_exc12: Machine back fly machine - 4 x 12 
+tu1_exc13: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
 day3: Wednesday (Chest & Triceps)
 wed1_exc1: 
 wed1_exc2: 
@@ -111,5 +112,19 @@ mon2_exc11: Cable rope biceps curls - 4 x 12
 mon2_exc12: EZ - bar cable biceps curls - 4 x 12
 mon2_exc13: Preacher biceps curls - 4 x 12
 mon2_exc14: Add any abs you wish and STRETCH
+day9: Tuesday (Legs & Shoulders)
+tu2_exc1: Deadlift - 4 x 12
+tu2_exc2: Cabled hamstring curl - 4 x 12 each leg
+tu2_exc3: Buddy hamstring curls on hyper extension machine - 4 x 12
+tu2_exc4: Leg extensions - 4 x 12
+tu2_exc5: Leg press - 4 x 12
+tu2_exc6: Leg extensions - 3 x 12, (start with the weight you used on hte last set of the previous leg extensions) 
+tu2_exc7: Claf raises - 21 x 5 (7 out, 7 in, 7 streight)
+tu2_exc8: Seated shoulder lateral raises - 4 x 12 (increase weight on each set)
+tu2_exc9: Seated lateral shoulder raise + hug - 4 x 12
+tu2_exc10: Seated rear flies - 4 x 12
+tu2_exc11: Cable-rope front raise - 4 x 12
+tu2_exc12: Machine back fly machine - 4 x 12 
+tu2_exc13: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
 
 ---
