@@ -35,7 +35,7 @@ tu1_exc5: Leg press - 4 x 12
 tu1_exc6: Leg extensions - 3 x 12, (start with the weight you used on hte last set of the previous leg extensions) 
 tu1_exc7: Claf raises - 21 x 5 (7 out, 7 in, 7 streight)
 tu1_exc8: Seated shoulder lateral raises - 4 x 12 (increase weight on each set)
-tu1_exc9: Seated lateral shoulder raise + hug - 4 x 12
+tu1_exc9: Seated around the world front raise - 4 x 12
 tu1_exc10: Seated rear flies - 4 x 12
 tu1_exc11: Cable-rope front raise - 4 x 12
 tu1_exc12: Machine back fly machine - 4 x 12 
@@ -120,11 +120,11 @@ tu2_exc4: Leg extensions - 4 x 12
 tu2_exc5: Leg press - 4 x 12
 tu2_exc6: Leg extensions - 3 x 12, (start with the weight you used on hte last set of the previous leg extensions) 
 tu2_exc7: Claf raises - 21 x 5 (7 out, 7 in, 7 streight)
-tu2_exc8: Seated shoulder lateral raises - 4 x 12 (increase weight on each set)
-tu2_exc9: Seated lateral shoulder raise + hug - 4 x 12
+tu2_exc8: Standing shoulder lateral raises - 4 x 12 (increase weight on each set)
+tu2_exc9: Standing around the world front raise - 4 x 12
 tu2_exc10: Seated rear flies - 4 x 12
-tu2_exc11: Cable-rope front raise - 4 x 12
-tu2_exc12: Machine back fly machine - 4 x 12 
+tu2_exc11: EZ bar front raise - 4 x 12
+tu2_exc12: Cable cross rear shoulder - 4 x 12 
 tu2_exc13: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
 
 ---
