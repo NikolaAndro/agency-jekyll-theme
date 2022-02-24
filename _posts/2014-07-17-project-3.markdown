@@ -140,6 +140,7 @@ wed2_exc9: V-bar overhand push-down - 4 x 12
 wed2_exc10: 1 Cable 2 handles underhand triceps pull down - 4 x 12
 wed2_exc11: Leaning forward (towards the machine) cable triceps extensions - 4 x 12
 wed2_exc12: Triceps press down machine - 4 x 12
+day11: Thursday (Back & Biceps)
 th2_exc1: Lat pull down (wide) - 4 x 12
 th2_exc2: Close grip landmine rows - 4 x 12
 th2_exc3: EZ-bar straight arm underhand pull-down - 4 x 12
