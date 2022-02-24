@@ -140,5 +140,18 @@ wed2_exc9: V-bar overhand push-down - 4 x 12
 wed2_exc10: 1 Cable 2 handles underhand triceps pull down - 4 x 12
 wed2_exc11: Leaning forward (towards the machine) cable triceps extensions - 4 x 12
 wed2_exc12: Triceps press down machine - 4 x 12
-
+th2_exc1: Lat pull down (wide) - 4 x 12
+th2_exc2: Close grip landmine rows - 4 x 12
+th2_exc3: EZ-bar straight arm underhand pull-down - 4 x 12
+th2_exc4: Close grip lat pull-down - 4 x 12
+th2_exc5: T-bar landmine rows - 4 x 12
+th2_exc6: Rope straight arm pull down - 4 x 12
+th2_exc7: Rowing machine - 3 x 12 overhand and 12 neutral
+th2_exc8: Rotating biceps curls - 4 x 12
+th2_exc9: Hammer curls - 4 x 12
+th2_exc10: EZ-bar cable culrs - 4 x 12 (1 second up, 2 seconds down)
+th2_exc11: Cable-rope culrs - 4 x 12 (stay closer to the machine this time)
+th2_exc12: EZ-barbell standing curls - 4 x 12
+th2_exc13: Preacher Curls - 4 x 12
+ 
 ---
