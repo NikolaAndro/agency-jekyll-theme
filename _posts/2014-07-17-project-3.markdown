@@ -168,7 +168,7 @@ th2_exc13: Preacher Curls - 4 x 12
 day12_num: Day 12 - 
 day12: Friday (Legs & Shoulders)
 fri2_exc1: Squat (shoulderwidth) - 4 x 12
-fri2_exc2: Hack Squat - 4 x 12
+fri2_exc2: Hack Squat - 3 x 12
 fri2_exc3: Landmine RDL - 4 x 12
 fri2_exc4: Leg Extensions - 4 x 12
 fri2_exc5: Hanstrinig Curls - 4 x 12
@@ -179,7 +179,7 @@ fri2_exc9:  Underhand front shoulder raise - 4 x 12
 fri2_exc10: Chest on the 60 degree elevated bench top , rear flies - 4 x 12 
 fri2_exc11: Cable rope front raises - 4 x 12
 fri2_exc12: Machine rear delt fly - 4 x 12
-fri2_exc13: Dumbbell in the Elbow Twists - 4 x 12 (start where you finished last exercise and decrease weight each set) - Let's call those chicken flies from now on
+fri2_exc13: Dumbbell in the Elbow Twists - 4 x 12 (start where you finished last exercise and decrease weight each set) - Let's call those **chicken flies** from now on
 fri2_exc14: 
 
 ---
