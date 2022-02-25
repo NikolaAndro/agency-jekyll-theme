@@ -4,8 +4,8 @@ subtitle: 6 weeks
 layout: default
 modal-id: 4
 date: 2022-02-07
-img: cardio_female1.jpg
-thumbnail: cardio_female1.jpg
+img: cardio_female11.jpg
+thumbnail: cardio_female11.jpg
 alt: image-alt
 project-date: January 2022
 client: Start Bootstrap
