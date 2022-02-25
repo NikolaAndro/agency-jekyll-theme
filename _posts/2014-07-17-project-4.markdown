@@ -1,5 +1,5 @@
 ---
-title: Body Recomp Edition
+title: Female Body Recomp Edition
 subtitle: 6 weeks
 layout: default
 modal-id: 4
