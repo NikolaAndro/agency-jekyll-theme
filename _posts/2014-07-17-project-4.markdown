@@ -1,5 +1,5 @@
 ---
-title: Female Body Recomp Edition
+title: Extra Cardio
 subtitle: 6 weeks
 layout: default
 modal-id: 4
