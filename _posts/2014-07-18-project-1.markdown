@@ -4,8 +4,8 @@ subtitle: 9 weeks
 layout: default
 modal-id: 1
 date: 2022-01-12
-img: max_build-1.jpg
-thumbnail: max_build.jpg
+img: max_build.jpg
+thumbnail: max_build-1.jpg
 alt: image-alt
 project-date: January 2022
 client: Start Bootstrap
@@ -168,6 +168,7 @@ mon3_exc10: Pallof press (right)- 4 x 12, NO REST
 mon3_exc11: Decline bar press sit-up - 4 x 15, rest 90 sec. (back to pallof press)
 mon3_exc12: Spider crunch - 4 x 12, NO REST
 mon3_exc13: Toe tuch - 4 x 15, rest 1 min.
+day16: Tuesday (Back & Abs)
 tu3_exc1: Barbell deadlift - 2 x 10, rest 1 min. (warm up sets)
 tu3_exc2: Barbell deadlift - 12/10/8/6/6, rest 2 min. 
 tu3_exc3: Lat pull down - 4 x 10, rest 90 sec.
@@ -179,6 +180,7 @@ tu3_exc8: Hanging windshield wiper - 4 x 6-12, rest 1 min.
 tu3_exc9: Reverse ab rollout - 4 x 12, rest 1 min.
 tu3_exc10:
 tu3_exc11:
+day17: Wednesday (Legs & Abs)
 wed3_exc1: Leg extension - 2 x 10, rest 1 min. (warm up sets)
 wed3_exc2: Leg extension - 5 x 15, rest 1 min.
 wed3_exc3: Barbell front squat - 4 x 10, rest 2 min. 

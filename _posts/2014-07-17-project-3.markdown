@@ -33,24 +33,26 @@ tu1_exc3: Buddy hamstring curls on hyper extension machine - 4 x 12
 tu1_exc4: Leg extensions - 4 x 12
 tu1_exc5: Leg press - 4 x 12
 tu1_exc6: Leg extensions - 3 x 12, (start with the weight you used on hte last set of the previous leg extensions) 
-tu1_exc7: Seated shoulder lateral raises - 4 x 12 (increase weight on each set)
-tu1_exc8: Seated lateral shoulder raise + hug - 4 x 12
-tu1_exc9: Seated rear flies - 4 x 12
-tu1_exc10: Cable-rope front raise - 4 x 12
-tu1_exc11: Machine back fly machine - 4 x 12 
-tu1_exc12: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
+tu1_exc7: Claf raises - 21 x 5 (7 out, 7 in, 7 streight)
+tu1_exc8: Seated shoulder lateral raises - 4 x 12 (increase weight on each set)
+tu1_exc9: Seated around the world front raise - 4 x 12
+tu1_exc10: Seated rear flies - 4 x 12
+tu1_exc11: Cable-rope front raise - 4 x 12
+tu1_exc12: Machine back fly machine - 4 x 12 
+tu1_exc13: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
 day3: Wednesday (Chest & Triceps)
-wed1_exc1: 
-wed1_exc2: 
-wed1_exc3: 
-wed1_exc4: 
-wed1_exc5: 
-wed1_exc6:  
-wed1_exc7: 
-wed1_exc8: 
-wed1_exc9: 
-wed1_exc10:
-wed1_exc11:
+wed1_exc1: Bench press 4 x 12
+wed1_exc2: Dumbbell Bench Press - 4 x 12
+wed1_exc3: Dumbbells together chest press (30 degrees incline) - 4 x 12
+wed1_exc4: Fly machine chest flies - 4 x 12
+wed1_exc5: Cable flies high to low 4 x 12 + 7 torso paralel with ground flies
+wed1_exc6: Chest Press Machine 
+wed1_exc7: Dumbbell Kickbacks - 4 x 12
+wed1_exc8: EZ-bar wide overhand push-down 4 x 12
+wed1_exc9: V-bar overhand push-down - 4 x 12
+wed1_exc10: 1 Cable 2 handles underhand triceps pull down - 4 x 12
+wed1_exc11: Leaning forward (towards the machine) cable triceps extensions - 4 x 12
+wed1_exc12: Triceps press down machine - 4 x 12
 day4: Thursday (Back & Biceps)
 th1_exc1: Lat pull down (wide) - 4 x 12
 th1_exc2: Lat pull down underhand (shoulder width) - 4 x 12
@@ -88,12 +90,12 @@ sat1_exc5: Cable flies (middle) - 4 x 12
 sat1_exc6: Cable flies (high-to-low) - 4 x 12
 sat1_exc7: Cable flies (low-to-high) - 4 x 12
 sat1_exc8: Chest press machine - 4 x 12 
-sat1_exc6: EZ-bar overhand push down - 4 x 12
-sat1_exc6: EZ-bar underhand push down - 4 x 12
-sat1_exc6: Rope pull-down - 4 x 12
-sat1_exc6: V-bar pull-down 4 x 12
-sat1_exc6: Cable rope overhead push 4 x 12
-sat1_exc6: Triceps machine press down - 4 x 15
+sat1_exc9: EZ-bar overhand push down - 4 x 12
+sat1_exc10: EZ-bar underhand push down - 4 x 12
+sat1_exc11: Rope pull-down - 4 x 12
+sat1_exc12: V-bar pull-down 4 x 12
+sat1_exc13: Cable rope overhead push 4 x 12
+sat1_exc14: Triceps machine press down - 4 x 15
 day7: Sunday
 day8: Monday (Back & Biceps)
 sun1_exc1: REST
@@ -111,5 +113,46 @@ mon2_exc11: Cable rope biceps curls - 4 x 12
 mon2_exc12: EZ - bar cable biceps curls - 4 x 12
 mon2_exc13: Preacher biceps curls - 4 x 12
 mon2_exc14: Add any abs you wish and STRETCH
-
+day9: Tuesday (Legs & Shoulders)
+tu2_exc1: Deadlift - 4 x 12
+tu2_exc2: Cabled hamstring curl - 4 x 12 each leg
+tu2_exc3: Buddy hamstring curls on hyper extension machine - 4 x 12
+tu2_exc4: Leg extensions - 4 x 12
+tu2_exc5: Leg press - 4 x 12
+tu2_exc6: Leg extensions - 3 x 12, (start with the weight you used on hte last set of the previous leg extensions) 
+tu2_exc7: Claf raises - 21 x 5 (7 out, 7 in, 7 streight)
+tu2_exc8: Standing shoulder lateral raises - 4 x 12 (increase weight on each set)
+tu2_exc9: Standing around the world front raise - 4 x 12
+tu2_exc10: Seated rear flies - 4 x 12
+tu2_exc11: EZ bar front raise - 4 x 12
+tu2_exc12: Cable cross rear shoulder - 4 x 12 
+tu2_exc13: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
+day10: Wednesday (Chest & Triceps)
+wed2_exc1: Bench press 4 x 12
+wed2_exc2: Dumbbell Bench Press - 4 x 12
+wed2_exc3: Dumbbells together chest press (30 degrees incline) - 4 x 12
+wed2_exc4: Fly machine chest flies - 4 x 12
+wed2_exc5: Cable flies high to low 4 x 12 + 7 torso paralel with ground flies
+wed2_exc6: Chest Press Machine 
+wed2_exc7: Dumbbell Kickbacks - 4 x 12
+wed2_exc8: EZ-bar wide overhand push-down 4 x 12
+wed2_exc9: V-bar overhand push-down - 4 x 12
+wed2_exc10: 1 Cable 2 handles underhand triceps pull down - 4 x 12
+wed2_exc11: Leaning forward (towards the machine) cable triceps extensions - 4 x 12
+wed2_exc12: Triceps press down machine - 4 x 12
+day11: Thursday (Back & Biceps)
+th2_exc1: Lat pull down (wide) - 4 x 12
+th2_exc2: Close grip landmine rows - 4 x 12
+th2_exc3: EZ-bar straight arm underhand pull-down - 4 x 12
+th2_exc4: Close grip lat pull-down - 4 x 12
+th2_exc5: T-bar landmine rows - 4 x 12
+th2_exc6: Rope straight arm pull down - 4 x 12
+th2_exc7: Rowing machine - 3 x 12 overhand and 12 neutral
+th2_exc8: Rotating biceps curls - 4 x 12
+th2_exc9: Hammer curls - 4 x 12
+th2_exc10: EZ-bar cable culrs - 4 x 12 (1 second up, 2 seconds down)
+th2_exc11: Cable-rope culrs - 4 x 12 (stay closer to the machine this time)
+th2_exc12: EZ-barbell standing curls - 4 x 12
+th2_exc13: Preacher Curls - 4 x 12
+ 
 ---
