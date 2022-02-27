@@ -181,5 +181,23 @@ fri2_exc11: Cable rope front raises - 4 x 12
 fri2_exc12: Machine rear delt fly - 4 x 12
 fri2_exc13: Dumbbell in the Elbow Twists - 4 x 12 (start where you finished last exercise and decrease weight each set) - Let's call those **chicken flies** from now on
 fri2_exc14: 
+day13_num: Day 13 -
+day13: Saturday (Chest & Triceps)
+sat2_exc1: Push ups - 20/20/20 (incline/regular/decline)
+sat2_exc2: Bench press - 4 x 12
+sat2_exc3: Dumbbell bench press - 4 x 12
+sat2_exc4: Dumbbell pull-over with 7 pupms - 4 x 12
+sat2_exc5: Cable flies (middle) - 4 x 12
+sat2_exc6: Cable flies (high-to-low) - 4 x 12
+sat2_exc7: Cable flies (low-to-high) - 4 x 12
+sat2_exc8: Chest press machine - 4 x 12 
+sat2_exc9: EZ-bar overhand push down - 4 x 12
+sat2_exc10: EZ-bar underhand push down - 4 x 12
+sat2_exc11: Rope pull-down - 4 x 12
+sat2_exc12: V-bar pull-down 4 x 12
+sat2_exc13: Cable rope overhead push 4 x 12
+sat2_exc14: Triceps machine press down - 4 x 15
+day14_num: Day 14 -
+day14: Sunday
 
 ---
