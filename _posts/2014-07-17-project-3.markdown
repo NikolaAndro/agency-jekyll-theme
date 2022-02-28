@@ -199,5 +199,23 @@ sat2_exc13: Cable rope overhead push 4 x 12
 sat2_exc14: Triceps machine press down - 4 x 15
 day14_num: Day 14 -
 day14: Sunday
+sun2_exc1: REST
+day15_num: Day 15 -
+day15: Monday (Back & Biceps)
+mon3_exc1: Close grip rows - 4 x 12, NO REST 
+mon3_exc2: Squatting EZ-bar cable rows - 3 x 12 upper hand, 12 under hand 
+mon3_exc3: Wide neutral grip bar seated rows - 4 x 12
+mon3_exc4: Cable sitting rows - 4 x 12 (upper grip pull towards hips)
+mon3_exc5: Standing Straight bar straight arm pull down - 4 x 12
+mon3_exc6: Kneeling EZ-bar traight arm pull down - 4 x 12
+mon3_exc7: Single arm kneeling row (right)- 4 x 12 upper grip, 12 neutral grip (use single arm thing with longer strips)
+mon3_exc8: Single arm kneeling row (left)- 4 x 12 upper grip, 12 neutral grip + 15 upper grip and 15 neutral on the last set burnout (light weight)
+mon3_exc9: Seated rotating biceps curls - 4 x 12, dropp 5 lbs after each set
+mon3_exc10: Seated hammer curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set) 
+mon3_exc11: Seated 45 degree bench biceps curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set)
+mon3_exc12: Cable rope biceps curls - 4 x 12 (step back one step)
+mon3_exc13: EZ - bar cable biceps curls - 4 x 12
+mon3_exc14: Preacher biceps curls - 4 x 12
+mon3_exc15: Add any abs you wish and STRETCH
 
 ---
