@@ -129,27 +129,29 @@ tu2_exc3: Buddy hamstring curls on hyper extension machine - 4 x 12
 tu2_exc4: Leg extensions - 4 x 12
 tu2_exc5: Leg press - 4 x 12
 tu2_exc6: Leg extensions - 3 x 12, (start with the weight you used on hte last set of the previous leg extensions) 
-tu2_exc7: Claf raises - 21 x 5 (7 out, 7 in, 7 streight)
-tu2_exc8: Standing shoulder lateral raises - 4 x 12 (increase weight on each set)
-tu2_exc9: Standing around the world front raise - 4 x 12
-tu2_exc10: Seated rear flies - 4 x 12
-tu2_exc11: EZ bar front raise - 4 x 12
-tu2_exc12: Cable cross rear shoulder - 4 x 12 
+tu2_exc7: Hamstring curls - 4 x 12
+tu2_exc8: Claf raises - 21 x 5 (7 out, 7 in, 7 streight)
+tu2_exc9: Standing shoulder lateral raises - 4 x 12 (increase weight on each set)
+tu2_exc10: Standing around the world front raise - 4 x 12
+tu2_exc11: Seated rear flies - 4 x 12
+tu2_exc12: EZ bar front raise - 4 x 12
+tu2_exc13: Rope face pulls - 4 x 12 
 tu2_exc13: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
 day10_num: Day 10 -
 day10: Wednesday (Chest & Triceps)
-wed2_exc1: Bench press 4 x 12
+wed2_exc1: Bench press - 4 x 12
 wed2_exc2: Dumbbell Bench Press - 4 x 12
-wed2_exc3: Dumbbells together chest press (30 degrees incline) - 4 x 12
-wed2_exc4: Fly machine chest flies - 4 x 12
+wed2_exc3: Dumbbells together chest press (30 degrees incline) - 4 x 12 + 25lbs plate chest press 10 times
+wed2_exc4: Fly machine mid chest flies - 4 x 12
 wed2_exc5: Cable flies high to low 4 x 12 + 7 torso paralel with ground flies
-wed2_exc6: Chest Press Machine 
-wed2_exc7: Dumbbell Kickbacks - 4 x 12
-wed2_exc8: EZ-bar wide overhand push-down 4 x 12
-wed2_exc9: V-bar overhand push-down - 4 x 12
-wed2_exc10: 1 Cable 2 handles underhand triceps pull down - 4 x 12
-wed2_exc11: Leaning forward (towards the machine) cable triceps extensions - 4 x 12
-wed2_exc12: Triceps press down machine - 4 x 12
+wed2_exc6: Cable underhand pushes - 4 x 12
+wed2_exc7: Chest Press Machine 
+wed2_exc8: Dumbbell Kickbacks - 4 x 12
+wed2_exc9: EZ-bar wide overhand push-down 4 x 12
+wed2_exc10: V-bar overhand push-down - 4 x 12
+wed2_exc11: 1 Cable 2 handles underhand triceps pull down - 4 x 12
+wed2_exc12: Leaning forward (towards the machine) cable triceps extensions - 4 x 12
+wed2_exc13: Triceps press down machine - 4 x 12
 day11_num: Day 11 - 
 day11: Thursday (Back & Biceps)
 th2_exc1: Lat pull down (wide) - 4 x 12
@@ -217,5 +219,36 @@ mon3_exc12: Cable rope biceps curls - 4 x 12 (step back one step)
 mon3_exc13: EZ - bar cable biceps curls - 4 x 12
 mon3_exc14: Preacher biceps curls - 4 x 12
 mon3_exc15: Add any abs you wish and STRETCH
+day16_num: Day 16 -
+day16: Tuesday (Legs & Shoulders)
+tu3_exc1: Deadlift - 4 x 12
+tu3_exc2: Cabled hamstring curl - 4 x 12 each leg
+tu3_exc3: Buddy hamstring curls on hyper extension machine - 4 x 12
+tu3_exc4: Leg extensions - 4 x 12
+tu3_exc5: Leg press - 4 x 12
+tu3_exc6: Leg extensions - 3 x 12, (start with the weight you used on hte last set of the previous leg extensions) 
+tu3_exc7: Hamstring curls - 4 x 12
+tu3_exc8: Claf raises - 21 x 5 (7 out, 7 in, 7 streight)
+tu3_exc9: Standing shoulder lateral raises - 4 x 12 (increase weight on each set)
+tu3_exc10: Standing around the world front raise - 4 x 12
+tu3_exc11: Seated rear flies - 4 x 12
+tu3_exc12: EZ bar front raise - 4 x 12
+tu3_exc13: Rope face pulls - 4 x 12 
+tu3_exc13: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
+day17_num: Day 17 -
+day17: Wednesday (Chest & Triceps)
+wed3_exc1: Bench press - 4 x 12
+wed3_exc2: Dumbbell Bench Press - 4 x 12
+wed3_exc3: Dumbbells together chest press (30 degrees incline) - 4 x 12 + 25lbs plate chest press 10 times
+wed3_exc4: Fly machine mid chest flies - 4 x 12
+wed3_exc5: Cable flies high to low 4 x 12 + 7 torso paralel with ground flies
+wed3_exc6: Cable underhand pushes - 4 x 12
+wed3_exc7: Chest Press Machine 
+wed3_exc8: Dumbbell Kickbacks - 4 x 12
+wed3_exc9: EZ-bar wide overhand push-down 4 x 12
+wed3_exc10: V-bar overhand push-down - 4 x 12
+wed3_exc11: 1 Cable 2 handles underhand triceps pull down - 4 x 12
+wed3_exc12: Leaning forward (towards the machine) cable triceps extensions - 4 x 12
+wed3_exc13: Triceps press down machine - 4 x 12
 
 ---
