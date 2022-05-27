@@ -6,6 +6,21 @@ workouttype     {color: Gold; font-size: 250%;}
 html {
   scroll-behavior: smooth;
 } 
+table {
+/*   font-family: arial, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 </style> 
 <!-- Portfolio Modals -->
  {% for post in site.posts %}
