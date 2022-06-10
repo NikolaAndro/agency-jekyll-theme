@@ -192,6 +192,7 @@ wed3_exc8: Leg press calf raise - 4 x 12, rest 1 min.
 wed3_exc9: Seated leg tuck with dumbbell - 4 x 15, NO REST
 wed3_exc10: Lying leg lift - 4 x 15, NO REST
 wed3_exc11: Flutter kick - 4 x 1 min. rest 90 sec. (backt to seated leg tuck)
+day18: Thursday (Shoulders)
 th3_exc1: Seated barbell shoulder press - 2 x 10, NO REST
 th3_exc2: Seated dumbbell lateral raise - 2 x 10, rest 1 min. (warm up sets + back to barbell shouolder press) 
 th3_exc3: Seated  BANDED barbell shoulder press - 5 x 8-10, NO REST
@@ -204,6 +205,7 @@ th3_exc9: Plate fron raise (pause 1 sec. at the top) - 4 x 12, rest 1 min.
 th3_exc10: Machine rear delt fly (opposite of machine chest fly) - 4 x 12-15, rest 1 min.
 th3_exc11: Barbell shrug - 6 x 12, rest 1 min.
 th3_exc12:
+day19: Friday (Arms)
 fri3_exc1: Alternating biceps curl - 2 x 20, rest 1 min. (warm up sets)
 fri3_exc2: Alternating biceps curl - 24/20/16/16, rest 45 sec. + double drop set after the last set
 fri3_exc3: Close grip EZ-bar curl - 4 x 10, rest 45 sec.
@@ -220,6 +222,7 @@ fri3_exc13: Triceps dip (add weight if possible) - 4 x 10, rest 1 min. + double 
 fri3_exc14: Single arm reverse grip cable push down (left) - 4 x 12, NO REST
 fri3_exc15: Single arm reverse grip cable push down (right) - 4 x 12, rest 45 sec.
 fri3_exc16: Low cable overhead triceps extension - 6 x 12-15, rest 45 sec.
+day20: Saturday (Legs)
 sat3_exc1: Leg curl - 2 x 10, rest 1 min (warm up sets)
 sat3_exc2: Leg curl - 15/12/12/10, rest 1 min.
 sat3_exc3: Single leg leg press (left) - 5 x 20, NO REST
@@ -227,11 +230,12 @@ sat3_exc4: Single leg leg press (right) - 5 x 20, NO REST
 sat3_exc5: Lying leg curl - 5 x 15, rest 1 min.
 sat3_exc6: Glute ham raise - 3 x 8, rest 1 min. 
 sat3_exc7: Barbell hip thrust - 3 x 10, rest 1 min.
-sat3_exc8:
+sat3_exc8: Add Some Abs
 sat3_exc9:
 sat3_exc10:
 sat3_exc11:
 sat3_exc12:
+day21: Sunday
 sun3_exc1: REST
 sun3_exc2: 
 sun3_exc3: 
