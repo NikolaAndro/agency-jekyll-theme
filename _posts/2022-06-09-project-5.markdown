@@ -4,7 +4,7 @@ subtitle: 9 weeks
 layout: default
 modal-id: 1
 date: 2022-01-12
-img: max_build.jpg
+img: rick.jpg
 thumbnail: max_build-1.jpg
 alt: image-alt
 project-date: January 2022
