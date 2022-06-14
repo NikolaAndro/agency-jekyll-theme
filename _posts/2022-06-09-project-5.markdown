@@ -3,13 +3,8 @@ title: Body Building with Rick Powel
 subtitle: 9 weeks
 layout: default
 modal-id: 1
-<<<<<<< HEAD
-date: 2022-01-12
+date: 2022-06-14
 img: rick.jpg
-=======
-date: 2022-06-09
-img: rick.jpg
->>>>>>> b74e124861def335a3e9fed70d3009204b86e226
 thumbnail: max_build-1.jpg
 alt: image-alt
 project-date: January 2022
