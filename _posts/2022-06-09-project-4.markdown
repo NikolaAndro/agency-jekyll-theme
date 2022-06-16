@@ -10,8 +10,25 @@ alt: image-alt
 project-date: July 2022
 client: Start Bootstrap
 category: Muscle Building
-description: Description coming...
-day1: 
-
+description: Time to shred. I am doing this workout with coach Rick right before his body building competition. Started off on Wednesday... 
+day1: Day 1 Workout 1: Thursday (upper body)
+mon1_exc1: Angel wingls lat cable fly - 3 x 15-20, NO REST (SUPERSET WITH NEXT)
+mon1_exc2: Dips - 3 x 15-20, rest 1 min. (back to angel lats)
+mon1_exc3: Chest press machine - 4 x 15-20, NO REST (SUPERSET WITH NEXT)
+mon1_exc4: Barbell shrug - 4 x 15 x 20, rest 90 sec.
+mon1_exc5: Narrow grip row - 4 x 15-20, rest 1 min. 
+mon1_exc6: Cables low to high chest fly - 3 x 15-20, rest 90 sec.
+mon1_exc7: Incline dumbbell bench press, 3 x 15-20, NO REST (SUPERSET WITH NEXT)
+mon1_exc8: Lateral shoulder raises, 3 x 15-20, NO REST (SUPERSET WITH NEXT)
+mon1_exc9: Reverse grip ez bar biceps curls, 3 x 15-20, rest 90 sec. (back to incline db bench press)
+mon1_exc10: Hammer curls, 3 x 15-20, 1 min. rest
+mon1_exc11: Cable high - kneeling biceps curls (show off biceps), 3 x 15-20, rest 1 min. 
+mon1_exc12: Cables low to high - standing biceps curls (same stands as for chest press) - 3 x 15-20, NO REST (SUPERSET WITH NEXT)
+mon1_exc13: Triceps ez bar cable push down - 3 x 15-20, rest 90 sec. (back to biceps)
+mon1_exc14: Machine rear dealt fly - 3 x 15-20, rest 1 min.
+mon1_exc15: Abs crunches - 4 x 20, NO REST (SUPERSET WITH NEXT)
+mon1_exc16: Rotating abs machine - 4 x 20, NO REST (SUPERSET WITH NEXT)
+mon1_exc17: Leg raises - 4 x 20, rest 1 min.
+day2: Day 1 Workout 2: Thursday (upper body)
 
 ---
