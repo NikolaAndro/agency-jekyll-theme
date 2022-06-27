@@ -1,6 +1,6 @@
 ---
-title: Blood \% Guts
-subtitle: 40 days
+title: Blood & Guts
+subtitle: 6 weeks
 layout: default
 modal-id: 5
 date: 2022-06-24
