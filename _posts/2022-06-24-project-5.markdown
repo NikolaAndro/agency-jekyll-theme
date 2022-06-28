@@ -30,5 +30,16 @@ mon1_exc15:
 mon1_exc16: 
 mon1_exc17: 
 day2: Day 2 - Tuesday (back)
+tu1_exc1: Treadmill walking -1 x 10 min.
+tu1_exc2: Bent arm dumbbell pull over warm-up - 2 x 12
+tu1_exc3: Bent arm dumbbell pull over - 1 x 8-10 (use help from spotter on the final reps)
+tu1_exc4: Close grip pull down warm-up - 1 x 10-12
+tu1_exc5: Close grip pull down - 1 x 8-10
+tu1_exc6: Single arm dumbbell row warm up sets (left and right) - 1 x 10-12
+tu1_exc7: Single arm dumbbell row (left and right) - 1 x 8-10 
+tu1_exc8: Cable seated row warm-up- 1 x 8-10
+tu1_exc9: Cable seated row  wide grip - 1 x 8-10 (to the failure)
+tu1_exc10: Barbell deadlift warm-up - 1 x 10-12 (down to mid shin)
+tu1_exc11: Barbell deadlift - 1 x 8-10
 
 ---
