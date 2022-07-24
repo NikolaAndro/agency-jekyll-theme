@@ -4,8 +4,8 @@ subtitle: 1 week
 layout: default
 modal-id: 6
 date: 2022-07-24
-img: ultimate-diet-cover.png
-thumbnail: ultimate-diet-inside.png
+img: ultimate-diet-inside.png
+thumbnail: ultimate-diet-cover.png 
 alt: image-alt
 project-date: July 2022
 client: Start Bootstrap
