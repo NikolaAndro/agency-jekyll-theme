@@ -39,14 +39,14 @@ tu1_exc6: Calf Raise 3 x 15, rest 1 min.
 tu1_exc7: Bicep Curl 2 x 15, rest 1 min.
 tu1_exc8: Triceps Pushdown 2 x 15, rest 1 min.
 tu1_exc9: Leg Press - 3 x 15, rest 1 min.
-tu1_exc10: Leg Curl 3 x 15, rest 1 min. 
-tu1_exc11: Incline Bench 3 x 15, rest 1 min.
-tu1_exc12: Lat Pulldown 3 x 15, rest 1 min.
+tu1_exc10: Leg Curl - 3 x 15, rest 1 min. 
+tu1_exc11: Incline Bench - 3 x 15, rest 1 min.
+tu1_exc12: Lat Pulldown - 3 x 15, rest 1 min.
 tu1_exc13: Lateral Raise 3 x 15, rest 1 min.
 tu1_exc14: Calf Raise 3 x 15, rest 1 min.
 tu1_exc15: Bicep Curl 2 x 15, rest 1 min.
 tu1_exc16: Triceps Pushdown 2 x 15, rest 1 min.
-tu1_exc17:30-60 minutes of Low-Intensity Steady State (LISS) cardio
+tu1_exc17: 30-60 minutes of Low-Intensity Steady State (LISS) cardio
 day3: Wednesday (Legs - quads & calves)
 wed1_exc1: Barbell back squat (warm-up sets) 2 x 10, rest 1 min.
 wed1_exc2: Barbell back squat - 12/10/10/8/6, rest 2 min.
@@ -56,9 +56,6 @@ wed1_exc5: Leg extension - 4 x 15, rest 1 min. + triple drop set after the last 
 wed1_exc6: Smith machine standing calf raise - 4 x 10-12, rest 1 min.
 wed1_exc7: Machine seated calf raise, 4 x 12-15, NO REST
 wed1_exc8: Leg press calf raise, 4 x 12-15, rest 1 min. (back to machine seated calf raise)
-wed1_exc9: 
-wed1_exc10:
-wed1_exc11:
 day4: Thursday (Shoulders & Abs)
 th1_exc1: Seated barbell shoulder press (warm-up sets) - 2 x 10, rest 1 min.
 th1_exc2: Seated barbell shoulder press, 12/10/10/10/8, rest 90 sec. + double drop set after the last set
@@ -95,5 +92,4 @@ sat1_exc5: Dumbbell walking lunge - 5 x 20, rest 1 min. (back to leg press)
 sat1_exc6: Leg curl - 6 x 12-15, rest 1 min. + 5 partial reps after reaching failure after each set
 day7: Sunday
 sun1_exc1: REST
-
 ---
