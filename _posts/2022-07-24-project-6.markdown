@@ -9,7 +9,7 @@ thumbnail: ultimate-diet-cover.png
 alt: image-alt
 project-date: July 2022
 client: Start Bootstrap
-category: Muscle Building
+category: Shredding
 description: 
 day1: Monday (Full Body Glyogen Depletion)
 mon1_exc1: Leg Press - 3 x 15, rest 1 min.
