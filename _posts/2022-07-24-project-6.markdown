@@ -47,49 +47,35 @@ tu1_exc14: Calf Raise 3 x 15, rest 1 min.
 tu1_exc15: Bicep Curl 2 x 15, rest 1 min.
 tu1_exc16: Triceps Pushdown 2 x 15, rest 1 min.
 tu1_exc17: 30-60 minutes of Low-Intensity Steady State (LISS) cardio
-day3: Wednesday (Legs - quads & calves)
-wed1_exc1: Barbell back squat (warm-up sets) 2 x 10, rest 1 min.
-wed1_exc2: Barbell back squat - 12/10/10/8/6, rest 2 min.
-wed1_exc3: Hack squat - 4 x 12-15, rest 90 sec. + single drop set after the last set
-wed1_exc4: Leg press - 20/15/15/15/10, rest 90 sec. + double drop set after the last set
-wed1_exc5: Leg extension - 4 x 15, rest 1 min. + triple drop set after the last set
-wed1_exc6: Smith machine standing calf raise - 4 x 10-12, rest 1 min.
-wed1_exc7: Machine seated calf raise, 4 x 12-15, NO REST
-wed1_exc8: Leg press calf raise, 4 x 12-15, rest 1 min. (back to machine seated calf raise)
-day4: Thursday (Shoulders & Abs)
-th1_exc1: Seated barbell shoulder press (warm-up sets) - 2 x 10, rest 1 min.
-th1_exc2: Seated barbell shoulder press, 12/10/10/10/8, rest 90 sec. + double drop set after the last set
-th1_exc3: Neutral grip Arnold press - 4 x 10, rest 1 min.
-th1_exc4: Dumbbell lateral raise - 4 x 12, rest 1 min. + double drop set after the last set
-th1_exc5: EZ-Bar fron raise - 4 x 12, rest 1 min.
-th1_exc6: Incline dumbbell reverse fly - 4 x 12, rest 1 min. + double drop set after the last set
-th1_exc7: Standing dumbbell shrug - 6 x 12-15, rest 1 min.
-th1_exc8: Feet on the bench side plank with hip dip (left) - 4 x 12, NO REST
-th1_exc9: Feet on the bench side plank with hip dip (right) - 4 x 12, rest 1 min. (back to left side)
-th1_exc10: Half Turkish get-up, 4 x 12 (left side) - 4 x 12, NO REST
-th1_exc11: Half Turkish get-up, 4 x 12 (right side) - 4 x 12, rest 1 min. (back to left side)
-th1_exc12: Hollow body hold - 4 x 60 sec. rest 1 min.
-day5: Friday (Arms)
-fri1_exc1: Barbell curl (warm up sets) - 2 x 10, rest 1 min.
-fri1_exc2: Barbell curl - 4 x 10, rest 45 sec. + double drop set after the last set
-fri1_exc3: Alternating biceps curl - 4 x 12 each, rest 45 sec. + single drop set after the last set
-fri1_exc4: EZ preacher curl - 4 x 12, rest 45 sec.
-fri1_exc5: Incline dumbbell biceps curl - 4 x 12, rest 45 sec. + double drop set after the last set
-fri1_exc6: Alternating hammer curl - 4 x 10 each, rest 45 sec.
-fri1_exc7: Overhead cable curl - 6 x 15, rest 30 sec.
-fri1_exc8: EZ-bar scullcrusher - 4 x 10, rest 45 sec. + double drop set after the last set
-fri1_exc9: Seated triceps press - 4 x 12, rest 45 sec. + single drop set after the last set
-fri1_exc10: Triceps dip with extra weight - 4 x 12, rest 1 min.
-fri1_exc11: Cable rope push-down - 15/12/10/10, rest 45 sec. + single drop set after the last set
-fri1_exc12: Cable V-bar push-down - 6 x 12, NO REST
-fri1_exc13: Diamond push-up - 6 x 12, rest 1 min. (back to V-bar push-down)
-day6: Saturday (legs - hamstrings)
-sat1_exc1: Lying leg curl (warm up sets) 2 x 10, rest 1 min.
-sat1_exc2: Lying leg curl - 5 x 15, rest 1 min. 
-sat1_exc3: Dumbbell stiff-legged deadlift - 4 x 12, rest 90 sec.
-sat1_exc4: Leg press legs high - 5 x 20, NO REST
-sat1_exc5: Dumbbell walking lunge - 5 x 20, rest 1 min. (back to leg press)
-sat1_exc6: Leg curl - 6 x 12-15, rest 1 min. + 5 partial reps after reaching failure after each set
+day3: Wednesday (Optional Morning Moderate-Intensity Cardio)
+wed1_exc1: Running 45-60 min. 
+day4: Thursday (Cardio and Tension training (70-85% of 1RM) Stop 1 rep short of failure <i>final glyogen depletion<i>) 
+th1_exc1: (Optional) Running 30-60 min (Must be done in the morning!)
+th1_exc2: Leg Press 2 x 6-12, rest 1-2 min. 
+th1_exc3: Leg Curl 2 x 6-12, rest 1-2 min. 
+th1_exc4: Leg Extension 1-2 x 6-12, rest 1-2 min. 
+th1_exc5: Seated Leg Curl 1-2 x 6-12, rest 1-2 min. 
+th1_exc6: Calf Raise 3-4 x 6-12,rest 1-2 min.
+th1_exc7: Bench Press (or chest press machine)  2 x 6-12, rest 1-2 min. 
+th1_exc8: Cable Row  2 x 6-12, rest 1-2 min. 
+th1_exc9: Incline Bench Press  1-2 x 6-12, rest 1-2 min. 
+th1_exc10: Pull down or Chin Ups 1-2 x 6-12, rest 1-2 min. 
+th1_exc11: Lateral Raise 2-3 x 6-12, rest 1-2 min. 
+th1_exc12: Bicep Curl 2 x 6-12, rest 1-2 min. 
+th1_exc13: Triceps Pushdwon 2 x 6-12, rest 1-2 min. 
+day5: Friday (Rest)
+day6: Saturday (Power) - <i> 2-4 seconds down, lift up as quickly as possible
+sat1_exc1: Barbell Back Squat 3 x 3-6, rest 2 min. 
+sat1_exc2: Calf Raise 3 x 3-6, rest 2 min. 
+sat1_exc3: Bench Press 3 x 3-6, rest 2 min. 
+sat1_exc4: Bent over row 3 x 3-6, rest 2 min. 
+sat1_exc5: Incline Bench 3 x 3-6, rest 2 min. 
+sat1_exc6: Pull up 3 x 3-6, rest 2 min. 
+sat1_exc7: Leg Press 3 x 3-6, rest 2 min. 
+sat1_exc8: Shoulder Press 3 x 3-6, rest 2 min. 
+sat1_exc9: Rear lateral 3 x 3-6, rest 2 min. 
+sat1_exc10: Barbell Curl 2 x 3-6, rest 2 min. 
+sat1_exc11: Close grip bench 2 x 3-6
 day7: Sunday
 sun1_exc1: REST
 ---
