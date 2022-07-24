@@ -20,7 +20,7 @@ mon1_exc5: Lateral Raise 3 x 15, rest 1 min.
 mon1_exc6: Calf Raise 3 x 15, rest 1 min.
 mon1_exc7: Bicep Curl 2 x 15, rest 1 min.
 mon1_exc8: Triceps Pushdown 2 x 15, rest 1 min.
-mmon1_exc9: Leg Press - 3 x 15, rest 1 min.
+mon1_exc9: Leg Press - 3 x 15, rest 1 min.
 mon1_exc10: Leg Curl 3 x 15, rest 1 min. 
 mon1_exc11: Chest Press 3 x 15, rest 1 min.
 mon1_exc12: Barbbell Row 3 x 15, rest 1 min.
