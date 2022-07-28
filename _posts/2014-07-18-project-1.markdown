@@ -24,6 +24,7 @@ mon1_exc8: Push-up - 6 x 12-15, rest 1 min. (back to high to low fly)
 mon1_exc9: Weighted sit-up - 4 x 10, rest 1 min.
 mon1_exc10: Suspended crunch - 4 x 10, rest 1 min.
 mon1_exc11: Hanging exercise ball leg raise - 4 x 10, rest 1 min.
+day2_num: 2.
 day2: Tuesday (Back & Abs)
 tu1_exc1: Lat pull-down (warm-up sets) - 2 x 10, rest 1 min.
 tu1_exc2: Lat pull-down - 12/10/10/10/8, rest 90 sec. + double drop set after the last set
@@ -36,6 +37,7 @@ tu1_exc8: Back extension with extra weight, 4 x 12, rest 1 min.
 tu1_exc9: Ab wheel roll-out, 4 x 10, NO REST
 tu1_exc10: Hanging leg raise- 4 x 10, NO REST
 tu1_exc11: Medicine ball russian twist - 4 x 20, rest 90 sec (back to ab wheel roll-outs)
+day3_num: 3.
 day3: Wednesday (Legs - quads & calves)
 wed1_exc1: Barbell back squat (warm-up sets) 2 x 10, rest 1 min.
 wed1_exc2: Barbell back squat - 12/10/10/8/6, rest 2 min.
@@ -48,6 +50,7 @@ wed1_exc8: Leg press calf raise, 4 x 12-15, rest 1 min. (back to machine seated 
 wed1_exc9: 
 wed1_exc10:
 wed1_exc11:
+day4_num: 4.
 day4: Thursday (Shoulders & Abs)
 th1_exc1: Seated barbell shoulder press (warm-up sets) - 2 x 10, rest 1 min.
 th1_exc2: Seated barbell shoulder press, 12/10/10/10/8, rest 90 sec. + double drop set after the last set
@@ -61,6 +64,7 @@ th1_exc9: Feet on the bench side plank with hip dip (right) - 4 x 12, rest 1 min
 th1_exc10: Half Turkish get-up, 4 x 12 (left side) - 4 x 12, NO REST
 th1_exc11: Half Turkish get-up, 4 x 12 (right side) - 4 x 12, rest 1 min. (back to left side)
 th1_exc12: Hollow body hold - 4 x 60 sec. rest 1 min.
+day5_num: 5.
 day5: Friday (Arms)
 fri1_exc1: Barbell curl (warm up sets) - 2 x 10, rest 1 min.
 fri1_exc2: Barbell curl - 4 x 10, rest 45 sec. + double drop set after the last set
@@ -82,6 +86,7 @@ sat1_exc3: Dumbbell stiff-legged deadlift - 4 x 12, rest 90 sec.
 sat1_exc4: Leg press legs high - 5 x 20, NO REST
 sat1_exc5: Dumbbell walking lunge - 5 x 20, rest 1 min. (back to leg press)
 sat1_exc6: Leg curl - 6 x 12-15, rest 1 min. + 5 partial reps after reaching failure after each set
+day7_num: 7.
 day7: Sunday
 sun1_exc1: REST
 day8: Monday (Chest & Abs)
