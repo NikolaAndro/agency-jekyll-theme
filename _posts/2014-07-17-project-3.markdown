@@ -1,6 +1,6 @@
 ---
 title: Shredding by Daniel
-subtitle: 4 weeks
+subtitle: 3 weeks
 layout: default
 modal-id: 3
 date: 2022-02-07
@@ -10,7 +10,8 @@ alt: image-alt
 project-date: January 2022
 client: Start Bootstrap
 category: Body Building
-description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. <b>THERE IS NO REST BETWEEN THE SETS!!!</b><br><br>Note that every week you will workout the following groups of muscles in the following manner  <br><br> Monday ~ Back & Biceps <br> Tuesday ~ Legs & Shoulders <br> Wednesday ~ Chest & Triceps <br> Thursday ~ Back & Biceps <br> Friday ~ Legs & Shoulders <br> Saturday ~ Chest & Triceps <br> Sunday ~ rest <br><br> Also note that every week you workout each muscle group twice! The second time in the week you want to go a bit lower weight than you would go the first time in the week because you have more energy after your Sunday rest day. <br><br> The most important part of shredding is your diet. Figure it out...
+description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. <b>THERE IS NO REST BETWEEN THE SETS!!!</b><br><br>Note that every week you will workout the following groups of muscles in the following manner  <br><br> Monday ~ Back & Biceps <br> Tuesday ~ Legs & Shoulders <br> Wednesday ~ Chest & Triceps <br> Thursday ~ Back & Biceps <br> Friday ~ Legs & Shoulders <br> Saturday ~ Chest & Triceps <br> Sunday ~ rest <br><br> Also note that every week you workout each muscle group twice! The second time in the week you want to go a bit lower weight than you would go the first time in the week because you have more energy after your Sunday rest day. <br><br> The most important part of shredding is your diet. Figure it out... I repeated this 4 times in a row = 3 months.
+week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Back & Biceps)
 mon1_exc1: V-rows - 4 x 12, NO REST 
@@ -104,6 +105,7 @@ sat1_exc13: Cable rope overhead push 4 x 12
 sat1_exc14: Triceps machine press down - 4 x 15
 day7_num: Day 7 -
 day7: Sunday
+week2_num: Week 2
 day8_num: Day 8 -
 day8: Monday (Back & Biceps)
 sun1_exc1: REST
@@ -202,6 +204,7 @@ sat2_exc14: Triceps machine press down - 4 x 15
 day14_num: Day 14 -
 day14: Sunday
 sun2_exc1: REST
+week3_num: Week 3
 day15_num: Day 15 -
 day15: Monday (Back & Biceps)
 mon3_exc1: Close grip rows - 4 x 12, NO REST 
@@ -299,5 +302,6 @@ sat3_exc13: Cable rope overhead push 4 x 12
 sat3_exc14: Triceps machine press down - 4 x 15
 day21_num: Day 21 -
 day21: Sunday 
+sun3_exc1: rest
 
 ---
