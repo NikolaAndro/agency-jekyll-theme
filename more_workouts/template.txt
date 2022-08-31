@@ -806,7 +806,7 @@ wed9_exc6:
 wed9_exc7:
 wed9_exc8:
 wed9_exc9:
-wed9_exc10
+wed9_exc10:
 wed9_exc11:
 day60_num: Day 60 -
 day60: Thursday (Shoulders & Abs)
