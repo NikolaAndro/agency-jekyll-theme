@@ -1,3 +1,10 @@
+# Support my project
+
+Support my project to keep adding more workouts by donating!
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.buymeacoffee.com/nikolaandro)
+
+
 Agency Jekyll theme
 ====================
 
