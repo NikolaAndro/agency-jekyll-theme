@@ -42,3 +42,4 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+issues_repo: NikolaAndro/WorkoutPageComments.git
