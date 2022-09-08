@@ -11,9 +11,9 @@
 				{% include comments.html %}
 			</div>
 		    {% endunless %} -->
-			{% highlight liquid %} {% raw %} {% unless page.comments == "nope" %}
+			{% unless page.comments == "nope" %}
 			{% include comments.html %}
-			{% endunless %} {% endraw %} {% endhighlight %}
+			{% endhighlight %}
 		</div>
 	    </div>
 	</div>
