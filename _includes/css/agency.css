@@ -19,8 +19,12 @@ body {
 }
 
 .team_member {
-  width:33.3333333%;
-  display: inline-block;
+    width:33.3333333%;
+    display: inline-block;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
 }
 
 .text-muted {
