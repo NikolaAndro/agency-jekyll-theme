@@ -6,11 +6,14 @@
 		    <h3 class="section-subheading text-muted">
 		         
 		    </h3>
-		    {% unless page.comments == "nope" %}
+<!-- 		    {% unless page.comments == "nope" %}
 			<div id="comment-section" class="comment-section">
 				{% include comments.html %}
 			</div>
-		    {% endunless %}
+		    {% endunless %} -->
+			{% highlight liquid %} {% raw %} {% unless page.comments == "nope" %}
+			{% include comments.html %}
+			{% endunless %} {% endraw %} {% endhighlight %}
 		</div>
 	    </div>
 	</div>
