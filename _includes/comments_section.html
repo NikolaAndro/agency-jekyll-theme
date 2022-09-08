@@ -11,8 +11,13 @@
 				{% include comments.html %}
 			</div>
 		    {% endunless %} -->
-			{% unless page.comments == "nope" %}
+<!-- 			{% unless page.comments == "nope" %}
 			{% include comments.html %}
+			{% endunless %} -->
+			{% unless page.comments == "nope" %}
+			<div id="comment-section" class="comment-section">
+				{% include comments.html %}
+			</div>
 			{% endunless %}
 		</div>
 	    </div>
