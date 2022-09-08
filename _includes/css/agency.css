@@ -10,11 +10,14 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
-.div-centered{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+/* Inner and outer div where inner is centered horizontally */
+#inner {
+  display: table;
+  margin: 0 auto;
+}
+
+#outer {
+  width:100%;
 }
 
 .text-muted {
