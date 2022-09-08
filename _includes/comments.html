@@ -11,7 +11,7 @@
 {% assign comment_count = comment_count | plus:  site.data.comments[comment_data_file].count.replies %}
 {% endif %}
 
-<h3>{{ comment_count }} comments.</h3>
+<h3 class="section-subheading text-muted">{{ comment_count }} comments.</h3>
 
 {% if page.comments == "disallow" %}
 <p>New comments are disabled on this page.</p>
