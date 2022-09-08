@@ -1,0 +1,17 @@
+<section id="comments">
+	<div class="container">
+	    <div class="row">
+		<div class="col-lg-12 text-center">
+		    <h2 class="section-heading">Give some feedback!</h2>
+		    <h3 class="section-subheading text-muted">
+		         
+		    </h3>
+		    {% unless page.comments == "nope" %}
+			<div id="comment-section" class="comment-section">
+				{% include comments.html %}
+			</div>
+		    {% endunless %}
+		</div>
+	    </div>
+	</div>
+</section>

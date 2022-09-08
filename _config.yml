@@ -43,3 +43,27 @@ social:
 markdown: kramdown
 permalink: pretty
 issues_repo: NikolaAndro/WorkoutPageComments.git
+
+# exclude comments
+exclude: ['jekyll-comments/']
+
+jekyll-comments:
+  apiUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTR147A2WRKyIoVxYEQ8LeWKuQa9X8r2kvrf_NZMRqlSfvb2TruEK-RPEWUwODR9t0xQ_qZKPCQJmUj/pubhtml"
+  # [REQUIRED] the url you received from Google Apps Script step, e.g.
+  # "apiUrl": "https://script.google.com/macros/s/AKfycbyTwxtrSxu...g5Guoj5KiKsPMyh4aXQ6c_/exec"
+  commentsDir: "_data/comments/"
+  # this is where are comments are saved, 
+  # default: "_data/comments/"
+  logFile: "jekyll-comments/comments.log"
+  # this file will keep a list of files in which comments are updated, useful in partial builds. 
+  # default: "jekyll-comments/comments.log"
+  saveAsmd5: False
+  # if True, the email ids in _data/comments/*.yml are saved as md5 hashes, useful if you make your _data/comments/*.yml public
+  # otherwise emails are stored as it is
+  # default: False
+  client_id: "832575797784-sl053hh7hngp3mtrv12d7jj5mapju7pe.apps.googleusercontent.com"
+  # client ID obtained from Google Sign In API
+  # YOUR_CLIENT_ID.apps.googleusercontent.com
+  sort: "newest_first"
+  # comment sorting: "newest_first" or "oldest_first"
+
