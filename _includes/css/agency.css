@@ -11,13 +11,16 @@ body {
 }
 
 /* Inner and outer div where inner is centered horizontally */
-#inner {
-  display: table;
-  margin: 0 auto;
+#team_wrapper {
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-#outer {
-  width:100%;
+.team_member {
+  width:33.3333333%;
+  display: inline-block;
 }
 
 .text-muted {
