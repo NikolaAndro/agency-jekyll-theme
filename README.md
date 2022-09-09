@@ -4,6 +4,20 @@ Support my project to keep adding more workouts by donating!
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.buymeacoffee.com/nikolaandro)
 
+# Future Plans
+
+- [ ] Add comments with Google
+- [ ] Add different sectinos per type of workout (Daniel)
+- [ ] AdSense + (how to get partial price of the prodduct they buy) 
+- [ ] Ask nutrition App to promote them
+- [ ] Nutrition Section
+- [ ] Excercise Library Section that leads to our new YouTube Section
+- [ ] YouTube Section
+- [ ] Instagram Page
+- [ ] Eventually $1 per month fee
+- [ ] Table at the beginning of the workout (being able to autoscroll)
+- [ ] Talk to Mathew to promote, we will him, as well as Mirzad
+- [ ] Share in school chats and Other school teams/chats
 
 Agency Jekyll theme
 ====================
