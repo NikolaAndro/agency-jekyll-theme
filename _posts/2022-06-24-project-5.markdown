@@ -1,11 +1,11 @@
 ---
-title: Blood & Guts
+title: Bloody Hell
 subtitle: 6 weeks
 layout: default
 modal-id: 5
 date: 2022-06-24
-img: blood-and-guts.jpg
-thumbnail: bloodnguts.png
+img: beast_mode.png
+thumbnail: beast_mode.png
 alt: 
 project-date: July 2022
 client: Start Bootstrap
