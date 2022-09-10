@@ -1,11 +1,11 @@
 ---
-title: Max Muscle Building
+title: Max Effort
 subtitle: 9 weeks
 layout: default
 modal-id: 1
 date: 2022-01-12
-img: max_build.jpg
-thumbnail: max_build-1.jpg
+img: 1.png
+thumbnail: 1.png
 alt: image-alt
 project-date: January 2022
 client: Start Bootstrap
