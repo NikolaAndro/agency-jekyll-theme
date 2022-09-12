@@ -1,7 +1,7 @@
 ---
 title: The Ultimate Diet Workout
 subtitle: 1 week
-layout: default
+layout: workout_post
 modal-id: 6
 date: 2022-07-24
 img: ultimate-diet-inside.png
