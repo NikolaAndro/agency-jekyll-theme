@@ -76,7 +76,7 @@
     <body id="page-top" class="index">
 
         <!-- Portfolio Modals -->
-        {% assign thepost = site.posts | where:"modal-id","1" %}
+        {% assign thepost = site.posts | where:"slug","max_effort" %}
         {% for post in thepost %}
             <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-content">
