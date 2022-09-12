@@ -67,3 +67,17 @@ jekyll-comments:
   sort: "newest_first"
   # comment sorting: "newest_first" or "oldest_first"
 
+# adding layout defaults ( https://jekyllrb.com/docs/configuration/front-matter-defaults/ )
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "workouts"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "page" # overrides previous default layout
