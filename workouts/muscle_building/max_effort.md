@@ -2,7 +2,7 @@
 title: Max Effort
 slug: max_effort
 subtitle: 9 weeks
-layout: page
+layout: default
 permalink: /max_effort/
 modal-id: 1
 date: 2022-01-12
