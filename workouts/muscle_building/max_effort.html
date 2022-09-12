@@ -1,79 +1,3 @@
-<!-- <!DOCTYPE html>
-<html>
-
-    <head>
-        <!--     {% highlight liquid %} {% raw %}{% endraw %} {% endhighlight %}
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <meta name="google-signin-client_id" content="832575797784-sl053hh7hngp3mtrv12d7jj5mapju7pe.apps.googleusercontent.com"> -->
-        
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-239987846-2"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-    
-            gtag('config', 'G-H0D2XHK877');
-        </script>
-        
-        <!--  Google Ads    -->
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5477243355790075"
-            crossorigin="anonymous"></script>
-        
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="{{ site.description }}">
-        <link rel="canonical" href="{{ page.url  | remove: 'index.html' | remove: '.html' | absolute_url }}">
-    
-    
-        <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-        <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
-    
-        <!-- Custom Fonts -->
-        <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <style>
-            pweek    {color: DodgerBlue; font-size: 300%;text-decoration: underline;}
-            pday     {color: Gold; font-size: 250%;}
-            daynum   {color: DodgerBlue; }
-            workouttype     {color: Gold; font-size: 250%;}
-            html {
-                scroll-behavior: smooth;
-            } 
-            table {
-            /*   font-family: arial, sans-serif; */
-                color: DodgerBlue;
-                border-collapse: collapse;
-                width: 100%;
-            }
-            
-            td, th {
-                border: 1px solid #dddddd;
-                text-align: center;
-                padding: 8px;
-                color: DodgerBlue;
-            }
-            
-            tr:nth-child(even) {
-                background-color: #dddddd;
-            }
-            </style> 
-    </head>
-
-    <body id="page-top" class="index"> -->
 
         <!-- Portfolio Modals -->
         {% assign thepost = site.posts | where:"slug","max_effort" %}
@@ -203,7 +127,7 @@
                                             <p>{{ post.mon1_exc15 }}</p>
                                             <p>{{ post.mon1_exc16 }}</p>
                                             <p>{{ post.mon1_exc17 }}</p>
-                
+
                                         <pday>  <daynum>{{post.day2_num}}</daynum> {{post.day2}}  </pday><br><br>
                                             <p>{{ post.tu1_exc1 }}</p>
                                             <p>{{ post.tu1_exc2 }}</p>
@@ -222,8 +146,8 @@
                                             <p>{{ post.tu1_exc15 }}</p>
                                             <p>{{ post.tu1_exc16 }}</p>
                                             <p>{{ post.tu1_exc17 }}</p>
-                        
-                                
+
+
                                         <pday> <daynum>{{post.day3_num}}</daynum>  {{post.day3}} </pday><br><br>
                                             <p>{{ post.wed1_exc1 }}</p>
                                             <p>{{ post.wed1_exc2 }}</p>
@@ -304,7 +228,7 @@
                                             <p>{{ post.sun1_exc9 }}</p>
                                             <p>{{ post.sun1_exc10 }}</p>
                                             <p>{{ post.sun1_exc11 }}</p>
-                                
+
                                 <pweek> {{post.week2_num}} </pweek><br><br>
                                         <pday>  <daynum>{{post.day8_num}}</daynum> {{post.day8}} </pday><br><br>
                                             <p>{{ post.mon2_exc1 }}</p>
@@ -404,7 +328,7 @@
                                             <p>{{ post.sun2_exc9 }}</p>
                                             <p>{{ post.sun2_exc10 }}</p>
                                             <p>{{ post.sun2_exc11 }}</p>
-                                
+
                                 <pweek> {{post.week3_num}} </pweek><br><br>
                                         <pday>  <daynum>{{post.day15_num}}</daynum> {{post.day15}} </pday><br><br>
                                             <p>{{ post.mon3_exc1 }}</p>
@@ -509,7 +433,7 @@
                                             <p>{{ post.sun3_exc9 }}</p>
                                             <p>{{ post.sun3_exc10 }}</p>
                                             <p>{{ post.sun3_exc11 }}</p>
-                                
+
                                 <pweek> {{post.week4_num}} </pweek><br><br>
                                         <pday>   <daynum>{{post.day22_num}}</daynum> {{post.day22}} </pday><br><br>
                                             <p>{{ post.mon4_exc1 }}</p>
@@ -596,7 +520,7 @@
                                             <p>{{ post.sun4_exc9 }}</p>
                                             <p>{{ post.sun4_exc10 }}</p>
                                             <p>{{ post.sun4_exc11 }}</p>
-                                
+
                                 <pweek> {{post.week5_num}} </pweek><br><br>
                                         <pday>   <daynum>{{post.day29_num}}</daynum> {{post.day29}} </pday><br><br>
                                             <p>{{ post.mon5_exc1 }}</p>
@@ -691,7 +615,7 @@
                                             <p>{{ post.sun5_exc9 }}</p>
                                             <p>{{ post.sun5_exc10 }}</p>
                                             <p>{{ post.sun5_exc11 }}</p>
-                                
+
                                 <pweek> {{post.week6_num}} </pweek><br><br>
                                         <pday>   <daynum>{{post.day36_num}}</daynum> {{post.day36}} </pday><br><br>
                                             <p>{{ post.mon6_exc1 }}</p>
@@ -788,7 +712,7 @@
                                             <p>{{ post.sun6_exc9 }}</p>
                                             <p>{{ post.sun6_exc10 }}</p>
                                             <p>{{ post.sun6_exc11 }}</p>
-                                
+
                                 <pweek> {{post.week7_num}} </pweek><br><br>
                                         <pday>   <daynum>{{post.day43_num}}</daynum> {{post.day43}} </pday><br><br>
                                             <p>{{ post.mon7_exc1 }}</p>
@@ -885,7 +809,7 @@
                                             <p>{{ post.sun7_exc9 }}</p>
                                             <p>{{ post.sun7_exc10 }}</p>
                                             <p>{{ post.sun7_exc11 }}</p>
-                                
+
                                 <pweek> {{post.week8_num}} </pweek><br><br>
                                         <pday>   <daynum>{{post.day50_num}}</daynum> {{post.day50}} </pday><br><br>
                                             <p>{{ post.mon8_exc1 }}</p>
@@ -943,7 +867,7 @@
                                             <p>{{ post.th8_exc16 }}</p>
                                             <p>{{ post.th8_exc17 }}</p>
                                             <p>{{ post.th8_exc18 }}</p>
-                
+
                                         <pday>   <daynum>{{post.day54_num}}</daynum> {{post.day54}} </pday><br><br>
                                             <p>{{ post.fri8_exc1 }}</p>
                                             <p>{{ post.fri8_exc2 }}</p>
@@ -981,7 +905,7 @@
                                             <p>{{ post.sun8_exc9 }}</p>
                                             <p>{{ post.sun8_exc10 }}</p>
                                             <p>{{ post.sun8_exc11 }}</p>
-                                
+
                                 <pweek> {{post.week9_num}} </pweek><br><br>
                                         <pday>   <daynum>{{post.day57_num}}</daynum> {{post.day57}} </pday><br><br>
                                             <p>{{ post.mon9_exc1 }}</p>
@@ -1071,16 +995,16 @@
                                             <p>{{ post.sun9_exc9 }}</p>
                                             <p>{{ post.sun9_exc10 }}</p>
                                             <p>{{ post.sun9_exc11 }}</p>
-                                                        
-                                
-                                    
+
+
+
                                     <ul class="list-inline item-details">
-                                    
+
                                         <li>Date:
                                             <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
                                             </strong>
                                         </li>
-                
+
                                     </ul>
                                     <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                                 </div>
