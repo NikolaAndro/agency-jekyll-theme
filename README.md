@@ -4,6 +4,15 @@ Support my project to keep adding more workouts by donating!
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.buymeacoffee.com/nikolaandro)
 
+# Next
+
+Every portfolio needs to point to a new html page.
+
+1. Create HTML page for each workout. 
+2. Every page needs to be filled with post.md information. 
+3. From portfolio.html you need to direct href to the specific folder and specific file name
+3. See how to make URL pretty
+
 # Future Plans
 
 - [ ] Add comments with Google
