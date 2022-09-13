@@ -2,7 +2,7 @@
 <html>
    {% include head.html %}
    <style>
-    pweek    {color: DodgerBlue; font-size: 300%;text-decoration: underline;}
+    .week_num    {color: DodgerBlue; font-size: 300%;text-decoration: underline;}
     pday     {color: Gold; font-size: 250%;}
     daynum   {color: DodgerBlue; }
     workouttype     {color: Gold; font-size: 250%;}
@@ -22,6 +22,9 @@
       padding: 8px;
       color: DodgerBlue;
     }
+      h2 {
+         font-style: italic;
+      }
       
 /*       th a {
           border: 1px solid #dddddd;
@@ -147,7 +150,7 @@
                                     <td><a href="#day7w9" > Day 7</a></td>
                                   </tr>
                                 </table>
-                              <pweek><a id="week1"> {{page.week1_num}} </a> </pweek><br><br>
+                              <pweek><a class="week_num"> {{page.week1_num}} </a> </pweek><br><br>
                                     <pday>   <daynum>{{page.day1_num}}</daynum> {{page.day1}} </pday><br><br>
                                         <p>{{ page.mon1_exc1 }}</p>
                                         <p>{{ page.mon1_exc2 }}</p>
