@@ -2,9 +2,8 @@
 layout: page
 canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/max_effort/
 url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/max_effort/
-title: FUCK
+title: Max Effort
 name: Max Effort
-slug: max_effort
 subtitle: 9 weeks
 layout: page
 modal-id: 1
