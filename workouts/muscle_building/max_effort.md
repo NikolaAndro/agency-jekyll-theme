@@ -94,6 +94,7 @@ sat1_exc6: Leg curl - 6 x 12-15, rest 1 min. + 5 partial reps after reaching fai
 day7_num: Day 7 -
 day7: Sunday
 sun1_exc1: REST
+week2_num: Week 2
 day8_num: Day 8 -
 day8: Monday (Chest & Abs)
 mon2_exc1: Incline dumbbell bench press (warm up sets) 2 x 10, rest 1 min.
@@ -172,6 +173,7 @@ sat2_exc1: REST
 day14_num: Day 14 -
 day14: Sunday
 sun2_exc1: REST
+week3_num: Week 3
 day15_num: Day 15 -
 day15: Monday (Chest & Abs) 
 mon3_exc1: Barbell bench press medium grip - 2 x 10, rest 1 min (warm up sets)
@@ -272,6 +274,7 @@ sun3_exc8:
 sun3_exc9: 
 sun3_exc10: 
 sun3_exc11: 
+week4_num: Week 4
 day22_num: Day 22 -
 day22: Monday (Chest & Abs)
 mon4_exc1: Incline dumbbell bench press - 2 x 10, rest 1 min. (warm up sets)
@@ -369,6 +372,7 @@ sun4_exc8:
 sun4_exc9: 
 sun4_exc10: 
 sun4_exc11: 
+week5_num: Week 5
 day29_num: Day 29 -
 day29: Monday (Chest & Abs)
 mon5_exc1: Incline bench press - 2 x 10, rest 1 min. (warm up sets)
@@ -469,6 +473,7 @@ sun5_exc8:
 sun5_exc9: 
 sun5_exc10: 
 sun5_exc11: 
+week6_num: Week 6
 day36_num: Day 36 -
 day36: Monday (Chest & Abs)
 mon6_exc1: Dumbbell bench press - 2 x 10, rest 1 min. (warm up sets)
@@ -571,6 +576,7 @@ sun6_exc8:
 sun6_exc9: 
 sun6_exc10: 
 sun6_exc11: 
+week7_num: Week 7
 day43_num: Day 43 -
 day43: Monday (Chest)
 mon7_exc1: Machine chest fly - 5 x 12-15, rest 45 sec. 
@@ -673,6 +679,7 @@ sun7_exc8:
 sun7_exc9:
 sun7_exc10:
 sun7_exc11:
+week8_num: Week 8
 day50_num: Day 50 -
 day50: Monday (Chest)
 mon8_exc1: Incline dumbbell bench press - 2 x 10, rest 1 min. (warm up sets)
@@ -748,30 +755,9 @@ fri8_exc11: Cable rope hammer curls - 5 x 12, NO REST (use blood restriction)
 fri8_exc12: Cable rope push-down - 5 x 15, rest 45 sec. (back to rope curls) (use blood restriction)
 day55_num: Day 55 -
 day55: Saturday (REST)
-sat7_exc1: 
-sat7_exc2:
-sat7_exc3:
-sat7_exc4:
-sat7_exc5:
-sat7_exc6:
-sat7_exc7:
-sat7_exc8:
-sat7_exc9:
-sat7_exc10:
-sat7_exc11:
 day56_num: Day 56 -
 day56: Sunday (REST)
-sun7_exc1: 
-sun7_exc2:
-sun7_exc3:
-sun7_exc4:
-sun7_exc5:
-sun7_exc6:
-sun7_exc7:
-sun7_exc8:
-sun7_exc9:
-sun7_exc10:
-sun7_exc11:
+week9_num: Week 9
 day57_num: Day 57 -
 day57: Monday (Chest & Abs)
 mon9_exc1: Incline bench press - 2 x 10, rest 1 min (warm up sets)
@@ -842,28 +828,6 @@ fri9_exc12: Cable V-bar push-down - 6 x 12, NO REST
 fri9_exc13: Diamond push-up - 6 x 12, rest 1 min. (back to v-bar push-down)
 day62_num: Day 62 -
 day62: Saturday (REST)
-sat7_exc1: 
-sat7_exc2:
-sat7_exc3:
-sat7_exc4:
-sat7_exc5:
-sat7_exc6:
-sat7_exc7:
-sat7_exc8:
-sat7_exc9:
-sat7_exc10:
-sat7_exc11:
 day63_num: Day 63 -
 day63: Sunday (REST)
-sun7_exc1: 
-sun7_exc2:
-sun7_exc3:
-sun7_exc4:
-sun7_exc5:
-sun7_exc6:
-sun7_exc7:
-sun7_exc8:
-sun7_exc9:
-sun7_exc10:
-sun7_exc11:
 ---
