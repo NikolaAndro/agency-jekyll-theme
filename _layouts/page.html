@@ -3,7 +3,1048 @@
    {% include head.html %}
 
     <body>
-      {{ page.title }}
+      
+<style>
+    pweek    {color: DodgerBlue; font-size: 300%;text-decoration: underline;}
+    pday     {color: Gold; font-size: 250%;}
+    daynum   {color: DodgerBlue; }
+    workouttype     {color: Gold; font-size: 250%;}
+    html {
+      scroll-behavior: smooth;
+    } 
+    table {
+    /*   font-family: arial, sans-serif; */
+      color: DodgerBlue;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+      color: DodgerBlue;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style> 
+    
+        <div class="portfolio-modal modal fade" id="portfolioModal{{ page.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>{{ page.title }}</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+                                <p>{{ page.description }}</p>
+    <!--                             <table>
+                                  <tr>
+                                    <th><a href="#week1">Week 1 </a></th>
+                                    <th><a href="#week2">Week 2 </a></th>
+                                    <th><a href="#week3">Week 3 </a></th>
+                                    <th><a href="#week4">Week 4 </a></th>
+                                    <th><a href="#week5">Week 5 </a></th>
+                                    <th><a href="#week6">Week 6 </a></th>
+                                    <th><a href="#week7">Week 7 </a></th>
+                                    <th><a href="#week8">Week 8 </a></th>
+                                    <th><a href="#week9">Week 9 </a></th>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="#day1w1" > Day 1</a></td>
+                                    <td><a href="#day1w2" > Day 1</a></td>
+                                    <td><a href="#day1w3" > Day 1</a></td>
+                                    <td><a href="#day1w4" > Day 1</a></td>
+                                    <td><a href="#day1w5" > Day 1</a></td>
+                                    <td><a href="#day1w6" > Day 1</a></td>
+                                    <td><a href="#day1w7" > Day 1</a></td>
+                                    <td><a href="#day1w8" > Day 1</a></td>
+                                    <td><a href="#day1w9" > Day 1</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="#day2w1" > Day 2</a></td>
+                                    <td><a href="#day2w2" > Day 2</a></td>
+                                    <td><a href="#day2w3" > Day 2</a></td>
+                                    <td><a href="#day2w4" > Day 2</a></td>
+                                    <td><a href="#day2w5" > Day 2</a></td>
+                                    <td><a href="#day2w6" > Day 2</a></td>
+                                    <td><a href="#day2w7" > Day 2</a></td>
+                                    <td><a href="#day2w8" > Day 2</a></td>
+                                    <td><a href="#day2w9" > Day 2</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="#day3w1" > Day 3</a></td>
+                                    <td><a href="#day3w2" > Day 3</a></td>
+                                    <td><a href="#day3w3" > Day 3</a></td>
+                                    <td><a href="#day3w4" > Day 3</a></td>
+                                    <td><a href="#day3w5" > Day 3</a></td>
+                                    <td><a href="#day3w6" > Day 3</a></td>
+                                    <td><a href="#day3w7" > Day 3</a></td>
+                                    <td><a href="#day3w8" > Day 3</a></td>
+                                    <td><a href="#day3w9" > Day 3</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="#day4w1" > Day 4</a></td>
+                                    <td><a href="#day4w2" > Day 4</a></td>
+                                    <td><a href="#day4w3" > Day 4</a></td>
+                                    <td><a href="#day4w4" > Day 4</a></td>
+                                    <td><a href="#day4w5" > Day 4</a></td>
+                                    <td><a href="#day4w6" > Day 4</a></td>
+                                    <td><a href="#day4w7" > Day 4</a></td>
+                                    <td><a href="#day4w8" > Day 4</a></td>
+                                    <td><a href="#day4w9" > Day 4</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="#day5w1" > Day 5</a></td>
+                                    <td><a href="#day5w2" > Day 5</a></td>
+                                    <td><a href="#day5w3" > Day 5</a></td>
+                                    <td><a href="#day5w4" > Day 5</a></td>
+                                    <td><a href="#day5w5" > Day 5</a></td>
+                                    <td><a href="#day5w6" > Day 5</a></td>
+                                    <td><a href="#day5w7" > Day 5</a></td>
+                                    <td><a href="#day5w8" > Day 5</a></td>
+                                    <td><a href="#day5w9" > Day 5</a></td>
+                                  </tr>
+                                    <tr>
+                                    <td><a href="#day6w1" > Day 6</a></td>
+                                    <td><a href="#day6w2" > Day 6</a></td>
+                                    <td><a href="#day6w3" > Day 6</a></td>
+                                    <td><a href="#day6w4" > Day 6</a></td>
+                                    <td><a href="#day6w5" > Day 6</a></td>
+                                    <td><a href="#day6w6" > Day 6</a></td>
+                                    <td><a href="#day6w7" > Day 6</a></td>
+                                    <td><a href="#day6w8" > Day 6</a></td>
+                                    <td><a href="#day6w9" > Day 6</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="#day7w1" > Day 7</a></td>
+                                    <td><a href="#day7w2" > Day 7</a></td>
+                                    <td><a href="#day7w3" > Day 7</a></td>
+                                    <td><a href="#day7w4" > Day 7</a></td>
+                                    <td><a href="#day7w5" > Day 7</a></td>
+                                    <td><a href="#day7w6" > Day 7</a></td>
+                                    <td><a href="#day7w7" > Day 7</a></td>
+                                    <td><a href="#day7w8" > Day 7</a></td>
+                                    <td><a href="#day7w9" > Day 7</a></td>
+                                  </tr>
+                                </table> -->
+                              <pweek><a id="week1"> {{page.week1_num}} </a> </pweek><br><br>
+                                    <pday>   <daynum>{{page.day1_num}}</daynum> {{page.day1}} </pday><br><br>
+                                        <p>{{ page.mon1_exc1 }}</p>
+                                        <p>{{ page.mon1_exc2 }}</p>
+                                        <p>{{ page.mon1_exc3 }}</p>
+                                        <p>{{ page.mon1_exc4 }}</p>
+                                        <p>{{ page.mon1_exc5 }}</p>
+                                        <p>{{ page.mon1_exc6 }}</p>
+                                        <p>{{ page.mon1_exc7 }}</p>
+                                        <p>{{ page.mon1_exc8 }}</p>
+                                        <p>{{ page.mon1_exc9 }}</p>
+                                        <p>{{ page.mon1_exc10 }}</p>
+                                        <p>{{ page.mon1_exc11 }}</p>
+                                        <p>{{ page.mon1_exc12 }}</p>
+                                        <p>{{ page.mon1_exc13 }}</p>
+                                        <p>{{ page.mon1_exc14 }}</p>
+                                        <p>{{ page.mon1_exc15 }}</p>
+                                        <p>{{ page.mon1_exc16 }}</p>
+                                        <p>{{ page.mon1_exc17 }}</p>
+             
+                                    <pday>  <daynum>{{page.day2_num}}</daynum> {{page.day2}}  </pday><br><br>
+                                        <p>{{ page.tu1_exc1 }}</p>
+                                        <p>{{ page.tu1_exc2 }}</p>
+                                        <p>{{ page.tu1_exc3 }}</p>
+                                        <p>{{ page.tu1_exc4 }}</p>
+                                        <p>{{ page.tu1_exc5 }}</p>
+                                        <p>{{ page.tu1_exc6 }}</p>
+                                        <p>{{ page.tu1_exc7 }}</p>
+                                        <p>{{ page.tu1_exc8 }}</p>
+                                        <p>{{ page.tu1_exc9 }}</p>
+                                        <p>{{ page.tu1_exc10 }}</p>
+                                        <p>{{ page.tu1_exc11 }}</p>
+                                        <p>{{ page.tu1_exc12 }}</p>
+                                        <p>{{ page.tu1_exc13 }}</p>
+                                        <p>{{ page.tu1_exc14 }}</p>
+                                        <p>{{ page.tu1_exc15 }}</p>
+                                        <p>{{ page.tu1_exc16 }}</p>
+                                        <p>{{ page.tu1_exc17 }}</p>
+                       
+                              
+                                    <pday> <daynum>{{page.day3_num}}</daynum>  {{page.day3}} </pday><br><br>
+                                        <p>{{ page.wed1_exc1 }}</p>
+                                        <p>{{ page.wed1_exc2 }}</p>
+                                        <p>{{ page.wed1_exc3 }}</p>
+                                        <p>{{ page.wed1_exc4 }}</p>
+                                        <p>{{ page.wed1_exc5 }}</p>
+                                        <p>{{ page.wed1_exc6 }}</p>
+                                        <p>{{ page.wed1_exc7 }}</p>
+                                        <p>{{ page.wed1_exc8 }}</p>
+                                        <p>{{ page.wed1_exc9 }}</p>
+                                        <p>{{ page.wed1_exc10 }}</p>
+                                        <p>{{ page.wed1_exc11 }}</p>
+                                        <p>{{ page.wed1_exc12 }}</p>
+                                        <p>{{ page.wed1_exc13 }}</p>
+                                        <p>{{ page.wed1_exc14 }}</p>
+                                        <p>{{ page.wed1_exc15 }}</p>
+                                        <p>{{ page.wed1_exc16 }}</p>
+                                        <p>{{ page.wed1_exc17 }}</p>
+                                        <p>{{ page.wed1_exc18 }}</p>
+                                        <p>{{ page.wed1_exc19 }}</p>
+                                        <p>{{ page.wed1_exc20 }}</p>
+                                    <pday>  <daynum>{{page.day4_num}}</daynum> {{page.day4}}  </pday><br><br>
+                                        <p>{{ page.th1_exc1 }}</p>
+                                        <p>{{ page.th1_exc2 }}</p>
+                                        <p>{{ page.th1_exc3 }}</p>
+                                        <p>{{ page.th1_exc4 }}</p>
+                                        <p>{{ page.th1_exc5 }}</p>
+                                        <p>{{ page.th1_exc6 }}</p>
+                                        <p>{{ page.th1_exc7 }}</p>
+                                        <p>{{ page.th1_exc8 }}</p>
+                                        <p>{{ page.th1_exc9 }}</p>
+                                        <p>{{ page.th1_exc10 }}</p>
+                                        <p>{{ page.th1_exc11 }}</p>
+                                        <p>{{ page.th1_exc12 }}</p> 
+                                        <p>{{ page.th1_exc13 }}</p> 
+                                        <p>{{ page.th1_exc14 }}</p> 
+                                        <p>{{ page.th1_exc15 }}</p> 
+                                        <p>{{ page.th1_exc16 }}</p> 
+                                        <p>{{ page.th1_exc17 }}</p> 
+                                    <pday id="day5w1" ><daynum>{{page.day5_num}}</daynum> {{page.day5}} </pday><br><br>
+                                        <p>{{ page.fri1_exc1 }}</p>
+                                        <p>{{ page.fri1_exc2 }}</p>
+                                        <p>{{ page.fri1_exc3 }}</p>
+                                        <p>{{ page.fri1_exc4 }}</p>
+                                        <p>{{ page.fri1_exc5 }}</p>
+                                        <p>{{ page.fri1_exc6 }}</p>
+                                        <p>{{ page.fri1_exc7 }}</p>
+                                        <p>{{ page.fri1_exc8 }}</p>
+                                        <p>{{ page.fri1_exc9 }}</p>
+                                        <p>{{ page.fri1_exc10 }}</p>
+                                        <p>{{ page.fri1_exc11 }}</p>
+                                        <p>{{ page.fri1_exc12 }}</p>
+                                        <p>{{ page.fri1_exc13 }}</p>
+                                    <pday>  <daynum>{{page.day6_num}}</daynum> {{page.day6}}  </pday><br><br>
+                                        <p>{{ page.sat1_exc1 }}</p>
+                                        <p>{{ page.sat1_exc2 }}</p>
+                                        <p>{{ page.sat1_exc3 }}</p>
+                                        <p>{{ page.sat1_exc4 }}</p>
+                                        <p>{{ page.sat1_exc5 }}</p>
+                                        <p>{{ page.sat1_exc6 }}</p>
+                                        <p>{{ page.sat1_exc7 }}</p>
+                                        <p>{{ page.sat1_exc8 }}</p>
+                                        <p>{{ page.sat1_exc9 }}</p>
+                                        <p>{{ page.sat1_exc10 }}</p>
+                                        <p>{{ page.sat1_exc11 }}</p>
+                                        <p>{{ page.sat1_exc12 }}</p>
+                                        <p>{{ page.sat1_exc13 }}</p>
+                                        <p>{{ page.sat1_exc14 }}</p>
+                                    <pday>  <daynum>{{page.day7_num}}</daynum> {{page.day7}} </pday><br><br>
+                                        <p>{{ page.sun1_exc1 }}</p>
+                                        <p>{{ page.sun1_exc2 }}</p>
+                                        <p>{{ page.sun1_exc3 }}</p>
+                                        <p>{{ page.sun1_exc4 }}</p>
+                                        <p>{{ page.sun1_exc5 }}</p>
+                                        <p>{{ page.sun1_exc6 }}</p>
+                                        <p>{{ page.sun1_exc7 }}</p>
+                                        <p>{{ page.sun1_exc8 }}</p>
+                                        <p>{{ page.sun1_exc9 }}</p>
+                                        <p>{{ page.sun1_exc10 }}</p>
+                                        <p>{{ page.sun1_exc11 }}</p>
+                             
+                             <pweek> {{page.week2_num}} </pweek><br><br>
+                                    <pday>  <daynum>{{page.day8_num}}</daynum> {{page.day8}} </pday><br><br>
+                                        <p>{{ page.mon2_exc1 }}</p>
+                                        <p>{{ page.mon2_exc2 }}</p>
+                                        <p>{{ page.mon2_exc3 }}</p>
+                                        <p>{{ page.mon2_exc4 }}</p>
+                                        <p>{{ page.mon2_exc5 }}</p>
+                                        <p>{{ page.mon2_exc6 }}</p>
+                                        <p>{{ page.mon2_exc7 }}</p>
+                                        <p>{{ page.mon2_exc8 }}</p>
+                                        <p>{{ page.mon2_exc9 }}</p>
+                                        <p>{{ page.mon2_exc10 }}</p>
+                                        <p>{{ page.mon2_exc11 }}</p>
+                                        <p>{{ page.mon2_exc12 }}</p>
+                                        <p>{{ page.mon2_exc13 }}</p>
+                                        <p>{{ page.mon2_exc14 }}</p>
+                                    <pday>  <daynum>{{page.day9_num}}</daynum> {{page.day9}} </pday><br><br>
+                                        <p>{{ page.tu2_exc1 }}</p>
+                                        <p>{{ page.tu2_exc2 }}</p>
+                                        <p>{{ page.tu2_exc3 }}</p>
+                                        <p>{{ page.tu2_exc4 }}</p>
+                                        <p>{{ page.tu2_exc5 }}</p>
+                                        <p>{{ page.tu2_exc6 }}</p>
+                                        <p>{{ page.tu2_exc7 }}</p>
+                                        <p>{{ page.tu2_exc8 }}</p>
+                                        <p>{{ page.tu2_exc9 }}</p>
+                                        <p>{{ page.tu2_exc10 }}</p>
+                                        <p>{{ page.tu2_exc11 }}</p>
+                                        <p>{{ page.tu2_exc12 }}</p>
+                                        <p>{{ page.tu2_exc13 }}</p>
+                                    <pday>  <daynum>{{page.day10_num}}</daynum> {{page.day10}} </pday><br><br>
+                                        <p>{{ page.wed2_exc1 }}</p>
+                                        <p>{{ page.wed2_exc2 }}</p>
+                                        <p>{{ page.wed2_exc3 }}</p>
+                                        <p>{{ page.wed2_exc4 }}</p>
+                                        <p>{{ page.wed2_exc5 }}</p>
+                                        <p>{{ page.wed2_exc6 }}</p>
+                                        <p>{{ page.wed2_exc7 }}</p>
+                                        <p>{{ page.wed2_exc8 }}</p>
+                                        <p>{{ page.wed2_exc9 }}</p>
+                                        <p>{{ page.wed2_exc10 }}</p>
+                                        <p>{{ page.wed2_exc11 }}</p>
+                                    <pday>  <daynum>{{page.day11_num}}</daynum> {{page.day11}} </pday><br><br>
+                                        <p>{{ page.th2_exc1 }}</p>
+                                        <p>{{ page.th2_exc2 }}</p>
+                                        <p>{{ page.th2_exc3 }}</p>
+                                        <p>{{ page.th2_exc4 }}</p>
+                                        <p>{{ page.th2_exc5 }}</p>
+                                        <p>{{ page.th2_exc6 }}</p>
+                                        <p>{{ page.th2_exc7 }}</p>
+                                        <p>{{ page.th2_exc8 }}</p>
+                                        <p>{{ page.th2_exc9 }}</p>
+                                        <p>{{ page.th2_exc10 }}</p>
+                                        <p>{{ page.th2_exc11 }}</p>
+                                        <p>{{ page.th2_exc12 }}</p>
+                                        <p>{{ page.th2_exc13 }}</p>
+                             <pday> <daynum>{{page.day12_num}}</daynum> {{page.day12}} </pday><br><br>
+                                        <p>{{ page.fri2_exc1 }}</p>
+                                        <p>{{ page.fri2_exc2 }}</p>
+                                        <p>{{ page.fri2_exc3 }}</p>
+                                        <p>{{ page.fri2_exc4 }}</p>
+                                        <p>{{ page.fri2_exc5 }}</p>
+                                        <p>{{ page.fri2_exc6 }}</p>
+                                        <p>{{ page.fri2_exc7 }}</p>
+                                        <p>{{ page.fri2_exc8 }}</p>
+                                        <p>{{ page.fri2_exc9 }}</p>
+                                        <p>{{ page.fri2_exc10 }}</p>
+                                        <p>{{ page.fri2_exc11 }}</p>
+                                        <p>{{ page.fri2_exc12 }}</p>
+                                        <p>{{ page.fri2_exc13 }}</p>
+                                        <p>{{ page.fri2_exc14 }}</p>
+                                        <p>{{ page.fri2_exc15 }}</p>
+                                    <pday>  <daynum>{{page.day13_num}}</daynum>  {{page.day13}} </pday><br><br>
+                                        <p>{{ page.sat2_exc1 }}</p>
+                                        <p>{{ page.sat2_exc2 }}</p>
+                                        <p>{{ page.sat2_exc3 }}</p>
+                                        <p>{{ page.sat2_exc4 }}</p>
+                                        <p>{{ page.sat2_exc5 }}</p>
+                                        <p>{{ page.sat2_exc6 }}</p>
+                                        <p>{{ page.sat2_exc7 }}</p>
+                                        <p>{{ page.sat2_exc8 }}</p>
+                                        <p>{{ page.sat2_exc9 }}</p>
+                                        <p>{{ page.sat2_exc10 }}</p>
+                                        <p>{{ page.sat2_exc11 }}</p>
+                                        <p>{{ page.sat2_exc12 }}</p>
+                                        <p>{{ page.sat2_exc13 }}</p>
+                                        <p>{{ page.sat2_exc14 }}</p>
+                                    <pday>  <daynum>{{page.day14_num}}</daynum> {{page.day14}} </pday><br><br>
+                                        <p>{{ page.sun2_exc1 }}</p>
+                                        <p>{{ page.sun2_exc2 }}</p>
+                                        <p>{{ page.sun2_exc3 }}</p>
+                                        <p>{{ page.sun2_exc4 }}</p>
+                                        <p>{{ page.sun2_exc5 }}</p>
+                                        <p>{{ page.sun2_exc6 }}</p>
+                                        <p>{{ page.sun2_exc7 }}</p>
+                                        <p>{{ page.sun2_exc8 }}</p>
+                                        <p>{{ page.sun2_exc9 }}</p>
+                                        <p>{{ page.sun2_exc10 }}</p>
+                                        <p>{{ page.sun2_exc11 }}</p>
+                             
+                             <pweek> {{page.week3_num}} </pweek><br><br>
+                                    <pday>  <daynum>{{page.day15_num}}</daynum> {{page.day15}} </pday><br><br>
+                                        <p>{{ page.mon3_exc1 }}</p>
+                                        <p>{{ page.mon3_exc2 }}</p>
+                                        <p>{{ page.mon3_exc3 }}</p>
+                                        <p>{{ page.mon3_exc4 }}</p>
+                                        <p>{{ page.mon3_exc5 }}</p>
+                                        <p>{{ page.mon3_exc6 }}</p>
+                                        <p>{{ page.mon3_exc7 }}</p>
+                                        <p>{{ page.mon3_exc8 }}</p>
+                                        <p>{{ page.mon3_exc9 }}</p>
+                                        <p>{{ page.mon3_exc10 }}</p>
+                                        <p>{{ page.mon3_exc11 }}</p>
+                                        <p>{{ page.mon3_exc12 }}</p>
+                                        <p>{{ page.mon3_exc13 }}</p>
+                                        <p>{{ page.mon3_exc14 }}</p>
+                                        <p>{{ page.mon3_exc15 }}</p>
+                                    <pday>  <daynum>{{page.day16_num}}</daynum> {{page.day16}} </pday><br><br>
+                                        <p>{{ page.tu3_exc1 }}</p>
+                                        <p>{{ page.tu3_exc2 }}</p>
+                                        <p>{{ page.tu3_exc3 }}</p>
+                                        <p>{{ page.tu3_exc4 }}</p>
+                                        <p>{{ page.tu3_exc5 }}</p>
+                                        <p>{{ page.tu3_exc6 }}</p>
+                                        <p>{{ page.tu3_exc7 }}</p>
+                                        <p>{{ page.tu3_exc8 }}</p>
+                                        <p>{{ page.tu3_exc9 }}</p>
+                                        <p>{{ page.tu3_exc10 }}</p>
+                                        <p>{{ page.tu3_exc11 }}</p>
+                                        <p>{{ page.tu3_exc12 }}</p>
+                                        <p>{{ page.tu3_exc13 }}</p>
+                                    <pday>  <daynum>{{page.day17_num}}</daynum> {{page.day17}} </pday><br><br>
+                                        <p>{{ page.wed3_exc1 }}</p>
+                                        <p>{{ page.wed3_exc2 }}</p>
+                                        <p>{{ page.wed3_exc3 }}</p>
+                                        <p>{{ page.wed3_exc4 }}</p>
+                                        <p>{{ page.wed3_exc5 }}</p>
+                                        <p>{{ page.wed3_exc6 }}</p>
+                                        <p>{{ page.wed3_exc7 }}</p>
+                                        <p>{{ page.wed3_exc8 }}</p>
+                                        <p>{{ page.wed3_exc9 }}</p>
+                                        <p>{{ page.wed3_exc10 }}</p>
+                                        <p>{{ page.wed3_exc11 }}</p>
+                                        <p>{{ page.wed3_exc12 }}</p>
+                                        <p>{{ page.wed3_exc13 }}</p>
+                                    <pday>  <daynum>{{page.day18_num}}</daynum> {{page.day18}} </pday><br><br>
+                                        <p>{{ page.th3_exc1 }}</p>
+                                        <p>{{ page.th3_exc2 }}</p>
+                                        <p>{{ page.th3_exc3 }}</p>
+                                        <p>{{ page.th3_exc4 }}</p>
+                                        <p>{{ page.th3_exc5 }}</p>
+                                        <p>{{ page.th3_exc6 }}</p>
+                                        <p>{{ page.th3_exc7 }}</p>
+                                        <p>{{ page.th3_exc8 }}</p>
+                                        <p>{{ page.th3_exc9 }}</p>
+                                        <p>{{ page.th3_exc10 }}</p>
+                                        <p>{{ page.th3_exc11 }}</p>
+                                        <p>{{ page.th3_exc12 }}</p>
+                                        <p>{{ page.th3_exc13 }}</p>
+                                        <p>{{ page.th3_exc14 }}</p>
+                                    <pday>  <daynum>{{page.day19_num}}</daynum> {{page.day19}} </pday><br><br>
+                                        <p>{{ page.fri3_exc1 }}</p>
+                                        <p>{{ page.fri3_exc2 }}</p>
+                                        <p>{{ page.fri3_exc3 }}</p>
+                                        <p>{{ page.fri3_exc4 }}</p>
+                                        <p>{{ page.fri3_exc5 }}</p>
+                                        <p>{{ page.fri3_exc6 }}</p>
+                                        <p>{{ page.fri3_exc7 }}</p>
+                                        <p>{{ page.fri3_exc8 }}</p>
+                                        <p>{{ page.fri3_exc9 }}</p>
+                                        <p>{{ page.fri3_exc10 }}</p>
+                                        <p>{{ page.fri3_exc11 }}</p>
+                                        <p>{{ page.fri3_exc12 }}</p>
+                                        <p>{{ page.fri3_exc13 }}</p>
+                                        <p>{{ page.fri3_exc14 }}</p>
+                                        <p>{{ page.fri3_exc15 }}</p>
+                                        <p>{{ page.fri3_exc16 }}</p>
+                                    <pday>  <daynum>{{page.day20_num}}</daynum> {{page.day20}} </pday><br><br>
+                                        <p>{{ page.sat3_exc1 }}</p>
+                                        <p>{{ page.sat3_exc2 }}</p>
+                                        <p>{{ page.sat3_exc3 }}</p>
+                                        <p>{{ page.sat3_exc4 }}</p>
+                                        <p>{{ page.sat3_exc5 }}</p>
+                                        <p>{{ page.sat3_exc6 }}</p>
+                                        <p>{{ page.sat3_exc7 }}</p>
+                                        <p>{{ page.sat3_exc8 }}</p>
+                                        <p>{{ page.sat3_exc9 }}</p>
+                                        <p>{{ page.sat3_exc10 }}</p>
+                                        <p>{{ page.sat3_exc11 }}</p>
+                                        <p>{{ page.sat3_exc12 }}</p>
+                                        <p>{{ page.sat3_exc13 }}</p>
+                                        <p>{{ page.sat3_exc14 }}</p>
+                                    <pday>  <daynum>{{page.day21_num}}</daynum> {{page.day21}} </pday><br><br>
+                                        <p>{{ page.sun3_exc1 }}</p>
+                                        <p>{{ page.sun3_exc2 }}</p>
+                                        <p>{{ page.sun3_exc3 }}</p>
+                                        <p>{{ page.sun3_exc4 }}</p>
+                                        <p>{{ page.sun3_exc5 }}</p>
+                                        <p>{{ page.sun3_exc6 }}</p>
+                                        <p>{{ page.sun3_exc7 }}</p>
+                                        <p>{{ page.sun3_exc8 }}</p>
+                                        <p>{{ page.sun3_exc9 }}</p>
+                                        <p>{{ page.sun3_exc10 }}</p>
+                                        <p>{{ page.sun3_exc11 }}</p>
+                             
+                             <pweek> {{page.week4_num}} </pweek><br><br>
+                                    <pday>   <daynum>{{page.day22_num}}</daynum> {{page.day22}} </pday><br><br>
+                                        <p>{{ page.mon4_exc1 }}</p>
+                                        <p>{{ page.mon4_exc2 }}</p>
+                                        <p>{{ page.mon4_exc3 }}</p>
+                                        <p>{{ page.mon4_exc4 }}</p>
+                                        <p>{{ page.mon4_exc5 }}</p>
+                                        <p>{{ page.mon4_exc6 }}</p>
+                                        <p>{{ page.mon4_exc7 }}</p>
+                                        <p>{{ page.mon4_exc8 }}</p>
+                                        <p>{{ page.mon4_exc9 }}</p>
+                                        <p>{{ page.mon4_exc10 }}</p>
+                                        <p>{{ page.mon4_exc11 }}</p>
+                                        <p>{{ page.mon4_exc12 }}</p>
+                                    <pday>   <daynum>{{page.day23_num}}</daynum> {{page.day23}} </pday><br><br>
+                                        <p>{{ page.tu4_exc1 }}</p>
+                                        <p>{{ page.tu4_exc2 }}</p>
+                                        <p>{{ page.tu4_exc3 }}</p>
+                                        <p>{{ page.tu4_exc4 }}</p>
+                                        <p>{{ page.tu4_exc5 }}</p>
+                                        <p>{{ page.tu4_exc6 }}</p>
+                                        <p>{{ page.tu4_exc7 }}</p>
+                                        <p>{{ page.tu4_exc8 }}</p>
+                                        <p>{{ page.tu4_exc9 }}</p>
+                                        <p>{{ page.tu4_exc10 }}</p>
+                                        <p>{{ page.tu4_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day24_num}}</daynum> {{page.day24}} </pday><br><br>
+                                        <p>{{ page.wed4_exc1 }}</p>
+                                        <p>{{ page.wed4_exc2 }}</p>
+                                        <p>{{ page.wed4_exc3 }}</p>
+                                        <p>{{ page.wed4_exc4 }}</p>
+                                        <p>{{ page.wed4_exc5 }}</p>
+                                        <p>{{ page.wed4_exc6 }}</p>
+                                        <p>{{ page.wed4_exc7 }}</p>
+                                        <p>{{ page.wed4_exc8 }}</p>
+                                        <p>{{ page.wed4_exc9 }}</p>
+                                        <p>{{ page.wed4_exc10 }}</p>
+                                        <p>{{ page.wed4_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day25_num}}</daynum> {{page.day25}} </pday><br><br>
+                                        <p>{{ page.th4_exc1 }}</p>
+                                        <p>{{ page.th4_exc2 }}</p>
+                                        <p>{{ page.th4_exc3 }}</p>
+                                        <p>{{ page.th4_exc4 }}</p>
+                                        <p>{{ page.th4_exc5 }}</p>
+                                        <p>{{ page.th4_exc6 }}</p>
+                                        <p>{{ page.th4_exc7 }}</p>
+                                        <p>{{ page.th4_exc8 }}</p>
+                                        <p>{{ page.th4_exc9 }}</p>
+                                        <p>{{ page.th4_exc10 }}</p>
+                                        <p>{{ page.th4_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day26_num}}</daynum> {{page.day26}} </pday><br><br>
+                                        <p>{{ page.fri4_exc1 }}</p>
+                                        <p>{{ page.fri4_exc2 }}</p>
+                                        <p>{{ page.fri4_exc3 }}</p>
+                                        <p>{{ page.fri4_exc4 }}</p>
+                                        <p>{{ page.fri4_exc5 }}</p>
+                                        <p>{{ page.fri4_exc6 }}</p>
+                                        <p>{{ page.fri4_exc7 }}</p>
+                                        <p>{{ page.fri4_exc8 }}</p>
+                                        <p>{{ page.fri4_exc9 }}</p>
+                                        <p>{{ page.fri4_exc10 }}</p>
+                                        <p>{{ page.fri4_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day27_num}}</daynum> {{page.day27}} </pday><br><br>
+                                        <p>{{ page.sat4_exc1 }}</p>
+                                        <p>{{ page.sat4_exc2 }}</p>
+                                        <p>{{ page.sat4_exc3 }}</p>
+                                        <p>{{ page.sat4_exc4 }}</p>
+                                        <p>{{ page.sat4_exc5 }}</p>
+                                        <p>{{ page.sat4_exc6 }}</p>
+                                        <p>{{ page.sat4_exc7 }}</p>
+                                        <p>{{ page.sat4_exc8 }}</p>
+                                        <p>{{ page.sat4_exc9 }}</p>
+                                        <p>{{ page.sat4_exc10 }}</p>
+                                        <p>{{ page.sat4_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day28_num}}</daynum> {{page.day28}} </pday><br><br>
+                                        <p>{{ page.sun4_exc1 }}</p>
+                                        <p>{{ page.sun4_exc2 }}</p>
+                                        <p>{{ page.sun4_exc3 }}</p>
+                                        <p>{{ page.sun4_exc4 }}</p>
+                                        <p>{{ page.sun4_exc5 }}</p>
+                                        <p>{{ page.sun4_exc6 }}</p>
+                                        <p>{{ page.sun4_exc7 }}</p>
+                                        <p>{{ page.sun4_exc8 }}</p>
+                                        <p>{{ page.sun4_exc9 }}</p>
+                                        <p>{{ page.sun4_exc10 }}</p>
+                                        <p>{{ page.sun4_exc11 }}</p>
+                            
+                             <pweek> {{page.week5_num}} </pweek><br><br>
+                                    <pday>   <daynum>{{page.day29_num}}</daynum> {{page.day29}} </pday><br><br>
+                                        <p>{{ page.mon5_exc1 }}</p>
+                                        <p>{{ page.mon5_exc2 }}</p>
+                                        <p>{{ page.mon5_exc3 }}</p>
+                                        <p>{{ page.mon5_exc4 }}</p>
+                                        <p>{{ page.mon5_exc5 }}</p>
+                                        <p>{{ page.mon5_exc6 }}</p>
+                                        <p>{{ page.mon5_exc7 }}</p>
+                                        <p>{{ page.mon5_exc8 }}</p>
+                                        <p>{{ page.mon5_exc9 }}</p>
+                                        <p>{{ page.mon5_exc10 }}</p>
+                                        <p>{{ page.mon5_exc11 }}</p>
+                                        <p>{{ page.mon5_exc12 }}</p>
+                                    <pday>   <daynum>{{page.day30_num}}</daynum> {{page.day30}} </pday><br><br>
+                                        <p>{{ page.tu5_exc1 }}</p>
+                                        <p>{{ page.tu5_exc2 }}</p>
+                                        <p>{{ page.tu5_exc3 }}</p>
+                                        <p>{{ page.tu5_exc4 }}</p>
+                                        <p>{{ page.tu5_exc5 }}</p>
+                                        <p>{{ page.tu5_exc6 }}</p>
+                                        <p>{{ page.tu5_exc7 }}</p>
+                                        <p>{{ page.tu5_exc8 }}</p>
+                                        <p>{{ page.tu5_exc9 }}</p>
+                                        <p>{{ page.tu5_exc10 }}</p>
+                                        <p>{{ page.tu5_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day31_num}}</daynum> {{page.day31}} </pday><br><br>
+                                        <p>{{ page.wed5_exc1 }}</p>
+                                        <p>{{ page.wed5_exc2 }}</p>
+                                        <p>{{ page.wed5_exc3 }}</p>
+                                        <p>{{ page.wed5_exc4 }}</p>
+                                        <p>{{ page.wed5_exc5 }}</p>
+                                        <p>{{ page.wed5_exc6 }}</p>
+                                        <p>{{ page.wed5_exc7 }}</p>
+                                        <p>{{ page.wed5_exc8 }}</p>
+                                        <p>{{ page.wed5_exc9 }}</p>
+                                        <p>{{ page.wed5_exc10 }}</p>
+                                        <p>{{ page.wed5_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day32_num}}</daynum> {{page.day32}} </pday><br><br>
+                                        <p>{{ page.th5_exc1 }}</p>
+                                        <p>{{ page.th5_exc2 }}</p>
+                                        <p>{{ page.th5_exc3 }}</p>
+                                        <p>{{ page.th5_exc4 }}</p>
+                                        <p>{{ page.th5_exc5 }}</p>
+                                        <p>{{ page.th5_exc6 }}</p>
+                                        <p>{{ page.th5_exc7 }}</p>
+                                        <p>{{ page.th5_exc8 }}</p>
+                                        <p>{{ page.th5_exc9 }}</p>
+                                        <p>{{ page.th5_exc10 }}</p>
+                                        <p>{{ page.th5_exc11 }}</p>
+                                        <p>{{ page.th5_exc12 }}</p>
+                                        <p>{{ page.th5_exc13 }}</p>
+                                        <p>{{ page.th5_exc14 }}</p>
+                                        <p>{{ page.th5_exc15 }}</p>
+                                    <pday>   <daynum>{{page.day33_num}}</daynum> {{page.day33}} </pday><br><br>
+                                        <p>{{ page.fri5_exc1 }}</p>
+                                        <p>{{ page.fri5_exc2 }}</p>
+                                        <p>{{ page.fri5_exc3 }}</p>
+                                        <p>{{ page.fri5_exc4 }}</p>
+                                        <p>{{ page.fri5_exc5 }}</p>
+                                        <p>{{ page.fri5_exc6 }}</p>
+                                        <p>{{ page.fri5_exc7 }}</p>
+                                        <p>{{ page.fri5_exc8 }}</p>
+                                        <p>{{ page.fri5_exc9 }}</p>
+                                        <p>{{ page.fri5_exc10 }}</p>
+                                        <p>{{ page.fri5_exc11 }}</p>
+                                        <p>{{ page.fri5_exc12 }}</p>
+                                        <p>{{ page.fri5_exc13 }}</p>
+                                        <p>{{ page.fri5_exc14 }}</p>
+                                        <p>{{ page.fri5_exc15 }}</p>
+                                    <pday>   <daynum>{{page.day34_num}}</daynum> {{page.day34}} </pday><br><br>
+                                        <p>{{ page.sat5_exc1 }}</p>
+                                        <p>{{ page.sat5_exc2 }}</p>
+                                        <p>{{ page.sat5_exc3 }}</p>
+                                        <p>{{ page.sat5_exc4 }}</p>
+                                        <p>{{ page.sat5_exc5 }}</p>
+                                        <p>{{ page.sat5_exc6 }}</p>
+                                        <p>{{ page.sat5_exc7 }}</p>
+                                        <p>{{ page.sat5_exc8 }}</p>
+                                        <p>{{ page.sat5_exc9 }}</p>
+                                        <p>{{ page.sat5_exc10 }}</p>
+                                        <p>{{ page.sat5_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day35_num}}</daynum> {{page.day35}} </pday><br><br>
+                                        <p>{{ page.sun5_exc1 }}</p>
+                                        <p>{{ page.sun5_exc2 }}</p>
+                                        <p>{{ page.sun5_exc3 }}</p>
+                                        <p>{{ page.sun5_exc4 }}</p>
+                                        <p>{{ page.sun5_exc5 }}</p>
+                                        <p>{{ page.sun5_exc6 }}</p>
+                                        <p>{{ page.sun5_exc7 }}</p>
+                                        <p>{{ page.sun5_exc8 }}</p>
+                                        <p>{{ page.sun5_exc9 }}</p>
+                                        <p>{{ page.sun5_exc10 }}</p>
+                                        <p>{{ page.sun5_exc11 }}</p>
+                             
+                             <pweek> {{page.week6_num}} </pweek><br><br>
+                                    <pday>   <daynum>{{page.day36_num}}</daynum> {{page.day36}} </pday><br><br>
+                                        <p>{{ page.mon6_exc1 }}</p>
+                                        <p>{{ page.mon6_exc2 }}</p>
+                                        <p>{{ page.mon6_exc3 }}</p>
+                                        <p>{{ page.mon6_exc4 }}</p>
+                                        <p>{{ page.mon6_exc5 }}</p>
+                                        <p>{{ page.mon6_exc6 }}</p>
+                                        <p>{{ page.mon6_exc7 }}</p>
+                                        <p>{{ page.mon6_exc8 }}</p>
+                                        <p>{{ page.mon6_exc9 }}</p>
+                                        <p>{{ page.mon6_exc10 }}</p>
+                                        <p>{{ page.mon6_exc11 }}</p>
+                                        <p>{{ page.mon6_exc12 }}</p>
+                                    <pday>   <daynum>{{page.day37_num}}</daynum> {{page.day37}} </pday><br><br>
+                                        <p>{{ page.tu6_exc1 }}</p>
+                                        <p>{{ page.tu6_exc2 }}</p>
+                                        <p>{{ page.tu6_exc3 }}</p>
+                                        <p>{{ page.tu6_exc4 }}</p>
+                                        <p>{{ page.tu6_exc5 }}</p>
+                                        <p>{{ page.tu6_exc6 }}</p>
+                                        <p>{{ page.tu6_exc7 }}</p>
+                                        <p>{{ page.tu6_exc8 }}</p>
+                                        <p>{{ page.tu6_exc9 }}</p>
+                                        <p>{{ page.tu6_exc10 }}</p>
+                                        <p>{{ page.tu6_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day38_num}}</daynum> {{page.day38}} </pday><br><br>
+                                        <p>{{ page.wed6_exc1 }}</p>
+                                        <p>{{ page.wed6_exc2 }}</p>
+                                        <p>{{ page.wed6_exc3 }}</p>
+                                        <p>{{ page.wed6_exc4 }}</p>
+                                        <p>{{ page.wed6_exc5 }}</p>
+                                        <p>{{ page.wed6_exc6 }}</p>
+                                        <p>{{ page.wed6_exc7 }}</p>
+                                        <p>{{ page.wed6_exc8 }}</p>
+                                        <p>{{ page.wed6_exc9 }}</p>
+                                        <p>{{ page.wed6_exc10 }}</p>
+                                        <p>{{ page.wed6_exc11 }}</p>
+                                        <p>{{ page.wed6_exc12 }}</p>
+                                    <pday>   <daynum>{{page.day39_num}}</daynum> {{page.day39}} </pday><br><br>
+                                        <p>{{ page.th6_exc1 }}</p>
+                                        <p>{{ page.th6_exc2 }}</p>
+                                        <p>{{ page.th6_exc3 }}</p>
+                                        <p>{{ page.th6_exc4 }}</p>
+                                        <p>{{ page.th6_exc5 }}</p>
+                                        <p>{{ page.th6_exc6 }}</p>
+                                        <p>{{ page.th6_exc7 }}</p>
+                                        <p>{{ page.th6_exc8 }}</p>
+                                        <p>{{ page.th6_exc9 }}</p>
+                                        <p>{{ page.th6_exc10 }}</p>
+                                        <p>{{ page.th6_exc11 }}</p>
+                                        <p>{{ page.th6_exc12 }}</p>
+                                        <p>{{ page.th6_exc13 }}</p>
+                                        <p>{{ page.th6_exc14 }}</p>
+                                        <p>{{ page.th6_exc15 }}</p>
+                                        <p>{{ page.th6_exc16 }}</p>
+                                        <p>{{ page.th6_exc17 }}</p>
+                                        <p>{{ page.th6_exc18 }}</p>
+                                        <p>{{ page.th6_exc19 }}</p>
+                                    <pday>   <daynum>{{page.day40_num}}</daynum> {{page.day40}} </pday><br><br>
+                                        <p>{{ page.fri6_exc1 }}</p>
+                                        <p>{{ page.fri6_exc2 }}</p>
+                                        <p>{{ page.fri6_exc3 }}</p>
+                                        <p>{{ page.fri6_exc4 }}</p>
+                                        <p>{{ page.fri6_exc5 }}</p>
+                                        <p>{{ page.fri6_exc6 }}</p>
+                                        <p>{{ page.fri6_exc7 }}</p>
+                                        <p>{{ page.fri6_exc8 }}</p>
+                                        <p>{{ page.fri6_exc9 }}</p>
+                                        <p>{{ page.fri6_exc10 }}</p>
+                                        <p>{{ page.fri6_exc11 }}</p>
+                                        <p>{{ page.fri6_exc12 }}</p>
+                                    <pday>   <daynum>{{page.day41_num}}</daynum> {{page.day41}} </pday><br><br>
+                                        <p>{{ page.sat6_exc1 }}</p>
+                                        <p>{{ page.sat6_exc2 }}</p>
+                                        <p>{{ page.sat6_exc3 }}</p>
+                                        <p>{{ page.sat6_exc4 }}</p>
+                                        <p>{{ page.sat6_exc5 }}</p>
+                                        <p>{{ page.sat6_exc6 }}</p>
+                                        <p>{{ page.sat6_exc7 }}</p>
+                                        <p>{{ page.sat6_exc8 }}</p>
+                                        <p>{{ page.sat6_exc9 }}</p>
+                                        <p>{{ page.sat6_exc10 }}</p>
+                                        <p>{{ page.sat6_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day42_num}}</daynum> {{page.day42}} </pday><br><br>
+                                        <p>{{ page.sun6_exc1 }}</p>
+                                        <p>{{ page.sun6_exc2 }}</p>
+                                        <p>{{ page.sun6_exc3 }}</p>
+                                        <p>{{ page.sun6_exc4 }}</p>
+                                        <p>{{ page.sun6_exc5 }}</p>
+                                        <p>{{ page.sun6_exc6 }}</p>
+                                        <p>{{ page.sun6_exc7 }}</p>
+                                        <p>{{ page.sun6_exc8 }}</p>
+                                        <p>{{ page.sun6_exc9 }}</p>
+                                        <p>{{ page.sun6_exc10 }}</p>
+                                        <p>{{ page.sun6_exc11 }}</p>
+                             
+                             <pweek> {{page.week7_num}} </pweek><br><br>
+                                    <pday>   <daynum>{{page.day43_num}}</daynum> {{page.day43}} </pday><br><br>
+                                        <p>{{ page.mon7_exc1 }}</p>
+                                        <p>{{ page.mon7_exc2 }}</p>
+                                        <p>{{ page.mon7_exc3 }}</p>
+                                        <p>{{ page.mon7_exc4 }}</p>
+                                        <p>{{ page.mon7_exc5 }}</p>
+                                        <p>{{ page.mon7_exc6 }}</p>
+                                        <p>{{ page.mon7_exc7 }}</p>
+                                        <p>{{ page.mon7_exc8 }}</p>
+                                        <p>{{ page.mon7_exc9 }}</p>
+                                        <p>{{ page.mon7_exc10 }}</p>
+                                        <p>{{ page.mon7_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day44_num}}</daynum> {{page.day44}} </pday><br><br>
+                                        <p>{{ page.tu7_exc1 }}</p>
+                                        <p>{{ page.tu7_exc2 }}</p>
+                                        <p>{{ page.tu7_exc3 }}</p>
+                                        <p>{{ page.tu7_exc4 }}</p>
+                                        <p>{{ page.tu7_exc5 }}</p>
+                                        <p>{{ page.tu7_exc6 }}</p>
+                                        <p>{{ page.tu7_exc7 }}</p>
+                                        <p>{{ page.tu7_exc8 }}</p>
+                                        <p>{{ page.tu7_exc9 }}</p>
+                                        <p>{{ page.tu7_exc10 }}</p>
+                                        <p>{{ page.tu7_exc11 }}</p>
+                                        <p>{{ page.tu7_exc12 }}</p>
+                                        <p>{{ page.tu7_exc13 }}</p>
+                                        <p>{{ page.tu7_exc14 }}</p>
+                                    <pday>   <daynum>{{page.day45_num}}</daynum> {{page.day45}} </pday><br><br>
+                                        <p>{{ page.wed7_exc1 }}</p>
+                                        <p>{{ page.wed7_exc2 }}</p>
+                                        <p>{{ page.wed7_exc3 }}</p>
+                                        <p>{{ page.wed7_exc4 }}</p>
+                                        <p>{{ page.wed7_exc5 }}</p>
+                                        <p>{{ page.wed7_exc6 }}</p>
+                                        <p>{{ page.wed7_exc7 }}</p>
+                                        <p>{{ page.wed7_exc8 }}</p>
+                                        <p>{{ page.wed7_exc9 }}</p>
+                                        <p>{{ page.wed7_exc10 }}</p>
+                                        <p>{{ page.wed7_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day46_num}}</daynum> {{page.day46}} </pday><br><br>
+                                        <p>{{ page.th7_exc1 }}</p>
+                                        <p>{{ page.th7_exc2 }}</p>
+                                        <p>{{ page.th7_exc3 }}</p>
+                                        <p>{{ page.th7_exc4 }}</p>
+                                        <p>{{ page.th7_exc5 }}</p>
+                                        <p>{{ page.th7_exc6 }}</p>
+                                        <p>{{ page.th7_exc7 }}</p>
+                                        <p>{{ page.th7_exc8 }}</p>
+                                        <p>{{ page.th7_exc9 }}</p>
+                                        <p>{{ page.th7_exc10 }}</p>
+                                        <p>{{ page.th7_exc11 }}</p>
+                                        <p>{{ page.th7_exc12 }}</p>
+                                        <p>{{ page.th7_exc13 }}</p>
+                                        <p>{{ page.th7_exc14 }}</p>
+                                   <pday>   <daynum>{{page.day47_num}}</daynum> {{page.day47}} </pday><br><br>
+                                        <p>{{ page.fri7_exc1 }}</p>
+                                        <p>{{ page.fri7_exc2 }}</p>
+                                        <p>{{ page.fri7_exc3 }}</p>
+                                        <p>{{ page.fri7_exc4 }}</p>
+                                        <p>{{ page.fri7_exc5 }}</p>
+                                        <p>{{ page.fri7_exc6 }}</p>
+                                        <p>{{ page.fri7_exc7 }}</p>
+                                        <p>{{ page.fri7_exc8 }}</p>
+                                        <p>{{ page.fri7_exc9 }}</p>
+                                        <p>{{ page.fri7_exc10 }}</p>
+                                        <p>{{ page.fri7_exc11 }}</p>
+                                        <p>{{ page.fri7_exc12 }}</p>
+                                        <p>{{ page.fri7_exc13 }}</p>
+                                        <p>{{ page.fri7_exc14 }}</p>
+                                        <p>{{ page.fri7_exc15 }}</p>
+                                        <p>{{ page.fri7_exc16 }}</p>
+                                    <pday>   <daynum>{{page.day48_num}}</daynum> {{page.day48}} </pday><br><br>
+                                        <p>{{ page.sat7_exc1 }}</p>
+                                        <p>{{ page.sat7_exc2 }}</p>
+                                        <p>{{ page.sat7_exc3 }}</p>
+                                        <p>{{ page.sat7_exc4 }}</p>
+                                        <p>{{ page.sat7_exc5 }}</p>
+                                        <p>{{ page.sat7_exc6 }}</p>
+                                        <p>{{ page.sat7_exc7 }}</p>
+                                        <p>{{ page.sat7_exc8 }}</p>
+                                        <p>{{ page.sat7_exc9 }}</p>
+                                        <p>{{ page.sat7_exc10 }}</p>
+                                        <p>{{ page.sat7_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day49_num}}</daynum> {{page.day49}} </pday><br><br>
+                                        <p>{{ page.sun7_exc1 }}</p>
+                                        <p>{{ page.sun7_exc2 }}</p>
+                                        <p>{{ page.sun7_exc3 }}</p>
+                                        <p>{{ page.sun7_exc4 }}</p>
+                                        <p>{{ page.sun7_exc5 }}</p>
+                                        <p>{{ page.sun7_exc6 }}</p>
+                                        <p>{{ page.sun7_exc7 }}</p>
+                                        <p>{{ page.sun7_exc8 }}</p>
+                                        <p>{{ page.sun7_exc9 }}</p>
+                                        <p>{{ page.sun7_exc10 }}</p>
+                                        <p>{{ page.sun7_exc11 }}</p>
+                             
+                             <pweek> {{page.week8_num}} </pweek><br><br>
+                                    <pday>   <daynum>{{page.day50_num}}</daynum> {{page.day50}} </pday><br><br>
+                                        <p>{{ page.mon8_exc1 }}</p>
+                                        <p>{{ page.mon8_exc2 }}</p>
+                                        <p>{{ page.mon8_exc3 }}</p>
+                                        <p>{{ page.mon8_exc4 }}</p>
+                                        <p>{{ page.mon8_exc5 }}</p>
+                                        <p>{{ page.mon8_exc6 }}</p>
+                                        <p>{{ page.mon8_exc7 }}</p>
+                                        <p>{{ page.mon8_exc8 }}</p>
+                                        <p>{{ page.mon8_exc9 }}</p>
+                                        <p>{{ page.mon8_exc10 }}</p>
+                                        <p>{{ page.mon8_exc11 }}</p>
+                                        <p>{{ page.mon8_exc12 }}</p>
+                                    <pday>   <daynum>{{page.day51_num}}</daynum> {{page.day51}} </pday><br><br>
+                                        <p>{{ page.tu8_exc1 }}</p>
+                                        <p>{{ page.tu8_exc2 }}</p>
+                                        <p>{{ page.tu8_exc3 }}</p>
+                                        <p>{{ page.tu8_exc4 }}</p>
+                                        <p>{{ page.tu8_exc5 }}</p>
+                                        <p>{{ page.tu8_exc6 }}</p>
+                                        <p>{{ page.tu8_exc7 }}</p>
+                                        <p>{{ page.tu8_exc8 }}</p>
+                                        <p>{{ page.tu8_exc9 }}</p>
+                                        <p>{{ page.tu8_exc10 }}</p>
+                                        <p>{{ page.tu8_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day52_num}}</daynum> {{page.day52}} </pday><br><br>
+                                        <p>{{ page.wed8_exc1 }}</p>
+                                        <p>{{ page.wed8_exc2 }}</p>
+                                        <p>{{ page.wed8_exc3 }}</p>
+                                        <p>{{ page.wed8_exc4 }}</p>
+                                        <p>{{ page.wed8_exc5 }}</p>
+                                        <p>{{ page.wed8_exc6 }}</p>
+                                        <p>{{ page.wed8_exc7 }}</p>
+                                        <p>{{ page.wed8_exc8 }}</p>
+                                        <p>{{ page.wed8_exc9 }}</p>
+                                        <p>{{ page.wed8_exc10 }}</p>
+                                        <p>{{ page.wed8_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day53_num}}</daynum> {{page.day53}} </pday><br><br>
+                                        <p>{{ page.th8_exc1 }}</p>
+                                        <p>{{ page.th8_exc2 }}</p>
+                                        <p>{{ page.th8_exc3 }}</p>
+                                        <p>{{ page.th8_exc4 }}</p>
+                                        <p>{{ page.th8_exc5 }}</p>
+                                        <p>{{ page.th8_exc6 }}</p>
+                                        <p>{{ page.th8_exc7 }}</p>
+                                        <p>{{ page.th8_exc8 }}</p>
+                                        <p>{{ page.th8_exc9 }}</p>
+                                        <p>{{ page.th8_exc10 }}</p>
+                                        <p>{{ page.th8_exc11 }}</p>
+                                        <p>{{ page.th8_exc12 }}</p>
+                                        <p>{{ page.th8_exc13 }}</p>
+                                        <p>{{ page.th8_exc14 }}</p>
+                                        <p>{{ page.th8_exc15 }}</p>
+                                        <p>{{ page.th8_exc16 }}</p>
+                                        <p>{{ page.th8_exc17 }}</p>
+                                        <p>{{ page.th8_exc18 }}</p>
+            
+                                    <pday>   <daynum>{{page.day54_num}}</daynum> {{page.day54}} </pday><br><br>
+                                        <p>{{ page.fri8_exc1 }}</p>
+                                        <p>{{ page.fri8_exc2 }}</p>
+                                        <p>{{ page.fri8_exc3 }}</p>
+                                        <p>{{ page.fri8_exc4 }}</p>
+                                        <p>{{ page.fri8_exc5 }}</p>
+                                        <p>{{ page.fri8_exc6 }}</p>
+                                        <p>{{ page.fri8_exc7 }}</p>
+                                        <p>{{ page.fri8_exc8 }}</p>
+                                        <p>{{ page.fri8_exc9 }}</p>
+                                        <p>{{ page.fri8_exc10 }}</p>
+                                        <p>{{ page.fri8_exc11 }}</p>
+                                        <p>{{ page.fri8_exc12 }}</p>
+                                    <pday>   <daynum>{{page.day55_num}}</daynum> {{page.day55}} </pday><br><br>
+                                        <p>{{ page.sat8_exc1 }}</p>
+                                        <p>{{ page.sat8_exc2 }}</p>
+                                        <p>{{ page.sat8_exc3 }}</p>
+                                        <p>{{ page.sat8_exc4 }}</p>
+                                        <p>{{ page.sat8_exc5 }}</p>
+                                        <p>{{ page.sat8_exc6 }}</p>
+                                        <p>{{ page.sat8_exc7 }}</p>
+                                        <p>{{ page.sat8_exc8 }}</p>
+                                        <p>{{ page.sat8_exc9 }}</p>
+                                        <p>{{ page.sat8_exc10 }}</p>
+                                        <p>{{ page.sat8_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day56_num}}</daynum> {{page.day56}} </pday><br><br>
+                                        <p>{{ page.sun8_exc1 }}</p>
+                                        <p>{{ page.sun8_exc2 }}</p>
+                                        <p>{{ page.sun8_exc3 }}</p>
+                                        <p>{{ page.sun8_exc4 }}</p>
+                                        <p>{{ page.sun8_exc5 }}</p>
+                                        <p>{{ page.sun8_exc6 }}</p>
+                                        <p>{{ page.sun8_exc7 }}</p>
+                                        <p>{{ page.sun8_exc8 }}</p>
+                                        <p>{{ page.sun8_exc9 }}</p>
+                                        <p>{{ page.sun8_exc10 }}</p>
+                                        <p>{{ page.sun8_exc11 }}</p>
+                             
+                             <pweek> {{page.week9_num}} </pweek><br><br>
+                                    <pday>   <daynum>{{page.day57_num}}</daynum> {{page.day57}} </pday><br><br>
+                                        <p>{{ page.mon9_exc1 }}</p>
+                                        <p>{{ page.mon9_exc2 }}</p>
+                                        <p>{{ page.mon9_exc3 }}</p>
+                                        <p>{{ page.mon9_exc4 }}</p>
+                                        <p>{{ page.mon9_exc5 }}</p>
+                                        <p>{{ page.mon9_exc6 }}</p>
+                                        <p>{{ page.mon9_exc7 }}</p>
+                                        <p>{{ page.mon9_exc8 }}</p>
+                                        <p>{{ page.mon9_exc9 }}</p>
+                                        <p>{{ page.mon9_exc10 }}</p>
+                                        <p>{{ page.mon9_exc11 }}</p>
+                                        <p>{{ page.mon9_exc12 }}</p>
+                                    <pday>   <daynum>{{page.day58_num}}</daynum> {{page.day58}} </pday><br><br>
+                                        <p>{{ page.tu9_exc1 }}</p>
+                                        <p>{{ page.tu9_exc2 }}</p>
+                                        <p>{{ page.tu9_exc3 }}</p>
+                                        <p>{{ page.tu9_exc4 }}</p>
+                                        <p>{{ page.tu9_exc5 }}</p>
+                                        <p>{{ page.tu9_exc6 }}</p>
+                                        <p>{{ page.tu9_exc7 }}</p>
+                                        <p>{{ page.tu9_exc8 }}</p>
+                                        <p>{{ page.tu9_exc9 }}</p>
+                                        <p>{{ page.tu9_exc10 }}</p>
+                                        <p>{{ page.tu9_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day59_num}}</daynum> {{page.day59}} </pday><br><br>
+                                        <p>{{ page.wed9_exc1 }}</p>
+                                        <p>{{ page.wed9_exc2 }}</p>
+                                        <p>{{ page.wed9_exc3 }}</p>
+                                        <p>{{ page.wed9_exc4 }}</p>
+                                        <p>{{ page.wed9_exc5 }}</p>
+                                        <p>{{ page.wed9_exc6 }}</p>
+                                        <p>{{ page.wed9_exc7 }}</p>
+                                        <p>{{ page.wed9_exc8 }}</p>
+                                        <p>{{ page.wed9_exc9 }}</p>
+                                        <p>{{ page.wed9_exc10 }}</p>
+                                        <p>{{ page.wed9_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day60_num}}</daynum> {{page.day60}} </pday><br><br>
+                                        <p>{{ page.th9_exc1 }}</p>
+                                        <p>{{ page.th9_exc2 }}</p>
+                                        <p>{{ page.th9_exc3 }}</p>
+                                        <p>{{ page.th9_exc4 }}</p>
+                                        <p>{{ page.th9_exc5 }}</p>
+                                        <p>{{ page.th9_exc6 }}</p>
+                                        <p>{{ page.th9_exc7 }}</p>
+                                        <p>{{ page.th9_exc8 }}</p>
+                                        <p>{{ page.th9_exc9 }}</p>
+                                        <p>{{ page.th9_exc10 }}</p>
+                                        <p>{{ page.th9_exc11 }}</p>
+                                        <p>{{ page.th9_exc12 }}</p>
+                                    <pday>   <daynum>{{page.day61_num}}</daynum> {{page.day61}} </pday><br><br>
+                                        <p>{{ page.fri9_exc1 }}</p>
+                                        <p>{{ page.fri9_exc2 }}</p>
+                                        <p>{{ page.fri9_exc3 }}</p>
+                                        <p>{{ page.fri9_exc4 }}</p>
+                                        <p>{{ page.fri9_exc5 }}</p>
+                                        <p>{{ page.fri9_exc6 }}</p>
+                                        <p>{{ page.fri9_exc7 }}</p>
+                                        <p>{{ page.fri9_exc8 }}</p>
+                                        <p>{{ page.fri9_exc9 }}</p>
+                                        <p>{{ page.fri9_exc10 }}</p>
+                                        <p>{{ page.fri9_exc11 }}</p>
+                                        <p>{{ page.fri9_exc12 }}</p>
+                                        <p>{{ page.fri9_exc13 }}</p>
+                                    <pday>   <daynum>{{page.day62_num}}</daynum> {{page.day63}} </pday><br><br>
+                                        <p>{{ page.sat9_exc1 }}</p>
+                                        <p>{{ page.sat9_exc2 }}</p>
+                                        <p>{{ page.sat9_exc3 }}</p>
+                                        <p>{{ page.sat9_exc4 }}</p>
+                                        <p>{{ page.sat9_exc5 }}</p>
+                                        <p>{{ page.sat9_exc6 }}</p>
+                                        <p>{{ page.sat9_exc7 }}</p>
+                                        <p>{{ page.sat9_exc8 }}</p>
+                                        <p>{{ page.sat9_exc9 }}</p>
+                                        <p>{{ page.sat9_exc10 }}</p>
+                                        <p>{{ page.sat9_exc11 }}</p>
+                                    <pday>   <daynum>{{page.day63_num}}</daynum> {{page.day63}} </pday><br><br>
+                                        <p>{{ page.sun9_exc1 }}</p>
+                                        <p>{{ page.sun9_exc2 }}</p>
+                                        <p>{{ page.sun9_exc3 }}</p>
+                                        <p>{{ page.sun9_exc4 }}</p>
+                                        <p>{{ page.sun9_exc5 }}</p>
+                                        <p>{{ page.sun9_exc6 }}</p>
+                                        <p>{{ page.sun9_exc7 }}</p>
+                                        <p>{{ page.sun9_exc8 }}</p>
+                                        <p>{{ page.sun9_exc9 }}</p>
+                                        <p>{{ page.sun9_exc10 }}</p>
+                                        <p>{{ page.sun9_exc11 }}</p>
+                                                      
+                             
+                                
+                                <ul class="list-inline page-details">
+                                
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com">{{ page.project-date }}</a>
+                                        </strong>
+                                    </li>
+              
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+       
     </body>
 </html>
 
