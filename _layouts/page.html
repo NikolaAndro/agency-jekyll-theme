@@ -1,7 +1,48 @@
 <!doctype html>
 <html>
    {% include head.html %}
-    
+   <style>
+       .week_num    {color: DodgerBlue; font-size: 300%;text-decoration: underline;}
+       pday     {color: Gold; font-size: 250%;}
+       daynum   {color: DodgerBlue; }
+       workouttype     {color: Gold; font-size: 250%;}
+       html {
+         scroll-behavior: smooth;
+       } 
+       table {
+       /*   font-family: arial, sans-serif; */
+         color: DodgerBlue;
+         border-collapse: collapse;
+         width: 100%;
+       }
+
+       td, th {
+         border: 1px solid #dddddd;
+         text-align: center;
+         padding: 8px;
+         color: DodgerBlue;
+       }
+         h2 {
+            font-style: italic;
+         }
+
+   /*       th a {
+             border: 1px solid #dddddd;
+               text-align: center;
+               padding: 8px;
+               color: DodgerBlue;
+         } */
+       td a:nth-child(odd) {
+         color: DodgerBlue;
+       }
+
+       tr:nth-child(even) {
+         background-color: #dddddd;
+       }
+      .container {
+        text-align: center;
+      }
+    </style> 
     <body>
        {% include workout_navbar.html %}
             <div class="modal-content">
