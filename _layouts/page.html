@@ -59,7 +59,7 @@
                                 <h2>{{ page.title }}</h2>
                                 <hr class="star-primary">
                                 <img src="/Workouts_Page/img/{{ page.img_path }}" class="img-responsive img-centered" alt="{{ page.alt }}">
-                                <p>{{ page.description }}</p>
+                                
                                 <table>
                                   <tr>
                                     <th><a href="#week1">Week 1 </a></th>
@@ -149,7 +149,8 @@
                                     <td><a href="#day7w8" > Day 56</a></td>
                                     <td><a href="#day7w9" > Day 63</a></td>
                                   </tr>
-                                </table>
+                                </table><br><br>
+                               <p>{{ page.description }}</p>
                                 <br><br> <a class="week_num" id="week1"> {{page.week1_num}} </a><br><br>
                                     <pday>   <daynum>{{page.day1_num}}</daynum> {{page.day1}} </pday><br><br>
                                         <p>{{ page.mon1_exc1 }}</p>
