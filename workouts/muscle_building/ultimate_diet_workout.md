@@ -6,8 +6,9 @@ canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_build
 url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/ultimate_diet_workout/
 modal-id: 6
 date: 2022-07-24
-img: portfolio/ultimate-diet-inside.png
-thumbnail: portfolio/ultimate-diet-cover.png 
+img_path: portfolio/ultimate-diet-inside.png
+img: ultimate-diet-inside.png
+thumbnail: ultimate-diet-cover.png 
 alt: image-alt
 project-date: July 2022
 client: Start Bootstrap
