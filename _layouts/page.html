@@ -165,6 +165,11 @@
                                   </tr>
                                 </table><br><br>
                                <p>{{ page.description }}</p>
+                               
+                              {% if page.has_coach == "yes" %}
+                                {% include coach.html%}
+                              {% endif %}
+                               
                                 <br><br> <a class="week_num" id="week1"> {{page.week1_num}} </a><br><br>
                                     <pday>   <daynum id="day1w1">{{page.day1_num}}</daynum> {{page.day1}} </pday><br><br>
                                         <p>{{ page.mon1_exc1 }}</p>
