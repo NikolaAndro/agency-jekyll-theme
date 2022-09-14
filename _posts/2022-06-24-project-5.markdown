@@ -6,6 +6,7 @@ modal-id: 5
 date: 2022-06-24
 img: beast_mode.png
 thumbnail: beast_mode.png
+url: bloody_hell
 alt: 
 project-date: July 2022
 client: Start Bootstrap
