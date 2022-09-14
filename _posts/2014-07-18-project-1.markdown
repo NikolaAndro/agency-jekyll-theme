@@ -3,7 +3,7 @@ title: Max Effort
 slug: max_effort
 subtitle: 9 weeks
 layout: default
-permalink: /max_effort/
+permalink: max_effort/
 modal-id: 1
 date: 2022-01-12
 img: 1.png
