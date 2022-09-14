@@ -75,17 +75,13 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                               <h2><a id="workout_title">{{ page.title }}</a></h2>
-                                <hr class="star-primary">
-                                
-                             
                                
                               {% if page.has_coach == "yes" %}
                                 {% include workout_coach.html%}
                               {% else %}
                                <a></a>
                               {% endif %}
-                               
+                               {% include workout_exercises.html%}
                                 <br><br> <a class="week_num" id="week1"> {{page.week1_num}} </a><br><br>
                                     <pday>   <daynum id="day1w1">{{page.day1_num}}</daynum> {{page.day1}} </pday><br><br>
                                         <p>{{ page.mon1_exc1 }}</p>
