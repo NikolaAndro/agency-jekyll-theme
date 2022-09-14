@@ -6,8 +6,8 @@ canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_build
 url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/shredding_by_daniel/
 modal-id: 3
 date: 2022-02-07
-img: daniel.jpg
-thumbnail: daniel.jpg
+img: portfolio/daniel.jpg
+thumbnail: portfolio/daniel.jpg
 alt: image-alt
 project-date: January 2022
 client: Start Bootstrap
