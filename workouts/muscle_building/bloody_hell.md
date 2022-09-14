@@ -4,7 +4,7 @@ subtitle: 6 weeks
 layout: page
 modal-id: 5
 date: 2022-06-24
-img_path:portfolio/beast_mode.png
+img_path: portfolio/beast_mode.png
 img: beast_mode.png
 thumbnail: beast_mode.png
 canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/bloody_hell/
