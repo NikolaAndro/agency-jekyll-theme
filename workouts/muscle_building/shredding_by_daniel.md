@@ -4,7 +4,7 @@ subtitle: 3 weeks
 layout: page
 canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/shredding_by_daniel/
 url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/shredding_by_daniel/
-has_coach: "yes"
+has_coach: yes
 coach: Daniel Grundel
 coach_phone: +17203358762
 coach_email:
