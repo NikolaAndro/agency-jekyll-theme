@@ -1,6 +1,7 @@
 ---
 title: Shredding by Daniel
 subtitle: 3 weeks
+url: shredding_by_daniel
 layout: default
 modal-id: 3
 date: 2022-02-07
