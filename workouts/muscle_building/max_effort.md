@@ -9,7 +9,7 @@ layout: page
 modal-id: 1
 date: 2022-01-12
 img_path: portfolio/1.png
-img: beast_mode.png
+img: 1.png
 thumbnail: 1.png
 alt: image-alt
 project-date: January 2022
