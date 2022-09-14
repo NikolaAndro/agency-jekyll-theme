@@ -3,6 +3,7 @@ layout: page
 canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/max_effort/
 url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/max_effort/
 title: Max Effort
+has_coach: no
 name: Max Effort
 subtitle: 9 weeks
 layout: page
