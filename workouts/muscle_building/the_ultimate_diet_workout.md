@@ -13,9 +13,8 @@ thumbnail: ultimate-diet-cover.png
 alt: image-alt
 project-date: July 2022
 client: Start Bootstrap
-category: Shredding
+category: Muscle Building
 description: This is a workout related to  extrem shredding diet. If you lookup Lyle McDonald and his Ultimate Diet 2.0, you find how to feed yourself. I recommend that you have nothing important that week cause this will make you hangry and you will not have the focus as usual.
-permalink: /Ultimate_Diet_Workout/
 day1_num: Day 1 - 
 day1: Monday (Full Body Glyogen Depletion)
 mon1_exc1: Leg Press - 3 x 15, rest 1 min.
