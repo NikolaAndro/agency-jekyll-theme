@@ -24,6 +24,12 @@
                     <li>
                         <a class="page-scroll" href="#dayTable">Day Table</a>
                     </li>
+                    {% if page.has_coach == "yes" %}
+                        <li>
+                            <a class="page-scroll" href="#coach">Coach</a>
+                        </li>
+                    {% else %}
+                    {% endif %}
                     <li>
                         <a class="page-scroll" id="exit" href="https://nikolaandro.github.io/Workouts_Page/">Back</a>
                     </li>
