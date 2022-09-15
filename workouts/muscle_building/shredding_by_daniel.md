@@ -310,4 +310,5 @@ sat3_exc14: Triceps machine press down - 4 x 15
 day21_num: Day 21 -
 day21: Sunday 
 sun3_exc1: rest
+day22_num:
 ---
