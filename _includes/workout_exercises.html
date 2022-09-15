@@ -1,10 +1,14 @@
 <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-            <div class="rl">
+    {% if page.has_coach == "yes" %}                      
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
             </div>
         </div>
-    </div>
+    {% else %}
+        <a></a>
+    {% endif %}
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
