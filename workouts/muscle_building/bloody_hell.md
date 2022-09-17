@@ -178,12 +178,12 @@ sun2_exc1: REST
 day15_num: Day 15 -
 day15: Monday (Chest & Abs) 
 mon3_exc1: Treadmill Walking 1 x 10 min.
-mon3_exc2: 
-mon3_exc3: 
-mon3_exc4: 
-mon3_exc5:
-mon3_exc6: 
-mon3_exc7: 
+mon3_exc2: Rotetor cuff warm-upp, 2 x 12 reps.
+mon3_exc3: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
+mon3_exc4: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
+mon3_exc5: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+mon3_exc6: Concentration curl, 1 x 10-12 (moderate) + 1 x 6-8 to failure
+mon3_exc7: Barbell curl, 1 x 6-8 to failure with spotter on the last 2-3 reps
 mon3_exc8: 
 mon3_exc9:
 mon3_exc10: 
@@ -191,21 +191,21 @@ mon3_exc11:
 mon3_exc12: 
 mon3_exc13: 
 day16_num: Day 16 -
-day16: Tuesday (Back & Abs)
+day16: Tuesday (Back)
 tu3_exc1: Treadmill Walking 1 x 10 min.
-tu3_exc2:
-tu3_exc3: 
-tu3_exc4: 
-tu3_exc5: 
-tu3_exc6: 
+tu3_exc2: Bent-arm dumbbell pull-over, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+tu3_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+tu3_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
+tu3_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
+tu3_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure 
 tu3_exc7: 
 tu3_exc8: 
 tu3_exc9:
 tu3_exc10:
 tu3_exc11:
 day17_num: Day 17 -
-day17: Wednesday (Legs & Abs)
-wed3_exc1: Treadmill Walking 1 x 10 min.
+day17: Wednesday (REST)
+wed3_exc1: 
 wed3_exc2: 
 wed3_exc3: 
 wed3_exc4: 
@@ -217,39 +217,40 @@ wed3_exc9:
 wed3_exc10: 
 wed3_exc11: 
 day18_num: Day 18 -
-day18: Thursday (Shoulders)
+day18: Thursday (Shoulders & Triceps)
 th3_exc1: Treadmill Walking 1 x 10 min.
-th3_exc2: 
-th3_exc3: 
-th3_exc4: 
-th3_exc5: 
-th3_exc6: 
-th3_exc7: 
-th3_exc8: 
+th3_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th3_exc3: Dumbbell lateral raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th3_exc4: Single-arm cable lateral raise, 1 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th3_exc5: Seated rear delt fly, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th3_exc6: Cable rope push-down, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th3_exc7: Skullcrushers, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th3_exc8: Seated triceps press, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
 th3_exc9: 
 th3_exc10: 
 th3_exc11: 
 th3_exc12:
 day19_num: Day 19 -
-day19: Friday (Arms)
+day19: Friday (Legs)
 fri3_exc1: Treadmill Walking 1 x 10 min.
-fri3_exc2: 
-fri3_exc3:
-fri3_exc4: 
-fri3_exc5: 
-fri3_exc6: 
-fri3_exc7: 
-fri3_exc8: 
-fri3_exc9: 
-fri3_exc10: 
-fri3_exc11: 
+fri3_exc1: Treadmill Walking 1 x 10 min.
+fri3_exc2: Lying cross-over lower back stretch, 1 x 12
+fri3_exc3: Inchworm (suicase walk), 1 x 6
+fri3_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
+fri3_exc5: Leg extension, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri3_exc6: Leg press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri3_exc7: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri3_exc8: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri3_exc9: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
+fri3_exc10: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
+fri3_exc11: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure 
 fri3_exc12: 
 fri3_exc13: 
 fri3_exc14: 
 fri3_exc15: 
 fri3_exc16: 
 day20_num: Day 20 -
-day20: Saturday (Legs)
+day20: Saturday (REST)
 sat3_exc1: 
 sat3_exc2: 
 sat3_exc3: 
@@ -263,8 +264,8 @@ sat3_exc10:
 sat3_exc11:
 sat3_exc12:
 day21_num: Day 21 -
-day21: Sunday
-sun3_exc1: REST
+day21: Sunday (REST)
+sun3_exc1: 
 sun3_exc2: 
 sun3_exc3: 
 sun3_exc4: 
