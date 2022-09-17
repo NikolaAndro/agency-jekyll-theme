@@ -14,7 +14,7 @@ has_coach: no
 project-date: July 2022
 client: Start Bootstrap
 category: Muscle Building
-description: 5 workouts per week / 60 min. workouts<br><br><br>We are not talking about high-intensity interval training! HIT with one "I" is the muscle growth protocol Dorian Yates used to build his legendary bodybuilder physique and hold the Mr. Olympia title against all comers. Instead of racking up volume, you'll take one working set far beyond failure with extreme techniques like partial reps and extra negatives. If you've never tried HIT bodybuilding before, it'll shock your muscles into growth like nothing else.<br><br>What is the training style in this program?<br><br>In a word, intense. For each movement in each workout, you'll take the same approach<br><br>1-2 warm-up sets</br>1 set of 6-12 reps, to muscle failure and beyond<br><br><br>In regard to warm-up sets, the first movement of the day will usually have two, and most other movements will just have one. In your warm-up sets, you'll use a weight you can handle for 10-12 reps with either very little strain or moderate strain. The workouts will let you know which.<br><br><br>Rest for 60 seconds, and then it's time for your working set. Sometimes it'll be 6-8 reps, other times 8-10 or 10-12. More important than the specific rep range is that you make the most of this set by taking it all the way to failure, where you can't perform another rep without assistance.<br><br><br>At that point, your lifting partner should help you perform another 2-3 reps using techniques like forced reps, partial reps, or slow eccentrics. You can see these in action in the videos accompanying each workout or read more about them below.<br><br><br>How should I warm up for my workouts?<br><br><br>Dorian keeps warm-ups simple- 10 minutes of walking on a treadmill or other cardio machine, followed by a few simple dynamic stretches on leg day, or some brief rotator work on chest day. That, plus your warm-up sets, can be enough!<br><br><br>If you have more that you'd like to do, by all means do it, but keep it simple. Don't do anything that detracts from your ability to bring maximum intensity to your working sets. Each day's workout will show you exactly what to do for your "warm-up" or "ramp-up" sets, which will also help activate the muscles you'll be working and lubricate the involved joints.<br><br><br>How heavy should I lift?<br><br><br>The amount of weight you lift for any exercise will always vary based on your current strength and fitness level, as well as the sets and reps of the workout. Unless otherwise specified, the best way to select a weight for any workout is to look at the recommended reps and try to pick a weight that is close to a "rep max" for that rep range.<br><br><br>For example, if you are asked to perform 12-15 reps in a working set, select a weight that you believe you can only lift 12 times before reaching muscle failure. If you can lift the weight more than 15 times, add more weight in the next set or workout. If you can't reach 12, the weight is too heavy, so lighten up. It takes experience to find this sweet spot, and it can change over time, so don't worry if it takes a workout or two to find it in this or any other program.<br><br><br>What intensity techniques do I need to know?<br><br><br>Forced reps- After you reach failure, your partner provides just enough assistance to enable you to perform one more rep. And maybe another. And another.<br><br><br>Sets to failure- Perform reps until your next rep would cause your technique to break down.<br>Eccentric forced reps- After you reach failure, your spotter takes the majority of the load on the lifting portion of a rep, but you are responsible for slowly lowering the weight.<br>Rest-pause- After you reach failure, rest for 15-30 seconds and rep to failure again.<br><br>What about cardio?<br><br><br>High-intensity training places serious demands on your recovery abilities, so don't expect to be able to knock out any interval training sweat-seshes while on this plan. You can do additional cardio, but keep it restorative, like walking on a treadmill, going for a light hike, or doing a yoga class. All of those will help you recover from your workout, get over muscle soreness, and prep for your next training day.<br><br><br>What should I do on rest days?<br><br><br>If the schedule says "rest" in Blood and Guts, then rest! The workouts are intense enough that you'll earn your downtime and each rest day is strategically placed. Use it to prep meals, heal up, and prepare for your next workout.<br><br><br>How do I deal with muscle soreness?<br><br><br>Muscle soreness will be significant during this program, especially if you're unaccustomed to HIT-style workouts. Don't worry. Muscle fiber damage is a normal part of muscle hypertrophy, even if it's not fun.<br><br><br>For your muscles to adapt and get bigger, they need to undergo stress. Soreness is a result of that stress. With proper rest and nutrition, the soreness will pass and you'll get bigger and become stronger. So be patient and eat up! Your recovery demands calories, protein, nutrients, and sleep.<br><br><br>
+description: 4 workouts per week / 60 min. workouts Mon-Tu-Th-Fri <br><br><br>We are not talking about high-intensity interval training! HIT with one "I" is the muscle growth protocol Dorian Yates used to build his legendary bodybuilder physique and hold the Mr. Olympia title against all comers. Instead of racking up volume, you'll take one working set far beyond failure with extreme techniques like partial reps and extra negatives. If you've never tried HIT bodybuilding before, it'll shock your muscles into growth like nothing else.<br><br>What is the training style in this program?<br><br>In a word, intense. For each movement in each workout, you'll take the same approach<br><br>1-2 warm-up sets</br>1 set of 6-12 reps, to muscle failure and beyond<br><br><br>In regard to warm-up sets, the first movement of the day will usually have two, and most other movements will just have one. In your warm-up sets, you'll use a weight you can handle for 10-12 reps with either very little strain or moderate strain. The workouts will let you know which.<br><br><br>Rest for 60 seconds, and then it's time for your working set. Sometimes it'll be 6-8 reps, other times 8-10 or 10-12. More important than the specific rep range is that you make the most of this set by taking it all the way to failure, where you can't perform another rep without assistance.<br><br><br>At that point, your lifting partner should help you perform another 2-3 reps using techniques like forced reps, partial reps, or slow eccentrics. You can see these in action in the videos accompanying each workout or read more about them below.<br><br><br>How should I warm up for my workouts?<br><br><br>Dorian keeps warm-ups simple- 10 minutes of walking on a treadmill or other cardio machine, followed by a few simple dynamic stretches on leg day, or some brief rotator work on chest day. That, plus your warm-up sets, can be enough!<br><br><br>If you have more that you'd like to do, by all means do it, but keep it simple. Don't do anything that detracts from your ability to bring maximum intensity to your working sets. Each day's workout will show you exactly what to do for your "warm-up" or "ramp-up" sets, which will also help activate the muscles you'll be working and lubricate the involved joints.<br><br><br>How heavy should I lift?<br><br><br>The amount of weight you lift for any exercise will always vary based on your current strength and fitness level, as well as the sets and reps of the workout. Unless otherwise specified, the best way to select a weight for any workout is to look at the recommended reps and try to pick a weight that is close to a "rep max" for that rep range.<br><br><br>For example, if you are asked to perform 12-15 reps in a working set, select a weight that you believe you can only lift 12 times before reaching muscle failure. If you can lift the weight more than 15 times, add more weight in the next set or workout. If you can't reach 12, the weight is too heavy, so lighten up. It takes experience to find this sweet spot, and it can change over time, so don't worry if it takes a workout or two to find it in this or any other program.<br><br><br>What intensity techniques do I need to know?<br><br><br>Forced reps- After you reach failure, your partner provides just enough assistance to enable you to perform one more rep. And maybe another. And another.<br><br><br>Sets to failure- Perform reps until your next rep would cause your technique to break down.<br>Eccentric forced reps- After you reach failure, your spotter takes the majority of the load on the lifting portion of a rep, but you are responsible for slowly lowering the weight.<br>Rest-pause- After you reach failure, rest for 15-30 seconds and rep to failure again.<br><br>What about cardio?<br><br><br>High-intensity training places serious demands on your recovery abilities, so don't expect to be able to knock out any interval training sweat-seshes while on this plan. You can do additional cardio, but keep it restorative, like walking on a treadmill, going for a light hike, or doing a yoga class. All of those will help you recover from your workout, get over muscle soreness, and prep for your next training day.<br><br><br>What should I do on rest days?<br><br><br>If the schedule says "rest" in Blood and Guts, then rest! The workouts are intense enough that you'll earn your downtime and each rest day is strategically placed. Use it to prep meals, heal up, and prepare for your next workout.<br><br><br>How do I deal with muscle soreness?<br><br><br>Muscle soreness will be significant during this program, especially if you're unaccustomed to HIT-style workouts. Don't worry. Muscle fiber damage is a normal part of muscle hypertrophy, even if it's not fun.<br><br><br>For your muscles to adapt and get bigger, they need to undergo stress. Soreness is a result of that stress. With proper rest and nutrition, the soreness will pass and you'll get bigger and become stronger. So be patient and eat up! Your recovery demands calories, protein, nutrients, and sleep.<br><br><br>
 week1_num: Week 1
 day1_num: Day 1 -
 day1: Day 1 - Monday (chest and biceps)
@@ -49,22 +49,8 @@ tu1_exc9: Cable seated row  wide grip - 1 x 8-10 (to the failure)
 tu1_exc10: Barbell deadlift warm-up - 1 x 10-12 (down to mid shin)
 tu1_exc11: Barbell deadlift - 1 x 8-10
 day3_num: Day 3 -
-day3: Day 3 - Wednesday (shoulders & triceps)
-wed1_exc1: Treadmill walking - 1 x 10 min.
-wed1_exc2: Seated dumbbell shoulder press - 2 x 12 (warm up - 1st set easy, 2nd moderate strain)
-wed1_exc3: Seated dumbbell shoulder press - 1 x 6-8 (use help from spotter on the final reps)
-wed1_exc4: Dumbbell lateral raise - 1 x 10-12 (warm up)
-wed1_exc5: Dumbbell lateral raise - 1 x 8-10 (use help from spotter on the final reps)
-wed1_exc6: Single arm cable lateral raise (left and right) - 1 x 10-12 (warm up)
-wed1_exc7: Single arm cable lateral raise (left and right) - 1 x 8-10 (use help from spotter on the final reps)
-wed1_exc8: Seated rear delt fly - 1 x 8-10 (warm up)
-wed1_exc9: Seated rear delt fly - 1 x 8-10 (to the failure)  (use help from spotter on the final reps)
-wed1_exc10: Cable rope push down - 1 x 10-12 (warm up)
-wed1_exc11: Cable rope push down - 1 x 10-12 (use help from spotter on the final reps)
-wed1_exc12: Behind the head skullcrusher - 1 x 10-12 (warm up)
-wed1_exc13: Behind the head skullcrusher - 1 x 8-10 (use help from spotter on the final reps)
-wed1_exc14: Seated tricecps press - 1 x 10-12 (warm up)
-wed1_exc15: Seated tricecps press - 1 x 8-10 (use help from spotter on the final reps)
+day3: Day 3 - Wednesday (REST)
+wed1_exc1:
 day4_num: Day 4 -
 day4: Thursday (Shoulders & Triceps)
 th1_exc1: Treadmill Walking 1 x 10 min. 
@@ -87,7 +73,7 @@ day5: Friday (Legs)
 fri1_exc1: Treadmill Walking 1 x 10 min.
 fri1_exc2: Lying cross-over lower back stretch, 1 x 12
 fri1_exc3: Inchworm (suicase walk), 1 x 6
-fri1_exc4: Standing hamstring stretch, 1 x 12
+fri1_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
 fri1_exc5: Leg extension, 2 x 12 (moderate strain)
 fri1_exc6: Leg extension, 1 x 12 heavy to failure + 2-3 reps with spotter help
 fri1_exc7: Leg press, 2 x 12 (moderate strain)
@@ -112,14 +98,14 @@ day7_num: Day 7 -
 day7: Sunday (REST)
 sun1_exc1: 
 day8_num: Day 8 -
-day8: Monday (Chest & Abs)
+day8: Monday (Chest & Biceps)
 mon2_exc1: Treadmill Walking 1 x 10 min.
-mon2_exc2: 
-mon2_exc3: 
-mon2_exc4: 
-mon2_exc5: 
-mon2_exc6: 
-mon2_exc7: 
+mon2_exc2: Rotetor cuff warm-up, 2 x 12 reps (rest 1 min.)
+mon2_exc3: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
+mon2_exc4: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
+mon2_exc5: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+mon2_exc6: Concentration curl, 1 x 10-12 (moderate) + 1 x 6-8 to failure
+mon2_exc7: Barbell curl, 1 x 6-8 to failure with spotter on the last 2-3 reps
 mon2_exc8: 
 mon2_exc9: 
 mon2_exc10: 
@@ -128,23 +114,23 @@ mon2_exc12:
 day9_num: Day 9 -
 day9: Tuesday (Back)
 tu2_exc1: Treadmill Walking 1 x 10 min.
-tu2_exc2: 
-tu2_exc3: 
-tu2_exc4: 
-tu2_exc5: 
-tu2_exc6: 
+tu2_exc2: Bent-arm dumbbell pull-over, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+tu2_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+tu2_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
+tu2_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
+tu2_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure 
 tu2_exc7: 
-tu2_exc8:
-tu2_exc9:
+tu2_exc8: 
+tu2_exc9: 
 tu2_exc10:
 tu2_exc11:
 tu2_exc12:
 day10_num: Day 10 -
-day10: Wednesday (Legs & Abs)
-wed2_exc1: Treadmill Walking 1 x 10 min.
+day10: Wednesday (REST)
+wed2_exc1: 
 wed2_exc2: 
 wed2_exc3: 
-wed2_exc4:
+wed2_exc4: 
 wed2_exc5: 
 wed2_exc6: 
 wed2_exc7: 
@@ -153,32 +139,32 @@ wed2_exc9:
 wed2_exc10: 
 wed2_exc11: 
 day11_num: Day 11 -
-day11: Thursday (Shoulders)
+day11: Thursday (Shoulders & Triceps)
 th2_exc1: Treadmill Walking 1 x 10 min.
-th2_exc2: 
-th2_exc3: 
-th2_exc4: 
-th2_exc5: 
-th2_exc6: 
-th2_exc7: 
-th2_exc8: 
-th2_exc9: 
+th2_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th2_exc3: Dumbbell lateral raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th2_exc4: Single-arm cable lateral raise, 1 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th2_exc5: Seated rear delt fly, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th2_exc6: Cable rope push-down, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th2_exc7: Skullcrushers, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th2_exc8: Seated triceps press, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th2_exc9:
 th2_exc10: 
 th2_exc11: 
-th2_exc12: 
+th2_exc12:  
 day12_num: Day 12 -
-day12: Friday (Arms & Abs)
+day12: Friday (LEGS)
 fri2_exc1: Treadmill Walking 1 x 10 min.
-fri2_exc2: 
-fri2_exc3: 
-fri2_exc4: 
-fri2_exc5: 
-fri2_exc6: 
-fri2_exc7: 
-fri2_exc8: 
-fri2_exc9: 
-fri2_exc10: 
-fri2_exc11: 
+fri2_exc2: Lying cross-over lower back stretch, 1 x 12
+fri2_exc3: Inchworm (suicase walk), 1 x 6
+fri2_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
+fri2_exc5: Leg extension, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri2_exc6: Leg press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri2_exc7: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri2_exc8: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri2_exc9: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
+fri2_exc10: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
+fri2_exc11: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure
 fri2_exc12: 
 fri2_exc13: 
 fri2_exc14: 
