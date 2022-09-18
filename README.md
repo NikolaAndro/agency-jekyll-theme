@@ -23,9 +23,9 @@ Every portfolio needs to point to a new html page.
 - [ ] Excercise Library Section that leads to our new YouTube Section
 - [ ] YouTube Section
 - [ ] Instagram Page
-- [ ] Eventually $1 per month fee
-- [ ] Table at the beginning of the workout (being able to autoscroll)
-- [ ] Talk to Mathew to promote, we will him, as well as Mirzad
+- [ ] Eventually $1 per month fee (Why not just for free??)
+- [x] Table at the beginning of the workout (being able to autoscroll)
+- [x] Talk to Mathew to promote, we will him, as well as Mirzad
 - [ ] Share in school chats and Other school teams/chats
 
 Agency Jekyll theme
