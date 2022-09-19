@@ -80,7 +80,7 @@ fri1_exc4: EZ preacher curl - 4 x 12, rest 45 sec.
 fri1_exc5: Incline dumbbell biceps curl - 4 x 12, rest 45 sec. + double drop set after the last set
 fri1_exc6: Alternating hammer curl - 4 x 10 each, rest 45 sec.
 fri1_exc7: Overhead cable curl - 6 x 15, rest 30 sec.
-fri1_exc8: EZ-bar scullcrusher - 4 x 10, rest 45 sec. + double drop set after the last set
+fri1_exc8: EZ-bar skullcrusher - 4 x 10, rest 45 sec. + double drop set after the last set
 fri1_exc9: Seated triceps press - 4 x 12, rest 45 sec. + single drop set after the last set
 fri1_exc10: Triceps dip with extra weight - 4 x 12, rest 1 min.
 fri1_exc11: Cable rope push-down - 15/12/10/10, rest 45 sec. + single drop set after the last set
