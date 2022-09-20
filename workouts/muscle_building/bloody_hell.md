@@ -233,7 +233,6 @@ th3_exc12:
 day19_num: Day 19 -
 day19: Friday (Legs)
 fri3_exc1: Treadmill Walking 1 x 10 min.
-fri3_exc1: Treadmill Walking 1 x 10 min.
 fri3_exc2: Lying cross-over lower back stretch, 1 x 12
 fri3_exc3: Inchworm (suicase walk), 1 x 6
 fri3_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
@@ -279,12 +278,12 @@ sun3_exc11:
 day22_num: Day 22 -
 day22: Monday (Chest & Abs)
 mon4_exc1: Treadmill Walking 1 x 10 min.
-mon4_exc2: 
-mon4_exc3: 
-mon4_exc4: 
-mon4_exc5: 
-mon4_exc6: 
-mon4_exc7: 
+mon4_exc2: Rotetor cuff warm-upp, 2 x 12 reps.
+mon4_exc3: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
+mon4_exc4: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
+mon4_exc5: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+mon4_exc6: Concentration curl, 1 x 10-12 (moderate) + 1 x 6-8 to failure
+mon4_exc7: Barbell curl, 1 x 6-8 to failure with spotter on the last 2-3 reps
 mon4_exc8: 
 mon4_exc9: 
 mon4_exc10: 
@@ -293,11 +292,11 @@ mon4_exc12:
 day23_num: Day 23 -
 day23: Tuesday (Back & Abs)
 tu4_exc1: Treadmill Walking 1 x 10 min.
-tu4_exc2: 
-tu4_exc3: 
-tu4_exc4: 
-tu4_exc5: 
-tu4_exc6: 
+tu4_exc2: Bent-arm dumbbell pull-over, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+tu4_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+tu4_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
+tu4_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
+tu4_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure
 tu4_exc7: 
 tu4_exc8: 
 tu4_exc9: 
@@ -305,8 +304,8 @@ tu4_exc10:
 tu4_exc11: 
 tu4_exc12:
 day24_num: Day 24 -
-day24: Wednesday (Legs)
-wed4_exc1: Treadmill Walking 1 x 10 min.
+day24: Wednesday (REST)
+wed4_exc1: 
 wed4_exc2: 
 wed4_exc3: 
 wed4_exc4: 
@@ -321,29 +320,29 @@ wed4_exc12:
 day25_num: Day 25 -
 day25: Thursday (Shoulders & Abs)
 th4_exc1: Treadmill Walking 1 x 10 min.
-th4_exc2: 
-th4_exc3: 
-th4_exc4: 
-th4_exc5: 
-th4_exc6: 
-th4_exc7: 
-th4_exc8: 
+th4_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc3: Dumbbell lateral raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc4: Single-arm cable lateral raise, 1 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc5: Seated rear delt fly, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc6: Cable rope push-down, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th4_exc7: Skullcrushers, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc8: Seated triceps press, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
 th4_exc9: 
 th4_exc10: 
 th4_exc11: 
 day26_num: Day 26 -
 day26: Friday (Arms)
 fri4_exc1: Treadmill Walking 1 x 10 min.
-fri4_exc2: 
-fri4_exc3: 
-fri4_exc4: 
-fri4_exc5: 
-fri4_exc6: 
-fri4_exc7: 
-fri4_exc8: 
-fri4_exc9: 
-fri4_exc10: 
-fri4_exc11: 
+fri4_exc2: Lying cross-over lower back stretch, 1 x 12
+fri3_exc3: Inchworm (suicase walk), 1 x 6
+fri4_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
+fri4_exc5: Leg extension, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc6: Leg press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc7: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc8: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc9: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
+fri4_exc10: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
+fri4_exc11: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
 fri4_exc12: 
 fri4_exc13: 
 fri4_exc14: 
@@ -376,12 +375,12 @@ sun4_exc11:
 day29_num: Day 29 -
 day29: Monday (Chest & Abs)
 mon5_exc1: Treadmill Walking 1 x 10 min.
-mon5_exc2: 
-mon5_exc3: 
-mon5_exc4: 
-mon5_exc5: 
-mon5_exc6: 
-mon5_exc7: 
+mon5_exc2: Rotetor cuff warm-upp, 2 x 12 reps.
+mon5_exc3: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
+mon5_exc4: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
+mon5_exc5: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+mon5_exc6: Concentration curl, 1 x 10-12 (moderate) + 1 x 6-8 to failure
+mon5_exc7: Barbell curl, 1 x 6-8 to failure with spotter on the last 2-3 reps 
 mon5_exc8: 
 mon5_exc9: 
 mon5_exc10: 
@@ -390,11 +389,11 @@ mon5_exc12:
 day30_num: Day 30 -
 day30: Tuesday (Back)
 tu5_exc1: Treadmill Walking 1 x 10 min.
-tu5_exc2: 
-tu5_exc3: 
-tu5_exc4: 
-tu5_exc5: 
-tu5_exc6: 
+tu5_exc2: Bent-arm dumbbell pull-over, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+tu5_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+tu5_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
+tu5_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
+tu5_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure
 tu5_exc7: 
 tu5_exc8:
 tu5_exc9:
@@ -402,8 +401,8 @@ tu5_exc10:
 tu5_exc11:
 tu5_exc12:
 day31_num: Day 31 -
-day31: Wednesday (Legs & Abs)
-wed5_exc1: Treadmill Walking 1 x 10 min.
+day31: Wednesday (REST)
+wed5_exc1: 
 wed5_exc2: 
 wed5_exc3: 
 wed5_exc4: 
@@ -417,13 +416,13 @@ wed5_exc11:
 day32_num: Day 32 -
 day32: Thursday (Shoulders & Abs)
 th5_exc1: Treadmill Walking 1 x 10 min.
-th5_exc2: 
-th5_exc3: 
-th5_exc4: 
-th5_exc5: 
-th5_exc6: 
-th5_exc7: 
-th5_exc8: 
+th5_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th5_exc3: Dumbbell lateral raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th5_exc4: Single-arm cable lateral raise, 1 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th5_exc5: Seated rear delt fly, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th5_exc6: Cable rope push-down, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th5_exc7: Skullcrushers, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th5_exc8: Seated triceps press, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
 th5_exc9: 
 th5_exc10:
 th5_exc12:
@@ -433,16 +432,16 @@ th5_exc15:
 day33_num: Day 33 -
 day33: Friday (Arms)
 fri5_exc1: Treadmill Walking 1 x 10 min.
-fri5_exc2: 
-fri5_exc3: 
-fri5_exc4: 
-fri5_exc5: 
-fri5_exc6: 
-fri5_exc7: 
-fri5_exc8: 
-fri5_exc9: 
-fri5_exc10:
-fri5_exc11:
+fri5_exc2: Lying cross-over lower back stretch, 1 x 12
+fri5_exc3: Inchworm (suicase walk), 1 x 6
+fri5_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
+fri5_exc5: Leg extension, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri5_exc6: Leg press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri5_exc7: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri5_exc8: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri5_exc9: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
+fri5_exc10: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
+fri5_exc11: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
 fri5_exc12:
 fri5_exc13:
 fri5_exc14:
@@ -476,12 +475,12 @@ sun5_exc11:
 day36_num: Day 36 -
 day36: Monday (Chest & Abs)
 mon6_exc1: Treadmill Walking 1 x 10 min.
-mon6_exc2: 
-mon6_exc3: 
-mon6_exc4: 
-mon6_exc5: 
-mon6_exc6: 
-mon6_exc7: 
+mon6_exc2: Rotetor cuff warm-upp, 2 x 12 reps.
+mon6_exc3: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
+mon6_exc4: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
+mon6_exc5: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+mon6_exc6: Concentration curl, 1 x 10-12 (moderate) + 1 x 6-8 to failure
+mon6_exc7: Barbell curl, 1 x 6-8 to failure with spotter on the last 2-3 reps 
 mon6_exc8: 
 mon6_exc9: 
 mon6_exc10:
@@ -490,19 +489,19 @@ mon6_exc12:
 day37_num: Day 37 -
 day37: Tuesday (Back & Abs)
 tu6_exc1: Treadmill Walking 1 x 10 min.
-tu6_exc2: 
-tu6_exc3: 
-tu6_exc4: 
-tu6_exc5: 
-tu6_exc6: 
+tu6_exc2: Bent-arm dumbbell pull-over, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+tu6_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+tu6_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
+tu6_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
+tu6_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure
 tu6_exc7: 
 tu6_exc8: 
 tu6_exc9: 
 tu6_exc10:
 tu6_exc11:
 day38_num: Day 38 -
-day38: Wednesday (Legs)
-wed6_exc1: Treadmill Walking 1 x 10 min.
+day38: Wednesday (REST)
+wed6_exc1: 
 wed6_exc2: 
 wed6_exc3: 
 wed6_exc4: 
@@ -517,13 +516,13 @@ wed6_exc12:
 day39_num: 
 day39: Thursday (Shoulders & Abs)
 th6_exc1: Treadmill Walking 1 x 10 min.
-th6_exc2: 
-th6_exc3: 
-th6_exc4: 
-th6_exc5: 
-th6_exc6: 
-th6_exc7: 
-th6_exc8: 
+th6_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc3: Dumbbell lateral raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc4: Single-arm cable lateral raise, 1 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc5: Seated rear delt fly, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc6: Cable rope push-down, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th6_exc7: Skullcrushers, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc8: Seated triceps press, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps 
 th6_exc9: 
 th6_exc10:
 th6_exc11:
@@ -538,16 +537,16 @@ th6_exc19:
 day40_num: Day 40 -
 day40: Friday (Arms)
 fri6_exc1: Treadmill Walking 1 x 10 min.
-fri6_exc2: 
-fri6_exc3: 
-fri6_exc4: 
-fri6_exc5: 
-fri6_exc6: 
-fri6_exc7: 
-fri6_exc8: 
-fri6_exc9: 
-fri6_exc10:
-fri6_exc11:
+fri6_exc2: Lying cross-over lower back stretch, 1 x 12
+fri3_exc3: Inchworm (suicase walk), 1 x 6
+fri4_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
+fri4_exc5: Leg extension, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc6: Leg press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc7: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc8: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc9: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
+fri4_exc10: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
+fri4_exc11: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure   
 fri6_exc12:
 day41_num: Day 41 -
 day41: Saturday (REST)
