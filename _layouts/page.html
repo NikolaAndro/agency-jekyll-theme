@@ -70,6 +70,17 @@
          -ms-user-select: none; /* Internet Explorer/Edge */ 
          user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */ 
       } 
+      /* We are stopping user from
+        printing our webpage */
+     @media print {
+
+         html,
+         body {
+
+             /* Hide the whole page */
+             display: none;
+         }
+     }
     </style> 
     <body id="page-top" class="index">
        {% include workout_navbar.html %}
