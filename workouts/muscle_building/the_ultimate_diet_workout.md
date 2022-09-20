@@ -14,7 +14,7 @@ alt: image-alt
 project-date: July 2022
 client: Start Bootstrap
 category: Muscle Building
-description: This is a workout related to  extrem shredding diet by Lyle McDonald. If interested check out his [Ultimate Diet 2.0](https://www.amazon.com/Ultimate-Diet-2-0-Lyle-McDonald/dp/0967145627) book. I recommend that you have nothing important that week cause this will make you hangry and you will not have the focus as usual. Mr McDonald is pretty active online. He will most likelly answer to your questions via email.
+description: This is a workout related to  extrem shredding diet by Lyle McDonald. If interested check out his Ultimate Diet 2.0 book. We recommend that you have nothing important that week cause this will make you hangry and you will not have the focus as usual. Mr McDonald is pretty active online. He will most likelly answer to your questions via email.
 day1_num: Day 1 - 
 day1: Monday (Full Body Glyogen Depletion)
 mon1_exc1: Leg Press - 3 x 15, rest 1 min.
