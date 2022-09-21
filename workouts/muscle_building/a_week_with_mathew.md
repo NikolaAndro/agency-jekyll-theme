@@ -4,8 +4,7 @@ subtitle: 1 week
 layout: page
 modal-id: 2
 date: 2022-09-21
-img: matthew.png
-thumbnail: matthew.png
+img_path: portfolio/matthew.png
 alt: image-alt
 has_coach: "yes"
 coach_name: Mathew
