@@ -6,7 +6,7 @@ modal-id: 2
 date: 2022-09-21
 img: portfolio/matthew.png
 thumbnail: portfolio/matthew.png
-permalink: A_Week_With_Mathew/
+permalink: a_week_with_mathew/
 alt: image-alt
 project-date: September 2022
 client: Start Bootstrap
