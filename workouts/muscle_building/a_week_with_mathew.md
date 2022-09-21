@@ -4,9 +4,12 @@ subtitle: 1 week
 layout: page
 modal-id: 2
 date: 2022-09-21
-img: portfolio/matthew.png
-thumbnail: portfolio/matthew.png
+img: matthew.png
+thumbnail: matthew.png
 alt: image-alt
+has_coach: "yes"
+coach_name: Mathew
+coach_last_name: Omondi
 project-date: September 2022
 client: Start Bootstrap
 category: "Body Building"
