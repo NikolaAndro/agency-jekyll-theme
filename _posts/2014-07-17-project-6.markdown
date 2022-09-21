@@ -7,7 +7,7 @@ permalink: the_ultimate_diet_workout/
 modal-id: 6
 date: 2022-07-24
 img: ultimate-diet-inside.png
-thumbnail: ultimate-diet-cover.png 
+thumbnail: ultimate-diet-cover.jpg 
 alt: image-alt
 project-date: July 2022
 client: Start Bootstrap
