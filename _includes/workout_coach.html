@@ -6,19 +6,32 @@
                     <h2 class="section-heading">{{page.coach_name}} {{page.coach_last_name}}</h2>
                     <h3 class="section-subheading">If you would like a workout catered to you and created by <a id="coach_name">{{page.coach_name}} {{page.coach_last_name}}</a><br><br>
                         feel free to reach out using the contact information bellow!</h3>
-                    <ul class="social-buttons">
-                        <li style="display:inline">                            
-                            <i class="fa fa-phone fa-fw"></i>    
-                            <i id="coach_phone" href="tel:+{{page.coach_phone}}">  +{{page.coach_phone}}</i>
-                        </li>     
-                    </ul>
-                    <br> 
-                    <ul class="social-buttons">
-                        <li style="display:inline">    
-                            <i class="fa fa-envelope-o fa-fw"></i>   
-                            <i id="coach_email" href = "mailto:{{page.coach_email}}">  {{page.coach_email}}</i>
-                        </li>
-                    </ul>   
+                    {% if page.coach_phone %}
+                        <ul class="social-buttons">
+                            <li style="display:inline">                            
+                                <i class="fa fa-phone fa-fw"></i>    
+                                <i id="coach_phone" href="tel:+{{page.coach_phone}}">  +{{page.coach_phone}}</i>
+                            </li>     
+                        </ul>
+                        <br> 
+                    {% endif %}
+                    {% if page.coach_email %}
+                        <ul class="social-buttons">
+                            <li style="display:inline">    
+                                <i class="fa fa-envelope-o fa-fw"></i>   
+                                <i id="coach_email" href = "mailto:{{page.coach_email}}">  {{page.coach_email}}</i>
+                            </li>
+                        </ul>  
+                    <br>
+                    {% if page.coach_instagram %}
+                        <ul class="social-buttons">
+                            <li style="display:inline">    
+                                <i class="fa fa-envelope-o fa-fw"></i>   
+                                <i id="coach_instagram" href = "https://www.instagram.com/{{page.coach_instagram}}/"> @{{page.coach_instagram}}</i>
+                            </li>
+                        </ul>  
+                    <br>
+                    {% endif %}
                 </div>
             </div>
         </div>
