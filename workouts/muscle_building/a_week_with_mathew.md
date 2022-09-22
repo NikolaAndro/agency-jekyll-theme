@@ -9,6 +9,7 @@ alt: image-alt
 has_coach: "yes"
 coach_name: Mathew
 coach_last_name: Omondi
+coach_instagram: Forever__ill
 project-date: September 2022
 client: Start Bootstrap
 category: "Body Building"
