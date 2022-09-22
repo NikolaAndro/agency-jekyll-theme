@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">{{page.coach_name}} {{page.coach_last_name}}</h2>
-                    <h3 class="section-subheading">If you would like a workout catered to you and created by <a id="coach_name">{{page.coach_name}} {{page.coach_last_name}}</a><br><br>
+                    <h3 class="section-subheading">If you would like a workout catered to you and created by <a id="coach_info">{{page.coach_name}} {{page.coach_last_name}}</a><br><br>
                         feel free to reach out using the contact information bellow!</h3>
                     {% if page.coach_phone %}
                         <ul class="social-buttons">
@@ -26,9 +26,15 @@
                     {% endif %}
                     {% if page.coach_instagram %}
                         <ul class="social-buttons">
-                            <li style="display:inline">    
-                                <i class="fa fa-envelope-o fa-fw"></i>   
-                                <i id="coach_info"><a href = "https://www.instagram.com/{{page.coach_instagram}}/">@{{page.coach_instagram}}</a></i>
+                            <li style="display:inline"> 
+                                <!-- circular icon  -->
+                                <li>
+                                    <a href="https://www.instagram.com/{{page.coach_instagram}}/">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+<!--                                 <i class="fa fa-envelope-o fa-fw"></i>    -->
+                                <i id="coach_info"><a id="coach_info" href="https://www.instagram.com/{{page.coach_instagram}}/">@{{page.coach_instagram}}</a></i>
                             </li>
                         </ul>  
                     <br>
