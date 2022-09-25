@@ -1,0 +1,14 @@
+---
+title: A Quick Shred
+subtitle: 6 weeks
+layout: default
+modal-id: 4
+date: 2022-09-25
+img: portfolio/matthew.png
+thumbnail: shredding1.jpg
+permalink: #
+alt: image-alt
+project-date: September 2022
+client: Start Bootstrap
+category: "Shredding"
+---
