@@ -11,4 +11,5 @@ alt: image-alt
 project-date: September 2022
 client: Start Bootstrap
 category: "Shredding"
+coming_soon_ribon: yes
 ---
