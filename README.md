@@ -27,7 +27,7 @@ Every portfolio needs to point to a new html page.
 - [x] Table at the beginning of the workout (being able to autoscroll)
 - [x] Talk to Mathew to promote, we will him, as well as Mirzad
 - [ ] Share in school chats and Other school teams/chats
-
+- [ ] Custom domain name and hosting. Read [this](https://jekyllrb.com/docs/deployment/third-party/).
 Agency Jekyll theme
 ====================
 
