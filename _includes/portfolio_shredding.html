@@ -15,11 +15,11 @@
                         
                         <a href="https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/{{ post.url }}" class="portfolio-link" data-toggle="modal">
     <!--                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal"> -->
+                            {% if post.coming_soon_ribbon == "yes" %}     
+                                <a class="github-fork-ribbon" href="https://url.to-your.repo" data-ribbon="Coming Soon!" title="Coming Soon!">Coming Soon!</a>
+                            {% endif %} 
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
-                                    {% if post.coming_soon_ribbon == "yes" %}     
-                                        <a class="github-fork-ribbon" href="https://url.to-your.repo" data-ribbon="Fork me on GitHub" title="Coming Soon!">Coming Soon!</a>
-                                    {% endif %}     
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
