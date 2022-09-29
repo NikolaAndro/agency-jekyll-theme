@@ -14,31 +14,39 @@
                             </li>     
                         </ul>
                         <br> 
+                        <div class="coach_information" style="display: inline;">
+                            <ul class="list-inline social-buttons">
+                                <li style="display:inline">                          
+                                    <li>
+                                        <!-- circular icon  -->
+                                        <a href="tel:+{{page.coach_phone}}">
+                                            <i class="fa fa-phone fa-fw"></i>
+                                        </a>
+                                    </li>
+                                </li>
+                            </ul>  
+                    
+                            <!-- Text next to the icon  -->
+                            <h3 class="section-subheading"><a id="coach_info" href="tel:+{{page.coach_phone}}">+{{page.coach_phone}}</a></h3>
+                            <br>
+                        </div>
                     {% endif %}
                     {% if page.coach_email %}
-                        <ul class="social-buttons">
-                            <li style="display:inline">    
-                                <i class="fa fa-envelope-o fa-fw"></i>   
-                                <i id="coach_info" href = "mailto:{{page.coach_email}}">  {{page.coach_email}}</i>
-                            </li>
-                        </ul>  
-                    <br>
                     <div class="coach_information" style="display: inline;">
                         <ul class="list-inline social-buttons">
                             <li style="display:inline">                          
-                                <li style="display:inline">
+                                <li>
                                     <!-- circular icon  -->
-                                    <a href="https://www.instagram.com/{{page.coach_instagram}}/">
+                                    <a href="mailto:{{page.coach_email}}">
                                         <i class="fa fa-envelope-o fa-fw"></i>
                                     </a>
-                                    <i id="coach_info" href = "mailto:{{page.coach_email}}">  {{page.coach_email}}</i>
                                 </li>
                             </li>
                         </ul>  
                     
                         <!-- Text next to the icon  -->
-<!--                         <h3 class="section-subheading"><a id="coach_info" href="https://www.instagram.com/{{page.coach_instagram}}/">@{{page.coach_instagram}}</a></h3>
-                        <br> -->
+                        <h3 class="section-subheading"><a id="coach_info" href="mailto:{{page.coach_email}}">{{page.coach_email}}</a></h3>
+                        <br>
                     </div>
                     {% endif %}
                     {% if page.coach_instagram %}
