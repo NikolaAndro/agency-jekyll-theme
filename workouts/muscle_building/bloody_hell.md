@@ -99,8 +99,8 @@ day7: Sunday (REST)
 sun1_exc1: 
 day8_num: Day 8 -
 day8: Monday (Chest & Biceps)
-mon2_exc1: Treadmill Walking 1 x 10 min.
-mon2_exc2: Rotetor cuff warm-up, 2 x 12 reps (rest 1 min.)
+mon2_exc1: Rotetor cuff warm-up, 2 x 12 reps (rest 1 min.)
+mon2_exc2: Incline, flat, decline push ups, 20 reps each (2 rounds)
 mon2_exc3: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
 mon2_exc4: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
 mon2_exc5: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
