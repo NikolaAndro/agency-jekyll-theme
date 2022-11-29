@@ -279,16 +279,20 @@ day22_num: Day 22 -
 day22: Monday (Chest & Abs)
 mon4_exc1: Treadmill Walking 1 x 10 min.
 mon4_exc2: Rotetor cuff warm-upp, 2 x 12 reps.
-mon4_exc3: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
-mon4_exc4: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
-mon4_exc5: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-mon4_exc6: Concentration curl, 1 x 10-12 (moderate) + 1 x 6-8 to failure
-mon4_exc7: Barbell curl, 1 x 6-8 to failure with spotter on the last 2-3 reps
-mon4_exc8: 
-mon4_exc9: 
-mon4_exc10: 
-mon4_exc11: 
-mon4_exc12:
+mon4_exc3: Decline, Flat, and Incline push ups 20 each, 2 sets
+mon4_exc4: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
+mon4_exc5: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
+mon4_exc6: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+mon4_exc7: Low to High cable machine, 3 x 8-12
+mon4_exc8: Chest height cable machine, 3 x 8-12
+mon4_exc9: High to Low cable machine, 3 x 8-12
+mon4_exc10: Concentration curl, 3 x 10-12 (moderate) + 1 x 6-8 to failure
+mon4_exc11: Barbell curl, 3 x 6-8 to failure with spotter on the last 2-3 reps
+mon4_exc12: Hammer curl, 2 x 8-12 + 1 x 6-8 to failure
+mon4_exc13: Decline bench biceps curl, 2 x 8-12 + 1 x 6-8 to failure
+mon4_exc14: Straight, left side, right side weighted crunces, 3 x 20 each
+mon4_exc15: 
+mon4_exc16:
 day23_num: Day 23 -
 day23: Tuesday (Back & Abs)
 tu4_exc1: Treadmill Walking 1 x 10 min.
