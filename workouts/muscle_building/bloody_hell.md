@@ -322,18 +322,23 @@ wed4_exc10:
 wed4_exc11:
 wed4_exc12:
 day25_num: Day 25 -
-day25: Thursday (Shoulders & Abs)
+day25: Thursday (Shoulders, Triceps & Abs)
 th4_exc1: Treadmill Walking 1 x 10 min.
 th4_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc3: Dumbbell lateral raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc4: Single-arm cable lateral raise, 1 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc5: Seated rear delt fly, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc6: Cable rope push-down, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th4_exc7: Skullcrushers, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc8: Seated triceps press, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc9: 
-th4_exc10: 
-th4_exc11: 
+th4_exc3: Seated front dumbbell  together press, 2 x 10-12 (moderate) + 1 x 8-10 to failure 
+th4_exc4: Dumbbell lateral raise, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc5: Single-arm cable lateral raise, 2 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc6: Bent over rear delt fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc7: Reverse machine fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc8: Cable rope half-range push-down with wrist rotation (palm down), 2 x 30
+th4_exc9: Single arm cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th4_exc10: Reverse grip bench press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th4_exc11: Dumbbell Skullcrushers, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc12: Inverse grip push up (bottom of Smith machine),  3 x 15
+th4_exc13: Seated triceps press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc14: Elbows out - Close grip bench press, 2 x 10-12 (moderate) + 1 x 8-10 to failure 
+th4_exc15: Straight, left side, right side weighted crunces, 3 x 20 each
+th4_exc16: 
 day26_num: Day 26 -
 day26: Friday (Arms)
 fri4_exc1: Treadmill Walking 1 x 10 min.
