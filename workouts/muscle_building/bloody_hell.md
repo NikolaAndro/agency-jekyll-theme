@@ -351,7 +351,7 @@ fri4_exc7: Leg press feet together toes out, 2 x 10-12  + 1 x 10-12 to failure w
 fri4_exc8: One and a half leg press feet shoulder width apart (half rep + full rep = 1 rep), 2 x 10-12  + 1 x 10-12 to failure with spotter on the last 2-3 reps
 fri4_exc9: Leg press feet wide (half rep only), 2 x 30  
 fri4_exc10: Kneeling layback quad squeeze, 3 x 15 
-fri4_exc11: Barbell hip thrust, 3 x 15
+fri4_exc11: Barbell hip thrust with 3 sec. hold on the top, 3 x 15
 fri4_exc12: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
 fri4_exc13: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
 fri4_exc14: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
