@@ -332,29 +332,34 @@ th4_exc6: Bent over rear delt fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure wi
 th4_exc7: Reverse machine fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
 th4_exc8: Cable rope half-range push-down with wrist rotation (palm down), 2 x 30
 th4_exc9: Single arm cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th4_exc10: Reverse grip bench press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th4_exc11: Dumbbell Skullcrushers, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc12: Inverse grip push up (bottom of Smith machine),  3 x 15
-th4_exc13: Seated triceps press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc14: Elbows out - Close grip bench press, 2 x 10-12 (moderate) + 1 x 8-10 to failure 
-th4_exc15: Straight, left side, right side weighted crunces, 3 x 20 each
-th4_exc16: 
+th4_exc10: Cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th4_exc11: Reverse grip bench press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th4_exc12: Dumbbell Skullcrushers, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc13: Inverse grip push up (bottom of Smith machine),  3 x 15
+th4_exc14: Seated triceps press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th4_exc15: Diamond push-ups, 3 x 15
+th4_exc16: Straight, left side, right side weighted crunces, 3 x 20 each 
 day26_num: Day 26 -
 day26: Friday (Arms)
 fri4_exc1: Treadmill Walking 1 x 10 min.
 fri4_exc2: Lying cross-over lower back stretch, 1 x 12
 fri3_exc3: Inchworm (suicase walk), 1 x 6
 fri4_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
-fri4_exc5: Leg extension, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc6: Leg press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc7: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc8: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc9: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
-fri4_exc10: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
-fri4_exc11: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
-fri4_exc12: 
-fri4_exc13: 
-fri4_exc14: 
+fri4_exc5: Empty bar squats, 1 x 100
+fri4_exc6: Leg extension, 3 x 10-12 + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc7: Leg press feet together toes out, 2 x 10-12  + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc8: One and a half leg press feet shoulder width apart (half rep + full rep = 1 rep), 2 x 10-12  + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc9: Leg press feet wide (half rep only), 2 x 30  
+fri4_exc10: Kneeling layback quad squeeze, 3 x 15 
+fri4_exc11: Barbell hip thrust, 3 x 15
+fri4_exc12: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc13: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc14: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
+fri4_exc15: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
+fri4_exc16: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
+fri4_exc17: 
+fri4_exc18: 
+fri4_exc19: 
 day27_num: Day 27 -
 day27: Saturday (REST)
 sat4_exc1: 
