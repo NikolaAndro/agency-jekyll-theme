@@ -301,7 +301,7 @@ tu4_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with 
 tu4_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
 tu4_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
 tu4_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure
-tu4_exc7: 
+tu4_exc7: Bodyweight abs of your choice, 250 reps 
 tu4_exc8: 
 tu4_exc9: 
 tu4_exc10:
@@ -357,7 +357,7 @@ fri4_exc13: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with sp
 fri4_exc14: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
 fri4_exc15: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
 fri4_exc16: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
-fri4_exc17: 
+fri4_exc17: Bodyweight abs of your choice, 250 reps 
 fri4_exc18: 
 fri4_exc19: 
 day27_num: Day 27 -
