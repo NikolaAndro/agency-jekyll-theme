@@ -352,14 +352,13 @@ fri4_exc8: One and a half leg press feet shoulder width apart (half rep + full r
 fri4_exc9: Leg press feet wide (half rep only), 2 x 30  
 fri4_exc10: Kneeling layback quad squeeze, 3 x 15 
 fri4_exc11: Barbell hip thrust with 3 sec. hold on the top, 3 x 15
-fri4_exc12: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc12: Goblet squats, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
 fri4_exc13: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc14: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
-fri4_exc15: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
-fri4_exc16: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
-fri4_exc17: Bodyweight abs of your choice, 250 reps 
-fri4_exc18: 
-fri4_exc19: 
+fri4_exc14: Elevated front foot lunge, 3 x 15 each leg
+fri4_exc15: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
+fri4_exc16: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
+fri4_exc17: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
+fri4_exc18: Bodyweight abs of your choice, 250 reps  
 day27_num: Day 27 -
 day27: Saturday (REST)
 sat4_exc1: 
