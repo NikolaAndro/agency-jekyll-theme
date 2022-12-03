@@ -340,7 +340,7 @@ th4_exc14: Seated triceps press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with
 th4_exc15: Diamond push-ups, 3 x 15
 th4_exc16: Straight, left side, right side weighted crunces, 3 x 20 each 
 day26_num: Day 26 -
-day26: Friday (REST) 
+day26: Friday (REST - Ignore bellow exercises. This is a computer bug...) 
 day27_num: Day 27 -
 day27: Saturday (Legs & Abs)
 sat4_exc1: Lying cross-over lower back stretch, 1 x 12 
