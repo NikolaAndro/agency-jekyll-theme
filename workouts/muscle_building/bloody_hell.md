@@ -345,20 +345,20 @@ fri4_exc1: Treadmill Walking 1 x 10 min.
 fri4_exc2: Lying cross-over lower back stretch, 1 x 12
 fri4_exc3: Inchworm (suicase walk), 1 x 6
 fri4_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
-fri4_exc5: Empty bar squats, 1 x 100
-fri4_exc6: Leg extension, 3 x 10-12 + 1 x 10-12 to failure with spotter on the last 2-3 reps 
-fri4_exc7: Leg press feet together toes out, 2 x 10-12  + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc8: One and a half leg press feet shoulder width apart (half rep + full rep = 1 rep), 2 x 10-12  + 1 x 10-12 to failure
-fri4_exc9: Leg press feet wide (half rep only), 2 x 30  
-fri4_exc10: Kneeling layback quad squeeze, 3 x 15
-fri4_exc11: Barbell hip thrust with 3 sec. hold on the top, 3 x 15
-fri4_exc12: Goblet squats, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc13: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc14: Elevated front foot lunge, 3 x 15 each leg
-fri4_exc15: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
-fri4_exc16: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
-fri4_exc17: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
-fri4_exc18: Bodyweight abs of your choice, 250 reps  
+fri4_exc12: Empty bar squats, 1 x 100
+fri4_exc13: Leg extension, 3 x 10-12 + 1 x 10-12 to failure with spotter on the last 2-3 reps 
+fri4_exc14: Leg press feet together toes out, 2 x 10-12  + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc15: One and a half leg press feet shoulder width apart (half rep + full rep = 1 rep), 2 x 10-12  + 1 x 10-12 to failure
+fri4_exc16: Leg press feet wide (half rep only), 2 x 30  
+fri4_exc17: Kneeling layback quad squeeze, 3 x 15
+fri4_exc18: Barbell hip thrust with 3 sec. hold on the top, 3 x 15
+fri4_exc19: Goblet squats, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc20: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+fri4_exc21: Elevated front foot lunge, 3 x 15 each leg
+fri4_exc22: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
+fri4_exc23: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
+fri4_exc24: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
+fri4_exc25: Bodyweight abs of your choice, 250 reps  
 day27_num: Day 27 -
 day27: Saturday (REST)
 sat4_exc1: 
