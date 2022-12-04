@@ -355,7 +355,7 @@ sat4_exc9: Kneeling layback quad squeeze, 3 x 15
 sat4_exc10: Barbell hip thrust with 3 sec. hold on the top, 3 x 15
 sat4_exc11: Goblet squats, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
 sat4_exc12: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-sat4_exc13: Elevated front foot lunge, 3 x 15 each leg
+sat4_exc13: Elevated front foot lunge, 2 x 8 each leg
 sat4_exc14: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
 sat4_exc15: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
 sat4_exc16: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
