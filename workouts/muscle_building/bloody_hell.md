@@ -398,7 +398,7 @@ tu5_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with 
 tu5_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
 tu5_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
 tu5_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure
-tu5_exc7: 
+tu5_exc7: Bodyweight abs of your choice, 250 reps
 tu5_exc8:
 tu5_exc9:
 tu5_exc10:
@@ -480,16 +480,18 @@ day36_num: Day 36 -
 day36: Monday (Chest & Abs)
 mon6_exc1: Treadmill Walking 1 x 10 min.
 mon6_exc2: Rotetor cuff warm-upp, 2 x 12 reps.
-mon6_exc3: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
-mon6_exc4: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
-mon6_exc5: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-mon6_exc6: Concentration curl, 1 x 10-12 (moderate) + 1 x 6-8 to failure
-mon6_exc7: Barbell curl, 1 x 6-8 to failure with spotter on the last 2-3 reps 
-mon6_exc8: 
-mon6_exc9: 
-mon6_exc10:
-mon6_exc11:
-mon6_exc12:
+mon6_exc3: Decline, Flat, and Incline push ups 20 each, 2 sets
+mon6_exc4: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
+mon6_exc5: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
+mon6_exc6: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+mon6_exc7: Low to High cable machine, 3 x 8-12
+mon6_exc8: Chest height cable machine, 3 x 8-12
+mon6_exc9: High to Low cable machine, 3 x 8-12
+mon6_exc10: Concentration curl, 3 x 10-12 (moderate) + 1 x 6-8 to failure
+mon6_exc11: Barbell curl, 3 x 6-8 to failure with spotter on the last 2-3 reps
+mon6_exc12: Hammer curl, 2 x 8-12 + 1 x 6-8 to failure
+mon6_exc13: Decline bench biceps curl, 2 x 8-12 + 1 x 6-8 to failure
+mon6_exc14: Straight, left side, right side weighted crunces, 3 x 20 each
 day37_num: Day 37 -
 day37: Tuesday (Back & Abs)
 tu6_exc1: Treadmill Walking 1 x 10 min.
@@ -521,53 +523,47 @@ day39_num:
 day39: Thursday (Shoulders & Abs)
 th6_exc1: Treadmill Walking 1 x 10 min.
 th6_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc3: Dumbbell lateral raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc4: Single-arm cable lateral raise, 1 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc5: Seated rear delt fly, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc6: Cable rope push-down, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th6_exc7: Skullcrushers, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc8: Seated triceps press, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps 
-th6_exc9: 
-th6_exc10:
-th6_exc11:
-th6_exc12:
-th6_exc13:
-th6_exc14:
-th6_exc15:
-th6_exc16:
+th6_exc3: Seated front dumbbell  together press, 2 x 10-12 (moderate) + 1 x 8-10 to failure 
+th6_exc4: Dumbbell lateral raise, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc5: Single-arm cable lateral raise, 2 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc6: Bent over rear delt fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc7: Reverse machine fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc8: Cable rope half-range push-down with wrist rotation (palm down), 2 x 30
+th6_exc9: Single arm cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th6_exc10: Cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th6_exc11: Reverse grip bench press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+th6_exc12: Dumbbell Skullcrushers, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc13: Inverse grip push up (bottom of Smith machine),  3 x 15
+th6_exc14: Seated triceps press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
+th6_exc15: Diamond push-ups, 3 x 15
+th6_exc16: Straight, left side, right side weighted crunces, 3 x 20 each
 th6_exc17:
 th6_exc18:
 th6_exc19:
 day40_num: Day 40 -
-day40: Friday (Arms)
-fri6_exc1: Treadmill Walking 1 x 10 min.
-fri6_exc2: Lying cross-over lower back stretch, 1 x 12
-fri3_exc3: Inchworm (suicase walk), 1 x 6
-fri4_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
-fri4_exc5: Leg extension, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc6: Leg press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc7: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc8: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri4_exc9: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
-fri4_exc10: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
-fri4_exc11: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure   
-fri6_exc12:
+day40: Friday (REST)
 day41_num: Day 41 -
 day41: Saturday (REST)
-sat6_exc1: 
-sat6_exc2: 
-sat6_exc3: 
-sat6_exc4: 
-sat6_exc5: 
-sat6_exc6: 
-sat6_exc7: 
-sat6_exc8: 
-sat6_exc9: 
-sat6_exc10: 
-sat6_exc11: 
+sat6_exc1: Lying cross-over lower back stretch, 1 x 12 
+sat6_exc2: Inchworm (suicase walk), 1 x 6
+sat6_exc3: Standing hamstring stretch (pick raspberries), 1 x 12
+sat6_exc4: Empty bar squats, 1 x 100
+sat6_exc5: Leg extension, 3 x 10-12 + 1 x 10-12 to failure with spotter on the last 2-3 reps 
+sat6_exc6: Leg press feet together toes out, 2 x 10-12  + 1 x 10-12 to failure with spotter on the last 2-3 reps
+sat6_exc7: One and a half leg press feet shoulder width apart (half rep + full rep = 1 rep), 2 x 10-12  + 1 x 10-12 to failure
+sat6_exc8: Leg press feet wide (half rep only), 2 x 30  
+sat6_exc9: Kneeling layback quad squeeze, 3 x 15
+sat6_exc10: Barbell hip thrust with 3 sec. hold on the top, 3 x 15
+sat6_exc11: Goblet squats, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+sat6_exc12: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
+sat6_exc13: Elevated front foot lunge, 2 x 8 each leg
+sat6_exc14: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
+sat6_exc15: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
+sat6_exc16: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
+sat6_exc17: Bodyweight abs of your choice, 250 reps 
 day42_num: Day 42 -
 day42: Sunday (REST)
-sun6_exc1: 
+sun6_exc1: The Workout Is Completed! 
 sun6_exc2: 
 sun6_exc3: 
 sun6_exc4: 
