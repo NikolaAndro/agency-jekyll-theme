@@ -1,5 +1,5 @@
 ---
-title: Bloody Hell
+title: Beast Mode
 subtitle: 6 weeks
 layout: page
 modal-id: 5
