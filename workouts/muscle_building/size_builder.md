@@ -4,8 +4,8 @@ subtitle: 12 weeks
 layout: default
 modal-id: 7
 date: 2022-12-06
-img: max_build.jpg
-thumbnail: max_build-1.jpg
+img: x.jpg
+thumbnail: x.jpg
 alt: image-alt
 project-date: December 2022
 client: Start Bootstrap
