@@ -98,24 +98,81 @@ mon1_exc17:
 day2_num: Day 2 -
 day2: Tuesday (Back & Abs)
 tu1_exc1: Treadmill walking -1 x 10 min.
-tu1_exc2: Bent arm dumbbell pull over warm-up - 2 x 12
-tu1_exc3: Bent arm dumbbell pull over - 1 x 8-10 (use help from spotter on the final reps)
-tu1_exc4: Close grip pull down warm-up - 1 x 10-12
-tu1_exc5: Close grip pull down - 1 x 8-10
-tu1_exc6: Single arm dumbbell row warm up sets (left and right) - 1 x 10-12
-tu1_exc7: Single arm dumbbell row (left and right) - 1 x 8-10 
-tu1_exc8: Cable seated row warm-up- 1 x 8-10
-tu1_exc9: Cable seated row  wide grip - 1 x 8-10 (to the failure)
-tu1_exc10: Barbell deadlift warm-up - 1 x 10-12 (down to mid shin)
-tu1_exc11: Barbell deadlift - 1 x 8-10
+tu1_exc1: Treadmill Walking 1 x 10 min.
+tu1_exc1_sets: 1
+tu1_exc1_reps: 10 min.
+tu1_exc1_rest: 
+tu1_exc1_notes:
+tu1_exc2: Bent Arm Dumbbell Pull Over
+th1_exc2_sets: 2
+th1_exc2_reps: 10-12
+th1_exc2_rest: 1 min.
+th1_exc2_notes: 1st light, 2nd moderate.
+tu1_exc3: Bent Arm Dumbbell Pull-Over
+th1_exc3_sets: 1
+th1_exc3_reps: 8-10
+th1_exc3_rest: 90 sec.
+th1_exc3_notes: Go heavy & use spotter to help you on the final 2-3 reps
+tu1_exc4: Close Grip Pull-down
+th1_exc4_sets: 2
+th1_exc4_reps: 10-12
+th1_exc4_rest: 1 min.
+th1_exc4_notes: 1st light, 2nd moderate.
+tu1_exc5: Close grip pull down
+th1_exc5_sets: 1
+th1_exc5_reps: 8-10
+th1_exc5_rest: 90 sec.
+th1_exc5_notes: Go heavy & use spotter to help you on the final 2-3 reps.
+tu1_exc6: Single arm dumbbell row (left then right)
+th1_exc6_sets: 2
+th1_exc6_reps: 10-12
+th1_exc6_rest: 1 min.
+th1_exc6_notes: 1st light, 2nd moderate.
+tu1_exc7: Single arm dumbbell row (left then right)
+th1_exc7_sets: 1
+th1_exc7_reps: 8-10
+th1_exc7_rest: 90 sec.
+th1_exc7_notes: Go heavy & use spotter to help you on the final 2-3 reps.
+tu1_exc8: Cable seated row 
+th1_exc8_sets: 2
+th1_exc8_reps: 10-12
+th1_exc8_rest: 1 min.
+th1_exc8_notes: Wide grip. 1st set light, 2nd moderate.
+tu1_exc9: Cable seated row
+th1_exc9_sets: 1
+th1_exc9_reps: 8-10
+th1_exc9_rest: 90 sec.
+th1_exc9_notes: Wide Grip. Go heavy & use spotter to help you on the final 2-3 reps.
+tu1_exc10: Barbell deadlift
+th1_exc10_sets: 2
+th1_exc10_reps: 10-12
+th1_exc10_rest: 1 min.
+th1_exc10_notes: Down to mid shin. 1st set light, 2nd moderate.
+tu1_exc11: Barbell deadlift
+th1_exc11_sets: 1
+th1_exc11_reps: 8-10
+th1_exc11_rest: 90 sec.
+th1_exc11_notes: Go heavy & use spotter to help you on the final 2-3 reps
 tu1_exc12: Bodyweight abs of your choice, 250 reps 
+th1_exc12_sets: 5
+th1_exc12_reps: 50
+th1_exc12_rest: 30 sec.
+th1_exc12_notes: 
 day3_num: Day 3 -
 day3: Wednesday (REST)
 wed1_exc1:
 day4_num: Day 4 -
 day4: Thursday (Shoulders & Triceps & Abs)
-th1_exc1: Treadmill Walking 1 x 10 min. 
-th1_exc2: Seated dumbbell shoulder press 2 x 10-12 (light and then moderate strain)
+th1_exc1: Treadmill Walking 1 x 10 min.
+th1_exc1_sets: 1
+th1_exc1_reps: 10 min.
+th1_exc1_rest: 
+th1_exc1_notes:
+th1_exc2: Seated dumbbell shoulder ress
+th1_exc1_sets: 2
+th1_exc1_reps: 10-12
+th1_exc1_rest: 
+th1_exc1_notes: 1st light, 2nd moderate.
 th1_exc3: Seated dumbbell shoulder press (to failure + 2-3 reps with spotter)
 th1_exc4: Dumbbell lateral raise, 1 x 10-12 (moderate)
 th1_exc5: Dumbbell lateral raise, 1 x 8-10 (to failure + 2-3 reps with spotter)
