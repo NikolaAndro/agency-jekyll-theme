@@ -32,9 +32,9 @@ table {
     border-collapse: collapse;
 }
 
-*, *::before, *::after {
+/* *, *::before, *::after {
     box-sizing: border-box;
-}
+} */
 tbody {
     display: table-row-group;
     vertical-align: middle;
