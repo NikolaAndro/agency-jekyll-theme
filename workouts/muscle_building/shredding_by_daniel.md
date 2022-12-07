@@ -23,19 +23,75 @@ week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Back & Biceps)
 mon1_exc1: V-rows - 4 x 12, NO REST 
-mon1_exc2: Squatting EZ-bar cable rows - 12 upper hand, 12 under hand x 4
-mon1_exc3: Cable sitting rows - 4 x 12 (upper grip pull towards hips)
-mon1_exc4: Single arm kneeling row (right)- 4 x 12 upper grip, 12 neutral grip (use single arm thing with longer strips)
-mon1_exc5: Single arm kneeling row (left)- 4 x 12 upper grip, 12 neutral grip + 15 upper grip and 15 neutral on the last set burnout (light weight)
-mon1_exc6: Standing Straight bar straight arm pull down - 4 x 12
-mon1_exc7: Standing cable-rope traight arm pull down - 4 x 12
-mon1_exc8: Rotating biceps curls - 4 x 12, dropp 5 lbs after each set
-mon1_exc9: Hammer curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set) 
-mon1_exc10: 45 degree bench biceps curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set)
-mon1_exc11: Cable rope biceps curls - 4 x 12
-mon1_exc12: EZ - bar cable biceps curls - 4 x 12
-mon1_exc13: Preacher biceps curls - 4 x 12
-mon1_exc14: Add any abs you wish and STRETCH
+mon1_exc1_sets: 4
+mon1_exc1_reps: 12
+mon1_exc1_rest: 30 sec.
+mon1_exc1_notes:
+mon1_exc2: Squatting EZ-bar Cable Rows
+mon1_exc2_sets: 4
+mon1_exc2_reps: 24
+mon1_exc2_rest: 30 sec.
+mon1_exc2_notes: 12 pper hand, 12 under hand
+mon1_exc3: Cable Sitting Rows
+mon1_exc3_sets: 4
+mon1_exc3_reps: 12
+mon1_exc3_rest: 30 sec.
+mon1_exc3_notes: Upper grip pull towards hips
+mon1_exc4: Single Arm Kneeling Row (right)
+mon1_exc4_sets: 4
+mon1_exc4_reps: 24
+mon1_exc4_rest: NO REST
+mon1_exc4_notes: 12 upper grip, 12 neutral grip. Use single arg grip with long stripes.
+mon1_exc5: Single arm kneeling row (left)
+mon1_exc5_sets: 4
+mon1_exc5_reps: 12
+mon1_exc5_rest: 30 sec.
+mon1_exc5_notes: 12 upper grip, 12 neutral grip + 15 upper grip and 15 neutral on the last set burnout (light weight)
+mon1_exc6: Standing Straight Bar Straight Arm Pull-Down
+mon1_exc6_sets: 4
+mon1_exc6_reps: 12
+mon1_exc6_rest: 30 sec.
+mon1_exc6_notes:
+mon1_exc7: Standing Cable-Rope Traight Arm Pull-Down
+mon1_exc7_sets: 4
+mon1_exc7_reps: 12
+mon1_exc7_rest: 30 sec.
+mon1_exc7_notes:
+mon1_exc8: Rotating Biceps Curls
+mon1_exc8_sets: 4
+mon1_exc8_reps: 12
+mon1_exc8_rest: 30 sec.
+mon1_exc8_notes: Dropp 5 lbs after each set
+mon1_exc9: Hammer Curls - 4 x 12 ( 
+mon1_exc9_sets: 4
+mon1_exc9_reps: 12
+mon1_exc9_rest: 30 sec.
+mon1_exc9_notes: Start with whatever you used for the second set of the previous exercise.Drop 5 lbs each set.
+mon1_exc10: 45 Degree Bench Biceps Curls
+mon1_exc10_sets: 4
+mon1_exc10_reps: 12
+mon1_exc10_rest: 30 sec.
+mon1_exc10_notes: Start with whatever you used for the second set of the previous exercise.Drop 5 lbs each set.
+mon1_exc11: Cable Rope Biceps Curls
+mon1_exc11_sets: 4
+mon1_exc11_reps: 12
+mon1_exc11_rest: 30 sec.
+mon1_exc11_notes:
+mon1_exc12: EZ - Bar Cable Biceps Curls
+mon1_exc12_sets: 4
+mon1_exc12_reps: 12
+mon1_exc12_rest: 30 sec.
+mon1_exc12_notes:
+mon1_exc13: Preacher Biceps Curls
+mon1_exc13_sets: 4
+mon1_exc13_reps: 12
+mon1_exc13_rest: 30 sec.
+mon1_exc13_notes:
+mon1_exc14: Choose any abs
+mon1_exc14_sets: 4
+mon1_exc14_reps: 50
+mon1_exc14_rest: 30 sec.
+mon1_exc14_notes:
 day2_num: Day 2 -
 day2: Tuesday (Legs & Shoulders)
 tu1_exc1: Deadlift - 4 x 12
