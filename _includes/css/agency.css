@@ -33,16 +33,20 @@
     border-bottom-color: ;
     border-left-color: ;
 }
+#exerciseTable tr:nth-child(1) td {
+    background-color: #A9A9A9;
+}
 #exerciseTable tr:nth-child(2) td {
     padding-top: 15px;
 }
-#exerciseTable th:first-child, table td:first-child {
+#exerciseTable th:first-child, #exerciseTable td:first-child {
     text-align: left;
     padding-left: 20px;
 }
 #exerciseTable  td {
     padding: 7px 0;
     line-height: 100%;
+    text-align: center;
 }
 
 #exerciseTable th {
