@@ -30,15 +30,51 @@ mon1_exc2_sets: 5
 mon1_exc2_reps: 12/10/8/6/6
 mon1_exc2_rest: 90 sec.
 mon1_exc2_notes: Double drop set after the last set
-mon1_exc: Incline dumbbell bench press - 5 x 10, rest 1 min. + double drop set after the last set
-mon1_exc4: Dumbbell bench press - 4 x 10, rest 1 min.
-mon1_exc5: Incline dumbbell chest fly - 4 x 12, rest 1 min.
-mon1_exc6: Machine chest fly - 4 x 12, rest 1 min. + double drop set after the last set
-mon1_exc7: High-to-low cable chest fly - 6 x 12-15, NO REST (SUPERSET WITH NEXT)
-mon1_exc8: Push-up - 6 x 12-15, rest 1 min. (back to high to low fly)
-mon1_exc9: Weighted sit-up - 4 x 10, rest 1 min.
+mon1_exc3: Incline dumbbell bench press
+mon1_exc3_sets: 5
+mon1_exc3_reps: 10
+mon1_exc3_rest: 1 min.
+mon1_exc3_notes: Double drop set after the last set
+mon1_exc4: Dumbbell bench press
+mon1_exc4_sets: 4
+mon1_exc4_reps: 10
+mon1_exc4_rest: 1 min.
+mon1_exc4_notes: 
+mon1_exc5: Incline dumbbell chest fly
+mon1_exc5_sets: 4
+mon1_exc5_reps: 12
+mon1_exc5_rest: 1 min.
+mon1_exc5_notes:
+mon1_exc6: Machine chest fly
+mon1_exc6_sets: 4
+mon1_exc6_reps: 12
+mon1_exc6_rest: 1 min.
+mon1_exc6_notes: Double drop set after the last set
+mon1_exc7: High-to-low cable chest fly
+mon1_exc7_sets: 6
+mon1_exc7_reps: 12-15
+mon1_exc7_rest: NO REST
+mon1_exc7_notes: SUPERSET WITH NEXT
+mon1_exc8: Push-up
+mon1_exc8_sets: 6
+mon1_exc8_reps: 12-15
+mon1_exc8_rest: 1 min.
+mon1_exc8_notes: Back to high to low fly
+mon1_exc9: Weighted sit-up - 4 x 10, rest 
+mon1_exc9_sets: 4
+mon1_exc9_reps: 10
+mon1_exc9_rest: 1 min.
+mon1_exc9_notes:
 mon1_exc10: Suspended crunch - 4 x 10, rest 1 min.
+mon1_exc10_sets: 4
+mon1_exc10_reps: 10
+mon1_exc10_rest: 1 min.
+mon1_exc10_notes:
 mon1_exc11: Hanging exercise ball leg raise - 4 x 10, rest 1 min.
+mon1_exc11_sets: 4
+mon1_exc11_reps: 10
+mon1_exc11_rest: 1 min.
+mon1_exc11_notes: 
 day2_num: Day 2 -
 day2: Tuesday (Back & Abs)
 tu1_exc1: Lat pull-down (warm-up sets) - 2 x 10, rest 1 min.
