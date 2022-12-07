@@ -104,60 +104,60 @@ tu1_exc1_reps: 10 min.
 tu1_exc1_rest: 
 tu1_exc1_notes:
 tu1_exc2: Bent Arm Dumbbell Pull Over
-th1_exc2_sets: 2
-th1_exc2_reps: 10-12
-th1_exc2_rest: 1 min.
-th1_exc2_notes: 1st light, 2nd moderate.
+tu1_exc2_sets: 2
+tu1_exc2_reps: 10-12
+tu1_exc2_rest: 1 min.
+tu1_exc2_notes: 1st light, 2nd moderate.
 tu1_exc3: Bent Arm Dumbbell Pull-Over
-th1_exc3_sets: 1
-th1_exc3_reps: 8-10
-th1_exc3_rest: 90 sec.
-th1_exc3_notes: Go heavy & use spotter to help you on the final 2-3 reps
+tu1_exc3_sets: 1
+tu1_exc3_reps: 8-10
+tu1_exc3_rest: 90 sec.
+tu1_exc3_notes: Go heavy & use spotter to help you on the final 2-3 reps
 tu1_exc4: Close Grip Pull-down
-th1_exc4_sets: 2
-th1_exc4_reps: 10-12
-th1_exc4_rest: 1 min.
-th1_exc4_notes: 1st light, 2nd moderate.
+tu1_exc4_sets: 2
+tu1_exc4_reps: 10-12
+tu1_exc4_rest: 1 min.
+tu1_exc4_notes: 1st light, 2nd moderate.
 tu1_exc5: Close grip pull down
-th1_exc5_sets: 1
-th1_exc5_reps: 8-10
-th1_exc5_rest: 90 sec.
-th1_exc5_notes: Go heavy & use spotter to help you on the final 2-3 reps.
+tu1_exc5_sets: 1
+tu1_exc5_reps: 8-10
+tu1_exc5_rest: 90 sec.
+tu1_exc5_notes: Go heavy & use spotter to help you on the final 2-3 reps.
 tu1_exc6: Single arm dumbbell row (left then right)
-th1_exc6_sets: 2
-th1_exc6_reps: 10-12
-th1_exc6_rest: 1 min.
-th1_exc6_notes: 1st light, 2nd moderate.
+tu1_exc6_sets: 2
+tu1_exc6_reps: 10-12
+tu1_exc6_rest: 1 min.
+tu1_exc6_notes: 1st light, 2nd moderate.
 tu1_exc7: Single arm dumbbell row (left then right)
-th1_exc7_sets: 1
-th1_exc7_reps: 8-10
-th1_exc7_rest: 90 sec.
-th1_exc7_notes: Go heavy & use spotter to help you on the final 2-3 reps.
+tu1_exc7_sets: 1
+tu1_exc7_reps: 8-10
+tu1_exc7_rest: 90 sec.
+tu1_exc7_notes: Go heavy & use spotter to help you on the final 2-3 reps.
 tu1_exc8: Cable seated row 
-th1_exc8_sets: 2
-th1_exc8_reps: 10-12
-th1_exc8_rest: 1 min.
-th1_exc8_notes: Wide grip. 1st set light, 2nd moderate.
+tu1_exc8_sets: 2
+tu1_exc8_reps: 10-12
+tu1_exc8_rest: 1 min.
+tu1_exc8_notes: Wide grip. 1st set light, 2nd moderate.
 tu1_exc9: Cable seated row
-th1_exc9_sets: 1
-th1_exc9_reps: 8-10
-th1_exc9_rest: 90 sec.
-th1_exc9_notes: Wide Grip. Go heavy & use spotter to help you on the final 2-3 reps.
+tu1_exc9_sets: 1
+tu1_exc9_reps: 8-10
+tu1_exc9_rest: 90 sec.
+tu1_exc9_notes: Wide Grip. Go heavy & use spotter to help you on the final 2-3 reps.
 tu1_exc10: Barbell deadlift
-th1_exc10_sets: 2
-th1_exc10_reps: 10-12
-th1_exc10_rest: 1 min.
-th1_exc10_notes: Down to mid shin. 1st set light, 2nd moderate.
+tu1_exc10_sets: 2
+tu1_exc10_reps: 10-12
+tu1_exc10_rest: 1 min.
+tu1_exc10_notes: Down to mid shin. 1st set light, 2nd moderate.
 tu1_exc11: Barbell deadlift
-th1_exc11_sets: 1
-th1_exc11_reps: 8-10
-th1_exc11_rest: 90 sec.
-th1_exc11_notes: Go heavy & use spotter to help you on the final 2-3 reps
+tu1_exc11_sets: 1
+tu1_exc11_reps: 8-10
+tu1_exc11_rest: 90 sec.
+tu1_exc11_notes: Go heavy & use spotter to help you on the final 2-3 reps
 tu1_exc12: Bodyweight abs of your choice, 250 reps 
-th1_exc12_sets: 5
-th1_exc12_reps: 50
-th1_exc12_rest: 30 sec.
-th1_exc12_notes: 
+tu1_exc12_sets: 5
+tu1_exc12_reps: 50
+tu1_exc12_rest: 30 sec.
+tu1_exc12_notes: 
 day3_num: Day 3 -
 day3: Wednesday (REST)
 wed1_exc1:
