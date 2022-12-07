@@ -18,6 +18,22 @@ table {
     border-spacing: 2px;
     -webkit-border-horizontal-spacing: ;
     -webkit-border-vertical-spacing: ;
+    
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+table {
+    border-collapse: collapse;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 tbody {
     display: table-row-group;
@@ -47,6 +63,24 @@ th {
     vertical-align: inherit;
     font-weight: bold;
     text-align: -internal-center;
+}
+table tr:nth-child(2) td {
+    padding-top: 15px;
+}
+table th:first-child, table td:first-child {
+    text-align: left;
+    padding-left: 20px;
+}
+table td {
+    padding: 7px 0;
+    line-height: 100%;
+}
+table th, table td {
+    text-align: center;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
 }
 
 
