@@ -20,9 +20,15 @@ description: This is a very intense workout for muscle building. 5-6 workouts a 
 week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Chest & Abs)
-mon1_exc1: Incline bench press (warm-up sets) - 2 x 10, rest 1 min.
+mon1_exc1: Incline bench press (warm-up sets)
+mon1_exc1_sets: 2
+mon1_exc1_reps: 10
+mon1_exc1_rest: 1 min.
 mon1_exc2: Incline bench press - 12/10/8/6/6, rest 90 sec. + double drop set after the last set
-mon1_exc3: Incline dumbbell bench press - 5 x 10, rest 1 min. + double drop set after the last set
+mon1_exc2_sets:
+mon1_exc2_reps:
+mon1_exc2_rest:
+mon1_exc: Incline dumbbell bench press - 5 x 10, rest 1 min. + double drop set after the last set
 mon1_exc4: Dumbbell bench press - 4 x 10, rest 1 min.
 mon1_exc5: Incline dumbbell chest fly - 4 x 12, rest 1 min.
 mon1_exc6: Machine chest fly - 4 x 12, rest 1 min. + double drop set after the last set
