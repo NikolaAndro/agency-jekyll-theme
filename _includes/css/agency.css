@@ -33,9 +33,7 @@
     border-bottom-color: ;
     border-left-color: ;
 }
-#exerciseTable tbody:nth-child(1) tr {
-    background-color: #A9A9A9;
-}
+
 #exerciseTable tr:nth-child(2) td {
     padding-top: 15px;
 }
@@ -50,7 +48,7 @@
 }
 
 #exerciseTable th {
-    background: #FFBF00;
+    background: #A9A9A9; 
     color: #fff;
     letter-spacing: 0.055em;
     text-align: center;
