@@ -9,7 +9,7 @@
     border-bottom: 1px solid #dedede;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: rgb(255, 191, 0);
+    border-bottom-color: rgb(222, 222, 222);
     margin-bottom: 20px;
     border-collapse: collapse;
     text-align: left;
@@ -33,6 +33,18 @@
     border-bottom-color: ;
     border-left-color: ;
 }
+#exerciseTable tr:nth-child(2) td {
+    padding-top: 15px;
+}
+#exerciseTable th:first-child, table td:first-child {
+    text-align: left;
+    padding-left: 20px;
+}
+#exerciseTable  td {
+    padding: 7px 0;
+    line-height: 100%;
+}
+
 #exerciseTable th {
     background: #FFBF00;
     color: #fff;
@@ -42,6 +54,9 @@
     padding: 5px;
     line-height: 100%;
 }
+
+
+
 /* th {
     display: table-cell;
     vertical-align: inherit;
