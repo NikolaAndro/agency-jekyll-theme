@@ -18,21 +18,81 @@ description: 4 workouts per week / 60 min. workouts Mon-Tu-Th-Fri <br><br><br>We
 week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Chest & Biceps & Abs)
-mon1_exc1: Treadmill walking -1 x 10 min.
-mon1_exc2: Rotator cuff warm-up with 5-10 lbs plates - 2 x 12, REST 1 min.
-mon1_exc3: Decline barbell bench press warm up - 2 x 12 (1 set with easy to handle weight, second one with moderate strain weight)
-mon1_exc4: Decline barbell bench press - 1 x 6-8  (use spotter to help you on the final reps)
-mon1_exc5: Incline dumbbell bench press warmup (45 degrees) 1 x 12
-mon1_exc6: Incline dumbbell bench press (45 degrees) 1 x 6-8
-mon1_exc7: Dumbbell Fly warm-up - 1 x 12
-mon1_exc8: Dumbbell Fly warm-up - 1 x 8-10 (use spotter to help you on the final reps)
-mon1_exc9: Concentration Curl warmup (left) - 1 x 12 (NO REST)
-mon1_exc10: Concentration Curl warmup (right) - 1 x 12
-mon1_exc11: Concentration Curl (left) - 1 x 6-8
-mon1_exc12: Concentration Curl (right) - 1 x 6-8
-mon1_exc13: Barbell curls - 1 x 6-8 (to the fialure. Use spotter for the final reps)
-mon1_exc14: Straight, left side, right side weighted crunces, 3 x 20 each
-mon1_exc15: 
+mon1_exc1: Treadmill Walking -1 x 10 min.
+mon1_exc1_sets: 1
+mon1_exc1_reps: 10 min.
+mon1_exc1_rest: 
+mon1_exc1_notes:
+mon1_exc2: Rotator Cuff Warm-up
+mon1_exc2_sets: 2
+mon1_exc2_reps: 12
+mon1_exc2_rest: 30 sec.
+mon1_exc2_notes: 5-10 lbs plates
+mon1_exc3: Decline Barbell Bench Press
+mon1_exc3_sets: 2
+mon1_exc3_reps: 12
+mon1_exc3_rest: 1 min.
+mon1_exc3_notes: 1 set easy weight, 2nd set moderate strain weight
+mon1_exc4: Decline Barbell Bench Press
+mon1_exc4_sets: 1
+mon1_exc4_reps: 6-8
+mon1_exc4_rest: 90 sec.
+mon1_exc4_notes: Go heavy & use spotter to help you on the final 2-3 reps
+mon1_exc5: Incline Dumbbell Bench Press (45 degrees)
+mon1_exc5_sets: 2
+mon1_exc5_reps: 12
+mon1_exc5_rest: 1 min.
+mon1_exc5_notes: 1 set easy weight, 2nd set moderate strain weight
+mon1_exc6: Incline Dumbbell Bench Press (45 degrees)
+mon1_exc6_sets: 1
+mon1_exc6_reps: 6-8
+mon1_exc6_rest: 90 sec
+mon1_exc6_notes: Go heavy & use spotter to help you on the final 2-3 reps
+mon1_exc7: Dumbbell Fly
+mon1_exc7_sets: 2
+mon1_exc7_reps: 12
+mon1_exc7_rest: 1 min.
+mon1_exc7_notes: 1st light, 2nd moderate
+mon1_exc8: Dumbbell Fly
+mon1_exc8_sets: 1
+mon1_exc8_reps: 8-10
+mon1_exc8_rest: 90 sec.
+mon1_exc8_notes: Go heavy & use spotter to help you on the final 2-3 reps
+mon1_exc9: Concentration Curl (left)
+mon1_exc9_sets: 2
+mon1_exc9_reps: 12
+mon1_exc9_rest: NO REST
+mon1_exc9_notes: 1st light, 2nd moderate. Superset with next.
+mon1_exc10: Concentration Curl (right)
+mon1_exc10_sets: 2
+mon1_exc10_reps: 12
+mon1_exc10_rest: 45 sec.
+mon1_exc10_notes: 1st light, 2nd moderate. Back to left arm. 
+mon1_exc11: Concentration Curl (left)
+mon1_exc11_sets: 1
+mon1_exc11_reps: 6-8
+mon1_exc11_rest: NO REST
+mon1_exc11_notes: Go heavy & use right hand to help you on the final 2-3 reps
+mon1_exc12: Concentration Curl (right)
+mon1_exc12_sets: 1
+mon1_exc12_reps: 6-8
+mon1_exc12_rest: 90 sec.
+mon1_exc12_notes: Go heavy & use left hand to help you on the final 2-3 reps
+mon1_exc13: Barbell Curls
+mon1_exc13_sets: 2
+mon1_exc13_reps: 12
+mon1_exc13_rest: 1 min.
+mon1_exc13_notes: 1st light, 2nd moderate.
+mon1_exc14: Barbell Curls
+mon1_exc14_sets: 1
+mon1_exc14_reps: 6-8
+mon1_exc14_rest: 90 sec.
+mon1_exc14_notes: Go heavy & use spotter to help you on the final 2-3 reps
+mon1_exc15: Weighted Crunces
+mon1_exc15_sets: 3
+mon1_exc15_reps: 20
+mon1_exc15_rest: 1 min.
+mon1_exc15_notes: Straight, left side, and right side
 mon1_exc16: 
 mon1_exc17: 
 day2_num: Day 2 -
