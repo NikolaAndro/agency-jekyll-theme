@@ -77,17 +77,61 @@ mon1_exc11_rest: 1 min.
 mon1_exc11_notes: 
 day2_num: Day 2 -
 day2: Tuesday (Back & Abs)
-tu1_exc1: Lat pull-down (warm-up sets) - 2 x 10, rest 1 min.
-tu1_exc2: Lat pull-down - 12/10/10/10/8, rest 90 sec. + double drop set after the last set
-tu1_exc3: Barbell bent over row - 4 x 12, rest 90 sec. + double drop set after the last set
-tu1_exc4: Single arm (left) dumbbell row - 4 x 12, NO REST (SUPERSET WITH NEXT)
-tu1_exc5: Single arm (right) dumbbell row - 4 x 12, rest 1 min. (back to left hand)
-tu1_exc6: T-bar row - 4 x 10, rest 90 sec.
-tu1_exc7: Cable seated row, 5 x 8-10, rest 1 min. 
-tu1_exc8: Back extension with extra weight, 4 x 12, rest 1 min.
-tu1_exc9: Ab wheel roll-out, 4 x 10, NO REST
-tu1_exc10: Hanging leg raise- 4 x 10, NO REST
-tu1_exc11: Medicine ball russian twist - 4 x 20, rest 90 sec (back to ab wheel roll-outs)
+tu1_exc1: Lat pull-down
+tu1_exc1_sets: 2
+tu1_exc1_reps: 10
+tu1_exc1_rest: 1 min.
+tu1_exc1_notes: Warm-up sets.
+tu1_exc2: Lat Pull-down
+tu1_exc2_sets: 5
+tu1_exc2_reps: 12/10/10/10/8
+tu1_exc2_rest: 90 sec.
+tu1_exc2_notes: Double drop set after the last set
+tu1_exc3: Barbell Bent Over Row
+tu1_exc3_sets: 4
+tu1_exc3_reps: 12
+tu1_exc3_rest: 90 sec.
+tu1_exc3_notes: Double drop set after the last set.
+tu1_exc4: Single Arm (left) Dumbbell Row
+tu1_exc4_sets: 4
+tu1_exc4_reps: 12
+tu1_exc4_rest: NO REST
+tu1_exc4_notes: SUPERSET WITH NEXT
+tu1_exc5: Single arm (right) dumbbell row
+tu1_exc5_sets: 4
+tu1_exc5_reps: 12
+tu1_exc5_rest: 1 min.
+tu1_exc5_notes: Back to left hand.
+tu1_exc6: T-bar Row
+tu1_exc6_sets: 4
+tu1_exc6_reps: 10
+tu1_exc6_rest: 1 min.
+tu1_exc6_notes:
+tu1_exc7: Cable Seated Row
+tu1_exc7_sets: 5
+tu1_exc7_reps: 8-10
+tu1_exc7_rest: 1 min.
+tu1_exc7_notes: 
+tu1_exc8: Back Extension
+tu1_exc8_sets: 4
+tu1_exc8_reps: 12
+tu1_exc8_rest: 1 min.
+tu1_exc8_notes: Add extra weight.
+tu1_exc9: Ab Wheel Roll-out
+tu1_exc9_sets: 4
+tu1_exc9_reps: 10
+tu1_exc9_rest: NO REST
+tu1_exc9_notes: 
+tu1_exc10: Hanging Leg Raise
+tu1_exc10_sets: 4
+tu1_exc10_reps: 10
+tu1_exc10_rest: NO REST
+tu1_exc10_notes: 
+tu1_exc11: Medicine Ball Russian Twist
+tu1_exc11_sets: 4
+tu1_exc11_reps: 20
+tu1_exc11_rest: 90 sec.
+tu1_exc11_notes: Back to ab wheel roll-outs
 day3_num: Day 3 -
 day3: Wednesday (Legs - quads & calves)
 wed1_exc1: Barbell back squat (warm-up sets) 2 x 10, rest 1 min.
