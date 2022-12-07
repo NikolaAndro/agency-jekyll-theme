@@ -66,14 +66,46 @@ mon1_exc10:
 mon1_exc11: 
 day2_num: Day 2 -
 day2: Tuesday (Back)
-tu1_exc1: Bent over rows, 3 x 6-8 reps
-tu1_exc2: Seated cable rows, 3 x 8-12 reps 
-tu1_exc3: V-bar pulldowns, 3 x 12 reps
-tu1_exc4: Shrugs, 3 x 6-8 reps
-tu1_exc5: Close grip front lat pull-down, 3 x 8-12 reps
-tu1_exc6: Wide grip lat pull-down, 3 x 8-12 reps
-tu1_exc7: Under hand cable pull-down, 3 x 8-12 reps
-tu1_exc8: Shrugs behind the back, 3 x 12 reps
+tu1_exc1: Bent Over Rows
+tu1_exc1_sets: 3
+tu1_exc1_reps: 6-8
+tu1_exc1_rest: 1 min.
+tu1_exc1_notes:
+tu1_exc2: Seated Cable Rows
+tu1_exc2_sets: 3
+tu1_exc2_reps: 8-12
+tu1_exc2_rest: 1 min.
+tu1_exc2_notes:
+tu1_exc3: V-bar Pull-downs
+tu1_exc3_sets: 3
+tu1_exc3_reps: 12
+tu1_exc3_rest: 1 min.
+tu1_exc3_notes:
+tu1_exc4: Shrugs
+tu1_exc4_sets: 3
+tu1_exc4_reps: 6-8
+tu1_exc4_rest: 1 min.
+tu1_exc4_notes:
+tu1_exc5: Close Grip Front Lat Pull-down
+tu1_exc5_sets: 3
+tu1_exc5_reps: 8-12
+tu1_exc5_rest: 1 min.
+tu1_exc5_notes:
+tu1_exc6: Wide Grip Lat Pull-Down
+tu1_exc6_sets: 3
+tu1_exc6_reps: 8-12
+tu1_exc6_rest: 1 min.
+tu1_exc6_notes:
+tu1_exc7: Under Hand Cable Pull-down
+tu1_exc7_sets: 3
+tu1_exc7_reps: 8-12
+tu1_exc7_rest: 1 min.
+tu1_exc7_notes:
+tu1_exc8: Shrugs Behind The Back
+tu1_exc8_sets: 3
+tu1_exc8_reps: 12
+tu1_exc8_rest: 1 min.
+tu1_exc8_notes:
 tu1_exc9: 
 tu1_exc10: 
 tu1_exc11: 
