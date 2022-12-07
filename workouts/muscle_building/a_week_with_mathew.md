@@ -18,14 +18,50 @@ week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Chest)
 mon1_exc1: Barbell incline bench press (medium grip), 3 x 4-6 reps
+mon1_exc1_sets: 3
+mon1_exc1_reps: 4-6
+mon1_exc1_rest: 1 min.
+mon1_exc1_notes:
 mon1_exc2: Incline dumbbell press, 3 x 4-6 reps
+mon1_exc2_sets: 3
+mon1_exc2_reps: 4-6
+mon1_exc2_rest: 1 min.
+mon1_exc2_notes:
 mon1_exc3: Inlince dumbbell chest fly, 3 x 8-12 reps
+mon1_exc3_sets: 3
+mon1_exc3_reps: 8-12
+mon1_exc3_rest: 
+mon1_exc3_notes:
 mon1_exc4: Push-ups (3 variations), 3 x 12 reps
+mon1_exc4_sets: 3
+mon1_exc4_reps: 12
+mon1_exc4_rest: 1 min.
+mon1_exc4_notes:
 mon1_exc5: Decline dumbbel press, 3 x 8 reps
+mon1_exc5_sets: 3
+mon1_exc5_reps: 8
+mon1_exc5_rest: 1 min.
+mon1_exc5_notes:
 mon1_exc6: Cable fly (low to high), 3 x 12 reps
+mon1_exc6_sets: 3
+mon1_exc6_reps: 12
+mon1_exc6_rest: 1 min.
+mon1_exc6_notes:
 mon1_exc7: Cable fly (high to low), 3 x 12 reps
+mon1_exc7_sets: 3
+mon1_exc7_reps: 12
+mon1_exc7_rest: 1 min.
+mon1_exc7_notes:
 mon1_exc8: Machine chest fly, 3 x 12 reps
+mon1_exc8_sets: 3
+mon1_exc8_reps: 12
+mon1_exc8_rest: 1 min.
+mon1_exc8_notes:
 mon1_exc9: Incline barbell bench, 3 x 12 reps
+mon1_exc9_sets: 3
+mon1_exc9_reps: 12
+mon1_exc9_rest: 1 min.
+mon1_exc9_notes:
 mon1_exc10: 
 mon1_exc11: 
 day2_num: Day 2 -
