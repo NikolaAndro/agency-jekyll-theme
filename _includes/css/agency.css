@@ -4,6 +4,52 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+table {
+    width: 100%;
+    border-bottom: 1px solid #dedede;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 191, 0);
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    text-indent: initial;
+    border-spacing: 2px;
+    -webkit-border-horizontal-spacing: ;
+    -webkit-border-vertical-spacing: ;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-top-color: ;
+    border-right-color: ;
+    border-bottom-color: ;
+    border-left-color: ;
+}
+table th {
+    background: #FFBF00;
+    color: #fff;
+    letter-spacing: 0.055em;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    line-height: 100%;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
