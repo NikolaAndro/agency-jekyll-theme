@@ -33,7 +33,7 @@
     border-bottom-color: ;
     border-left-color: ;
 }
-#exerciseTable tr:nth-child(1) td {
+#exerciseTable tbody:nth-child(1) tr {
     background-color: #A9A9A9;
 }
 #exerciseTable tr:nth-child(2) td {
