@@ -94,19 +94,71 @@ mon1_exc14_rest: 30 sec.
 mon1_exc14_notes:
 day2_num: Day 2 -
 day2: Tuesday (Legs & Shoulders)
-tu1_exc1: Deadlift - 4 x 12
-tu1_exc2: Cabled hamstring curl - 4 x 12 each leg
-tu1_exc3: Buddy hamstring curls on hyper extension machine - 4 x 12
-tu1_exc4: Leg extensions - 4 x 12
-tu1_exc5: Leg press - 4 x 12
-tu1_exc6: Leg extensions - 3 x 12, (start with the weight you used on hte last set of the previous leg extensions) 
-tu1_exc7: Claf raises - 21 x 5 (7 out, 7 in, 7 streight)
-tu1_exc8: Seated shoulder lateral raises - 4 x 12 (increase weight on each set)
-tu1_exc9: Seated around the world front raise - 4 x 12
-tu1_exc10: Seated rear flies - 4 x 12
-tu1_exc11: Cable-rope front raise - 4 x 12
-tu1_exc12: Machine back fly machine - 4 x 12 
-tu1_exc13: EZ-bar rows - 50 + 20/20 + 10/10/10 + drop 1 plate and do 5 reps per each plate you drop until left with 1 plate 
+tu1_exc1: Deadlift
+tu1_exc1_sets: 4
+tu1_exc1_reps: 12
+tu1_exc1_rest: 30 sec.
+tu1_exc1_notes:
+tu1_exc2: Cabled Hamstring Curl
+tu1_exc2_sets: 4
+tu1_exc2_reps: 12
+tu1_exc2_rest: 30 sec.
+tu1_exc2_notes: Left leg, then right leg.
+tu1_exc3: Buddy Hamstring Curls
+tu1_exc3_sets: 4
+tu1_exc3_reps: 12
+tu1_exc3_rest: 30 sec.
+tu1_exc3_notes: Perform on hyper extension machine.
+tu1_exc4: Leg Extensions
+tu1_exc4_sets: 4
+tu1_exc4_reps: 12
+tu1_exc4_rest: 30 sec.
+tu1_exc4_notes:
+tu1_exc5: Leg Press
+tu1_exc5_sets: 4
+tu1_exc5_reps: 12
+tu1_exc5_rest: 30 sec.
+tu1_exc5_notes:
+tu1_exc6: Leg Extensions
+tu1_exc6_sets: 3
+tu1_exc6_reps: 12
+tu1_exc6_rest: 30 sec.
+tu1_exc6_notes: Start with the weight you used on the last set of the previous leg extensions.
+tu1_exc7: Calf Raises
+tu1_exc7_sets: 21
+tu1_exc7_reps: 5
+tu1_exc7_rest: 30 sec.
+tu1_exc7_notes: 7 out, 7 in, 7 streight = total 21
+tu1_exc8: Seated Shoulder Lateral Raises
+tu1_exc8_sets: 4
+tu1_exc8_reps: 12
+tu1_exc8_rest: 30 sec.
+tu1_exc8_notes:
+tu1_exc9: Seated Around The World Front Raise
+tu1_exc9_sets: 4
+tu1_exc9_reps: 12
+tu1_exc9_rest: 30 sec.
+tu1_exc9_notes:
+tu1_exc10: Seated Rear Flies
+tu1_exc10_sets: 4
+tu1_exc10_reps: 12
+tu1_exc10_rest: 30 sec.
+tu1_exc10_notes:
+tu1_exc11: Cable-Rope Front Raise
+tu1_exc11_sets: 4
+tu1_exc11_reps: 12
+tu1_exc11_rest: 30 sec.
+tu1_exc11_notes:
+tu1_exc12: Machine Back Fly Machine
+tu1_exc12_sets: 4
+tu1_exc12_reps: 12
+tu1_exc12_rest: 30 sec.
+tu1_exc12_notes:
+tu1_exc13: EZ-bar Rows
+tu1_exc13_sets: 3
+tu1_exc13_reps: 50, 20/20, 10/10/10, strip set
+tu1_exc13_rest: 30 sec.
+tu1_exc13_notes: Start light and increase weight on every set. On the strip set, drop 1 plate every 5 reps
 day3_num: Day 3 -
 day3: Wednesday (Chest & Triceps)
 wed1_exc1: Bench press 4 x 12
