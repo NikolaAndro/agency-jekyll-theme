@@ -104,23 +104,91 @@ mon1_exc17_rest:
 mon1_exc17_notes:
 day2_num: Day 2 - 
 day2: Tuesday (Full Body Glyogen Depletion)
-tu1_exc1: Leg Press - 3 x 15, rest 1 min.
-tu1_exc2: Leg Curl 3 x 15, rest 1 min. 
-tu1_exc3: Incline Bench 3 x 15, rest 1 min.
-tu1_exc4: Lat Pulldown 3 x 15, rest 1 min.
-tu1_exc5: Lateral Raise 3 x 15, rest 1 min.
-tu1_exc6: Calf Raise 3 x 15, rest 1 min.
-tu1_exc7: Bicep Curl 2 x 15, rest 1 min.
-tu1_exc8: Triceps Pushdown 2 x 15, rest 1 min.
-tu1_exc9: Leg Press - 3 x 15, rest 1 min.
-tu1_exc10: Leg Curl - 3 x 15, rest 1 min. 
-tu1_exc11: Incline Bench - 3 x 15, rest 1 min.
-tu1_exc12: Lat Pulldown - 3 x 15, rest 1 min.
-tu1_exc13: Lateral Raise 3 x 15, rest 1 min.
-tu1_exc14: Calf Raise 3 x 15, rest 1 min.
-tu1_exc15: Bicep Curl 2 x 15, rest 1 min.
-tu1_exc16: Triceps Pushdown 2 x 15, rest 1 min.
-tu1_exc17: 30-60 minutes of Low-Intensity Steady State (LISS) cardio
+tu1_exc1: Leg Press
+tu1_exc1_sets: 3
+tu1_exc1_reps: 15
+tu1_exc1_rest: 1 min.
+tu1_exc1_notes: 
+tu1_exc2: Leg Curl
+tu1_exc2_sets: 3
+tu1_exc2_reps: 15
+tu1_exc2_rest: 1 min.
+tu1_exc2_notes: 
+tu1_exc3: Incline Bench
+tu1_exc3_sets: 3
+tu1_exc3_reps: 15
+tu1_exc3_rest: 1 min.
+tu1_exc3_notes: 
+tu1_exc4: Lat Pulldown
+tu1_exc4_sets: 3
+tu1_exc4_reps: 15
+tu1_exc4_rest: 1 min.
+tu1_exc4_notes: 
+tu1_exc5: Lateral Raise
+tu1_exc5_sets: 3
+tu1_exc5_reps: 15
+tu1_exc5_rest: 1 min.
+tu1_exc5_notes: 
+tu1_exc6: Calf Raise
+tu1_exc6_sets: 3
+tu1_exc6_reps: 15
+tu1_exc6_rest: 1 min.
+tu1_exc6_notes: 
+tu1_exc7: Bicep Curl
+tu1_exc7_sets: 2
+tu1_exc7_reps: 15
+tu1_exc7_rest: 1 min.
+tu1_exc7_notes: 
+tu1_exc8: Triceps Pushdown
+tu1_exc8_sets: 2
+tu1_exc8_reps: 15
+tu1_exc8_rest: 1 min.
+tu1_exc8_notes: 
+tu1_exc9: Leg Press
+tu1_exc9_sets: 3
+tu1_exc9_reps: 15
+tu1_exc9_rest: 1 min.
+tu1_exc9_notes: 
+tu1_exc10: Leg Curl 
+tu1_exc10_sets: 3
+tu1_exc10_reps: 15
+tu1_exc10_rest: 1 min.
+tu1_exc10_notes: 
+tu1_exc11: Incline Bench
+tu1_exc11_sets: 3
+tu1_exc11_reps: 15
+tu1_exc11_rest: 1 min.
+tu1_exc11_notes: 
+tu1_exc12: Lat Pulldown
+tu1_exc12_sets: 3
+tu1_exc12_reps: 15
+tu1_exc12_rest: 1 min.
+tu1_exc12_notes: 
+tu1_exc13: Lateral Raise
+tu1_exc13_sets: 3
+tu1_exc13_reps: 15
+tu1_exc13_rest: 1 min.
+tu1_exc13_notes: 
+tu1_exc14: Calf Raise
+tu1_exc14_sets: 3
+tu1_exc14_reps: 15
+tu1_exc14_rest: 1 min.
+tu1_exc14_notes: 
+tu1_exc15: Bicep Curl
+tu1_exc15_sets: 2
+tu1_exc15_reps: 15
+tu1_exc15_rest: 1 min.
+tu1_exc15_notes: 
+tu1_exc16: Triceps Pushdown
+tu1_exc16_sets: 2
+tu1_exc16_reps: 15
+tu1_exc16_rest: 1 min.
+tu1_exc16_notes: 
+tu1_exc17: Low-Intensity Steady State (LISS) Cardio
+tu1_exc17_sets: 1
+tu1_exc17_reps: 30-60 min.
+tu1_exc17_rest:
+tu1_exc17_notes: 
 day3_num: Day 3 - 
 day3: Wednesday (Optional Morning Moderate-Intensity Cardio)
 wed1_exc1: Running 45-60 min. 
