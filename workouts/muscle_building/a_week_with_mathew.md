@@ -30,7 +30,7 @@ mon1_exc2_notes:
 mon1_exc3: Inlince dumbbell chest fly, 3 x 8-12 reps
 mon1_exc3_sets: 3
 mon1_exc3_reps: 8-12
-mon1_exc3_rest: 
+mon1_exc3_rest: 1 min.
 mon1_exc3_notes:
 mon1_exc4: Push-ups (3 variations), 3 x 12 reps
 mon1_exc4_sets: 3
