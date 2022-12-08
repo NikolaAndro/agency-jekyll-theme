@@ -4,6 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#hyperlinksExercise{
+    color: #fec503; 
+}
 #exerciseTable {
     width: 100%;
     border-bottom: 1px solid #dedede;
