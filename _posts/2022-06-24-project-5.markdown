@@ -1,5 +1,5 @@
 ---
-title: Bloody Hell
+title: Beast Mode
 subtitle: 6 weeks
 layout: default
 modal-id: 5
@@ -7,7 +7,7 @@ date: 2022-06-24
 img: beast_mode.png
 thumbnail: beast_mode.png
 url: bloody_hell
-permalink: bloody_hell/
+permalink: beast_mode/
 alt: 
 project-date: July 2022
 client: Start Bootstrap
