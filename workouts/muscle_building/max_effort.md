@@ -179,18 +179,66 @@ wed1_exc10:
 wed1_exc11:
 day4_num: Day 4 -
 day4: Thursday (Shoulders & Abs)
-th1_exc1: Seated barbell shoulder press (warm-up sets) - 2 x 10, rest 1 min.
-th1_exc2: Seated barbell shoulder press, 12/10/10/10/8, rest 90 sec. + double drop set after the last set
-th1_exc3: Neutral grip Arnold press - 4 x 10, rest 1 min.
-th1_exc4: Dumbbell lateral raise - 4 x 12, rest 1 min. + double drop set after the last set
-th1_exc5: EZ-Bar fron raise - 4 x 12, rest 1 min.
-th1_exc6: Incline dumbbell reverse fly - 4 x 12, rest 1 min. + double drop set after the last set
-th1_exc7: Standing dumbbell shrug - 6 x 12-15, rest 1 min.
-th1_exc8: Feet on the bench side plank with hip dip (left) - 4 x 12, NO REST
-th1_exc9: Feet on the bench side plank with hip dip (right) - 4 x 12, rest 1 min. (back to left side)
-th1_exc10: Half Turkish get-up, 4 x 12 (left side) - 4 x 12, NO REST
-th1_exc11: Half Turkish get-up, 4 x 12 (right side) - 4 x 12, rest 1 min. (back to left side)
-th1_exc12: Hollow body hold - 4 x 60 sec. rest 1 min.
+th1_exc1: Seated Barbell Shoulder Press
+th1_exc1_sets: 2
+th1_exc1_reps: 10
+th1_exc1_rest: 1 min.
+th1_exc1_notes: Warm-up sets.
+th1_exc2: Seated Barbell Shoulder Press
+th1_exc2_sets: 5
+th1_exc2_reps: 12/10/10/10/8
+th1_exc2_rest: 90 sec.
+th1_exc2_notes: Double drop set after the last set.
+th1_exc3: Neutral Grip Arnold Press
+th1_exc3_sets: 4
+th1_exc3_reps: 10
+th1_exc3_rest: 1 min.
+th1_exc3_notes:
+th1_exc4: Dumbbell Lateral Rraise
+th1_exc4_sets: 4
+th1_exc4_reps: 12
+th1_exc4_rest: 1 min.
+th1_exc4_notes:  Double drop set after the last set.
+th1_exc5: EZ-Bar Front Raise
+th1_exc5_sets: 4
+th1_exc5_reps: 12
+th1_exc5_rest: 1 min.
+th1_exc5_notes:
+th1_exc6: Incline Dumbbell Reverse Fly
+th1_exc6_sets: 4
+th1_exc6_reps: 12
+th1_exc6_rest: 1 min.
+th1_exc6_notes: Double drop set after the last set.
+th1_exc7: Standing Dumbbell Shrug
+th1_exc7sets: 6
+th1_exc7reps: 12-15
+th1_exc7rest: 1 min.
+th1_exc7notes:
+th1_exc8: Elevated Side Plank With Hip Dip (Left)
+th1_exc8_sets: 4
+th1_exc8_reps: 12
+th1_exc8_rest: NO REST
+th1_exc8_notes: Feet on the bench. Superset with next.
+th1_exc9: Elevated Side Plank With Hip Dip (Right)
+th1_exc9_sets: 4
+th1_exc9_reps: 12
+th1_exc9_rest: 1 min.
+th1_exc9_notes: Feet on the bench. Back to left side.
+th1_exc10: Half Turkish Get-up (Left Side)
+th1_exc1_sets: 4
+th1_exc1_reps: 12
+th1_exc1_rest: NO REST
+th1_exc1_notes: Superset with next.
+th1_exc11: Half Turkish Get-up (Right Side)
+th1_exc1_sets: 4
+th1_exc1_reps: 12
+th1_exc1_rest: 1 min.
+th1_exc1_notes: Back to left side.
+th1_exc12: Hollow Body Hold
+th1_exc1_sets: 6
+th1_exc1_reps: 60 sec.
+th1_exc1_rest: 1 min.
+th1_exc1_notes:
 day5_num: Day 5 -
 day5: Friday (Arms)
 fri1_exc1: Barbell curl (warm up sets) - 2 x 10, rest 1 min.
