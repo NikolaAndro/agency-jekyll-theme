@@ -191,7 +191,11 @@ tu1_exc17_rest:
 tu1_exc17_notes: 
 day3_num: Day 3 - 
 day3: Wednesday (Optional Morning Moderate-Intensity Cardio)
-wed1_exc1: Running 45-60 min. 
+wed1_exc1: Running
+wed1_exc1_sets: 1
+wed1_exc1_reps: 45-60 min.
+wed1_exc1_rest:
+wed1_exc1_notes: 
 day4_num: Day 4 - 
 day4: Thursday (Cardio and Tension training (70-85% of 1RM) Stop 1 rep short of failure <i>final glyogen depletion<i>) 
 th1_exc1: (Optional) Running 30-60 min (Must be done in the morning!)
