@@ -172,25 +172,81 @@ th1_exc1_sets: 1
 th1_exc1_reps: 10 min.
 th1_exc1_rest: 
 th1_exc1_notes:
-th1_exc2: Seated dumbbell shoulder ress
-th1_exc1_sets: 2
-th1_exc1_reps: 10-12
-th1_exc1_rest: 
-th1_exc1_notes: 1st light, 2nd moderate.
-th1_exc3: Seated dumbbell shoulder press (to failure + 2-3 reps with spotter)
-th1_exc4: Dumbbell lateral raise, 1 x 10-12 (moderate)
-th1_exc5: Dumbbell lateral raise, 1 x 8-10 (to failure + 2-3 reps with spotter)
-th1_exc6: Single arm cable lateral raise 1 x 8-10 left arm NO REST (to failure + 2-3 forced reps)
-th1_exc7: Single arm cable lateral raise 1 x 8-10 right arm (to failure + 2-3 forced reps)
-th1_exc8: Seated rear delt fly, 1 x 10-12 (moderate strain)
-th1_exc9: Seated rear delt fly, 1 x 8-10 (to failure + 2-3 partial reps)
-th1_exc10: Cable rope push-down, 1 x 10-12 (moderate strain)
-th1_exc11: Cable rope push-down, 1 x 10-12 (to failure  + 2-3 partial reps)
-th1_exc12: Skullcrusher, 1 x 10-12 (moderate strain)
-th1_exc13: Skullcrusher, 1 x 10-12 (to failure + 2-3 reps with spotter)
-th1_exc14: Seated Triceps press, 1 x 10-12 (moderate strain)
-th1_exc15: Seated Triceps press, 1 x 8-10 (to failure + 2-3 reps with spotter)
-th1_exc16: Straight, left side, right side weighted crunces, 3 x 20 each
+th1_exc2: Seated Dumbbell Shoulder Press
+th1_exc2_sets: 2
+th1_exc2_reps: 10-12
+th1_exc2_rest: 1 min.
+th1_exc2_notes: 1st light, 2nd moderate.
+th1_exc3: Seated Dumbbell Shoulder Press
+th1_exc3_sets: 1
+th1_exc3_reps: 8-10
+th1_exc3_rest: 90 sec.
+th1_exc3_notes: To failure + 2-3 reps with spotter.
+th1_exc4: Dumbbell Lateral Raise
+th1_exc4_sets: 2
+th1_exc4_reps: 10-12
+th1_exc4_rest: 1 min.
+th1_exc4_notes: 1st light, 2nd moderate.
+th1_exc5: Dumbbell Lateral Raise
+th1_exc5_sets: 1
+th1_exc5_reps: 8-10
+th1_exc5_rest: 90 sec.
+th1_exc5_notes: To failure + 2-3 reps with spotter.
+th1_exc6: Single Arm Cable Lateral Raise (Left Arm)
+th1_exc6_sets: 2
+th1_exc6_reps: 10-12
+th1_exc6_rest: NO REST
+th1_exc6_notes: To failure + 2-3 forced reps.
+th1_exc7: Single Arm Cable Lateral Raise (Right Arm)
+th1_exc7_sets: 2
+th1_exc7_reps: 10-12
+th1_exc7_rest: 1 min.
+th1_exc7_notes: To failure + 2-3 forced reps. Back to left arm.
+th1_exc8: Seated Rear Delt Fly
+th1_exc8_sets: 2
+th1_exc8_reps: 10-12
+th1_exc8_rest: 1 min.
+th1_exc8_notes: 1st light, 2nd moderate.
+th1_exc9: Seated Rear Delt Fly
+th1_exc9_sets: 1
+th1_exc9_reps: 8-10
+th1_exc9_rest: 90 sec.
+th1_exc9_notes: To failure + 2-3 forced reps.
+th1_exc10: Cable Rope Push-down
+th1_exc10_sets: 2
+th1_exc10_reps: 10-12
+th1_exc10_rest: 1 min.
+th1_exc10_notes: 1st light, 2nd moderate.
+th1_exc11: Cable Rope Push-down
+th1_exc11_sets: 1
+th1_exc11_reps: 8-10
+th1_exc11_rest: 90 sec.
+th1_exc11_notes: To failure + 2-3 reps with spotter.
+th1_exc12: Skullcrusher
+th1_exc12_sets: 2
+th1_exc12_reps: 10-12
+th1_exc12_rest: 1 min.
+th1_exc12_notes: 1st light, 2nd moderate.
+th1_exc13: Skullcrusher
+th1_exc13_sets: 1
+th1_exc13_reps: 8-10
+th1_exc13_rest: 90 sec.
+th1_exc13_notes: To failure + 2-3 reps with spotter.
+th1_exc14: Seated Triceps Press
+th1_exc14_sets: 2
+th1_exc14_reps: 10-12
+th1_exc14_rest: 1 min.
+th1_exc14_notes: 1st light, 2nd moderate.
+th1_exc15: Seated Triceps Press
+th1_exc15_sets: 1
+th1_exc15_reps: 8-10
+th1_exc15_rest: 90 sec.
+th1_exc15_notes: To failure + 2-3 reps with spotter.
+th1_exc16: Straight, Left Side, Right Side Weighted Crunces
+th1_exc16_sets: 3
+th1_exc16_reps: 20/20/20
+th1_exc16_rest: 1 min.
+th1_exc16_notes: 3 sets for left side, right side, and center
 day5_num: Day 5 -
 day5: Friday (Legs & Abs)
 fri1_exc1: Treadmill Walking 1 x 10 min.
