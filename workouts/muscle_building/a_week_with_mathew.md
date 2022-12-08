@@ -122,7 +122,7 @@ wed1_exc2_reps: 8/6/5/5/5/15
 wed1_exc2_rest: 2 min.
 wed1_exc2_notes:
 wed1_exc3: Leg Press
-wed1_exc3_sets: 6
+wed1_exc3_sets: 5
 wed1_exc3_reps: 15/12/10/10/10
 wed1_exc3_rest: 90 sec.
 wed1_exc3_notes:
@@ -160,15 +160,46 @@ wed1_exc10:
 wed1_exc11:
 day4_num: Day 4 -
 day4: Thursday (Shoulders)
-th1_exc1: Ez bar standing upright rows, 3 x 10 reps EZ BAR STANDING UPRIGHT ROWS 3S 10r
-th1_exc2: Barbell standing military press, 3 x 10-12 
-th1_exc3: Seated cable face pulls, 3 x 12 reps
-th1_exc4: Seated cable face pulls, 3 x 12 reps
-th1_exc5: Barbell shrugs, 3 x 12 reps
-th1_exc6: Landmine press, 3 x 12 reps
-th1_exc7: Smith machine shoulder press, 3 x 12 reps
-th1_exc8: Cable 1 arm lat raise, 3 x 12 reps
-th1_exc9: Front plate raises, 3 x 12 reps
+th1_exc1: Ez-bar Standing Upright Rows
+th1_exc1_sets: 3
+th1_exc1_reps: 10
+th1_exc1_rest: 1 min.
+th1_exc1_notes:
+th1_exc2: Barbell Standing Military Press
+th1_exc2_sets: 3
+th1_exc2_reps: 10-12
+th1_exc2_rest: 1 min.
+th1_exc2_notes:
+th1_exc3: Seated Cable Face Pulls
+th1_exc3_sets: 3
+th1_exc3_reps: 12
+th1_exc3_rest: 1 min.
+th1_exc3_notes:
+th1_exc4: Barbell Shrugs
+th1_exc4_sets: 3
+th1_exc4_reps: 12
+th1_exc4_rest: 1 min.
+th1_exc4_notes:
+th1_exc5: Landmine Press
+th1_exc5_sets: 3
+th1_exc5_reps: 12
+th1_exc5_rest: 1 min.
+th1_exc5_notes:
+th1_exc6: Smith Machine Shoulder Press
+th1_exc6_sets: 3
+th1_exc6_reps: 12
+th1_exc6_rest: 1 min.
+th1_exc6_notes:
+th1_exc7: Cable 1 Arm Lateral Raise
+th1_exc7_sets: 3
+th1_exc7_reps: 12
+th1_exc7_rest: 1 min.
+th1_exc7_notes: Perform on each arm.
+th1_exc8: Front Plate Raises
+th1_exc8_sets: 3
+th1_exc8_reps: 12
+th1_exc8_rest: 1 min.
+th1_exc8_notes:
 th1_exc10: 
 th1_exc11: 
 th1_exc12: 
