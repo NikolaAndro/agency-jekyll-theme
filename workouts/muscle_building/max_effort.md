@@ -480,13 +480,41 @@ mon5_exc11: Standing cable twist (right) - 4 x 12, NO REST
 mon5_exc12: Suitcase - 3 x 12, rest 90 sec. (back to chin-up crunch)
 day30_num: Day 30 -
 day30: Tuesday (Back)
-tu5_exc1: Kneeling high cables pull down - 2 x 10, rest 1 min. (warm up sets) 
-tu5_exc2: Kneeling high cables pull down - 4 x 12-15, rest 90 sec. + first 4 sets to failure with 5 additional partial reps + double drop set after the final set
-tu5_exc3: Incline face-up cable pull down - 4 x 10-12, + double drop set after the final set
-tu5_exc4: V-bar pull down - 4 x 10, NO REST
-tu5_exc5: Leaning back V-bar pull down - 4 x 6-8, rest 90 sec. (back to v-bar pull down)
-tu5_exc6: Cable seated row (wide grip) - 5 x 12, rest 45 sec + double drop set after the final set
-tu5_exc7: Straight-arm rope pull-down - 4 x 12-15, rest 45 sec. 
+tu5_exc1: Kneeling High Cables Pull-down
+tu5_exc1_sets: 2
+tu5_exc1_reps: 10
+tu5_exc1_rest: 1 min.
+tu5_exc1_notes: Warm-up sets.
+tu5_exc2: Kneeling High Cables Pull-down
+tu5_exc2_sets: 4
+tu5_exc2_reps: 12-15
+tu5_exc2_rest: 90 sec.
+tu5_exc2_notes: First 4 sets to failure with 5 additional partial reps + double drop set after the final set.
+tu5_exc3: Incline Face-up Cable Pull-down
+tu5_exc3_sets: 4
+tu5_exc3_reps: 10-12
+tu5_exc3_rest: 1 min.
+tu5_exc3_notes: Double drop set after the final set.
+tu5_exc4: V-bar Pull-down
+tu5_exc4_sets: 4
+tu5_exc4_reps: 10
+tu5_exc4_rest: NO REST
+tu5_exc4_notes: SUPERSET WITH NEXT
+tu5_exc5: Leaning back V-bar Pull Down
+tu5_exc5_sets: 4
+tu5_exc5_reps: 6-8
+tu5_exc5_rest: 90 sec.
+tu5_exc5_notes: Back to v-bar pull down.
+tu5_exc6: Cable Seated Row
+tu5_exc6_sets: 5
+tu5_exc6_reps: 12
+tu5_exc6_rest: 45 sec.
+tu5_exc6_notes: Wide grip. Double drop set after the final set.
+tu5_exc7: Straight-arm Rope Pull-down
+tu5_exc7_sets: 4
+tu5_exc7_reps: 12-15
+tu5_exc7_rest: 45 sec.
+tu5_exc7notes:
 tu5_exc8:
 tu5_exc9:
 tu5_exc10:
