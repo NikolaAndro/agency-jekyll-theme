@@ -111,15 +111,51 @@ tu1_exc10:
 tu1_exc11: 
 day3_num: Day 3 -
 day3: Wednesday (Legs)
-wed1_exc1: Barbell back squat - 2 x 10, rest 1 min. (warm up sets)
-wed1_exc2: Barbell back squat - 8/6/5/5/5/15, rest 2 min. 
-wed1_exc3: Leg press - 15/12/10/10/10, rest 90 sec + strip set after the final set
-wed1_exc4: Dumbbell walking lunge - 4 x 24, NO REST (superset with next)
-wed1_exc5: Dumbbell squat - 4 x 12, rest 90 sec. (back to lunges)
-wed1_exc6: Single leg lying leg curl (left) - 4 x 10-12, NO REST + partial reps after each set + double drop set after the final set
-wed1_exc7: Single leg lying leg curl (right) - 4 x 10-12, rest 1 min. + partial reps after each set + double drop set after the final set (back to left)
-wed1_exc8: Machine seated calf raise - 4 x 12-15, rest 1 min.
-wed1_exc9: Leg press calf raise - 4 x 15-20, rest 1 min. 
+wed1_exc1: Barbell Back Squat
+wed1_exc1_sets: 2
+wed1_exc1_reps: 10
+wed1_exc1_rest: 1 min.
+wed1_exc1_notes: Warmup sets.
+wed1_exc2: Barbell Back Squat
+wed1_exc2_sets: 6
+wed1_exc2_reps: 8/6/5/5/5/15
+wed1_exc2_rest: 2 min.
+wed1_exc2_notes:
+wed1_exc3: Leg Press
+wed1_exc3_sets: 6
+wed1_exc3_reps: 15/12/10/10/10
+wed1_exc3_rest: 90 sec.
+wed1_exc3_notes:
+wed1_exc4: Dumbbell Walking Lunge
+wed1_exc4_sets: 4
+wed1_exc4_reps: 24
+wed1_exc4_rest: NO REST
+wed1_exc4_notes: Superset with next exercise.
+wed1_exc5: Dumbbell Squat
+wed1_exc5_sets: 4
+wed1_exc5_reps: 12
+wed1_exc5_rest: 90 sec.
+wed1_exc5_notes: back to walking lunges.
+wed1_exc6: Single Leg Lying Leg Curl (left) - 4 x 10-12, NO REST 
+wed1_exc6_sets: 4
+wed1_exc6_reps: 12
+wed1_exc6_rest: NO REST
+wed1_exc6_notes: Do 5 partial reps after each set + double drop set after the final set.
+wed1_exc7: Single Leg Lying Leg Curl (right)
+wed1_exc7_sets: 4
+wed1_exc7_reps: 12
+wed1_exc7_rest: 1 min.
+wed1_exc7_notes: Back to left. Do 5 partial reps after each set + double drop set after the final set.
+wed1_exc8: Machine Seated Calf Raise
+wed1_exc8_sets: 4
+wed1_exc8_reps: 12-15
+wed1_exc8_rest: 1 min.
+wed1_exc8_notes:
+wed1_exc9: Leg Press Calf Raise
+wed1_exc9_sets: 4
+wed1_exc9_reps: 15
+wed1_exc9_rest: 1 min.
+wed1_exc9_notes:
 wed1_exc10:
 wed1_exc11:
 day4_num: Day 4 -
