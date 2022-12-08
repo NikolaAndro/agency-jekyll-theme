@@ -27,72 +27,72 @@ mon1_exc2: Rotator Cuff Warm-up
 mon1_exc2_sets: 2
 mon1_exc2_reps: 12
 mon1_exc2_rest: 30 sec.
-mon1_exc2_notes: 5-10 lbs plates
+mon1_exc2_notes: 5-10 lbs plates.
 mon1_exc3: Decline Barbell Bench Press
 mon1_exc3_sets: 2
 mon1_exc3_reps: 12
 mon1_exc3_rest: 1 min.
-mon1_exc3_notes: 1 set easy weight, 2nd set moderate strain weight
+mon1_exc3_notes: 1 set easy weight, 2nd set moderate strain weight.
 mon1_exc4: Decline Barbell Bench Press
 mon1_exc4_sets: 1
 mon1_exc4_reps: 6-8
 mon1_exc4_rest: 90 sec.
-mon1_exc4_notes: Go heavy & use spotter to help you on the final 2-3 reps
+mon1_exc4_notes: Go heavy & use spotter to help you on the final 2-3 reps.
 mon1_exc5: Incline Dumbbell Bench Press (45 degrees)
 mon1_exc5_sets: 2
 mon1_exc5_reps: 12
 mon1_exc5_rest: 1 min.
-mon1_exc5_notes: 1 set easy weight, 2nd set moderate strain weight
+mon1_exc5_notes: 1 set easy weight, 2nd set moderate strain weight.
 mon1_exc6: Incline Dumbbell Bench Press (45 degrees)
 mon1_exc6_sets: 1
 mon1_exc6_reps: 6-8
 mon1_exc6_rest: 90 sec
-mon1_exc6_notes: Go heavy & use spotter to help you on the final 2-3 reps
+mon1_exc6_notes: Go heavy & use spotter to help you on the final 2-3 reps.
 mon1_exc7: Dumbbell Fly
 mon1_exc7_sets: 2
 mon1_exc7_reps: 12
 mon1_exc7_rest: 1 min.
-mon1_exc7_notes: 1st light, 2nd moderate
+mon1_exc7_notes: 1st set light, 2nd moderate.
 mon1_exc8: Dumbbell Fly
 mon1_exc8_sets: 1
 mon1_exc8_reps: 8-10
 mon1_exc8_rest: 90 sec.
-mon1_exc8_notes: Go heavy & use spotter to help you on the final 2-3 reps
+mon1_exc8_notes: Go heavy & use spotter to help you on the final 2-3 reps.
 mon1_exc9: Concentration Curl (left)
 mon1_exc9_sets: 2
 mon1_exc9_reps: 12
 mon1_exc9_rest: NO REST
-mon1_exc9_notes: 1st light, 2nd moderate. Superset with next.
+mon1_exc9_notes: 1st set light, 2nd moderate. Superset with next.
 mon1_exc10: Concentration Curl (right)
 mon1_exc10_sets: 2
 mon1_exc10_reps: 12
 mon1_exc10_rest: 45 sec.
-mon1_exc10_notes: 1st light, 2nd moderate. Back to left arm. 
+mon1_exc10_notes: 1st set light, 2nd moderate. Back to left arm. 
 mon1_exc11: Concentration Curl (left)
 mon1_exc11_sets: 1
 mon1_exc11_reps: 6-8
 mon1_exc11_rest: NO REST
-mon1_exc11_notes: Go heavy & use right hand to help you on the final 2-3 reps
+mon1_exc11_notes: Go heavy & use right hand to help you on the final 2-3 reps.
 mon1_exc12: Concentration Curl (right)
 mon1_exc12_sets: 1
 mon1_exc12_reps: 6-8
 mon1_exc12_rest: 90 sec.
-mon1_exc12_notes: Go heavy & use left hand to help you on the final 2-3 reps
+mon1_exc12_notes: Go heavy & use left hand to help you on the final 2-3 reps.
 mon1_exc13: Barbell Curls
 mon1_exc13_sets: 2
 mon1_exc13_reps: 12
 mon1_exc13_rest: 1 min.
-mon1_exc13_notes: 1st light, 2nd moderate.
+mon1_exc13_notes: 1st set light, 2nd moderate.
 mon1_exc14: Barbell Curls
 mon1_exc14_sets: 1
 mon1_exc14_reps: 6-8
 mon1_exc14_rest: 90 sec.
-mon1_exc14_notes: Go heavy & use spotter to help you on the final 2-3 reps
+mon1_exc14_notes: Go heavy & use spotter to help you on the final 2-3 reps.
 mon1_exc15: Weighted Crunces
 mon1_exc15_sets: 3
 mon1_exc15_reps: 20
 mon1_exc15_rest: 1 min.
-mon1_exc15_notes: Straight, left side, and right side
+mon1_exc15_notes: Straight, left side, and right side.
 mon1_exc16: 
 mon1_exc17: 
 day2_num: Day 2 -
@@ -112,7 +112,7 @@ tu1_exc3: Bent Arm Dumbbell Pull-Over
 tu1_exc3_sets: 1
 tu1_exc3_reps: 8-10
 tu1_exc3_rest: 90 sec.
-tu1_exc3_notes: Go heavy & use spotter to help you on the final 2-3 reps
+tu1_exc3_notes: Go heavy & use spotter to help you on the final 2-3 reps.
 tu1_exc4: Close Grip Pull-down
 tu1_exc4_sets: 2
 tu1_exc4_reps: 10-12
@@ -152,7 +152,7 @@ tu1_exc11: Barbell deadlift
 tu1_exc11_sets: 1
 tu1_exc11_reps: 8-10
 tu1_exc11_rest: 90 sec.
-tu1_exc11_notes: Go heavy & use spotter to help you on the final 2-3 reps
+tu1_exc11_notes: Go heavy & use spotter to help you on the final 2-3 reps.
 tu1_exc12: Bodyweight abs of your choice, 250 reps 
 tu1_exc12_sets: 5
 tu1_exc12_reps: 50
@@ -520,17 +520,65 @@ mon5_exc12:
 day30_num: Day 30 -
 day30: Tuesday (Back & Abs)
 tu5_exc1: Treadmill Walking 1 x 10 min.
-tu5_exc2: Bent-arm dumbbell pull-over, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-tu5_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-tu5_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
-tu5_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
-tu5_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure
-tu5_exc7: Bodyweight abs of your choice, 250 reps
-tu5_exc8:
-tu5_exc9:
-tu5_exc10:
-tu5_exc11:
-tu5_exc12:
+tu5_exc1_sets: 1
+tu5_exc1_reps: 10
+tu5_exc1_rest: 
+tu5_exc1_notes:
+tu5_exc2: Bent-arm Dumbbell Pull-over
+tu5_exc2_sets: 2
+tu5_exc2_reps: 10-12
+tu5_exc2_rest: 1 min.
+tu5_exc2_notes: 1st set light, 2nd moderate.
+tu5_exc3: Bent-arm Dumbbell Pull-over
+tu5_exc3_sets: 1
+tu5_exc3_reps: 8-10
+tu5_exc3_rest: 90 sec.
+tu5_exc3_notes: Go heavy & use spotter to help you on the final 2-3 reps.
+tu5_exc4: Close Grip Pull-down
+tu5_exc4_sets: 2
+tu5_exc4_reps: 10-12
+tu5_exc4_rest: 1 min.
+tu5_exc4_notes: 1st set light, 2nd moderate.
+tu5_exc5: Close Grip Pull-down
+tu5_exc5_sets: 1
+tu5_exc5_reps: 8-10
+tu5_exc5_rest: 90 sec.
+tu5_exc5_notes: Go heavy & use spotter to help you on the final 2-3 reps.
+tu5_exc6: Single Arm Dumbbell Row
+tu5_exc6_sets: 2
+tu5_exc6_reps: 10-12
+tu5_exc6_rest: 1 min.
+tu5_exc6_notes: Both left and right arm. 1st set light, 2nd moderate.
+tu5_exc7: Single Arm Dumbbell Row
+tu5_exc7_sets: 1
+tu5_exc7_reps: 8-10
+tu5_exc7_rest: 90 sec.
+tu5_exc7_notes: Go heavy.
+tu5_exc8: Cable Seated Row
+tu5_exc8_sets: 2
+tu5_exc8_reps: 10-12
+tu5_exc8_rest: 1 min.
+tu5_exc8_notes: 1st set light, 2nd moderate.
+tu5_exc9: Cable Seated Row
+tu5_exc9_sets: 1
+tu5_exc9_reps: 8-10
+tu5_exc9_rest: 90 sec.
+tu5_exc9_notes: Go heavy.
+tu5_exc10: Barbell Deadlift
+tu5_exc10_sets: 2
+tu5_exc10_reps: 10-12
+tu5_exc10_rest: 1 min.
+tu5_exc10_notes: Lower the bar only to mid shin on each rep. 1st set light, 2nd moderate.
+tu5_exc11: Barbell Deadlift
+tu5_exc11_sets: 1
+tu5_exc11_reps: 8-10
+tu5_exc11_rest: 90 sec.
+tu5_exc11_notes: Go heavy.
+tu5_exc12: Bodyweight Abs
+tu5_exc12_sets: 5
+tu5_exc12_reps: 50
+tu5_exc12_rest: 30 sec.
+tu5_exc12_notes: Abs of your choice.
 day31_num: Day 31 -
 day31: Wednesday (REST)
 wed5_exc1: 
