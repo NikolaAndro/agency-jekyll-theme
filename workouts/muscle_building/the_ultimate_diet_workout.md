@@ -198,19 +198,71 @@ wed1_exc1_rest:
 wed1_exc1_notes: 
 day4_num: Day 4 - 
 day4: Thursday (Cardio and Tension training (70-85% of 1RM) Stop 1 rep short of failure <i>final glyogen depletion<i>) 
-th1_exc1: (Optional) Running 30-60 min (Must be done in the morning!)
-th1_exc2: Leg Press 2 x 6-12, rest 1-2 min. 
-th1_exc3: Leg Curl 2 x 6-12, rest 1-2 min. 
-th1_exc4: Leg Extension 1-2 x 6-12, rest 1-2 min. 
-th1_exc5: Seated Leg Curl 1-2 x 6-12, rest 1-2 min. 
-th1_exc6: Calf Raise 3-4 x 6-12,rest 1-2 min.
-th1_exc7: Bench Press (or chest press machine)  2 x 6-12, rest 1-2 min. 
-th1_exc8: Cable Row  2 x 6-12, rest 1-2 min. 
-th1_exc9: Incline Bench Press  1-2 x 6-12, rest 1-2 min. 
-th1_exc10: Pull down or Chin Ups 1-2 x 6-12, rest 1-2 min. 
-th1_exc11: Lateral Raise 2-3 x 6-12, rest 1-2 min. 
-th1_exc12: Bicep Curl 2 x 6-12, rest 1-2 min. 
-th1_exc13: Triceps Pushdwon 2 x 6-12, rest 1-2 min. 
+th1_exc1: Running
+th1_exc1_sets: 1
+th1_exc1_reps: 30-60 min.
+th1_exc1_rest: 
+th1_exc1_notes: OPTIONAL! Must be done in the morning!
+th1_exc2: Leg Press 
+th1_exc2_sets: 2
+th1_exc2_reps: 6-12
+th1_exc2_rest: 1-2 min.
+th1_exc2_notes:
+th1_exc3: Leg Curl 
+th1_exc3_sets: 2
+th1_exc3_reps: 6-12
+th1_exc3_rest: 1-2 min.
+th1_exc3_notes:
+th1_exc4: Leg Extension
+th1_exc4_sets: 2
+th1_exc4_reps: 6-12
+th1_exc4_rest: 1-2 min.
+th1_exc4_notes:
+th1_exc5: Seated Leg Curl 
+th1_exc5_sets: 2
+th1_exc5_reps: 6-12
+th1_exc5_rest: 1-2 min.
+th1_exc5_notes:
+th1_exc6: Calf Raise
+th1_exc6_sets: 3-4
+th1_exc6_reps: 6-12
+th1_exc6_rest: 1-2 min.
+th1_exc6_notes:
+th1_exc7: Bench Press
+th1_exc7_sets: 2
+th1_exc7_reps: 6-12
+th1_exc7_rest: 1-2 min.
+th1_exc7_notes: Can substitute with chest press machine.
+th1_exc8: Cable Row 
+th1_exc8_sets: 2
+th1_exc8_reps: 6-12
+th1_exc8_rest: 1-2 min.
+th1_exc8_notes:
+th1_exc9: Incline Bench Press 
+th1_exc9_sets: 1-2
+th1_exc9_reps: 6-12
+th1_exc9_rest: 1-2 min.
+th1_exc9_notes:
+th1_exc10: Pull down or Chin Ups
+th1_exc10_sets: 1-2
+th1_exc10_reps: 6-12
+th1_exc10_rest: 1-2 min.
+th1_exc10_notes:
+th1_exc11: Lateral Raise
+th1_exc11_sets: 2-3
+th1_exc11_reps: 6-12
+th1_exc11_rest: 1-2 min.
+th1_exc11_notes:
+th1_exc12: Bicep Curl 
+th1_exc12_sets: 2
+th1_exc12_reps: 6-12
+th1_exc12_rest: 1-2 min.
+th1_exc12_notes:
+th1_exc13: Triceps Pushdwon
+th1_exc13_sets: 2
+th1_exc13_reps: 6-12
+th1_exc13_rest: 1-2 min.
+th1_exc13_notes:
 day5_num: Day 5 - 
 day5: Friday (Rest)
 day6_num: Day 6 - 
