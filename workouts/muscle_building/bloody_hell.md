@@ -160,7 +160,11 @@ tu1_exc12_rest: 30 sec.
 tu1_exc12_notes: 
 day3_num: Day 3 -
 day3: Wednesday (REST)
-wed1_exc1:
+wed1_exc1: <a href="https://www.youtube.com/watch?v=to_USs3Ip6I">Full Body Stretch</a>
+wed1_exc1_sets: 1
+wed1_exc1_reps: 60 min.
+wed1_exc1_rest: 
+wed1_exc1_notes:
 day4_num: Day 4 -
 day4: Thursday (Shoulders & Triceps & Abs)
 th1_exc1: Treadmill Walking 1 x 10 min.
