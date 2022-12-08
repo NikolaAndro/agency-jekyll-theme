@@ -134,14 +134,46 @@ tu1_exc11_rest: 90 sec.
 tu1_exc11_notes: Back to ab wheel roll-outs
 day3_num: Day 3 -
 day3: Wednesday (Legs - quads & calves)
-wed1_exc1: Barbell back squat (warm-up sets) 2 x 10, rest 1 min.
-wed1_exc2: Barbell back squat - 12/10/10/8/6, rest 2 min.
-wed1_exc3: Hack squat - 4 x 12-15, rest 90 sec. + single drop set after the last set
-wed1_exc4: Leg press - 20/15/15/15/10, rest 90 sec. + double drop set after the last set
-wed1_exc5: Leg extension - 4 x 15, rest 1 min. + triple drop set after the last set
-wed1_exc6: Smith machine standing calf raise - 4 x 10-12, rest 1 min.
-wed1_exc7: Machine seated calf raise, 4 x 12-15, NO REST
-wed1_exc8: Leg press calf raise, 4 x 12-15, rest 1 min. (back to machine seated calf raise)
+wed1_exc1: Barbell Back Squat
+wed1_exc1_sets: 2
+wed1_exc1_reps: 10
+wed1_exc1_rest: 1 min.
+wed1_exc1_notes: Warmup sets.
+wed1_exc2: Barbell Back Squat
+wed1_exc2_sets: 5
+wed1_exc2_reps: 12/10/10/8/6
+wed1_exc2_rest: 2 min.
+wed1_exc2_notes:
+wed1_exc3: Hack Squat
+wed1_exc3_sets: 4
+wed1_exc3_reps: 12-15
+wed1_exc3_rest: 90 sec.
+wed1_exc3_notes: Single drop set after the last set.
+wed1_exc4: Leg Press
+wed1_exc4_sets: 5
+wed1_exc4_reps: 20/15/15/15/10
+wed1_exc4_rest: 90 sec.
+wed1_exc4_notes: Double drop set after the last set.
+wed1_exc5: Leg Extension
+wed1_exc5_sets: 4
+wed1_exc5_reps: 15
+wed1_exc5_rest: 1 min.
+wed1_exc5_notes: Triple drop set after the last set.
+wed1_exc6: Smith Machine Standing Calf Raise
+wed1_exc6_sets: 4
+wed1_exc6_reps: 10-12
+wed1_exc6_rest: 1 min.
+wed1_exc6_notes:
+wed1_exc7: Machine Seated Calf Raise
+wed1_exc7_sets: 4
+wed1_exc7_reps: 12-15
+wed1_exc7_rest: NO REST
+wed1_exc7_notes: SUPERSET WITH NEXT
+wed1_exc8: Leg Press Calf Raise
+wed1_exc8_sets: 4
+wed1_exc8_reps: 12-15
+wed1_exc8_rest: 1 min.
+wed1_exc8_notes: Back to machine seated calf raise.
 wed1_exc9: 
 wed1_exc10:
 wed1_exc11:
