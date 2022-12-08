@@ -223,16 +223,56 @@ wed1_exc12_rest: 45 sec.
 wed1_exc12_notes:
 day4_num: Day 4 -
 day4: Thursday (Back & Biceps)
-th1_exc1: Lat pull down (wide) - 4 x 12
-th1_exc2: Lat pull down underhand (shoulder width) - 4 x 12
-th1_exc3: T-bar rows - 4 x 12
-th1_exc4: Cable-rope straight arms pull down - 4 x 12
-th1_exc5: Machine rows - 4 x 12
-th1_exc6: Rotating biceps curls - 4 x 12
-th1_exc7: Hammer curls - 4 x 12
-th1_exc8: EZ-bar cable culrs - 4 x 12
-th1_exc9: Cable-rope culrs - 4 x 12
-th1_exc10: Preacher Curls - 4 x 12
+th1_exc1: Lat Pull-down
+th1_exc1_sets: 4
+th1_exc1_reps: 12
+th1_exc1_rest: 30 sec.
+th1_exc1_notes: Wide grip.
+th1_exc2: Lat Pull-down
+th1_exc2_sets: 4
+th1_exc2_reps: 12
+th1_exc2_rest: 30 sec.
+th1_exc2_notes: Shoulder width and underhand grip.
+th1_exc3: T-bar Rows
+th1_exc3_sets: 4
+th1_exc3_reps: 12
+th1_exc3_rest: 30 sec.
+th1_exc3_notes:
+th1_exc4: Cable-rope Straight Arms Pull-down
+th1_exc4_sets: 4
+th1_exc4_reps: 12
+th1_exc4_rest: 30 sec.
+th1_exc4_notes:
+th1_exc5: Machine Cable Row
+th1_exc5_sets: 4
+th1_exc5_reps: 12
+th1_exc5_rest: 30 sec.
+th1_exc5_notes:
+th1_exc6: Rotating Biceps Curls
+th1_exc6_sets: 4
+th1_exc6_reps: 12
+th1_exc6_rest: 30 sec.
+th1_exc6_notes:
+th1_exc7: Hammer Curls
+th1_exc7_sets: 4
+th1_exc7_reps: 12
+th1_exc7_rest: 30 sec.
+th1_exc7_notes:
+th1_exc8: EZ-bar Cable Culrs 
+th1_exc8_sets: 4
+th1_exc8_reps: 12
+th1_exc8_rest: 30 sec.
+th1_exc8_notes:
+th1_exc9: Cable-rope Culrs
+th1_exc9_sets: 4
+th1_exc9_reps: 12
+th1_exc9_rest: 30 sec.
+th1_exc9_notes:
+th1_exc10: Preacher Curls
+th1_exc10_sets: 4
+th1_exc10_reps: 12
+th1_exc10_rest: 30 sec.
+th1_exc10_notes:
 th1_exc11:
 th1_exc12: 
 day5_num: Day 5 -
