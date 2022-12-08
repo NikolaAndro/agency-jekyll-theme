@@ -161,18 +161,66 @@ tu1_exc13_rest: 30 sec.
 tu1_exc13_notes: Start light and increase weight on every set. On the strip set, drop 1 plate every 5 reps
 day3_num: Day 3 -
 day3: Wednesday (Chest & Triceps)
-wed1_exc1: Bench press 4 x 12
-wed1_exc2: Dumbbell Bench Press - 4 x 12
-wed1_exc3: Dumbbells together chest press (30 degrees incline) - 4 x 12
-wed1_exc4: Fly machine chest flies - 4 x 12
-wed1_exc5: Cable flies high to low 4 x 12 + 7 torso paralel with ground flies
+wed1_exc1: Bench Press
+wed1_exc1_sets: 4
+wed1_exc1_reps: 12
+wed1_exc1_rest: 30 sec.
+wed1_exc1_notes:
+wed1_exc2: Dumbbell Bench Press
+wed1_exc2_sets: 4
+wed1_exc2_reps: 12
+wed1_exc2_rest: 30 sec.
+wed1_exc2_notes:
+wed1_exc3: Dumbbells Together Chest Press (30 Degrees Incline)
+wed1_exc3_sets: 4
+wed1_exc3_reps: 12
+wed1_exc3_rest: 30 sec.
+wed1_exc3_notes:
+wed1_exc4: Fly Machine Chest Flies
+wed1_exc4_sets: 4
+wed1_exc4_reps: 12
+wed1_exc4_rest: 30 sec.
+wed1_exc4_notes:
+wed1_exc5: Cable Flies High To Low
+wed1_exc5_sets: 4
+wed1_exc5_reps: 12
+wed1_exc5_rest: 30 sec.
+wed1_exc5_notes: After each set add 7 flies with torso paralel with ground.
 wed1_exc6: Chest Press Machine 
-wed1_exc7: Dumbbell Kickbacks - 4 x 12
-wed1_exc8: EZ-bar wide overhand push-down 4 x 12
-wed1_exc9: V-bar overhand push-down - 4 x 12
-wed1_exc10: 1 Cable 2 handles underhand triceps pull down - 4 x 12
-wed1_exc11: Leaning forward (towards the machine) cable triceps extensions - 4 x 12
-wed1_exc12: Triceps press down machine - 4 x 12
+wed1_exc6_sets: 4
+wed1_exc6_reps: 12
+wed1_exc6_rest: 45 sec.
+wed1_exc6_notes:
+wed1_exc7: Dumbbell Kickbacks
+wed1_exc7_sets: 4
+wed1_exc7_reps: 12
+wed1_exc7_rest: 30 sec.
+wed1_exc7_notes:
+wed1_exc8: EZ-bar Wide Overhand Push-down
+wed1_exc8_sets: 4
+wed1_exc8_reps: 12
+wed1_exc8_rest: 30 sec.
+wed1_exc8_notes:
+wed1_exc9: V-bar Overhand Push-down
+wed1_exc9_sets: 4
+wed1_exc9_reps: 12
+wed1_exc9_rest: 30 sec.
+wed1_exc9_notes:
+wed1_exc10: 1 Cable 2 Handles Underhand Triceps Pull-down
+wed1_exc10_sets: 4
+wed1_exc10_reps: 12
+wed1_exc10_rest: 30 sec.
+wed1_exc10_notes:
+wed1_exc11: Leaning forward (towards the machine) Cable Triceps Extensions
+wed1_exc11_sets: 4
+wed1_exc11_reps: 12
+wed1_exc11_rest: 30 sec.
+wed1_exc11_notes:
+wed1_exc12: Triceps Press Down Machine - 4 x 12
+wed1_exc12_sets: 4
+wed1_exc12_reps: 12
+wed1_exc12_rest: 45 sec.
+wed1_exc12_notes:
 day4_num: Day 4 -
 day4: Thursday (Back & Biceps)
 th1_exc1: Lat pull down (wide) - 4 x 12
