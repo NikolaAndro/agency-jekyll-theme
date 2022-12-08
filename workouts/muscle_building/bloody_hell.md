@@ -160,7 +160,7 @@ tu1_exc12_rest: 30 sec.
 tu1_exc12_notes: 
 day3_num: Day 3 -
 day3: Wednesday (REST)
-wed1_exc1: <a href="https://www.youtube.com/watch?v=to_USs3Ip6I">Full Body Stretch</a>
+wed1_exc1: <a id="hyperlinksExercise" href="https://www.youtube.com/watch?v=to_USs3Ip6I">Full Body Stretch</a>
 wed1_exc1_sets: 1
 wed1_exc1_reps: 60 min.
 wed1_exc1_rest: 
