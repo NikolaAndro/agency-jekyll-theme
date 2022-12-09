@@ -241,27 +241,103 @@ th1_exc12_rest: 1 min.
 th1_exc12_notes:
 day5_num: Day 5 -
 day5: Friday (Arms)
-fri1_exc1: Barbell curl (warm up sets) - 2 x 10, rest 1 min.
-fri1_exc2: Barbell curl - 4 x 10, rest 45 sec. + double drop set after the last set
-fri1_exc3: Alternating biceps curl - 4 x 12 each, rest 45 sec. + single drop set after the last set
-fri1_exc4: EZ preacher curl - 4 x 12, rest 45 sec.
-fri1_exc5: Incline dumbbell biceps curl - 4 x 12, rest 45 sec. + double drop set after the last set
-fri1_exc6: Alternating hammer curl - 4 x 10 each, rest 45 sec.
-fri1_exc7: Overhead cable curl - 6 x 15, rest 30 sec.
-fri1_exc8: EZ-bar skullcrusher - 4 x 10, rest 45 sec. + double drop set after the last set
-fri1_exc9: Seated triceps press - 4 x 12, rest 45 sec. + single drop set after the last set
-fri1_exc10: Triceps dip with extra weight - 4 x 12, rest 1 min.
-fri1_exc11: Cable rope push-down - 15/12/10/10, rest 45 sec. + single drop set after the last set
-fri1_exc12: Cable V-bar push-down - 6 x 12, NO REST
-fri1_exc13: Diamond push-up - 6 x 12, rest 1 min. (back to V-bar push-down)
+fri1_exc1: Barbell Curl
+fri1_exc1_sets: 2
+fri1_exc1_reps: 10
+fri1_exc1_rest: 1 min.
+fri1_exc1_notes: Warmup sets.
+fri1_exc2: Barbell Curl
+fri1_exc2_sets: 4
+fri1_exc2_reps: 10
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes: Double drop set after the last set.
+fri1_exc3: Alternating Biceps Curl
+fri1_exc3_sets: 4
+fri1_exc3_reps: 12
+fri1_exc3_rest: 45 sec.
+fri1_exc3_notes: Single drop set after the last set.
+fri1_exc4: EZ Preacher Curl
+fri1_exc4_sets: 4
+fri1_exc4_reps: 12
+fri1_exc4_rest: 45 sec.
+fri1_exc4_notes:
+fri1_exc5: Incline Dumbbell Biceps Curl
+fri1_exc5_sets: 4
+fri1_exc5_reps: 12
+fri1_exc5_rest: 45 sec.
+fri1_exc5_notes: Double drop set after the last set.
+fri1_exc6: Alternating Hammer Curl
+fri1_exc6_sets: 4
+fri1_exc6_reps: 10
+fri1_exc6_rest: 45 sec.
+fri1_exc6_notes: Double drop set after the last set.
+fri1_exc7: Overhead Cable Curl
+fri1_exc7_sets: 6
+fri1_exc7_reps: 15
+fri1_exc7_rest: 45 sec.
+fri1_exc7_notes: 
+fri1_exc8: EZ-bar Skullcrusher
+fri1_exc8_sets: 4
+fri1_exc8_reps: 10
+fri1_exc8_rest: 45 sec.
+fri1_exc8_notes: Double drop set after the last set.
+fri1_exc9: Seated Triceps Press
+fri1_exc9_sets: 4
+fri1_exc9_reps: 12
+fri1_exc9_rest: 45 sec.
+fri1_exc9_notes: Single drop set after the last set.
+fri1_exc10: Triceps Dip With Extra Weight
+fri1_exc10_sets: 4
+fri1_exc10_reps: 12
+fri1_exc10_rest: 1 min.
+fri1_exc10_notes: Double drop set after the last set.
+fri1_exc11: Cable Rope Push-down
+fri1_exc11_sets: 4
+fri1_exc11_reps: 15/12/10/10
+fri1_exc11_rest: 45 sec.
+fri1_exc11_notes: Single drop set after the last set.
+fri1_exc12: Cable V-bar Push-down
+fri1_exc12_sets: 6
+fri1_exc12_reps: 12
+fri1_exc12_rest: NO REST
+fri1_exc12_notes: Superset with next exercise.
+fri1_exc13: Diamond Push-up
+fri1_exc13_sets: 6
+fri1_exc13_reps: 12
+fri1_exc13_rest: 1 min.
+fri1_exc13_notes: Back to V-bar push-down.
 day6_num: Day 6 -
 day6: Saturday (legs - hamstrings)
-sat1_exc1: Lying leg curl (warm up sets) 2 x 10, rest 1 min.
-sat1_exc2: Lying leg curl - 5 x 15, rest 1 min. 
-sat1_exc3: Dumbbell stiff-legged deadlift - 4 x 12, rest 90 sec.
-sat1_exc4: Leg press legs high - 5 x 20, NO REST
-sat1_exc5: Dumbbell walking lunge - 5 x 20, rest 1 min. (back to leg press)
-sat1_exc6: Leg curl - 6 x 12-15, rest 1 min. + 5 partial reps after reaching failure after each set
+sat1_exc1: Lying Leg Curl
+sat1_exc1_sets: 2
+sat1_exc1_reps: 10
+sat1_exc1_rest: 1 min.
+sat1_exc1_notes: Warmup sets.
+sat1_exc2: Lying Leg Curl
+sat1_exc2_sets: 5
+sat1_exc2_reps: 15
+sat1_exc2_rest: 1 min.
+sat1_exc2_notes: 
+sat1_exc3: Dumbbell Stiff-legged Deadlift
+sat1_exc3_sets: 4
+sat1_exc3_reps: 12
+sat1_exc3_rest: 90 sec.
+sat1_exc3_notes: 
+sat1_exc4: Leg Press
+sat1_exc4_sets: 5
+sat1_exc4_reps: 20
+sat1_exc4_rest: NO REST
+sat1_exc4_notes: Feet high and wide. Superset with the next exercise.
+sat1_exc5: Dumbbell Walking Lunge
+sat1_exc10_sets: 5
+sat1_exc10_reps: 20
+sat1_exc10_rest: 1 min.
+sat1_exc10_notes: Back to leg press.
+sat1_exc6: Leg Curl 
+sat1_exc10_sets: 6
+sat1_exc10_reps: 12-15
+sat1_exc10_rest: 1 min.
+sat1_exc10_notes: Add 5 partial reps after reaching failure after each set.
 day7_num: Day 7 -
 day7: Sunday
 sun1_exc1: REST
