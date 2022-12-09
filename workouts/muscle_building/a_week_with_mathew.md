@@ -205,21 +205,82 @@ th1_exc11:
 th1_exc12: 
 day5_num: Day 5 -
 day5: Friday (Arms)
-fri1_exc1: Incline dumbbell curls, 3 x 12 reps
-fri1_exc2: Underhand dumbbell curl, 3 x 12 reps (per arm)
-fri1_exc3: Cable single arm curl, 3 x 12 reps
-fri1_exc4: Barbell standing concentration curl, 3 x 12 reps
-fri1_exc5: Underhand biceps curl,, 3 x 12 reps
-fri1_exc6: Dumbbell curls + hammer curls, 3 x 12 reps (6 each type)
-fri1_exc7: Ez bar seated curls, 3 x 12 reps
-fri1_exc8: Close grip barbell bench press, 3 x 12 reps
-fri1_exc9: Cross body hammer curls, 3 x 12 reps
-fri1_exc10: Preacher curls, 2 x 15 reps
-fri1_exc11: Underhand triceps pull-down, 3 x 15 reps
-fri1_exc12: Wrist curls, 2 x 50 reps 
-fri1_exc13: Bench dips, 3 x 6-8 reps
-fri1_exc14: Triceps extension, 2 x 12 reps 
-fri1_exc15: Overhand triceps pull-down, 3 x 15 reps
+fri1_exc1: Incline Dumbbell Curls
+fri1_exc1_sets: 3
+fri1_exc1_reps: 12
+fri1_exc1_rest: 1 min.
+fri1_exc1_notes:
+fri1_exc2: Underhand Dumbbell Curl
+fri1_exc2_sets: 3
+fri1_exc2_reps: 12
+fri1_exc2_rest: 1 min.
+fri1_exc2_notes:
+fri1_exc2_notes: Perform on each arm.
+fri1_exc3: Cable single arm curl
+fri1_exc3_sets: 3
+fri1_exc3_reps: 12
+fri1_exc3_rest: 1 min.
+fri1_exc3_notes:
+fri1_exc4: Barbell Standing Concentration Curl
+fri1_exc4_sets: 3
+fri1_exc4_reps: 12
+fri1_exc4_rest: 1 min.
+fri1_exc4_notes:
+fri1_exc5: Underhand Biceps Curl
+fri1_exc5_sets: 3
+fri1_exc5_reps: 12
+fri1_exc5_rest: 1 min.
+fri1_exc5_notes:
+fri1_exc6: Dumbbell Curls + Hammer Curls
+fri1_exc6_sets: 3
+fri1_exc6_reps: 12
+fri1_exc6_rest: 1 min.
+fri1_exc6_notes: 6 of each type.
+fri1_exc7: Ez-bar Seated Curls
+fri1_exc7_sets: 3
+fri1_exc7_reps: 12
+fri1_exc7_rest: 1 min.
+fri1_exc7_notes:
+fri1_exc8: Close Grip Barbell Bench Press
+fri1_exc8_sets: 3
+fri1_exc8_reps: 12
+fri1_exc8_rest: 1 min.
+fri1_exc8_notes:
+fri1_exc9: Cross Body Hammer Curls
+fri1_exc9_sets: 3
+fri1_exc9_reps: 12
+fri1_exc9_rest: 1 min.
+fri1_exc9_notes:
+fri1_exc10: Preacher Curls
+fri1_exc10_sets: 2
+fri1_exc10_reps: 15
+fri1_exc10_rest: 1 min.
+fri1_exc10_notes:
+fri1_exc11: Underhand Triceps Pull-down
+fri1_exc11_sets: 3
+fri1_exc11_reps: 15
+fri1_exc11_rest: 1 min.
+fri1_exc11_notes:
+fri1_exc12: Wrist Curls
+fri1_exc12_sets: 2
+fri1_exc12_reps: 50
+fri1_exc12_rest: 1 min.
+fri1_exc12_notes:
+fri1_exc13: Bench Dips
+fri1_exc13_sets: 3
+fri1_exc13_reps: 6-8
+fri1_exc13_rest: 1 min.
+fri1_exc13_notes:
+fri1_exc14: Triceps Extension
+fri1_exc14_sets: 2
+fri1_exc14_reps: 12
+fri1_exc14_rest: 1 min.
+fri1_exc14_notes:
+fri1_exc15: Overhand Triceps Pull-down
+fri1_exc15_sets: 3
+fri1_exc15_reps: 15
+fri1_exc15_rest: 1 min.
+fri1_exc15_notes:
 day6_num: Day 6 -
 day6: Saturday (REST)
 day7_num: Day 7 -
