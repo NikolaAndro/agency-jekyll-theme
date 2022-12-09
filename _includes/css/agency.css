@@ -8,8 +8,8 @@
     color: #fec503; 
     font-weight: bold;
 }
-#exerciseTable tr:nth-child(even) {
-         background-color: #dcdcdc;
+#exerciseTable tr:nth-child(odd) {
+         background-color: #f4f0ec;
        }
 #exerciseTable {
     width: 100%;
