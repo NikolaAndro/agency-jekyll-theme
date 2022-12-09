@@ -41,9 +41,13 @@
 #exerciseTable tr:nth-child(2) td {
     padding-top: 15px;
 }
-#exerciseTable th:first-child, #exerciseTable td:first-child {
+#exerciseTable th:first-child {
     text-align: left;
     padding-left: 20px;
+}
+#exerciseTable td:first-child {
+    text-align: left;
+    padding-left: 2px;
 }
 #exerciseTable  td {
     padding: 7px 0;
