@@ -329,15 +329,15 @@ sat1_exc4_reps: 20
 sat1_exc4_rest: NO REST
 sat1_exc4_notes: Feet high and wide. Superset with the next exercise.
 sat1_exc5: Dumbbell Walking Lunge
-sat1_exc10_sets: 5
-sat1_exc10_reps: 20
-sat1_exc10_rest: 1 min.
-sat1_exc10_notes: Back to leg press.
+sat1_exc5_sets: 5
+sat1_exc5_reps: 20
+sat1_exc5_rest: 1 min.
+sat1_exc5_notes: Back to leg press.
 sat1_exc6: Leg Curl 
-sat1_exc10_sets: 6
-sat1_exc10_reps: 12-15
-sat1_exc10_rest: 1 min.
-sat1_exc10_notes: Add 5 partial reps after reaching failure after each set.
+sat1_exc6_sets: 6
+sat1_exc6_reps: 12-15
+sat1_exc6_rest: 1 min.
+sat1_exc6_notes: Add 5 partial reps after reaching failure after each set.
 day7_num: Day 7 -
 day7: Sunday
 sun1_exc1: REST
