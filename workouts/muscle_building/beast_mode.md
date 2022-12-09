@@ -250,22 +250,90 @@ th1_exc16_notes: 3 sets for left side, right side, and center
 day5_num: Day 5 -
 day5: Friday (Legs & Abs)
 fri1_exc1: Treadmill Walking 1 x 10 min.
-fri1_exc2: Lying cross-over lower back stretch, 1 x 12
-fri1_exc3: Inchworm (suicase walk), 1 x 6
-fri1_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
-fri1_exc5: Leg extension, 2 x 12 (moderate strain)
-fri1_exc6: Leg extension, 1 x 12 heavy to failure + 2-3 reps with spotter help
-fri1_exc7: Leg press, 2 x 12 (moderate strain)
-fri1_exc8: Leg press, 1 x 12 heavy to failure + 2-3 reps with spotter help
-fri1_exc9: Hack Squat, 2 x 12 (moderate strain)
-fri1_exc10: Hack Squat, 1 x 12 heavy to failure + 2-3 reps with spotter help
-fri1_exc11: Seated Leg curl, 2 x 12 (moderate strain)
-fri1_exc12: Seated Leg curl s, 1 x 12 heavy to failure + 2-3 reps with spotter help
-fri1_exc13: Barbell stiff-legged deadlift, 2 x 12 (moderate strain)
-fri1_exc14: Barbell stiff-legged deadlift, 1 x 12 heavy to failure + 2-3 reps with spotter help
-fri1_exc15: Leg press calf raise, 1 moderate set + 1 set to failure + 15 sec. rest + to failure again 
-fri1_exc16: Seated Calf Raise, 1 x moderate + 1 x to failure
-fri1_exc17: Bodyweight abs of your choice, 250 reps 
+fri1_exc1_sets: 1
+fri1_exc1_reps: 10 min.
+fri1_exc1_rest: 
+fri1_exc1_notes:
+fri1_exc2: Lying Cross-over Lower Back Stretch
+fri1_exc2_sets: 1
+fri1_exc2_reps: 12
+fri1_exc2_rest: 
+fri1_exc2_notes:
+fri1_exc3: Inchworm (Suitcase Walk)
+fri1_exc3_sets: 1
+fri1_exc3_reps: 12
+fri1_exc3_rest: 
+fri1_exc3_notes:
+fri1_exc4: Standing Hamstring Stretch (Pick Raspberries)
+fri1_exc4_sets: 1
+fri1_exc4_reps: 12
+fri1_exc4_rest: 
+fri1_exc4_notes:
+fri1_exc5: Leg Extension
+fri1_exc5_sets: 2
+fri1_exc5_reps: 12
+fri1_exc5_rest: 
+fri1_exc5_notes: 1st light, 2nd moderate.
+fri1_exc6: Leg Extension
+fri1_exc6_sets: 1
+fri1_exc6_reps: 12
+fri1_exc6_rest: 
+fri1_exc6_notes: Heavy and to failure + 2-3 reps with spotter.
+fri1_exc7: Leg Press
+fri1_exc7_sets: 2
+fri1_exc7_reps: 12
+fri1_exc7_rest: 
+fri1_exc7_notes: 1st light, 2nd moderate.
+fri1_exc8: Leg Press
+fri1_exc8_sets: 1
+fri1_exc8_reps: 12
+fri1_exc8_rest: 
+fri1_exc8_notes: Heavy and to failure + 2-3 reps with spotter.
+fri1_exc9: Hack Squat
+fri1_exc9_sets: 2
+fri1_exc9_reps: 12
+fri1_exc9_rest: 
+fri1_exc9_notes: Moderate strain.
+fri1_exc10: Hack Squat
+fri1_exc10_sets: 1
+fri1_exc10_reps: 12
+fri1_exc10_rest: 
+fri1_exc10_notes: Heavy and to failure + 2-3 reps with spotter.
+fri1_exc11: Seated Leg Curl
+fri1_exc11_sets: 2
+fri1_exc11_reps: 12
+fri1_exc11_rest: 
+fri1_exc11_notes: Moderate strain.
+fri1_exc12: Seated Leg Curls
+fri1_exc12_sets: 1
+fri1_exc12_reps: 12
+fri1_exc12_rest: 
+fri1_exc12_notes: Heavy and to failure + 2-3 reps with spotter.
+fri1_exc13: Barbell Stiff-legged Deadlift
+fri1_exc13_sets: 2
+fri1_exc13_reps: 12
+fri1_exc13_rest: 
+fri1_exc13_notes: Moderate strain.
+fri1_exc14: Barbell Stiff-legged Deadlift
+fri1_exc14_sets: 1
+fri1_exc14_reps: 12
+fri1_exc14_rest: 
+fri1_exc14_notes: Heavy and to failure + 2-3 reps with spotter.
+fri1_exc15: Leg Press Calf Raise
+fri1_exc15_sets: 2
+fri1_exc15_reps: 12
+fri1_exc15_rest: 
+fri1_exc15_notes: 1st set moderate, 2nd to failure + 15 sec. rest + to failure again. 
+fri1_exc16: Seated Calf Raise
+fri1_exc16_sets: 2
+fri1_exc16_reps: 8-12
+fri1_exc16_rest: 
+fri1_exc16_notes: 4 sec. up, 4 sec. down. Inside, Straight, Out.
+fri1_exc17: Bodyweight Abs
+fri1_exc17_sets: 5
+fri1_exc17_reps: 50
+fri1_exc17_rest: 
+fri1_exc17_notes: Abs of your choice.
 day6_num: Day 6 -
 day6: Saturday (REST)
 sat1_exc1: 
