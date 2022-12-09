@@ -5,10 +5,18 @@
  */
 
 #hyperlinksExercise{
+    color: #1E90FF; 
+    font-weight: bold;
+    text-decoration: underline
+}
+#hyperlinksExercise.ex1:hover{
     color: #fec503; 
     font-weight: bold;
+    text-decoration: underline
 }
-#exerciseTable tr:nth-child(even) {
+
+
+#exerciseTable tr:nth-child(odd) {
          background-color: #e5e5e5;
        }
 #exerciseTable {
