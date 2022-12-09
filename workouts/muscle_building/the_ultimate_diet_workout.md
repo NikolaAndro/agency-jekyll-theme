@@ -267,17 +267,61 @@ day5_num: Day 5 -
 day5: Friday (Rest)
 day6_num: Day 6 - 
 day6: Saturday (Power) - <i> 2-4 seconds down, lift up as quickly as possible
-sat1_exc1: Barbell Back Squat 3 x 3-6, rest 2 min. 
-sat1_exc2: Calf Raise 3 x 3-6, rest 2 min. 
-sat1_exc3: Bench Press 3 x 3-6, rest 2 min. 
-sat1_exc4: Bent over row 3 x 3-6, rest 2 min. 
-sat1_exc5: Incline Bench 3 x 3-6, rest 2 min. 
-sat1_exc6: Pull up 3 x 3-6, rest 2 min. 
-sat1_exc7: Leg Press 3 x 3-6, rest 2 min. 
-sat1_exc8: Shoulder Press 3 x 3-6, rest 2 min. 
-sat1_exc9: Rear lateral 3 x 3-6, rest 2 min. 
-sat1_exc10: Barbell Curl 2 x 3-6, rest 2 min. 
-sat1_exc11: Close grip bench 2 x 3-6
+sat1_exc1: Barbell Back Squat
+sat1_exc1_sets: 3
+sat1_exc1_reps: 3-6
+sat1_exc1_rest: 2 min.
+sat1_exc1_notes:
+sat1_exc2: Calf Raise
+sat1_exc2_sets: 3
+sat1_exc2_reps: 3-6
+sat1_exc2_rest: 2 min.
+sat1_exc2_notes:
+sat1_exc3: Bench Press
+sat1_exc3_sets: 3
+sat1_exc3_reps: 3-6
+sat1_exc3_rest: 2 min.
+sat1_exc3_notes:
+sat1_exc4: Bent Over Row
+sat1_exc4_sets: 3
+sat1_exc4_reps: 3-6
+sat1_exc4_rest: 2 min.
+sat1_exc4_notes:
+sat1_exc5: Incline Bench 
+sat1_exc5_sets: 3
+sat1_exc5_reps: 3-6
+sat1_exc5_rest: 2 min.
+sat1_exc5_notes:
+sat1_exc6: Pull-up
+sat1_exc6_sets: 3
+sat1_exc6_reps: 3-6
+sat1_exc6_rest: 2 min.
+sat1_exc6_notes:
+sat1_exc7: Leg Press
+sat1_exc7_sets: 3
+sat1_exc7_reps: 3-6
+sat1_exc7_rest: 2 min.
+sat1_exc7_notes:
+sat1_exc8: Shoulder Press
+sat1_exc8_sets: 3
+sat1_exc8_reps: 3-6
+sat1_exc8_rest: 2 min.
+sat1_exc8_notes:
+sat1_exc9: Rear Lateral Raise
+sat1_exc9_sets: 3
+sat1_exc9_reps: 3-6
+sat1_exc9_rest: 2 min.
+sat1_exc9_notes:
+sat1_exc10: Barbell Curl
+sat1_exc10_sets: 3
+sat1_exc10_reps: 3-6
+sat1_exc10_rest: 2 min.
+sat1_exc10_notes:
+sat1_exc11: Close Grip Bench
+sat1_exc11_sets: 3
+sat1_exc11_reps: 3-6
+sat1_exc11_rest: 2 min.
+sat1_exc11_notes:
 day7_num: Day 7 -
 day7: Sunday
 sun1_exc1: REST
