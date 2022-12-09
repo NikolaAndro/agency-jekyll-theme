@@ -47,7 +47,11 @@
 }
 #exerciseTable td:first-child {
     text-align: left;
-    padding-left: 2px;
+    padding-left: 10px;
+}
+#exerciseTable td:last-child {
+    text-align: center;
+    padding-right: 10px;
 }
 #exerciseTable  td {
     padding: 7px 0;
