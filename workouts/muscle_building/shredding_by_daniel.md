@@ -277,36 +277,148 @@ th1_exc11:
 th1_exc12: 
 day5_num: Day 5 -
 day5: Friday (Legs & Shoulder)
-fri1_exc1: Squat (shoulderwidth) - 4 x 12
-fri1_exc2: Landmine RDL - 4 x 12
-fri1_exc3: Hack Squat - 4 x 12
-fri1_exc4: Leg Extensions - 4 x 12
-fri1_exc5: Hanstrinig Curls - 4 x 12
-fri1_exc6: Sumo squat (hills on the plate, dumbbell in hands) - 4 x 12
-fri1_exc7: Calf raises until you die
-fri1_exc8: Shoulder Lateral Raise 4 x 12 (increase weight each set)
-fri1_exc9:  Hip - bring to front Raise - 4 x 12
-fri1_exc10:  Dumbbell in the Elbow lateral raises - 4 x 12 (increase weight each set)
-fri1_exc11: Dumbbell in the Elbow Twists - 4 x 12 (start where you finished last exercise and decrease weight each set)
-fri1_exc12: Cable Face pulls - 4 x 12
-fri1_exc13: Cable front raises - 4 x 12
-fri1_exc14: Machine rear delt fly - 4 x 12
+fri1_exc1: Squat
+fri1_exc1_sets: 4
+fri1_exc1_reps: 12
+fri1_exc1_rest: 1 min.
+fri1_exc1_notes: Shoulder width.
+fri1_exc2: Landmine RDL
+fri1_exc2_sets: 4
+fri1_exc2_reps: 12
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes:
+fri1_exc3: Hack Squat
+fri1_exc3_sets: 4
+fri1_exc3_reps: 12
+fri1_exc3_rest: 45 sec.
+fri1_exc3_notes:
+fri1_exc4: Leg Extensions
+fri1_exc4_sets: 4
+fri1_exc4_reps: 12
+fri1_exc4_rest: 45 sec.
+fri1_exc4_notes:
+fri1_exc5: Hanstrinig Curls
+fri1_exc5_sets: 4
+fri1_exc5_reps: 12
+fri1_exc5_rest: 45 sec.
+fri1_exc5_notes:
+fri1_exc6: Goblet Squat
+fri1_exc2_sets: 4
+fri1_exc2_reps: 12
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes:
+fri1_exc7: Calf Raises
+fri1_exc2_sets: 4
+fri1_exc2_reps: 12
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes:
+fri1_exc8: Shoulder Lateral Raise
+fri1_exc2_sets: 4
+fri1_exc2_reps: 12
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes:
+fri1_exc9: Around The World Shoulder Raise
+fri1_exc2_sets: 4
+fri1_exc2_reps: 12
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes:
+fri1_exc10: Lateral Raise Machine
+fri1_exc2_sets: 4
+fri1_exc2_reps: 12
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes: Can substitute with dumbbells in elbows.
+fri1_exc11: Dumbbells In Elbows Twists
+fri1_exc2_sets: 4
+fri1_exc2_reps: 12
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes: Start where you finished last exercise and decrease weight each set.
+fri1_exc12: Cable Face Pulls
+fri1_exc2_sets: 4
+fri1_exc2_reps: 12
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes:
+fri1_exc13: Cable Front Raises
+fri1_exc2_sets: 4
+fri1_exc2_reps: 12
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes:
+fri1_exc14: Machine Rear Delt Fly
+fri1_exc2_sets: 4
+fri1_exc2_reps: 12
+fri1_exc2_rest: 45 sec.
+fri1_exc2_notes:
 day6_num: Day 6 -
 day6: Saturday (Chest & Triceps)
-sat1_exc1: Push ups - 20/20/20 (incline/regular/decline)
-sat1_exc2: Bench press - 4 x 12
+sat1_exc1: Push-ups
+sat1_exc1_sets: 3
+sat1_exc1_reps: 20/20/20
+sat1_exc1_rest: 1 min.
+sat1_exc1_notes: Incline/regular/decline
+sat1_exc2: Bench Press
+sat1_exc2_sets: 4
+sat1_exc2_reps: 12
+sat1_exc2_rest: 1 min.
+sat1_exc2_notes:
 sat1_exc3: Dumbbell bench press - 4 x 12
-sat1_exc4: Dumbbell pull-over with 7 pupms - 4 x 12
-sat1_exc5: Cable flies (middle) - 4 x 12
-sat1_exc6: Cable flies (high-to-low) - 4 x 12
-sat1_exc7: Cable flies (low-to-high) - 4 x 12
-sat1_exc8: Chest press machine - 4 x 12 
-sat1_exc9: EZ-bar overhand push down - 4 x 12
-sat1_exc10: EZ-bar underhand push down - 4 x 12
-sat1_exc11: Rope pull-down - 4 x 12
-sat1_exc12: V-bar pull-down 4 x 12
-sat1_exc13: Cable rope overhead push 4 x 12
-sat1_exc14: Triceps machine press down - 4 x 15
+sat1_exc3_sets: 4
+sat1_exc3_reps: 12
+sat1_exc3_rest: 1 min.
+sat1_exc3_notes:
+sat1_exc4: Dumbbell Pull-over 
+sat1_exc4_sets: 4
+sat1_exc4_reps: 12
+sat1_exc4_rest: 1 min.
+sat1_exc4_notes: Add 7 chest presses at the end of each set.
+sat1_exc5: Cable Flies
+sat1_exc5_sets: 4
+sat1_exc5_reps: 12
+sat1_exc5_rest: 45 sec.
+sat1_exc5_notes: Chest height.
+sat1_exc6: High To Low Cable Flies
+sat1_exc6_sets: 4
+sat1_exc6_reps: 12
+sat1_exc6_rest: 1 min.
+sat1_exc6_notes:
+sat1_exc7: Low To High Cable Flies
+sat1_exc7_sets: 4
+sat1_exc7_reps: 12
+sat1_exc7_rest: 1 min.
+sat1_exc7_notes:
+sat1_exc8: Chest Press Machine
+sat1_exc8_sets: 4
+sat1_exc8_reps: 12
+sat1_exc8_rest: 1 min.
+sat1_exc8_notes:
+sat1_exc9: EZ-bar Overhand Push-down
+sat1_exc9_sets: 4
+sat1_exc9_reps: 12
+sat1_exc9_rest: 1 min.
+sat1_exc9_notes:
+sat1_exc10: EZ-bar Underhand Push-down
+sat1_exc10_sets: 4
+sat1_exc10_reps: 12
+sat1_exc10_rest: 1 min.
+sat1_exc10_notes:
+sat1_exc11: Rope Pull-down
+sat1_exc11_sets: 4
+sat1_exc11_reps: 12
+sat1_exc11_rest: 1 min.
+sat1_exc11_notes:
+sat1_exc12: V-bar Pull-down
+sat1_exc12_sets: 4
+sat1_exc12_reps: 12
+sat1_exc12_rest: 1 min.
+sat1_exc12_notes:
+sat1_exc13: Cable Rope Overhead Push
+sat1_exc13_sets: 4
+sat1_exc13_reps: 12
+sat1_exc13_rest: 1 min.
+sat1_exc13_notes:
+sat1_exc14: Triceps Machine Press-down
+sat1_exc14_sets: 4
+sat1_exc14_reps: 15
+sat1_exc14_rest: 1 min.
+sat1_exc14_notes:
 day7_num: Day 7 -
 day7: Sunday
 week2_num: Week 2
