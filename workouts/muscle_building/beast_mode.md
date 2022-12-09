@@ -723,19 +723,85 @@ wed5_exc11:
 day32_num: Day 32 -
 day32: Thursday (Shoulders & Abs)
 th5_exc1: Treadmill Walking 1 x 10 min.
-th5_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th5_exc3: Dumbbell lateral raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th5_exc4: Single-arm cable lateral raise, 1 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th5_exc5: Seated rear delt fly, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th5_exc6: Cable rope push-down, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th5_exc7: Skullcrushers, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th5_exc8: Seated triceps press, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th5_exc9: Straight, left side, right side weighted crunces, 3 x 20 each
-th5_exc10:
-th5_exc12:
-th5_exc13:
-th5_exc14:
-th5_exc15:
+th5_exc1_sets: 1
+th5_exc1_reps: 10
+th5_exc1_rest: 
+th5_exc1_notes:
+th5_exc2: Seated Dumbbell Shoulder Press
+th5_exc2_sets: 2
+th5_exc2_reps: 10-12
+th5_exc2_rest: 1 min.
+th5_exc2_notes: Moderate strain.
+th5_exc3: Seated Dumbbell Shoulder Press
+th5_exc3_sets: 1
+th5_exc3_reps: 6-8
+th5_exc3_rest: 90 sec.
+th5_exc3_notes: Heavy to failure with spotter on the last 2-3 reps.
+th5_exc4: Dumbbell Lateral Raise
+th5_exc4_sets: 2
+th5_exc4_reps: 10-12
+th5_exc4_rest: 1 min.
+th5_exc4_notes: Moderate strain.
+th5_exc5: Dumbbell Lateral Raise
+th5_exc5_sets: 1
+th5_exc5_reps: 8-10
+th5_exc5_rest: 90 sec.
+th5_exc5_notes: Heavy to failure with spotter on the last 2-3 reps.
+th5_exc6: Single-arm Cable Lateral Raise
+th5_exc6_sets: 2
+th5_exc6_reps: 10-12
+th5_exc6_rest: 1 min.
+th5_exc6_notes: Moderate strain.
+th5_exc7: Single-arm Cable Lateral Raise
+th5_exc7_sets: 1
+th5_exc7_reps: 8-10
+th5_exc7_rest: 90 sec.
+th5_exc7_notes: Heavy to failure with spotter on the last 2-3 reps.
+th5_exc8: Seated Rear Delt Fly
+th5_exc8_sets: 2
+th5_exc8_reps: 10-12
+th5_exc8_rest: 1 min.
+th5_exc8_notes: Moderate strain.
+th5_exc9: Seated Rear Delt Fly
+th5_exc9_sets: 1
+th5_exc9_reps: 8-10
+th5_exc9_rest: 90 sec.
+th5_exc9_notes: Heavy to failure with forsed last 2-3 reps.
+th5_exc10: Cable Rope Push-down
+th5_exc10_sets: 2
+th5_exc10_reps: 10-12
+th5_exc10_rest: 1 min.
+th5_exc10_notes: Moderate strain.
+th5_exc11: Cable Rope Push-down
+th5_exc11_sets: 1
+th5_exc11_reps: 8-10
+th5_exc11_rest: 90 sec.
+th5_exc11_notes: Heavy to failure with spotter on the last 2-3 reps.
+th5_exc12: Skullcrushers
+th5_exc12_sets: 2
+th5_exc12_reps: 10-12
+th5_exc12_rest: 1 min.
+th5_exc12_notes: Moderate strain.
+th5_exc13: Skullcrushers
+th5_exc13_sets: 1
+th5_exc13_reps: 8-10
+th5_exc13_rest: 90 sec.
+th5_exc13_notes: Heavy to failure with spotter on the last 2-3 reps.
+th5_exc14: Seated Triceps Press
+th5_exc14_sets: 2
+th5_exc14_reps: 10-12
+th5_exc14_rest: 1 min.
+th5_exc14_notes: Moderate strain.
+th5_exc15: Seated Triceps Press
+th5_exc15_sets: 1
+th5_exc15_reps: 8-10
+th5_exc15_rest: 90 sec.
+th5_exc15_notes: Heavy to failure with spotter on the last 2-3 reps.
+th5_exc16: Weighted Crunces
+th5_exc16_sets: 3
+th5_exc16_reps: 20/20/20
+th5_exc16_rest: 1 min.
+th5_exc16_notes: Straight, Left Side, Right Side 
 day33_num: Day 33 -
 day33: Friday (Arms & Abs)
 fri5_exc1: Treadmill Walking 1 x 10 min.
