@@ -307,7 +307,7 @@ fri1_exc13_reps: 12
 fri1_exc13_rest: 1 min.
 fri1_exc13_notes: Back to V-bar push-down.
 day6_num: Day 6 -
-day6: Saturday (legs - hamstrings)
+day6: Saturday (Legs - Hamstrings)
 sat1_exc1: Lying Leg Curl
 sat1_exc1_sets: 2
 sat1_exc1_reps: 10
