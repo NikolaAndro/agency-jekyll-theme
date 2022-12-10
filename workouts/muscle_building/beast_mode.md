@@ -721,7 +721,7 @@ wed5_exc9:
 wed5_exc10:
 wed5_exc11:
 day32_num: Day 32 -
-day32: Thursday (Shoulders & Abs)
+day32: Thursday (Shoulders, Triceps & Abs)
 th5_exc1: Treadmill Walking 1 x 10 min.
 th5_exc1_sets: 1
 th5_exc1_reps: 10
