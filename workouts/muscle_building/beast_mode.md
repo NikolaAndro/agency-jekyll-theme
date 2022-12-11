@@ -347,20 +347,131 @@ day7: Sunday (REST)
 sun1_exc1: 
 day8_num: Day 8 -
 day8: Monday (Chest & Biceps & Abs)
-mon2_exc1: Treadmill Walking 1 x 10 min.
-mon2_exc2: Rotetor cuff warm-upp, 2 x 12 reps.
-mon2_exc3: Decline, Flat, and Incline push ups 20 each, 2 sets
-mon2_exc4: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
-mon2_exc5: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
-mon2_exc6: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-mon2_exc7: Low to High cable machine, 3 x 8-12
-mon2_exc8: Chest height cable machine, 3 x 8-12
-mon2_exc9: High to Low cable machine, 3 x 8-12
-mon2_exc10: Concentration curl, 3 x 10-12 (moderate) + 1 x 6-8 to failure
-mon2_exc11: Barbell curl, 3 x 6-8 to failure with spotter on the last 2-3 reps
-mon2_exc12: Hammer curl, 2 x 8-12 + 1 x 6-8 to failure
-mon2_exc13: Decline bench biceps curl, 2 x 8-12 + 1 x 6-8 to failure
-mon2_exc14: Straight, left side, right side weighted crunces, 3 x 20 each
+mon2_exc1: Treadmill Walking
+mon2_exc1_sets: 1
+mon2_exc1_reps: 10
+mon2_exc1_rest: 
+mon2_exc1_notes:
+mon2_exc2: Rotator Cuffs
+mon2_exc2_sets: 2
+mon2_exc2_reps: 12
+mon2_exc2_rest: 
+mon2_exc2_notes: Warm-up.
+mon2_exc3: Decline, Flat, And Incline Push-ups
+mon2_exc3_sets: 2
+mon2_exc3_reps: 20/20/20
+mon2_exc3_rest: 90 sec.
+mon2_exc3_notes: 20 of each kind.
+mon2_exc4: Decline Barbell Bench Press
+mon2_exc4_sets: 2
+mon2_exc4_reps: 10-12
+mon2_exc4_rest: 1 min.
+mon2_exc4_notes: Moderate strain.
+mon2_exc5: Decline Barbell Bench Press
+mon2_exc5_sets: 1
+mon2_exc5_reps: 6-8
+mon2_exc5_rest: 90 sec.
+mon2_exc5_notes: Heavy and to failure + 2-3 reps with spotter.
+mon2_exc6: Incline Dumbbell Bench Press
+mon2_exc6_sets: 2
+mon2_exc6_reps: 10-12
+mon2_exc6_rest: 1 min.
+mon2_exc6_notes: Moderate strain.
+mon2_exc7: Incline Dumbbell Bench Press
+mon2_exc7_sets: 1
+mon2_exc7_reps: 6-8
+mon2_exc7_rest: 90 sec.
+mon2_exc7_notes: Heavy and to failure + 2-3 reps with spotter.
+mon2_exc8: Dumbbell Chest Fly
+mon2_exc8_sets: 2
+mon2_exc8_reps: 12
+mon2_exc8_rest: 1 min.
+mon2_exc8_notes: Moderate strain.
+mon2_exc9: Dumbbell Chest Fly
+mon2_exc9_sets: 1
+mon2_exc9_reps: 6-8
+mon2_exc9_rest: 90 sec.
+mon2_exc9_notes: Heavy and to failure + 2-3 reps with spotter.
+mon2_exc10: Decline Dumbbell Chest Fly
+mon2_exc10_sets: 2
+mon2_exc10_reps: 12
+mon2_exc10_rest: 1 min.
+mon2_exc10_notes: Moderate strain.
+mon2_exc11: Decline Dumbbell Chest Fly
+mon2_exc11_sets: 1
+mon2_exc11_reps: 6-8
+mon2_exc11_rest: 90 sec.
+mon2_exc11_notes: Heavy and to failure + 2-3 reps with spotter.
+mon2_exc12: Low to High Cable Machine
+mon2_exc12_sets: 2
+mon2_exc12_reps: 12
+mon2_exc12_rest: 1 min.
+mon2_exc12_notes: Moderate strain.
+mon2_exc13: Low to High Cable Machine
+mon2_exc13_sets: 1
+mon2_exc13_reps: 6-8
+mon2_exc13_rest: 90 sec.
+mon2_exc13_notes: To failure + 2-3 forced reps.
+mon2_exc14: Chest Height Cable Machine
+mon2_exc14_sets: 2
+mon2_exc14_reps: 12
+mon2_exc14_rest: 1 min.
+mon2_exc14_notes: Moderate strain.
+mon2_exc15: Chest Height Cable Machine
+mon2_exc15_sets: 1
+mon2_exc15_reps: 6-8
+mon2_exc15_rest: 90 sec.
+mon2_exc15_notes: To failure + 2-3 forced reps.
+mon2_exc16: High To Low Cable Machine
+mon2_exc16_sets: 2
+mon2_exc16_reps: 12
+mon2_exc16_rest: 1 min.
+mon2_exc16_notes: Moderate strain.
+mon2_exc17: High To Low Cable Machine
+mon2_exc17_sets: 1
+mon2_exc17_reps: 6-8
+mon2_exc17_rest: 90 sec.
+mon2_exc17_notes: To failure + 2-3 forced reps.
+mon2_exc18: Concentration Curl
+mon2_exc18_sets: 3
+mon2_exc18_reps: 10-12
+mon2_exc18_rest: 1 min.
+mon2_exc18_notes: On each arm. Moderate strain.
+mon2_exc19: Concentration Curl
+mon2_exc19_sets: 1
+mon2_exc19_reps: 6-8
+mon2_exc19_rest: 1 min.
+mon2_exc19_notes: To failure + 2-3 forced reps.
+mon2_exc20: Barbell Curl
+mon2_exc20_sets: 3
+mon2_exc20_reps: 6-8
+mon2_exc20_rest: 90 sec.
+mon2_exc20_notes: To failure + 2- with spotter on the last 2-3 reps.
+mon2_exc21: Hammer Curl
+mon2_exc21_sets: 2
+mon2_exc21_reps: 8-12
+mon2_exc21_rest: 1 min.
+mon2_exc21_notes: Moderate strain.
+mon2_exc22: Hammer Curl
+mon2_exc22_sets: 1
+mon2_exc22_reps: 6-8
+mon2_exc22_rest: 90 sec.
+mon2_exc22_notes: To failure + 2- with spotter on the last 2-3 reps.
+mon2_exc23: Decline Bench Biceps Curl
+mon2_exc23_sets: 2
+mon2_exc23_reps: 8-12
+mon2_exc23_rest: 1 min.
+mon2_exc23_notes: Moderate strain.
+mon2_exc24: Decline Bench Biceps Curl
+mon2_exc24_sets: 1
+mon2_exc24_reps: 6-8
+mon2_exc24_rest: 90 sec.
+mon2_exc24_notes: To failure + 2- with spotter on the last 2-3 reps.
+mon2_exc25: Weighted Crunches
+mon2_exc25_sets: 3
+mon2_exc25_reps: 20/20/20
+mon2_exc25_rest: 1 min.
+mon2_exc25_notes: Straight, left side, right side.
 day9_num: Day 9 -
 day9: Tuesday (Back & Abs)
 tu2_exc1: Treadmill Walking 1 x 10 min.
@@ -532,22 +643,130 @@ sun3_exc10:
 sun3_exc11: 
 day22_num: Day 22 -
 day22: Monday (Chest & Abs)
-mon4_exc1: Treadmill Walking 1 x 10 min.
-mon4_exc2: Rotetor cuff warm-upp, 2 x 12 reps.
-mon4_exc3: Decline, Flat, and Incline push ups 20 each, 2 sets
-mon4_exc4: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
-mon4_exc5: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
-mon4_exc6: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-mon4_exc7: Low to High cable machine, 3 x 8-12
-mon4_exc8: Chest height cable machine, 3 x 8-12
-mon4_exc9: High to Low cable machine, 3 x 8-12
-mon4_exc10: Concentration curl, 3 x 10-12 (moderate) + 1 x 6-8 to failure
-mon4_exc11: Barbell curl, 3 x 6-8 to failure with spotter on the last 2-3 reps
-mon4_exc12: Hammer curl, 2 x 8-12 + 1 x 6-8 to failure
-mon4_exc13: Decline bench biceps curl, 2 x 8-12 + 1 x 6-8 to failure
-mon4_exc14: Straight, left side, right side weighted crunces, 3 x 20 each
-mon4_exc15: 
-mon4_exc16:
+mon4_exc1_sets: 1
+mon4_exc1_reps: 10
+mon4_exc1_rest: 
+mon4_exc1_notes:
+mon4_exc2: Rotator Cuffs
+mon4_exc2_sets: 2
+mon4_exc2_reps: 12
+mon4_exc2_rest: 
+mon4_exc2_notes: Warm-up.
+mon4_exc3: Decline, Flat, And Incline Push-ups
+mon4_exc3_sets: 2
+mon4_exc3_reps: 20/20/20
+mon4_exc3_rest: 90 sec.
+mon4_exc3_notes: 20 of each kind.
+mon4_exc4: Decline Barbell Bench Press
+mon4_exc4_sets: 2
+mon4_exc4_reps: 10-12
+mon4_exc4_rest: 1 min.
+mon4_exc4_notes: Moderate strain.
+mon4_exc5: Decline Barbell Bench Press
+mon4_exc5_sets: 1
+mon4_exc5_reps: 6-8
+mon4_exc5_rest: 90 sec.
+mon4_exc5_notes: Heavy and to failure + 2-3 reps with spotter.
+mon4_exc6: Incline Dumbbell Bench Press
+mon4_exc6_sets: 2
+mon4_exc6_reps: 10-12
+mon4_exc6_rest: 1 min.
+mon4_exc6_notes: Moderate strain.
+mon4_exc7: Incline Dumbbell Bench Press
+mon4_exc7_sets: 1
+mon4_exc7_reps: 6-8
+mon4_exc7_rest: 90 sec.
+mon4_exc7_notes: Heavy and to failure + 2-3 reps with spotter.
+mon4_exc8: Dumbbell Chest Fly
+mon4_exc8_sets: 2
+mon4_exc8_reps: 12
+mon4_exc8_rest: 1 min.
+mon4_exc8_notes: Moderate strain.
+mon4_exc9: Dumbbell Chest Fly
+mon4_exc9_sets: 1
+mon4_exc9_reps: 6-8
+mon4_exc9_rest: 90 sec.
+mon4_exc9_notes: Heavy and to failure + 2-3 reps with spotter.
+mon4_exc10: Decline Dumbbell Chest Fly
+mon4_exc10_sets: 2
+mon4_exc10_reps: 12
+mon4_exc10_rest: 1 min.
+mon4_exc10_notes: Moderate strain.
+mon4_exc11: Decline Dumbbell Chest Fly
+mon4_exc11_sets: 1
+mon4_exc11_reps: 6-8
+mon4_exc11_rest: 90 sec.
+mon4_exc11_notes: Heavy and to failure + 2-3 reps with spotter.
+mon4_exc12: Low to High Cable Machine
+mon4_exc12_sets: 2
+mon4_exc12_reps: 12
+mon4_exc12_rest: 1 min.
+mon4_exc12_notes: Moderate strain.
+mon4_exc13: Low to High Cable Machine
+mon4_exc13_sets: 1
+mon4_exc13_reps: 6-8
+mon4_exc13_rest: 90 sec.
+mon4_exc13_notes: To failure + 2-3 forced reps.
+mon4_exc14: Chest Height Cable Machine
+mon4_exc14_sets: 2
+mon4_exc14_reps: 12
+mon4_exc14_rest: 1 min.
+mon4_exc14_notes: Moderate strain.
+mon4_exc15: Chest Height Cable Machine
+mon4_exc15_sets: 1
+mon4_exc15_reps: 6-8
+mon4_exc15_rest: 90 sec.
+mon4_exc15_notes: To failure + 2-3 forced reps.
+mon4_exc16: High To Low Cable Machine
+mon4_exc16_sets: 2
+mon4_exc16_reps: 12
+mon4_exc16_rest: 1 min.
+mon4_exc16_notes: Moderate strain.
+mon4_exc17: High To Low Cable Machine
+mon4_exc17_sets: 1
+mon4_exc17_reps: 6-8
+mon4_exc17_rest: 90 sec.
+mon4_exc17_notes: To failure + 2-3 forced reps.
+mon4_exc18: Concentration Curl
+mon4_exc18_sets: 3
+mon4_exc18_reps: 10-12
+mon4_exc18_rest: 1 min.
+mon4_exc18_notes: On each arm. Moderate strain.
+mon4_exc19: Concentration Curl
+mon4_exc19_sets: 1
+mon4_exc19_reps: 6-8
+mon4_exc19_rest: 1 min.
+mon4_exc19_notes: To failure + 2-3 forced reps.
+mon4_exc20: Barbell Curl
+mon4_exc20_sets: 3
+mon4_exc20_reps: 6-8
+mon4_exc20_rest: 90 sec.
+mon4_exc20_notes: To failure + 2- with spotter on the last 2-3 reps.
+mon4_exc21: Hammer Curl
+mon4_exc21_sets: 2
+mon4_exc21_reps: 8-12
+mon4_exc21_rest: 1 min.
+mon4_exc21_notes: Moderate strain.
+mon4_exc22: Hammer Curl
+mon4_exc22_sets: 1
+mon4_exc22_reps: 6-8
+mon4_exc22_rest: 90 sec.
+mon4_exc22_notes: To failure + 2- with spotter on the last 2-3 reps.
+mon4_exc23: Decline Bench Biceps Curl
+mon4_exc23_sets: 2
+mon4_exc23_reps: 8-12
+mon4_exc23_rest: 1 min.
+mon4_exc23_notes: Moderate strain.
+mon4_exc24: Decline Bench Biceps Curl
+mon4_exc24_sets: 1
+mon4_exc24_reps: 6-8
+mon4_exc24_rest: 90 sec.
+mon4_exc24_notes: To failure + 2- with spotter on the last 2-3 reps.
+mon4_exc25: Weighted Crunches
+mon4_exc25_sets: 3
+mon4_exc25_reps: 20/20/20
+mon4_exc25_rest: 1 min.
+mon4_exc25_notes: Straight, left side, right side.
 day23_num: Day 23 -
 day23: Tuesday (Back & Abs)
 tu4_exc1: Treadmill Walking 1 x 10 min.
@@ -803,24 +1022,94 @@ th5_exc16_reps: 20/20/20
 th5_exc16_rest: 1 min.
 th5_exc16_notes: Straight, Left Side, Right Side 
 day33_num: Day 33 -
-day33: Friday (Arms & Abs)
+day33: Friday (Legs & Abs)
 fri5_exc1: Treadmill Walking 1 x 10 min.
-fri5_exc2: Lying cross-over lower back stretch, 1 x 12
-fri5_exc3: Inchworm (suicase walk), 1 x 6
-fri5_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
-fri5_exc5: Leg extension, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri5_exc6: Leg press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri5_exc7: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri5_exc8: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri5_exc9: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
-fri5_exc10: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
-fri5_exc11: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
-fri5_exc12: Bodyweight abs of your choice, 250 reps 
-fri5_exc13:
-fri5_exc14:
-fri5_exc15:
+fri5_exc1_sets: 1
+fri5_exc1_reps: 10 min.
+fri5_exc1_rest: 
+fri5_exc1_notes:
+fri5_exc2: Lying Cross-over Lower Back Stretch
+fri5_exc2_sets: 1
+fri5_exc2_reps: 12
+fri5_exc2_rest: 
+fri5_exc2_notes:
+fri5_exc3: Inchworm (Suitcase Walk)
+fri5_exc3_sets: 1
+fri5_exc3_reps: 12
+fri5_exc3_rest: 
+fri5_exc3_notes:
+fri5_exc4: Standing Hamstring Stretch (Pick Raspberries)
+fri5_exc4_sets: 1
+fri5_exc4_reps: 12
+fri5_exc4_rest: 
+fri5_exc4_notes:
+fri5_exc5: Leg Extension
+fri5_exc5_sets: 2
+fri5_exc5_reps: 12
+fri5_exc5_rest: 
+fri5_exc5_notes: 1st light, 2nd moderate.
+fri5_exc6: Leg Extension
+fri5_exc6_sets: 1
+fri5_exc6_reps: 12
+fri5_exc6_rest: 
+fri5_exc6_notes: Heavy and to failure + 2-3 reps with spotter.
+fri5_exc7: Leg Press
+fri5_exc7_sets: 2
+fri5_exc7_reps: 12
+fri5_exc7_rest: 
+fri5_exc7_notes: 1st light, 2nd moderate.
+fri5_exc8: Leg Press
+fri5_exc8_sets: 1
+fri5_exc8_reps: 12
+fri5_exc8_rest: 
+fri5_exc8_notes: Heavy and to failure + 2-3 reps with spotter.
+fri5_exc9: Hack Squat
+fri5_exc9_sets: 2
+fri5_exc9_reps: 12
+fri5_exc9_rest: 
+fri5_exc9_notes: Moderate strain.
+fri5_exc10: Hack Squat
+fri5_exc10_sets: 1
+fri5_exc10_reps: 12
+fri5_exc10_rest: 
+fri5_exc10_notes: Heavy and to failure + 2-3 reps with spotter.
+fri5_exc11: Seated Leg Curl
+fri5_exc11_sets: 2
+fri5_exc11_reps: 12
+fri5_exc11_rest: 
+fri5_exc11_notes: Moderate strain.
+fri5_exc12: Seated Leg Curls
+fri5_exc12_sets: 1
+fri5_exc12_reps: 12
+fri5_exc12_rest: 
+fri5_exc12_notes: Heavy and to failure + 2-3 reps with spotter.
+fri5_exc13: Barbell Stiff-legged Deadlift
+fri5_exc13_sets: 2
+fri5_exc13_reps: 12
+fri5_exc13_rest: 
+fri5_exc13_notes: Moderate strain.
+fri5_exc14: Barbell Stiff-legged Deadlift
+fri5_exc14_sets: 1
+fri5_exc14_reps: 12
+fri5_exc14_rest: 
+fri5_exc14_notes: Heavy and to failure + 2-3 reps with spotter.
+fri5_exc15: Leg Press Calf Raise
+fri5_exc15_sets: 2
+fri5_exc15_reps: 12
+fri5_exc15_rest: 
+fri5_exc15_notes: 1st set moderate, 2nd to failure + 15 sec. rest + to failure again. 
+fri5_exc16: Machine Seated Calf Raise
+fri5_exc16_sets: 2
+fri5_exc16_reps: 8-12
+fri5_exc16_rest: 
+fri5_exc16_notes: 4 sec. up, 4 sec. down. Inside, Straight, Out.
+fri5_exc17: Bodyweight Abs
+fri5_exc17_sets: 5
+fri5_exc17_reps: 50
+fri5_exc17_rest: 
+fri5_exc17_notes: Abs of your choice.
 day34_num: Day 34 -
-day34: Saturday (Legs)
+day34: Saturday (REST)
 sat5_exc1: 
 sat5_exc2: 
 sat5_exc3: 
@@ -847,20 +1136,130 @@ sun5_exc10:
 sun5_exc11: 
 day36_num: Day 36 -
 day36: Monday (Chest & Abs)
-mon6_exc1: Treadmill Walking 1 x 10 min.
-mon6_exc2: Rotetor cuff warm-upp, 2 x 12 reps.
-mon6_exc3: Decline, Flat, and Incline push ups 20 each, 2 sets
-mon6_exc4: Decline barbell bench press, 2 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps
-mon6_exc5: Incline dumbbell bench press (45 degrees), 1 x 10-12 (moderate) + 1 x 6-8 to failure with spotter on the last 2-3 reps 
-mon6_exc6: Dumbbell chest fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-mon6_exc7: Low to High cable machine, 3 x 8-12
-mon6_exc8: Chest height cable machine, 3 x 8-12
-mon6_exc9: High to Low cable machine, 3 x 8-12
-mon6_exc10: Concentration curl, 3 x 10-12 (moderate) + 1 x 6-8 to failure
-mon6_exc11: Barbell curl, 3 x 6-8 to failure with spotter on the last 2-3 reps
-mon6_exc12: Hammer curl, 2 x 8-12 + 1 x 6-8 to failure
-mon6_exc13: Decline bench biceps curl, 2 x 8-12 + 1 x 6-8 to failure
-mon6_exc14: Straight, left side, right side weighted crunces, 3 x 20 each
+mon6_exc1_sets: 1
+mon6_exc1_reps: 10
+mon6_exc1_rest: 
+mon6_exc1_notes:
+mon6_exc2: Rotator Cuffs
+mon6_exc2_sets: 2
+mon6_exc2_reps: 12
+mon6_exc2_rest: 
+mon6_exc2_notes: Warm-up.
+mon6_exc3: Decline, Flat, And Incline Push-ups
+mon6_exc3_sets: 2
+mon6_exc3_reps: 20/20/20
+mon6_exc3_rest: 90 sec.
+mon6_exc3_notes: 20 of each kind.
+mon6_exc4: Decline Barbell Bench Press
+mon6_exc4_sets: 2
+mon6_exc4_reps: 10-12
+mon6_exc4_rest: 1 min.
+mon6_exc4_notes: Moderate strain.
+mon6_exc5: Decline Barbell Bench Press
+mon6_exc5_sets: 1
+mon6_exc5_reps: 6-8
+mon6_exc5_rest: 90 sec.
+mon6_exc5_notes: Heavy and to failure + 2-3 reps with spotter.
+mon6_exc6: Incline Dumbbell Bench Press
+mon6_exc6_sets: 2
+mon6_exc6_reps: 10-12
+mon6_exc6_rest: 1 min.
+mon6_exc6_notes: Moderate strain.
+mon6_exc7: Incline Dumbbell Bench Press
+mon6_exc7_sets: 1
+mon6_exc7_reps: 6-8
+mon6_exc7_rest: 90 sec.
+mon6_exc7_notes: Heavy and to failure + 2-3 reps with spotter.
+mon6_exc8: Dumbbell Chest Fly
+mon6_exc8_sets: 2
+mon6_exc8_reps: 12
+mon6_exc8_rest: 1 min.
+mon6_exc8_notes: Moderate strain.
+mon6_exc9: Dumbbell Chest Fly
+mon6_exc9_sets: 1
+mon6_exc9_reps: 6-8
+mon6_exc9_rest: 90 sec.
+mon6_exc9_notes: Heavy and to failure + 2-3 reps with spotter.
+mon6_exc10: Decline Dumbbell Chest Fly
+mon6_exc10_sets: 2
+mon6_exc10_reps: 12
+mon6_exc10_rest: 1 min.
+mon6_exc10_notes: Moderate strain.
+mon6_exc11: Decline Dumbbell Chest Fly
+mon6_exc11_sets: 1
+mon6_exc11_reps: 6-8
+mon6_exc11_rest: 90 sec.
+mon6_exc11_notes: Heavy and to failure + 2-3 reps with spotter.
+mon6_exc12: Low to High Cable Machine
+mon6_exc12_sets: 2
+mon6_exc12_reps: 12
+mon6_exc12_rest: 1 min.
+mon6_exc12_notes: Moderate strain.
+mon6_exc13: Low to High Cable Machine
+mon6_exc13_sets: 1
+mon6_exc13_reps: 6-8
+mon6_exc13_rest: 90 sec.
+mon6_exc13_notes: To failure + 2-3 forced reps.
+mon6_exc14: Chest Height Cable Machine
+mon6_exc14_sets: 2
+mon6_exc14_reps: 12
+mon6_exc14_rest: 1 min.
+mon6_exc14_notes: Moderate strain.
+mon6_exc15: Chest Height Cable Machine
+mon6_exc15_sets: 1
+mon6_exc15_reps: 6-8
+mon6_exc15_rest: 90 sec.
+mon6_exc15_notes: To failure + 2-3 forced reps.
+mon6_exc16: High To Low Cable Machine
+mon6_exc16_sets: 2
+mon6_exc16_reps: 12
+mon6_exc16_rest: 1 min.
+mon6_exc16_notes: Moderate strain.
+mon6_exc17: High To Low Cable Machine
+mon6_exc17_sets: 1
+mon6_exc17_reps: 6-8
+mon6_exc17_rest: 90 sec.
+mon6_exc17_notes: To failure + 2-3 forced reps.
+mon6_exc18: Concentration Curl
+mon6_exc18_sets: 3
+mon6_exc18_reps: 10-12
+mon6_exc18_rest: 1 min.
+mon6_exc18_notes: On each arm. Moderate strain.
+mon6_exc19: Concentration Curl
+mon6_exc19_sets: 1
+mon6_exc19_reps: 6-8
+mon6_exc19_rest: 1 min.
+mon6_exc19_notes: To failure + 2-3 forced reps.
+mon6_exc20: Barbell Curl
+mon6_exc20_sets: 3
+mon6_exc20_reps: 6-8
+mon6_exc20_rest: 90 sec.
+mon6_exc20_notes: To failure + 2- with spotter on the last 2-3 reps.
+mon6_exc21: Hammer Curl
+mon6_exc21_sets: 2
+mon6_exc21_reps: 8-12
+mon6_exc21_rest: 1 min.
+mon6_exc21_notes: Moderate strain.
+mon6_exc22: Hammer Curl
+mon6_exc22_sets: 1
+mon6_exc22_reps: 6-8
+mon6_exc22_rest: 90 sec.
+mon6_exc22_notes: To failure + 2- with spotter on the last 2-3 reps.
+mon6_exc23: Decline Bench Biceps Curl
+mon6_exc23_sets: 2
+mon6_exc23_reps: 8-12
+mon6_exc23_rest: 1 min.
+mon6_exc23_notes: Moderate strain.
+mon6_exc24: Decline Bench Biceps Curl
+mon6_exc24_sets: 1
+mon6_exc24_reps: 6-8
+mon6_exc24_rest: 90 sec.
+mon6_exc24_notes: To failure + 2- with spotter on the last 2-3 reps.
+mon6_exc25: Weighted Crunches
+mon6_exc25_sets: 3
+mon6_exc25_reps: 20/20/20
+mon6_exc25_rest: 1 min.
+mon6_exc25_notes: Straight, left side, right side.
 day37_num: Day 37 -
 day37: Tuesday (Back & Abs)
 tu6_exc1: Treadmill Walking 1 x 10 min.
