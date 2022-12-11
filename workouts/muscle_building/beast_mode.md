@@ -643,6 +643,7 @@ sun3_exc10:
 sun3_exc11: 
 day22_num: Day 22 -
 day22: Monday (Chest & Abs)
+mon4_exc1: Treadmill Walking
 mon4_exc1_sets: 1
 mon4_exc1_reps: 10
 mon4_exc1_rest: 
@@ -941,7 +942,7 @@ wed5_exc10:
 wed5_exc11:
 day32_num: Day 32 -
 day32: Thursday (Shoulders, Triceps & Abs)
-th5_exc1: Treadmill Walking 1 x 10 min.
+th5_exc1: Treadmill Walking
 th5_exc1_sets: 1
 th5_exc1_reps: 10
 th5_exc1_rest: 
@@ -1136,6 +1137,7 @@ sun5_exc10:
 sun5_exc11: 
 day36_num: Day 36 -
 day36: Monday (Chest & Abs)
+mon6_exc1: Treadmill Walking
 mon6_exc1_sets: 1
 mon6_exc1_reps: 10
 mon6_exc1_rest: 
