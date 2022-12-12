@@ -1264,17 +1264,66 @@ mon6_exc25_rest: 1 min.
 mon6_exc25_notes: Straight, left side, right side.
 day37_num: Day 37 -
 day37: Tuesday (Back & Abs)
-tu6_exc1: Treadmill Walking 1 x 10 min.
-tu6_exc2: Bent-arm dumbbell pull-over, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-tu6_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-tu6_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
-tu6_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
-tu6_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure
-tu6_exc7: Bodyweight abs of your choice, 250 reps 
-tu6_exc8: 
-tu6_exc9: 
-tu6_exc10:
-tu6_exc11:
+tu6_exc1: Treadmill Walking
+tu6_exc1_sets: 1
+tu6_exc1_reps: 10 min.
+tu6_exc1_rest: 
+tu6_exc1_notes: 
+tu6_exc2: Bent-Arm Dumbbell Pull-over
+tu6_exc2_sets: 2
+tu6_exc2_reps: 10-12
+tu6_exc2_rest: 1 min.
+tu6_exc2_notes: Moderate strain.
+tu6_exc3: Bent-Arm Dumbbell Pull-over
+tu6_exc3_sets: 1
+tu6_exc3_reps: 6-8
+tu6_exc3_rest: 90 sec.
+tu6_exc3_notes: To failure with spotter on the last 2-3 reps.
+tu6_exc4: Close Grip Pull-down
+tu6_exc4_sets: 2
+tu6_exc4_reps: 10-12
+tu6_exc4_rest: 1 min.
+tu6_exc4_notes: Moderate strain.
+tu6_exc5: Close Grip Pull-down
+tu6_exc5_sets: 1
+tu6_exc5_reps: 6-8
+tu6_exc5_rest: 90 sec.
+tu6_exc5_notes: To failure with spotter on the last 2-3 reps.
+tu6_exc6: Single Arm Dumbbell Row
+tu6_exc6_sets: 2
+tu6_exc6_reps: 10-12
+tu6_exc6_rest: 1 min.
+tu6_exc6_notes: Moderate strain. Do both arms and NO REST between the arms.
+tu6_exc7: Single Arm Dumbbell Row
+tu6_exc7_sets: 1
+tu6_exc7_reps: 6-8
+tu6_exc7_rest: 90 sec.
+tu6_exc7_notes: To failure with spotter on the last 2-3 reps.
+tu6_exc8: Cable Seated Row
+tu6_exc8_sets: 2
+tu6_exc8_reps: 10-12
+tu6_exc8_rest: 1 min.
+tu6_exc8_notes: Moderate strain.
+tu6_exc9: Cable Seated Row
+tu6_exc9_sets: 1
+tu6_exc9_reps: 6-8
+tu6_exc9_rest: 90 sec.
+tu6_exc9_notes: To failure with spotter on the last 2-3 reps.
+tu6_exc10: Barbell Deadlift
+tu6_exc10_sets: 2
+tu6_exc10_reps: 10-12
+tu6_exc10_rest: 1 min.
+tu6_exc10_notes: Moderate strain. Lower the bar only to mid shin.
+tu6_exc11: Barbell Deadlift
+tu6_exc11_sets: 1
+tu6_exc11_reps: 6-8
+tu6_exc11_rest: 90 sec.
+tu6_exc11_notes: To failure with spotter on the last 2-3 reps.
+tu6_exc12: Bodyweight abs of your choice, 250 reps 
+tu6_exc12_sets: 5
+tu6_exc12_reps: 50
+tu6_exc12_rest: 30 sec.
+tu6_exc12_notes: Abs of your choice.
 day38_num: Day 38 -
 day38: Wednesday (REST)
 wed6_exc1: 
