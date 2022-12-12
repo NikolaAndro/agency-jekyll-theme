@@ -751,17 +751,60 @@ sun5_exc11:
 week6_num: Week 6
 day36_num: Day 36 -
 day36: Monday (Chest & Abs)
-mon6_exc1: Dumbbell bench press - 2 x 10, rest 1 min. (warm up sets)
-mon6_exc2: Dumbbell bench press - 12/10/8/6/6, rest 1 min. + double drop set after the final set
-mon6_exc3: Incline dumbbell bench press - 12/10/10/8, rest 1 min. + double drop set after the final set
-mon6_exc4: Smith machine incline bench press - 4 x 12, rest 1 min. + 30 sec intra-stretching after the final set
-mon6_exc5: High-to-low cable chest fly - 4 x 10, NO REST
-mon6_exc6: Low-to-high cable chest fly - 4 x 10, NO REST
-mon6_exc7: Push up - 4 x 10, rest 1 min. (back to high-to-low)
-mon6_exc8: Machine chest fly - 6 x 12-15, rest 45 sec.
-mon6_exc9: Dumbbell V-sit cross jab - 4 x 20, rest 1 min.
-mon6_exc10: Parallel bars leg raise - 4 x 12, rest 1 min.
-mon6_exc11: Decline press sit-up - 4 x 15, rest 90 sec.
+mon6_exc1: Dumbbell Bench Press
+mon6_exc1_reps: 10
+mon6_exc1_rest: 1 min.
+mon6_exc1_notes: Warm-up sets.
+mon6_exc2: Dumbbell Bench Press
+mon6_exc2_sets: 5
+mon6_exc2_reps: 12/10/8/6/6
+mon6_exc2_rest: 1 min.
+mon6_exc2_notes: Double drop set after the final set.
+mon6_exc3: Incline Dumbbell Bench Press
+mon6_exc3_sets: 4
+mon6_exc3_reps: 12/10/10/8
+mon6_exc3_rest: 1 min.
+mon6_exc3_notes: Double drop set after the final set.
+mon6_exc4: Smith Machine Incline Bench Press
+mon6_exc4_sets: 4
+mon6_exc4_reps: 12
+mon6_exc4_rest: 1 min.
+mon6_exc4_notes: Add 30 sec. intra-stretching after the final set.
+mon6_exc5: High-To-Low Cable Chest Fly
+mon6_exc5_sets: 4
+mon6_exc5_reps: 10
+mon6_exc5_rest: NO REST
+mon6_exc5_notes: Triset with next 2 exercises.
+mon6_exc6: Low-To-High Cable Chest Fly
+mon6_exc6_sets: 4
+mon6_exc6_reps: 10
+mon6_exc6_rest: NO REST
+mon6_exc6_notes: Triset with next exercise.
+mon6_exc7: Push-up
+mon6_exc7_sets: 4
+mon6_exc7_reps: 10
+mon6_exc7_rest: 1 min.
+mon6_exc7_notes: Back to high-to-low.
+mon6_exc8: Machine Chest Fly
+mon6_exc8_sets: 6
+mon6_exc8_reps: 12-15
+mon6_exc8_rest: 45 sec.
+mon6_exc8_notes:
+mon6_exc9: Dumbbell V-sit Cross Jab
+mon6_exc9_sets: 4
+mon6_exc9_reps: 20
+mon6_exc9_rest: 1 min.
+mon6_exc9_notes:
+mon6_exc10: Parallel Bars Leg Raise
+mon6_exc10_sets: 4
+mon6_exc10_reps: 12
+mon6_exc10_rest: 1 min.
+mon6_exc10_notes:
+mon6_exc11: Decline Press Sit-up
+mon6_exc11_sets: 4
+mon6_exc11_reps: 15
+mon6_exc11_rest: 90 sec.
+mon6_exc11_notes:
 mon6_exc12:
 day37_num: Day 37 -
 day37: Tuesday (Back & Abs)
