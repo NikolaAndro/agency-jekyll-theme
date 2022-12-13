@@ -808,18 +808,62 @@ mon6_exc11_notes:
 mon6_exc12:
 day37_num: Day 37 -
 day37: Tuesday (Back & Abs)
-tu6_exc1: Dumbbell bent over row - 2 x 10, rest 1 min. (warm up sets)
-tu6_exc2: Dumbbell bent over row - 12/10/10/10, rest 1 min. + double drop set after the final set
-tu6_exc3: Neutral-grip lat pull down - 4 x 12, rest 90 sec. + double drop set after the final set
-tu6_exc4: Rack pull (deadlift from rack right above knees) - 12/10/10/10/10, rest 2 min.
-tu6_exc5: Lat pull-down - 4 x 12, NO REST
-tu6_exc6: Cable seated row with V-bar - 4 x 12, rest 90 sec. (back to lat pull-down)
-tu6_exc7: Hanging oblique crunch - 4 x 12, NO REST
-tu6_exc8: Parallel bars knee raise - 4 x 12, rest 90 sec. (back to hanging oblique crunch)
-tu6_exc9: Suspended oblique crunch - 4 x 12, NO REST
-tu6_exc10: Side plank on ball (left) - 4 x 6, NO REST
-tu6_exc11: Side plank on ball (right) - 4 x 6, rest 1 min. (back to suspended oblique crunch)
-day38_num: Day 38 -
+tu6_exc1: Dumbbell Bent Over Row
+tu6_exc1_sets: 2
+tu6_exc1_reps: 10
+tu6_exc1_rest: 1 min.
+tu6_exc1_notes: Warmup sets.
+tu6_exc2: Dumbbell Bent Over Row 
+tu6_exc2_sets: 4
+tu6_exc2_reps: 12/10/10/1
+tu6_exc2_rest: 1 min.
+tu6_exc2_notes: Double drop set after the final set.
+tu6_exc3: Neutral-grip Lat Pull Down
+tu6_exc3_sets: 4
+tu6_exc3_reps: 12
+tu6_exc3_rest: 90 sec.
+tu6_exc3_notes: Double drop set after the final set.
+tu6_exc4: Rack Pull
+tu6_exc4_sets: 5
+tu6_exc4_reps: 12/10/10/10/10
+tu6_exc4_rest: 1 min.
+tu6_exc4_notes: Deadlift from rack right above knees.
+tu6_exc5: Lat Pull-down
+tu6_exc5_sets: 4
+tu6_exc5_reps: 12
+tu6_exc5_rest: NO REST
+tu6_exc5_notes: Superset with next.
+tu6_exc6: Cable Seated Row With V-bar
+tu6_exc6_sets: 4
+tu6_exc6_reps: 12
+tu6_exc6_rest: 90 sec.
+tu6_exc6_notes: Back to lat pull-down.
+tu6_exc7: Hanging Oblique Crunch
+tu6_exc7_sets: 4
+tu6_exc7_reps: 12
+tu6_exc7_rest: NO REST
+tu6_exc7_notes: Superset with next.
+tu6_exc8: Parallel Bars Knee Raise
+tu6_exc8_sets: 4
+tu6_exc8_reps: 12
+tu6_exc8_rest: 90 sec.
+tu6_exc8_notes: Back to hanging oblique crunch.
+tu6_exc9: Suspended Oblique Crunch
+tu6_exc9_sets: 4
+tu6_exc9_reps: 12
+tu6_exc9_rest: NO REST
+tu6_exc9_notes: Superset with next.
+tu6_exc10: Side Plank On Ball (Left)
+tu6_exc10_sets: 4
+tu6_exc10_reps: 6
+tu6_exc10_rest: NO REST
+tu6_exc10_notes: Superset with next.
+tu6_exc11: Side Plank On Ball (Right)
+tu6_exc11_sets: 4
+tu6_exc11_reps: 6
+tu6_exc11_rest: 1 min.
+tu6_exc11_notes: Superset with next.
+day38_num: Day 38 - Back to suspended oblique crunch.
 day38: Wednesday (Legs)
 wed6_exc1: Leg press - 2 x 10, NO REST (warm up sets)
 wed6_exc2: Dumbbell walking lunge - 2 x 10, rest 1 min. (warm up sets)
