@@ -502,6 +502,10 @@ wed2_exc11:
 day11_num: Day 11 -
 day11: Thursday (Shoulders, Triceps $ Abs)
 th2_exc1: Treadmill Walking 1 x 10 min.
+th2_exc1_sets: 1
+th2_exc1_reps: 10 min.
+th2_exc1_rest: 
+th2_exc1_notes: 
 th2_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
 th2_exc3: Seated front dumbbell  together press, 2 x 10-12 (moderate) + 1 x 8-10 to failure 
 th2_exc4: Dumbbell lateral raise, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
@@ -585,17 +589,85 @@ wed3_exc11:
 day18_num: Day 18 -
 day18: Thursday (Shoulders & Triceps & Abs)
 th3_exc1: Treadmill Walking 1 x 10 min.
-th3_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th3_exc3: Dumbbell lateral raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th3_exc4: Single-arm cable lateral raise, 1 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th3_exc5: Seated rear delt fly, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th3_exc6: Cable rope push-down, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th3_exc7: Skullcrushers, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th3_exc8: Seated triceps press, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th3_exc9: Straight, left side, right side weighted crunces, 3 x 20 each
-th3_exc10: 
-th3_exc11: 
-th3_exc12:
+th3_exc1_sets: 1
+th3_exc1_reps: 10 min.
+th3_exc1_rest: 
+th3_exc1_notes:
+th3_exc2: Seated Dumbbell Shoulder Press
+th3_exc2_sets: 2
+th3_exc2_reps: 10-12
+th3_exc2_rest: 1 min.
+th3_exc2_notes: 1st light, 2nd moderate.
+th3_exc3: Seated Dumbbell Shoulder Press
+th3_exc3_sets: 1
+th3_exc3_reps: 8-10
+th3_exc3_rest: 90 sec.
+th3_exc3_notes: To failure + 2-3 reps with spotter.
+th3_exc4: Dumbbell Lateral Raise
+th3_exc4_sets: 2
+th3_exc4_reps: 10-12
+th3_exc4_rest: 1 min.
+th3_exc4_notes: 1st light, 2nd moderate.
+th3_exc5: Dumbbell Lateral Raise
+th3_exc5_sets: 1
+th3_exc5_reps: 8-10
+th3_exc5_rest: 90 sec.
+th3_exc5_notes: To failure + 2-3 reps with spotter.
+th3_exc6: Single Arm Cable Lateral Raise (Left Arm)
+th3_exc6_sets: 2
+th3_exc6_reps: 10-12
+th3_exc6_rest: NO REST
+th3_exc6_notes: To failure + 2-3 forced reps.
+th3_exc7: Single Arm Cable Lateral Raise (Right Arm)
+th3_exc7_sets: 2
+th3_exc7_reps: 10-12
+th3_exc7_rest: 1 min.
+th3_exc7_notes: To failure + 2-3 forced reps. Back to left arm.
+th3_exc8: Seated Rear Delt Fly
+th3_exc8_sets: 2
+th3_exc8_reps: 10-12
+th3_exc8_rest: 1 min.
+th3_exc8_notes: 1st light, 2nd moderate.
+th3_exc9: Seated Rear Delt Fly
+th3_exc9_sets: 1
+th3_exc9_reps: 8-10
+th3_exc9_rest: 90 sec.
+th3_exc9_notes: To failure + 2-3 forced reps.
+th3_exc10: Cable Rope Push-down
+th3_exc10_sets: 2
+th3_exc10_reps: 10-12
+th3_exc10_rest: 1 min.
+th3_exc10_notes: 1st light, 2nd moderate.
+th3_exc11: Cable Rope Push-down
+th3_exc11_sets: 1
+th3_exc11_reps: 8-10
+th3_exc11_rest: 90 sec.
+th3_exc11_notes: To failure + 2-3 reps with spotter.
+th3_exc12: Skullcrusher
+th3_exc12_sets: 2
+th3_exc12_reps: 10-12
+th3_exc12_rest: 1 min.
+th3_exc12_notes: 1st light, 2nd moderate.
+th3_exc13: Skullcrusher
+th3_exc13_sets: 1
+th3_exc13_reps: 8-10
+th3_exc13_rest: 90 sec.
+th3_exc13_notes: To failure + 2-3 reps with spotter.
+th3_exc14: Seated Triceps Press
+th3_exc14_sets: 2
+th3_exc14_reps: 10-12
+th3_exc14_rest: 1 min.
+th3_exc14_notes: 1st light, 2nd moderate.
+th3_exc15: Seated Triceps Press
+th3_exc15_sets: 1
+th3_exc15_reps: 8-10
+th3_exc15_rest: 90 sec.
+th3_exc15_notes: To failure + 2-3 reps with spotter.
+th3_exc16: Straight, Left Side, Right Side Weighted Crunces
+th3_exc16_sets: 3
+th3_exc16_reps: 20/20/20
+th3_exc16_rest: 1 min.
+th3_exc16_notes: 3 sets for left side, right side, and center
 day19_num: Day 19 -
 day19: Friday (Legs & Abs)
 fri3_exc1: Treadmill Walking 1 x 10 min.
