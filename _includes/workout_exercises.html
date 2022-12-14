@@ -4493,26 +4493,245 @@
                                 {% endif %}
                                    
                                 <pday>   <daynum id="day6w4">{{page.day27_num}}</daynum> {{page.day27}} </pday><br><br>
-                                    <p>{{ page.sat4_exc1 }}</p>
-                                    <p>{{ page.sat4_exc2 }}</p>
-                                    <p>{{ page.sat4_exc3 }}</p>
-                                    <p>{{ page.sat4_exc4 }}</p>
-                                    <p>{{ page.sat4_exc5 }}</p>
-                                    <p>{{ page.sat4_exc6 }}</p>
-                                    <p>{{ page.sat4_exc7 }}</p>
-                                    <p>{{ page.sat4_exc8 }}</p>
-                                    <p>{{ page.sat4_exc9 }}</p>
-                                    <p>{{ page.sat4_exc10 }}</p>
-                                    <p>{{ page.sat4_exc11 }}</p>
-                                    <p>{{ page.sat4_exc12 }}</p>
-                                    <p>{{ page.sat4_exc13 }}</p>
-                                    <p>{{ page.sat4_exc14 }}</p>
-                                    <p>{{ page.sat4_exc15 }}</p>
-                                    <p>{{ page.sat4_exc16 }}</p>
-                                    <p>{{ page.sat4_exc17 }}</p>
-                                    <p>{{ page.sat4_exc18 }}</p>
-                                    <p>{{ page.sat4_exc19 }}</p>
-                                    <p>{{ page.sat4_exc20 }}</p>
+                                {% if  page.sat4_exc1 %}
+                                <table id="exerciseTable">
+                                    <tbody>
+                                        <tr>
+                                            <th>Exercise</th>
+                                            <th width="12%">Sets</th>
+                                            <th width="12%">Reps</th>
+                                            <th width="17%">Rest Time</th>
+                                            <th width="20%">Notes</th>
+                                        </tr>
+                                        {% if page.sat4_exc1 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc1 }}</td>
+                                                <td>{{ page.sat4_exc1_sets }}</td> 
+                                                <td>{{ page.sat4_exc1_reps }}</td>
+                                                <td>{{ page.sat4_exc1_rest }}</td>
+                                                <td>{{ page.sat4_exc1_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc2 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc2 }}</td>
+                                                <td>{{ page.sat4_exc2_sets }}</td> 
+                                                <td>{{ page.sat4_exc2_reps }}</td>
+                                                <td>{{ page.sat4_exc2_rest}}</td>
+                                                <td>{{ page.sat4_exc2_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc3 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc3 }}</td>
+                                                <td>{{ page.sat4_exc3_sets }}</td> 
+                                                <td>{{ page.sat4_exc3_reps }}</td>
+                                                <td>{{ page.sat4_exc3_rest }}</td>
+                                                <td>{{ page.sat4_exc3_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc4 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc4 }}</td>
+                                                <td>{{ page.sat4_exc4_sets }}</td> 
+                                                <td>{{ page.sat4_exc4_reps }}</td>
+                                                <td>{{ page.sat4_exc4_rest }}</td>
+                                                <td>{{ page.sat4_exc4_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc5 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc5 }}</td>
+                                                <td>{{ page.sat4_exc5_sets }}</td> 
+                                                <td>{{ page.sat4_exc5_reps }}</td>
+                                                <td>{{ page.sat4_exc5_rest }}</td>
+                                                <td>{{ page.sat4_exc5_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc6 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc6 }}</td>
+                                                <td>{{ page.sat4_exc6_sets }}</td> 
+                                                <td>{{ page.sat4_exc6_reps }}</td>
+                                                <td>{{ page.sat4_exc6_rest }}</td>
+                                                <td>{{ page.sat4_exc6_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc7 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc7 }}</td>
+                                                <td>{{ page.sat4_exc7_sets }}</td> 
+                                                <td>{{ page.sat4_exc7_reps }}</td>
+                                                <td>{{ page.sat4_exc7_rest }}</td>
+                                                <td>{{ page.sat4_exc7_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc8 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc8 }}</td>
+                                                <td>{{ page.sat4_exc8_sets }}</td> 
+                                                <td>{{ page.sat4_exc8_reps }}</td>
+                                                <td>{{ page.sat4_exc8_rest }}</td>
+                                                <td>{{ page.sat4_exc8_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc9 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc9 }}</td>
+                                                <td>{{ page.sat4_exc9_sets }}</td> 
+                                                <td>{{ page.sat4_exc9_reps }}</td>
+                                                <td>{{ page.sat4_exc9_rest }}</td>
+                                                <td>{{ page.sat4_exc9_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc10 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc10 }}</td>
+                                                <td>{{ page.sat4_exc10_sets }}</td> 
+                                                <td>{{ page.sat4_exc10_reps }}</td>
+                                                <td>{{ page.sat4_exc10_rest }}</td>
+                                                <td>{{ page.sat4_exc10_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc11 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc11 }}</td>
+                                                <td>{{ page.sat4_exc11_sets }}</td> 
+                                                <td>{{ page.sat4_exc11_reps }}</td>
+                                                <td>{{ page.sat4_exc11_rest }}</td>
+                                                <td>{{ page.sat4_exc11_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc12 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc12 }}</td>
+                                                <td>{{ page.sat4_exc12_sets }}</td> 
+                                                <td>{{ page.sat4_exc12_reps }}</td>
+                                                <td>{{ page.sat4_exc12_rest }}</td>
+                                                <td>{{ page.sat4_exc12_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc13 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc13 }}</td>
+                                                <td>{{ page.sat4_exc13_sets }}</td> 
+                                                <td>{{ page.sat4_exc13_reps }}</td>
+                                                <td>{{ page.sat4_exc13_rest }}</td>
+                                                <td>{{ page.sat4_exc13_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc14 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc14 }}</td>
+                                                <td>{{ page.sat4_exc14_sets }}</td> 
+                                                <td>{{ page.sat4_exc14_reps }}</td>
+                                                <td>{{ page.sat4_exc14_rest }}</td>
+                                                <td>{{ page.sat4_exc14_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc15 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc15 }}</td>
+                                                <td>{{ page.sat4_exc15_sets }}</td> 
+                                                <td>{{ page.sat4_exc15_reps }}</td>
+                                                <td>{{ page.sat4_exc15_rest }}</td>
+                                                <td>{{ page.sat4_exc15_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc16 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc16 }}</td>
+                                                <td>{{ page.sat4_exc16_sets }}</td> 
+                                                <td>{{ page.sat4_exc16_reps }}</td>
+                                                <td>{{ page.sat4_exc16_rest }}</td>
+                                                <td>{{ page.sat4_exc16_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc17 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc17 }}</td>
+                                                <td>{{ page.sat4_exc17_sets }}</td> 
+                                                <td>{{ page.sat4_exc17_reps }}</td>
+                                                <td>{{ page.sat4_exc17_rest }}</td>
+                                                <td>{{ page.sat4_exc17_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc18 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc18 }}</td>
+                                                <td>{{ page.sat4_exc18_sets }}</td> 
+                                                <td>{{ page.sat4_exc18_reps }}</td>
+                                                <td>{{ page.sat4_exc18_rest }}</td>
+                                                <td>{{ page.sat4_exc18_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc19 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc19 }}</td>
+                                                <td>{{ page.sat4_exc19_sets }}</td> 
+                                                <td>{{ page.sat4_exc19_reps }}</td>
+                                                <td>{{ page.sat4_exc19_rest }}</td>
+                                                <td>{{ page.sat4_exc19_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc20 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc20 }}</td>
+                                                <td>{{ page.sat4_exc20_sets }}</td> 
+                                                <td>{{ page.sat4_exc20_reps }}</td>
+                                                <td>{{ page.sat4_exc20_rest }}</td>
+                                                <td>{{ page.sat4_exc20_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc20 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc21 }}</td>
+                                                <td>{{ page.sat4_exc21_sets }}</td> 
+                                                <td>{{ page.sat4_exc21_reps }}</td>
+                                                <td>{{ page.sat4_exc21_rest }}</td>
+                                                <td>{{ page.sat4_exc21_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc20 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc22 }}</td>
+                                                <td>{{ page.sat4_exc22_sets }}</td> 
+                                                <td>{{ page.sat4_exc22_reps }}</td>
+                                                <td>{{ page.sat4_exc22_rest }}</td>
+                                                <td>{{ page.sat4_exc22_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc20 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc23 }}</td>
+                                                <td>{{ page.sat4_exc23_sets }}</td> 
+                                                <td>{{ page.sat4_exc23_reps }}</td>
+                                                <td>{{ page.sat4_exc23_rest }}</td>
+                                                <td>{{ page.sat4_exc23_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc20 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc24 }}</td>
+                                                <td>{{ page.sat4_exc24_sets }}</td> 
+                                                <td>{{ page.sat4_exc24_reps }}</td>
+                                                <td>{{ page.sat4_exc24_rest }}</td>
+                                                <td>{{ page.sat4_exc24_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+                                        {% if page.sat4_exc20 %}
+                                            <tr>
+                                                <td>{{ page.sat4_exc25 }}</td>
+                                                <td>{{ page.sat4_exc25_sets }}</td> 
+                                                <td>{{ page.sat4_exc25_reps }}</td>
+                                                <td>{{ page.sat4_exc25_rest }}</td>
+                                                <td>{{ page.sat4_exc25_notes }}</td>
+                                            </tr>
+                                        {% endif %}
+
+                                    </tbody>
+                                </table>    
+                            {% endif %}
                                 <pday>   <daynum id="day7w4">{{page.day28_num}}</daynum> {{page.day28}} </pday><br><br>
                                     <p>{{ page.sun4_exc1 }}</p>
                                     <p>{{ page.sun4_exc2 }}</p>
@@ -4695,18 +4914,6 @@
                                         </tbody>
                                     </table> 
                                 {% endif %}
-                                    <p>{{ page.mon5_exc1 }}</p>
-                                    <p>{{ page.mon5_exc2 }}</p>
-                                    <p>{{ page.mon5_exc3 }}</p>
-                                    <p>{{ page.mon5_exc4 }}</p>
-                                    <p>{{ page.mon5_exc5 }}</p>
-                                    <p>{{ page.mon5_exc6 }}</p>
-                                    <p>{{ page.mon5_exc7 }}</p>
-                                    <p>{{ page.mon5_exc8 }}</p>
-                                    <p>{{ page.mon5_exc9 }}</p>
-                                    <p>{{ page.mon5_exc10 }}</p>
-                                    <p>{{ page.mon5_exc11 }}</p>
-                                    <p>{{ page.mon5_exc12 }}</p>
                                 <pday>   <daynum id="day2w5">{{page.day30_num}}</daynum> {{page.day30}} </pday><br><br>
                                     <table id="exerciseTable">
                                         <tbody>
@@ -5068,17 +5275,7 @@
                                         </tbody>
                                     </table>    
                                 {% endif %}
-                                    <p>{{ page.wed5_exc1 }}</p>
-                                    <p>{{ page.wed5_exc2 }}</p>
-                                    <p>{{ page.wed5_exc3 }}</p>
-                                    <p>{{ page.wed5_exc4 }}</p>
-                                    <p>{{ page.wed5_exc5 }}</p>
-                                    <p>{{ page.wed5_exc6 }}</p>
-                                    <p>{{ page.wed5_exc7 }}</p>
-                                    <p>{{ page.wed5_exc8 }}</p>
-                                    <p>{{ page.wed5_exc9 }}</p>
-                                    <p>{{ page.wed5_exc10 }}</p>
-                                    <p>{{ page.wed5_exc11 }}</p>
+
                                 <pday>   <daynum id="day4w5">{{page.day32_num}}</daynum> {{page.day32}} </pday><br><br>
                                 {% if  page.th5_exc1 %}
                                         <table id="exerciseTable">
@@ -5274,49 +5471,486 @@
                                             </tbody>
                                         </table>    
                                     {% endif %}
-                                    <p>{{ page.th5_exc1 }}</p>
-                                    <p>{{ page.th5_exc2 }}</p>
-                                    <p>{{ page.th5_exc3 }}</p>
-                                    <p>{{ page.th5_exc4 }}</p>
-                                    <p>{{ page.th5_exc5 }}</p>
-                                    <p>{{ page.th5_exc6 }}</p>
-                                    <p>{{ page.th5_exc7 }}</p>
-                                    <p>{{ page.th5_exc8 }}</p>
-                                    <p>{{ page.th5_exc9 }}</p>
-                                    <p>{{ page.th5_exc10 }}</p>
-                                    <p>{{ page.th5_exc11 }}</p>
-                                    <p>{{ page.th5_exc12 }}</p>
-                                    <p>{{ page.th5_exc13 }}</p>
-                                    <p>{{ page.th5_exc14 }}</p>
-                                    <p>{{ page.th5_exc15 }}</p>
                                 <pday>   <daynum id="day5w5">{{page.day33_num}}</daynum> {{page.day33}} </pday><br><br>
-                                    <p>{{ page.fri5_exc1 }}</p>
-                                    <p>{{ page.fri5_exc2 }}</p>
-                                    <p>{{ page.fri5_exc3 }}</p>
-                                    <p>{{ page.fri5_exc4 }}</p>
-                                    <p>{{ page.fri5_exc5 }}</p>
-                                    <p>{{ page.fri5_exc6 }}</p>
-                                    <p>{{ page.fri5_exc7 }}</p>
-                                    <p>{{ page.fri5_exc8 }}</p>
-                                    <p>{{ page.fri5_exc9 }}</p>
-                                    <p>{{ page.fri5_exc10 }}</p>
-                                    <p>{{ page.fri5_exc11 }}</p>
-                                    <p>{{ page.fri5_exc12 }}</p>
-                                    <p>{{ page.fri5_exc13 }}</p>
-                                    <p>{{ page.fri5_exc14 }}</p>
-                                    <p>{{ page.fri5_exc15 }}</p>
+                                {% if  page.fri5_exc1 %}
+                                    <table id="exerciseTable">
+                                        <tbody>
+                                            <tr>
+                                                <th>Exercise</th>
+                                                <th width="12%">Sets</th>
+                                                <th width="12%">Reps</th>
+                                                <th width="17%">Rest Time</th>
+                                                <th width="20%">Notes</th>
+                                            </tr>
+                                            {% if page.fri5_exc1 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc1 }}</td>
+                                                    <td>{{ page.fri5_exc1_sets }}</td> 
+                                                    <td>{{ page.fri5_exc1_reps }}</td>
+                                                    <td>{{ page.fri5_exc1_rest }}</td>
+                                                    <td>{{ page.fri5_exc1_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc2 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc2 }}</td>
+                                                    <td>{{ page.fri5_exc2_sets }}</td> 
+                                                    <td>{{ page.fri5_exc2_reps }}</td>
+                                                    <td>{{ page.fri5_exc2_rest}}</td>
+                                                    <td>{{ page.fri5_exc2_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc3 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc3 }}</td>
+                                                    <td>{{ page.fri5_exc3_sets }}</td> 
+                                                    <td>{{ page.fri5_exc3_reps }}</td>
+                                                    <td>{{ page.fri5_exc3_rest }}</td>
+                                                    <td>{{ page.fri5_exc3_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc4 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc4 }}</td>
+                                                    <td>{{ page.fri5_exc4_sets }}</td> 
+                                                    <td>{{ page.fri5_exc4_reps }}</td>
+                                                    <td>{{ page.fri5_exc4_rest }}</td>
+                                                    <td>{{ page.fri5_exc4_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc5 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc5 }}</td>
+                                                    <td>{{ page.fri5_exc5_sets }}</td> 
+                                                    <td>{{ page.fri5_exc5_reps }}</td>
+                                                    <td>{{ page.fri5_exc5_rest }}</td>
+                                                    <td>{{ page.fri5_exc5_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc6 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc6 }}</td>
+                                                    <td>{{ page.fri5_exc6_sets }}</td> 
+                                                    <td>{{ page.fri5_exc6_reps }}</td>
+                                                    <td>{{ page.fri5_exc6_rest }}</td>
+                                                    <td>{{ page.fri5_exc6_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc7 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc7 }}</td>
+                                                    <td>{{ page.fri5_exc7_sets }}</td> 
+                                                    <td>{{ page.fri5_exc7_reps }}</td>
+                                                    <td>{{ page.fri5_exc7_rest }}</td>
+                                                    <td>{{ page.fri5_exc7_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc8 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc8 }}</td>
+                                                    <td>{{ page.fri5_exc8_sets }}</td> 
+                                                    <td>{{ page.fri5_exc8_reps }}</td>
+                                                    <td>{{ page.fri5_exc8_rest }}</td>
+                                                    <td>{{ page.fri5_exc8_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc9 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc9 }}</td>
+                                                    <td>{{ page.fri5_exc9_sets }}</td> 
+                                                    <td>{{ page.fri5_exc9_reps }}</td>
+                                                    <td>{{ page.fri5_exc9_rest }}</td>
+                                                    <td>{{ page.fri5_exc9_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc10 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc10 }}</td>
+                                                    <td>{{ page.fri5_exc10_sets }}</td> 
+                                                    <td>{{ page.fri5_exc10_reps }}</td>
+                                                    <td>{{ page.fri5_exc10_rest }}</td>
+                                                    <td>{{ page.fri5_exc10_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc11 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc11 }}</td>
+                                                    <td>{{ page.fri5_exc11_sets }}</td> 
+                                                    <td>{{ page.fri5_exc11_reps }}</td>
+                                                    <td>{{ page.fri5_exc11_rest }}</td>
+                                                    <td>{{ page.fri5_exc11_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc12 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc12 }}</td>
+                                                    <td>{{ page.fri5_exc12_sets }}</td> 
+                                                    <td>{{ page.fri5_exc12_reps }}</td>
+                                                    <td>{{ page.fri5_exc12_rest }}</td>
+                                                    <td>{{ page.fri5_exc12_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc13 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc13 }}</td>
+                                                    <td>{{ page.fri5_exc13_sets }}</td> 
+                                                    <td>{{ page.fri5_exc13_reps }}</td>
+                                                    <td>{{ page.fri5_exc13_rest }}</td>
+                                                    <td>{{ page.fri5_exc13_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc14 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc14 }}</td>
+                                                    <td>{{ page.fri5_exc14_sets }}</td> 
+                                                    <td>{{ page.fri5_exc14_reps }}</td>
+                                                    <td>{{ page.fri5_exc14_rest }}</td>
+                                                    <td>{{ page.fri5_exc14_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc15 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc15 }}</td>
+                                                    <td>{{ page.fri5_exc15_sets }}</td> 
+                                                    <td>{{ page.fri5_exc15_reps }}</td>
+                                                    <td>{{ page.fri5_exc15_rest }}</td>
+                                                    <td>{{ page.fri5_exc15_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc16 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc16 }}</td>
+                                                    <td>{{ page.fri5_exc16_sets }}</td> 
+                                                    <td>{{ page.fri5_exc16_reps }}</td>
+                                                    <td>{{ page.fri5_exc16_rest }}</td>
+                                                    <td>{{ page.fri5_exc16_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc17 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc17 }}</td>
+                                                    <td>{{ page.fri5_exc17_sets }}</td> 
+                                                    <td>{{ page.fri5_exc17_reps }}</td>
+                                                    <td>{{ page.fri5_exc17_rest }}</td>
+                                                    <td>{{ page.fri5_exc17_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc18 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc18 }}</td>
+                                                    <td>{{ page.fri5_exc18_sets }}</td> 
+                                                    <td>{{ page.fri5_exc18_reps }}</td>
+                                                    <td>{{ page.fri5_exc18_rest }}</td>
+                                                    <td>{{ page.fri5_exc18_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc19 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc19 }}</td>
+                                                    <td>{{ page.fri5_exc19_sets }}</td> 
+                                                    <td>{{ page.fri5_exc19_reps }}</td>
+                                                    <td>{{ page.fri5_exc19_rest }}</td>
+                                                    <td>{{ page.fri5_exc19_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc20 }}</td>
+                                                    <td>{{ page.fri5_exc20_sets }}</td> 
+                                                    <td>{{ page.fri5_exc20_reps }}</td>
+                                                    <td>{{ page.fri5_exc20_rest }}</td>
+                                                    <td>{{ page.fri5_exc20_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc21 }}</td>
+                                                    <td>{{ page.fri5_exc21_sets }}</td> 
+                                                    <td>{{ page.fri5_exc21_reps }}</td>
+                                                    <td>{{ page.fri5_exc21_rest }}</td>
+                                                    <td>{{ page.fri5_exc21_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc22 }}</td>
+                                                    <td>{{ page.fri5_exc22_sets }}</td> 
+                                                    <td>{{ page.fri5_exc22_reps }}</td>
+                                                    <td>{{ page.fri5_exc22_rest }}</td>
+                                                    <td>{{ page.fri5_exc22_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc23 }}</td>
+                                                    <td>{{ page.fri5_exc23_sets }}</td> 
+                                                    <td>{{ page.fri5_exc23_reps }}</td>
+                                                    <td>{{ page.fri5_exc23_rest }}</td>
+                                                    <td>{{ page.fri5_exc23_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc24 }}</td>
+                                                    <td>{{ page.fri5_exc24_sets }}</td> 
+                                                    <td>{{ page.fri5_exc24_reps }}</td>
+                                                    <td>{{ page.fri5_exc24_rest }}</td>
+                                                    <td>{{ page.fri5_exc24_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.fri5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.fri5_exc25 }}</td>
+                                                    <td>{{ page.fri5_exc25_sets }}</td> 
+                                                    <td>{{ page.fri5_exc25_reps }}</td>
+                                                    <td>{{ page.fri5_exc25_rest }}</td>
+                                                    <td>{{ page.fri5_exc25_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+
+                                        </tbody>
+                                    </table>    
+                                {% endif %}
                                 <pday>   <daynum id="day6w5">{{page.day34_num}}</daynum> {{page.day34}} </pday><br><br>
-                                    <p>{{ page.sat5_exc1 }}</p>
-                                    <p>{{ page.sat5_exc2 }}</p>
-                                    <p>{{ page.sat5_exc3 }}</p>
-                                    <p>{{ page.sat5_exc4 }}</p>
-                                    <p>{{ page.sat5_exc5 }}</p>
-                                    <p>{{ page.sat5_exc6 }}</p>
-                                    <p>{{ page.sat5_exc7 }}</p>
-                                    <p>{{ page.sat5_exc8 }}</p>
-                                    <p>{{ page.sat5_exc9 }}</p>
-                                    <p>{{ page.sat5_exc10 }}</p>
-                                    <p>{{ page.sat5_exc11 }}</p>
+                                {% if  page.sat5_exc1 %}
+                                    <table id="exerciseTable">
+                                        <tbody>
+                                            <tr>
+                                                <th>Exercise</th>
+                                                <th width="12%">Sets</th>
+                                                <th width="12%">Reps</th>
+                                                <th width="17%">Rest Time</th>
+                                                <th width="20%">Notes</th>
+                                            </tr>
+                                            {% if page.sat5_exc1 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc1 }}</td>
+                                                    <td>{{ page.sat5_exc1_sets }}</td> 
+                                                    <td>{{ page.sat5_exc1_reps }}</td>
+                                                    <td>{{ page.sat5_exc1_rest }}</td>
+                                                    <td>{{ page.sat5_exc1_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc2 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc2 }}</td>
+                                                    <td>{{ page.sat5_exc2_sets }}</td> 
+                                                    <td>{{ page.sat5_exc2_reps }}</td>
+                                                    <td>{{ page.sat5_exc2_rest}}</td>
+                                                    <td>{{ page.sat5_exc2_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc3 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc3 }}</td>
+                                                    <td>{{ page.sat5_exc3_sets }}</td> 
+                                                    <td>{{ page.sat5_exc3_reps }}</td>
+                                                    <td>{{ page.sat5_exc3_rest }}</td>
+                                                    <td>{{ page.sat5_exc3_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc4 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc4 }}</td>
+                                                    <td>{{ page.sat5_exc4_sets }}</td> 
+                                                    <td>{{ page.sat5_exc4_reps }}</td>
+                                                    <td>{{ page.sat5_exc4_rest }}</td>
+                                                    <td>{{ page.sat5_exc4_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc5 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc5 }}</td>
+                                                    <td>{{ page.sat5_exc5_sets }}</td> 
+                                                    <td>{{ page.sat5_exc5_reps }}</td>
+                                                    <td>{{ page.sat5_exc5_rest }}</td>
+                                                    <td>{{ page.sat5_exc5_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc6 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc6 }}</td>
+                                                    <td>{{ page.sat5_exc6_sets }}</td> 
+                                                    <td>{{ page.sat5_exc6_reps }}</td>
+                                                    <td>{{ page.sat5_exc6_rest }}</td>
+                                                    <td>{{ page.sat5_exc6_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc7 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc7 }}</td>
+                                                    <td>{{ page.sat5_exc7_sets }}</td> 
+                                                    <td>{{ page.sat5_exc7_reps }}</td>
+                                                    <td>{{ page.sat5_exc7_rest }}</td>
+                                                    <td>{{ page.sat5_exc7_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc8 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc8 }}</td>
+                                                    <td>{{ page.sat5_exc8_sets }}</td> 
+                                                    <td>{{ page.sat5_exc8_reps }}</td>
+                                                    <td>{{ page.sat5_exc8_rest }}</td>
+                                                    <td>{{ page.sat5_exc8_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc9 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc9 }}</td>
+                                                    <td>{{ page.sat5_exc9_sets }}</td> 
+                                                    <td>{{ page.sat5_exc9_reps }}</td>
+                                                    <td>{{ page.sat5_exc9_rest }}</td>
+                                                    <td>{{ page.sat5_exc9_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc10 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc10 }}</td>
+                                                    <td>{{ page.sat5_exc10_sets }}</td> 
+                                                    <td>{{ page.sat5_exc10_reps }}</td>
+                                                    <td>{{ page.sat5_exc10_rest }}</td>
+                                                    <td>{{ page.sat5_exc10_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc11 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc11 }}</td>
+                                                    <td>{{ page.sat5_exc11_sets }}</td> 
+                                                    <td>{{ page.sat5_exc11_reps }}</td>
+                                                    <td>{{ page.sat5_exc11_rest }}</td>
+                                                    <td>{{ page.sat5_exc11_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc12 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc12 }}</td>
+                                                    <td>{{ page.sat5_exc12_sets }}</td> 
+                                                    <td>{{ page.sat5_exc12_reps }}</td>
+                                                    <td>{{ page.sat5_exc12_rest }}</td>
+                                                    <td>{{ page.sat5_exc12_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc13 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc13 }}</td>
+                                                    <td>{{ page.sat5_exc13_sets }}</td> 
+                                                    <td>{{ page.sat5_exc13_reps }}</td>
+                                                    <td>{{ page.sat5_exc13_rest }}</td>
+                                                    <td>{{ page.sat5_exc13_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc14 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc14 }}</td>
+                                                    <td>{{ page.sat5_exc14_sets }}</td> 
+                                                    <td>{{ page.sat5_exc14_reps }}</td>
+                                                    <td>{{ page.sat5_exc14_rest }}</td>
+                                                    <td>{{ page.sat5_exc14_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc15 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc15 }}</td>
+                                                    <td>{{ page.sat5_exc15_sets }}</td> 
+                                                    <td>{{ page.sat5_exc15_reps }}</td>
+                                                    <td>{{ page.sat5_exc15_rest }}</td>
+                                                    <td>{{ page.sat5_exc15_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc16 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc16 }}</td>
+                                                    <td>{{ page.sat5_exc16_sets }}</td> 
+                                                    <td>{{ page.sat5_exc16_reps }}</td>
+                                                    <td>{{ page.sat5_exc16_rest }}</td>
+                                                    <td>{{ page.sat5_exc16_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc17 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc17 }}</td>
+                                                    <td>{{ page.sat5_exc17_sets }}</td> 
+                                                    <td>{{ page.sat5_exc17_reps }}</td>
+                                                    <td>{{ page.sat5_exc17_rest }}</td>
+                                                    <td>{{ page.sat5_exc17_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc18 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc18 }}</td>
+                                                    <td>{{ page.sat5_exc18_sets }}</td> 
+                                                    <td>{{ page.sat5_exc18_reps }}</td>
+                                                    <td>{{ page.sat5_exc18_rest }}</td>
+                                                    <td>{{ page.sat5_exc18_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc19 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc19 }}</td>
+                                                    <td>{{ page.sat5_exc19_sets }}</td> 
+                                                    <td>{{ page.sat5_exc19_reps }}</td>
+                                                    <td>{{ page.sat5_exc19_rest }}</td>
+                                                    <td>{{ page.sat5_exc19_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc20 }}</td>
+                                                    <td>{{ page.sat5_exc20_sets }}</td> 
+                                                    <td>{{ page.sat5_exc20_reps }}</td>
+                                                    <td>{{ page.sat5_exc20_rest }}</td>
+                                                    <td>{{ page.sat5_exc20_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc21 }}</td>
+                                                    <td>{{ page.sat5_exc21_sets }}</td> 
+                                                    <td>{{ page.sat5_exc21_reps }}</td>
+                                                    <td>{{ page.sat5_exc21_rest }}</td>
+                                                    <td>{{ page.sat5_exc21_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc22 }}</td>
+                                                    <td>{{ page.sat5_exc22_sets }}</td> 
+                                                    <td>{{ page.sat5_exc22_reps }}</td>
+                                                    <td>{{ page.sat5_exc22_rest }}</td>
+                                                    <td>{{ page.sat5_exc22_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc23 }}</td>
+                                                    <td>{{ page.sat5_exc23_sets }}</td> 
+                                                    <td>{{ page.sat5_exc23_reps }}</td>
+                                                    <td>{{ page.sat5_exc23_rest }}</td>
+                                                    <td>{{ page.sat5_exc23_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc24 }}</td>
+                                                    <td>{{ page.sat5_exc24_sets }}</td> 
+                                                    <td>{{ page.sat5_exc24_reps }}</td>
+                                                    <td>{{ page.sat5_exc24_rest }}</td>
+                                                    <td>{{ page.sat5_exc24_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if page.sat5_exc20 %}
+                                                <tr>
+                                                    <td>{{ page.sat5_exc25 }}</td>
+                                                    <td>{{ page.sat5_exc25_sets }}</td> 
+                                                    <td>{{ page.sat5_exc25_reps }}</td>
+                                                    <td>{{ page.sat5_exc25_rest }}</td>
+                                                    <td>{{ page.sat5_exc25_notes }}</td>
+                                                </tr>
+                                            {% endif %}
+
+                                        </tbody>
+                                    </table>    
+                                {% endif %}
                                 <pday>   <daynum id="day7w5">{{page.day35_num}}</daynum> {{page.day35}} </pday><br><br>
                                     <p>{{ page.sun5_exc1 }}</p>
                                     <p>{{ page.sun5_exc2 }}</p>
