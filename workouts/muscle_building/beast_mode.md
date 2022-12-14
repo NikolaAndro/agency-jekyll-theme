@@ -570,7 +570,7 @@ th2_exc14: Seated triceps press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with
 th2_exc15: Diamond push-ups, 3 x 15
 th2_exc16: Straight, left side, right side weighted crunces, 3 x 20 each 
 day12_num: Day 12 -
-day12: Friday (REST
+day12: Friday (REST)
 day13_num: Day 13 -
 day13: Saturday (Legs & Abs)
 sat2_exc1: Lying cross-over lower back stretch, 1 x 12 
