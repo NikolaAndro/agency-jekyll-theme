@@ -97,8 +97,7 @@ mon1_exc16:
 mon1_exc17: 
 day2_num: Day 2 -
 day2: Tuesday (Back & Abs)
-tu1_exc1: Treadmill walking -1 x 10 min.
-tu1_exc1: Treadmill Walking 1 x 10 min.
+tu1_exc1: Treadmill Walking
 tu1_exc1_sets: 1
 tu1_exc1_reps: 10 min.
 tu1_exc1_rest: 
@@ -475,18 +474,66 @@ mon2_exc25_rest: 1 min.
 mon2_exc25_notes: Straight, left side, right side.
 day9_num: Day 9 -
 day9: Tuesday (Back & Abs)
-tu2_exc1: Treadmill Walking 1 x 10 min.
-tu2_exc2: Bent-arm dumbbell pull-over, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-tu2_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-tu2_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
-tu2_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
-tu2_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure 
-tu2_exc7: Bodyweight abs of your choice, 250 reps 
-tu2_exc8: 
-tu2_exc9: 
-tu2_exc10:
-tu2_exc11:
-tu2_exc12:
+tu2_exc1: Treadmill Walking
+tu2_exc1_sets: 1
+tu2_exc1_reps: 10 min.
+tu2_exc1_rest: 
+tu2_exc1_notes: 
+tu2_exc2: Bent-Arm Dumbbell Pull-over
+tu2_exc2_sets: 2
+tu2_exc2_reps: 10-12
+tu2_exc2_rest: 1 min.
+tu2_exc2_notes: Moderate strain.
+tu2_exc3: Bent-Arm Dumbbell Pull-over
+tu2_exc3_sets: 1
+tu2_exc3_reps: 6-8
+tu2_exc3_rest: 90 sec.
+tu2_exc3_notes: To failure with spotter on the last 2-3 reps.
+tu2_exc4: Close Grip Pull-down
+tu2_exc4_sets: 2
+tu2_exc4_reps: 10-12
+tu2_exc4_rest: 1 min.
+tu2_exc4_notes: Moderate strain.
+tu2_exc5: Close Grip Pull-down
+tu2_exc5_sets: 1
+tu2_exc5_reps: 6-8
+tu2_exc5_rest: 90 sec.
+tu2_exc5_notes: To failure with spotter on the last 2-3 reps.
+tu2_exc6: Single Arm Dumbbell Row
+tu2_exc6_sets: 2
+tu2_exc6_reps: 10-12
+tu2_exc6_rest: 1 min.
+tu2_exc6_notes: Moderate strain. Do both arms and NO REST between the arms.
+tu2_exc7: Single Arm Dumbbell Row
+tu2_exc7_sets: 1
+tu2_exc7_reps: 6-8
+tu2_exc7_rest: 90 sec.
+tu2_exc7_notes: To failure with spotter on the last 2-3 reps.
+tu2_exc8: Cable Seated Row
+tu2_exc8_sets: 2
+tu2_exc8_reps: 10-12
+tu2_exc8_rest: 1 min.
+tu2_exc8_notes: Moderate strain.
+tu2_exc9: Cable Seated Row
+tu2_exc9_sets: 1
+tu2_exc9_reps: 6-8
+tu2_exc9_rest: 90 sec.
+tu2_exc9_notes: To failure with spotter on the last 2-3 reps.
+tu2_exc10: Barbell Deadlift
+tu2_exc10_sets: 2
+tu2_exc10_reps: 10-12
+tu2_exc10_rest: 1 min.
+tu2_exc10_notes: Moderate strain. Lower the bar only to mid shin.
+tu2_exc11: Barbell Deadlift
+tu2_exc11_sets: 1
+tu2_exc11_reps: 6-8
+tu2_exc11_rest: 90 sec.
+tu2_exc11_notes: To failure with spotter on the last 2-3 reps.
+tu2_exc12: Bodyweight abs of your choice, 250 reps 
+tu2_exc12_sets: 5
+tu2_exc12_reps: 50
+tu2_exc12_rest: 30 sec.
+tu2_exc12_notes: Abs of your choice.
 day10_num: Day 10 -
 day10: Wednesday (REST)
 wed2_exc1: 
@@ -628,17 +675,66 @@ mon3_exc16:
 mon3_exc17:  
 day16_num: Day 16 -
 day16: Tuesday (Back & Abs)
-tu3_exc1: Treadmill Walking 1 x 10 min.
-tu3_exc2: Bent-arm dumbbell pull-over, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-tu3_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-tu3_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
-tu3_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
-tu3_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure 
-tu3_exc7: Bodyweight abs of your choice, 250 reps 
-tu3_exc8: 
-tu3_exc9:
-tu3_exc10:
-tu3_exc11:
+tu3_exc1: Treadmill Walking
+tu3_exc1_sets: 1
+tu3_exc1_reps: 10 min.
+tu3_exc1_rest: 
+tu3_exc1_notes:
+tu3_exc2: Bent Arm Dumbbell Pull Over
+tu3_exc2_sets: 2
+tu3_exc2_reps: 10-12
+tu3_exc2_rest: 1 min.
+tu3_exc2_notes: 1st light, 2nd moderate.
+tu3_exc3: Bent Arm Dumbbell Pull-Over
+tu3_exc3_sets: 1
+tu3_exc3_reps: 8-10
+tu3_exc3_rest: 90 sec.
+tu3_exc3_notes: Go heavy & use spotter to help you on the final 2-3 reps.
+tu3_exc4: Close Grip Pull-down
+tu3_exc4_sets: 2
+tu3_exc4_reps: 10-12
+tu3_exc4_rest: 1 min.
+tu3_exc4_notes: 1st light, 2nd moderate.
+tu3_exc5: Close grip pull down
+tu3_exc5_sets: 1
+tu3_exc5_reps: 8-10
+tu3_exc5_rest: 90 sec.
+tu3_exc5_notes: Go heavy & use spotter to help you on the final 2-3 reps.
+tu3_exc6: Single arm dumbbell row (left then right)
+tu3_exc6_sets: 2
+tu3_exc6_reps: 10-12
+tu3_exc6_rest: 1 min.
+tu3_exc6_notes: 1st light, 2nd moderate.
+tu3_exc7: Single arm dumbbell row (left then right)
+tu3_exc7_sets: 1
+tu3_exc7_reps: 8-10
+tu3_exc7_rest: 90 sec.
+tu3_exc7_notes: Go heavy & use spotter to help you on the final 2-3 reps.
+tu3_exc8: Cable seated row 
+tu3_exc8_sets: 2
+tu3_exc8_reps: 10-12
+tu3_exc8_rest: 1 min.
+tu3_exc8_notes: Wide grip. 1st set light, 2nd moderate.
+tu3_exc9: Cable seated row
+tu3_exc9_sets: 1
+tu3_exc9_reps: 8-10
+tu3_exc9_rest: 90 sec.
+tu3_exc9_notes: Wide Grip. Go heavy & use spotter to help you on the final 2-3 reps.
+tu3_exc10: Barbell deadlift
+tu3_exc10_sets: 2
+tu3_exc10_reps: 10-12
+tu3_exc10_rest: 1 min.
+tu3_exc10_notes: Down to mid shin. 1st set light, 2nd moderate.
+tu3_exc11: Barbell deadlift
+tu3_exc11_sets: 1
+tu3_exc11_reps: 8-10
+tu3_exc11_rest: 90 sec.
+tu3_exc11_notes: Go heavy & use spotter to help you on the final 2-3 reps.
+tu3_exc12: Bodyweight abs of your choice, 250 reps 
+tu3_exc12_sets: 5
+tu3_exc12_reps: 50
+tu3_exc12_rest: 30 sec.
+tu3_exc12_notes: 
 day17_num: Day 17 -
 day17: Wednesday (REST)
 wed3_exc1: 
@@ -737,21 +833,90 @@ th3_exc16_notes: 3 sets for left side, right side, and center
 day19_num: Day 19 -
 day19: Friday (Legs & Abs)
 fri3_exc1: Treadmill Walking 1 x 10 min.
-fri3_exc2: Lying cross-over lower back stretch, 1 x 12
-fri3_exc3: Inchworm (suicase walk), 1 x 6
-fri3_exc4: Standing hamstring stretch (pick raspberries), 1 x 12
-fri3_exc5: Leg extension, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri3_exc6: Leg press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri3_exc7: Hack Squat, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri3_exc8: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-fri3_exc9: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
-fri3_exc10: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
-fri3_exc11: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure 
-fri3_exc12: Bodyweight abs of your choice, 250 reps 
-fri3_exc13: 
-fri3_exc14: 
-fri3_exc15: 
-fri3_exc16: 
+fri3_exc1_sets: 1
+fri3_exc1_reps: 10 min.
+fri3_exc1_rest: 
+fri3_exc1_notes:
+fri3_exc2: Lying Cross-over Lower Back Stretch
+fri3_exc2_sets: 1
+fri3_exc2_reps: 12
+fri3_exc2_rest: 
+fri3_exc2_notes:
+fri3_exc3: Inchworm (Suitcase Walk)
+fri3_exc3_sets: 1
+fri3_exc3_reps: 12
+fri3_exc3_rest: 
+fri3_exc3_notes:
+fri3_exc4: Standing Hamstring Stretch (Pick Raspberries)
+fri3_exc4_sets: 1
+fri3_exc4_reps: 12
+fri3_exc4_rest: 
+fri3_exc4_notes:
+fri3_exc5: Leg Extension
+fri3_exc5_sets: 2
+fri3_exc5_reps: 12
+fri3_exc5_rest: 
+fri3_exc5_notes: 1st light, 2nd moderate.
+fri3_exc6: Leg Extension
+fri3_exc6_sets: 1
+fri3_exc6_reps: 12
+fri3_exc6_rest: 
+fri3_exc6_notes: Heavy and to failure + 2-3 reps with spotter.
+fri3_exc7: Leg Press
+fri3_exc7_sets: 2
+fri3_exc7_reps: 12
+fri3_exc7_rest: 
+fri3_exc7_notes: 1st light, 2nd moderate.
+fri3_exc8: Leg Press
+fri3_exc8_sets: 1
+fri3_exc8_reps: 12
+fri3_exc8_rest: 
+fri3_exc8_notes: Heavy and to failure + 2-3 reps with spotter.
+fri3_exc9: Hack Squat
+fri3_exc9_sets: 2
+fri3_exc9_reps: 12
+fri3_exc9_rest: 
+fri3_exc9_notes: Moderate strain.
+fri3_exc10: Hack Squat
+fri3_exc10_sets: 1
+fri3_exc10_reps: 12
+fri3_exc10_rest: 
+fri3_exc10_notes: Heavy and to failure + 2-3 reps with spotter.
+fri3_exc11: Seated Leg Curl
+fri3_exc11_sets: 2
+fri3_exc11_reps: 12
+fri3_exc11_rest: 
+fri3_exc11_notes: Moderate strain.
+fri3_exc12: Seated Leg Curls
+fri3_exc12_sets: 1
+fri3_exc12_reps: 12
+fri3_exc12_rest: 
+fri3_exc12_notes: Heavy and to failure + 2-3 reps with spotter.
+fri3_exc13: Barbell Stiff-legged Deadlift
+fri3_exc13_sets: 2
+fri3_exc13_reps: 12
+fri3_exc13_rest: 
+fri3_exc13_notes: Moderate strain.
+fri3_exc14: Barbell Stiff-legged Deadlift
+fri3_exc14_sets: 1
+fri3_exc14_reps: 12
+fri3_exc14_rest: 
+fri3_exc14_notes: Heavy and to failure + 2-3 reps with spotter.
+fri3_exc15: Leg Press Calf Raise
+fri3_exc15_sets: 2
+fri3_exc15_reps: 12
+fri3_exc15_rest: 
+fri3_exc15_notes: 1st set moderate, 2nd to failure + 15 sec. rest + to failure again. 
+fri3_exc16: Machine Seated Calf Raise
+fri3_exc16_sets: 2
+fri3_exc16_reps: 8-12
+fri3_exc16_rest: 
+fri3_exc16_notes: 4 sec. up, 4 sec. down. Inside, Straight, Out.
+fri3_exc17: Bodyweight Abs
+fri3_exc17_sets: 5
+fri3_exc17_reps: 50
+fri3_exc17_rest: 
+fri3_exc17_notes: Abs of your choice.
 day20_num: Day 20 -
 day20: Saturday (REST)
 sat3_exc1: 
@@ -909,18 +1074,66 @@ mon4_exc25_rest: 1 min.
 mon4_exc25_notes: Straight, left side, right side.
 day23_num: Day 23 -
 day23: Tuesday (Back & Abs)
-tu4_exc1: Treadmill Walking 1 x 10 min.
-tu4_exc2: Bent-arm dumbbell pull-over, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-tu4_exc3: Close grip pull-down, 1 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-tu4_exc4: Single arm dumbbell row (left arm, no rest, right arm),  1 x 10-12 (moderate) + 1 x 8-10 
-tu4_exc5: Cable seated row, 1 x 10-12 (moderate) + 1 x 8-10 to failure
-tu4_exc6: Barbell deadlift (lower the bar only to mid shin on each rep), 1 x 10-12 (moderate) + 1 x 8-10 to failure
-tu4_exc7: Bodyweight abs of your choice, 250 reps 
-tu4_exc8: 
-tu4_exc9: 
-tu4_exc10:
-tu4_exc11: 
-tu4_exc12:
+tu4_exc1: Treadmill Walking
+tu4_exc1_sets: 1
+tu4_exc1_reps: 10 min.
+tu4_exc1_rest: 
+tu4_exc1_notes: 
+tu4_exc2: Bent-Arm Dumbbell Pull-over
+tu4_exc2_sets: 2
+tu4_exc2_reps: 10-12
+tu4_exc2_rest: 1 min.
+tu4_exc2_notes: Moderate strain.
+tu4_exc3: Bent-Arm Dumbbell Pull-over
+tu4_exc3_sets: 1
+tu4_exc3_reps: 6-8
+tu4_exc3_rest: 90 sec.
+tu4_exc3_notes: To failure with spotter on the last 2-3 reps.
+tu4_exc4: Close Grip Pull-down
+tu4_exc4_sets: 2
+tu4_exc4_reps: 10-12
+tu4_exc4_rest: 1 min.
+tu4_exc4_notes: Moderate strain.
+tu4_exc5: Close Grip Pull-down
+tu4_exc5_sets: 1
+tu4_exc5_reps: 6-8
+tu4_exc5_rest: 90 sec.
+tu4_exc5_notes: To failure with spotter on the last 2-3 reps.
+tu4_exc6: Single Arm Dumbbell Row
+tu4_exc6_sets: 2
+tu4_exc6_reps: 10-12
+tu4_exc6_rest: 1 min.
+tu4_exc6_notes: Moderate strain. Do both arms and NO REST between the arms.
+tu4_exc7: Single Arm Dumbbell Row
+tu4_exc7_sets: 1
+tu4_exc7_reps: 6-8
+tu4_exc7_rest: 90 sec.
+tu4_exc7_notes: To failure with spotter on the last 2-3 reps.
+tu4_exc8: Cable Seated Row
+tu4_exc8_sets: 2
+tu4_exc8_reps: 10-12
+tu4_exc8_rest: 1 min.
+tu4_exc8_notes: Moderate strain.
+tu4_exc9: Cable Seated Row
+tu4_exc9_sets: 1
+tu4_exc9_reps: 6-8
+tu4_exc9_rest: 90 sec.
+tu4_exc9_notes: To failure with spotter on the last 2-3 reps.
+tu4_exc10: Barbell Deadlift
+tu4_exc10_sets: 2
+tu4_exc10_reps: 10-12
+tu4_exc10_rest: 1 min.
+tu4_exc10_notes: Moderate strain. Lower the bar only to mid shin.
+tu4_exc11: Barbell Deadlift
+tu4_exc11_sets: 1
+tu4_exc11_reps: 6-8
+tu4_exc11_rest: 90 sec.
+tu4_exc11_notes: To failure with spotter on the last 2-3 reps.
+tu4_exc12: Bodyweight abs of your choice, 250 reps 
+tu4_exc12_sets: 5
+tu4_exc12_reps: 50
+tu4_exc12_rest: 30 sec.
+tu4_exc12_notes: Abs of your choice.
 day24_num: Day 24 -
 day24: Wednesday (REST)
 wed4_exc1: 
