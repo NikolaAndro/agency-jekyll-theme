@@ -1,0 +1,72 @@
+---
+title: Hybrid
+subtitle: 12 weeks
+layout: page
+modal-id: 7
+date: 2022-12-09
+img_path: portfolio/masa.png
+img: masa.png
+thumbnail: masa.png
+canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/hybrid/
+url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/hybrid/
+permalink: hybrid/
+alt: 
+has_coach: no
+project-date: December 2022
+client: Start Bootstrap
+category: Muscle Building
+description:
+week1_num: Week 1
+day1_num: Day 1 -
+day1: Monday (Legs & Abs)
+mon1_exc1: Leg Press
+mon1_exc1_sets: 2
+mon1_exc1_reps: 10
+mon1_exc1_rest: 1 min.
+mon1_exc1_notes: Light weight. Stop a bit before failure.
+mon1_exc2: Leg Press
+mon1_exc2_sets: 4
+mon1_exc2_reps: 8-12
+mon1_exc2_rest: 90 sec.
+mon1_exc2_notes: 
+mon1_exc3: Hack Squat
+mon1_exc3_sets: 4
+mon1_exc3_reps: 8-12
+mon1_exc3_rest: 90 sec.
+mon1_exc3_notes: 
+mon1_exc4: Bulgarian Split Squat
+mon1_exc4_sets: 3
+mon1_exc4_reps: 8-12
+mon1_exc4_rest: 1 min.
+mon1_exc4_notes: No rest when switching legs.
+mon1_exc5: Barbell Stiff-legged Deadlift
+mon1_exc5_sets: 4
+mon1_exc5_reps: 8-12
+mon1_exc5_rest: 90 sec.
+mon1_exc5_notes:
+mon1_exc6: Lying Leg Curl
+mon1_exc6_sets: 5
+mon1_exc6_reps: 8-12
+mon1_exc6_rest: 1 min.
+mon1_exc6_notes: 
+mon1_exc7: Seated Calf Raises
+mon1_exc7_sets: 4
+mon1_exc7_reps: 8-12
+mon1_exc7_rest: 1 min.
+mon1_exc7_notes: 
+mon1_exc8: Leg Press Calf Raises
+mon1_exc8_sets: 4
+mon1_exc8_reps: 8-12
+mon1_exc8_rest: 1 min.
+mon1_exc8_notes:
+mon1_exc9: Lying Windshield Wipers
+mon1_exc9_sets: 4
+mon1_exc9_reps: 8-12
+mon1_exc9_rest: 1 min. 
+mon1_exc9_notes: 8-12 on each side. Performing holding a barbell above your chest.
+mon1_exc10: Jogging
+mon1_exc10_sets: 1
+mon1_exc10_reps: 15 min.
+mon1_exc10_rest: 
+mon1_exc10_notes: Combine 3 min. light with 1 min. hard jog, or use an alternative cardio.
+---
