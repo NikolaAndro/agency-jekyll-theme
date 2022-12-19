@@ -549,26 +549,151 @@ wed2_exc10:
 wed2_exc11: 
 day11_num: Day 11 -
 day11: Thursday (Shoulders, Triceps $ Abs)
-th2_exc1: Treadmill Walking 1 x 10 min.
+th2_exc1: Treadmill Walking
 th2_exc1_sets: 1
 th2_exc1_reps: 10 min.
 th2_exc1_rest: 
 th2_exc1_notes: 
-th2_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th2_exc3: Seated front dumbbell  together press, 2 x 10-12 (moderate) + 1 x 8-10 to failure 
-th2_exc4: Dumbbell lateral raise, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th2_exc5: Single-arm cable lateral raise, 2 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th2_exc6: Bent over rear delt fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th2_exc7: Reverse machine fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th2_exc8: Cable rope half-range push-down with wrist rotation (palm down), 2 x 30
-th2_exc9: Single arm cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th2_exc10: Cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th2_exc11: Reverse grip bench press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th2_exc12: Dumbbell Skullcrushers, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th2_exc13: Inverse grip push up (bottom of Smith machine),  3 x 15
-th2_exc14: Seated triceps press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th2_exc15: Diamond push-ups, 3 x 15
-th2_exc16: Straight, left side, right side weighted crunces, 3 x 20 each 
+th2_exc2: Seated Dumbbell Shoulder Press
+th2_exc2_sets: 2
+th2_exc2_reps: 12
+th2_exc2_rest: 1 min.
+th2_exc2_notes: Moderate strain.
+th2_exc3: Seated Dumbbell Shoulder Press
+th2_exc3_sets: 1
+th2_exc3_reps: 6-8
+th2_exc3_rest: 90 sec.
+th2_exc3_notes: Heavy to failure with spotter on the last 2-3 reps.
+th2_exc4: Seated Front Dumbbell Together Press
+th2_exc4_sets: 2
+th2_exc4_reps: 12
+th2_exc4_rest: 1 min.
+th2_exc4_notes: Moderate strain.
+th2_exc5: Seated Front Dumbbell Together Press
+th2_exc5_sets: 1
+th2_exc5_reps: 8-10
+th2_exc5_rest: 90 sec.
+th2_exc5_notes: Heavy to failure with spotter on the last 2-3 reps.
+th2_exc6: Dumbbell Lateral Raise
+th2_exc6_sets: 2
+th2_exc6_reps: 12
+th2_exc6_rest: 1 min.
+th2_exc6_notes: Moderate strain.
+th2_exc7: Dumbbell Lateral Raise
+th2_exc7_sets: 1
+th2_exc7_reps: 8-10
+th2_exc7_rest: 90 sec.
+th2_exc7_notes: Heavy to failure forcing last 2-3 reps.
+th2_exc8: Single-arm Cable Lateral Raise
+th2_exc8_sets: 2
+th2_exc8_reps: 12
+th2_exc8_rest: 1 min.
+th2_exc8_notes: Moderate strain.
+th2_exc9: Single-arm Cable Lateral Raise
+th2_exc9_sets: 1
+th2_exc9_reps: 8-10
+th2_exc9_rest: 90 sec.
+th2_exc9_notes: Heavy to failure forcing last 2-3 reps.
+th2_exc10: Bent Over Rear Delt Fly
+th2_exc10_sets: 2
+th2_exc10_reps: 12
+th2_exc10_rest: 1 min.
+th2_exc10_notes: Moderate strain.
+th2_exc11: Bent Over Rear Delt Fly
+th2_exc11_sets: 1
+th2_exc11_reps: 8-10
+th2_exc11_rest: 90 sec.
+th2_exc11_notes: Heavy to failure forcing last 2-3 reps.
+th2_exc12: Reverse Machine Fly
+th2_exc12_sets: 2
+th2_exc12_reps: 12
+th2_exc12_rest: 1 min.
+th2_exc12_notes: Moderate strain.
+th2_exc13: Reverse Machine Fly
+th2_exc13_sets: 1
+th2_exc13_reps: 8-10
+th2_exc13_rest: 90 sec.
+th2_exc13_notes: Heavy to failure forcing last 2-3 reps.
+th2_exc14: Cable Rope Half-Range Ppush-down
+th2_exc14_sets: 2
+th2_exc14_reps: 30
+th2_exc14_rest: 90 sec.
+th2_exc14_notes: Rotate wrists, palm down.
+th2_exc15: Single Arm Cable Rope Push-down
+th2_exc15_sets: 2
+th2_exc15_reps: 12
+th2_exc15_rest: 1 min.
+th2_exc15_notes: Moderate strain. Add wrist rotation, palm down.
+th2_exc16: Single Arm Cable Rope Push-down
+th2_exc16_sets: 1
+th2_exc16_reps: 8-10
+th2_exc16_rest: 90 sec.
+th2_exc16_notes: Heavy to failure forcing last 2-3 reps.
+th2_exc17: Cable Rope Push-down
+th2_exc17_sets: 2
+th2_exc17_reps: 12
+th2_exc17_rest: 1 min.
+th2_exc17_notes: Moderate strain. Add wrist rotation.
+th2_exc18: Cable Rope Push-down
+th2_exc18_sets: 1
+th2_exc18_reps: 8-10
+th2_exc18_rest: 90 sec.
+th2_exc18_notes: Heavy to failure forcing last 2-3 reps.
+th2_exc19: Underhand Cable Triceps Extension
+th2_exc19_sets: 2
+th2_exc19_reps: 12
+th2_exc19_rest: 1 min.
+th2_exc19_notes: Moderate strain. Use handles.
+th2_exc20: Underhand Cable Triceps Extension
+th2_exc20_sets: 1
+th2_exc20_reps: 8-10
+th2_exc20_rest: 90 sec.
+th2_exc20_notes: Heavy to failure forcing last 2-3 reps.
+th2_exc21: Reverse Grip Bench Press
+th2_exc21_sets: 2
+th2_exc21_reps: 12
+th2_exc21_rest: 1 min.
+th2_exc21_notes: Moderate strain.
+th2_exc22: Reverse Grip Bench Press
+th2_exc22_sets: 1
+th2_exc22_reps: 8-10
+th2_exc22_rest: 90 sec.
+th2_exc22_notes: Heavy to failure + last 2-3 reps with spotter.
+th2_exc23: Dumbbell Skullcrushers
+th2_exc23_sets: 2
+th2_exc23_reps: 12
+th2_exc23_rest: 1 min.
+th2_exc23_notes: Moderate strain.
+th2_exc24: Dumbbell Skullcrushers
+th2_exc24_sets: 1
+th2_exc24_reps: 8-10
+th2_exc24_rest: 90 sec.
+th2_exc24_notes: Heavy to failure + last 2-3 reps with spotter.
+th2_exc25: Inverse Grip Incline Push-up
+th2_exc25_sets: 3
+th2_exc25_reps: 15
+th2_exc25_rest: 1 min.
+th2_exc25_notes: Bottom of Smith machine.
+th2_exc26: Seated Triceps Press
+th2_exc26_sets: 2
+th2_exc26_reps: 12
+th2_exc26_rest: 1 min.
+th2_exc26_notes: Moderate strain.
+th2_exc27: Seated Triceps Press
+th2_exc27_sets: 1
+th2_exc27_reps: 8-10
+th2_exc27_rest: 90 sec.
+th2_exc27_notes: Heavy to failure + last 2-3 reps with spotter.
+th2_exc28: Diamond Push-ups
+th2_exc28_sets: 3
+th2_exc28_reps: 15
+th2_exc28_rest: 1 min.
+th2_exc28_notes: Moderate strain.
+th2_exc29: Weighted Crunces
+th2_exc29_sets: 3
+th2_exc29_reps: 20/20/20
+th2_exc29_rest: 1 min.
+th2_exc29_notes: Straight, left side, right side.
 day12_num: Day 12 -
 day12: Friday (REST)
 day13_num: Day 13 -
@@ -1150,22 +1275,151 @@ wed4_exc11:
 wed4_exc12:
 day25_num: Day 25 -
 day25: Thursday (Shoulders, Triceps & Abs)
-th4_exc1: Treadmill Walking 1 x 10 min.
-th4_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc3: Seated front dumbbell  together press, 2 x 10-12 (moderate) + 1 x 8-10 to failure 
-th4_exc4: Dumbbell lateral raise, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc5: Single-arm cable lateral raise, 2 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc6: Bent over rear delt fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc7: Reverse machine fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc8: Cable rope half-range push-down with wrist rotation (palm down), 2 x 30
-th4_exc9: Single arm cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th4_exc10: Cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th4_exc11: Reverse grip bench press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th4_exc12: Dumbbell Skullcrushers, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc13: Inverse grip push up (bottom of Smith machine),  3 x 15
-th4_exc14: Seated triceps press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th4_exc15: Diamond push-ups, 3 x 15
-th4_exc16: Straight, left side, right side weighted crunces, 3 x 20 each 
+th4_exc1: Treadmill Walking
+th4_exc1_sets: 1
+th4_exc1_reps: 10 min.
+th4_exc1_rest: 
+th4_exc1_notes: 
+th4_exc2: Seated Dumbbell Shoulder Press
+th4_exc2_sets: 2
+th4_exc2_reps: 12
+th4_exc2_rest: 1 min.
+th4_exc2_notes: Moderate strain.
+th4_exc3: Seated Dumbbell Shoulder Press
+th4_exc3_sets: 1
+th4_exc3_reps: 6-8
+th4_exc3_rest: 90 sec.
+th4_exc3_notes: Heavy to failure with spotter on the last 2-3 reps.
+th4_exc4: Seated Front Dumbbell Together Press
+th4_exc4_sets: 2
+th4_exc4_reps: 12
+th4_exc4_rest: 1 min.
+th4_exc4_notes: Moderate strain.
+th4_exc5: Seated Front Dumbbell Together Press
+th4_exc5_sets: 1
+th4_exc5_reps: 8-10
+th4_exc5_rest: 90 sec.
+th4_exc5_notes: Heavy to failure with spotter on the last 2-3 reps.
+th4_exc6: Dumbbell Lateral Raise
+th4_exc6_sets: 2
+th4_exc6_reps: 12
+th4_exc6_rest: 1 min.
+th4_exc6_notes: Moderate strain.
+th4_exc7: Dumbbell Lateral Raise
+th4_exc7_sets: 1
+th4_exc7_reps: 8-10
+th4_exc7_rest: 90 sec.
+th4_exc7_notes: Heavy to failure forcing last 2-3 reps.
+th4_exc8: Single-arm Cable Lateral Raise
+th4_exc8_sets: 2
+th4_exc8_reps: 12
+th4_exc8_rest: 1 min.
+th4_exc8_notes: Moderate strain.
+th4_exc9: Single-arm Cable Lateral Raise
+th4_exc9_sets: 1
+th4_exc9_reps: 8-10
+th4_exc9_rest: 90 sec.
+th4_exc9_notes: Heavy to failure forcing last 2-3 reps.
+th4_exc10: Bent Over Rear Delt Fly
+th4_exc10_sets: 2
+th4_exc10_reps: 12
+th4_exc10_rest: 1 min.
+th4_exc10_notes: Moderate strain.
+th4_exc11: Bent Over Rear Delt Fly
+th4_exc11_sets: 1
+th4_exc11_reps: 8-10
+th4_exc11_rest: 90 sec.
+th4_exc11_notes: Heavy to failure forcing last 2-3 reps.
+th4_exc12: Reverse Machine Fly
+th4_exc12_sets: 2
+th4_exc12_reps: 12
+th4_exc12_rest: 1 min.
+th4_exc12_notes: Moderate strain.
+th4_exc13: Reverse Machine Fly
+th4_exc13_sets: 1
+th4_exc13_reps: 8-10
+th4_exc13_rest: 90 sec.
+th4_exc13_notes: Heavy to failure forcing last 2-3 reps.
+th4_exc14: Cable Rope Half-Range Ppush-down
+th4_exc14_sets: 2
+th4_exc14_reps: 30
+th4_exc14_rest: 90 sec.
+th4_exc14_notes: Rotate wrists, palm down.
+th4_exc15: Single Arm Cable Rope Push-down
+th4_exc15_sets: 2
+th4_exc15_reps: 12
+th4_exc15_rest: 1 min.
+th4_exc15_notes: Moderate strain. Add wrist rotation, palm down.
+th4_exc16: Single Arm Cable Rope Push-down
+th4_exc16_sets: 1
+th4_exc16_reps: 8-10
+th4_exc16_rest: 90 sec.
+th4_exc16_notes: Heavy to failure forcing last 2-3 reps.
+th4_exc17: Cable Rope Push-down
+th4_exc17_sets: 2
+th4_exc17_reps: 12
+th4_exc17_rest: 1 min.
+th4_exc17_notes: Moderate strain. Add wrist rotation.
+th4_exc18: Cable Rope Push-down
+th4_exc18_sets: 1
+th4_exc18_reps: 8-10
+th4_exc18_rest: 90 sec.
+th4_exc18_notes: Heavy to failure forcing last 2-3 reps.
+th4_exc19: Underhand Cable Triceps Extension
+th4_exc19_sets: 2
+th4_exc19_reps: 12
+th4_exc19_rest: 1 min.
+th4_exc19_notes: Moderate strain. Use handles.
+th4_exc20: Underhand Cable Triceps Extension
+th4_exc20_sets: 1
+th4_exc20_reps: 8-10
+th4_exc20_rest: 90 sec.
+th4_exc20_notes: Heavy to failure forcing last 2-3 reps.
+th4_exc21: Reverse Grip Bench Press
+th4_exc21_sets: 2
+th4_exc21_reps: 12
+th4_exc21_rest: 1 min.
+th4_exc21_notes: Moderate strain.
+th4_exc22: Reverse Grip Bench Press
+th4_exc22_sets: 1
+th4_exc22_reps: 8-10
+th4_exc22_rest: 90 sec.
+th4_exc22_notes: Heavy to failure + last 2-3 reps with spotter.
+th4_exc23: Dumbbell Skullcrushers
+th4_exc23_sets: 2
+th4_exc23_reps: 12
+th4_exc23_rest: 1 min.
+th4_exc23_notes: Moderate strain.
+th4_exc24: Dumbbell Skullcrushers
+th4_exc24_sets: 1
+th4_exc24_reps: 8-10
+th4_exc24_rest: 90 sec.
+th4_exc24_notes: Heavy to failure + last 2-3 reps with spotter.
+th4_exc25: Inverse Grip Incline Push-up
+th4_exc25_sets: 3
+th4_exc25_reps: 15
+th4_exc25_rest: 1 min.
+th4_exc25_notes: Bottom of Smith machine.
+th4_exc26: Seated Triceps Press
+th4_exc26_sets: 2
+th4_exc26_reps: 12
+th4_exc26_rest: 1 min.
+th4_exc26_notes: Moderate strain.
+th4_exc27: Seated Triceps Press
+th4_exc27_sets: 1
+th4_exc27_reps: 8-10
+th4_exc27_rest: 90 sec.
+th4_exc27_notes: Heavy to failure + last 2-3 reps with spotter.
+th4_exc28: Diamond Push-ups
+th4_exc28_sets: 3
+th4_exc28_reps: 15
+th4_exc28_rest: 1 min.
+th4_exc28_notes: Moderate strain.
+th4_exc29: Weighted Crunces
+th4_exc29_sets: 3
+th4_exc29_reps: 20/20/20
+th4_exc29_rest: 1 min.
+th4_exc29_notes: Straight, left side, right side.
 day26_num: Day 26 -
 day26: Friday (REST) 
 day27_num: Day 27 -
@@ -1759,25 +2013,151 @@ wed6_exc11:
 wed6_exc12:
 day39_num: 
 day39: Thursday (Shoulders & Abs)
-th6_exc1: Treadmill Walking 1 x 10 min.
-th6_exc2: Seated dumbbell shoulder press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc3: Seated front dumbbell  together press, 2 x 10-12 (moderate) + 1 x 8-10 to failure 
-th6_exc4: Dumbbell lateral raise, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc5: Single-arm cable lateral raise, 2 x 8-10 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc6: Bent over rear delt fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc7: Reverse machine fly, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc8: Cable rope half-range push-down with wrist rotation (palm down), 2 x 30
-th6_exc9: Single arm cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th6_exc10: Cable rope push-down with wrist rotation (palm down), 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th6_exc11: Reverse grip bench press, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-th6_exc12: Dumbbell Skullcrushers, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc13: Inverse grip push up (bottom of Smith machine),  3 x 15
-th6_exc14: Seated triceps press, 2 x 10-12 (moderate) + 1 x 8-10 to failure with spotter on the last 2-3 reps
-th6_exc15: Diamond push-ups, 3 x 15
-th6_exc16: Straight, left side, right side weighted crunces, 3 x 20 each
-th6_exc17:
-th6_exc18:
-th6_exc19:
+th6_exc1: Treadmill Walking
+th6_exc1_sets: 1
+th6_exc1_reps: 10 min.
+th6_exc1_rest: 
+th6_exc1_notes: 
+th6_exc2: Seated Dumbbell Shoulder Press
+th6_exc2_sets: 2
+th6_exc2_reps: 12
+th6_exc2_rest: 1 min.
+th6_exc2_notes: Moderate strain.
+th6_exc3: Seated Dumbbell Shoulder Press
+th6_exc3_sets: 1
+th6_exc3_reps: 6-8
+th6_exc3_rest: 90 sec.
+th6_exc3_notes: Heavy to failure with spotter on the last 2-3 reps.
+th6_exc4: Seated Front Dumbbell Together Press
+th6_exc4_sets: 2
+th6_exc4_reps: 12
+th6_exc4_rest: 1 min.
+th6_exc4_notes: Moderate strain.
+th6_exc5: Seated Front Dumbbell Together Press
+th6_exc5_sets: 1
+th6_exc5_reps: 8-10
+th6_exc5_rest: 90 sec.
+th6_exc5_notes: Heavy to failure with spotter on the last 2-3 reps.
+th6_exc6: Dumbbell Lateral Raise
+th6_exc6_sets: 2
+th6_exc6_reps: 12
+th6_exc6_rest: 1 min.
+th6_exc6_notes: Moderate strain.
+th6_exc7: Dumbbell Lateral Raise
+th6_exc7_sets: 1
+th6_exc7_reps: 8-10
+th6_exc7_rest: 90 sec.
+th6_exc7_notes: Heavy to failure forcing last 2-3 reps.
+th6_exc8: Single-arm Cable Lateral Raise
+th6_exc8_sets: 2
+th6_exc8_reps: 12
+th6_exc8_rest: 1 min.
+th6_exc8_notes: Moderate strain.
+th6_exc9: Single-arm Cable Lateral Raise
+th6_exc9_sets: 1
+th6_exc9_reps: 8-10
+th6_exc9_rest: 90 sec.
+th6_exc9_notes: Heavy to failure forcing last 2-3 reps.
+th6_exc10: Bent Over Rear Delt Fly
+th6_exc10_sets: 2
+th6_exc10_reps: 12
+th6_exc10_rest: 1 min.
+th6_exc10_notes: Moderate strain.
+th6_exc11: Bent Over Rear Delt Fly
+th6_exc11_sets: 1
+th6_exc11_reps: 8-10
+th6_exc11_rest: 90 sec.
+th6_exc11_notes: Heavy to failure forcing last 2-3 reps.
+th6_exc12: Reverse Machine Fly
+th6_exc12_sets: 2
+th6_exc12_reps: 12
+th6_exc12_rest: 1 min.
+th6_exc12_notes: Moderate strain.
+th6_exc13: Reverse Machine Fly
+th6_exc13_sets: 1
+th6_exc13_reps: 8-10
+th6_exc13_rest: 90 sec.
+th6_exc13_notes: Heavy to failure forcing last 2-3 reps.
+th6_exc14: Cable Rope Half-Range Ppush-down
+th6_exc14_sets: 2
+th6_exc14_reps: 30
+th6_exc14_rest: 90 sec.
+th6_exc14_notes: Rotate wrists, palm down.
+th6_exc15: Single Arm Cable Rope Push-down
+th6_exc15_sets: 2
+th6_exc15_reps: 12
+th6_exc15_rest: 1 min.
+th6_exc15_notes: Moderate strain. Add wrist rotation, palm down.
+th6_exc16: Single Arm Cable Rope Push-down
+th6_exc16_sets: 1
+th6_exc16_reps: 8-10
+th6_exc16_rest: 90 sec.
+th6_exc16_notes: Heavy to failure forcing last 2-3 reps.
+th6_exc17: Cable Rope Push-down
+th6_exc17_sets: 2
+th6_exc17_reps: 12
+th6_exc17_rest: 1 min.
+th6_exc17_notes: Moderate strain. Add wrist rotation.
+th6_exc18: Cable Rope Push-down
+th6_exc18_sets: 1
+th6_exc18_reps: 8-10
+th6_exc18_rest: 90 sec.
+th6_exc18_notes: Heavy to failure forcing last 2-3 reps.
+th6_exc19: Underhand Cable Triceps Extension
+th6_exc19_sets: 2
+th6_exc19_reps: 12
+th6_exc19_rest: 1 min.
+th6_exc19_notes: Moderate strain. Use handles.
+th6_exc20: Underhand Cable Triceps Extension
+th6_exc20_sets: 1
+th6_exc20_reps: 8-10
+th6_exc20_rest: 90 sec.
+th6_exc20_notes: Heavy to failure forcing last 2-3 reps.
+th6_exc21: Reverse Grip Bench Press
+th6_exc21_sets: 2
+th6_exc21_reps: 12
+th6_exc21_rest: 1 min.
+th6_exc21_notes: Moderate strain.
+th6_exc22: Reverse Grip Bench Press
+th6_exc22_sets: 1
+th6_exc22_reps: 8-10
+th6_exc22_rest: 90 sec.
+th6_exc22_notes: Heavy to failure + last 2-3 reps with spotter.
+th6_exc23: Dumbbell Skullcrushers
+th6_exc23_sets: 2
+th6_exc23_reps: 12
+th6_exc23_rest: 1 min.
+th6_exc23_notes: Moderate strain.
+th6_exc24: Dumbbell Skullcrushers
+th6_exc24_sets: 1
+th6_exc24_reps: 8-10
+th6_exc24_rest: 90 sec.
+th6_exc24_notes: Heavy to failure + last 2-3 reps with spotter.
+th6_exc25: Inverse Grip Incline Push-up
+th6_exc25_sets: 3
+th6_exc25_reps: 15
+th6_exc25_rest: 1 min.
+th6_exc25_notes: Bottom of Smith machine.
+th6_exc26: Seated Triceps Press
+th6_exc26_sets: 2
+th6_exc26_reps: 12
+th6_exc26_rest: 1 min.
+th6_exc26_notes: Moderate strain.
+th6_exc27: Seated Triceps Press
+th6_exc27_sets: 1
+th6_exc27_reps: 8-10
+th6_exc27_rest: 90 sec.
+th6_exc27_notes: Heavy to failure + last 2-3 reps with spotter.
+th6_exc28: Diamond Push-ups
+th6_exc28_sets: 3
+th6_exc28_reps: 15
+th6_exc28_rest: 1 min.
+th6_exc28_notes: Moderate strain.
+th6_exc29: Weighted Crunces
+th6_exc29_sets: 3
+th6_exc29_reps: 20/20/20
+th6_exc29_rest: 1 min.
+th6_exc29_notes: Straight, left side, right side.
 day40_num: Day 40 -
 day40: Friday (REST)
 day41_num: Day 41 -
