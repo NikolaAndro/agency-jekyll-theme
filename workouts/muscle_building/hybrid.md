@@ -9,7 +9,6 @@ img: masa.png
 thumbnail: masa.png
 canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/hybrid/
 url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/hybrid/
-permalink: hybrid/
 alt: 
 has_coach: no
 project-date: December 2022
