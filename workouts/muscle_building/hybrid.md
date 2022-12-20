@@ -73,7 +73,7 @@ day2: Tuesday (Chest & Triceps)
 tu1_exc1: Incline Dumbbell Bench Press
 tu1_exc1_sets: 2
 tu1_exc1_reps: 10
-tu1_exc1_rest: 
+tu1_exc1_rest: 1 min.
 tu1_exc1_notes: Light weight. Stop short of failure.
 tu1_exc2: Incline Dumbbell Bench Press
 tu1_exc2_sets: 3
