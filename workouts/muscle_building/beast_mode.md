@@ -698,23 +698,131 @@ day12_num: Day 12 -
 day12: Friday (REST)
 day13_num: Day 13 -
 day13: Saturday (Legs & Abs)
-sat2_exc1: Lying cross-over lower back stretch, 1 x 12 
-sat2_exc2: Inchworm (suicase walk), 1 x 6
-sat2_exc3: Standing hamstring stretch (pick raspberries), 1 x 12
-sat2_exc4: Empty bar squats, 1 x 100
-sat2_exc5: Leg extension, 3 x 10-12 + 1 x 10-12 to failure with spotter on the last 2-3 reps 
-sat2_exc6: Leg press feet together toes out, 2 x 10-12  + 1 x 10-12 to failure with spotter on the last 2-3 reps
-sat2_exc7: One and a half leg press feet shoulder width apart (half rep + full rep = 1 rep), 2 x 10-12  + 1 x 10-12 to failure
-sat2_exc8: Leg press feet wide (half rep only), 2 x 30  
-sat2_exc9: Kneeling layback quad squeeze, 3 x 15
-sat2_exc10: Barbell hip thrust with 3 sec. hold on the top, 3 x 15
-sat2_exc11: Goblet squats, 2 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-sat2_exc12: Seated leg curl, 1 x 10-12 (moderate) + 1 x 10-12 to failure with spotter on the last 2-3 reps
-sat2_exc13: Elevated front foot lunge, 2 x 8 each leg
-sat2_exc14: Barbell stiff-legged deadlift, 1 x 10-12 (moderate) + 1 x 10-12 to failure 
-sat2_exc15: Leg press calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure + pause for 15 sec. and rep to failure again
-sat2_exc16: Machine seated calf raise, 1 x 10-12 (moderate) + 1 x 8-10 to failure  
-sat2_exc17: Bodyweight abs of your choice, 250 reps 
+sat2_exc1: Lying Cross-over Lower Back Stretch
+sat2_exc1_sets: 1
+sat2_exc1_reps: 12
+sat2_exc1_rest: 
+sat2_exc1_notes:
+sat2_exc2: Inchworm
+sat2_exc2_sets: 1
+sat2_exc2_reps: 6
+sat2_exc2_rest: 
+sat2_exc2_notes: Suicase walk
+sat2_exc3: Standing Hamstring Stretch
+sat2_exc3_sets: 1
+sat2_exc3_reps: 12
+sat2_exc3_rest: 
+sat2_exc3_notes: Pick raspberries.
+sat2_exc4: Empty Bar Squats
+sat2_exc1_sets: 1
+sat2_exc1_reps: 100
+sat2_exc1_rest: 
+sat2_exc1_notes:
+sat2_exc5: Leg Extension 
+sat2_exc1_sets: 2
+sat2_exc1_reps: 10-12
+sat2_exc1_rest: 
+sat2_exc1_notes: Moderate strain.
+sat2_exc6: Leg Extension
+sat2_exc6_sets: 1
+sat2_exc6_reps: 8-12
+sat2_exc6_rest: 
+sat2_exc6_notes: To failure with forced 2-3 reps after failure.
+sat2_exc7: Leg Press Feet Together Toes Out
+sat2_exc7_sets: 2
+sat2_exc7_reps: 10-12
+sat2_exc7_rest: 
+sat2_exc7_notes: Moderate strain.
+sat2_exc8: Leg Press Feet Together Toes Out
+sat2_exc8_sets: 1
+sat2_exc8_reps: 8-12
+sat2_exc8_rest: 
+sat2_exc8_notes: To failure + additional 2-3 reps after failure.
+sat2_exc9: One And Half Leg Press
+sat2_exc9_sets: 2
+sat2_exc9_reps: 10-12
+sat2_exc9_rest: 
+sat2_exc9_notes: Half rep + full rep = 1 rep. Feet shoulder width apart. Moderate strain.
+sat2_exc10: One And Half Leg Press
+sat2_exc10_sets: 1
+sat2_exc10_reps: 8-12
+sat2_exc10_rest: 
+sat2_exc10_notes: To failure + additional 2-3 reps with spotter after failure.
+sat2_exc11: Half Rep Leg Press
+sat2_exc11_sets: 2
+sat2_exc11_reps: 30
+sat2_exc11_rest: 
+sat2_exc11_notes: Bottom half range of motion only. Feet wide apart and high.
+sat2_exc12: Kneeling Quad Extension
+sat2_exc12_sets: 3
+sat2_exc12_reps: 12-15
+sat2_exc12_rest: 
+sat2_exc12_notes: 
+sat2_exc13: Barbell Hip Thrust
+sat2_exc13_sets: 3
+sat2_exc13_reps: 8-12
+sat2_exc13_rest: 
+sat2_exc13_notes: 3 sec. hold on the top.
+sat2_exc14: Goblet Squats
+sat2_exc14_sets: 2
+sat2_exc14_reps: 10-12
+sat2_exc14_rest: 
+sat2_exc14_notes: Moderate strain.
+sat2_exc15: Goblet Squats
+sat2_exc15_sets: 1
+sat2_exc15_reps: 8-12
+sat2_exc15_rest: 
+sat2_exc15_notes: To failure with spotter on the last 2-3 reps.
+sat2_exc16: Seated Leg Curl
+sat2_exc16_sets: 2
+sat2_exc16_reps: 10-12
+sat2_exc16_rest: 
+sat2_exc16_notes: Moderate strain.
+sat2_exc17: Seated Leg Curl
+sat2_exc17_sets: 1
+sat2_exc17_reps: 8-12
+sat2_exc17_rest: 
+sat2_exc17_notes: To failure with spotter on the last 2-3 reps.
+sat2_exc18: Elevated Front Foot Lunge
+sat2_exc18_sets: 2
+sat2_exc18_reps: 8
+sat2_exc18_rest: a min.
+sat2_exc18_notes: Each leg.
+sat2_exc19: Barbell Stiff-legged Deadlift
+sat2_exc19_sets: 2
+sat2_exc19_reps: 10-12
+sat2_exc19_rest: 
+sat2_exc19_notes: Moderate strain.
+sat2_exc20: Seated Leg Curl
+sat2_exc20_sets: 1
+sat2_exc20_reps: 8-12
+sat2_exc20_rest: 
+sat2_exc20_notes: To failure.
+sat2_exc21: Leg Press Calf Raise
+sat2_exc21_sets: 1
+sat2_exc21_reps: 10-12
+sat2_exc21_rest: 
+sat2_exc21_notes: Moderate strain.
+sat2_exc22: Leg Press Calf Raise
+sat2_exc22_sets: 1
+sat2_exc22_reps: 8-12
+sat2_exc22_rest: 
+sat2_exc22_notes: To failure + pause for 15 sec. and rep to failure again.
+sat2_exc23: Machine Seated Calf Raise
+sat2_exc23_sets: 1
+sat2_exc23_reps: 10-12
+sat2_exc23_rest: 
+sat2_exc23_notes: Moderate strain.
+sat2_exc24:  Machine Seated Calf Raise
+sat2_exc24_sets: 1
+sat2_exc24_reps: 8-12
+sat2_exc24_rest: 
+sat2_exc24_notes: To failure.
+sat2_exc25: Bodyweight Abs
+sat2_exc25_sets: 5
+sat2_exc25_reps: 50
+sat2_exc25_rest: 
+sat2_exc25_notes: Abs of your choice.
 day14_num: Day 14 -
 day14: Sunday
 sun2_exc1: REST
