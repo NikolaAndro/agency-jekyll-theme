@@ -701,7 +701,7 @@ day13: Saturday (Legs & Abs)
 sat2_exc1: Lying Cross-over Lower Back Stretch
 sat2_exc1_sets: 1
 sat2_exc1_reps: 12
-sat2_exc1_rest: 
+sat2_exc1_rest:
 sat2_exc1_notes:
 sat2_exc2: Inchworm
 sat2_exc2_sets: 1
