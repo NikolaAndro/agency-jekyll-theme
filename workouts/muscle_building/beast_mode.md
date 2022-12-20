@@ -701,8 +701,6 @@ day13: Saturday (Legs & Abs)
 sat2_exc1: Lying Cross-over Lower Back Stretch
 sat2_exc1_sets: 1
 sat2_exc1_reps: 12
-sat2_exc1_rest:
-sat2_exc1_notes:
 sat2_exc2: Inchworm
 sat2_exc2_sets: 1
 sat2_exc2_reps: 6
@@ -1535,8 +1533,6 @@ day27: Saturday (Legs & Abs)
 sat4_exc1: Lying Cross-over Lower Back Stretch
 sat4_exc1_sets: 1
 sat4_exc1_reps: 12
-sat4_exc1_rest: 
-sat4_exc1_notes:
 sat4_exc2: Inchworm
 sat4_exc2_sets: 1
 sat4_exc2_reps: 6
@@ -2378,8 +2374,6 @@ day41: Saturday (Legs & Abs)
 sat6_exc1: Lying Cross-over Lower Back Stretch
 sat6_exc1_sets: 1
 sat6_exc1_reps: 12
-sat6_exc1_rest: 
-sat6_exc1_notes:
 sat6_exc2: Inchworm
 sat6_exc2_sets: 1
 sat6_exc2_reps: 6
