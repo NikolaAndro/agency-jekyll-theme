@@ -712,15 +712,15 @@ sat2_exc3_reps: 12
 sat2_exc3_rest: 
 sat2_exc3_notes: Pick raspberries.
 sat2_exc4: Empty Bar Squats
-sat2_exc1_sets: 1
-sat2_exc1_reps: 100
-sat2_exc1_rest: 2 min.
-sat2_exc1_notes: Take as many sets as you need. As little rest as possible.
+sat2_exc4_sets: 1
+sat2_exc4_reps: 100
+sat2_exc4_rest: 2 min.
+sat2_exc4_notes: Take as many sets as you need. As little rest as possible.
 sat2_exc5: Leg Extension 
-sat2_exc1_sets: 2
-sat2_exc1_reps: 10-12
-sat2_exc1_rest: 1 min.
-sat2_exc1_notes: Moderate strain.
+sat2_exc5_sets: 2
+sat2_exc5_reps: 10-12
+sat2_exc5_rest: 1 min.
+sat2_exc5_notes: Moderate strain.
 sat2_exc6: Leg Extension
 sat2_exc6_sets: 1
 sat2_exc6_reps: 8-12
@@ -1544,15 +1544,15 @@ sat4_exc3_reps: 12
 sat4_exc3_rest: 
 sat4_exc3_notes: Pick raspberries.
 sat4_exc4: Empty Bar Squats
-sat4_exc1_sets: 1
-sat4_exc1_reps: 100
-sat4_exc1_rest: 2 min.
-sat4_exc1_notes: Take as many sets as you need. As little rest as possible.
+sat4_exc4_sets: 1
+sat4_exc4_reps: 100
+sat4_exc4_rest: 2 min.
+sat4_exc4_notes: Take as many sets as you need. As little rest as possible.
 sat4_exc5: Leg Extension 
-sat4_exc1_sets: 2
-sat4_exc1_reps: 10-12
-sat4_exc1_rest: 1 min.
-sat4_exc1_notes: Moderate strain.
+sat4_exc5_sets: 2
+sat4_exc5_reps: 10-12
+sat4_exc5_rest: 1 min.
+sat4_exc5_notes: Moderate strain.
 sat4_exc6: Leg Extension
 sat4_exc6_sets: 1
 sat4_exc6_reps: 8-12
@@ -2385,15 +2385,15 @@ sat6_exc3_reps: 12
 sat6_exc3_rest: 
 sat6_exc3_notes: Pick raspberries.
 sat6_exc4: Empty Bar Squats
-sat6_exc1_sets: 1
-sat6_exc1_reps: 100
-sat6_exc1_rest: 2 min.
-sat6_exc1_notes: Take as many sets as you need. As little rest as possible.
+sat6_exc4_sets: 1
+sat6_exc4_reps: 100
+sat6_exc4_rest: 2 min.
+sat6_exc4_notes: Take as many sets as you need. As little rest as possible.
 sat6_exc5: Leg Extension 
-sat6_exc1_sets: 2
-sat6_exc1_reps: 10-12
-sat6_exc1_rest: 1 min.
-sat6_exc1_notes: Moderate strain.
+sat6_exc5_sets: 2
+sat6_exc5_reps: 10-12
+sat6_exc5_rest: 1 min.
+sat6_exc5_notes: Moderate strain.
 sat6_exc6: Leg Extension
 sat6_exc6_sets: 1
 sat6_exc6_reps: 8-12
