@@ -68,4 +68,51 @@ mon1_exc10_sets: 1
 mon1_exc10_reps: 15 min.
 mon1_exc10_rest: 
 mon1_exc10_notes: Combine 3 min. light with 1 min. hard jog, or use an alternative cardio.
+day2_num: Day 2 -
+day2: Tuesday (Chest & Triceps)
+tu1_exc1: Incline Dumbbell Bench Press
+tu1_exc1_sets: 2
+tu1_exc1_reps: 10
+tu1_exc1_rest: 
+tu1_exc1_notes: Light weight. Stop short of failure.
+tu1_exc2: Incline Dumbbell Bench Press
+tu1_exc2_sets: 
+tu1_exc2_reps: 8-12
+tu1_exc2_rest: 90 sec.
+tu1_exc2_notes: 
+tu1_exc3: Flat Dumbbell Bench Press
+tu1_exc3_sets: 3
+tu1_exc3_reps: 8-12
+tu1_exc3_rest: 90 sec.
+tu1_exc3_notes: 
+tu1_exc4: Incline Dumbbell Fly
+tu1_exc4_sets: 3
+tu1_exc4_reps: 8-12
+tu1_exc4_rest: 90 sec.
+tu1_exc4_notes: 
+tu1_exc5: Weighted Chest Dip
+tu1_exc5_sets: 3
+tu1_exc5_reps: 8-12
+tu1_exc5_rest: 90 sec.
+tu1_exc5_notes:
+tu1_exc6: Cable V-bar Push Down
+tu1_exc6_sets: 3
+tu1_exc6_reps: 8-12
+tu1_exc6_rest: 90 sec.
+tu1_exc6_notes: Kneelineg Cable Triceps Extensions
+tu1_exc7: Single arm dumbbell row (left then right)
+tu1_exc7_sets: 3
+tu1_exc7_reps: 8-12
+tu1_exc7_rest: 1 min.
+tu1_exc7_notes:
+tu1_exc8: Smith Machine Close Grip Bench Press
+tu1_exc8_sets: 3
+tu1_exc8_reps: 8-12
+tu1_exc8_rest: 1 min.
+tu1_exc8_notes: 
+tu1_exc9: Eliptical Machine 
+tu1_exc9_sets: 1
+tu1_exc9_reps: 15 min.
+tu1_exc9_rest: 
+tu1_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 ---
