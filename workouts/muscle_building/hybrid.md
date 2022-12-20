@@ -76,7 +76,7 @@ tu1_exc1_reps: 10
 tu1_exc1_rest: 
 tu1_exc1_notes: Light weight. Stop short of failure.
 tu1_exc2: Incline Dumbbell Bench Press
-tu1_exc2_sets: 
+tu1_exc2_sets: 3
 tu1_exc2_reps: 8-12
 tu1_exc2_rest: 90 sec.
 tu1_exc2_notes: 
