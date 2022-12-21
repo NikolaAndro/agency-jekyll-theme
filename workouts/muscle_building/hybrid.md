@@ -99,12 +99,12 @@ tu1_exc6: Cable V-bar Push Down
 tu1_exc6_sets: 3
 tu1_exc6_reps: 8-12
 tu1_exc6_rest: 90 sec.
-tu1_exc6_notes: Kneelineg Cable Triceps Extensions
-tu1_exc7: Single arm dumbbell row (left then right)
+tu1_exc6_notes: 
+tu1_exc7: Kneelineg Cable Triceps Extensions
 tu1_exc7_sets: 3
 tu1_exc7_reps: 8-12
 tu1_exc7_rest: 1 min.
-tu1_exc7_notes:
+tu1_exc7_notes: Kneel away from cable machine while elbows on a bench.
 tu1_exc8: Smith Machine Close Grip Bench Press
 tu1_exc8_sets: 3
 tu1_exc8_reps: 8-12
