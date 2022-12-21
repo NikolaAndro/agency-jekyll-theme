@@ -115,4 +115,46 @@ tu1_exc9_sets: 1
 tu1_exc9_reps: 15 min.
 tu1_exc9_rest: 
 tu1_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day3_num: Day 3 -
+day3: Wednesday (Shoulders & Abs)
+wed1_exc1: Cuban Press
+wed1_exc1_sets: 2
+wed1_exc1_reps: 10
+wed1_exc1_rest: 1 min.
+wed1_exc1_notes: Warmup sets. Light weight. Stop a bit before failure.
+wed1_exc2: Cuban Press
+wed1_exc2_sets: 4
+wed1_exc2_reps: 8-12
+wed1_exc2_rest: 90 sec.
+wed1_exc2_notes: 
+wed1_exc3: Dumbbell Lateral Raise
+wed1_exc3_sets: 3
+wed1_exc3_reps: 8-12
+wed1_exc3_rest: 1 min.
+wed1_exc3_notes: 
+wed1_exc4: Overhead Bar Front Raise
+wed1_exc4_sets: 3
+wed1_exc4_reps: 8-12
+wed1_exc4_rest: 1 min.
+wed1_exc4_notes: 
+wed1_exc5: Rear Delt Fly
+wed1_exc5_sets: 4
+wed1_exc5_reps: 8-12
+wed1_exc5_rest: 1 min.
+wed1_exc5_notes: 
+wed1_exc6: Decline Bar Press Sit-up
+wed1_exc6_sets: 4
+wed1_exc6_reps: 8-12
+wed1_exc6_rest: 1 min.
+wed1_exc6_notes: 
+wed1_exc7: Barbell Rollout
+wed1_exc7_sets: 3
+wed1_exc7_reps: 8-12
+wed1_exc7_rest: 1 min.
+wed1_exc7_notes: 
+wed1_exc8:Stationary Bike
+wed1_exc8_sets: 1
+wed1_exc8_reps: 15 min.
+wed1_exc8_rest:
+wed1_exc8_notes:  Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 ---
