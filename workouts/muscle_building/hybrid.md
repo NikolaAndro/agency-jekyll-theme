@@ -157,4 +157,5 @@ wed1_exc8_sets: 1
 wed1_exc8_reps: 15 min.
 wed1_exc8_rest:
 wed1_exc8_notes:  Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+
 ---
