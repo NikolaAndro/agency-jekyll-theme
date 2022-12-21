@@ -151,8 +151,8 @@ wed1_exc7: Barbell Rollout
 wed1_exc7_sets: 3
 wed1_exc7_reps: 8-12
 wed1_exc7_rest: 1 min.
-wed1_exc7_notes: 
-wed1_exc8:Stationary Bike
+wed1_exc7_notes:
+wed1_exc8: Stationary Bike
 wed1_exc8_sets: 1
 wed1_exc8_reps: 15 min.
 wed1_exc8_rest:
