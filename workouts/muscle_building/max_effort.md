@@ -344,7 +344,7 @@ sun1_exc1: REST
 week2_num: Week 2
 day8_num: Day 8 -
 day8: Monday (Chest & Abs)
-mon2_exc2: Incline Dumbbell Bench Press
+mon2_exc1: Incline Dumbbell Bench Press
 mon2_exc1_sets: 2
 mon2_exc1_reps: 10
 mon2_exc1_rest: 1 min.
