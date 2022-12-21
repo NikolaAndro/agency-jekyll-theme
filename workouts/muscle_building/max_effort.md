@@ -54,7 +54,7 @@ mon1_exc7: High-to-low cable chest fly
 mon1_exc7_sets: 6
 mon1_exc7_reps: 12-15
 mon1_exc7_rest: NO REST
-mon1_exc7_notes: SUPERSET WITH NEXT
+mon1_exc7_notes: SUPERSET WITH NEXT EXERCISE.
 mon1_exc8: Push-up
 mon1_exc8_sets: 6
 mon1_exc8_reps: 12-15
@@ -96,7 +96,7 @@ tu1_exc4: Single Arm (left) Dumbbell Row
 tu1_exc4_sets: 4
 tu1_exc4_reps: 12
 tu1_exc4_rest: NO REST
-tu1_exc4_notes: SUPERSET WITH NEXT
+tu1_exc4_notes: SUPERSET WITH NEXT EXERCISE.
 tu1_exc5: Single arm (right) dumbbell row
 tu1_exc5_sets: 4
 tu1_exc5_reps: 12
@@ -168,7 +168,7 @@ wed1_exc7: Machine Seated Calf Raise
 wed1_exc7_sets: 4
 wed1_exc7_reps: 12-15
 wed1_exc7_rest: NO REST
-wed1_exc7_notes: SUPERSET WITH NEXT
+wed1_exc7_notes: SUPERSET WITH NEXT EXERCISE.
 wed1_exc8: Leg Press Calf Raise
 wed1_exc8_sets: 4
 wed1_exc8_reps: 12-15
@@ -218,7 +218,7 @@ th1_exc8: Elevated Side Plank With Hip Dip (Left)
 th1_exc8_sets: 4
 th1_exc8_reps: 12
 th1_exc8_rest: NO REST
-th1_exc8_notes: Feet on the bench. Superset with next.
+th1_exc8_notes: Feet on the bench. SUPERSET WITH NEXT EXERCISE.
 th1_exc9: Elevated Side Plank With Hip Dip (Right)
 th1_exc9_sets: 4
 th1_exc9_reps: 12
@@ -228,7 +228,7 @@ th1_exc10: Half Turkish Get-up (Left Side)
 th1_exc10_sets: 4
 th1_exc10_reps: 12
 th1_exc10_rest: NO REST
-th1_exc10_notes: Superset with next.
+th1_exc10_notes: SUPERSET WITH NEXT EXERCISE.
 th1_exc11: Half Turkish Get-up (Right Side)
 th1_exc11_sets: 4
 th1_exc11_reps: 12
@@ -300,7 +300,7 @@ fri1_exc12: Cable V-bar Push-down
 fri1_exc12_sets: 6
 fri1_exc12_reps: 12
 fri1_exc12_rest: NO REST
-fri1_exc12_notes: Superset with next exercise.
+fri1_exc12_notes: SUPERSET WITH NEXT EXERCISE.
 fri1_exc13: Diamond Push-up
 fri1_exc13_sets: 6
 fri1_exc13_reps: 12
@@ -344,18 +344,66 @@ sun1_exc1: REST
 week2_num: Week 2
 day8_num: Day 8 -
 day8: Monday (Chest & Abs)
-mon2_exc1: Incline dumbbell bench press (warm up sets) 2 x 10, rest 1 min.
-mon2_exc2: Incline dumbbell bench press - 12/10/8/8/8/8, rest 1 min. + double drop set after the last set
-mon2_exc3: Barbell bench press - medium grip - 12/10/10/8, rest 1 min. + double drop set after the last set
-mon2_exc4: 30 degree incline dumbbell fly - 4 x 12, rest 1 min. 
-mon2_exc5: Machine chest press - 5 x 10-12, rest 1 min. + double drop set after the last set
-mon2_exc6: Shoulder height cable fly - 4 x 12, NO REST
-mon2_exc7: Incline push ups - to failure, rest 1 min. (back to cable fly)
-mon2_exc8: Low to high cable fly - 4 x 12, NO REST
-mon2_exc9: Push-up - 4 x 12, rest 1 min. (backt to cable fly)
-mon2_exc10: Barbell floor wiper - 4 x 24, no rest
-mon2_exc11: Decline plate sit-up - 4 x 25, no rest
-mon2_exc12: Decline sit-up twist - 4 x 24, rest 90 sec. (back to floor whiper)
+mon2_exc2: Incline Dumbbell Bench Press
+mon2_exc1_sets: 2
+mon2_exc1_reps: 10
+mon2_exc1_rest: 1 min.
+mon2_exc1_notes: Warm-up sets
+mon2_exc2: Incline Dumbbell Bench Press
+mon2_exc2_sets: 6
+mon2_exc2_reps: 12/10/8/8/8/8
+mon2_exc2_rest: 1 min.
+mon2_exc2_notes: Double drop set after the last set.
+mon2_exc3: Barbell Bench Press
+mon2_exc3_sets: 4
+mon2_exc3_reps: 12/10/10/8
+mon2_exc3_rest: 1 min.
+mon2_exc3_notes: Medium width grip. Double drop set after the last set.
+mon2_exc4: 30 Degree Incline Dumbbell Fly
+mon2_exc4_sets: 4
+mon2_exc4_reps: 12
+mon2_exc4_rest: 1 min.
+mon2_exc4_notes: 
+mon2_exc5: Machine Chest Press
+mon2_exc5_sets: 5
+mon2_exc5_reps: 12
+mon2_exc5_rest: 1 min.
+mon2_exc5_notes: Double drop set after the last set.
+mon2_exc6: Cable Fly
+mon2_exc6_sets: 4
+mon2_exc6_reps: 12
+mon2_exc6_rest: NO REST
+mon2_exc6_notes: Chest height. SUPERSET WITH NEXT EXERICSE.
+mon2_exc7: Incline Push-ups
+mon2_exc7_sets: 4
+mon2_exc7_reps: To failure
+mon2_exc7_rest: 1 min.
+mon2_exc7_notes: Back to cable fly.
+mon2_exc8: Low To High Cable Fly
+mon2_exc8_sets: 4
+mon2_exc8_reps: 12
+mon2_exc8_rest: NO REST
+mon2_exc8_notes: SUPERSET WITH NEXT EXERICSE.
+mon2_exc9: Flat Push-up
+mon2_exc9_sets: 4
+mon2_exc9_reps: 12
+mon2_exc9_rest: 1 min.
+mon2_exc9_notes: Back to low-to-high cable fly.
+mon2_exc10: Barbell Floor Wiper
+mon2_exc10_sets: 4
+mon2_exc10_reps: 24
+mon2_exc10_rest: NO REST
+mon2_exc10_notes: TRISET WITH NEXT 2 EXERICSES.
+mon2_exc11: Decline Plate Sit-up
+mon2_exc11_sets: 4
+mon2_exc11_reps: 24
+mon2_exc11_rest: NO REST
+mon2_exc11_notes: TRISET ONTO THE NEXT EXERICSE.
+mon2_exc12: Decline Sit-up Twist
+mon2_exc12_sets: 4
+mon2_exc12_reps: 24
+mon2_exc12_rest: 90 sec.
+mon2_exc12_notes: Back to floor wipers.
 day9_num: Day 9 -
 day9: Tuesday (Back)
 tu2_exc1: Pull-up (warm-up sets) - 2 x 5-10
@@ -423,19 +471,71 @@ sun2_exc1: REST
 week3_num: Week 3
 day15_num: Day 15 -
 day15: Monday (Chest & Abs) 
-mon3_exc1: Barbell bench press medium grip - 2 x 10, rest 1 min (warm up sets)
-mon3_exc2: Barbell bench press medium grip - 12/10/8/8/6/6, rest 1 min. + double drop set after the last set
-mon3_exc3: Incline bench press - 10/10/8/8/6, rest 1 min. + rest pause (15 sec) then push2-3 morre reps after 3rd and 4th set + double drop set after the last set
-mon3_exc4: Smith machine incline chest press - 4 x 12, rest 1 min. + double drop set after the last set
-mon3_exc5: Incline cable chest fly - 5 x 12, NO REST
-mon3_exc6: Incline cable chest press - 5 x 12, rest 30 sec. (back to chest fly)
-mon3_exc7: Machine chest fly - 6 x 12-15, rest 30 sec.
-mon3_exc8: Push-up - 100 reps with as many sets as necessary, rest 15 sec. in between sets.
-mon3_exc9: Pallof press (left)- 4 x 12, NO REST
-mon3_exc10: Pallof press (right)- 4 x 12, NO REST
-mon3_exc11: Decline bar press sit-up - 4 x 15, rest 90 sec. (back to pallof press)
-mon3_exc12: Spider crunch - 4 x 12, NO REST
-mon3_exc13: Toe tuch - 4 x 15, rest 1 min.
+mon3_exc1: Barbell Bench Press
+mon3_exc1_sets: 2
+mon3_exc1_reps: 10
+mon3_exc1_rest: 1 min.
+mon3_exc1_notes: Medium width grip. Warm-up sets.
+mon3_exc2: Barbell Bench Press
+mon3_exc2_sets: 6
+mon3_exc2_reps: 12/10/8/8/6/6
+mon3_exc2_rest: 1 min.
+mon3_exc2_notes: Medium width grip. Double drop set after the last set.
+mon3_exc3: Incline Bench Press
+mon3_exc3_sets: 5
+mon3_exc3_reps: 10/10/8/8/6
+mon3_exc3_rest: 1 min.
+mon3_exc3_notes: Rest pause (15 sec) then push 2-3 morre reps after 3rd and 4th set + double drop set after the last set.
+mon3_exc4: Smith Machine Incline Chest Press
+mon3_exc4_sets: 4
+mon3_exc4_reps: 12
+mon3_exc4_rest: 1 min.
+mon3_exc4_notes: Double drop set after the last set.
+mon3_exc5: Incline Cable Chest Fly
+mon3_exc5_sets: 5
+mon3_exc5_reps: 12
+mon3_exc5_rest: NO REST
+mon3_exc5_notes: SUPERSET WITH NEXT EXERCISE.
+mon3_exc6: Incline Cable Chest Press
+mon3_exc6_sets: 5
+mon3_exc6_reps: 12
+mon3_exc6_rest: 30 sec.
+mon3_exc6_notes: Back to incline cable chest fly.
+mon3_exc7: Machine Chest Fly
+mon3_exc7_sets: 6
+mon3_exc7_reps: 12-15
+mon3_exc7_rest: 30 sec.
+mon3_exc7_notes:
+mon3_exc8: Push-up
+mon3_exc8_sets: 1
+mon3_exc8_reps: 100
+mon3_exc8_rest: 15 sec.
+mon3_exc8_notes: Take as many sets as you need with short rest time.
+mon3_exc9: Pallof Press (Left)
+mon3_exc9_sets: 4
+mon3_exc9_reps: 12
+mon3_exc9_rest: NO REST
+mon3_exc9_notes: TRIEST WITH NEXT 2 EXERCISES.
+mon3_exc10: Pallof Press (Right)
+mon3_exc10_sets: 4
+mon3_exc10_reps: 12
+mon3_exc10_rest: NO REST
+mon3_exc10_notes: CONTINUE TRISET WITH NEXT EXERCISE.
+mon3_exc11: Decline Bar Press Sit-up
+mon3_exc11_sets: 4
+mon3_exc11_reps: 15
+mon3_exc11_rest: 90 sec.
+mon3_exc11_notes: Back to pallof press - left.
+mon3_exc12: Spider Crunch
+mon3_exc12_sets: 4
+mon3_exc12_reps: 12
+mon3_exc12_rest: NO REST
+mon3_exc12_notes: SUPERSET WITH NEXT EXERCISE.
+mon3_exc13: Toe Touch
+mon3_exc13_sets: 4
+mon3_exc13_reps: 15
+mon3_exc13_rest: 1 min.
+mon3_exc13_notes: Bacck to spider crunch.
 day16_num: Day 16 -
 day16: Tuesday (Back & Abs)
 tu3_exc1: Barbell deadlift - 2 x 10, rest 1 min. (warm up sets)
@@ -509,7 +609,7 @@ sat3_exc10:
 sat3_exc11:
 sat3_exc12:
 day21_num: Day 21 -
-day21: Sunday
+day21: Sunday (REST)
 sun3_exc1: REST
 sun3_exc2: 
 sun3_exc3: 
@@ -655,7 +755,7 @@ tu5_exc4: V-bar Pull-down
 tu5_exc4_sets: 4
 tu5_exc4_reps: 10
 tu5_exc4_rest: NO REST
-tu5_exc4_notes: SUPERSET WITH NEXT
+tu5_exc4_notes: SUPERSET WITH NEXT EXERCISE.
 tu5_exc5: Leaning back V-bar Pull Down
 tu5_exc5_sets: 4
 tu5_exc5_reps: 6-8
@@ -832,7 +932,7 @@ tu6_exc5: Lat Pull-down
 tu6_exc5_sets: 4
 tu6_exc5_reps: 12
 tu6_exc5_rest: NO REST
-tu6_exc5_notes: Superset with next.
+tu6_exc5_notes: SUPERSET WITH NEXT EXERCISE.
 tu6_exc6: Cable Seated Row With V-bar
 tu6_exc6_sets: 4
 tu6_exc6_reps: 12
@@ -842,7 +942,7 @@ tu6_exc7: Hanging Oblique Crunch
 tu6_exc7_sets: 4
 tu6_exc7_reps: 12
 tu6_exc7_rest: NO REST
-tu6_exc7_notes: Superset with next.
+tu6_exc7_notes: SUPERSET WITH NEXT EXERCISE.
 tu6_exc8: Parallel Bars Knee Raise
 tu6_exc8_sets: 4
 tu6_exc8_reps: 12
@@ -852,17 +952,17 @@ tu6_exc9: Suspended Oblique Crunch
 tu6_exc9_sets: 4
 tu6_exc9_reps: 12
 tu6_exc9_rest: NO REST
-tu6_exc9_notes: Superset with next.
+tu6_exc9_notes: SUPERSET WITH NEXT EXERCISE.
 tu6_exc10: Side Plank On Ball (Left)
 tu6_exc10_sets: 4
 tu6_exc10_reps: 6
 tu6_exc10_rest: NO REST
-tu6_exc10_notes: Superset with next.
+tu6_exc10_notes: SUPERSET WITH NEXT EXERCISE.
 tu6_exc11: Side Plank On Ball (Right)
 tu6_exc11_sets: 4
 tu6_exc11_reps: 6
 tu6_exc11_rest: 1 min.
-tu6_exc11_notes: Superset with next.
+tu6_exc11_notes: SUPERSET WITH NEXT EXERCISE.
 day38_num: Day 38 - Back to suspended oblique crunch.
 day38: Wednesday (Legs)
 wed6_exc1: Leg press - 2 x 10, NO REST (warm up sets)
