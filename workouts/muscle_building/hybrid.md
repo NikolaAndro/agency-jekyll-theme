@@ -157,5 +157,47 @@ wed1_exc8_sets: 1
 wed1_exc8_reps: 15 min.
 wed1_exc8_rest:
 wed1_exc8_notes:  Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day4_num: Day 4 -
+day4: Thursday (Back)
+th1_exc1: Barbell Row
+th1_exc1_sets: 2
+th1_exc1_reps: 10
+th1_exc1_rest: 1 min.
+th1_exc1_notes: Light weight. Stop a bit short of failure.
+th1_exc2: Barbell Row
+th1_exc2_sets: 3
+th1_exc2_reps: 8-12
+th1_exc2_rest: 90 sec.
+th1_exc2_notes: 
+th1_exc3: Seated Row
+th1_exc3_sets: 3
+th1_exc3_reps: 8-12
+th1_exc3_rest: 90 sec.
+th1_exc3_notes: 
+th1_exc4: Lat Pull-down
+th1_exc4_sets: 3
+th1_exc4_reps: 8-12
+th1_exc4_rest: 1 min.
+th1_exc4_notes: 
+th1_exc5: Single Arm Dumbbell Row
+th1_exc5_sets: 4
+th1_exc5_reps: 8-12
+th1_exc5_rest: 1 min.
+th1_exc5_notes: No rest between arms. Rest after 2nd arm.
+th1_exc6: Bent Arm Dumbbell Pull-over
+th1_exc6_sets: 3
+th1_exc6_reps: 8-12
+th1_exc6_rest: 1 min.
+th1_exc6_notes: 
+th1_exc7: Rack Pull
+th1_exc7_sets: 3
+th1_exc7_reps: 8-12
+th1_exc7_rest: 90 sec.
+th1_exc7_notes: 
+th1_exc8: Eliptical Machine
+th1_exc8_sets: 1
+th1_exc8_reps: 15 min.
+th1_exc8_rest:
+th1_exc8_notes:  Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 
 ---
