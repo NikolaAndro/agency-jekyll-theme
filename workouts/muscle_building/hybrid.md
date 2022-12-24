@@ -255,5 +255,53 @@ day6_num: Day 6 -
 day6: Saturday (REST)
 day7_num: Day 7 -
 day7: Sunday (REST)
+week2_num: Week 2
+day8_num: Day 8 -
+day8: Monday (Legs & Abs)
+mon2_exc1: Barbell Back Squat
+mon2_exc1_sets: 2
+mon2_exc1_reps: 10
+mon2_exc1_rest: 1 min.
+mon2_exc1_notes: Warm-up sets.
+mon2_exc2: Barbell Back Squat
+mon2_exc2_sets: 6
+mon2_exc2_reps: 14-18
+mon2_exc2_rest: 90 sec.
+mon2_exc2_notes: Normal feet with for the first 3 sets. Wide feet width other 3 sets.
+mon2_exc3: Leg Extension
+mon2_exc3_sets: 4
+mon2_exc3_reps: 14-18
+mon2_exc3_rest: 1 min.
+mon2_exc3_notes: 
+mon2_exc4: Seated Leg Curl
+mon2_exc4_sets: 4
+mon2_exc4_reps: 14-18
+mon2_exc4_rest: 1 min.
+mon2_exc4_notes: 
+mon2_exc5: Hack Squat
+mon2_exc5_sets: 4
+mon2_exc5_reps: 14-18
+mon2_exc5_rest: 1 min.
+mon2_exc5_notes: 
+mon2_exc6: Seated Calf Raise
+mon2_exc6_sets: 5
+mon2_exc6_reps: 18-20
+mon2_exc6_rest: 1 min.
+mon2_exc6_notes: 
+mon2_exc7: Feet Elevated Oblique Crunch
+mon2_exc7_sets: 4
+mon2_exc7_reps: 10
+mon2_exc7_rest: NO REST
+mon2_exc7_notes: SUPERSET WITH NEXT EXERCISE
+mon2_exc8: Feet Elevated Crunch
+mon2_exc8_sets: 4
+mon2_exc8_reps: 10
+mon2_exc8_rest: 1 min.
+mon2_exc8_notes: On the last rep hold top position for 10 sec. Rest and back to oblique crunches.
+mon2_exc9: Treadmill Jogging
+mon2_exc9_sets: 1
+mon2_exc9_reps: 15 min.
+mon2_exc9_rest: 
+mon2_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 
 ---
