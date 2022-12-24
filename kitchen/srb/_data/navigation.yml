@@ -1,0 +1,8 @@
+- name: Почетна
+  link: /
+- name: Опис
+  link: /about/
+- name: Рецепти
+  link: /recipes/
+- name: Контакт
+  link: /contact/
