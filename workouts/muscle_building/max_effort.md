@@ -406,18 +406,41 @@ mon2_exc12_rest: 90 sec.
 mon2_exc12_notes: Back to floor wipers.
 day9_num: Day 9 -
 day9: Tuesday (Back)
-tu2_exc1: Pull-up (warm-up sets) - 2 x 5-10
-tu2_exc2: Weighted pull-up - 12/10/10/8/8, rest 90 sec. + single drop set after the last set
-tu2_exc3: Reverse grip lat pull down - 4 x 10, rest 90 sec. + double drop set after the last set
-tu2_exc4: Reverse grip bent over row - 4 x 12, rest 90 sec. + double drop set after the last set
-tu2_exc5: V-bar pull down - 12/10/10/10, rest 1 min. + double drop set after the last set
-tu2_exc6: Cable seated row - 6 x 15, NO REST
-tu2_exc7: Straight arm rope pull-down - 6 x 15, rest 45 sec. (back to seated row)
-tu2_exc8:
-tu2_exc9:
-tu2_exc10:
-tu2_exc11:
-tu2_exc12:
+tu2_exc1: Pull-up
+tu2_exc1_sets: 2
+tu2_exc1_reps: 5-10
+tu2_exc1_rest: 1 min.
+tu2_exc1_notes: Warm-up sets.
+tu2_exc2: Weighted Pull-up
+tu2_exc2_sets: 4
+tu2_exc2_reps: 12/10/10/8/
+tu2_exc2_rest: 90 sec.
+tu2_exc2_notes: Single drop set after the last set.
+tu2_exc3: Reverse Grip Lat Pull-down
+tu2_exc3_sets: 4
+tu2_exc3_reps: 10
+tu2_exc3_rest: 90 sec.
+tu2_exc3_notes: Double drop set after the last set.
+tu2_exc4: Reverse Grip Bent Over Barbell Row
+tu2_exc4_sets: 4
+tu2_exc4_reps: 12
+tu2_exc4_rest: 90 sec.
+tu2_exc4_notes: Double drop set after the last set.
+tu2_exc5: V-bar Pull-down
+tu2_exc5_sets: 4
+tu2_exc5_reps: 12/10/10/10
+tu2_exc5_rest: 1 min.
+tu2_exc5_notes: Double drop set after the last set.
+tu2_exc6: Cable Seated Row - 6 x 15, NO REST
+tu2_exc6_sets: 6
+tu2_exc6_reps: 15
+tu2_exc6_rest: NO REST
+tu2_exc6_notes: SUPERSET WITH NEXT EXERCISE.
+tu2_exc7: Straight Arm Rope Pull-down
+tu2_exc7_sets: 6
+tu2_exc7_reps: 15
+tu2_exc7_rest: 45 sec.
+tu2_exc7_notes: Back to seated row.
 day10_num: Day 10 -
 day10: Wednesday (Legs & Abs)
 wed2_exc1: Barbell back squat (warm-up sets) 2 x 10, rest 1 min.
