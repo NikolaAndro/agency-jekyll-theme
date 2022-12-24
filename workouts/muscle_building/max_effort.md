@@ -413,7 +413,7 @@ tu2_exc1_rest: 1 min.
 tu2_exc1_notes: Warm-up sets.
 tu2_exc2: Weighted Pull-up
 tu2_exc2_sets: 4
-tu2_exc2_reps: 12/10/10/8/
+tu2_exc2_reps: 12/10/10/8
 tu2_exc2_rest: 90 sec.
 tu2_exc2_notes: Single drop set after the last set.
 tu2_exc3: Reverse Grip Lat Pull-down
