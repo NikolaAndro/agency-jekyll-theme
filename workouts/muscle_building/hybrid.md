@@ -211,46 +211,41 @@ fri1_exc2_sets: 4
 fri1_exc2_reps: 8-12
 fri1_exc2_rest: 1 min.
 fri1_exc2_notes:
-fri1_exc3: Wide Grip Barbell Curl
+fri1_exc3: Alternating Dumbbell Curl
 fri1_exc3_sets: 4
 fri1_exc3_reps: 8-12
 fri1_exc3_rest: 1 min.
-fri1_exc3_notes:
-fri1_exc4: Alternating Dumbbell Curl
+fri1_exc3_notes: Perform on each arm. Rest after 2nd arm.
+fri1_exc4: Close Grip EZ-bar Curl
 fri1_exc4_sets: 4
 fri1_exc4_reps: 8-12
 fri1_exc4_rest: 1 min.
-fri1_exc4_notes: Perform on each arm. Rest after 2nd arm.
-fri1_exc5: Close Grip EZ-bar Curl
+fri1_exc4_notes:
+fri1_exc5: Seated Calf Raise
 fri1_exc5_sets: 4
 fri1_exc5_reps: 8-12
 fri1_exc5_rest: 1 min.
 fri1_exc5_notes:
-fri1_exc6: Seated Calf Raise
-fri1_exc6_sets: 4
+fri1_exc6: Single Leg Standing Dumbbell Calf Raise
+fri1_exc6_sets: 3
 fri1_exc6_reps: 8-12
 fri1_exc6_rest: 1 min.
-fri1_exc6_notes:
-fri1_exc7: Single Leg Standing Dumbbell Calf Raise
+fri1_exc6_notes: No rest between legs.
+fri1_exc7: Bent Knee Reverse Crunch
 fri1_exc7_sets: 3
 fri1_exc7_reps: 8-12
-fri1_exc7_rest: 1 min.
-fri1_exc7_notes: No rest between legs.
-fri1_exc8: Bent Knee Reverse Crunch
-fri1_exc8_sets: 3
+fri1_exc7_rest: 30 sec.
+fri1_exc7_notes:
+fri1_exc8: V-up
+fri1_exc8_sets: 4
 fri1_exc8_reps: 8-12
 fri1_exc8_rest: 30 sec.
 fri1_exc8_notes:
-fri1_exc9: V-up
-fri1_exc9_sets: 4
-fri1_exc9_reps: 8-12
-fri1_exc9_rest: 30 sec.
-fri1_exc9_notes:
-fri1_exc10: Eliptical Machine
-fri1_exc10_sets: 1
-fri1_exc10_reps: 15 min.
-fri1_exc10_rest: 
-fri1_exc10_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+fri1_exc9: Eliptical Machine
+fri1_exc9_sets: 1
+fri1_exc9_reps: 15 min.
+fri1_exc9_rest: 
+fri1_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 day6_num: Day 6 -
 day6: Saturday (REST)
 day7_num: Day 7 -
