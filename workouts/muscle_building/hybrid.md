@@ -298,5 +298,47 @@ mon2_exc9_sets: 1
 mon2_exc9_reps: 15 min.
 mon2_exc9_rest: 
 mon2_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day9_num: Day 9 -
+day9: Tuesday (Chest & Triceps)
+tu2_exc1: Incline Dumbbell Chest Press
+tu2_exc1_sets: 2
+tu2_exc1_reps: 10
+tu2_exc1_rest: 1 min.
+tu2_exc1_notes: Light weight. Stop short of failure.
+tu2_exc2: Incline Dumbbell Chest Press
+tu2_exc2_sets: 4
+tu2_exc2_reps: 14-18
+tu2_exc2_rest: 90 sec.
+tu2_exc2_notes: 
+tu2_exc3: Flat Dumbbell Chest Press
+tu2_exc3_sets: 4
+tu2_exc3_reps: 14-18
+tu2_exc3_rest: 90 sec.
+tu2_exc3_notes: 
+tu2_exc4: Incline Dumbbell Fly
+tu2_exc4_sets: 4
+tu2_exc4_reps: 14-18
+tu2_exc4_rest: 1 min.
+tu2_exc4_notes: 
+tu2_exc5: Incline EZ-bar skullcrusher
+tu2_exc5_sets: 4
+tu2_exc5_reps: 14-18
+tu2_exc5_rest: 1 min.
+tu2_exc5_notes: 
+tu2_exc6: Triceps Dip
+tu2_exc6_sets: 4
+tu2_exc6_reps: 14-18
+tu2_exc6_rest: 1 min.
+tu2_exc6_notes: Add weight if possible.
+tu2_exc7: Cable V-bar Push-down
+tu2_exc7_sets: 4
+tu2_exc7_reps: 14-18
+tu2_exc7_rest: 1 min.
+tu2_exc7_notes: 
+tu2_exc8: Treadmill Jogging
+tu2_exc8_sets: 1
+tu2_exc8_reps: 15 min.
+tu2_exc8_rest: 
+tu2_exc8_notes:  Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 
 ---
