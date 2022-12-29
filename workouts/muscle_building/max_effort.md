@@ -443,17 +443,64 @@ tu2_exc7_rest: 45 sec.
 tu2_exc7_notes: Back to seated row.
 day10_num: Day 10 -
 day10: Wednesday (Legs & Abs)
-wed2_exc1: Barbell back squat (warm-up sets) 2 x 10, rest 1 min.
-wed2_exc2: Barbell back squat - 10/8/6/4/4, rest 2 min.
-wed2_exc3: Leg press - 4 x 20, rest 90 sec.
-wed2_exc4: Barbell stiff-legged deadlift - 4 x 10-12, rest 2 ,min.
-wed2_exc5: Lying leg surl - 6 x 15, NO REST + 5 partial reps after failure in each set
-wed2_exc6: Leg extension - 6 x 15, resst 1 min. + 5 partial reps after failure in each set (back to lying curls)
-wed2_exc7: Leg press calf raise - 4 x 12, rest 1 min. + double drop set after the last set
-wed2_exc8: Machine seated calf raise - 4 x 15, 1 min. rest
-wed2_exc9: Dumbbell straight-legged hip raise (abs) - 4 x 12, rest 1 min.
-wed2_exc10: Decline reverse crunch - 4 x 15, rest 45 sec.
-wed2_exc11: Kneeling cable oblique crunch - 4 x 12 each side, rest 1 min.
+
+
+
+wed2_exc1: Barbell Back Squat
+wed2_exc1_sets: 2
+wed2_exc1_reps: 10
+wed2_exc1_rest: 1 min.
+wed2_exc1_notes: Warm-up sets.
+wed2_exc2: Barbell Back Squat
+wed2_exc2_sets: 5
+wed2_exc2_reps: 10/8/6/4/4
+wed2_exc2_rest: 2 min.
+wed2_exc2_notes:
+wed2_exc3:Leg Press
+wed2_exc3_sets: 4
+wed2_exc3_reps: 20
+wed2_exc3_rest: 90 sec.
+wed2_exc3_notes:
+wed2_exc4: Barbell Stiff-legged Deadlift
+wed2_exc4_sets: 4
+wed2_exc4_reps: 10-12
+wed2_exc4_rest: 2 min.
+wed2_exc4_notes: 
+wed2_exc5: Lying Leg Curl - 6 x 15,  
+wed2_exc5_sets: 6
+wed2_exc5_reps: 15
+wed2_exc5_rest: NO REST
+wed2_exc5_notes: Add 5 partial reps after failure in each set. SUPERSET WITH NEXT EXERCISE.
+wed2_exc6: Leg Extension
+wed2_exc6_sets: 6
+wed2_exc6_reps: 15
+wed2_exc6_rest: 1 min.
+wed2_exc6_notes: Add 5 partial reps after failure in each set. Go back to lying curls.
+wed2_exc7: Leg Press Calf Raise
+wed2_exc7_sets: 4
+wed2_exc7_reps: 12
+wed2_exc7_rest: 1 min.
+wed2_exc7_notes: Double drop set after the last set.
+wed2_exc8: Machine Seated Calf Raise
+wed2_exc8_sets: 4
+wed2_exc8_reps: 15
+wed2_exc8_rest: 1 min.
+wed2_exc8_notes:
+wed2_exc9: Dumbbell Straight-legged Hip Raise
+wed2_exc9_sets: 4
+wed2_exc9_reps: 12
+wed2_exc9_rest: 1 min.
+wed2_exc9_notes:
+wed2_exc10: Decline Reverse Crunch
+wed2_exc10_sets: 4
+wed2_exc10_reps: 15
+wed2_exc10_rest: 45 sec.
+wed2_exc10_notes:
+wed2_exc11: Kneeling Cable Oblique Crunch
+wed2_exc11_sets: 4
+wed2_exc11_reps: 12
+wed2_exc11_rest: 1 min.
+wed2_exc11_notes:
 day11_num: Day 11 -
 day11: Thursday (Shoulders)
 th2_exc1: Seated dumbbell shoulder press - 2 x 10, NO REST (warm up sets)
