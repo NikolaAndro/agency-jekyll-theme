@@ -340,5 +340,47 @@ tu2_exc8_sets: 1
 tu2_exc8_reps: 15 min.
 tu2_exc8_rest: 
 tu2_exc8_notes:  Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day10_num: Day 10 -
+day10: Wednesday (Shoulders & Abs)
+wed2_exc1: Seated Dumbbell Shoulder Press
+wed2_exc1_sets: 2
+wed2_exc1_reps: 10
+wed2_exc1_rest: 1 min.
+wed2_exc1_notes: Light weight. Stop short of failure.
+wed2_exc2: Seated Dumbbell Shoulder Press
+wed2_exc2_sets: 4
+wed2_exc2_reps: 18-20
+wed2_exc2_rest: 90 sec.
+wed2_exc2_notes:
+wed2_exc3: Seated Dumbbell Lateral Raise
+wed2_exc3_sets: 4
+wed2_exc3_reps: 18-20
+wed2_exc3_rest: 1 min.
+wed2_exc3_notes:
+wed2_exc4: Incline Dumbbell Reverse Fly
+wed2_exc4_sets: 4
+wed2_exc4_reps: 18-20
+wed2_exc4_rest: 1 min.
+wed2_exc4_notes: First 10 reps with palms facing down, the rest with palms faacing inward.
+wed2_exc5: Incline Dumbbell Front Raise
+wed2_exc5_sets: 3
+wed2_exc5_reps: 18-20
+wed2_exc5_rest: 1 min.
+wed2_exc5_notes:
+wed2_exc6: Standing Dumbbell Shrug
+wed2_exc6_sets: 4
+wed2_exc6_reps: 18-20
+wed2_exc6_rest: 1 min.
+wed2_exc6_notes:
+wed2_exc7: Lying Leg Raise
+wed2_exc7_sets: 6
+wed2_exc7_reps: 18-20
+wed2_exc7_rest: 45 sec.
+wed2_exc7_notes:
+wed2_exc8: Stationary Bike
+wed2_exc8_sets: 1
+wed2_exc8_reps: 15 min.
+wed2_exc8_rest: 
+wed2_exc8_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 
 ---
