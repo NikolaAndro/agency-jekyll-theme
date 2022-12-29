@@ -443,9 +443,6 @@ tu2_exc7_rest: 45 sec.
 tu2_exc7_notes: Back to seated row.
 day10_num: Day 10 -
 day10: Wednesday (Legs & Abs)
-
-
-
 wed2_exc1: Barbell Back Squat
 wed2_exc1_sets: 2
 wed2_exc1_reps: 10
@@ -456,7 +453,7 @@ wed2_exc2_sets: 5
 wed2_exc2_reps: 10/8/6/4/4
 wed2_exc2_rest: 2 min.
 wed2_exc2_notes:
-wed2_exc3:Leg Press
+wed2_exc3: Leg Press
 wed2_exc3_sets: 4
 wed2_exc3_reps: 20
 wed2_exc3_rest: 90 sec.
