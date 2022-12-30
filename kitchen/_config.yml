@@ -50,12 +50,12 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "default"
+      layout: "kitchen_default"
   -
     scope:
       path: "index.html"
     values:
-      layout: "default"
+      layout: "kitchen_default"
       push_sidebar_down: true
 
 plugins:
