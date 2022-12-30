@@ -382,5 +382,42 @@ wed2_exc8_sets: 1
 wed2_exc8_reps: 15 min.
 wed2_exc8_rest: 
 wed2_exc8_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day11_num: Day 11 -
+day11: Thursday (Back)
+th2_exc1: Lat Pull-down
+th2_exc1_sets: 2
+th2_exc1_reps: 10
+th2_exc1_rest: 1 min.
+th2_exc1_notes: Light weight. Stop a bit short of failure.
+th2_exc2: Pull-up
+th2_exc2_sets: 3
+th2_exc2_reps: To Failure
+th2_exc2_rest: 90 sec.
+th2_exc2_notes: Use assisted pull-up machine if you can't do at least 5-8 reps.
+th2_exc3: Neutral Grip Pull-up
+th2_exc3_sets: 3
+th2_exc3_reps: To Failure
+th2_exc3_rest: 90 sec.
+th2_exc3_notes: Use assisted pull-up machine if you can't do at least 5-8 reps.
+th2_exc4: Incline Dumbbell Row
+th2_exc4_sets: 4
+th2_exc4_reps: 14-18
+th2_exc4_rest: 1 min.
+th2_exc4_notes: Left side, no rest, then right side, then rest.
+th2_exc5: Machine Seated Row
+th2_exc5_sets: 3
+th2_exc5_reps: 14-18
+th2_exc5_rest: 1 min.
+th2_exc5_notes:
+th2_exc6: Behind The Neck Pull-down
+th2_exc6_sets: 3
+th2_exc6_reps: 14-18
+th2_exc6_rest: 1 min.
+th2_exc6_notes:
+th2_exc7: Stationary Bike
+th2_exc7_sets: 1
+th2_exc7_reps: 15 min.
+th2_exc7_rest: 
+th2_exc7_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 
 ---
