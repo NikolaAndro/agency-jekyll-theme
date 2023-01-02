@@ -419,5 +419,109 @@ th2_exc7_sets: 1
 th2_exc7_reps: 15 min.
 th2_exc7_rest: 
 th2_exc7_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day12_num: Day 12 -
+day12: Friday (Biceps, Calves & Abs)
+fri2_exc1: Seated Alternating Biceps Curl
+fri2_exc1_sets: 2
+fri2_exc1_reps: 20
+fri2_exc1_rest: 1 min.
+fri2_exc1_notes: 10 on each side. Light weight. Stop a bit before fialure.
+fri2_exc2: Seated Alternating Biceps Curl
+fri2_exc2_sets: 3
+fri2_exc2_reps: 28-36
+fri2_exc2_rest: 1 min.
+fri2_exc2_notes: 14-18 on each side.
+fri2_exc3: Preacher Curl
+fri2_exc3_sets: 3
+fri2_exc3_reps: 14-18
+fri2_exc3_rest: 1 min.
+fri2_exc3_notes: Use EZ bar.
+fri2_exc4: Lying Cable Biceps Curl
+fri2_exc4_sets: 3
+fri2_exc4_reps: 14-18
+fri2_exc4_rest: 1 min.
+fri2_exc4_notes:
+fri2_exc5: Single Leg Standing Dumbbell Calf Raise
+fri2_exc5_sets: 4
+fri2_exc5_reps: 18-20
+fri2_exc5_rest: 1 min.
+fri2_exc5_notes: No rest between legs. Rest after 2nd leg.
+fri2_exc6: Kneeling Cable Crunch
+fri2_exc6_sets: 4
+fri2_exc6_reps: 18-20
+fri2_exc6_rest: 30 sec.
+fri2_exc6_notes:
+fri2_exc7: Dumbbell Crunch Isometric Hold
+fri2_exc7_sets: 4
+fri2_exc7_reps: 14-18
+fri2_exc7_rest: 30 sec.
+fri2_exc7_notes:
+fri2_exc8: Stationary Bike
+fri2_exc8_sets: 1
+fri2_exc8_reps: 15 min.
+fri2_exc8_rest: 
+fri2_exc8_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day13_num: Day 13 -
+day13: Saturday (REST)
+day14_num: Day 14 -
+day14: Sunday (REST)
+week3_num: Week 3
+day15_num: Day 15 -
+day15: Monday (Legs & Abs)
+mon3_exc1: Leg Press
+mon3_exc1_sets: 2
+mon3_exc1_reps: 10
+mon3_exc1_rest: 1 min.
+mon3_exc1_notes: Warm-up sets.
+mon3_exc2: Leg Press
+mon3_exc2_sets: 2
+mon3_exc2_reps: 25-35
+mon3_exc2_rest: 2 min.
+mon3_exc2_notes: After each set perform double drop set aiming for 25-35 on each drop.
+mon3_exc3: Dumbbell Squat
+mon3_exc3_sets: 2
+mon3_exc3_reps: 20-25
+mon3_exc3_rest: 90 sec.
+mon3_exc3_notes: 
+mon3_exc4: Leg Extension
+mon3_exc4_sets: 3
+mon3_exc4_reps: 15-20
+mon3_exc4_rest: 90 sec.
+mon3_exc4_notes: After each set perform double drop set aiming for 15-20 on each drop.
+mon3_exc5: Lying Leg Curl
+mon3_exc5_sets: 4
+mon3_exc5_reps: 15-20
+mon3_exc5_rest: NO REST
+mon3_exc5_notes: SUPERSET WITH NEXT EXERCISE.
+mon3_exc6: Dumbbell Romanian Deadlift
+mon3_exc6_sets: 4
+mon3_exc6_reps: 15-20
+mon3_exc6_rest: 90 sec.
+mon3_exc6_notes: Back to lying leg curls.
+mon3_exc7: Seated Calf Raise
+mon3_exc7_sets: 4
+mon3_exc7_reps: 20-25
+mon3_exc7_rest: NO REST
+mon3_exc7_notes: SUPERSET WITH NEXT EXERCISE
+mon3_exc8: Calf Press On Leg Press Machine
+mon3_exc8_sets: 4
+mon3_exc8_reps: 20-25
+mon3_exc8_rest: 1 min.
+mon3_exc8_notes: Back to seated calf raises.
+mon3_exc9: Decline Reverse Crunch
+mon3_exc9_sets: 4
+mon3_exc9_reps: 20
+mon3_exc9_rest: NO REST
+mon3_exc9_notes: SUPERSET WITH NEXT EXERCISE
+mon3_exc10: Lying Leg Raise
+mon3_exc10_sets: 4
+mon3_exc10_reps: 20
+mon3_exc10_rest: 30 sec.
+mon3_exc10_notes: Back to decline reverse crunch.
+mon3_exc11: Stationary Bike
+mon3_exc11_sets: 1
+mon3_exc11_reps: 15 min.
+mon3_exc11_rest: 
+mon3_exc11_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 
 ---
