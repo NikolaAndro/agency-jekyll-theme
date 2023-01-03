@@ -523,5 +523,57 @@ mon3_exc11_sets: 1
 mon3_exc11_reps: 15 min.
 mon3_exc11_rest: 
 mon3_exc11_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day16_num: Day 16 -
+day16: Tuesday (Chest & Triceps)
+tu3_exc1: Smith Machine Incline Bench Press
+tu3_exc1_sets: 2
+tu3_exc1_reps: 10
+tu3_exc1_rest: 1 min.
+tu3_exc1_notes: Light weight. Stop short of failure.
+tu3_exc2: Smith Machine Incline Bench Press
+tu3_exc2_sets: 2
+tu3_exc2_reps: 20-25
+tu3_exc2_rest: 2 min.
+tu3_exc2_notes: After each set do a double dropset aiming for 15-20 on each dropset.
+tu3_exc3: Smith Machine Flat Bench Press
+tu3_exc3_sets: 2
+tu3_exc3_reps: 20-25
+tu3_exc3_rest: 2 min.
+tu3_exc3_notes: After each set do a double dropset aiming for 15-20 on each dropset.
+tu3_exc4: Incline Dumbbell Fly
+tu3_exc4_sets: 2
+tu3_exc4_reps: 15-20
+tu3_exc4_rest: 90 sec.
+tu3_exc4_notes: 
+tu3_exc5: Cable Cross-over
+tu3_exc5_sets: 2
+tu3_exc5_reps: 15-20
+tu3_exc5_rest: 90 sec.
+tu3_exc5_notes: After each set do a double dropset aiming for 15-20 on each dropset.
+tu3_exc6: Cable V-bar Push Down
+tu3_exc6_sets: 4
+tu3_exc6_reps: 15-20
+tu3_exc6_rest: NO REST
+tu3_exc6_notes: SUPERSET WITH NEXT EXERCISE.
+tu3_exc7: Kneelineg Cable Triceps Extensions
+tu3_exc7_sets: 4
+tu3_exc7_reps: 15-20
+tu3_exc7_rest: 1 min.
+tu3_exc7_notes: Kneel away from cable machine while elbows on a bench. Back to V-bar push-down.
+tu3_exc8: Seated Triceps Press
+tu3_exc8_sets: 3
+tu3_exc8_reps: 15-20
+tu3_exc8_rest: NO REST
+tu3_exc8_notes: SUPERSET WITH NEXT EXERCISE.
+tu3_exc9: Close Grip Bench Press
+tu3_exc9_sets: 3
+tu3_exc9_reps: 15-20
+tu3_exc9_rest: 1 min.
+tu3_exc9_notes: Back to seated triceps press.
+tu3_exc10: Stationary Bike
+tu3_exc10_sets: 1
+tu3_exc10_reps: 15 min.
+tu3_exc10_rest: 
+tu3_exc10_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 
 ---
