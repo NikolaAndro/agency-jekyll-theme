@@ -503,7 +503,7 @@ th2_exc1: Seated Dumbbell Shoulder Press
 th2_exc1_sets: 2
 th2_exc1_reps: 10
 th2_exc1_rest: NO REST
-th2_exc1_notes: Warm-up sets.
+th2_exc1_notes: Warm-up sets. SUPERSET WITH NEXT EXERCISE.
 th2_exc2: Seated Dumbbell Lateral Raise
 th2_exc2_sets: 2
 th2_exc2_reps: 10
@@ -523,7 +523,7 @@ th2_exc5: Leg Press Shoulder Press
 th2_exc5_sets: 4
 th2_exc5_reps: 12
 th2_exc5_rest: NO REST
-th2_exc5_notes: Double drop set after the last set.
+th2_exc5_notes: Double drop set after the last set. SUPERSET WITH NEXT EXERCISE.
 th2_exc6: EZ-bar Front Raise
 th2_exc6_sets: 4
 th2_exc6_reps: 12
@@ -533,7 +533,7 @@ th2_exc7: Bent Over Low Cable Fly
 th2_exc7_sets: 4
 th2_exc7_reps: 12-15
 th2_exc7_rest: NO REST
-th2_exc7_notes:
+th2_exc7_notes: SUPERSET WITH NEXT EXERCISE.
 th2_exc8: Standing Face Pull
 th2_exc8_sets: 4
 th2_exc8_reps: 12-15
@@ -543,7 +543,7 @@ th2_exc9: Cable Straight-bar Upright Row
 th2_exc9_sets: 4
 th2_exc9_reps: 10
 th2_exc9_rest: NO REST
-th2_exc9_notes: 
+th2_exc9_notes: SUPERSET WITH NEXT EXERCISE.
 th2_exc10: Cable Straight-bar Front Raise
 th2_exc10_sets: 4
 th2_exc10_reps: 10
@@ -553,7 +553,7 @@ th2_exc11: Single-Arm Leaning Cable Lateral Raise (Left)
 th2_exc11_sets: 4
 th2_exc11_reps: 12
 th2_exc11_rest: NO REST
-th2_exc11_notes: 
+th2_exc11_notes: SUPERSET WITH NEXT EXERCISE.
 th2_exc12: Single-Arm Leaning Cable Lateral Raise (Right)
 th2_exc12_sets: 4
 th2_exc12_reps: 12
