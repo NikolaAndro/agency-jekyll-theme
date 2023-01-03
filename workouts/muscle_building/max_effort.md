@@ -530,10 +530,10 @@ th2_exc6_reps: 12
 th2_exc6_rest: 90 sec.
 th2_exc6_notes: Double drop set after the last set. Back to leg press shoulder press.
 th2_exc7: Bent Over Low Cable Fly
-th2_exc7sets: 4
-th2_exc7reps: 12-15
-th2_exc7rest: NO REST
-th2_exc7notes:
+th2_exc7_sets: 4
+th2_exc7_reps: 12-15
+th2_exc7_rest: NO REST
+th2_exc7_notes:
 th2_exc8: Standing Face Pull
 th2_exc8_sets: 4
 th2_exc8_reps: 12-15
