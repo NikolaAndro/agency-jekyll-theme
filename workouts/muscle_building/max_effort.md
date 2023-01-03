@@ -499,67 +499,67 @@ wed2_exc11_rest: 1 min.
 wed2_exc11_notes:
 day11_num: Day 11 -
 day11: Thursday (Shoulders)
-th1_exc1: Seated Dumbbell Shoulder Press
-th1_exc1_sets: 2
-th1_exc1_reps: 10
-th1_exc1_rest: NO REST
-th1_exc1_notes: Warm-up sets.
-th1_exc2: Seated Dumbbell Lateral Raise
-th1_exc2_sets: 2
-th1_exc2_reps: 10
-th1_exc2_rest: 1 min.
-th1_exc2_notes: Warm-up sets. Back to shoulder press.
-th1_exc3: Seated Dumbbell Shoulder Press
-th1_exc3_sets: 5
-th1_exc3_reps: 12/10/10/10/8
-th1_exc3_rest: NO REST
-th1_exc3_notes: Double drop set after the last set. SUPERSET WITH NEXT EXERCISE.
-th1_exc4: Seated Dumbbell Lateral Raise
-th1_exc4_sets: 5
-th1_exc4_reps: 12
-th1_exc4_rest: 90 sec.
-th1_exc4_notes: Double drop set after the last set. Back to shoulder press.
-th1_exc5: Leg Press Shoulder Press
-th1_exc5_sets: 4
-th1_exc5_reps: 12
-th1_exc5_rest: NO REST
-th1_exc5_notes: Double drop set after the last set.
-th1_exc6: EZ-bar Front Raise
-th1_exc6_sets: 4
-th1_exc6_reps: 12
-th1_exc6_rest: 90 sec.
-th1_exc6_notes: Double drop set after the last set. Back to leg press shoulder press.
-th1_exc7: Bent Over Low Cable Fly
-th1_exc7sets: 4
-th1_exc7reps: 12-15
-th1_exc7rest: NO REST
-th1_exc7notes:
-th1_exc8: Standing Face Pull
-th1_exc8_sets: 4
-th1_exc8_reps: 12-15
-th1_exc8_rest: 1 min.
-th1_exc8_notes: Back to low cable fly.
-th1_exc9: Cable Straight-bar Upright Row 
-th1_exc9_sets: 4
-th1_exc9_reps: 10
-th1_exc9_rest: NO REST
-th1_exc9_notes: 
-th1_exc10: Cable Straight-bar Front Raise
-th1_exc10_sets: 4
-th1_exc10_reps: 10
-th1_exc10_rest: 1 min.
-th1_exc10_notes: Back to upright row.
-th1_exc11: Single-Arm Leaning Cable Lateral Raise (Left)
-th1_exc11_sets: 4
-th1_exc11_reps: 12
-th1_exc11_rest: NO REST
-th1_exc11_notes: 
-th1_exc12: Single-Arm Leaning Cable Lateral Raise (Right)
-th1_exc12_sets: 4
-th1_exc12_reps: 12
-th1_exc12_rest: NO REST
-th1_exc12_notes: Back to left side.
-day12_num: Day 12 -
+th2_exc1: Seated Dumbbell Shoulder Press
+th2_exc1_sets: 2
+th2_exc1_reps: 10
+th2_exc1_rest: NO REST
+th2_exc1_notes: Warm-up sets.
+th2_exc2: Seated Dumbbell Lateral Raise
+th2_exc2_sets: 2
+th2_exc2_reps: 10
+th2_exc2_rest: 1 min.
+th2_exc2_notes: Warm-up sets. Back to shoulder press.
+th2_exc3: Seated Dumbbell Shoulder Press
+th2_exc3_sets: 5
+th2_exc3_reps: 12/10/10/10/8
+th2_exc3_rest: NO REST
+th2_exc3_notes: Double drop set after the last set. SUPERSET WITH NEXT EXERCISE.
+th2_exc4: Seated Dumbbell Lateral Raise
+th2_exc4_sets: 5
+th2_exc4_reps: 12
+th2_exc4_rest: 90 sec.
+th2_exc4_notes: Double drop set after the last set. Back to shoulder press.
+th2_exc5: Leg Press Shoulder Press
+th2_exc5_sets: 4
+th2_exc5_reps: 12
+th2_exc5_rest: NO REST
+th2_exc5_notes: Double drop set after the last set.
+th2_exc6: EZ-bar Front Raise
+th2_exc6_sets: 4
+th2_exc6_reps: 12
+th2_exc6_rest: 90 sec.
+th2_exc6_notes: Double drop set after the last set. Back to leg press shoulder press.
+th2_exc7: Bent Over Low Cable Fly
+th2_exc7sets: 4
+th2_exc7reps: 12-15
+th2_exc7rest: NO REST
+th2_exc7notes:
+th2_exc8: Standing Face Pull
+th2_exc8_sets: 4
+th2_exc8_reps: 12-15
+th2_exc8_rest: 1 min.
+th2_exc8_notes: Back to low cable fly.
+th2_exc9: Cable Straight-bar Upright Row 
+th2_exc9_sets: 4
+th2_exc9_reps: 10
+th2_exc9_rest: NO REST
+th2_exc9_notes: 
+th2_exc10: Cable Straight-bar Front Raise
+th2_exc10_sets: 4
+th2_exc10_reps: 10
+th2_exc10_rest: 1 min.
+th2_exc10_notes: Back to upright row.
+th2_exc11: Single-Arm Leaning Cable Lateral Raise (Left)
+th2_exc11_sets: 4
+th2_exc11_reps: 12
+th2_exc11_rest: NO REST
+th2_exc11_notes: 
+th2_exc12: Single-Arm Leaning Cable Lateral Raise (Right)
+th2_exc12_sets: 4
+th2_exc12_reps: 12
+th2_exc12_rest: NO REST
+th2_exc12_notes: Back to left side.
+da12_num: Day 12 -
 day12: Friday (Arms & Abs)
 fri2_exc1: Close-grip EZ-bar curl - 2 x 10, NO REST (warm-up sets)
 fri2_exc2: EZ-bar skullcrusher - 2 x 10, rest 1 min. (back to curls)
