@@ -561,21 +561,81 @@ th2_exc12_rest: NO REST
 th2_exc12_notes: Back to left side.
 da12_num: Day 12 -
 day12: Friday (Arms & Abs)
-fri2_exc1: Close-grip EZ-bar curl - 2 x 10, NO REST (warm-up sets)
-fri2_exc2: EZ-bar skullcrusher - 2 x 10, rest 1 min. (back to curls)
-fri2_exc3: Close-grip EZ-bar curl - 4 x 12, NO REST + double drop set after the last set
-fri2_exc4: EZ-bar skullcrusher - 4 x 12, rest 1 min. (back to curls) + double drop set after the last set
-fri2_exc5: Seated dumbbell biceps curl - 4 x 12, NO REST + single drop set after the last set
-fri2_exc6: Seated triceps press - 4 x 12, rest 1 min. (back to curls) + single drop set after the last set 
-fri2_exc7: Seated hammer curl (incline bench) - 4 x 12, NO REST + single drop set after the last set
-fri2_exc8: Incline dumbbell overhead triceps extension - 4 x 12, reat 1 min. (back to curls) + single drop set after the last set
-fri2_exc9: EZ-bar spider curl (lying down on incline bench) - 4 x 12-15, NO REST
-fri2_exc10: Machine triceps dip - 4 x 12-15, rest 1 min. (back to spider curl)
-fri2_exc11: Cable straight-bar biceps curl - 6 x 15. NO REST
-fri2_exc12: Cable straight-bar push-down - 6 x 15, rest 1 min. (back to curls)
-fri2_exc13: Hanging oblique crunch - 4 x 8 each side, NO REST
+fri2_exc1: Close-grip EZ-bar Curl
+fri2_exc1_sets: 2
+fri2_exc1_reps: 10
+fri2_exc1_rest: NO REST
+fri2_exc1_notes: Warmup sets. SUPERSET WITH NEXT EXERCISE.
+fri2_exc2: EZ-bar Skullcrusher
+fri2_exc2_sets: 2
+fri2_exc2_reps: 10
+fri2_exc2_rest: 1 min.
+fri2_exc2_notes: Back to curls.
+fri2_exc3: Close-grip EZ-bar Curl
+fri2_exc3_sets: 4
+fri2_exc3_reps: 12
+fri2_exc3_rest: NO REST
+fri2_exc3_notes: SUPERSET WITH NEXT EXERCISE.
+fri2_exc4: EZ-bar Skullcrusher
+fri2_exc4_sets: 4
+fri2_exc4_reps: 12
+fri2_exc4_rest: 1 min.
+fri2_exc4_notes: Back to curls.
+fri2_exc5: Seated Dumbbell Biceps Curl
+fri2_exc5_sets: 4
+fri2_exc5_reps: 12
+fri2_exc5_rest: NO REST
+fri2_exc5_notes: Single drop set after the last set.
+fri2_exc6: Seated Triceps Press
+fri2_exc6_sets: 4
+fri2_exc6_reps: 12
+fri2_exc6_rest: 1 min.
+fri2_exc6_notes: Single drop set after the last set. Back to biceps curls.
+fri2_exc7: Seated Hammer Curl On Incline Bench
+fri2_exc7_sets: 4
+fri2_exc7_reps: 12
+fri2_exc7_rest: NO REST
+fri2_exc7_notes: Single drop set after the last set.
+fri2_exc8: Incline Dumbbell Overhead Triceps Extension
+fri2_exc8_sets: 4
+fri2_exc8_reps: 12
+fri2_exc8_rest: 1 min.
+fri2_exc8_notes: Single drop set after the last set. Back to hammer curls.
+fri2_exc9: EZ-bar Spider Curl
+fri2_exc9_sets: 4
+fri2_exc9_reps: 12-15
+fri2_exc9_rest: NO REST
+fri2_exc9_notes: Lying belly-down on incline bench.
+fri2_exc10: Machine Triceps Dip
+fri2_exc10_sets: 4
+fri2_exc10_reps: 12-15
+fri2_exc10_rest: 1 min.
+fri2_exc10_notes: Back to spider curl.
+fri2_exc11: Cable Straight-bar Bbiceps Curl
+fri2_exc11_sets: 6
+fri2_exc11_reps: 15
+fri2_exc11_rest: NO REST
+fri2_exc11_notes:
+fri2_exc12: Cable Straight-bar Push-down
+fri2_exc12_sets: 6
+fri2_exc12_reps: 15
+fri2_exc12_rest: 1 min.
+fri2_exc12_notes: Back to curls.
+fri2_exc13: Hanging Oblique Crunch - 4 x 8 each side, NO REST
+fri2_exc13_sets: 4
+fri2_exc13_reps: 16
+fri2_exc13_rest: NO REST
+fri2_exc13_notes: 8 on each side.
 fri2_exc14: BOSU knee tuck, NO REST 
-fri2_exc15: Lateral bars knee raise (dip position) 4 x 15, reat 90 sec. (back to hanging oblique crunches)
+fri2_exc14_sets: 4
+fri2_exc14_reps: 16
+fri2_exc14_rest: NO REST
+fri2_exc14_notes: 
+fri2_exc15: Lateral Bars Knee Rais
+fri2_exc15_sets: 4
+fri2_exc15_reps: 15
+fri2_exc15_rest: 90 sec.
+fri2_exc15_notes: Knee raises in dip position. Back to hanging oblique crunches.
 day13_num: Day 13 -
 day13: Saturday (REST)
 day14_num: Day 14 -
