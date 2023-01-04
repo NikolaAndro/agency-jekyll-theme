@@ -1,9 +1,7 @@
+srb:
+  label: Српски
+  icon: 🇷🇸
 en:
   label: English
   icon: 🇺🇸
-srb:
-  label: Serbian
-  icon: 🇷🇸
-es:
-  label: Español
-  icon: 🇪🇸
+
