@@ -9,7 +9,7 @@
       {% if link.link == page.url %}
         {% assign class = class | append: " active" %}
       {% endif %}
-      <a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
+      <a href="{% include kitchen-relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
 	{% endfor %}
 	
 	<a href="https://nikolaandro.github.io/Workouts_Page/" id="exit" >Назад</a>
