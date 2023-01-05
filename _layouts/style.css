@@ -1,4 +1,4 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
-{% include kitchen/css/screen.scss %}
+{% include css/kitchen.css %}
 {{ content }}
