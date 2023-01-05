@@ -5,27 +5,25 @@ nav {
 	justify-content: center;
 	background: #222; //rgba(255, 255, 255, .9);
 	z-index: 999;
+}
 
-	a {
-		display: inline-block;
-		text-decoration: none;
-		padding: 20px 15px;
-		color: #fff;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		font-size: .9em;
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 15px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: .9em;
+}
 
-		&.active {
-// 			color: #888;
-			border-radius: 0;
-		        color: #fff;
-		        background-color: #fed136;
-		}
+nav a.active, nav a:active{
+	border-radius: 0;
+	color: #fff;
+	background-color: #fed136;
+}
 
-		&:hover {
-// 			color: #000;
-			outline: 0;
-			color: #fed136;
-		}
-	}
+nav a:hover {
+	outline: 0;
+	color: #fed136;
 }
