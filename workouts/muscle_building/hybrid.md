@@ -575,5 +575,52 @@ tu3_exc10_sets: 1
 tu3_exc10_reps: 15 min.
 tu3_exc10_rest: 
 tu3_exc10_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day17_num: Day 17 -
+day17: Wednesday (Shoulders & Abs)
+wed3_exc1: Cuban Press
+wed3_exc1_sets: 2
+wed3_exc1_reps: 10
+wed3_exc1_rest: 1 min.
+wed3_exc1_notes: Light weight. Stop short of failure.
+wed3_exc2: Seated Dumbbell Shoulder Press
+wed3_exc2_sets: 3
+wed3_exc2_reps: 20-25
+wed3_exc2_rest: NO REST
+wed3_exc2_notes: Triset with the next 2 exercises.
+wed3_exc3: Seated Dumbbell Lateral Raise
+wed3_exc3_sets: 3
+wed3_exc3_reps: 20-25
+wed3_exc3_rest: NO REST
+wed3_exc3_notes: Onto the next exercise in triset.
+wed3_exc4: Incline Dumbbell Front Raise
+wed3_exc4_sets: 3
+wed3_exc4_reps: 20-25
+wed3_exc4_rest: 2 min.
+wed3_exc4_notes: Back to seated db shoulder press.
+wed3_exc5: Rear Delt Fly
+wed3_exc5_sets: 4
+wed3_exc5_reps: 20-25
+wed3_exc5_rest: NO REST
+wed3_exc5_notes: SUPERSET WITH NEXT EXERCISE.
+wed3_exc6: Dumbbell Front Raise To Lateral Raise
+wed3_exc6_sets: 4
+wed3_exc6_reps: 20-25
+wed3_exc6_rest: 1 min.
+wed3_exc6_notes: Back to rear delt fly.
+wed3_exc7: Standing Dumbbell Shrug
+wed3_exc7_sets: 3
+wed3_exc7_reps: 20-25
+wed3_exc7_rest: 1 min.
+wed3_exc7_notes:
+wed3_exc8: Weighted Sit-up
+wed3_exc8_sets: 3
+wed3_exc8_reps: 20-25
+wed3_exc8_rest: 1 min.
+wed3_exc8_notes: 
+wed3_exc9: Swimming
+wed3_exc9_sets: 1
+wed3_exc9_reps: 15 min.
+wed3_exc9_rest: 
+wed3_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 
 ---
