@@ -28,7 +28,7 @@ nav-kitchen a:hover {
 	color: #fed136;
 }
 
-nav-kitchen a.active a:hover{
+nav-kitchen a.active:hover{
 	color: #222;
 }
 
