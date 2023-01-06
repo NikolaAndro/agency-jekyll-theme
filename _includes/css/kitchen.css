@@ -25,6 +25,10 @@ nav-kitchen a.active, nav-kitchen a:active{
 
 nav-kitchen a:hover {
 	outline: 0;
+	color: #fed136;
+}
+
+nav-kitchen a.active a:hover{
 	color: #222;
 }
 
