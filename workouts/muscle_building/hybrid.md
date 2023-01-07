@@ -658,7 +658,7 @@ th3_exc7: Barbell Stiff-legged Deadlift
 th3_exc7_sets: 3
 th3_exc7_reps: 18-20
 th3_exc7_rest: 2 min.
-th3_exc7_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+th3_exc7_notes:
 th3_exc8: Eliptical Trainer
 th3_exc8_sets: 1
 th3_exc8_reps: 15 min.
