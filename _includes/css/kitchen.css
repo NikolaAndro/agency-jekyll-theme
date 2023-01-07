@@ -33,11 +33,11 @@ nav-kitchen a.active:hover{
 }
 
 /* Remove IE arrow */
-nav-kitchen  select::-ms-expand {
+select::-ms-expand {
 	display: none;
 }
 /* Custom Select */
-nav-kitchen  .select {
+.select {
 	position: relative;
 	display: flex;
 	width: 9em;
@@ -48,7 +48,7 @@ nav-kitchen  .select {
 	border-radius: .25em;
 	outline: none !important;
 }
-nav-kitchen  .slct-lang {
+.slct-lang {
       margin-top: 0.8em;
       flex: 1;
       padding: 0 .5em;
@@ -58,7 +58,7 @@ nav-kitchen  .slct-lang {
       outline: none !important;
     }
 /* Arrow */
-nav-kitchen  .select::after {
+.select::after {
 	content: '\25BC';
 	position: absolute;
 	top: 0;
@@ -74,6 +74,6 @@ nav-kitchen  .select::after {
 	margin-top: 0.5em;
 }
 /* Transition */
-nav-kitchen  .select:hover::after {
+.select:hover::after {
 	color: #FED136;
 }
