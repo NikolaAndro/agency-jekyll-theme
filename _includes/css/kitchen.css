@@ -32,6 +32,21 @@ nav-kitchen a.active:hover{
 	color: #222;
 }
 
+
+/* Reset Select */
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	outline: 0;
+	box-shadow: none;
+	border: 0 !important;
+	background: #222;
+	background-image: none;
+}
+
+
 /* Remove IE arrow */
 select::-ms-expand {
 	display: none;
