@@ -622,5 +622,46 @@ wed3_exc9_sets: 1
 wed3_exc9_reps: 15 min.
 wed3_exc9_rest: 
 wed3_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
-
+day18_num: Day 18 -
+day18: Thursday (Back)
+th3_exc1: Dumbbell Bent-over Row
+th3_exc1_sets: 2
+th3_exc1_reps: 10
+th3_exc1_rest: 1 min.
+th3_exc1_notes: Light weight. Stop a bit short of failure.
+th3_exc2: Dumbbell Bent-over Row
+th3_exc2_sets: 2
+th3_exc2_reps: 15-18
+th3_exc2_rest: 2 min.
+th3_exc2_notes: After 1st set, perform a SINGLE drop set aiming for 15-18 reps. After 2nd set, perform DOUBLE drop set aiming for 15-18 reps per drop.
+th3_exc3: Lat Pull-down
+th3_exc3_sets: 3
+th3_exc3_reps: 15-20
+th3_exc3_rest: NO REST
+th3_exc3_notes: SUPERSET WITH NEXT EXERCISE.
+th3_exc4: Reverse Grip Lat Pull-Down
+th3_exc4_sets: 3
+th3_exc4_reps: 15-20
+th3_exc4_rest: 1 min.
+th3_exc4_notes: Back to lat pull-down.
+th3_exc5: Incline Dumbbell Row
+th3_exc5_sets: 3
+th3_exc5_reps: 15-20
+th3_exc5_rest: NO REST
+th3_exc5_notes: SUPERSET WITH NEXT EXERCISE.
+th3_exc6: Stiff-arm Push-down
+th3_exc6_sets: 3
+th3_exc6_reps: 15-20
+th3_exc6_rest: 1 min.
+th3_exc6_notes: Use straight or EZ bar on cable machine. Back to incline db row.
+th3_exc7: Barbell Stiff-legged Deadlift
+th3_exc7_sets: 3
+th3_exc7_reps: 18-20
+th3_exc7_rest: 2 min.
+th3_exc7_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+th3_exc8: Eliptical Trainer
+th3_exc8_sets: 1
+th3_exc8_reps: 15 min.
+th3_exc8_rest: 
+th3_exc8_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 ---
