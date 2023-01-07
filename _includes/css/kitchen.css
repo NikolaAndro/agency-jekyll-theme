@@ -32,4 +32,48 @@ nav-kitchen a.active:hover{
 	color: #222;
 }
 
-
+/* Remove IE arrow */
+nav-kitchen  select::-ms-expand {
+	display: none;
+}
+/* Custom Select */
+nav-kitchen  .select {
+	position: relative;
+	display: flex;
+	width: 9em;
+	height: 3.2em;
+	line-height: 3;
+	background: #222;
+	overflow: hidden;
+	border-radius: .25em;
+	outline: none !important;
+}
+nav-kitchen  .slct-lang {
+      margin-top: 0.8em;
+      flex: 1;
+      padding: 0 .5em;
+      color: #fff;
+      cursor: pointer;
+      background: #222;
+      outline: none !important;
+    }
+/* Arrow */
+nav-kitchen  .select::after {
+	content: '\25BC';
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 1em;
+	background: #34495e; 
+	cursor: pointer;
+	pointer-events: none;
+	-webkit-transition: .25s all ease;
+	-o-transition: .25s all ease;
+	transition: .25s all ease;
+	color: #FED136;
+	margin-top: 0.5em;
+}
+/* Transition */
+nav-kitchen  .select:hover::after {
+	color: #FED136;
+}
