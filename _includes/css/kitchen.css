@@ -62,6 +62,7 @@ select::-ms-expand {
 	overflow: hidden;
 	border-radius: .25em;
 	outline: none !important;
+	font-size: 1em;
 }
 .slct-lang {
       margin-top: 0.8em;
