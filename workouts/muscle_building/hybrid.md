@@ -664,4 +664,98 @@ th3_exc8_sets: 1
 th3_exc8_reps: 15 min.
 th3_exc8_rest: 
 th3_exc8_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day19_num: Day 19 -
+day19: Friday (Biceps, Calves & Abs)
+fri3_exc1: Wide Grip Barbell Curl
+fri3_exc1_sets: 2
+fri3_exc1_reps: 20
+fri3_exc1_rest: 1 min.
+fri3_exc1_notes: Light weight. Stop a bit before fialure.
+fri3_exc2: Wide Grip Barbell Curl
+fri3_exc2_sets: 3
+fri3_exc2_reps: 15-20
+fri3_exc2_rest: 2 min.
+fri3_exc2_notes: After each set do a dropset aiming for 15-20 on each drop.
+fri3_exc3: Close Grip Barbell Curl
+fri3_exc3_sets: 3
+fri3_exc3_reps: 15-20
+fri3_exc3_rest: 2 min.
+fri3_exc3_notes: After FIRST SET ONLY do a dropset aiming for 15-20.
+fri3_exc4: Seated Calf Raise
+fri3_exc4_sets: 3
+fri3_exc4_reps: 15-20
+fri3_exc4_rest: 2 min.
+fri3_exc4_notes:  After each set do a dropset aiming for 15-20 on each drop.
+fri3_exc5: Single Leg Standing Dumbbell Calf Raise
+fri3_exc5_sets: 4
+fri3_exc5_reps: 18-20
+fri3_exc5_rest: 1 min.
+fri3_exc5_notes: No rest between legs. Rest after 2nd leg. After each set do a dropset aiming for 15-20 on each drop.
+fri3_exc6: Decline Reverse Crunch
+fri3_exc6_sets: 3
+fri3_exc6_reps: 15-20
+fri3_exc6_rest: NO REST
+fri3_exc6_notes: SUPERSET WITH THE NEXT EXERCISE.
+fri3_exc7: Dumbbell Crunch Isometric Hold
+fri3_exc7_sets: 3
+fri3_exc7_reps: 15-20
+fri3_exc7_rest: 1 min.
+fri3_exc7_notes: Back to decline reverse crunches.
+fri3_exc8: Eliptical Trainer
+fri3_exc8_sets: 1
+fri3_exc8_reps: 15 min.
+fri3_exc8_rest: 
+fri3_exc8_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day20_num: Day 20 -
+day20: Saturday (REST)
+day21_num: Day 21 -
+day21: Sunday (REST)
+week4_num: Week 4
+day22_num: Day 22 -
+day22: Monday (Chest & Triceps)
+mon4_exc1: Incline Dumbbell Chest Press
+mon4_exc1_sets: 2
+mon4_exc1_reps: 10
+mon4_exc1_rest: 1 min.
+mon4_exc1_notes: Warm-up sets.
+mon4_exc2: Incline Dumbbell Chest Press
+mon4_exc2_sets: 4
+mon4_exc2_reps: 8-10
+mon4_exc2_rest: 2 min.
+mon4_exc2_notes: 
+mon4_exc3: Flat Dumbbell Bench Press
+mon4_exc3_sets: 3
+mon4_exc3_reps: 8-10
+mon4_exc3_rest: 90 sec.
+mon4_exc3_notes: 
+mon4_exc4: Decline Dumbbell Bench Press
+mon4_exc4_sets: 3
+mon4_exc4_reps: 8-10
+mon4_exc4_rest: 90 sec.
+mon4_exc4_notes:
+mon4_exc5: Machine Chest Fly
+mon4_exc5_sets: 7
+mon4_exc5_reps: 8-10
+mon4_exc5_rest: 30 sec.
+mon4_exc5_notes: Either stretch or flex your chest during the rest time.
+mon4_exc6: Reverse Grip Triceps Extension
+mon4_exc6_sets: 4
+mon4_exc6_reps: 8-10
+mon4_exc6_rest: 90 sec.
+mon4_exc6_notes: Use cable machine.
+mon4_exc7: Close Grip Bench Press
+mon4_exc7_sets: 3
+mon4_exc7_reps: 8-10
+mon4_exc7_rest: 90 sec.
+mon4_exc7_notes: 
+mon4_exc8: Rope Press Down
+mon4_exc8_sets: 7
+mon4_exc8_reps: 8-10
+mon4_exc8_rest: 30 sec.
+mon4_exc8_notes:  Either stretch or flex your chest during the rest time.
+mon4_exc9: Swimming
+mon4_exc9_sets: 1
+mon4_exc9_reps: 15 min.
+mon4_exc9_rest: 
+mon4_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 ---
