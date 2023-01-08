@@ -14,7 +14,7 @@ has_coach: no
 project-date: December 2022
 client: Start Bootstrap
 category: Muscle Building
-description: <b>Week 1</b> - Relatively low rep range (around 8). <br><b>Week 2</b> - Range of around 12 reps.<br><b>Week 3</b> - Using dropsets and other techniques to increase the volume.<br><b>Week 4</b> - FST-7: "Fascia Stretch Training" where you will stretch fascia while contracting the target muscle between the sets.
+description: <b>Week 1</b> - Relatively low rep range (around 8). <br><b>Week 2</b> - Range of around 12 reps.<br><b>Week 3</b> - Using dropsets and other techniques to increase the volume.<br><b>Week 4</b> - FST-7 (Fascia Stretch Training) where you will stretch fascia while contracting the target muscle between the sets.
 week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Legs & Abs)
