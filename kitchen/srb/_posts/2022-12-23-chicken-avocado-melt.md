@@ -2,8 +2,6 @@
 date: 2022-12-23
 title: Пилећи Сендвич Са Топљеним Авокадом
 url: Главни Оброци/2022/12/23/chicken-avocado-melt/
-lang: srb
-lang-ref: Пилећи-Сендвич-Са-Топљеним-Авокадом
 categories:
   - Главни Оброци
 featured_image: /treat-jekyll-template/images/chicken_avocado_melt.png
