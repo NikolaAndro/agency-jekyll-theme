@@ -74,7 +74,7 @@ select::-ms-expand {
       cursor: pointer;
       background: #222;
       outline: none !important;
-      font-size: 1em;	
+      font-size: 20 px;	
     }
 /* Arrow */
 .select::after {
