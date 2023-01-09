@@ -5,6 +5,7 @@ nav-kitchen {
 	justify-content: center;
 	background: #222; //rgba(255, 255, 255, .9);
 	z-index: 999;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 nav-kitchen a {
@@ -14,7 +15,7 @@ nav-kitchen a {
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: .9em;
+	font-size: 18px;
 }
 
 nav-kitchen a.active, nav-kitchen a:active{
