@@ -45,7 +45,7 @@ select {
 	border: 0 !important;
 	background: #222;
 	background-image: none;
-	font-size: 1em;
+	font-size: 20px;
 }
 
 
@@ -64,7 +64,7 @@ select::-ms-expand {
 	overflow: hidden;
 	border-radius: .25em;
 	outline: none !important;
-	font-size: 1em;
+	font-size: 20px;
 }
 .slct-lang {
       margin-top: 0.8em;
