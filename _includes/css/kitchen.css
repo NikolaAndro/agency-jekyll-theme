@@ -67,7 +67,7 @@ select::-ms-expand {
 	font-size: 20px;
 }
 .slct-lang {
-      margin-top: 0.8em;
+/*       margin-top: 0.8em; */
       flex: 1;
       padding: 0 .5em;
       color: #fff;
