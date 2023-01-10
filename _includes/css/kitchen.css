@@ -20,6 +20,11 @@ kitchen-img {
 	max-width: 100%;
 }
 
+kitchen-a {
+	text-decoration: none;
+	color: #007eff;
+}
+
 nav-kitchen {
 	position: fixed;
 	width: 100%;
