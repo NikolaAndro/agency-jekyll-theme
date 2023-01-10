@@ -1,15 +1,15 @@
 <!doctype html>
 
-<html>
+<kitchen-html>
 	{% include head.html %}
 
-	<body id="page-top" class="index nonselect" style="line-height=2; font-family: 'Fira Sans', sans-serif;">
-		kitchen-% include kitchen_navigation.html %}
+	<kitchen-body id="page-top" class="index nonselect" style="line-height=2; font-family: 'Fira Sans', sans-serif;">
+		% include kitchen_navigation.html %}
 		
-		<header>
+		<kitchen-header>
 			<kitchen-a href="{{site.baseurl }}/kitchen/srb/">
 				<kitchen-img src="{{ site.baseurl }}{{ site.data.company_details.logo_image }}" width="180" alt="logo">
 			</kitchen-a>
-		</header>
-	</body>
-</html>
+		</kitchen-header>
+	</kitchen-body>
+</kitchen-html>
