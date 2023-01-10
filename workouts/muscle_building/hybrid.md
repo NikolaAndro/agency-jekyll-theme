@@ -758,4 +758,52 @@ mon4_exc9_sets: 1
 mon4_exc9_reps: 15 min.
 mon4_exc9_rest: 
 mon4_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day23_num: Day 23 -
+day23: Tuesday (Legs)
+tu4_exc1: Leg Extension
+tu4_exc1_sets: 2
+tu4_exc1_reps: 10
+tu4_exc1_rest: 1 min.
+tu4_exc1_notes: Light weight. Stop short of failure.
+tu4_exc2: Leg Extension
+tu4_exc2_sets: 4
+tu4_exc2_reps: 10-15
+tu4_exc2_rest: 1 min.
+tu4_exc2_notes: 
+tu4_exc3: Leg Press
+tu4_exc3_sets: 4
+tu4_exc3_reps: 10-15
+tu4_exc3_rest: 2 min.
+tu4_exc3_notes: 
+tu4_exc4: Hack Squat
+tu4_exc4_sets: 4
+tu4_exc4_reps: 10-15
+tu4_exc4_rest: 90 sec.
+tu4_exc4_notes: 
+tu4_exc5: Smith Machine Back Squat
+tu4_exc5_sets: 7
+tu4_exc5_reps: 10-15
+tu4_exc5_rest: 90 sec.
+tu4_exc5_notes: Either flex or stretch your quars during the rest period.
+tu4_exc6: Lying Leg Curls
+tu4_exc6_sets: 4
+tu4_exc6_reps: 8-10
+tu4_exc6_rest: 90 sec.
+tu4_exc6_notes: 
+tu4_exc7: Barbell Stiff-legged Deadlift
+tu4_exc7_sets: 4
+tu4_exc7_reps: 8-10
+tu4_exc7_rest: 90 sec.
+tu4_exc7_notes: 
+tu4_exc8: Seated Leg Curl
+tu4_exc8_sets: 7
+tu4_exc8_reps: 10-15
+tu4_exc8_rest: 30 sec.
+tu4_exc8_notes: Either flex or stretch your quars during the rest period.
+tu4_exc9: Stationary Bike
+tu4_exc9_sets: 1
+tu4_exc9_reps: 15 min.
+tu4_exc9_rest: 
+tu4_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+
 ---
