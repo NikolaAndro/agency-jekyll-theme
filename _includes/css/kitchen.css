@@ -149,28 +149,28 @@ select::-ms-expand {
 	margin: 0 auto;
 }
 
-.author {
+.kitchen-sidebar .author {
 	text-align: center;
 }
 
-.author p {
+.kitchen-sidebar .author p {
 	padding: 0;
 	margin: 0;
 }
-.author	img {
+.kitchen-sidebar .author	img {
 	width: 200px;
 	border-radius: 200px;
 	margin: 0 0 10px 0;
 }
 	
 
-.social-icons {
+.kitchen-sidebar .social-icons {
 	display: flex;
 	justify-content: center;
 	margin: 10px 0 0 0;
 }
 
-.social-icons a {
+.kitchen-sidebar .social-icons a {
 	padding: 3px;
 	text-decoration: none;
 
@@ -179,7 +179,7 @@ select::-ms-expand {
 	}
 }
 
-.social-icons svg {
+.kitchen-sidebar .social-icons svg {
 	width: 25px;
 	height: 25px;
 	fill: $light-grey;
