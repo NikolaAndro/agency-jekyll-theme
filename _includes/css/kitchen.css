@@ -185,5 +185,9 @@ select::-ms-expand {
 	fill: $light-grey;
 }
 
-
+.kitchen-sidebar.push {
+	@media #{$desktop} {
+		padding-top: 72px;
+	}
+}
 
