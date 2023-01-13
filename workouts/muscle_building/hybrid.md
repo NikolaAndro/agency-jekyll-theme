@@ -784,7 +784,7 @@ tu4_exc5: Smith Machine Back Squat
 tu4_exc5_sets: 7
 tu4_exc5_reps: 10-15
 tu4_exc5_rest: 90 sec.
-tu4_exc5_notes: Either flex or stretch your quars during the rest period.
+tu4_exc5_notes: Either flex or stretch your quars during the rest period. You can stay in squat position without weights.
 tu4_exc6: Lying Leg Curls
 tu4_exc6_sets: 4
 tu4_exc6_reps: 8-10
@@ -805,5 +805,52 @@ tu4_exc9_sets: 1
 tu4_exc9_reps: 15 min.
 tu4_exc9_rest: 
 tu4_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day24_num: Day 24 -
+day24: Wednesday (Shoulders & Abs)
+wed4_exc1: Seated Dumbbell Shoulder Press
+wed4_exc1_sets: 2
+wed4_exc1_reps: 10
+wed4_exc1_rest: 1 min.
+wed4_exc1_notes: Light weight. Stop short of failure.
+wed4_exc2: Seated Dumbbell Shoulder Press
+wed4_exc2_sets: 4
+wed4_exc2_reps: 8-10
+wed4_exc2_rest: 90 sec.
+wed4_exc2_notes: 
+wed4_exc3: Seated Dumbbell Lateral Raise
+wed4_exc3_sets: 3
+wed4_exc3_reps: 8-10
+wed4_exc3_rest: 1 min.
+wed4_exc3_notes:
+wed4_exc4: Incline Face-down Bar Front Raise
+wed4_exc4_sets: 3
+wed4_exc4_reps: 8-10
+wed4_exc4_rest: 1 min.
+wed4_exc4_notes: 
+wed4_exc5: Reverse Pec-Deck
+wed4_exc5_sets: 3
+wed4_exc5_reps: 8-10
+wed4_exc5_rest: 1 min.
+wed4_exc5_notes: 
+wed4_exc6: Smith Machine Shoulder Press
+wed4_exc6_sets: 7
+wed4_exc6_reps: 8-10
+wed4_exc6_rest: 1 min.
+wed4_exc6_notes: Either flex or stretch your quars during the rest period.
+wed4_exc7: Barbell Roll-out
+wed4_exc7_sets: 3
+wed4_exc7_reps: to failure
+wed4_exc7_rest: 90 sec.
+wed4_exc7_notes:
+wed4_exc8: Elbow To Knee Crunch
+wed4_exc8_sets: 7
+wed4_exc8_reps: 16-20
+wed4_exc8_rest: 1 min.
+wed4_exc8_notes: 8-10 per side. Either flex or stretch your quars during the rest period.
+wed4_exc9: Stationary Bike
+wed4_exc9_sets: 1
+wed4_exc9_reps: 15 min.
+wed4_exc9_rest: 
+wed4_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 
 ---
