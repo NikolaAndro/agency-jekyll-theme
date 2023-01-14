@@ -784,7 +784,7 @@ tu4_exc5: Smith Machine Back Squat
 tu4_exc5_sets: 7
 tu4_exc5_reps: 10-15
 tu4_exc5_rest: 90 sec.
-tu4_exc5_notes: Either flex or stretch your quars during the rest period. You can stay in squat position without weights.
+tu4_exc5_notes: Either flex or stretch your quads during the rest period. You can stay in squat position without weights.
 tu4_exc6: Lying Leg Curls
 tu4_exc6_sets: 4
 tu4_exc6_reps: 8-10
@@ -799,7 +799,7 @@ tu4_exc8: Seated Leg Curl
 tu4_exc8_sets: 7
 tu4_exc8_reps: 10-15
 tu4_exc8_rest: 30 sec.
-tu4_exc8_notes: Either flex or stretch your quars during the rest period.
+tu4_exc8_notes: Either flex or stretch your hamstrings during the rest period.
 tu4_exc9: Stationary Bike
 tu4_exc9_sets: 1
 tu4_exc9_reps: 15 min.
@@ -836,7 +836,7 @@ wed4_exc6: Smith Machine Shoulder Press
 wed4_exc6_sets: 7
 wed4_exc6_reps: 8-10
 wed4_exc6_rest: 1 min.
-wed4_exc6_notes: Either flex or stretch your quars during the rest period.
+wed4_exc6_notes: Either flex or stretch your shoulders during the rest period.
 wed4_exc7: Barbell Roll-out
 wed4_exc7_sets: 3
 wed4_exc7_reps: to failure
@@ -846,11 +846,104 @@ wed4_exc8: Elbow To Knee Crunch
 wed4_exc8_sets: 7
 wed4_exc8_reps: 16-20
 wed4_exc8_rest: 1 min.
-wed4_exc8_notes: 8-10 per side. Either flex or stretch your quars during the rest period.
+wed4_exc8_notes: 8-10 per side. Either flex or stretch your abs during the rest period.
 wed4_exc9: Stationary Bike
 wed4_exc9_sets: 1
 wed4_exc9_reps: 15 min.
 wed4_exc9_rest: 
 wed4_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
-
+day25_num: Day 25 -
+day25: Thursday (Back)
+th4_exc1: Lat Pull-down
+th4_exc1_sets: 2
+th4_exc1_reps: 10
+th4_exc1_rest: 1 min.
+th4_exc1_notes: Light weight. Stop a bit short of failure.
+th4_exc2: Pull-up
+th4_exc2_sets: 2
+th4_exc2_reps: 10-12
+th4_exc2_rest: 90 sec.
+th4_exc2_notes: Add extra weight if you can do 10-12 without failing.
+th4_exc3: V-bar Pull-up
+th4_exc3_sets: 2
+th4_exc3_reps: 10-12
+th4_exc3_rest: 90 sec.
+th4_exc3_notes: Add extra weight if you can do 10-12 without failing.
+th4_exc4: Single Arm Dumbbell Row
+th4_exc4_sets: 4
+th4_exc4_reps: 10-12
+th4_exc4_rest: 2 min.
+th4_exc4_notes: No rest between arms. Rest after 2nd arm.
+th4_exc5: T-bar Row
+th4_exc5_sets: 4
+th4_exc5_reps: 10-12
+th4_exc5_rest: 90 sec.
+th4_exc5_notes: 
+th4_exc6: Barbell Shrug
+th4_exc6_sets: 2
+th4_exc6_reps: 12-15
+th4_exc6_rest: 90 sec.
+th4_exc6_notes: 
+th4_exc7: Seated Row
+th4_exc7_sets: 7
+th4_exc7_reps: 8-10
+th4_exc7_rest: 1 min.
+th4_exc7_notes: Either flex or stretch your back during the rest period.
+th4_exc8: Jogging
+th4_exc8_sets: 1
+th4_exc8_reps: 15 min.
+th4_exc8_rest: 
+th4_exc8_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day26_num: Day 26 -
+day26: Friday (Biceps & Calves)
+fri4_exc1: Cable EZ-bar Preacher Curl
+fri4_exc1_sets: 2
+fri4_exc1_reps: 20
+fri4_exc1_rest: 1 min.
+fri4_exc1_notes: Light weight. Stop a bit before fialure.
+fri4_exc2: Cable EZ-bar Preacher Curl
+fri4_exc2_sets: 4
+fri4_exc2_reps: 8-10
+fri4_exc2_rest: 90 sec.
+fri4_exc2_notes: 
+fri4_exc3: Alternating Incline Dumbbell Biceps Curls
+fri4_exc3_sets: 3
+fri4_exc3_reps: 8-10
+fri4_exc3_rest: 90 sec.
+fri4_exc3_notes: 8-10 on each arm.
+fri4_exc4: Lying Cable Biceps Curls
+fri4_exc4_sets: 3
+fri4_exc4_reps: 8-10
+fri4_exc4_rest: 90 sec.
+fri4_exc4_notes:
+fri4_exc5: EZ-bar Spider Curl
+fri4_exc5_sets: 7
+fri4_exc5_reps: 8-10
+fri4_exc5_rest: 30 sec.
+fri4_exc5_notes: Either flex or stretch your biceps during the rest period.
+fri4_exc6: Seated Calf Raise
+fri4_exc6_sets: 3
+fri4_exc6_reps: 20
+fri4_exc6_rest: 90 sec.
+fri4_exc6_notes:
+fri4_exc7: Calf Press On Leg Press Machine
+fri4_exc7_sets: 3
+fri4_exc7_reps: 20
+fri4_exc7_rest: 90 sec.
+fri4_exc7_notes: 
+fri4_exc8: Weighted Donkey Calf Raise
+fri4_exc8_sets: 7
+fri4_exc8_reps: 20
+fri4_exc8_rest: 
+fri4_exc8_notes: Either flex or stretch your calves during the rest period.
+fri4_exc9: Eliptical Machine
+fri4_exc9_sets: 1
+fri4_exc9_reps: 15 min.
+fri4_exc9_rest: 
+fri4_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day27_num: Day 27 -
+day27: Saturday (REST)
+day28_num: Day 28 -
+day28: Sunday (REST)
+week4_num: Week 5
 ---
