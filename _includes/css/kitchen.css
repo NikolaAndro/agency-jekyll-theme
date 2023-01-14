@@ -131,14 +131,17 @@ select::-ms-expand {
 }
 
 .kitchen-main-content {
-	@media (min-width: 900px) {
-		display: flex;
-	}
 	padding: 0 30px 50px 30px;
 }
 
-.kitchen-content {
-	@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
+  .kitchen-main-content {
+		flex: flex;
+	}
+}
+
+@media screen and (min-width: 900px) {
+  .kitchen-content {
 		flex: 1;
 	}
 }
