@@ -1,10 +1,10 @@
 - name: Почетна
-  link: /kitchen/
+  link: kitchen/
 - name: Опис
-  link: /about/
+  link: about/
 - name: Рецепти
-  link: /recipes/
+  link: recipes/
 - name: Контакт
-  link: /contact/
+  link: contact/
 - name: Назад
   link: https://nikolaandro.github.io/Workouts_Page/
