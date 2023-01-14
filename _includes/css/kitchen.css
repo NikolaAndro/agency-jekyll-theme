@@ -149,6 +149,13 @@ select::-ms-expand {
 	margin: 0 auto;
 }
 
+@media screen and (min-width: 900px) {
+  .kitchen-sidebar {
+      margin: 0;
+      padding: 0 0 0 70px;
+  }
+}
+
 .kitchen-sidebar .author {
 	text-align: center;
 }
@@ -163,7 +170,6 @@ select::-ms-expand {
 	margin: 0 0 10px 0;
 }
 	
-
 .kitchen-sidebar .social-icons {
 	display: flex;
 	justify-content: center;
@@ -185,9 +191,14 @@ select::-ms-expand {
 	fill: $light-grey;
 }
 
-.kitchen-sidebar .push {
+@media screen and (min-width: 900px) {
+  .kitchen-sidebar .push {
+    padding-top: 72px;
+  }
+}
+/* .kitchen-sidebar .push {
 	@media (min-width: 900px) {
 		padding-top: 72px;
 	}
-}
+} */
 
