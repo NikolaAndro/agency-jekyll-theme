@@ -4,20 +4,20 @@ lang: srb
 ---
 
 <section class="posts">
-	{% for post in paginator.posts %}
+	{% for post in site.kitchenurl.posts %}
 		<article class="post">
 			{% include post-heading.html post=post %}
 			<div class="image">
-				<img src="{{ site.baseurl }}/kitchen/srb/{{ post.featured_image }}" alt="{{ post.title }}">
+				<img src="{{ site.kitchenurl }}{{ post.featured_image }}" alt="{{ post.title }}">
 			</div>
 
 			{{ post.excerpt }}
 
-			<p><a class="button" href="{{ site.baseurl }}{{ post.url }}">Прочитајте Више</a></p>
+			<p><a class="button" href="{{ site.kitchenurl }}{{ post.url }}">Прочитајте Више</a></p>
 		</article>
 	{% endfor %}
 
-	{% if paginator.total_pages > 1 %}
+<!-- 	{% if paginator.total_pages > 1 %}
 		<div class="pagination">
 			{% if paginator.previous_page %}
 				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Новији Рецепти</a>
@@ -29,6 +29,6 @@ lang: srb
 				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Старији Рецепти &rarr;</a>
 			{% endif %}
 		</div>
-	{% endif %}
+	{% endif %} -->
 </section>
 
