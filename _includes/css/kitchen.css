@@ -138,7 +138,7 @@ select::-ms-expand {
 }
 
 .kitchen-content {
-	@media #{$desktop} {
+	@media (min-width: 900px) {
 		flex: 1;
 	}
 }
@@ -186,7 +186,7 @@ select::-ms-expand {
 }
 
 .kitchen-sidebar.push {
-	@media #{$desktop} {
+	@media (min-width: 900px) {
 		padding-top: 72px;
 	}
 }
