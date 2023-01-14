@@ -26,6 +26,7 @@ kitchen-a {
 	color: #007eff;
 }
 
+/************************************************  NAVIGATION  ************************************************/
 nav-kitchen {
 	position: fixed;
 	width: 100%;
@@ -62,6 +63,7 @@ nav-kitchen a.active:hover{
 }
 
 
+/************************************************  SELECT IN NAVBAR  ************************************************/
 /* Reset Select */
 select {
 	-webkit-appearance: none;
@@ -125,6 +127,7 @@ select::-ms-expand {
 	color: #FED136;
 }
 
+/************************************************  INDEX  ************************************************/
 .kitchen-container {
 	max-width: 1100px;
 	margin: 0 auto;
@@ -146,6 +149,7 @@ select::-ms-expand {
 	}
 }
 
+/************************************************  SIDEBAR  ************************************************/
 .kitchen-sidebar {
 	width: 250px;
 	padding: 70px 0 0 0;
@@ -200,6 +204,7 @@ select::-ms-expand {
   }
 }
 
+/************************************************  FOOTER  ************************************************/
 
 kitchen-footer {
 	color: #999;
@@ -207,4 +212,3 @@ kitchen-footer {
 	padding: 20px 0;
 	font-size: .8em;
 }
-
