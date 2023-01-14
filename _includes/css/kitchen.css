@@ -199,9 +199,12 @@ select::-ms-expand {
     padding-top: 72px;
   }
 }
-/* .kitchen-sidebar .push {
-	@media (min-width: 900px) {
-		padding-top: 72px;
-	}
-} */
+
+
+kitchen-footer {
+	color: $light-grey;
+	text-align: center;
+	padding: 20px 0;
+	font-size: .8em;
+}
 
