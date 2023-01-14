@@ -15,6 +15,11 @@
  			<section class="kitchen-content">{{ content }}</section>
 			{% include kitchen_sidebar.html %}
 		</div>
-		
+		<kitchen-footer>
+			<div class="kitchen-container">
+				<hr>
+				&copy; {{ site.title }} {{ site.time | date: "%Y" }}. Сва права резервисана.
+			</div>
+		</kitchen-footer>
 	</body>
 </html>
