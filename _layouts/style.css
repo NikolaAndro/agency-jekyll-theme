@@ -2,5 +2,5 @@
 {% include css/agency.css %}
 {% include css/kitchen.css %}
 {% include css/kitchen_blog.scss%} 
-{% include css/kitchen_mealplans.scss%}
+{% include css/kitchen_mealplans.css%}
 {{ content }}
