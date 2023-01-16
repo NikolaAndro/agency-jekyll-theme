@@ -973,7 +973,7 @@ mon5_exc5: Seated Calf Raise
 mon5_exc5_sets: 10
 mon5_exc5_reps: 10
 mon5_exc5_rest: 1 min.
-mon5_exc5_notes: Either stretch or flex your chest during the rest time.
+mon5_exc5_notes: 
 mon5_exc6: Reverse Grip Triceps Extension
 mon5_exc7: Eliptical Trainer
 mon5_exc7_sets: 1
