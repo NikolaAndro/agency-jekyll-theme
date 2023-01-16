@@ -1,0 +1,41 @@
+.mealprep-item {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 6px;
+//   @extend %clearfix;
+}
+
+
+.mealprep-item:not(:first-child) {
+    border-top: 1px solid #ececec;
+ }
+
+ .mealprep-item .mealprep-item-date {
+    min-width: 96px;
+    color: #0d122b;
+    font-weight: 700;
+    padding-right: 10px;
+ }
+
+ .mealprep-item .mealprep-item-title {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.1px;
+}
+
+.mealprep-item .mealprep-item-title a {
+      color: #434648;
+}
+
+.mealprep-item .mealprep-item-title a:hover{
+        color: #0d122b;
+  }
+  
+.mealprep-item .mealprep-item-title a:focus{
+        color: #0d122b;
+  }
+    
+
