@@ -5,7 +5,7 @@ category: kitchen
 url: Главни Оброци/2022/12/23/chicken-avocado-melt/
 categories:
   - Главни Оброци
-featured_image: /treat-jekyll-template/images/chicken_avocado_melt.png
+featured_image: /Workouts_Page/kitchen/srb/images/chicken_avocado_melt.png
 recipe:
   servings: 1 сендвич
   prep: 3 минута
