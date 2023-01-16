@@ -139,7 +139,7 @@ select::-ms-expand {
 
 @media screen and (min-width: 900px) {
   .kitchen-main-content {
-		flex: flex;
+		display: flex;
 	}
 }
 
