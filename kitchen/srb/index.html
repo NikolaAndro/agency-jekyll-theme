@@ -5,16 +5,18 @@ lang: srb
 
 <section class="posts">
 	{% for post in site.posts %}
-		<article class="post">
-			{% include kitchen_post_heading.html post=post %}
-			<div class="image">
-				<img src="{{ post.featured_image }}" alt="{{ post.title }}">
-			</div>
+		{% if post.category == "kitchen" %}
+			<article class="post">
+				{% include kitchen_post_heading.html post=post %}
+				<div class="image">
+					<img src="{{ post.featured_image }}" alt="{{ post.title }}">
+				</div>
 
-			{{ post.excerpt }}
+				{{ post.excerpt }}
 
-			<p><a class="button" href="{{ site.kitchenurl }}{{ post.url }}">Прочитајте Више</a></p>
-		</article>
+				<p><a class="button" href="{{ site.kitchenurl }}{{ post.url }}">Прочитајте Више</a></p>
+			</article>
+		{% endif %}
 	{% endfor %}
 
 <!-- 	{% if paginator.total_pages > 1 %}
