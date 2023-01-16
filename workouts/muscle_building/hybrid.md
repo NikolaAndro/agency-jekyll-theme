@@ -14,7 +14,7 @@ has_coach: no
 project-date: December 2022
 client: Start Bootstrap
 category: Muscle Building
-description: <b>Week 1</b> - Relatively low rep range (around 8). <br><b>Week 2</b> - Range of around 12 reps.<br><b>Week 3</b> - Using dropsets and other techniques to increase the volume.<br><b>Week 4</b> - FST-7 (Fascia Stretch Training) where you will stretch fascia while contracting the target muscle between the sets.
+description: <b>Week 1</b> - Relatively low rep range (around 8). <br><b>Week 2</b> - Range of around 12 reps.<br><b>Week 3</b> - Using dropsets and other techniques to increase the volume.<br><b>Week 4</b> - FST-7 (Fascia Stretch Training) where you will stretch fascia while contracting the target muscle between the sets.<br><b>Week 4</b> - German Volume Training - Magic 100 reps per muscle group.
 week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Legs & Abs)
@@ -946,4 +946,38 @@ day27: Saturday (REST)
 day28_num: Day 28 -
 day28: Sunday (REST)
 week4_num: Week 5
+week4_num: Week 4
+day29_num: Day 29 -
+day29: Monday (Legs)
+mon5_exc1: Barbell Back Squat
+mon5_exc1_sets: 2
+mon5_exc1_reps: 10
+mon5_exc1_rest: 1 min.
+mon5_exc1_notes: Warm-up sets.
+mon5_exc2: Barbell Back Squat
+mon5_exc2_sets: 10
+mon5_exc2_reps: 10
+mon5_exc2_rest: 1 min.
+mon5_exc2_notes: 
+mon5_exc3: Leg Extension
+mon5_exc3_sets: 5
+mon5_exc3_reps: 15
+mon5_exc3_rest: 1 min.
+mon5_exc3_notes: 
+mon5_exc4: Seated Leg Curl
+mon5_exc4_sets: 5
+mon5_exc4_reps: 15
+mon5_exc4_rest: 1 min.
+mon5_exc4_notes:
+mon5_exc5: Seated Calf Raise
+mon5_exc5_sets: 10
+mon5_exc5_reps: 10
+mon5_exc5_rest: 1 min.
+mon5_exc5_notes: Either stretch or flex your chest during the rest time.
+mon5_exc6: Reverse Grip Triceps Extension
+mon5_exc7: Eliptical Trainer
+mon5_exc7_sets: 1
+mon5_exc7_reps: 15 min.
+mon5_exc7_rest: 
+mon5_exc7_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 ---
