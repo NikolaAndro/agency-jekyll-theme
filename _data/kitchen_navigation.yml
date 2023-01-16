@@ -4,6 +4,8 @@
   link: about/
 - name: Рецепти
   link: recipes/
+- name: Planovi
+  link: mealplans/
 - name: Контакт
   link: contact/
 - name: Назад
