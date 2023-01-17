@@ -6,12 +6,15 @@ lang: srb
 <h>{{page.title}}</h>
 <p>{{page.description}}</p>
 
-{% for meal in page.meals %}
 <div class="recipe-contents">
-		<div class="ingredients">
-			<h2>meal</h2>
-          		{{ meal.ingredients_markdown | markdownify }}
-   		</div>
+	<div class="ingredients">
+		<h2>meal1.meal1_name</h2>
+		{{ meal1.ingredients_markdown | markdownify }}
+	</div>
+	<div class="ingredients">
+		<h2>meal2.meal2_name</h2>
+		{{ meal2.ingredients_markdown | markdownify }}
+	</div>
 
     <!--  Maybe I should have explanation    -->
 <!-- 		<div class="directions">
@@ -20,7 +23,7 @@ lang: srb
 		</div> -->
 </div>
 
-{% endfor %}
+
 
 <table id="exerciseTable">
   <tbody>
