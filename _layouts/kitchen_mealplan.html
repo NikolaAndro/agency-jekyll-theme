@@ -6,6 +6,21 @@ lang: srb
 <h>{{page.title}}</h>
 <p>{{page.description}}</p>
 
+{% for meal in page.meals %}
+<div class="recipe-contents">
+		<div class="ingredients">
+<!-- 			<h2>Састојци</h2> -->
+          {{ meal | markdownify }}
+    </div>
+
+    <!--  Maybe I should have explanation    -->
+<!-- 		<div class="directions">
+			<h2>Упутства</h2>
+			{{ page.recipe.directions_markdown | markdownify }}
+		</div> -->
+</div>
+
+
 <table id="exerciseTable">
   <tbody>
       <tr>
