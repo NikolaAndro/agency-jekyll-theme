@@ -9,9 +9,9 @@ lang: srb
 {% for meal in page.meals %}
 <div class="recipe-contents">
 		<div class="ingredients">
-<!-- 			<h2>Састојци</h2> -->
-          {{ meal.ingredients_markdown | markdownify }}
-    </div>
+			<h2>meal</h2>
+          		{{ meal.ingredients_markdown | markdownify }}
+   		</div>
 
     <!--  Maybe I should have explanation    -->
 <!-- 		<div class="directions">
