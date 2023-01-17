@@ -945,8 +945,7 @@ day27_num: Day 27 -
 day27: Saturday (REST)
 day28_num: Day 28 -
 day28: Sunday (REST)
-week4_num: Week 5
-week4_num: Week 4
+week5_num: Week 5
 day29_num: Day 29 -
 day29: Monday (Legs)
 mon5_exc1: Barbell Back Squat
