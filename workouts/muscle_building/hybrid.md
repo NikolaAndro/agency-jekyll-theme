@@ -973,10 +973,41 @@ mon5_exc5_sets: 10
 mon5_exc5_reps: 10
 mon5_exc5_rest: 1 min.
 mon5_exc5_notes: 
-mon5_exc6: Reverse Grip Triceps Extension
-mon5_exc7: Eliptical Trainer
-mon5_exc7_sets: 1
-mon5_exc7_reps: 15 min.
-mon5_exc7_rest: 
-mon5_exc7_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+mon5_exc6: Eliptical Trainer
+mon5_exc6_sets: 1
+mon5_exc6_reps: 15 min.
+mon5_exc6_rest: 
+mon5_exc6_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day30_num: Day 30 -
+day30: Tuesday (Chest & Abs)
+tu5_exc1: Flat Dumbbell Chest Press
+tu5_exc1_sets: 2
+tu5_exc1_reps: 10
+tu5_exc1_rest: 1 min.
+tu5_exc1_notes: Light weight. Stop short of failure.
+tu5_exc2: Flat Dumbbell Chest Press
+tu5_exc2_sets: 10
+tu5_exc2_reps: 10
+tu5_exc2_rest: 1 min.
+tu5_exc2_notes: 
+tu5_exc3: Incline Dumbbell Fly
+tu5_exc3_sets: 5
+tu5_exc3_reps: 10
+tu5_exc3_rest: 1 min.
+tu5_exc3_notes: 
+tu5_exc4: Decline Dumbbell Bench Press
+tu5_exc4_sets: 5
+tu5_exc4_reps: 10
+tu5_exc4_rest: 1 min.
+tu5_exc4_notes: 
+tu5_exc5: Press Sit-up
+tu5_exc5_sets: 10
+tu5_exc5_reps: 10
+tu5_exc5_rest: 1 min.
+tu5_exc5_notes: 
+tu5_exc6: Stationary Bike
+tu5_exc6_sets: 1
+tu5_exc6_reps: 15 min.
+tu5_exc6_rest: 
+tu5_exc6_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 ---
