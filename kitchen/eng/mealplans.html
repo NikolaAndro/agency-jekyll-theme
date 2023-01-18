@@ -1,0 +1,20 @@
+---
+layout: kitchen_default
+lang: srb
+---
+
+<section class="kitchen-posts">
+	{% for post in site.posts %}
+		{% if post.category == "mealplan" %}
+			
+        
+			<article class="mealprep-item">
+			  <span class="mealprep-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
+			  <h4 class="mealprep-item-title">
+			    <a href="{{site.baseurl}}{{ post.mealplanurl }}">{{ post.title | escape }}</a>
+			  </h4>
+			</article>
+     
+		{% endif %}
+	{% endfor %}
+</section>
