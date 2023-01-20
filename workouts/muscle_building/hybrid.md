@@ -1091,7 +1091,7 @@ fri5_exc4_sets: 10
 fri5_exc4_reps: 10
 fri5_exc4_rest: 90 sec.
 fri5_exc4_notes: Add weight if you can.
-fri5_exc5 Eliptical Machine
+fri5_exc5: Eliptical Machine
 fri5_exc5sets: 1
 fri5_exc5reps: 15 min.
 fri5_exc5rest: 
