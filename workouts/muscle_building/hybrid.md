@@ -1010,4 +1010,94 @@ tu5_exc6_sets: 1
 tu5_exc6_reps: 15 min.
 tu5_exc6_rest: 
 tu5_exc6_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day31_num: Day 31 -
+day31: Wednesday (Back)
+wed5_exc1: Lat Pull-down
+wed5_exc1_sets: 2
+wed5_exc1_reps: 10
+wed5_exc1_rest: 1 min.
+wed5_exc1_notes: Light weight. Stop short of failure.
+wed5_exc2: Weighted Pull-up
+wed5_exc2_sets: 10
+wed5_exc2_reps: 10
+wed5_exc2_rest: 1 min.
+wed5_exc2_notes: 
+wed5_exc3: Barbell Row
+wed5_exc3_sets: 5
+wed5_exc3_reps: 5
+wed5_exc3_rest: 1 min.
+wed5_exc3_notes:
+wed5_exc4: Barbell Shrug
+wed5_exc4_sets: 5
+wed5_exc4_reps: 20
+wed5_exc4_rest: 1 min.
+wed5_exc4_notes: 
+wed5_exc5: Trail Running or Walking
+wed5_exc5_sets: 1
+wed5_exc5_reps: 15 min.
+wed5_exc5_rest: 
+wed5_exc5_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day32_num: Day 32 -
+day32: Thursday (Shoulders)
+th5_exc1: Seated Dumbbell Shoulder Press
+th5_exc1_sets: 2
+th5_exc1_reps: 10
+th5_exc1_rest: 1 min.
+th5_exc1_notes: Light weight. Stop a bit short of failure.
+th5_exc2: Seated Dumbbell Shoulder Press
+th5_exc2_sets: 2
+th5_exc2_reps: 10-12
+th5_exc2_rest: 1 min.
+th5_exc2_notes: SUPERSET WITH THE NEXT EXERCISE. Rest 1 min. in between exercises.
+th5_exc3: Arnold Press
+th5_exc3_sets: 5
+th5_exc3_reps: 10
+th5_exc3_rest: 1 min.
+th5_exc3_notes: Back to shoulder press.
+th5_exc4: Dumbbell Lateral Raise
+th5_exc4_sets: 5
+th5_exc4_reps: 15
+th5_exc4_rest: 1 min.
+th5_exc4_notes: 
+th5_exc5: Smith Machine Upright Row
+th5_exc5_sets: 5
+th5_exc5_reps: 15
+th5_exc5_rest: 1 min.
+th5_exc5_notes: Wider than shoulder width grip.
+th5_exc6: Eliptical Trainer
+th5_exc6_sets: 1
+th5_exc6_reps: 15 min.
+th5_exc6_rest: 
+th5_exc6_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day33_num: Day 33 -
+day33: Friday (Arms)
+fri5_exc1: Barbell Curl
+fri5_exc1_sets: 2
+fri5_exc1_reps: 10
+fri5_exc1_rest: 1 min.
+fri5_exc1_notes: Light weight. Stop a bit before fialure.
+fri5_exc2: Barbell Curl
+fri5_exc2_sets: 5
+fri5_exc2_reps: 10
+fri5_exc2_rest: 1 min.
+fri5_exc2_notes: SUPERSET WITH NEXT EXERCISE with 1 min. rest in between exercises.
+fri5_exc3: EZ-bar Curl
+fri5_exc3_sets: 5
+fri5_exc3_reps: 10
+fri5_exc3_rest: 1 min.
+fri5_exc3_notes: Back to barbell curl.
+fri5_exc4: Triceps Dip
+fri5_exc4_sets: 10
+fri5_exc4_reps: 10
+fri5_exc4_rest: 90 sec.
+fri5_exc4_notes: Add weight if you can.
+fri5_exc5 Eliptical Machine
+fri5_exc5sets: 1
+fri5_exc5reps: 15 min.
+fri5_exc5rest: 
+fri5_exc5notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day34_num: Day 34 -
+day34: Saturday (REST)
+day35_num: Day 35 -
+day35: Sunday (REST)
 ---
