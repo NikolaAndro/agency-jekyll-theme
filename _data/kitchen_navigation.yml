@@ -1,12 +1,12 @@
-- name: Почетна
+- name: Kitchen
   link: /
-- name: Опис
+- name: About
   link: about/
-- name: Рецепти
+- name: Recipes
   link: recipes/
-- name: Планови
+- name: MealPlans
   link: mealplans/
-- name: Контакт
+- name: Contact
   link: contact/
-- name: Назад
+- name: Back
   link: https://nikolaandro.github.io/Workouts_Page/
