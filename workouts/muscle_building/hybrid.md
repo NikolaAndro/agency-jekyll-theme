@@ -1045,8 +1045,8 @@ th5_exc1_reps: 10
 th5_exc1_rest: 1 min.
 th5_exc1_notes: Light weight. Stop a bit short of failure.
 th5_exc2: Seated Dumbbell Shoulder Press
-th5_exc2_sets: 2
-th5_exc2_reps: 10-12
+th5_exc2_sets: 5
+th5_exc2_reps: 10
 th5_exc2_rest: 1 min.
 th5_exc2_notes: SUPERSET WITH THE NEXT EXERCISE. Rest 1 min. in between exercises.
 th5_exc3: Arnold Press
