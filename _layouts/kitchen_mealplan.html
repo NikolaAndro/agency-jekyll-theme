@@ -8,20 +8,59 @@ lang: srb
 <p>{{page.description}}</p>
 <br><br>
 <div class="recipe-contents">
-	<div class="ingredients">
-<!-- 		<h2>{{ page.meal1.name }}</h2> -->
-		{{ page.meal1.ingredients_markdown | markdownify }}
-	</div>
-	<div class="ingredients">
-<!-- 		<h2>{{ page.meal2.name }}</h2> -->
-		{{ page.meal2.ingredients_markdown | markdownify }}
-	</div>
-
-    <!--  Maybe I should have explanation    -->
-<!-- 		<div class="directions">
-			<h2>Упутства</h2>
-			{{ page.recipe.directions_markdown | markdownify }}
-		</div> -->
+	{% if page.meal1 %}
+		<div class="ingredients">
+			{{ page.meal1.ingredients_markdown | markdownify }}
+		</div>
+	{% endif %}
+	
+	{% if page.meal2 %}
+		<div class="ingredients">
+			{{ page.meal2.ingredients_markdown | markdownify }}
+		</div>
+	{% endif %}
+	
+	{% if page.meal3 %}
+		<div class="ingredients">
+			{{ page.meal3.ingredients_markdown | markdownify }}
+		</div>
+	{% endif %}
+	
+	{% if page.meal4 %}
+		<div class="ingredients">
+			{{ page.meal4.ingredients_markdown | markdownify }}
+		</div>
+	{% endif %}
+	
+	{% if page.meal5 %}
+		<div class="ingredients">
+			{{ page.meal5.ingredients_markdown | markdownify }}
+		</div>
+	{% endif %}
+	
+	{% if page.meal6 %}
+		<div class="ingredients">
+			{{ page.meal6.ingredients_markdown | markdownify }}
+		</div>
+	{% endif %}
+	
+	{% if page.meal7 %}
+		<div class="ingredients">
+			{{ page.meal7.ingredients_markdown | markdownify }}
+		</div>
+	{% endif %}
+	
+	{% if page.meal8 %}
+		<div class="ingredients">
+			{{ page.meal8.ingredients_markdown | markdownify }}
+		</div>
+	{% endif %}
+	
+	{% if page.meal9 %}
+		<div class="ingredients">
+			{{ page.meal9.ingredients_markdown | markdownify }}
+		</div>
+	{% endif %}
 </div>
 
 <br><br>
