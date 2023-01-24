@@ -5,7 +5,7 @@ lang: srb
 
 <section-kitchen class="kitchen-posts">
 	{% for post in site.posts %}
-		{% if post.category == "kitchen" %}
+		{% if post.category == "kitchen" and  post.lang == "eng" %}
 			<article class="kitchen-post">
 				{% include kitchen_post_heading.html post=post %}
 				<div class="image">
