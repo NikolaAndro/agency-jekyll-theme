@@ -1201,5 +1201,5 @@ tu6_exc10_reps: 15 min.
 tu6_exc10_rest: 
 tu6_exc10_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 day38_num: Day 38 -
-day31: Wednesday (REST)
+day38: Wednesday (REST)
 ---
