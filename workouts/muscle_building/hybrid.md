@@ -1100,4 +1100,106 @@ day34_num: Day 34 -
 day34: Saturday (REST)
 day35_num: Day 35 -
 day35: Sunday (REST)
+week6_num: Week 6
+day36_num: Day 36 -
+day36: Monday (Legs)
+mon6_exc1: Leg Extension
+mon6_exc1_sets: 2
+mon6_exc1_reps: 10
+mon6_exc1_rest: 1 min.
+mon6_exc1_notes: Warm-up sets.
+mon6_exc2: Leg Extension
+mon6_exc2_sets: 2
+mon6_exc2_reps: 15-20
+mon6_exc2_rest: 2 min.
+mon6_exc2_notes: Try to reach failure at around 12 reps on the second set and add 3-8 forced reps.
+mon6_exc3: Leg Press
+mon6_exc3_sets: 2
+mon6_exc3_reps: 8-12
+mon6_exc3_rest: 2 min.
+mon6_exc3_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+mon6_exc4: Hack Squat
+mon6_exc4_sets: 2
+mon6_exc4_reps: 8-12
+mon6_exc4_rest: 2 min.
+mon6_exc4_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+mon6_exc5: Lying Leg Curl
+mon6_exc5_sets: 2
+mon6_exc5_reps: 8-12
+mon6_exc5_rest: 2 min.
+mon6_exc5_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+mon6_exc6: Seated Leg Curl
+mon6_exc6_sets: 2
+mon6_exc6_reps: 10-15
+mon6_exc6_rest: 2 min.
+mon6_exc6_notes: Try to reach failure at around 10 reps on the second set and add 3-5 forced reps.
+mon6_exc7: Seated Calf Raise
+mon6_exc7_sets: 2
+mon6_exc7_reps: 8-12
+mon6_exc7_rest: 2 min.
+mon6_exc7_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+mon6_exc8: Single-leg Standing Dumbbell Calf Raise
+mon6_exc8_sets: 3
+mon6_exc8_reps: 8-12
+mon6_exc8_rest: 2 min.
+mon6_exc8_notes: No rest between the legs. Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+mon6_exc9: Eliptical Trainer
+mon6_exc9_sets: 1
+mon6_exc9_reps: 15 min.
+mon6_exc9_rest: 
+mon6_exc9_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day37_num: Day 37 -
+day37: Tuesday (Shoulers, Triceps & Traps)
+tu6_exc1: Seated Barbell Shoulder Press
+tu6_exc1_sets: 2
+tu6_exc1_reps: 10
+tu6_exc1_rest: 1 min.
+tu6_exc1_notes: Light weight. Stop short of failure.
+tu6_exc2: Seated Barbell Shoulder Press
+tu6_exc2_sets: 2
+tu6_exc2_reps: 8-12
+tu6_exc2_rest: 2 min.
+tu6_exc2_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+tu6_exc3: Dumbbell Lateral Raise
+tu6_exc3_sets: 2
+tu6_exc3_reps: 8-12
+tu6_exc3_rest: 2 min.
+tu6_exc3_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+tu6_exc4: Rear Delt Fly
+tu6_exc4_sets: 2
+tu6_exc4_reps: 8-12
+tu6_exc4_rest: 2 min.
+tu6_exc4_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+tu6_exc5: Reverse Pec-deck
+tu6_exc5_sets: 2
+tu6_exc5_reps: 8-12
+tu6_exc5_rest: 2 min.
+tu6_exc5_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+tu6_exc6: Standing Dumbbell Shrug
+tu6_exc6_sets: 2
+tu6_exc6_reps: 8-12
+tu6_exc6_rest: 2 min.
+tu6_exc6_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+tu6_exc7: Cable V-bar Push-down
+tu6_exc7_sets: 2
+tu6_exc7_reps: 8-12
+tu6_exc7_rest: 2 min.
+tu6_exc7_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+tu6_exc8: EZ-bar Skullcrusher
+tu6_exc8_sets: 2
+tu6_exc8_reps: 8-12
+tu6_exc8_rest: 2 min.
+tu6_exc8_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+tu6_exc9: Single-arm Cable Triceps Extension
+tu6_exc9_sets: 2
+tu6_exc9_reps: 8-12
+tu6_exc9_rest: 2 min.
+tu6_exc9_notes: No rest between the arms. Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+tu6_exc10: Stationary Bike
+tu6_exc10_sets: 1
+tu6_exc10_reps: 15 min.
+tu6_exc10_rest: 
+tu6_exc10_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day38_num: Day 38 -
+day31: Wednesday (REST)
 ---
