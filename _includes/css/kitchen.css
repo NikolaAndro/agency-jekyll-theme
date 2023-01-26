@@ -17,7 +17,7 @@ kitchen-header {
         display: block;	
 }
 
-kitchen-img {
+.kitchen-image img {
 	max-width: 100%;
 }
 
@@ -171,7 +171,7 @@ select::-ms-expand {
 	padding: 0;
 	margin: 0;
 }
-.kitchen-sidebar .author	kitchen-img {
+.kitchen-sidebar .author	img {
 	width: 200px;
 	border-radius: 200px;
 	margin: 0 0 10px 0;
