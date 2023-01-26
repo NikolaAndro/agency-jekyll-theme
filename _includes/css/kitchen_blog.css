@@ -1,40 +1,43 @@
-.kitchen-post { 
-	h1 a {
+.kitchen-post h1 a {
 		color: #000;
 		text-decoration: none;
+}
 
-		&:hover {
-			text-decoration: underline;
-		}
+.kitchen-post h1 a:hover {
+		text-decoration: underline;
 	}
-	time {
-		padding: 0 0 20px 0;
-		display: block;
-	}
+	
+.kitchen-post time {
+	padding: 0 0 20px 0;
+	display: block;
+}
 
-	.recipe-overview {
+.kitchen-post	.recipe-overview {
 		padding: 0;
 		margin: 0;
-
-		svg {
+}
+.kitchen-post	.recipe-overview 		svg {
 			position: relative;
 			top: 6px;
 		}
 
-		span {
+.kitchen-post	.recipe-overview 		span {
 			margin: 0 18px 0 3px;
 		}
 
-		li {
+.kitchen-post	.recipe-overview 		li {
 			list-style: none;
 			padding: 0;
 			margin: 0;
+}
 
-			@media #{$desktop} {
-				display: inline-block;
-			}
+@media screen and (min-width: 900px) {
+	  .kitchen-post	.recipe-overview li {
+			display: inline-block;
 		}
-	}
+}
+
+
 
 	.recipe-contents {
 		@media #{$desktop} {
