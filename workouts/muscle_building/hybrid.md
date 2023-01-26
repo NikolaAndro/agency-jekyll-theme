@@ -1214,7 +1214,7 @@ th7_exc2_sets: 2
 th7_exc2_reps: 8-12
 th7_exc2_rest: 2 min.
 th7_exc2_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-th7_exc3:Machine Chest Press
+th7_exc3: Machine Chest Press
 th7_exc3_sets: 2
 th7_exc3_reps: 8-12
 th7_exc3_rest: 2 min.
