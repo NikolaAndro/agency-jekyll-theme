@@ -204,6 +204,32 @@ select::-ms-expand {
   }
 }
 
+/************************************************  Button  ************************************************/
+
+.kitchen-button, input[type="submit"] {
+	background: #fed136;
+	cursor: pointer;
+	border: 1px solid #fed136;
+	color: #000;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: inline-flex;
+  	align-items: flex-end;
+	margin: 0;
+	font-size: .8em;
+}
+
+.kitchen-button:hover {
+		background: #fed136;
+		border: 0px;
+		color: #222;
+	}
+
+.kitchen-button:focus {
+		outline: none;
+	}
+
+
 /************************************************  FOOTER  ************************************************/
 
 kitchen-footer {
