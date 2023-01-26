@@ -9,7 +9,7 @@ lang: srb
 			<article class="kitchen-post">
 				{% include kitchen_post_heading.html post=post %}
 				<div class="image">
-					<img src="{{ post.featured_image }}" alt="{{ post.title }}">
+					<kitchen-img src="{{ post.featured_image }}" alt="{{ post.title }}">
 				</div>
 
 				{{ post.excerpt }}
