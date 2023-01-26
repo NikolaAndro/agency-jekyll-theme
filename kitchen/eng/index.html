@@ -8,8 +8,8 @@ lang: srb
 		{% if post.category == "kitchen" and  post.lang == "eng" %}
 			<article class="kitchen-post">
 				{% include kitchen_post_heading.html post=post %}
-				<div class="image">
-					<kitchen-img src="{{ post.featured_image }}" alt="{{ post.title }}">
+				<div class="kitchen-image">
+					<img src="{{ post.featured_image }}" alt="{{ post.title }}">
 				</div>
 
 				{{ post.excerpt }}
