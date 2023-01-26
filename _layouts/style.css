@@ -1,6 +1,6 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 {% include css/kitchen.css %}
-{% include css/kitchen_blog.scss%} 
+{% include css/kitchen_blog.css%} 
 {% include css/kitchen_mealplans.css%}
 {{ content }}
