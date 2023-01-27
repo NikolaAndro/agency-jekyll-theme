@@ -3,6 +3,7 @@ date: 2022-12-23
 layout: kitchen_post
 title: Chicken Avocado Melt
 url: /recipes/main_meals/2022-12-23-chicken-avocado-melt/
+post_url: recipes/main_meals/2022-12-23-chicken-avocado-melt/
 categories:
   - Main Meals
 featured_image: /Workouts_Page/kitchen/eng/images/chicken_avocado_melt.png
