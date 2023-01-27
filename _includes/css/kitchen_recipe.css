@@ -27,13 +27,57 @@
 			font-weight: 700;
 }
 .recipes .recipe a span {
-				position: absolute;
-				bottom: 5px;
-				width: 100%;
-				left: 0;
-				text-shadow: 1px 1px 1px #000;
-			}
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	left: 0;
+	text-shadow: 1px 1px 1px #000;
+}
 
 .recipes .recipe a:hover {
-				background: none;
-			}
+	background: none;
+}
+
+.recipe-overview {
+	padding: 0;
+	margin: 0 0 30px 0;
+
+	svg {
+		position: relative;
+		top: 6px;
+	}
+
+	span {
+		margin: 0 18px 0 3px;
+	}
+
+	li {
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+	}
+}
+
+.recipe-contents {
+	display: flex;
+}
+
+.recipe-contents .ingredients {
+		width: 200px;
+		padding: 0 43px 0 0;
+	}
+
+.recipe-contents .directions {
+		flex: 1;
+	}
+
+
+ul, ol {
+	padding-left: 17px;
+	margin: 0;
+}
+
+ol li {
+	margin: 10px 0 0 0;
+}
+
