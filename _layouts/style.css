@@ -3,4 +3,5 @@
 {% include css/kitchen.css %}
 {% include css/kitchen_blog.css%} 
 {% include css/kitchen_mealplans.css%}
+{% include css/kitchen_recipe.css%}
 {{ content }}
