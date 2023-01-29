@@ -1204,50 +1204,106 @@ day38_num: Day 38 -
 day38: Wednesday (REST)
 day39_num: Day 4 -
 day39: Thursday (Chest & Biceps)
-th7_exc1: Incline Dumbbell Bench Press
-th7_exc1_sets: 2
-th7_exc1_reps: 10
-th7_exc1_rest: 1 min.
-th7_exc1_notes: Light weight. Stop a bit short of failure.
-th7_exc2: Incline Dumbbell Bench Press
-th7_exc2_sets: 2
-th7_exc2_reps: 8-12
-th7_exc2_rest: 2 min.
-th7_exc2_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-th7_exc3: Machine Chest Press
-th7_exc3_sets: 2
-th7_exc3_reps: 8-12
-th7_exc3_rest: 2 min.
-th7_exc3_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-th7_exc4: Decline Dumbbell Bench Press
-th7_exc4_sets: 2
-th7_exc4_reps: 8-12
-th7_exc4_rest: 2 min.
-th7_exc4_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-th7_exc5: Cable Cross Over
-th7_exc5_sets: 2
-th7_exc5_reps: 8-12
-th7_exc5_rest: 2 min.
-th7_exc5_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-th7_exc6: Alternating Dumbbell Bicep Curl
-th7_exc6_sets: 2
-th7_exc6_reps: 8-12
-th7_exc6_rest: 2 min.
-th7_exc6_notes: 8-12 per arm. Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-th7_exc7: Barbell Curl
-th7_exc7_sets: 2
-th7_exc7_reps: 8-12
-th7_exc7_rest: 2 min.
-th7_exc7_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-th7_exc8: Single Arm Preacher Machine Curl
-th7_exc8_sets: 3
-th7_exc8_reps: 8-12
-th7_exc8_rest: 2 min.
-th7_exc8_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-th7_exc9: Eliptical Machine
-th7_exc9_sets: 1
-th7_exc9_reps: 15 min.
-th7_exc9_rest:
-th7_exc9_notes:  Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
-
+th6_exc1: Incline Dumbbell Bench Press
+th6_exc1_sets: 2
+th6_exc1_reps: 10
+th6_exc1_rest: 1 min.
+th6_exc1_notes: Light weight. Stop a bit short of failure.
+th6_exc2: Incline Dumbbell Bench Press
+th6_exc2_sets: 2
+th6_exc2_reps: 8-12
+th6_exc2_rest: 2 min.
+th6_exc2_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+th6_exc3: Machine Chest Press
+th6_exc3_sets: 2
+th6_exc3_reps: 8-12
+th6_exc3_rest: 2 min.
+th6_exc3_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+th6_exc4: Decline Dumbbell Bench Press
+th6_exc4_sets: 2
+th6_exc4_reps: 8-12
+th6_exc4_rest: 2 min.
+th6_exc4_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+th6_exc5: Cable Cross Over
+th6_exc5_sets: 2
+th6_exc5_reps: 8-12
+th6_exc5_rest: 2 min.
+th6_exc5_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+th6_exc6: Alternating Dumbbell Bicep Curl
+th6_exc6_sets: 2
+th6_exc6_reps: 8-12
+th6_exc6_rest: 2 min.
+th6_exc6_notes: 8-12 per arm. Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+th6_exc7: Barbell Curl
+th6_exc7_sets: 2
+th6_exc7_reps: 8-12
+th6_exc7_rest: 2 min.
+th6_exc7_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+th6_exc8: Single Arm Preacher Machine Curl
+th6_exc8_sets: 3
+th6_exc8_reps: 8-12
+th6_exc8_rest: 2 min.
+th6_exc8_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+th6_exc9: Eliptical Machine
+th6_exc9_sets: 1
+th6_exc9_reps: 15 min.
+th6_exc9_rest:
+th6_exc9_notes:  Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day40_num: Day 40 -
+day40: Friday (Back & Abs)
+fri6_exc1: Reverse-grip Lat Pull-down
+fri6_exc1_sets: 2
+fri6_exc1_reps: 10
+fri6_exc1_rest: 1 min.
+fri6_exc1_notes: Light weight. Stop a bit before fialure.
+fri6_exc2: Reverse-grip Lat Pull-down
+fri6_exc2_sets: 2
+fri6_exc2_reps: 8-12
+fri6_exc2_rest: 2 min.
+fri6_exc2_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc3: V-bar Pull-down
+fri6_exc3_sets: 2
+fri6_exc3_reps: 8-12
+fri6_exc3_rest: 2 min.
+fri6_exc3_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc4: Barbell Row
+fri6_exc4_sets: 2
+fri6_exc4_reps: 8-12
+fri6_exc4_rest: 2 min.
+fri6_exc4_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc5: Machine Low Row
+fri6_exc5sets: 2
+fri6_exc5reps: 8-12
+fri6_exc5rest: 2 min.
+fri6_exc5notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc5: Dumbbell Row
+fri6_exc5sets: 3
+fri6_exc5reps: 8-12
+fri6_exc5rest: 2 min.
+fri6_exc5notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc5: Dumbbell Deadlift
+fri6_exc5sets: 2
+fri6_exc5reps: 8-12
+fri6_exc5rest: 2 min.
+fri6_exc5notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc5: Cable Reverse Crunch
+fri6_exc5sets: 2
+fri6_exc5reps: 8-12
+fri6_exc5rest: 2 min.
+fri6_exc5notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc5: Feet Elevated Crunch
+fri6_exc5sets: 2
+fri6_exc5reps: 8-12
+fri6_exc5rest: 2 min.
+fri6_exc5notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc5: Treadmill Jogging
+fri6_exc5sets: 2
+fri6_exc5reps: 8-12
+fri6_exc5rest: 2 min.
+fri6_exc5notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day41_num: Day 41 -
+day41: Saturday (REST)
+day42_num: Day 42 -
+day42: Sunday (REST)
+week7_num: Week 7
 ---
