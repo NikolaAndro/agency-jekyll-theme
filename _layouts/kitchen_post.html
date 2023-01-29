@@ -19,12 +19,12 @@ layout: kitchen_default
 
 	<div class="recipe-contents">
 		<div class="ingredients">
-			<h2>Састојци</h2>
+			<h2>Ingedients</h2>
 			{{ page.recipe.ingredients_markdown | markdownify }}
 		</div>
 
 		<div class="directions">
-			<h2>Упутства</h2>
+			<h2>Directions</h2>
 			{{ page.recipe.directions_markdown | markdownify }}
 		</div>
 	</div>
@@ -39,9 +39,9 @@ layout: kitchen_default
 	</div>
 
 	<div class="cta">
-		<h2>Остали укусни рецепти</h2>
+		<h2>Other Recipes!</h2>
 <!-- 		<p>This is one of the many fantastic recipes available on this blog</p> -->
-		<div class="kitchen-button"><a href="{{ site.kitchenurl }}">Отвори рецепте</a></div>
+		<div class="kitchen-button"><a href="{{ site.kitchenurl }}">Open Recipes!</a></div>
 	</div>
 	{% if site.disqus_shortname and page.comments %}
 		<div id="disqus_thread"></div>
