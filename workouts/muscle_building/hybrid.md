@@ -1272,35 +1272,35 @@ fri6_exc4_reps: 8-12
 fri6_exc4_rest: 2 min.
 fri6_exc4_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
 fri6_exc5: Machine Low Row
-fri6_exc5sets: 2
-fri6_exc5reps: 8-12
-fri6_exc5rest: 2 min.
-fri6_exc5notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-fri6_exc5: Dumbbell Row
-fri6_exc5sets: 3
-fri6_exc5reps: 8-12
-fri6_exc5rest: 2 min.
-fri6_exc5notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-fri6_exc5: Dumbbell Deadlift
-fri6_exc5sets: 2
-fri6_exc5reps: 8-12
-fri6_exc5rest: 2 min.
-fri6_exc5notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-fri6_exc5: Cable Reverse Crunch
-fri6_exc5sets: 2
-fri6_exc5reps: 8-12
-fri6_exc5rest: 2 min.
-fri6_exc5notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-fri6_exc5: Feet Elevated Crunch
-fri6_exc5sets: 2
-fri6_exc5reps: 8-12
-fri6_exc5rest: 2 min.
-fri6_exc5notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
-fri6_exc5: Treadmill Jogging
-fri6_exc5sets: 2
-fri6_exc5reps: 8-12
-fri6_exc5rest: 2 min.
-fri6_exc5notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+fri6_exc5_sets: 2
+fri6_exc5_reps: 8-12
+fri6_exc5_rest: 2 min.
+fri6_exc5_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc6: Dumbbell Row
+fri6_exc6_sets: 3
+fri6_exc6_reps: 8-12
+fri6_exc6_rest: 2 min.
+fri6_exc6_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc7: Dumbbell Deadlift
+fri6_exc7_sets: 2
+fri6_exc7_reps: 8-12
+fri6_exc7_rest: 2 min.
+fri6_exc7_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc8: Cable Reverse Crunch
+fri6_exc8_sets: 2
+fri6_exc8_reps: 8-12
+fri6_exc8_rest: 2 min.
+fri6_exc8_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc9: Feet Elevated Crunch
+fri6_exc9_sets: 2
+fri6_exc9_reps: 8-12
+fri6_exc9_rest: 2 min.
+fri6_exc9_notes: Try to reach failure at around 8-10 reps on the second set and add 2-4 forced reps.
+fri6_exc10: Treadmill Jogging
+fri6_exc10_sets: 2
+fri6_exc10_reps: 8-12
+fri6_exc10_rest: 2 min.
+fri6_exc10_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 day41_num: Day 41 -
 day41: Saturday (REST)
 day42_num: Day 42 -
