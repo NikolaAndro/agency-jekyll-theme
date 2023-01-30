@@ -11,6 +11,7 @@ recipe:
   servings: 1 cake
   prep: 
   cook: 
+  macros: 1870.08 cal | 38.03g p. | 119.43g c. | 164.93g f.
   ingredients_markdown: |-
     **Main Ingredients**
 
