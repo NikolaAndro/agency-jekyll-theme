@@ -58,9 +58,9 @@
 	}
 }
 
-.recipe-contents {
+/* .recipe-contents {
 	display: flex;
-}
+} */
 
 .recipe-contents .ingredients {
 		width: 250px;
