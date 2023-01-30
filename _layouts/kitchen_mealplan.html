@@ -3,66 +3,68 @@ layout: kitchen_default
 lang: srb
 ---
 
+
 <h1>{{page.title}}</h1>
 <br><br>
 <p>{{page.description}}</p>
 <br><br>
-<div class="recipe-contents">
-	{% if page.meal1 %}
-		<div class="ingredients">
-			{{ page.meal1.ingredients_markdown | markdownify }}
-		</div>
-	{% endif %}
-	
-	{% if page.meal2 %}
-		<div class="ingredients">
-			{{ page.meal2.ingredients_markdown | markdownify }}
-		</div>
-	{% endif %}
-	
-	{% if page.meal3 %}
-		<div class="ingredients">
-			{{ page.meal3.ingredients_markdown | markdownify }}
-		</div>
-	{% endif %}
-	
-	{% if page.meal4 %}
-		<div class="ingredients">
-			{{ page.meal4.ingredients_markdown | markdownify }}
-		</div>
-	{% endif %}
-	
-	{% if page.meal5 %}
-		<div class="ingredients">
-			{{ page.meal5.ingredients_markdown | markdownify }}
-		</div>
-	{% endif %}
-	
-	{% if page.meal6 %}
-		<div class="ingredients">
-			{{ page.meal6.ingredients_markdown | markdownify }}
-		</div>
-	{% endif %}
-	
-	{% if page.meal7 %}
-		<div class="ingredients">
-			{{ page.meal7.ingredients_markdown | markdownify }}
-		</div>
-	{% endif %}
-	
-	{% if page.meal8 %}
-		<div class="ingredients">
-			{{ page.meal8.ingredients_markdown | markdownify }}
-		</div>
-	{% endif %}
-	
-	{% if page.meal9 %}
-		<div class="ingredients">
-			{{ page.meal9.ingredients_markdown | markdownify }}
-		</div>
-	{% endif %}
-</div>
-
+<article class="kitchen-post">
+    <div class="recipe-contents">
+        {% if page.meal1 %}
+            <div class="mealplan_ingredients">
+                {{ page.meal1.ingredients_markdown | markdownify }}
+            </div>
+        {% endif %}
+        
+        {% if page.meal2 %}
+            <div class="mealplan_ingredients">
+                {{ page.meal2.ingredients_markdown | markdownify }}
+            </div>
+        {% endif %}
+        
+        {% if page.meal3 %}
+            <div class="mealplan_ingredients">
+                {{ page.meal3.ingredients_markdown | markdownify }}
+            </div>
+        {% endif %}
+        
+        {% if page.meal4 %}
+            <div class="mealplan_ingredients">
+                {{ page.meal4.ingredients_markdown | markdownify }}
+            </div>
+        {% endif %}
+        
+        {% if page.meal5 %}
+            <div class="mealplan_ingredients">
+                {{ page.meal5.ingredients_markdown | markdownify }}
+            </div>
+        {% endif %}
+        
+        {% if page.meal6 %}
+            <div class="mealplan_ingredients">
+                {{ page.meal6.ingredients_markdown | markdownify }}
+            </div>
+        {% endif %}
+        
+        {% if page.meal7 %}
+            <div class="mealplan_ingredients">
+                {{ page.meal7.ingredients_markdown | markdownify }}
+            </div>
+        {% endif %}
+        
+        {% if page.meal8 %}
+            <div class="mealplan_ingredients">
+                {{ page.meal8.ingredients_markdown | markdownify }}
+            </div>
+        {% endif %}
+        
+        {% if page.meal9 %}
+            <div class="mealplan_ingredients">
+                {{ page.meal9.ingredients_markdown | markdownify }}
+            </div>
+        {% endif %}
+    </div>
+</article>
 <br><br>
 <h2>Groceries</h2>
 
