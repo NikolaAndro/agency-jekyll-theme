@@ -6,7 +6,7 @@ url: /recipes/deserts/2023-01-29-carrot_cake/
 post_url: recipes/deserts/2023-01-29-carrot_cake/
 categories:
   - Deserts
-featured_image: /Workouts_Page/kitchen/eng/images/chicken_avocado_melt.png
+featured_image: /Workouts_Page/kitchen/eng/images/carrot_cake.jpg
 recipe:
   servings: 1 cake
   prep: 
