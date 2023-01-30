@@ -216,7 +216,7 @@ select::-ms-expand {
 	display: inline-flex;
   	align-items: flex-end;
 	margin: 0;
-	font-size: .8em;
+	font-size: 1.1em;
 }
 
 .kitchen-button:hover {
