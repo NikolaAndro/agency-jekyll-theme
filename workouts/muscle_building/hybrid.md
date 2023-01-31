@@ -14,7 +14,7 @@ has_coach: no
 project-date: December 2022
 client: Start Bootstrap
 category: Muscle Building
-description: <b>Week 1</b> - Relatively low rep range (around 8). <br><b>Week 2</b> - Range of around 12 reps.<br><b>Week 3</b> - Using dropsets and other techniques to increase the volume.<br><b>Week 4</b> - FST-7 (Fascia Stretch Training) where you will stretch fascia while contracting the target muscle between the sets.<br><b>Week 4</b> - German Volume Training - Magic 100 reps per muscle group.
+description: <b>Week 1</b> - Relatively low rep range (around 8). <br><b>Week 2</b> - Range of around 12 reps.<br><b>Week 3</b> - Using dropsets and other techniques to increase the volume.<br><b>Week 4</b> - FST-7 (Fascia Stretch Training) where you will stretch fascia while contracting the target muscle between the sets.<br><b>Week 5</b> - German Volume Training - Magic 100 reps per muscle group. <br><b>Week 6</b> - High-Intensity Training (HIT).
 week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Legs & Abs)
@@ -1306,4 +1306,56 @@ day41: Saturday (REST)
 day42_num: Day 42 -
 day42: Sunday (REST)
 week7_num: Week 7
+day43_num: Day 43 -
+day43: Monday (Legs)
+mon7_exc1: Leg Press
+mon7_exc1_sets: 2
+mon7_exc1_reps: 10
+mon7_exc1_rest: 1 min.
+mon7_exc1_notes: Warm-up sets.
+mon7_exc2: Leg Press
+mon7_exc2_sets: 6
+mon7_exc2_reps: 30/25/20/15/10/5
+mon7_exc2_rest: 1 min.
+mon7_exc2_notes: 
+mon7_exc3: Leg Press
+mon7_exc3_sets: 6
+mon7_exc3_reps: 5/10/15/20/25/30
+mon7_exc3_rest: 5/10/15/20/25/30 sec. 
+mon7_exc3_notes:  Rest s many seconds as the the number of reps you just did.
+mon7_exc4: Leg Extension
+mon7_exc4_sets: 6
+mon7_exc4_reps: 30/25/20/15/10/5
+mon7_exc4_rest: NO REST
+mon7_exc4_notes: SUPERSET WITH THE NEXT EXERCISE.
+mon7_exc5: Leg Curl
+mon7_exc5_sets: 6
+mon7_exc5_reps: 30/25/20/15/10/5
+mon7_exc5_rest: 1 min.
+mon7_exc5_notes: Back to leg extensions. 
+mon7_exc6: Leg Extension
+mon7_exc6_sets: 6
+mon7_exc6_reps: 5/10/15/20/25/30
+mon7_exc6_rest: 5/10/15/20/25/30 sec.
+mon7_exc6_notes: 
+mon7_exc7: Seated Leg Curl
+mon7_exc7_sets: 6
+mon7_exc7_reps: 5/10/15/20/25/30
+mon7_exc7_rest: 5/10/15/20/25/30 sec.
+mon7_exc7_notes: 
+mon7_exc8: Leg Press Calf Raise
+mon7_exc8_sets: 6
+mon7_exc8_reps: 30/25/20/15/10/5
+mon7_exc8_rest: 30/25/20/15/10/5 sec.
+mon7_exc8_notes:
+mon7_exc9: Leg Press Calf Raise
+mon7_exc9_sets: 6
+mon7_exc9_reps: 5/10/15/20/25/30
+mon7_exc9_rest: 5/10/15/20/25/30 sec.
+mon7_exc10_notes:
+mon7_exc10: Swimming
+mon7_exc10_sets: 1
+mon7_exc10_reps: 15 min.
+mon7_exc10_rest: 
+mon7_exc10_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 ---
