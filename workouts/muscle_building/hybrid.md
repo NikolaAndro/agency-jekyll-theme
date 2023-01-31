@@ -1358,4 +1358,61 @@ mon7_exc10_sets: 1
 mon7_exc10_reps: 15 min.
 mon7_exc10_rest: 
 mon7_exc10_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day44_num: Day 44 -
+day44: Tuesday (Chest & Biceps)
+tu7_exc1: EZ-bar Preacher Curl
+tu7_exc1_sets: 2
+tu7_exc1_reps: 10
+tu7_exc1_rest: NO REST
+tu7_exc1_notes: Light weight. Stop short of failure. SUPERSET WITH THE NEXT EXERCISE.
+tu7_exc2: Decline Dumbbell Bench Press
+tu7_exc2_sets: 2
+tu7_exc2_reps: 10
+tu7_exc2_rest: 1 min.
+tu7_exc2_notes: Light weight. Stop short of failure. Back to preacher curl.
+tu7_exc3: EZ-bar Preacher Curl
+tu7_exc3_sets: 6
+tu7_exc3_reps: 30/25/20/15/10/5
+tu7_exc3_rest: NO REST
+tu7_exc3_notes: SUPERSET WITH THE NEXT EXERCISE.
+tu7_exc4: Decline Dumbbell Bench Press
+tu7_exc4_sets: 6
+tu7_exc4_reps: 30/25/20/15/10/5
+tu7_exc4_rest: 1 min.
+tu7_exc4_notes: Back to preacher curl.
+tu7_exc5: Flat Dumbbell Bench Press
+tu7_exc5_sets: 6
+tu7_exc5_reps: 5/10/15/20/25/30
+tu7_exc5_rest: 5/10/15/20/25/30 sec.
+tu7_exc5_notes: 
+tu7_exc6: Barbell Curl
+tu7_exc6_sets: 6
+tu7_exc6_reps: 5/10/15/20/25/30
+tu7_exc6_rest: 5/10/15/20/25/30 sec.
+tu7_exc6_notes: 
+tu7_exc7: Standing Biceps Cable Curl
+tu7_exc7_sets: 3
+tu7_exc7_reps: 30/20/10
+tu7_exc7_rest: NO REST
+tu7_exc7_notes: 
+tu7_exc8: Incline Dumbbell Bench Press
+tu7_exc8_sets: 3
+tu7_exc8_reps:  30/20/10
+tu7_exc8_rest: 1 min.
+tu7_exc8_notes: Back to Cable Biceps Curl
+tu7_exc9: Incline Dumbbell Bench Press
+tu7_exc9_sets: 3
+tu7_exc9_reps: 10/20/30
+tu7_exc9_rest: 10/20/30 sec.
+tu7_exc9_notes: 
+tu7_exc10: Standing Biceps Cable Curl
+tu7_exc10_sets: 
+tu7_exc10_reps: 10/20/30
+tu7_exc10_rest: 10/20/30 sec.
+tu7_exc10_notes: 
+tu7_exc11: Jogging
+tu7_exc11_sets: 1
+tu7_exc11_reps: 15 min.
+tu7_exc11_rest: 
+tu7_exc11_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 ---
