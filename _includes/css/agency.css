@@ -35,7 +35,7 @@
     -webkit-border-vertical-spacing: ;
 }
 
-@media only screen and (max-width: 375px){
+@media screen and (max-width: 375px){
 	  #exerciseTable {
 			    font-size: auto;
 		}
