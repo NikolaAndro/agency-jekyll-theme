@@ -1346,7 +1346,7 @@ mon7_exc7_notes:
 mon7_exc8: Leg Press Calf Raise
 mon7_exc8_sets: 6
 mon7_exc8_reps: 30/25/20/15/10/5
-mon7_exc8_rest: 30/25/20/15/10/5 sec.
+mon7_exc8_rest: 1 min.
 mon7_exc8_notes:
 mon7_exc9: Leg Press Calf Raise
 mon7_exc9_sets: 6
