@@ -34,6 +34,13 @@
     -webkit-border-horizontal-spacing: ;
     -webkit-border-vertical-spacing: ;
 }
+
+@media only screen and (max-width: 375px){
+	  #exerciseTable {
+			    font-size: auto;
+		}
+}
+
 #exerciseTable tbody {
     display: table-row-group;
     vertical-align: middle;
