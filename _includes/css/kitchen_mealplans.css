@@ -38,5 +38,7 @@
 .mealprep-item .mealprep-item-title a:focus{
         color: #0d122b;
   }
-    
 
+.mealplan_ingredients a {
+      color: DodgerBlue;
+}
