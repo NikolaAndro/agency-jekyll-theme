@@ -1415,4 +1415,154 @@ tu7_exc11_sets: 1
 tu7_exc11_reps: 15 min.
 tu7_exc11_rest: 
 tu7_exc11_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day45_num: Day 45 -
+day45: Wednesday (Back & Abs)
+wed7_exc1: Dumbbell Bent-over Row
+wed7_exc1_sets: 2
+wed7_exc1_reps: 10
+wed7_exc1_rest: 1 min.
+wed7_exc1_notes: Light weight. Stop short of failure.
+wed7_exc2: Dumbbell Bent-over Row
+wed7_exc2_sets: 5
+wed7_exc2_reps: 25/20/15/10/5
+wed7_exc2_rest: 1 min.
+wed7_exc2_notes: 
+wed7_exc3: Bent-over Dumbbell Rear Delt Row
+wed7_exc3_sets: 5
+wed7_exc3_reps: 5/10/15/20/25
+wed7_exc3_rest: 5/10/15/20/25 sec.
+wed7_exc3_notes:
+wed7_exc4: Lat Pull-down
+wed7_exc4_sets: 5
+wed7_exc4_reps: 25/20/15/10/5
+wed7_exc4_rest: 1 min.
+wed7_exc4_notes: 
+wed7_exc5: Stiff-arm Push-down
+wed7_exc5_sets: 5
+wed7_exc5_reps: 5/10/15/20/25
+wed7_exc5_rest: 5/10/15/20/25 sec.
+wed7_exc5_notes: 
+wed7_exc6: Weighted Sit-up
+wed7_exc6_sets: 5
+wed7_exc6_reps: 25/20/15/10/5
+wed7_exc6_rest: 45 sec.
+wed7_exc6_notes: 
+wed7_exc7: Lying Leg Raise
+wed7_exc7_sets: 5
+wed7_exc7_reps: 5/10/15/20/25
+wed7_exc7_rest: 5/10/15/20/25 sec.
+wed7_exc7_notes: 
+wed7_exc8: Eliptical Trainer
+wed7_exc8_sets: 1
+wed7_exc8_reps: 15 min.
+wed7_exc8_rest: 
+wed7_exc8_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day46_num: Day 46 -
+day46: Thursday (Shoulders)
+th7_exc1: Smith Machine Shoulder Press
+th7_exc1_sets: 2
+th7_exc1_reps: 10
+th7_exc1_rest: NO REST
+th7_exc1_notes: SUPERSET WITH THE NEXT EXERCISE. Light weight. Stop a bit short of failure.
+th7_exc2: Lying Cable Side Raise
+th7_exc2_sets: 2
+th7_exc2_reps: 10
+th7_exc2_rest: 1 min.
+th7_exc2_notes:
+th7_exc3: Smith Machine Shoulder Press
+th7_exc3_sets: 6
+th7_exc3_reps: 30/25/20/15/10/5
+th7_exc3_rest: NO REST
+th7_exc3_notes: Back to shoulder press.
+th7_exc4: Lying Cable Side Raise
+th7_exc4_sets: 6
+th7_exc4_reps: 30/25/20/15/10/5
+th7_exc4_rest: 1 min.
+th7_exc4_notes: Back to smith machine.
+th7_exc5: Smith Machine Shoulder Press
+th7_exc5_sets: 6
+th7_exc5_reps: 5/10/15/20/25/30
+th7_exc5_rest: 5/10/15/20/25/30 sec.
+th7_exc5_notes: Reverse grip!
+th7_exc6: Standing Crossed-cable Rear Delt Fly
+th7_exc6_sets: 6
+th7_exc6_reps: 5/10/15/20/25/30
+th7_exc6_rest: 5/10/15/20/25/30 sec.
+th7_exc6_notes: 
+th7_exc7: Barbell Shrug
+th7_exc7_sets: 3
+th7_exc7_reps: 30/20/10
+th7_exc7_rest: NO REST
+th7_exc7_notes: SUPERSET WITH THE NEXT EXERCISE
+th7_exc8: Barbell Upright Row
+th7_exc8_sets: 3
+th7_exc8_reps: 30/20/10
+th7_exc8_rest: 1 min.
+th7_exc8_notes: Back to shrugs.
+th7_exc9: Behind the Back Shrug
+th7_exc9_sets: 3
+th7_exc9_reps: 10/20/30
+th7_exc9_rest: 10/20/30 sec. 
+th7_exc9_notes: 
+th7_exc10: Barbell Upright Row
+th7_exc10_sets: 6
+th7_exc10_reps: 10/20/30
+th7_exc10_rest: 10/20/30 sec.
+th7_exc10_notes: 
+th7_exc11: Treadmill Jogging
+th7_exc11_sets: 1
+th7_exc11_reps: 15 min.
+th7_exc11_rest: 
+th7_exc11_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day47_num: Day 47 -
+day47: Friday (Triceps & Calves)
+fri7_exc1: Close Grip Bench Press
+fri7_exc1_sets: 2
+fri7_exc1_reps: 10
+fri7_exc1_rest: 1 min.
+fri7_exc1_notes: SUPERSET WITH NEXT EXERCISE. Light weight. Stop a bit before fialure.
+fri7_exc2: Seated Calf Raise
+fri7_exc2_sets: 2
+fri7_exc2_reps: 10
+fri7_exc2_rest: 1 min.
+fri7_exc2_notes: Back to bench press.
+fri7_exc3: Close Grip Bench Press
+fri7_exc3_sets: 6
+fri7_exc3_reps: 30/25/20/15/10/5
+fri7_exc3_rest: NO REST
+fri7_exc3_notes: SUPERSET WITH NEXT EXERCISE.
+fri7_exc4: Seated Calf Raise
+fri7_exc4_sets: 6
+fri7_exc4_reps: 30/25/20/15/10/5
+fri7_exc4_rest: 1 min.
+fri7_exc4_notes: Back to bench press.
+fri7_exc5: Close Grip Bench Press
+fri7_exc5_sets: 6
+fri7_exc5_reps: 5/10/15/20/25/30
+fri7_exc5_rest: 5/10/15/20/25/30 sec.
+fri7_exc5_notes: 
+fri7_exc6: Seated Calf Raise
+fri7_exc6_sets: 6
+fri7_exc6_reps: 5/10/15/20/25/30
+fri7_exc6_rest: 5/10/15/20/25/30 sec.
+fri7_exc6_notes: 
+fri7_exc6: V-bar Cable Push Down
+fri7_exc7_sets: 6
+fri7_exc7_reps: 30/25/20/15/10/5
+fri7_exc7_rest: 1 min.
+fri7_exc7_notes: 
+fri7_exc8: Cable Overhead Triceps Extension
+fri7_exc8_sets: 6
+fri7_exc8_reps: 5/10/15/20/25/30
+fri7_exc8_rest: 5/10/15/20/25/30 sec.
+fri7_exc8_notes: 
+fri7_exc9: Eliptical Machine
+fri7_exc9sets: 1
+fri7_exc9reps: 15 min.
+fri7_exc9rest: 
+fri7_exc9notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day48_num: Day 48 -
+day48: Saturday (REST)
+day49_num: Day 49 -
+day49: Sunday (REST)
 ---
