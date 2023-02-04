@@ -11,9 +11,9 @@ lang: srb
 			<article class="mealprep-item">
 			  <span class="mealprep-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
 			  <h4 class="mealprep-item-title">
-				  <a href="{{site.baseurl}}{{ post.mealplanurl }}"><b>{{ post.calories | escape }}</b><br>
+				  <a href="{{site.baseurl}}{{ post.mealplanurl }}" style="color: DodgerBlue;"><b>{{ post.calories | escape }}</b></a><br>
 			    		{{ post.macros | escape }}<br>
-			    		{{ post.meals | escape }}</a>
+			    		{{ post.meals | escape }}
 			  </h4>
 			</article>
      
