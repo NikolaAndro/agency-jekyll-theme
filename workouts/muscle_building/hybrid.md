@@ -1557,9 +1557,9 @@ fri7_exc8_reps: 5/10/15/20/25/30
 fri7_exc8_rest: 5/10/15/20/25/30 sec.
 fri7_exc8_notes: 
 fri7_exc9: Eliptical Machine
-fri7_exc9sets: 1
-fri7_exc9reps: 15 min.
-fri7_exc9rest: 
+fri7_exc9_sets: 1
+fri7_exc9_reps: 15 min.
+fri7_exc9_rest: 
 fri7_exc9notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 day48_num: Day 48 -
 day48: Saturday (REST)
