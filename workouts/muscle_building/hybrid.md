@@ -1565,4 +1565,269 @@ day48_num: Day 48 -
 day48: Saturday (REST)
 day49_num: Day 49 -
 day49: Sunday (REST)
+week7_num: Week 8
+day50_num: Day 50 -
+day50: Monday (Back & Abs)
+mon8_exc1: Reverse-grip Lat Pull-down
+mon8_exc1_sets: 2
+mon8_exc1_reps: 10
+mon8_exc1_rest: 1 min.
+mon8_exc1_notes: Warm-up sets.
+mon8_exc2: Chin-up
+mon8_exc2_sets: 5
+mon8_exc2_reps: 20/15/10/10/5
+mon8_exc2_rest: 1 min.
+mon8_exc2_notes: Use assisted machine if necessary. Add weight if needed to hit faliure.
+mon8_exc3: Reverse-grip Lat Pull-down
+mon8_exc3_sets: 5
+mon8_exc3_reps: 5/10/10/15/20
+mon8_exc3_rest: 5/10/10/15/20 sec.
+mon8_exc3_notes: 
+mon8_exc4: Leverage High Row
+mon8_exc4_sets: 5
+mon8_exc4_reps: 20/15/10/10/5
+mon8_exc4_rest: NO REST
+mon8_exc4_notes: SUPERSET WITH THE NEXT EXERCISE
+mon8_exc5: Kneeling Cable Crunch
+mon8_exc5_sets: 5
+mon8_exc5_reps: 20/15/10/10/5
+mon8_exc5_rest: 1 min.
+mon8_exc5_notes: Back to high row.
+mon8_exc6: Seated Row
+mon8_exc6_sets: 5
+mon8_exc6_reps: 5/10/10/15/20 
+mon8_exc6_rest: 5/10/10/15/20 sec.
+mon8_exc6_notes: 
+mon8_exc7: Kneeling Cable Crunch
+mon8_exc7_sets: 5
+mon8_exc7_reps: 5/10/10/15/20
+mon8_exc7_rest: 5/10/10/15/20 sec.
+mon8_exc7_notes: 
+mon8_exc8: Barbell Row
+mon8_exc8_sets: 5
+mon8_exc8_reps: 20/15/10/10/5
+mon8_exc8_rest: NO REST
+mon8_exc8_notes: Overhand grip. SUPERSET WITH THE NEXT EXERCISE
+mon8_exc9: Seated Leg Tuck
+mon8_exc9_sets: 5
+mon8_exc9_reps: 20/15/10/10/5
+mon8_exc9_rest: 1 min.
+mon8_exc10_notes: Back to barbell row.
+mon8_exc10: Reverse-grip Bent-over Row
+mon8_exc10_sets: 5
+mon8_exc10_reps: 5/10/10/15/20 
+mon8_exc10_rest: 5/10/10/15/20 sec.
+mon8_exc10_notes:
+mon8_exc11: Eliptical Trainer
+mon8_exc11_sets: 1
+mon8_exc11_reps: 15 min.
+mon8_exc11_rest: 
+mon8_exc11_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
+day51_num: Day 51 -
+day51: Tuesday
+tu8_exc1: 
+tu8_exc1_sets: 
+tu8_exc1_reps: 
+tu8_exc1_rest: 
+tu8_exc1_notes: 
+tu8_exc2: 
+tu8_exc2_sets: 
+tu8_exc2_reps: 
+tu8_exc2_rest: 
+tu8_exc2_notes: 
+tu8_exc3: 
+tu8_exc3_sets: 
+tu8_exc3_reps: 
+tu8_exc3_rest: 
+tu8_exc3_notes: 
+tu8_exc4: 
+tu8_exc4_sets: 
+tu8_exc4_reps: 
+tu8_exc4_rest: 
+tu8_exc4_notes: 
+tu8_exc5: 
+tu8_exc5_sets: 
+tu8_exc5_reps: 
+tu8_exc5_rest: 
+tu8_exc5_notes: 
+tu8_exc6: 
+tu8_exc6_sets: 
+tu8_exc6_reps: 
+tu8_exc6_rest: 
+tu8_exc6_notes: 
+tu8_exc7: 
+tu8_exc7_sets: 
+tu8_exc7_reps: 
+tu8_exc7_rest: 
+tu8_exc7_notes: 
+tu8_exc8: 
+tu8_exc8_sets: 
+tu8_exc8_reps: 
+tu8_exc8_rest: 
+tu8_exc8_notes: 
+tu8_exc9: 
+tu8_exc9_sets: 
+tu8_exc9_reps: 
+tu8_exc9_rest: 
+tu8_exc9_notes: 
+tu8_exc10: 
+tu8_exc10_sets: 
+tu8_exc10_reps: 
+tu8_exc10_rest: 
+tu8_exc10_notes: 
+tu8_exc11: 
+tu8_exc11_sets: 
+tu8_exc11_reps: 
+tu8_exc11_rest: 
+tu8_exc11_notes: 
+day52_num: Day 52 -
+day52: Wednesday
+wed8_exc1: 
+wed8_exc1_sets: 
+wed8_exc1_reps: 
+wed8_exc1_rest: 
+wed8_exc1_notes: 
+wed8_exc2: 
+wed8_exc2_sets: 
+wed8_exc2_reps: 
+wed8_exc2_rest: 
+wed8_exc2_notes: 
+wed8_exc3: 
+wed8_exc3_sets: 
+wed8_exc3_reps: 
+wed8_exc3_rest: 
+wed8_exc3_notes:
+wed8_exc4: 
+wed8_exc4_sets: 
+wed8_exc4_reps: 
+wed8_exc4_rest: 
+wed8_exc4_notes: 
+wed8_exc5: 
+wed8_exc5_sets: 
+wed8_exc5_reps: 
+wed8_exc5_rest: 
+wed8_exc5_notes: 
+wed8_exc6: 
+wed8_exc6_sets: 
+wed8_exc6_reps: 
+wed8_exc6_rest: 
+wed8_exc6_notes: 
+wed8_exc7: 
+wed8_exc7_sets: 
+wed8_exc7_reps: 
+wed8_exc7_rest: 
+wed8_exc7_notes: 
+wed8_exc8: 
+wed8_exc8_sets: 
+wed8_exc8_reps: 
+wed8_exc8_rest: 
+wed8_exc8_notes: 
+day53_num: Day 53 -
+day53: Thursday
+th8_exc1: 
+th8_exc1_sets: 
+th8_exc1_reps: 
+th8_exc1_rest: 
+th8_exc1_notes: 
+th8_exc2: 
+th8_exc2_sets: 
+th8_exc2_reps: 
+th8_exc2_rest: 
+th8_exc2_notes:
+th8_exc3: 
+th8_exc3_sets: 
+th8_exc3_reps: 
+th8_exc3_rest: 
+th8_exc3_notes: 
+th8_exc4: 
+th8_exc4_sets: 
+th8_exc4_reps: 
+th8_exc4_rest: 
+th8_exc4_notes: 
+th8_exc5: 
+th8_exc5_sets: 
+th8_exc5_reps: 
+th8_exc5_rest: 
+th8_exc5_notes: 
+th8_exc6: 
+th8_exc6_sets: 
+th8_exc6_reps: 
+th8_exc6_rest: 
+th8_exc6_notes: 
+th8_exc7: 
+th8_exc7_sets: 
+th8_exc7_reps: 
+th8_exc7_rest: 
+th8_exc7_notes: 
+th8_exc8: 
+th8_exc8_sets: 
+th8_exc8_reps: 
+th8_exc8_rest: 
+th8_exc8_notes: 
+th8_exc9: 
+th8_exc9_sets: 
+th8_exc9_reps: 
+th8_exc9_rest: 
+th8_exc9_notes: 
+th8_exc10: 
+th8_exc10_sets: 
+th8_exc10_reps: 
+th8_exc10_rest: 
+th8_exc10_notes: 
+th8_exc11: 
+th8_exc11_sets: 
+th8_exc11_reps: 
+th8_exc11_rest: 
+th8_exc11_notes: 
+day54_num: Day 54 -
+day54: Friday
+fri8_exc1: 
+fri8_exc1_sets: 
+fri8_exc1_reps: 
+fri8_exc1_rest: 
+fri8_exc1_notes: 
+fri8_exc2: 
+fri8_exc2_sets: 
+fri8_exc2_reps: 
+fri8_exc2_rest: 
+fri8_exc2_notes: 
+fri8_exc3: 
+fri8_exc3_sets: 
+fri8_exc3_reps: 
+fri8_exc3_rest: 
+fri8_exc3_notes: 
+fri8_exc4: 
+fri8_exc4_sets: 
+fri8_exc4_reps: 
+fri8_exc4_rest: 
+fri8_exc4_notes: 
+fri8_exc5: 
+fri8_exc5_sets: 
+fri8_exc5_reps: 
+fri8_exc5_rest: 
+fri8_exc5_notes: 
+fri8_exc6: 
+fri8_exc6_sets: 
+fri8_exc6_reps: 
+fri8_exc6_rest: 
+fri8_exc6_notes: 
+fri8_exc7: 
+fri8_exc7_sets: 
+fri8_exc7_reps: 
+fri8_exc7_rest: 
+fri8_exc7_notes: 
+fri8_exc8: 
+fri7_exc8_sets: 
+fri8_exc8_reps: 
+fri8_exc8_rest: 
+fri8_exc8_notes: 
+fri8_exc9: 
+fri8_exc9_sets: 
+fri8_exc9_reps: 
+fri8_exc9_rest: 
+fri8_exc9notes: 
+day55_num: Day 55 -
+day55: Saturday 
+day56_num: Day 56 -
+day56: Sunday
 ---
