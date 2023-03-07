@@ -34,9 +34,9 @@ mon1_exc3_rest: 1 min.
 mon1_exc3_notes: Keep elbow fixed, tilt forward during negative - back during contraction.
 mon1_exc4: T-bar row
 mon1_exc4_sets: 2
-mon1_exc4_reps: 10 / to failure
+mon1_exc4_reps: 10 + mecanical drop to to failure
 mon1_exc4_rest: 1 min.
-mon1_exc4_notes:
+mon1_exc4_notes: Pick a weight that causes you to fail around 10, adjust form more upright position and continue to failure.
 mon1_exc5: Weighted Straight Hyper
 mon1_exc5_sets: 2
 mon1_exc5_reps: 20-30/to failure
