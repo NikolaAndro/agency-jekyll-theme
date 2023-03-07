@@ -17,47 +17,47 @@ description: Before every workout you will do the following warm-up routine:<br>
 week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Chest)
-mon1_exc1: Barbell incline bench press (medium grip), 3 x 4-6 reps
+mon1_exc1: Barbell incline bench press (medium grip)
 mon1_exc1_sets: 3
 mon1_exc1_reps: 4-6
 mon1_exc1_rest: 1 min.
 mon1_exc1_notes:
-mon1_exc2: Incline dumbbell press, 3 x 4-6 reps
+mon1_exc2: Incline dumbbell press
 mon1_exc2_sets: 3
 mon1_exc2_reps: 4-6
 mon1_exc2_rest: 1 min.
 mon1_exc2_notes:
-mon1_exc3: Inlince dumbbell chest fly, 3 x 8-12 reps
+mon1_exc3: Inlince dumbbell chest fly
 mon1_exc3_sets: 3
 mon1_exc3_reps: 8-12
 mon1_exc3_rest: 1 min.
 mon1_exc3_notes:
-mon1_exc4: Push-ups (3 variations), 3 x 12 reps
+mon1_exc4: Push-ups (3 variations)
 mon1_exc4_sets: 3
 mon1_exc4_reps: 12
 mon1_exc4_rest: 1 min.
 mon1_exc4_notes:
-mon1_exc5: Decline dumbbel press, 3 x 8 reps
+mon1_exc5: Decline dumbbel press
 mon1_exc5_sets: 3
 mon1_exc5_reps: 8
 mon1_exc5_rest: 1 min.
 mon1_exc5_notes:
-mon1_exc6: Cable fly (low to high), 3 x 12 reps
+mon1_exc6: Cable fly (low to high)
 mon1_exc6_sets: 3
 mon1_exc6_reps: 12
 mon1_exc6_rest: 1 min.
 mon1_exc6_notes:
-mon1_exc7: Cable fly (high to low), 3 x 12 reps
+mon1_exc7: Cable fly (high to low)
 mon1_exc7_sets: 3
 mon1_exc7_reps: 12
 mon1_exc7_rest: 1 min.
 mon1_exc7_notes:
-mon1_exc8: Machine chest fly, 3 x 12 reps
+mon1_exc8: Machine chest fly
 mon1_exc8_sets: 3
 mon1_exc8_reps: 12
 mon1_exc8_rest: 1 min.
 mon1_exc8_notes:
-mon1_exc9: Incline barbell bench, 3 x 12 reps
+mon1_exc9: Incline barbell bench
 mon1_exc9_sets: 3
 mon1_exc9_reps: 12
 mon1_exc9_rest: 1 min.
@@ -136,7 +136,7 @@ wed1_exc5_sets: 4
 wed1_exc5_reps: 12
 wed1_exc5_rest: 90 sec.
 wed1_exc5_notes: back to walking lunges.
-wed1_exc6: Single Leg Lying Leg Curl (left) - 4 x 10-12, NO REST 
+wed1_exc6: Single Leg Lying Leg Curl (left) 
 wed1_exc6_sets: 4
 wed1_exc6_reps: 12
 wed1_exc6_rest: NO REST
