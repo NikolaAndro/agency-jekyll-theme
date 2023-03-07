@@ -4,7 +4,7 @@ subtitle: 4 weeks
 layout: page
 modal-id: 8
 date: 2023-03-06
-img_path: 
+img_path: portfolio/busy.jpeg 
 alt: image-alt
 has_coach: "no"
 coach_name: 
