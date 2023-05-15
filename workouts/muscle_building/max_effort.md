@@ -710,17 +710,51 @@ mon3_exc13_rest: 1 min.
 mon3_exc13_notes: Bacck to spider crunch.
 day16_num: Day 16 -
 day16: Tuesday (Back & Abs)
-tu3_exc1: Barbell deadlift - 2 x 10, rest 1 min. (warm up sets)
-tu3_exc2: Barbell deadlift - 12/10/8/6/6, rest 2 min. 
-tu3_exc3: Lat pull down - 4 x 10, rest 90 sec.
-tu3_exc4: Incline dumbbell row - 4 x 12, rest 1 min. + double drop set after the last set
-tu3_exc5: Neutral grip lat pull down - 4 x 12, rest 90 sec.
-tu3_exc6: Cable lying twist on the ball (left) - 4 x 15, NO REST
-tu3_exc7: Cable lying twist on the ball (right) - 4 x 15, rest 1 min.
-tu3_exc8: Hanging windshield wiper - 4 x 6-12, rest 1 min.
-tu3_exc9: Reverse ab rollout - 4 x 12, rest 1 min.
-tu3_exc10:
-tu3_exc11:
+tu3_exc1: Barbell deadlift
+tu3_exc1_sets: 2
+tu3_exc1_reps: 5-10
+tu3_exc1_rest: 1 min.
+tu3_exc1_notes: Warm-up sets.
+tu3_exc2: Barbell deadlift
+tu3_exc2_sets: 5
+tu3_exc2_reps: 12/10/8/8/6
+tu3_exc2_rest: 2 min.
+tu3_exc2_notes: 
+tu3_exc3: Lat pull down
+tu3_exc3_sets: 4
+tu3_exc3_reps: 10
+tu3_exc3_rest: 90 sec.
+tu3_exc3_notes: 
+tu3_exc4: Incline dumbbell row
+tu3_exc4_sets: 4
+tu3_exc4_reps: 12
+tu3_exc4_rest: 1 min.
+tu3_exc4_notes: Double drop set after the last set.
+tu3_exc5: Neutral grip lat pull down
+tu3_exc5_sets: 4
+tu3_exc5_reps: 12
+tu3_exc5_rest: 90 sec.
+tu3_exc5_notes: 
+tu3_exc6: Cable lying twist on the ball (left)
+tu3_exc6_sets: 4
+tu3_exc6_reps: 15
+tu3_exc6_rest: NO REST
+tu3_exc6_notes: SUPERSET WITH NEXT EXERCISE.
+tu3_exc7: Cable lying twist on the ball (right)
+tu3_exc7_sets: 4
+tu3_exc7_reps: 15
+tu3_exc7_rest: 1 min.
+tu3_exc7_notes: 
+tu3_exc8: Hanging windshield wiper
+tu3_exc8_sets: 4
+tu3_exc8_reps: 6-12
+tu3_exc8_rest: 1 min.
+tu3_exc8_notes: 
+tu3_exc9: Reverse ab rollout
+tu3_exc9_sets: 4
+tu3_exc9_reps: 12
+tu3_exc9_rest: 1 min.
+tu3_exc9_notes: 
 day17_num: Day 17 -
 day17: Wednesday (Legs & Abs)
 wed3_exc1: Leg extension - 2 x 10, rest 1 min. (warm up sets)
