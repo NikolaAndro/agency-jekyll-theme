@@ -757,7 +757,11 @@ tu3_exc9_rest: 1 min.
 tu3_exc9_notes: 
 day17_num: Day 17 -
 day17: Wednesday (Legs & Abs)
-wed3_exc1: Leg extension - 2 x 10, rest 1 min. (warm up sets)
+wed3_exc1: Leg extension 
+wed3_exc1_sets: 2 
+wed3_exc1_reps: 10
+wed3_exc1_rest: 1 min. 
+wed3_exc1_notes: Warm up sets.
 wed3_exc2: Leg extension - 5 x 15, rest 1 min.
 wed3_exc3: Barbell front squat - 4 x 10, rest 2 min. 
 wed3_exc4: Smith machine Bulgarian split squat (left)- 4 x 12, NO REST
