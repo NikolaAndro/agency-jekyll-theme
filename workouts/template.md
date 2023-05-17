@@ -1812,7 +1812,7 @@ fri8_exc7_reps:
 fri8_exc7_rest: 
 fri8_exc7_notes: 
 fri8_exc8: 
-fri7_exc8_sets: 
+fri8_exc8_sets: 
 fri8_exc8_reps: 
 fri8_exc8_rest: 
 fri8_exc8_notes: 
