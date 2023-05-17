@@ -4,26 +4,34 @@ Support my project to keep adding more workouts by donating!
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.buymeacoffee.com/nikolaandro)
 
-# Next
+# ToDo List
 
-Every portfolio needs to point to a new html page.
+## Nikola
 
-1. Create HTML page for each workout. 
-2. Every page needs to be filled with post.md information. 
-3. From portfolio.html you need to direct href to the specific folder and specific file name
-3. See how to make URL pretty
+- [ ] Make sure all weeks are in tables
+- [ ] High resolution images for the workouts
+- [ ] Finish about
+- [ ] Make sure everything looks good on mobile device
+- [ ] Remove the kitchen for now. We will put it back later
+- [ ] Fast scrolling
+
+## Tamara
+
+- [ ] Svi treninzi treba da budu u tabelama
+- [ ] Napraviti instagram stranicu sa ovim logoom
+- [ ] Smisliti plan na kojim drustvenim mrezama bi ovo moglo da se prosiri
+- [ ] Treba da steknemo dovoljno "website trafick" da bi poceli da radimo reklame i da potencijalno zaradimo neki dinar od toga (AdSense ili nesto poput toga)
 
 # Future Plans
 
 - [ ] Add comments with Google
-- [ ] Add different sectinos per type of workout (Daniel)
+- [x] Add different sectinos per type of workout (Daniel)
 - [ ] AdSense + (how to get partial price of the prodduct they buy) 
 - [ ] Ask nutrition App to promote them
-- [ ] Nutrition Section
+- [x] Nutrition Section
 - [ ] Excercise Library Section that leads to our new YouTube Section
 - [ ] YouTube Section
 - [ ] Instagram Page
-- [ ] Eventually $1 per month fee (Why not just for free??)
 - [x] Table at the beginning of the workout (being able to autoscroll)
 - [x] Talk to Mathew to promote, we will him, as well as Mirzad
 - [ ] Share in school chats and Other school teams/chats
