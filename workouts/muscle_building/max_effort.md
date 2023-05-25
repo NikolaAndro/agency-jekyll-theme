@@ -762,16 +762,56 @@ wed3_exc1_sets: 2
 wed3_exc1_reps: 10
 wed3_exc1_rest: 1 min. 
 wed3_exc1_notes: Warm up sets.
-wed3_exc2: Leg extension - 5 x 15, rest 1 min.
-wed3_exc3: Barbell front squat - 4 x 10, rest 2 min. 
-wed3_exc4: Smith machine Bulgarian split squat (left)- 4 x 12, NO REST
-wed3_exc5: Smith machine Bulgarian split squat (right)- 4 x 12, rest 90 sec. (back to left)
-wed3_exc6: Dumbbell goblet squat - 4 x 12-15, rest 90 sec. + double drop set after the last set
-wed3_exc7: Smith machine standing calf raise 5 x 10, rest 1 min.
-wed3_exc8: Leg press calf raise - 4 x 12, rest 1 min.
-wed3_exc9: Seated leg tuck with dumbbell - 4 x 15, NO REST
-wed3_exc10: Lying leg lift - 4 x 15, NO REST
-wed3_exc11: Flutter kick - 4 x 1 min. rest 90 sec. (backt to seated leg tuck)
+wed3_exc2: Leg extension 
+wed3_exc2_sets: 5 
+wed3_exc2_reps: 15
+wed3_exc2_rest: 1 min. 
+wed3_exc2_notes:
+wed3_exc3: Barbell front squat
+wed3_exc3_sets: 4 
+wed3_exc3_reps: 10
+wed3_exc3_rest: 2 min. 
+wed3_exc3_notes:
+wed3_exc4: Smith machine Bulgarian split squat (left)
+wed3_exc4_sets: 4 
+wed3_exc4_reps: 12
+wed3_exc4_rest: NO REST
+wed3_exc4_notes: Back to the left side.
+wed3_exc5: Smith machine Bulgarian split squat (right)
+wed3_exc5_sets: 4 
+wed3_exc5_reps: 12
+wed3_exc5_rest: 90 sec.
+wed3_exc5_notes: Back to the left side.
+wed3_exc6: Dumbbell goblet squat
+wed3_exc6_sets: 4 
+wed3_exc6_reps: 12-15
+wed3_exc6_rest: 90 sec.
+wed3_exc6_notes: Double drop set after the last set.
+wed3_exc7: Smith machine standing calf raise
+wed3_exc7_sets: 5
+wed3_exc7_reps: 10
+wed3_exc7_rest: 1 min.
+wed3_exc7_notes: 
+wed3_exc8: Leg press calf raise
+wed3_exc8_sets: 4
+wed3_exc8_reps: 12
+wed3_exc8_rest: 1 min.
+wed3_exc8_notes:
+wed3_exc9: Seated leg tuck with dumbbell
+wed3_exc9_sets: 4
+wed3_exc9_reps: 15
+wed3_exc9_rest: NO REST
+wed3_exc9_notes: TRISET WITH THE NEXT 2 EXCERCISES
+wed3_exc10: Lying leg lift
+wed3_exc10_sets: 4
+wed3_exc10_reps: 15
+wed3_exc10_rest: NO REST
+wed3_exc10_notes: TRISET WITH THE NEXT 2 EXCERCISES
+wed3_exc11: Flutter kick
+wed3_exc11_sets: 4
+wed3_exc11_reps: 1 min.
+wed3_exc11_rest: 90 sec.
+wed3_exc11_notes: Back to seated leg tuck.
 day18_num: Day 18 -
 day18: Thursday (Shoulders)
 th3_exc1: Seated barbell shoulder press - 2 x 10, NO REST
