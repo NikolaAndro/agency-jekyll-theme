@@ -36,6 +36,16 @@ Support my project to keep adding more workouts by donating!
 - [x] Talk to Mathew to promote, we will him, as well as Mirzad
 - [ ] Share in school chats and Other school teams/chats
 - [ ] Custom domain name and hosting. Read [this](https://jekyllrb.com/docs/deployment/third-party/).
+- [ ] Excercise Library
+
+# Future Plans Kitchen
+
+- [ ] Include list of healthy snacks
+- [ ] Include a price estimator based on a store in real time (scrape stores web page)
+- [ ] Scrape the aisle numbers for each food in the list and make a "store tour" so that when you go to the store you have the most efficient rout to get all the food.
+- [ ] Make the kitchen available in Serbian and in English
+- [ ] Better sorting of meal plans
+
 Agency Jekyll theme
 ====================
 
