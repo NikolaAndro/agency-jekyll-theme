@@ -14,6 +14,11 @@ Support my project to keep adding more workouts by donating!
 - [ ] Make sure everything looks good on mobile device
 - [ ] Remove the kitchen for now. We will put it back later
 - [ ] Fast scrolling
+- [ ] Remove other YouTube Channels and put ours  
+- [ ] Make a kitches section
+- [ ] Put kitchen in the taskbar
+- [ ] Change the color of welcome to busy life
+- [ ] Enter lumberjack workout full version
 
 ## Tamara
 
@@ -44,7 +49,7 @@ Support my project to keep adding more workouts by donating!
 - [ ] Include a price estimator based on a store in real time (scrape stores web page)
 - [ ] Scrape the aisle numbers for each food in the list and make a "store tour" so that when you go to the store you have the most efficient rout to get all the food.
 - [ ] Make the kitchen available in Serbian and in English
-- [ ] Better sorting of meal plans
+- [ ] Better sorting of meal plans - sort by number of calories
 
 Agency Jekyll theme
 ====================
