@@ -814,8 +814,16 @@ wed3_exc11_rest: 90 sec.
 wed3_exc11_notes: Back to seated leg tuck.
 day18_num: Day 18 -
 day18: Thursday (Shoulders)
-th3_exc1: Seated barbell shoulder press - 2 x 10, NO REST
-th3_exc2: Seated dumbbell lateral raise - 2 x 10, rest 1 min. (warm up sets + back to barbell shouolder press) 
+th3_exc1: Seated barbell shoulder press
+th3_exc1_sets: 2
+th3_exc1_reps: 10
+th3_exc1_rest: NO REST
+th3_exc1_notes:
+th3_exc2: Seated dumbbell lateral raise -
+th3_exc2_sets: 2
+th3_exc2_reps: 10
+th3_exc2_rest: 1 min.
+th3_exc2_notes: WARM UP SETS + BACK TO BARBELL SHOULDER PRESS
 th3_exc3: Seated  BANDED barbell shoulder press - 5 x 8-10, NO REST
 th3_exc4: Seated dumbbell lateral raise - 5 x 12, rest 90 sec. + double drop set after the last set
 th3_exc5: Alternating dumbbell front raise - 4 x 24, rest 1 min.
@@ -860,7 +868,7 @@ sat3_exc11:
 sat3_exc12:
 day21_num: Day 21 -
 day21: Sunday (REST)
-sun3_exc1: REST
+sun3_exc1:
 sun3_exc2: 
 sun3_exc3: 
 sun3_exc4: 
