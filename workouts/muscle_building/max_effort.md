@@ -876,7 +876,7 @@ fri3_exc1_sets: 2
 fri3_exc1_reps: 20
 fri3_exc1_rest: 1 min.
 fri3_exc1_notes: warm up sets 
-fri3_exc2: Alternating biceps curl - 24/20/16/16, rest 45 sec. + double drop set after the last set
+fri3_exc2: Alternating biceps curl
 fri3_exc2_sets: 4 
 fri3_exc2_reps: 24/20/16/16 
 fri3_exc2_rest: 45 sec.
@@ -891,7 +891,7 @@ fri3_exc4_sets:  4
 fri3_exc4_reps: 12
 fri3_exc4_rest: NO REST
 fri3_exc4_notes: 
-fri3_exc5: Single arm dumbbell preacher curl (right) - 4 x 12, rest 45 sec. (back to left)
+fri3_exc5: Single arm dumbbell preacher curl (right)
 fri3_exc5_sets: 4 
 fri3_exc5_reps: 12
 fri3_exc5_rest: 45 sec.
@@ -906,7 +906,7 @@ fri3_exc7_sets: 4
 fri3_exc7_reps: 12
 fri3_exc7_rest: NO REST
 fri3_exc7_notes: 
-fri3_exc8: Incline dumbbell biceps curl - 4 x 12, rest 45 sec. (back to spider curl)
+fri3_exc8: Incline dumbbell biceps curl
 fri3_exc8_sets: 4 
 fri3_exc8_reps: 12
 fri3_exc8_rest: 45 sec.
@@ -1097,7 +1097,7 @@ tu4_exc6_sets: 4
 tu4_exc6_reps: 12/10/10/10 
 tu4_exc6_rest: NO REST 
 tu4_exc6_notes: Double drop set after the last set.  
-tu4_exc7: Single arm dumbbell row (right) - 12/10/10/10, rest 1 min. + double drop set after the last set
+tu4_exc7: Single arm dumbbell row (right)
 tu4_exc7_sets: 4 
 tu4_exc7_reps: 12/10/10/10 
 tu4_exc7_rest: 1 min.
@@ -1199,8 +1199,8 @@ th4_exc5: Dumbbell front raise
 th4_exc5_sets: 4 
 th4_exc5_reps: 12
 th4_exc5_rest: NO REST
-th4_exc5_notes: 
-th4_exc6: Incline dumbbell reverse fly - 4 x 12, rest 1 min. (back to front raise)
+th4_exc5_notes: SUPERSET WITH THE NEXT EXCERCISE
+th4_exc6: Incline dumbbell reverse fly
 th4_exc6_sets: 4 
 th4_exc6_reps: 12
 th4_exc6_rest: 1 min. 
@@ -1267,7 +1267,7 @@ fri4_exc7_sets: 4
 fri4_exc7_reps: 12
 fri4_exc7_rest: NO REST
 fri4_exc7_notes: Triple drop set after the final set with 30 sec. of intra-set with stretching between each drop. 
-fri4_exc8: doubule-arm triceps kick-back 
+fri4_exc8: Doubule-arm triceps kick-back 
 fri4_exc8_sets: 4 
 fri4_exc8_reps: 12
 fri4_exc8_rest: 1 min.
