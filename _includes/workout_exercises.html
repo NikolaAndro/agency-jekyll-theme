@@ -5215,7 +5215,8 @@
                                     <p>{{ page.sun4_exc9 }}</p>
                                     <p>{{ page.sun4_exc10 }}</p>
                                     <p>{{ page.sun4_exc11 }}</p>
-
+                            
+                        {% if page.day29_num  %}
                             <br><br> <a class="week_num" id="week5"> {{page.week5_num}} </a><br><br>
                                 <pday>   <daynum id="day1w5">{{page.day29_num}}</daynum> {{page.day29}} </pday><br><br>
                                 {% if page.mon5_exc1 %}
@@ -6434,7 +6435,8 @@
                                     <p>{{ page.sun5_exc9 }}</p>
                                     <p>{{ page.sun5_exc10 }}</p>
                                     <p>{{ page.sun5_exc11 }}</p>
-
+                        {% endif %}
+                        {% if page.day36_num  %}
                             <br><br> <a class="week_num" id="week6"> {{page.week6_num}} </a><br><br>
                                 <pday>   <daynum id="day1w6">{{page.day36_num}}</daynum> {{page.day36}} </pday><br><br>
                                     {% if page.mon6_exc1 %}
@@ -7864,8 +7866,9 @@
                                     <p>{{ page.sun6_exc9 }}</p>
                                     <p>{{ page.sun6_exc10 }}</p>
                                     <p>{{ page.sun6_exc11 }}</p>
-                            
-                            {% if page.mon7_exc1 %}
+                        {% endif %}
+                        {% if page.day43_num  %}
+                
                                 <br><br> <a class="week_num" id="week7"> {{page.week7_num}} </a><br><br>
                                     <pday>   <daynum id="day1w7">{{page.day43_num}}</daynum> {{page.day43}} </pday><br><br>
                                         
@@ -9137,9 +9140,9 @@
                                         <p>{{ page.sun7_exc9 }}</p>
                                         <p>{{ page.sun7_exc10 }}</p>
                                         <p>{{ page.sun7_exc11 }}</p>
-                                        {% endif %}
-                    
-                            <!-- {% if page.day50_num  %}  Need to change this line. Being lazy -->
+                        {% endif %}
+                       
+                        {% if page.day50_num  %}
                                 <br><br> <a class="week_num" id="week8"> {{page.week8_num}} </a><br><br>
                                     <pday>   <daynum id="day1w8">{{page.day50_num}}</daynum> {{page.day50}} </pday><br><br>
                                         {% if page.mon8_exc1 %}
@@ -10413,7 +10416,8 @@
                                         <p>{{ page.sun8_exc9 }}</p>
                                         <p>{{ page.sun8_exc10 }}</p>
                                         <p>{{ page.sun8_exc11 }}</p>
-
+                         {% endif %}
+                        {% if page.day57_num  %}
                                 <br><br> <a class="week_num" id="week9"> {{page.week9_num}} </a><br><br>
                                     <pday>   <daynum id="day1w9">{{page.day57_num}}</daynum> {{page.day57}} </pday><br><br>
                                         {% if page.mon9_exc1 %}
@@ -11756,7 +11760,8 @@
                                         <p>{{ page.sun9_exc9 }}</p>
                                         <p>{{ page.sun9_exc10 }}</p>
                                         <p>{{ page.sun9_exc11 }}</p>
-
+                        {% endif %}
+                        {% if page.day64_num  %}
                                     <br><br> <a class="week_num" id="week10"> {{page.week10_num}} </a><br><br>
                                     <pday>   <daynum id="day1w10">{{page.day64_num}}</daynum> {{page.day64}} </pday><br><br>
                                         {% if page.mon10_exc1 %}
@@ -13102,7 +13107,8 @@
                                     
                                     <!-- week 11 -->
 
-
+                        {% endif %}
+                        {% if page.day71_num  %}
                                     <br><br> <a class="week_num" id="week11"> {{page.week11_num}} </a><br><br>
                                     <pday>   <daynum id="day1w11">{{page.day71_num}}</daynum> {{page.day71}} </pday><br><br>
                                         {% if page.mon11_exc1 %}
@@ -14448,7 +14454,8 @@
 
 
                                     <!-- week 12 -->
-
+                        {% endif %}
+                        {% if page.day78_num  %}
                                     <br><br> <a class="week_num" id="week12"> {{page.week12_num}} </a><br><br>
                                     <pday>   <daynum id="day1w12">{{page.day78_num}}</daynum> {{page.day78}} </pday><br><br>
                                         {% if page.mon12_exc1 %}
@@ -15791,6 +15798,9 @@
                                         <p>{{ page.sun12_exc9 }}</p>
                                         <p>{{ page.sun12_exc10 }}</p>
                                         <p>{{ page.sun12_exc11 }}</p>
+                            {% endif %}
+                        
+                    
                         {% endif %}
                         {% else %}
                            <a></a>
