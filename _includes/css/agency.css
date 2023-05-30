@@ -41,6 +41,12 @@
 		}
 }
 
+@media screen and (max-width: 360px){
+	  #exerciseTable {
+			    font-size: 10px;
+		}
+}
+
 #exerciseTable tbody {
     display: table-row-group;
     vertical-align: middle;
