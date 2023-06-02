@@ -1331,18 +1331,66 @@ sun4_exc11:
 week5_num: Week 5
 day29_num: Day 29 -
 day29: Monday (Chest & Abs)
-mon5_exc1: Incline bench press - 2 x 10, rest 1 min. (warm up sets)
-mon5_exc2: Incline bench press - 10/10/8/8/6/6, rest 1 min.
-mon5_exc3: Incline dumbbell bench press - 5 x 8-12, rest 1 min. + double drop set after the final set 
-mon5_exc4: Dumbbell bench press - 12/10/8/6/20, rest 1 min.
-mon5_exc5: Incline cable chest fly - 4 x 12-15, rest 1 min.
-mon5_exc6: Machine chest fly - 4 x 15, NO REST
-mon5_exc7: Push up - 4 x 15, rest 1 min (back to chest fly)
-mon5_exc8: Machine chest press - 6 x 12-15, rest 1 min. + triple drop set after the final set 
-mon5_exc9: Chin-up crunch (abs) - 4 x 12, NO REST
-mon5_exc10: Standing cable twist (left) - 4 x 12, NO REST
-mon5_exc11: Standing cable twist (right) - 4 x 12, NO REST
-mon5_exc12: Suitcase - 3 x 12, rest 90 sec. (back to chin-up crunch)
+mon5_exc1: Incline bench press 
+mon5_exc1_sets: 2 
+mon5_exc1_reps: 10
+mon5_exc1_rest: 1 min.
+mon5_exc1_notes: Warm up sets. 
+mon5_exc2: Incline bench press 
+mon5_exc2_sets: 6 
+mon5_exc2_reps: 10/10/8/8/6/6 
+mon5_exc2_rest: 1 min.
+mon5_exc2_notes: 
+mon5_exc3: Incline dumbbell bench press
+mon5_exc3_sets: 5 
+mon5_exc3_reps: 8-12
+mon5_exc3_rest: 1 min.
+mon5_exc3_notes: Double drop set after the final set. 
+mon5_exc4: Dumbbell bench press 
+mon5_exc4_sets: 5 
+mon5_exc4_reps: 12/10/8/6/20 
+mon5_exc4_rest: 1 min. 
+mon5_exc4_notes: 
+mon5_exc5: Incline cable chest fly 
+mon5_exc5_sets: 4 
+mon5_exc5_reps: 12-15
+mon5_exc5_rest: 1 min.
+mon5_exc5_notes: 
+mon5_exc6: Machine chest fly 
+mon5_exc6_sets: 4 
+mon5_exc6_reps: 15 
+mon5_exc6_rest: NO REST 
+mon5_exc6_notes: 
+mon5_exc7: Push up 
+mon5_exc7_sets: 4 
+mon5_exc7_reps: 15 
+mon5_exc7_rest: 1 min. 
+mon5_exc7_notes: Back to chest fly. 
+mon5_exc8: Machine chest press 
+mon5_exc8_sets: 6 
+mon5_exc8_reps: 12-15 
+mon5_exc8_rest: 1 min. 
+mon5_exc8_notes: Triple drop set after the final set.
+mon5_exc9: Chin-up crunch (abs) 
+mon5_exc9_sets: 4 
+mon5_exc9_reps: 12
+mon5_exc9_rest: NO REST 
+mon5_exc9_notes: 
+mon5_exc10: Standing cable twist (left) 
+mon5_exc10_sets: 4 
+mon5_exc10_reps: 12
+mon5_exc10_rest: NO REST 
+mon5_exc10_notes: 
+mon5_exc11: Standing cable twist (right)
+mon5_exc11_sets: 4 
+mon5_exc11_reps: 12
+mon5_exc11_rest: NO REST 
+mon5_exc11_notes: 
+mon5_exc12: Suitcase 
+mon5_exc12_sets: 3 
+mon5_exc12_reps: 12
+mon5_exc12_rest: 90 sec. 
+mon5_exc12_notes: Back to chin-up crunch. 
 day30_num: Day 30 -
 day30: Tuesday (Back)
 tu5_exc1: Kneeling High Cables Pull-down
@@ -1387,58 +1435,242 @@ tu5_exc11:
 tu5_exc12:
 day31_num: Day 31 -
 day31: Wednesday (Legs & Abs)
-wed5_exc1: Barbell back squat - 2 x 10 (warm up sets)
-wed5_exc2: Barbell back squat - 4 x 15, rest 2 min.
-wed5_exc3: Barbell front squat - 4 x 15, rest 2 min.
-wed5_exc4: Leg press (use blood flow restriction) - 20/15/15/15/15/15, rest 45 sec.
-wed5_exc5: Single-leg leg extension (left) - 4 x 15, NO REST + double drop set after the final set
-wed5_exc6: Single-leg leg extension (right) - 4 x 15, rest 1 min. + double drop set after the final set
-wed5_exc7: Leg press calf raise - 5 x 10, rest 1 min. + triple drop set after the final set with 30 sec. of intra-set stretching between each drop
-wed5_exc8: Dumbbell V-sit cross jab - 4 x 24, NO REST
-wed5_exc9: Push up to side plank - 4 x 24, rest 90 sec. (back to jabs)
-wed5_exc10: Ab wheel roll-out - 4 x 15, NO REST
-wed5_exc11: Decline kayak - 4 x 24, rest 90 sec. (back to wheel roll-outs)
+wed5_exc1: Barbell back squat 
+wed5_exc1_sets: 2
+wed5_exc1_reps: 10
+wed5_exc1_rest: 1 min. 
+wed5_exc1_notes: Warm up sets. 
+wed5_exc2: Barbell back squat 
+wed5_exc2_sets: 4 
+wed5_exc2_reps: 15
+wed5_exc2_rest: 2 min.
+wed5_exc2_notes: 
+wed5_exc3: Barbell front squat 
+wed5_exc3_sets: 4 
+wed5_exc3_reps: 15
+wed5_exc3_rest: 2 min.
+wed5_exc3_notes:
+wed5_exc4: Leg press 
+wed5_exc4_sets: 6 
+wed5_exc4_reps: 20/15/15/15/15/15 
+wed5_exc4_rest: 45 sec. 
+wed5_exc4_notes: Use blood flow restriction.
+wed5_exc5: Single-leg leg extension (left)
+wed5_exc5_sets: 4 
+wed5_exc5_reps: 15
+wed5_exc5_rest: NO REST
+wed5_exc5_notes: Double drop set after the final set.
+wed5_exc6: Single-leg leg extension (right) 
+wed5_exc6_sets: 4 
+wed5_exc6_reps: 15
+wed5_exc6_rest: 1 min.
+wed5_exc6_notes: Double drop set after the final set.
+wed5_exc7: Leg press calf raise 
+wed5_exc7_sets: 5 
+wed5_exc7_reps: 10
+wed5_exc7_rest: 1 min.
+wed5_exc7_notes: Triple drop set after the final set with 30 sec. of intra-set stretching between each drop.
+wed5_exc8: DumbbellV-sit cross jab 
+wed5_exc8_sets: 4 
+wed5_exc8_reps: 24
+wed5_exc8_rest: NO REST
+wed5_exc8_notes: 
+wed5_exc9: Push up to side plank 
+wed5_exc9_sets: 4 
+wed5_exc9_reps: 24
+wed5_exc9_rest: 90 sec.
+wed5_exc9_notes: Back to jabs. 
+wed5_exc10: Ab wheel roll-out 
+wed5_exc10_sets: 4 
+wed5_exc10_reps: 15
+wed5_exc10_rest: NO REST
+wed5_exc10_notes: 
+wed5_exc11: Decline kayak 
+wed5_exc11_sets: 4 
+wed5_exc11_reps: 24
+wed5_exc11_rest: 90 sec.
+wed5_exc11_notes: Back to wheel roll-outs. 
 day32_num: Day 32 -
 day32: Thursday (Shoulders & Abs)
-th5_exc1: Seated dumbbell shoulder press - 2 x 10, rest 1 min. (warm up sets)
-th5_exc2: Seated dumbbell shoulder press - 12/10/8/6/6, rest 90 sec. + double drop set after the final set
-th5_exc3: Standing barbell shoulder press - 12/10/8/6, rest 90 sec. + double drop set after the final set
-th5_exc4: Seated dumbbell lateral raise - 4 x 12-15, rest 45 sec.
-th5_exc5: Single-arm leaning cable lateral raise (left) - 4 x 12, NO REST + double drop set after the final set
-th5_exc6: Single-arm leaning cable lateral raise (right) - 4 x 12, rest 45 sec. (back to left) + double drop set after the final set
-th5_exc7: Machine shoulder press - 4 x 12, rest 1 min. + quadruple drop set after the final set
-th5_exc8: Alternating dumbbell front raise - 4 x 20, NO REST
-th5_exc9: Standing dumbbell upright row - 4 x 10, rest 1 min. (back to front raise)
-th5_exc10: High cable reverse fly - 6 x 12, rest 1 min. 
-th5_exc12: Standing dumbbell shrug - 4 x 12, rest 45 sec.
-th5_exc13: Decline sit-up - 4 x 15, NO REST
-th5_exc14: Shoulder tap - 4 x 30, NO REST
-th5_exc15: Landmine twist - 4 x 20, rest 90 sec. (back to decline sit-ups)
+th5_exc1: Seated dumbbell shoulder press 
+th5_exc1_sets: 2 
+th5_exc1_reps: 10
+th5_exc1_rest: 1 min.
+th5_exc1_notes: Warm up sets. 
+th5_exc2: Seated dumbbell shoulder press 
+th5_exc2_sets: 5 
+th5_exc2_reps: 12/10/8/6/6 
+th5_exc2_rest: 90 sec. 
+th5_exc2_notes: Double drop set after the final set. 
+th5_exc3: Standing barbell shoulder press 
+th5_exc3_sets: 4 
+th5_exc3_reps: 12/10/8/6 
+th5_exc3_rest: 90 sec.
+th5_exc3_notes: Double drop set after the final set. 
+th5_exc4: Seated dumbbell lateral raise
+th5_exc4_sets: 4 
+th5_exc4_reps: 12-15
+th5_exc4_rest: 45 sec.
+th5_exc4_notes: 
+th5_exc5: Single-arm leaning cable lateral raise (left) 
+th5_exc5_sets: 4 
+th5_exc5_reps: 12
+th5_exc5_rest: NO REST
+th5_exc5_notes: Double drop set after the final set. 
+th5_exc6: Single-arm leaning cable lateral raise (right)
+th5_exc6_sets: 4 
+th5_exc6_reps: 12
+th5_exc6_rest: 45 sec.
+th5_exc6_notes: Back to left. Double drop set after the final set.
+th5_exc7: Machine shoulder press 
+th5_exc7_sets: 4 
+th5_exc7_reps: 12
+th5_exc7_rest: 1 min.
+th5_exc7_notes: Quadruple drop set after the final set.
+th5_exc8: Alternating dumbbell front raise
+th5_exc8_sets: 4
+th5_exc8_reps: 20
+th5_exc8_rest: NO REST
+th5_exc8_notes:
+th5_exc9: Standing dumbbell upright row 
+th5_exc9_sets: 4 
+th5_exc9_reps: 10
+th5_exc9_rest: 1 min.
+th5_exc9_notes: Back to front raise.
+th5_exc10: High cable reverse fly 
+th5_exc10_sets: 6 
+th5_exc10_reps: 12
+th5_exc10_rest: 1 min.
+th5_exc10_notes:
+th5_exc11: Standing dumbbell shrug 
+th5_exc11_sets: 4 
+th5_exc11_reps: 12
+th5_exc11_rest: 45 sec.
+th5_exc11_notes:
+th5_exc12: Decline sit-up 
+th5_exc12_sets: 4
+th5_exc12_reps: 15
+th5_exc12_rest: NO REST
+th5_exc12_notes:
+th5_exc13: Shoulder tap 
+th5_exc13_sets: 4
+th5_exc13_reps: 30
+th5_exc13_rest: NO REST
+th5_exc13_notes:
+th5_exc14: Landmine twist 
+th5_exc14_sets: 4 
+th5_exc14_reps: 20
+th5_exc14_rest: 90 sec.
+th5_exc14_notes: Back to decline sit-ups.
 day33_num: Day 33 -
 day33: Friday (Arms)
-fri5_exc1: Barbell curl - 2 x 10, rest 1 min. (warm up sets)
-fri5_exc2: Barbell curl - 5 x 8-10, rest 1 min. + single drop set after each set aiming for 15 reps.
-fri5_exc3: Seated alternating biceps curl - 4 x 24, rest 45 sec. + double drop set after the final set
-fri5_exc4: Single arm hammer preached curl (left) - 4 x 12, NO REST
-fri5_exc5: Single arm hammer preached curl (right) - 4 x 12,rest 45 sec.
-fri5_exc6: Incline dumbbell biceps curl - 4 x 12, rest 1 min. + triple drop set after the final set with 30 sec. of intra-set stretching between each drop
-fri5_exc7: Standing EZ-bar curl - 4 x 12, rest 1 min. + double drop set after the final set
-fri5_exc8: Cable concetration curl (left)- 5 x 12, NO REST
-fri5_exc9: Cable concetration curl (right)- 5 x 12, rest 45 sec.
-fri5_exc10: Triceps dip - 5 x 8-12, rest 1 min. (add weight if possible) + double drop set after the final set 
-fri5_exc11: Cable V-bar push down - 4 x 12, rest 45 sec. + double drop set after the final set
-fri5_exc12: Cable overhead triceps extension - 5 x 10-12, rest 45 sec. + double drop set after the final set
-fri5_exc13: Dumbbell skullcrusher - 20/15/12/10, rest 1 min.
-fri5_exc14: Cable rope push down - 6 x 12-15, NO REST
-fri5_exc15: Diamond push-up - 6 x 12-15, rest 1 min. (back to cable rope push down)
+fri5_exc1: Barbell curl 
+fri5_exc1_sets: 2 
+fri5_exc1_reps: 10
+fri5_exc1_rest: 1 min.
+fri5_exc1_notes: Warm up sets.
+fri5_exc2: Barbell curl 
+fri5_exc2_sets: 5 
+fri5_exc2_reps: 8-10
+fri5_exc2_rest: 1 min.
+fri5_exc2_notes: Single drop set after each set aiming for 15 reps.
+fri5_exc3: Seated alternating biceps curl 
+fri5_exc3_sets: 4 
+fri5_exc3_reps: 24
+fri5_exc3_rest: 45 sec.
+fri5_exc3_notes: Double drop set after the final set.
+fri5_exc4: Single arm hammer preached curl (left)
+fri5_exc4_sets: 4
+fri5_exc4_reps: 12
+fri5_exc4_rest: NO REST
+fri5_exc4_notes:
+fri5_exc5: Single arm hammer preached curl (right) 
+fri5_exc5_sets: 4
+fri5_exc5_reps: 12
+fri5_exc5_rest: 45 sec.
+fri5_exc5_notes: 
+fri5_exc6: Incline dumbbell biceps curl 
+fri5_exc6_sets: 4 
+fri5_exc6_reps: 12
+fri5_exc6_rest: 1 min.
+fri5_exc6_notes: Triple drop set after the final set with 30 sec. of intra-set stretching between each drop.
+fri5_exc7: Standing EZ-bar curl 
+fri5_exc7_sets: 4
+fri5_exc7_reps: 12
+fri5_exc7_rest: 1 min.
+fri5_exc7_notes: Double drop set after the final set.  
+fri5_exc8: Cable concetration curl (left)
+fri5_exc8_sets: 5 
+fri5_exc8_reps: 12
+fri5_exc8_rest: NO REST
+fri5_exc8_notes: 
+fri5_exc9: Cable concetration curl (right)
+fri5_exc9_sets: 5
+fri5_exc9_reps: 12
+fri5_exc9_rest: 45 sec.
+fri5_exc9_notes:  
+fri5_exc10: Triceps dip 
+fri5_exc10_sets: 5
+fri5_exc10_reps: 8-12
+fri5_exc10_rest: 1 min.
+fri5_exc10_notes: Add weight if possible. Double drop set after the final set.  
+fri5_exc11: Cable V-bar push down 
+fri5_exc11_sets: 4
+fri5_exc11_reps: 12
+fri5_exc11_rest: 45 sec.
+fri5_exc11_notes: Double drop set after the final set.
+fri5_exc12: Cable overhead triceps extension 
+fri5_exc12_sets: 5
+fri5_exc12_reps: 10-12
+fri5_exc12_rest: 45 sec.
+fri5_exc12_notes: Double drop set after the final set.
+fri5_exc13: Dumbbell skullcrusher 
+fri5_exc13_sets: 4 
+fri5_exc13_reps: 20/15/12/10 
+fri5_exc13_rest: 1 min. 
+fri5_exc13_notes: 
+fri5_exc14: Cable rope push down
+fri5_exc14_sets: 6
+fri5_exc14_reps: 12-15
+fri5_exc14_rest: NO REST
+fri5_exc14_notes: 
+fri5_exc15: Diamond push-up 
+fri5_exc15_sets: 6
+fri5_exc15_reps: 12-15
+fri5_exc15_rest: 1 min.
+fri5_exc15_notes: Back to cable rope push down. 
 day34_num: Day 34 -
 day34: Saturday (Legs)
-sat5_exc1: Feet high leg press - 2 x 10, rest 1 min. (warm up sets)
-sat5_exc2: Feet high leg press - 5 x 15, rest 90 sec.
-sat5_exc3: Smith machine Bulgarian split squat (left) - 4 x 10, NO REST
-sat5_exc4: Smith machine Bulgarian split squat (left) - 4 x 10, rest 90 sec.
-sat5_exc5: Barbell stiff-legged deadlift - 4 x 12, rest 2 min.
-sat5_exc6: Lying leg curl (use blood flow restriction on all sets) - 6 x 15, rest 45 sec.
+sat5_exc1: Feet high leg press 
+sat5_exc1_sets: 2
+sat5_exc1_reps: 10
+sat5_exc1_rest: 1 min.
+sat5_exc1_notes: Warm up sets. 
+sat5_exc2: Feet high leg press
+sat5_exc2_sets: 5
+sat5_exc2_reps: 15
+sat5_exc2_rest: 90 sec.
+sat5_exc2_notes: 
+sat5_exc3: Smith machine Bulgarian split squat (left) 
+sat5_exc3_sets: 4
+sat5_exc3_reps: 10
+sat5_exc3_rest: NO REST
+sat5_exc3_notes:  
+sat5_exc4: Smith machine Bulgarian split squat (left) 
+sat5_exc4_sets: 4 
+sat5_exc4_reps: 10
+sat5_exc4_rest: 90 sec.
+sat5_exc4_notes: 
+sat5_exc5: Barbell stiff-legged deadlift 
+sat5_exc5_sets: 4
+sat5_exc5_reps: 12
+sat5_exc5_rest: 2 min.
+sat5_exc5_notes: 
+sat5_exc6: Lying leg curl 
+sat5_exc6_sets: 6 
+sat5_exc6_reps: 15
+sat5_exc6_rest: 45 sec.
+sat5_exc6_notes: Use blood flow restriction on all sets. 
 sat5_exc7:
 sat5_exc8:
 sat5_exc9:
