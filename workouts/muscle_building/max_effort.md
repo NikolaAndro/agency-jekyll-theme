@@ -1873,7 +1873,7 @@ th6_exc1_sets: 2
 th6_exc1_reps: 10
 th6_exc1_rest: NO REST
 th6_exc1_notes: Warm up sets.
-th6_exc2: Dumbbell lateral laise - 2 x 10, rest 1 min. (back to smith machine) (warm up sets)
+th6_exc2: Dumbbell lateral raise
 th6_exc2_sets: 2 
 th6_exc2_reps: 10
 th6_exc2_rest: 1 min.
@@ -2247,7 +2247,7 @@ th7_exc4: Dumbbell lateral raise
 th7_exc4_sets: 4
 th7_exc4_reps: 12
 th7_exc4_rest: 1 min.
-th7_exc4_notes: Double drop set after the final set/
+th7_exc4_notes: Double drop set after the final set.
 th7_exc5: Machine shoulder press 
 th7_exc5_sets: 4
 th7_exc5_reps: 12
