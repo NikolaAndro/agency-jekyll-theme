@@ -68,6 +68,11 @@ mon1_exc10_sets:
 mon1_exc10_reps: 
 mon1_exc10_rest: 
 mon1_exc10_notes: 
+mon1_exc11: 
+mon1_exc11_sets: 
+mon1_exc11_reps: 
+mon1_exc11_rest: 
+mon1_exc11_notes: 
 day2_num: 
 day2: 
 tu1_exc1: 
