@@ -1,0 +1,14 @@
+---
+title: High Impact
+subtitle: 4 weeks
+layout: default
+permalink: high-impact/
+modal-id: 9
+date: 2022-12-09
+img: jacked.jpeg
+thumbnail: jacked.jpeg
+alt: image-alt
+project-date: Jun 2023
+client: Start Bootstrap
+category: "Body Building"
+---
