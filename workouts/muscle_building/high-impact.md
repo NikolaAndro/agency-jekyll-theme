@@ -5,7 +5,7 @@ layout: page
 modal-id: 9
 date: 2022-12-09
 img_path: 
-img: jacked.jpeg
+img: portfolio/jacked.jpeg
 thumbnail: 
 canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/high-impact/
 url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/high-impact/
