@@ -56,7 +56,7 @@ mon1_exc8: Hanging Shrug
 mon1_exc8_sets: 1
 mon1_exc8_reps: to failure
 mon1_exc8_rest: 1 min.
-mon1_exc8_notes:
+mon1_exc8_notes: Back to pullups.
 mon1_exc9: Seated Calf Raise
 mon1_exc9_sets: 2
 mon1_exc9_reps: 20 + 2 dropsets
@@ -67,7 +67,7 @@ mon1_exc10_sets: 2
 mon1_exc10_reps: 20
 mon1_exc10_rest: 1 min.
 mon1_exc10_notes: 
-mon1_exc11: Hang
+mon1_exc11: Bar Hang
 mon1_exc11_sets: 1
 mon1_exc11_reps: 60 sec.
 mon1_exc11_rest: 
