@@ -2409,77 +2409,305 @@ sun7_exc11:
 week8_num: Week 8
 day50_num: Day 50 -
 day50: Monday (Chest)
-mon8_exc1: Incline dumbbell bench press - 2 x 10, rest 1 min. (warm up sets)
-mon8_exc2: Incline dumbbell bench press - 12/10/8/8/8/6, rest 1 min. + triple drop set after each of the last 2 sets + after the final drop rest-pause for 10-15 sec and then try to squeeze 2-4 more reps with the weight you used for the heavy set of 6 reps
-mon8_exc3: Incline dumbbell bench press - 5 x 8-10, rest 1 min. (30 degrees) + double drop set after the final set
-mon8_exc4: Smith machine bench press - 10/8/8/8/8, rest 1 min. + rest-pause after 2nd, 3rd, and 4th set + double drop set after the final set
-mon8_exc5: Incline cable chest fly - 5 x 12, NO REST
-mon8_exc6: Incline cable chest press - 5 x 10, rest 30 sec. (back to chest fly)
-mon8_exc7: Dumbbell chest fly - 5 x 12, NO REST
-mon8_exc8: Smith machine push-up - 5 x 10, rest 45 sec. (start with 10 reps on the floor then move to smith machine and move it 1 notch up after every 10 reps. Stop each set when you can't do any more reps) (back to dumbbell fly)
+mon8_exc1: Incline dumbbell bench press 
+mon8_exc1_sets: 2
+mon8_exc1_reps: 10
+mon8_exc1_rest: 1 min.
+mon8_exc1_notes: Warm up sets.
+mon8_exc2: Incline dumbbell bench press 
+mon8_exc2_sets: 6
+mon8_exc2_reps: 12/10/8/8/8/6
+mon8_exc2_rest: 1 min.
+mon8_exc2_notes: Triple drop set after each of the last 2 sets + after the final drop rest-pause for 10-15 sec and then try to squeeze 2-4 more reps with the weight you used for the heavy set of 6 reps.
+mon8_exc3: Incline dumbbell bench press 
+mon8_exc3_sets: 5
+mon8_exc3_reps: 8-10
+mon8_exc3_rest: 1 min.
+mon8_exc3_notes: 30 degrees + double drop set after the final set. 
+mon8_exc4: Smith machine bench press 
+mon8_exc4_sets: 5
+mon8_exc4_reps: 10/8/8/8/8
+mon8_exc4_rest: 1 min.
+mon8_exc4_notes: Rest-pause after 2nd, 3rd, and 4th set + double drop set after the final set.
+mon8_exc5: Incline cable chest fly 
+mon8_exc5_sets: 5
+mon8_exc5_reps: 12
+mon8_exc5_rest: NO REST
+mon8_exc5_notes: 
+mon8_exc6: Incline cable chest press 
+mon8_exc6_sets: 5
+mon8_exc6_reps: 10
+mon8_exc6_rest: 30 sec.
+mon8_exc6_notes: Back to chest fly.
+mon8_exc7: Dumbbell chest fly 
+mon8_exc7_sets: 5
+mon8_exc7_reps: 12
+mon8_exc7_rest: NO REST
+mon8_exc7_notes: 
+mon8_exc8: Smith machine push-up 
+mon8_exc8_sets: 5
+mon8_exc8_reps: 10
+mon8_exc8_rest: 45 sec.
+mon8_exc8_notes: Start with 10 reps on the floor then move to smith machine and move it 1 notch up after every 10 reps. Stop each set when you can't do any more reps. Back to dumbbell fly.
 mon8_exc9:
 mon8_exc10:
 mon8_exc11:
 day51_num: Day 51 -
 day51: Tuesday (Back)
-tu8_exc1: Barbell bent-over row - 2 x 10, rest 1 min. (warm up sets)
-tu8_exc2: Barbell bent-over row - 12/10/8/6/4, rest 90 sec. + triple drop set after the final set
+tu8_exc1: Barbell bent-over row 
+tu8_exc1_sets: 2
+tu8_exc1_reps: 10
+tu8_exc1_rest: 1 min.
+tu8_exc1_notes: Warm up sets.
+tu8_exc2: Barbell bent-over row 
+tu8_exc2_sets: 5
+tu8_exc2_reps: 12/10/8/6/4
+tu8_exc2_rest: 90 sec.
+tu8_exc2_notes: Triple drop set after the final set.
 tu8_exc3: Weighted pull up - 5 x 8-10, rest 90 sec.
-tu8_exc4: Single arm dumbbell row (left) - 3 x 12, NO REST
-tu8_exc5: Single arm dumbbell row (right) - 3 x 12, rest 1 min. (back to left)
-tu8_exc6: Single arm dumbbell arc row (left) - 3 x 12
-tu8_exc7: Single arm dumbbell arc row (right) - 3 x 12, rest 1 min. (back to left)
-tu8_exc8: Lat pull-down - 3 x 10-15, NO REST
-tu8_exc9: Straight arm rope pull-down, NO REST
-tu8_exc10: Standing low cable bar row - 3 x 10-15, rest 45 sec. (back to lat pull-down)
+tu8_exc3_sets: 5
+tu8_exc3_reps: 8-10
+tu8_exc3_rest: 90 sec.
+tu8_exc3_notes: 
+tu8_exc4: Single arm dumbbell row (left) 
+tu8_exc4_sets: 3
+tu8_exc4_reps: 12
+tu8_exc4_rest: NO REST
+tu8_exc4_notes: 
+tu8_exc5: Single arm dumbbell row (right)
+tu8_exc5_sets: 3
+tu8_exc5_reps: 12
+tu8_exc5_rest: 1 min.
+tu8_exc5_notes: Back to left.
+tu8_exc6: Single arm dumbbell arc row (left)
+tu8_exc6_sets: 3
+tu8_exc6_reps: 12
+tu8_exc6_rest: 
+tu8_exc6_notes: SUPERSET WITH THE RIGHT ARM.
+tu8_exc7: Single arm dumbbell arc row (right) 
+tu8_exc7_sets: 3
+tu8_exc7_reps: 12
+tu8_exc7_rest: 1 min.
+tu8_exc7_notes: Back to left.
+tu8_exc8: Lat pull-down 
+tu8_exc8_sets: 3
+tu8_exc8_reps: 10-15
+tu8_exc8_rest: NO REST
+tu8_exc8_notes: TRISET WITH THE NEXT TWO EXERCISES.
+tu8_exc9: Straight arm rope pull-down
+tu8_exc9_sets: 3
+tu8_exc9_reps: 15
+tu8_exc9_rest: NO REST
+tu8_exc9_notes: 
+tu8_exc10: Standing low cable bar row 
+tu8_exc10_sets: 3
+tu8_exc10_reps: 10-15
+tu8_exc10_rest: 45 sec.
+tu8_exc10_notes: Back to lat pull-down.
 tu8_exc11:
 day52_num: Day 52 -
 day52: Wednesday (Legs)
-wed8_exc1: Barbell back squat - 2 x 10, rest 1 min. (warm up sets)
-wed8_exc2: Barbell back squat - 5 x 5, rest 3 min. 
-wed8_exc3: Sumo deadlift - 3 x 10, rest 3 min.
-wed8_exc4: Barbell stiff-leggeed deadlift - 3 x 10, rest 90 sec.
-wed8_exc5: Machine seated calf raise - 4 x 12, rest 1 min. + triple drop set after final set with 30 sec of intra-set stretching between each drop
-wed8_exc6: Seated leg tuck with dumbbells - 4 x 10, NO REST
-wed8_exc7: Kneeling cable crunch - 4 x 12, rest 1 min (back to leg tucks)
-wed8_exc8: Cable reverse crunch - 4 x 10, NO REST
-wed8_exc9: V-up - 4 x 12, rest 1 min. (back to reverse crunch)
+wed8_exc1: Barbell back squat 
+wed8_exc1_sets: 2
+wed8_exc1_reps: 10
+wed8_exc1_rest: 1 min.
+wed8_exc1_notes: Warm up sets.
+wed8_exc2: Barbell back squat 
+wed8_exc2_sets: 5
+wed8_exc2_reps: 5
+wed8_exc2_rest: 3 min.
+wed8_exc2_notes: 
+wed8_exc3: Sumo deadlift 
+wed8_exc3_sets: 3
+wed8_exc3_reps: 10
+wed8_exc3_rest: 3 min.
+wed8_exc3_notes:
+wed8_exc4: Barbell stiff-leggeed deadlift 
+wed8_exc4_sets: 3
+wed8_exc4_reps: 10
+wed8_exc4_rest: 90 sec.
+wed8_exc4_notes: 
+wed8_exc5: Machine seated calf raise 
+wed8_exc5_sets: 4
+wed8_exc5_reps: 12
+wed8_exc5_rest: 1 min.
+wed8_exc5_notes: Triple drop set after final set with 30 sec of intra-set stretching between each drop.
+wed8_exc6: Seated leg tuck with dumbbells 
+wed8_exc6_sets: 4
+wed8_exc6_reps: 10
+wed8_exc6_rest: NO REST
+wed8_exc6_notes: 
+wed8_exc7: Kneeling cable crunch 
+wed8_exc7_sets: 4
+wed8_exc7_reps: 12
+wed8_exc7_rest: 1 min.
+wed8_exc7_notes: Back to leg tucks.
+wed8_exc8: Cable reverse crunch 
+wed8_exc8_sets: 4
+wed8_exc8_reps: 10
+wed8_exc8_rest: NO REST
+wed8_exc8_notes:
+wed8_exc9: V-up 
+wed8_exc9_sets: 4
+wed8_exc9_reps: 12
+wed8_exc9_rest: 1 min.
+wed8_exc9_notes: Back to reverse crunch.
 wed8_exc10:
 wed8_exc11:
 day53_num: Day 53 -
 day53: Thursday (Shoulders)
-th8_exc1: Seated barbel shoulder press - 2 x 10, NO REST (warm up sets)
-th8_exc2: Dumbbell lateral raise - 2 x 10, (back to shoulder press) (warm up sets)
-th8_exc3: Seated banded barbel shoulder press - 5 x 8-10, NO REST + after the last two sets remove the bands and press untill failure)
-th8_exc4: Dumbbell lateral raise - 5 x 12 (back to shoulder press) + single drop set after each and every set
-th8_exc5: Seated dumbbell shoulder press - 5 x 8-10, rest 90 sec. + double dropset after each of the final two sets
-th8_exc6: Leg press shoulder press - 5 x 10-12, NO REST + double dropset after each of the final two sets
-th8_exc7: Dumbbell lateral raise - 5 x 12, rest 90 sec. (back to shouolder press) + double dropset after each of the final two sets
-th8_exc8: Standing behind the head shoulder press - 5 x 12, NO REST (after each set add a mechanical drop set by switching to the front shoulder press for another 6-8 reps)
-th8_exc9: Plate front raise - 5 x 12, rest 90 sec (back to shoulder press)
-th8_exc10: Dumbbell lateral raise - 3 x 12, rest 90 sec. + run the rack after each and every set
-th8_exc11: Incline dumbbell reverse fly - 4 x 12, rest 1 min. + double drop set after each of the final 2 sets
-th8_exc12: Single arm leaning cable lateral raise (left) - 3 x 10, NO REST
-th8_exc13: Single-arm cable front raise (left) - 3 x 10, NO REST
-th8_exc14: Single arm leaning cable lateral raise (right) - 3 x 10, NO REST
-th8_exc15: Single-arm cable front raise (right) - 3 x 10, rest 45 sec (back to left arm lateral raise)
-th8_exc16: Bent over low cable reverse fly - 4 x 12, NO REST
-th8_exc17: Standing face pull - 4 x 12, NO REST
-th8_exc18: Cable straight bar upright row - 4 x 12, rest 90 sec. (back to bent over reverse fly)
+th8_exc1: Seated barbel shoulder press
+th8_exc1_sets: 2
+th8_exc1_reps: 10
+th8_exc1_rest: NO REST
+th8_exc1_notes: warm up sets.
+th8_exc2: Dumbbell lateral raise 
+th8_exc2_sets: 2
+th8_exc2_reps: 10
+th8_exc2_rest: 1 min.
+th8_exc2_notes: Back to shoulder press. Warm up sets.
+th8_exc3: Seated banded barbel shoulder press 
+th8_exc3_sets: 5
+th8_exc3_reps: 8-10 
+th8_exc3_rest: NO REST
+th8_exc3_notes: After the last two sets remove the bands and press untill failure.
+th8_exc4: Dumbbell lateral raise 
+th8_exc4_sets: 5
+th8_exc4_reps: 12
+th8_exc4_rest: 
+th8_exc4_notes: Back to shoulder press + single drop set after each and every set.
+th8_exc5: Seated dumbbell shoulder press 
+th8_exc5_sets: 5
+th8_exc5_reps: 8-10
+th8_exc5_rest: 90 sec.
+th8_exc5_notes: Double dropset after each of the final two sets.
+th8_exc6: Leg press shoulder press 
+th8_exc6_sets: 5
+th8_exc6_reps: 10-12
+th8_exc6_rest: NO REST
+th8_exc6_notes: Double dropset after each of the final two sets.
+th8_exc7: Dumbbell lateral raise
+th8_exc7_sets: 5
+th8_exc7_reps: 12
+th8_exc7_rest: 90 sec.
+th8_exc7_notes: Back to shouolder press + double dropset after each of the final two sets.
+th8_exc8: Standing behind the head shoulder press 
+th8_exc8_sets: 5
+th8_exc8_reps: 12
+th8_exc8_rest: NO REST
+th8_exc8_notes: After each set add a mechanical drop set by switching to the front shoulder press for another 6-8 reps.
+th8_exc9: Plate front raise 
+th8_exc9_sets: 5
+th8_exc9_reps: 12
+th8_exc9_rest: 90 sec.
+th8_exc9_notes: Back to shoulder press.
+th8_exc10: Dumbbell lateral raise 
+th8_exc10_sets: 3
+th8_exc10_reps: 12
+th8_exc10_rest: 90 sec.
+th8_exc10_notes: Run the rack after each and every set.
+th8_exc11: Incline dumbbell reverse fly 
+th8_exc11_sets: 4
+th8_exc11_reps: 12
+th8_exc11_rest: 1 min.
+th8_exc11_notes: Double drop set after each of the final 2 sets.
+th8_exc12: Single arm leaning cable lateral raise (left) 
+th8_exc12_sets: 3
+th8_exc12_reps: 10
+th8_exc12_rest: NO REST
+th8_exc12_notes: 
+th8_exc13: Single-arm cable front raise (left) 
+th8_exc13_sets: 3
+th8_exc13_reps: 10
+th8_exc13_rest: NO REST
+th8_exc13_notes: 
+th8_exc14: Single arm leaning cable lateral raise (right) 
+th8_exc14_sets: 3
+th8_exc14_reps: 10
+th8_exc14_rest: NO REST
+th8_exc14_notes: 
+th8_exc15: Single-arm cable front raise (right) 
+th8_exc15_sets: 3
+th8_exc15_reps: 10
+th8_exc15_rest: 45 sec.
+th8_exc15_notes: Back to left arm lateral raise.
+th8_exc16: Bent over low cable reverse fly
+th8_exc16_sets: 4
+th8_exc16_reps: 12
+th8_exc16_rest: NO REST
+th8_exc16_notes: 
+th8_exc17: Standing face pull 
+th8_exc17_sets: 4
+th8_exc17_reps: 12
+th8_exc17_rest: NO REST
+th8_exc17_notes: 
+th8_exc18: Cable straight bar upright row 
+th8_exc18_sets: 4
+th8_exc18_reps: 12
+th8_exc18_rest: 90 sec.
+th8_exc18_notes: Back to bent over reverse fly.
 day54_num: Day 54 -
 day54: Friday (Arms)
-fri8_exc1: Cable straight bar biceps cur; - 2 x 10, NO REST (warm up sets)
-fri8_exc2:  Double-arm triceps kick-back - 2 x 10, rest 1 min. (back to straight bar biceps) (warm up sets)
+fri8_exc1: Cable straight bar biceps cur
+fri8_exc1_sets: 2
+fri8_exc1_reps: 10
+fri8_exc1_rest: NO REST
+fri8_exc1_notes: Warm up sets.
+fri8_exc2:  Double-arm triceps kick-back 
+fri8_exc2_sets: 2
+fri8_exc2_reps: 10
+fri8_exc2_rest: 1 min.
+fri8_exc2_notes: Back to straight bar biceps. Warm up sets.
 fri8_exc3: Cable straight bar biceps cur; - 5 x 12-15, NO REST + double drop set after the final set
-fri8_exc4: Double-arm triceps kick-back - 5 x 12-15, rest 1 min. (back to straight bar biceps) + double drop set after the final set
-fri8_exc5: Close-grip EZ-bar curl - 5 x 12-15, NO REST + double drop set after the 2 final sets
-fri8_exc6: EZ-bar skullcrusher - 5 x 12-15, rest 1 min. (back to ez-bar curl) + double drop set after the 2 final sets
-fri8_exc7: Preacher curl - 5 x 15, NO REST (use blood restriction)
-fri8_exc8: Dumbbell kick-back - 5 x 15, rest 45 sec. (back to preacher curl)
-fri8_exc9: Incline dumbbell biceps curl - 5 x 10, NO REST + after last 2 sets, triple drop set with 30 sec. of intra-set stretching between each drop
-fri8_exc10: Cable overhead triceps extension - 5 x 10, rest 1 min. + after last 2 sets, triple drop set with 30 sec. of intra-set stretching between each drop
-fri8_exc11: Cable rope hammer curls - 5 x 12, NO REST (use blood restriction)
-fri8_exc12: Cable rope push-down - 5 x 15, rest 45 sec. (back to rope curls) (use blood restriction)
+fri8_exc3_sets: 5
+fri8_exc3_reps: 12-15
+fri8_exc3_rest: NO REST
+fri8_exc3_notes: Double drop set after the final set.
+fri8_exc4: Double-arm triceps kick-back 
+fri8_exc4_sets: 5
+fri8_exc4_reps: 12-15
+fri8_exc4_rest: 1 min.
+fri8_exc4_notes: Back to straight bar biceps + double drop set after the final set.
+fri8_exc5: Close-grip EZ-bar curl 
+fri8_exc5_sets: 5
+fri8_exc5_reps: 12-15
+fri8_exc5_rest: NO REST
+fri8_exc5_notes: Double drop set after the 2 final sets.
+fri8_exc6: EZ-bar skullcrusher 
+fri8_exc6_sets: 5
+fri8_exc6_reps: 12-15
+fri8_exc6_rest: 1 min.
+fri8_exc6_notes: Back to ez-bar curl + double drop set after the 2 final sets.
+fri8_exc7: Preacher curl 
+fri8_exc7_sets: 5
+fri8_exc7_reps: 15
+fri8_exc7_rest: NO REST
+fri8_exc7_notes: Use blood restriction.
+fri8_exc8: Dumbbell kick-back 
+fri8_exc8_sets: 5
+fri8_exc8_reps: 15
+fri8_exc8_rest: 45 sec.
+fri8_exc8_notes: Back to preacher curl.
+fri8_exc9: Incline dumbbell biceps curl 
+fri8_exc9_sets: 5
+fri8_exc9_reps: 10
+fri8_exc9_rest: NO REST
+fri8_exc9_notes: After last 2 sets, triple drop set with 30 sec. of intra-set stretching between each drop.
+fri8_exc10: Cable overhead triceps extension 
+fri8_exc10_sets: 5
+fri8_exc10_reps: 10
+fri8_exc10_rest: 1 min.
+fri8_exc10_notes: After last 2 sets, triple drop set with 30 sec. of intra-set stretching between each drop.
+fri8_exc11: Cable rope hammer curls 
+fri8_exc11_sets: 5
+fri8_exc11_reps: 12
+fri8_exc11_rest: NO REST
+fri8_exc11_notes: Use blood restriction.
+fri8_exc12: Cable rope push-down 
+fri8_exc12_sets: 5
+fri8_exc12_reps: 15
+fri8_exc12_rest: 45 sec.
+fri8_exc12_notes: Back to rope curls. Use blood restriction.
 day55_num: Day 55 -
 day55: Saturday (REST)
 day56_num: Day 56 -
@@ -2487,72 +2715,296 @@ day56: Sunday (REST)
 week9_num: Week 9
 day57_num: Day 57 -
 day57: Monday (Chest & Abs)
-mon9_exc1: Incline bench press - 2 x 10, rest 1 min (warm up sets)
-mon9_exc2: Incline bench press - 12/10/8/6/6, rest 90 sec. + double drop set after the final set
-mon9_exc3: Incline dumbbell bench press - 5 x 10, rest 1 min. + double drop set after the final set 
-mon9_exc4: Dumbbell bench press - 4 x 10, rest 1 min.
-mon9_exc5: Incline dumbbell chest fly - 4 x 12, rest 1 min.
-mon9_exc6: Machine Chest Fly - 4 x 12, rest 1 min. + double drop set after the final set
-mon9_exc7: High-to-low cable chest fly - 6 x 12-15, NO REST
-mon9_exc8: Push-up - 6 x 12-15, rest 1 min. (back to high-to-low flies)
-mon9_exc9: Weighted sit ups - 4 x 10, rest 1 min.
-mon9_exc10: Suspended crunch - 4 x 10, rest1 min. 
-mon9_exc11: Hanging exercise ball leg raise - 4 x 10, rest 1 min.
+mon9_exc1: Incline bench press 
+mon9_exc1_sets: 2
+mon9_exc1_reps: 10
+mon9_exc1_rest: 1 min.
+mon9_exc1_notes: Warm up sets.
+mon9_exc2: Incline bench press 
+mon9_exc2_sets: 5
+mon9_exc2_reps: 12/10/8/6/6
+mon9_exc2_rest: 90 sec.
+mon9_exc2_notes: Double drop set after the final set.
+mon9_exc3: Incline dumbbell bench press 
+mon9_exc3_sets: 5
+mon9_exc3_reps: 10
+mon9_exc3_rest: 1 min.
+mon9_exc3_notes: Double drop set after the final set .
+mon9_exc4: Dumbbell bench press 
+mon9_exc4_sets: 4
+mon9_exc4_reps: 10 
+mon9_exc4_rest: 1 min.
+mon9_exc4_notes:
+mon9_exc5: Incline dumbbell chest fly 
+mon9_exc5_sets: 4
+mon9_exc5_reps: 12
+mon9_exc5_rest: 1 min.
+mon9_exc5_notes:
+mon9_exc6: Machine Chest Fly 
+mon9_exc6_sets: 4
+mon9_exc6_reps: 12
+mon9_exc6_rest: 1 min.
+mon9_exc6_notes: Double drop set after the final set.
+mon9_exc7: High-to-low cable chest fly 
+mon9_exc7_sets: 6
+mon9_exc7_reps: 12-15
+mon9_exc7_rest: NO REST
+mon9_exc7_notes:
+mon9_exc8: Push-up 
+mon9_exc8_sets: 6
+mon9_exc8_reps: 12-15
+mon9_exc8_rest: 1 min.
+mon9_exc8_notes: Back to high-to-low flies.
+mon9_exc9: Weighted sit ups 
+mon9_exc9_sets: 4
+mon9_exc9_reps: 10
+mon9_exc9_rest: 1 min.
+mon9_exc9_notes:
+mon9_exc10: Suspended crunch  
+mon9_exc10_sets: 4
+mon9_exc10_reps: 10
+mon9_exc10_rest: 1 min.
+mon9_exc10_notes:
+mon9_exc11: Hanging exercise ball leg raise 
+mon9_exc11_sets: 4
+mon9_exc11_reps: 10
+mon9_exc11_rest: 1 min.
+mon9_exc11_notes:
 day58_num: Day 58 -
 day58: Tuesday (Back)
-tu9_exc1: Lat pull down - 2 x 10, NO REST (warm up sets)
-tu9_exc2: Cable seated row - 2 x 10, rest 1 min. (warm up sets)
-tu9_exc3: Lat pull down - 5 x 12-15, NO REST + double drop set after the final set
-tu9_exc4: Cable seated row - 5 x 12-15, rest 90 sec. (back to lat pull down) + double drop set after the final set
-tu9_exc5: Incline dumbbell row - 4 x 10, rest 1 min. + double drop set after each of the final two ssets with 30 sec. of intra-set stretching between each drop
-tu9_exc6: Reverse grip lat pull down - 4 x 12-15, NO REST
-tu9_exc7: Standing low cable rope row - 4 x 12-15, NO REST
-tu9_exc8: Straight-arm rope pull down - 4 x 12-15, rest 45 se. (back to reverse grip lat pull-down)
-tu9_exc9: Band-assisted pull up - 4 x 10, NO REST
-tu9_exc10: Suspended row - 4 x 10, rest 90 sec. (back to pull-ups) (Go to failure, then step back to raise your torso and go to failure again)
+tu9_exc1: Lat pull down 
+tu9_exc1_sets: 2
+tu9_exc1_reps: 10
+tu9_exc1_rest: NO REST
+tu9_exc1_notes: Warm up sets.
+tu9_exc2: Cable seated row 
+tu9_exc2_sets: 2
+tu9_exc2_reps: 10
+tu9_exc2_rest: 1 min.
+tu9_exc2_notes: Warm up sets.
+tu9_exc3: Lat pull down 
+tu9_exc3_sets: 5
+tu9_exc3_reps: 12-15
+tu9_exc3_rest: NO REST
+tu9_exc3_notes: Double drop set after the final set.
+tu9_exc4: Cable seated row 
+tu9_exc4_sets: 5
+tu9_exc4_reps: 12-15
+tu9_exc4_rest: 90 sec.
+tu9_exc4_notes: Back to lat pull down + double drop set after the final set/
+tu9_exc5: Incline dumbbell row 
+tu9_exc5_sets: 4
+tu9_exc5_reps: 10
+tu9_exc5_rest: 1 min.
+tu9_exc5_notes: Double drop set after each of the final two ssets with 30 sec. of intra-set stretching between each drop.
+tu9_exc6: Reverse grip lat pull down 
+tu9_exc6_sets: 4
+tu9_exc6_reps: 12-15
+tu9_exc6_rest: NO REST
+tu9_exc6_notes:
+tu9_exc7: Standing low cable rope row 
+tu9_exc7_sets: 4
+tu9_exc7_reps: 12-15
+tu9_exc7_rest: NO REST
+tu9_exc7_notes:
+tu9_exc8: Straight-arm rope pull down 
+tu9_exc8_sets: 4
+tu9_exc8_reps: 12-15
+tu9_exc8_rest: 45 sec.
+tu9_exc8_notes: Back to reverse grip lat pull-down.
+tu9_exc9: Band-assisted pull up 
+tu9_exc9_sets: 4
+tu9_exc9_reps: 10
+tu9_exc9_rest: NO REST
+tu9_exc9_notes:
+tu9_exc10: Suspended row 
+tu9_exc10_sets: 4
+tu9_exc10_reps: 10
+tu9_exc10_rest: 90 sec.
+tu9_exc10_notes: back to pull-ups. Go to failure, then step back to raise your torso and go to failure again.
 tu9_exc11:
 day59_num: Day 59 -
 day59: Wednesday (Legs)
-wed9_exc1: Barbel back squat - 2 x 10, rest 1 min. (warm up set)
-wed9_exc2: Barbel back squat - 15/12/12/10, rest 2 min. + single drop set after the final set
-wed9_exc3: Leg press - 20/12/12/100, NO REST (on the final set treat the 100 reps as a continuous drop set and swithch foot placement on each drop)
-wed9_exc4: Waling Lunge - 4 x 24, rest 90 sec. (back to leg press)
-wed9_exc5: Hack squat - 4 x 10-12, rest 90 sec. + triple drop set after the final set with 30 sec. of intra-sest stretching between each drop
-wed9_exc6: Dumbbell stiff-legged deadlift - 4 x 15, NO REST
-wed9_exc7: Dumbbell squat - 4 x 15, rest 90 sec. (back to deadlift)
-wed9_exc8: Lying leg curl - 6 x 15, NO REST + Blood restriction
-wed9_exc9: Leg extension - 6 x 15, rest 45 sec. + blood restriction
-wed9_exc10: Smith machine standing calf raise - 5 x 10, rest 90 sec. + double drop set after the FOURTH set + triple drop set after the final set with 30 sec. of intra-stretching between each drop
+wed9_exc1: Barbel back squat 
+wed9_exc1_sets: 2
+wed9_exc1_reps: 10 
+wed9_exc1_rest: 1 min.
+wed9_exc1_notes: Warm up set.
+wed9_exc2: Barbel back squat 
+wed9_exc2_sets: 4
+wed9_exc2_reps: 15/12/12/10
+wed9_exc2_rest: 2 min.
+wed9_exc2_notes: Single drop set after the final set.
+wed9_exc3: Leg press 
+wed9_exc3_sets: 4
+wed9_exc3_reps: 20/12/12/100
+wed9_exc3_rest: NO REST
+wed9_exc3_notes: On the final set treat the 100 reps as a continuous drop set and swithch foot placement on each drop.
+wed9_exc4: Waling Lunge 
+wed9_exc4_sets: 4
+wed9_exc4_reps: 24
+wed9_exc4_rest: 90 sec.
+wed9_exc4_notes: Back to leg press.
+wed9_exc5: Hack squat 
+wed9_exc5_sets: 4
+wed9_exc5_reps: 10-12
+wed9_exc5_rest: 90 sec.
+wed9_exc5_notes: Triple drop set after the final set with 30 sec. of intra-sest stretching between each drop.
+wed9_exc6: Dumbbell stiff-legged deadlift 
+wed9_exc6_sets: 4
+wed9_exc6_reps: 15
+wed9_exc6_rest: NO REST
+wed9_exc6_notes:
+wed9_exc7: Dumbbell squat 
+wed9_exc7_sets: 4
+wed9_exc7_reps: 15
+wed9_exc7_rest: 90 sec.
+wed9_exc7_notes: Back to deadlift.
+wed9_exc8: Lying leg curl 
+wed9_exc8_sets: 6
+wed9_exc8_reps: 15
+wed9_exc8_rest: NO REST
+wed9_exc8_notes: Blood restriction.
+wed9_exc9: Leg extension 
+wed9_exc9_sets: 6
+wed9_exc9_reps: 15
+wed9_exc9_rest: 45 sec.
+wed9_exc9_notes: Blood restriction.
+wed9_exc10: Smith machine standing calf raise 
+wed9_exc10_sets: 5
+wed9_exc10_reps: 10
+wed9_exc10_rest: 90 sec.
+wed9_exc10_notes: Double drop set after the FOURTH set + triple drop set after the final set with 30 sec. of intra-stretching between each drop.
 wed9_exc11:
 day60_num: Day 60 -
 day60: Thursday (Shoulders & Abs)
-th9_exc1: Seated barbell shoulder press - 2 x 10, rest 1 min. (warm up sets)
-th9_exc2: Seated barbell shoulder press - 12/10/10/10/8, rest 90 sec. + double drop set after the final set
-th9_exc3: Neutral grip Arnold press - 4 x 10, rest 1 min. + double drop set after the final set
-th9_exc4: Dumbbell lateral raise - 4 x 12, rest 1 min. + double drop set after the final set
-th9_exc5: EZ bar front raise - 4 x 12, rest 1 min.
-th9_exc6: Incline bench dumbbell reverse fly - 4 x 12, rest 1 min. + double drop set after the final set
-th9_exc7: Standing dumbbell shrug - 6 x 12-15, rest 1 min. 
-th9_exc8: Feet-elevated bench side plank (left) - 4 x 12 with a hip dip, NO REST
-th9_exc9: Feet-elevated bench side plank (right) - 4 x 12 with a hip dip, NO REST (back to the left side)
-th9_exc10: Half Turkish get-up (left) - 4 x 12, NO REST
-th9_exc11: Half Turkish get-up (right) - 4 x 12, NO REST (back to left side)
-th9_exc12: Hollow body hold - 4 x 1 min. rest 1 min. 
+th9_exc1: Seated barbell shoulder press 
+th9_exc1_sets: 2
+th9_exc1_reps: 10
+th9_exc1_rest: 1 min.
+th9_exc1_notes: Warm up sets.
+th9_exc2: Seated barbell shoulder press
+th9_exc2_sets: 5
+th9_exc2_reps: 12/10/10/10/8
+th9_exc2_rest: 90 sec.
+th9_exc2_notes: Double drop set after the final set.
+th9_exc3: Neutral grip Arnold press 
+th9_exc3_sets: 4
+th9_exc3_reps: 10
+th9_exc3_rest: 1 min.
+th9_exc3_notes: Double drop set after the final set.
+th9_exc4: Dumbbell lateral raise 
+th9_exc4_sets: 4
+th9_exc4_reps: 12
+th9_exc4_rest: 1 min.
+th9_exc4_notes: Double drop set after the final set.
+th9_exc5: EZ bar front raise 
+th9_exc5_sets: 4
+th9_exc5_reps: 12
+th9_exc5_rest: 1 min.
+th9_exc5_notes: 
+th9_exc6: Incline bench dumbbell reverse fly
+th9_exc6_sets: 4
+th9_exc6_reps: 12
+th9_exc6_rest: 1 min.
+th9_exc6_notes: Double drop set after the final set.
+th9_exc7: Standing dumbbell shrug 
+th9_exc7_sets: 6
+th9_exc7_reps: 12-15
+th9_exc7_rest: 1 min.
+th9_exc7_notes: 
+th9_exc8: Feet-elevated bench side plank (left) 
+th9_exc8_sets: 4
+th9_exc8_reps: 12
+th9_exc8_rest: NO REST.
+th9_exc8_notes: With a hip dip.
+th9_exc9: Feet-elevated bench side plank (right) 
+th9_exc9_sets: 4
+th9_exc9_reps: 12
+th9_exc9_rest: NO REST
+th9_exc9_notes: With a hip dip. Back to the left side.
+th9_exc10: Half Turkish get-up (left) 
+th9_exc10_sets: 4
+th9_exc10_reps: 12
+th9_exc10_rest: NO REST
+th9_exc10_notes: 
+th9_exc11: Half Turkish get-up (right) 
+th9_exc11_sets: 4
+th9_exc11_reps: 12
+th9_exc11_rest: NO REST
+th9_exc11_notes: Back to left side.
+th9_exc12: Hollow body hold 
+th9_exc12_sets: 4
+th9_exc12_reps: 1 min.
+th9_exc12_rest: 1 min.
+th9_exc12_notes: 
 day61_num: Day 61 -
 day61: Friday (Arms)
-fri9_exc1: Barble curl - 2 x 10, rest 1 min. (warm up sets)
-fri9_exc2:  Barble curl - 4 x 10, rest 45 sec. + double drop set after the final set
-fri9_exc3: Alternating biceps curl - 4 x 24, rest 45 sec.
-fri9_exc4: EZ-bar preacher curl - 4 x 12, rest 45 sec.
-fri9_exc5: Incline dumbbell biceps curl - 4 x 12, rest 45 sec. + double drop set after the final set
-fri9_exc6: Alternating hammer curl - 4 x 20 (10 each side), rest 45 sec.
-fri9_exc7: Overhead cable curl - 6 x 15, rest 30 sec.
-fri9_exc8: EZ-bar skullcrusher - 4 x 10, rest 45 sec. + double drop set after the final set
-fri9_exc9: Seated triceps press - 4 x 12, rest 45 sec. + double drop set after the final set
-fri9_exc10: Tricepsp dip (extra weight if possible) - 4 x 12, rest 1 min. 
-fri9_exc11: Cable rope push down - 15/12/10/10, rest 45 sec.
-fri9_exc12: Cable V-bar push-down - 6 x 12, NO REST
-fri9_exc13: Diamond push-up - 6 x 12, rest 1 min. (back to v-bar push-down)
+fri9_exc1: Barble curl 
+fri9_exc1_sets: 2
+fri9_exc1_reps: 10
+fri9_exc1_rest: 1 min.
+fri9_exc1_notes: Warm up sets.
+fri9_exc2:  Barble curl 
+fri9_exc2_sets: 4 
+fri9_exc2_reps: 10
+fri9_exc2_rest: 45 sec.
+fri9_exc2_notes: Double drop set after the final set.
+fri9_exc3: Alternating biceps curl 
+fri9_exc3_sets: 4
+fri9_exc3_reps: 24
+fri9_exc3_rest: 45 sec.
+fri9_exc3_notes:
+fri9_exc4: EZ-bar preacher curl 
+fri9_exc4_sets: 4
+fri9_exc4_reps: 12
+fri9_exc4_rest: 45 sec.
+fri9_exc4_notes:
+fri9_exc5: Incline dumbbell biceps curl 
+fri9_exc5_sets: 4
+fri9_exc5_reps: 12
+fri9_exc5_rest: 45 sec.
+fri9_exc5_notes: Double drop set after the final set.
+fri9_exc6: Alternating hammer curl
+fri9_exc6_sets: 4
+fri9_exc6_reps: 20 
+fri9_exc6_rest: 45 sec.
+fri9_exc6_notes: 10 each side.
+fri9_exc7: Overhead cable curl
+fri9_exc7_sets: 6
+fri9_exc7_reps: 15
+fri9_exc7_rest: 30 sec.
+fri9_exc7_notes:
+fri9_exc8: EZ-bar skullcrusher 
+fri9_exc8_sets: 4
+fri9_exc8_reps: 10
+fri9_exc8_rest: 45 sec.
+fri9_exc8_notes: Double drop set after the final set.
+fri9_exc9: Seated triceps press 
+fri9_exc9_sets: 4
+fri9_exc9_reps: 12
+fri9_exc9_rest: 45 sec.
+fri9_exc9_notes: Double drop set after the final set.
+fri9_exc10: Tricepsp dip (extra weight if possible) 
+fri9_exc10_sets: 4
+fri9_exc10_reps: 12
+fri9_exc10_rest: 1 min.
+fri9_exc10_notes:
+fri9_exc11: Cable rope push down 
+fri9_exc11_sets: 4
+fri9_exc11_reps: 15/12/10/10
+fri9_exc11_rest: 45 sec.
+fri9_exc11_notes:
+fri9_exc12: Cable V-bar push-down 
+fri9_exc12_sets: 6
+fri9_exc12_reps: 12
+fri9_exc12_rest: NO REST
+fri9_exc12_notes:
+fri9_exc13: Diamond push-up 
+fri9_exc13_sets: 6 
+fri9_exc13_reps: 12
+fri9_exc13_rest: 1 min.
+fri9_exc13_notes: Back to v-bar push-down.
 day62_num: Day 62 -
 day62: Saturday (REST)
 day63_num: Day 63 -
