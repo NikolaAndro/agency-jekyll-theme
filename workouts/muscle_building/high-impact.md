@@ -73,53 +73,48 @@ mon1_exc11_sets: 1
 mon1_exc11_reps: 60 sec.
 mon1_exc11_rest: 
 mon1_exc11_notes: Use straps and hang as long as possible.
-day2_num: 
-day2: 
-tu1_exc1: 
-tu1_exc1_sets: 
-tu1_exc1_reps: 
-tu1_exc1_rest: 
-tu1_exc1_notes: 
-tu1_exc2: 
-tu1_exc2_sets: 
-tu1_exc2_reps: 
-tu1_exc2_rest: 
-tu1_exc2_notes: 
-tu1_exc3: 
-tu1_exc3_sets: 
-tu1_exc3_reps: 
-tu1_exc3_rest: 
+day2_num: Day 2 -
+day2: Tuesday (Chest, Triceps & Abs)
+tu1_exc1: Flat DB Press
+tu1_exc1_sets: 3
+tu1_exc1_reps: 15/6/6
+tu1_exc1_rest: 1.5-2 min.
+tu1_exc1_notes: Do 2 sets of 15 to warm up.
+tu1_exc2: Incline DB Press
+tu1_exc2_sets: 2
+tu1_exc2_reps: 6
+tu1_exc2_rest: 1.5-2 min.
+tu1_exc2_notes: Do 1 or 2 sets to find your working weight.
+tu1_exc3: Dips Tilted Forward
+tu1_exc3_sets: 4
+tu1_exc3_reps: To failure
+tu1_exc3_rest: 1 min.
 tu1_exc3_notes: 
-tu1_exc4: 
-tu1_exc4_sets: 
-tu1_exc4_reps: 
-tu1_exc4_rest: 
+tu1_exc4: Heavy Machine Fly Slightly Tilted
+tu1_exc4_sets: 4
+tu1_exc4_reps: 12/12/10/30
+tu1_exc4_rest: 1 min.
 tu1_exc4_notes: 
-tu1_exc5: 
-tu1_exc5_sets: 
-tu1_exc5_reps: 
-tu1_exc5_rest: 
-tu1_exc5_notes:
-tu1_exc6: 
-tu1_exc6_sets: 
-tu1_exc6_reps: 
-tu1_exc6_rest: 
-tu1_exc6_notes: 
-tu1_exc7: 
-tu1_exc7_sets: 
-tu1_exc7_reps: 
-tu1_exc7_rest: 
-tu1_exc7_notes: 
-tu1_exc8: 
-tu1_exc8_sets: 
-tu1_exc8_reps: 
-tu1_exc8_rest: 
+tu1_exc5: Internal Rotated Extension
+tu1_exc5_sets: 3
+tu1_exc5_reps: 15 each
+tu1_exc5_rest: 1 min.
+tu1_exc5_notes: 
+tu1_exc6: 3 Way Incline French - Partial,fail,fail
+tu1_exc6_sets: 4
+tu1_exc6_reps: 15-fail-fail
+tu1_exc6_rest: 1 min.
+tu1_exc6_notes: 3/4 reps, tehn partials at the bottom, tehn pull it over and do partials in front.
+tu1_exc7: Straight Bar Extensions - Partials into Full
+tu1_exc7_sets: 3
+tu1_exc7_reps: 20/Fail
+tu1_exc7_rest: 1 min.
+tu1_exc7_notes: Standing tall, once you fail lean forward and rep out partials until failure.
+tu1_exc8: Hanging Leg Raise
+tu1_exc8_sets: 4
+tu1_exc8_reps: Failure
+tu1_exc8_rest: 1 min.
 tu1_exc8_notes: 
-tu1_exc9: 
-tu1_exc9_sets: 
-tu1_exc9_reps: 
-tu1_exc9_rest: 
-tu1_exc9_notes: 
 day3_num: 
 day3: 
 wed1_exc1: 
