@@ -116,113 +116,138 @@ tu1_exc8_reps: Failure
 tu1_exc8_rest: 1 min.
 tu1_exc8_notes: 
 day3_num: Day 3 -
-day3: Wednesday (Shoulders, Biceps & Calves)
-wed1_exc1: Behind the back barbell raise - pronated 
-wed1_exc1_sets: 3
-wed1_exc1_reps: 15-20
-wed1_exc1_rest: 1 min.
-wed1_exc1_notes: Tuck your chin to disengage traps.
-wed1_exc2: Incline db rear raise
-wed1_exc2_sets: 4
-wed1_exc2_reps: 20/10/10/10
-wed1_exc2_rest: 1 min. - 90 sec.
-wed1_exc2_notes: Tuck chin, don't be afraid to use heavier weight, hard to screw up.
-wed1_exc3: Slightly supinated press heavy
-wed1_exc3_sets: 3
-wed1_exc3_reps: 15/8/8
-wed1_exc3_rest: 2 min.
-wed1_exc3_notes: "if you feel more comfortable you can do a hammer press, still good but not as isolated to anterior" 
-wed1_exc4: Dumbbell side controlled
-wed1_exc4_sets: 3
-wed1_exc4_reps: 20
-wed1_exc4_rest: 1 min.
-wed1_exc4_notes: Cut out the very bottom, lean slightly forward.
-wed1_exc5: Cable side raises (each arm)
-wed1_exc5_sets: 3
-wed1_exc5_reps: 10
-wed1_exc5_rest: 1 min.
-wed1_exc5_notes: Heavy but still able to maintain pulling through delt... not throwing it up.
-wed1_exc6: Rear delt around world
-wed1_exc6_sets: 2
-wed1_exc6_reps: 20
-wed1_exc6_rest: 1 min.
-wed1_exc6_notes: Make sure you don't try to raise arms too high as your bring them around.
-wed1_exc7: Long head curl
-wed1_exc7_sets: 3
-wed1_exc7_reps: 20 each
-wed1_exc7_rest: 1 min.
-wed1_exc7_notes: Really externally rotate your shoulder.
-wed1_exc8: Incline db curl short head
-wed1_exc8_sets: 3
-wed1_exc8_reps: 10
-wed1_exc8_rest: 90 sec.
-wed1_exc8_notes: Exaggerate rotation of wrist.
-wed1_exc9: concentration curl
-wed1_exc9_sets: 2
-wed1_exc9_reps: 8 each
-wed1_exc9_rest: 2 min.
-wed1_exc9_notes: Elbow should be wider than shoulder - no rest beteween sides or sets.
-wed1_exc10: Pronated concentration
-wed1_exc10_sets: 2
-wed1_exc10_reps: 20 each
-wed1_exc10_rest: 1 min.
-wed1_exc10_notes: Keep shoulder internally rotated to isolate brachialis - no rest between Sides or sets.
-wed1_exc11_sets: 3
-wed1_exc11_reps: 20+FAIL+FAIL+FAIL
+day3: Wednesday (REST)
+wed1_exc1: 
+wed1_exc1_sets: 
+wed1_exc1_reps: 
+wed1_exc1_rest: 
+wed1_exc1_notes: 
+wed1_exc2: 
+wed1_exc2_sets: 
+wed1_exc2_reps: 
+wed1_exc2_rest: 
+wed1_exc2_notes: 
+wed1_exc3: 
+wed1_exc3_sets: 
+wed1_exc3_reps: 
+wed1_exc3_rest: 
+wed1_exc3_notes: 
+wed1_exc4: 
+wed1_exc4_sets: 
+wed1_exc4_reps: 
+wed1_exc4_rest: 
+wed1_exc4_notes:
+wed1_exc5: 
+wed1_exc5_sets: 
+wed1_exc5_reps: 
+wed1_exc5_rest: 
+wed1_exc5_notes:
+wed1_exc6: 
+wed1_exc6_sets: 
+wed1_exc6_reps: 
+wed1_exc6_rest: 
+wed1_exc6_notes:
+wed1_exc7:
+wed1_exc7_sets: 
+wed1_exc7_reps: 
+wed1_exc7_rest: 
+wed1_exc7_notes:
+wed1_exc8: 
+wed1_exc8_sets: 
+wed1_exc8_reps: 
+wed1_exc8_rest: 
+wed1_exc8_notes: 
+wed1_exc9: 
+wed1_exc9_sets: 
+wed1_exc9_reps: 
+wed1_exc9_rest: 
+wed1_exc9_notes:
+wed1_exc10:
+wed1_exc10_sets:
+wed1_exc10_reps: 
+wed1_exc10_rest: 
+wed1_exc10_notes:
+wed1_exc11_sets: 
+wed1_exc11_reps:
 wed1_exc11_rest:
-wed1_exc11_notes: Push to failure, rack one breath and go again, and again, and again.
-wed1_exc12: Y raise
-wed1_exc12_sets: 2
-wed1_exc12_reps: 20
-wed1_exc12_rest: 1 min.
+wed1_exc11_notes: 
+wed1_exc12: 
+wed1_exc12_sets: 
+wed1_exc12_reps: 
+wed1_exc12_rest: 
 wed1_exc12_notes: 
-wed1_exc13: 60 second stretch
+wed1_exc13: 
 wed1_exc13_sets: 
 wed1_exc13_reps: 
 wed1_exc13_rest:
 wed1_exc13_notes: 
-day4_num: 
-day4: 
-th1_exc1: 
-th1_exc1_sets: 
-th1_exc1_reps: 
-th1_exc1_rest: 
-th1_exc1_notes: 
-th1_exc2: 
-th1_exc2_sets: 
-th1_exc2_reps: 
-th1_exc2_rest: 
-th1_exc2_notes: 
-th1_exc3: 
-th1_exc3_sets: 
-th1_exc3_reps: 
-th1_exc3_rest: 
-th1_exc3_notes: 
-th1_exc4: 
-th1_exc4_sets: 
-th1_exc4_reps: 
-th1_exc4_rest: 
-th1_exc4_notes: 
-th1_exc5: 
-th1_exc5_sets: 
-th1_exc5_reps: 
-th1_exc5_rest: 
-th1_exc5_notes: 
-th1_exc6: 
-th1_exc6_sets: 
-th1_exc6_reps: 
-th1_exc6_rest: 
-th1_exc6_notes: 
-th1_exc7: 
-th1_exc7_sets: 
-th1_exc7_reps: 
-th1_exc7_rest: 
-th1_exc7_notes: 
-th1_exc8: 
-th1_exc8_sets: 
-th1_exc8_reps: 
-th1_exc8_rest:
-th1_exc8_notes: 
+day4_num: Day 4 -
+day4: Thursday (Shoulders, Biceps & Calves)
+th1_exc1: Behind the back barbell raise - pronated
+th1_exc1_sets: 3
+th1_exc1_reps: 15-20
+th1_exc1_rest: 1 min.
+th1_exc1_notes: Tuck your chin to disengage traps.
+th1_exc2: Incline dumbbell rear raise
+th1_exc2_sets: 3
+th1_exc2_reps: 15-20
+th1_exc2_rest: 1 min.
+th1_exc2_notes: Tuck chin, don't be afraid to use heavier weight, hard to screw up.
+th1_exc3:  Slightly supinated press heavy
+th1_exc3_sets: 3
+th1_exc3_reps: 15/8/8
+th1_exc3_rest: 2 min.
+th1_exc3_notes: If you feel more comfortable you can do a hammer press, still good but not as isolated to anterior.
+th1_exc4: Dumbbell side controlled
+th1_exc4_sets: 3
+th1_exc4_reps: 20
+th1_exc4_rest: 1 min.
+th1_exc4_notes: Cut out the very bottom, lean slightly forward.
+th1_exc5: Cable side raises (each arm)
+th1_exc5_sets: 3
+th1_exc5_reps: 10
+th1_exc5_rest: 1 min.
+th1_exc5_notes: Heavy but still able to maintain pulling through delt... not throwing it up.
+th1_exc6: Rear delt around world
+th1_exc6_sets: 2
+th1_exc6_reps: 20
+th1_exc6_rest: 1 min.
+th1_exc6_notes:  Make sure you don't try to raise arms too high as your bring them around.
+th1_exc7: Long head curl
+th1_exc7_sets: 3
+th1_exc7_reps: 20 each
+th1_exc7_rest: 1 min.
+th1_exc7_notes: Really externally rotate your shoulder.
+th1_exc8: Incline dumbbell curl short head
+th1_exc8_sets: 3
+th1_exc8_reps: 10
+th1_exc8_rest: 90 sec.
+th1_exc8_notes: Exaggerate rotation of wrist. 
+th1_exc9: Concentration curl
+th1_exc9_sets: 2
+th1_exc9_reps: 8 each
+th1_exc9_rest: 2 min.
+th1_exc9_notes: Elbow should be wider than shoulder - no rest beteween sides or sets.
+th1_exc10: Pronated concentration curl
+th1_exc10_sets: 2
+th1_exc10_reps: 20 each
+th1_exc10_rest: 1 min.
+th1_exc10_notes: Keep shoulder internally rotated to isolate brachialis - no rest between Sides or sets.
+th1_exc11: Standing calf raise cluster
+th1_exc11_sets: 3
+th1_exc11_reps: 20+FAIL+FAIL+FAIL
+th1_exc11_rest: 2 min.
+th1_exc11_notes: Push to failure, rack one breath and go again, and again, and again.
+th1_exc12: Y raise
+th1_exc12_sets: 2
+th1_exc12_reps: 20
+th1_exc12_rest: 1 min.
+th1_exc12_notes:
+th1_exc13: 60 second stretch
+th1_exc13_sets: 
+th1_exc13_reps: 
+th1_exc13_rest: 
+th1_exc13_notes:
 day5_num: 
 day5: 
 fri1_exc1: 
