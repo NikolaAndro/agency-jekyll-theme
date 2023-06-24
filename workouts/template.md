@@ -16,8 +16,8 @@ client: Start Bootstrap
 category: Muscle Building
 description: <b>Week 1</b> - Relatively low rep range (around 8). <br><b>Week 2</b> - Range of around 12 reps.<br><b>Week 3</b> - Using dropsets and other techniques to increase the volume.<br><b>Week 4</b> - FST-7 (Fascia Stretch Training) where you will stretch fascia while contracting the target muscle between the sets.<br><b>Week 5</b> - German Volume Training - Magic 100 reps per muscle group. <br><b>Week 6</b> - High-Intensity Training (HIT).
 week1_num: 
-day1_num: 
-day1: 
+day1_num: Day 1 -
+day1: Monday
 mon1_exc1: 
 mon1_exc1_sets: 
 mon1_exc1_reps: 
@@ -73,8 +73,8 @@ mon1_exc11_sets:
 mon1_exc11_reps: 
 mon1_exc11_rest: 
 mon1_exc11_notes: 
-day2_num: 
-day2: 
+day2_num: Day 2 -
+day2: Tuesday
 tu1_exc1: 
 tu1_exc1_sets: 
 tu1_exc1_reps: 
@@ -120,8 +120,8 @@ tu1_exc9_sets:
 tu1_exc9_reps: 
 tu1_exc9_rest: 
 tu1_exc9_notes: 
-day3_num: 
-day3: 
+day3_num: Day 3 -
+day3: Wednesday
 wed1_exc1: 
 wed1_exc1_sets: 
 wed1_exc1_reps: 
@@ -187,8 +187,8 @@ wed1_exc13_sets:
 wed1_exc13_reps: 
 wed1_exc13_rest:
 wed1_exc13_notes:
-day4_num: 
-day4: 
+day4_num: Day 4 - 
+day4: Thursday
 th1_exc1: 
 th1_exc1_sets: 
 th1_exc1_reps: 
@@ -254,8 +254,8 @@ th1_exc13_sets:
 th1_exc13_reps: 
 th1_exc13_rest: 
 th1_exc13_notes:
-day5_num: 
-day5: 
+day5_num: Day 5 -
+day5: Friday
 fri1_exc1: 
 fri1_exc1_sets: 
 fri1_exc1_reps: 
@@ -301,13 +301,13 @@ fri1_exc9_sets:
 fri1_exc9_reps: 
 fri1_exc9_rest: 
 fri1_exc9_notes: 
-day6_num: 
-day6: 
-day7_num: 
-day7: 
-week2_num: 
-day8_num: 
-day8: 
+day6_num: Day 6 -
+day6: Saturday
+day7_num: Day 7 -
+day7: Sunday
+week2_num: Week 2
+day8_num: Day 8 -
+day8: Monday
 mon2_exc1: 
 mon2_exc1_sets: 
 mon2_exc1_reps: 
@@ -353,6 +353,11 @@ mon2_exc9_sets:
 mon2_exc9_reps: 
 mon2_exc9_rest: 
 mon2_exc9_notes: 
+mon2_exc10: 
+mon2_exc10_sets: 
+mon2_exc10_reps: 
+mon2_exc10_rest: 
+mon2_exc10_notes:
 day9_num: 
 day9: 
 tu2_exc1: 
