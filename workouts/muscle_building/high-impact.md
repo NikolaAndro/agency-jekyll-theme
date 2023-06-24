@@ -248,43 +248,43 @@ th1_exc13_sets:
 th1_exc13_reps: 
 th1_exc13_rest: 
 th1_exc13_notes:
-day5_num: 
-day5: 
-fri1_exc1: 
-fri1_exc1_sets: 
-fri1_exc1_reps: 
-fri1_exc1_rest: 
-fri1_exc1_notes: 
-fri1_exc2: 
-fri1_exc2_sets: 
-fri1_exc2_reps: 
-fri1_exc2_rest: 
-fri1_exc2_notes:
-fri1_exc3: 
-fri1_exc3_sets: 
-fri1_exc3_reps: 
-fri1_exc3_rest: 
-fri1_exc3_notes: 
-fri1_exc4: 
-fri1_exc4_sets: 
-fri1_exc4_reps: 
-fri1_exc4_rest: 
-fri1_exc4_notes:
-fri1_exc5: 
-fri1_exc5_sets: 
-fri1_exc5_reps: 
-fri1_exc5_rest: 
-fri1_exc5_notes:
-fri1_exc6: 
-fri1_exc6_sets: 
-fri1_exc6_reps: 
-fri1_exc6_rest: 
-fri1_exc6_notes: 
-fri1_exc7: 
-fri1_exc7_sets: 
-fri1_exc7_reps: 
-fri1_exc7_rest: 
-fri1_exc7_notes:
+day5_num: Day 5 -
+day5: Friday (Quads, Hamstrings & Glutes)
+fri1_exc1: Sumo Deadlift
+fri1_exc1_sets: 3
+fri1_exc1_reps: 20/8/6
+fri1_exc1_rest: 60-120 sec.
+fri1_exc1_notes: Rotate throughh the hips.
+fri1_exc2: Single leg glute hyper-extension
+fri1_exc2_sets: 3
+fri1_exc2_reps: 15 each
+fri1_exc2_rest: 1 min.
+fri1_exc2_notes: Slightly bend the knee.
+fri1_exc3: Seated leg curl with toes pointed in
+fri1_exc3_sets: 3
+fri1_exc3_reps: 20
+fri1_exc3_rest: 1 min.
+fri1_exc3_notes: Let the toes touch.
+fri1_exc4: Leg extension 3/4 cluster
+fri1_exc4_sets: 5
+fri1_exc4_reps: 30+10+10+10+10
+fri1_exc4_rest: 2 min.
+fri1_exc4_notes: 3/4 of of the full range. Do not hold on anything during the 30 reps.
+fri1_exc5: Squat with hills on plates 
+fri1_exc5_sets: 4
+fri1_exc5_reps: 20/10/10/30
+fri1_exc5_rest: 1 min.
+fri1_exc5_notes: Keep the pressure on toes and force knees over toes.
+fri1_exc6: Stiff leg deadlift
+fri1_exc6_sets: 2
+fri1_exc6_reps: 10
+fri1_exc6_rest: 1 min.
+fri1_exc6_notes: Toes slightly out.
+fri1_exc7: Walking lunges with weight
+fri1_exc7_sets: 3
+fri1_exc7_reps: 40
+fri1_exc7_rest: 2 min.
+fri1_exc7_notes: Slightly leaned forward.
 fri1_exc8: 
 fri1_exc8_sets: 
 fri1_exc8_reps: 
@@ -295,58 +295,63 @@ fri1_exc9_sets:
 fri1_exc9_reps: 
 fri1_exc9_rest: 
 fri1_exc9_notes: 
-day6_num: 
-day6: 
-day7_num: 
-day7: 
-week2_num: 
-day8_num: 
-day8: 
-mon2_exc1: 
-mon2_exc1_sets: 
-mon2_exc1_reps: 
-mon2_exc1_rest: 
-mon2_exc1_notes: 
-mon2_exc2: 
-mon2_exc2_sets: 
-mon2_exc2_reps: 
-mon2_exc2_rest: 
-mon2_exc2_notes: 
-mon2_exc3: 
-mon2_exc3_sets: 
-mon2_exc3_reps: 
-mon2_exc3_rest: 
-mon2_exc3_notes: 
-mon2_exc4: 
-mon2_exc4_sets: 
-mon2_exc4_reps: 
-mon2_exc4_rest: 
-mon2_exc4_notes: 
-mon2_exc5: 
-mon2_exc5_sets: 
-mon2_exc5_reps: 
-mon2_exc5_rest: 
-mon2_exc5_notes: 
-mon2_exc6: 
-mon2_exc6_sets: 
-mon2_exc6_reps: 
-mon2_exc6_rest: 
-mon2_exc6_notes: 
-mon2_exc7: 
-mon2_exc7_sets: 
-mon2_exc7_reps: 
-mon2_exc7_rest: 
+day6_num: Day 6 -
+day6: Saturday (REST)
+day7_num: Day 5 -
+day7: Sunday
+week2_num: Week 2
+day8_num: Day 8 -
+day8: Monday
+mon2_exc1: 1 arm dumbbell row - propanated grip
+mon2_exc1_sets: 4
+mon2_exc1_reps: 12 each
+mon2_exc1_rest: 1 min.
+mon2_exc1_notes: Pull towards the hip. It will engage lat more.
+mon2_exc2: Lat pulldown wide grip & fixed elbow 
+mon2_exc2_sets: 2
+mon2_exc2_reps: 15+5+5+5+5
+mon2_exc2_rest: 2 min.
+mon2_exc2_notes: Lean foreward during negative, lean back during positive and grip at the end of the bar.
+mon2_exc3: 1 arm cable row with fixed elbow - propanated
+mon2_exc3_sets: 3
+mon2_exc3_reps: 15 each
+mon2_exc3_rest: NO REST
+mon2_exc3_notes: Move your body rather than your elbow.
+mon2_exc4: Barbell row with mechanical drop
+mon2_exc4_sets: 3
+mon2_exc4_reps: 10+FAIL
+mon2_exc4_rest: 2 min.
+mon2_exc4_notes: Feel free to put some weight on.
+mon2_exc5: Dumbbell shrug with a mechanical drop
+mon2_exc5_sets: 3
+mon2_exc5_reps: 20+FAIL
+mon2_exc5_rest: 2 min.
+mon2_exc5_notes: First shrug targets mid traps so make sure you really lean forward.
+mon2_exc6: Flexion and extension hyper extension 
+mon2_exc6_sets: 3
+mon2_exc6_reps: FAIL + FAIL
+mon2_exc6_rest: 2 min.
+mon2_exc6_notes: Body parallel to the floor and flex upper back when reach the parallel.
+mon2_exc7: Wide grip pullup + reverse shrug 
+mon2_exc7_sets: 3
+mon2_exc7_reps: FAIL + FAIL
+mon2_exc7_rest: 1 min.
 mon2_exc7_notes: 
-mon2_exc8: 
-mon2_exc8_sets: 
-mon2_exc8_reps: 
-mon2_exc8_rest: 
+mon2_exc8: Seated calf raises
+mon2_exc8_sets: 3
+mon2_exc8_reps: 30+5+5+5+5
+mon2_exc8_rest: 1 min.
 mon2_exc8_notes: 
-mon2_exc9: 
-mon2_exc9_sets: 
-mon2_exc9_reps: 
-mon2_exc9_rest: 
-mon2_exc9_notes: 
+mon2_exc9: Y raises
+mon2_exc9_sets: 2
+mon2_exc9_reps: 20
+mon2_exc9_rest: 1 min.
+mon2_exc9_notes: Good for your posture. 
+mon2_exc10: 60 second hang
+mon2_exc10_sets: 1
+mon2_exc10_reps: 
+mon2_exc10_rest: 
+mon2_exc10_notes: Use straps.
 day9_num: 
 day9: 
 tu2_exc1: 
