@@ -58,5 +58,3 @@ On this page the idea is as follows:
 6. The list will be having check marks so you can check them as you shop
 7. You will be able to send that grocery list to your email
 
-
-=========
