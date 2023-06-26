@@ -51,33 +51,18 @@ Support my project to keep adding more workouts by donating!
 - [ ] Make the kitchen available in Serbian and in English
 - [ ] Better sorting of meal plans - sort by number of calories
 
-Agency Jekyll theme
-====================
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+# Mealplan Builder page
 
-# How to use
+On this page the idea is as follows:
 
-###Portfolio 
+1. Select the meal plan based on the number of calories given that meal plans are provided and located in a certain directory
+2. If there is no satisfying meal plan, then enter your username and password of nutritionvalue.org website and select the date where you created the desired mealplan
+3. JavaScript will scrape the necessary data and save into variables
+4. You have the ability to select the number of days you'd like to eat each meal plan
+5. Based on number of days, it will generate the grocery list
+6. The list will be having check marks so you can check them as you shop
+7. You will be able to send that grocery list to your email
 
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 
 =========
-For more details, read [documentation](http://jekyllrb.com/)
