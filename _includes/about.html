@@ -13,35 +13,36 @@
 
 
                         {% for post in site.posts %}
-                            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                                  {% if thecycle == 'odd' %}
-                                        {% if post.category == "Body Building" or post.category == "Shredding" %} 
+                                {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                                {% if post.category == "Body Building" or post.category == "Shredding" %}
+                                      {% if thecycle == 'odd' %}
+                                         
                                            <li>
                                                 <div class="timeline-image">
-                                                    <img class="img-circle img-responsive" src=post.about_img alt="">
+                                                    <img class="img-circle img-responsive" src={{post.about_img}} alt="">
                                                 </div>
                                                 <div class="timeline-panel">
                                                     <div class="timeline-heading">
-                                                       <h4 class="subheading">post.title</h4>
+                                                       <h4 class="subheading">{{post.title}}</h4>
                                                     </div>
                                                     <div class="timeline-body">
-                                                        <p class="text-muted">post.about</p>
+                                                        <p class="text-muted">{{post.about}}</p>
                                                     </div>
                                                 </div>
                                             </li>
-                                        {% endif %}
-                                    {% else %}  
-                                        {% if post.category == "Body Building" or post.category == "Shredding" %} 
+                                       
+                                        {% else %}  
+                                         
                                            <li class="timeline-inverted>
                                                 <div class="timeline-image">
-                                                    <img class="img-circle img-responsive" src=post.about_img alt="">
+                                                    <img class="img-circle img-responsive" src={{post.about_img}} alt="">
                                                 </div>
                                                 <div class="timeline-panel">
                                                     <div class="timeline-heading">
-                                                       <h4 class="subheading">post.title</h4>
+                                                       <h4 class="subheading">{{post.title}}</h4>
                                                     </div>
                                                     <div class="timeline-body">
-                                                        <p class="text-muted">post.about</p>
+                                                        <p class="text-muted">{{post.about}}</p>
                                                     </div>
                                                 </div>
                                             </li>
