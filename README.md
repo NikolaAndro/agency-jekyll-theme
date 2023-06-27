@@ -2,11 +2,11 @@
 
 ## Nikola
 
-- [ ] The kitchen button needs href on whole surface
+- [X] The kitchen button needs href on whole surface
 - [ ] Terms Of Use - Ask GPT?
 - [X] Make sure all weeks are in tables
 - [ ] High resolution images for the workouts
-- [ ] Finish about
+- [X] Finish about
 - [ ] Make sure everything looks good on mobile device
 - [X] Fast scrolling
 - [X] Remove other YouTube Channels and put ours  
