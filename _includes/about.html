@@ -10,7 +10,28 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        <li>
+
+
+                        {% for post in site.posts %}
+                            {% if post.category == "Body Building" or post.category == "Shredding" %} 
+                               <li>
+                                    <div class="timeline-image">
+                                        <img class="img-circle img-responsive" src=post.about_img alt="">
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                           <h4 class="subheading">post.title</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">post.about</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+
+                        
+<!--                         <li>
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/1_200x200.png" alt="">
                             </div>
@@ -61,7 +82,7 @@
                                     <p class="text-muted">Workout that comes with an extreme diet for weight loss.</p>
                                 </div>
                             </div>
-                        </li> 
+                        </li>  -->
 <!--                        <li>
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
@@ -78,7 +99,7 @@
                         </li>-->
                         
                         
-                        <li>
+<!--                         <li>
                             <a class="page-scroll" href="#contact"></a>
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/biceps.png" alt="">
@@ -97,7 +118,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </li> 
+                        </li>  -->
                         
 <!--                         <li class="timeline-inverted">
                             <div class="timeline-image">
