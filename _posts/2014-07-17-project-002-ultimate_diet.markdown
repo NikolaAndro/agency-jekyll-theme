@@ -4,7 +4,7 @@ subtitle: 1 week
 layout: default
 url: the_ultimate_diet_workout/
 permalink: the_ultimate_diet_workout/
-modal-id: 6
+modal-id: 102
 date: 2022-07-24
 img: ultimate-diet-inside.png
 thumbnail: ultimate-diet-cover.jpg 
