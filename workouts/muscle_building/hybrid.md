@@ -2,7 +2,7 @@
 title: Hybrid
 subtitle: 12 weeks
 layout: page
-modal-id: 7
+modal-id: 4
 date: 2022-12-09
 img_path: portfolio/masa.png
 img: masa.png
