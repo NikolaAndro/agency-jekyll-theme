@@ -3,7 +3,7 @@ title: High Impact
 subtitle: 4 weeks
 layout: default
 permalink: high-impact/
-modal-id: 9
+modal-id: 6
 date: 2022-12-09
 img: jacked.jpeg
 thumbnail: jacked.jpeg
