@@ -3,7 +3,7 @@ title: Hybrid
 subtitle: 12 weeks
 layout: default
 permalink: hybrid/
-modal-id: 7
+modal-id: 4
 date: 2022-12-09
 img: masa.png
 thumbnail: masa.png 
