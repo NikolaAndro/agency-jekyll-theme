@@ -2,7 +2,7 @@
 title: Beast Mode
 subtitle: 6 weeks
 layout: default
-modal-id: 5
+modal-id: 3
 date: 2022-06-24
 img: beast_mode.png
 thumbnail: beast_mode.png
