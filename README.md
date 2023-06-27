@@ -29,7 +29,7 @@
 - [ ] Ask nutrition App to promote them
 - [x] Nutrition Section
 - [ ] Excercise Library Section that leads to our new YouTube Section
-- [ ] YouTube Section
+- [x] YouTube Section
 - [ ] Instagram Page
 - [x] Table at the beginning of the workout (being able to autoscroll)
 - [x] Talk to Mathew to promote, we will him, as well as Mirzad
