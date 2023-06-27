@@ -11,4 +11,5 @@ alt: image-alt
 project-date: March 2023
 client: Start Bootstrap
 category: "Body Building"
+coming_soon_ribbon: "yes"
 ---
