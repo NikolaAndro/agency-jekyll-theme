@@ -7,7 +7,7 @@
 - [ ] Finish about
 - [ ] Make sure everything looks good on mobile device
 - [ ] Remove the kitchen for now. We will put it back later
-- [ ] Fast scrolling
+- [X] Fast scrolling
 - [ ] Remove other YouTube Channels and put ours  
 - [ ] Make a kitches section
 - [ ] Put kitchen in the taskbar
