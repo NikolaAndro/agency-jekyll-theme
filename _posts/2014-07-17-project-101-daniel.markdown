@@ -4,7 +4,7 @@ subtitle: 3 weeks
 url: shredding_by_daniel
 permalink: shredding_by_daniel/
 layout: default
-modal-id: 3
+modal-id: 101
 date: 2022-02-07
 img: daniel.jpg
 thumbnail: daniel.jpg
