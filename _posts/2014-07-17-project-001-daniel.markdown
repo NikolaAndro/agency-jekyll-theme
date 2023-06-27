@@ -5,7 +5,7 @@ url: shredding_by_daniel
 permalink: shredding_by_daniel/
 layout: default
 modal-id: 101
-date: 2033-02-07
+date: 2020-02-07
 img: daniel.jpg
 thumbnail: daniel.jpg
 alt: image-alt
