@@ -2,6 +2,7 @@
 
 ## Nikola
 
+- [ ] The kitchen button needs href on whole surface
 - [ ] Terms Of Use - Ask GPT?
 - [X] Make sure all weeks are in tables
 - [ ] High resolution images for the workouts
