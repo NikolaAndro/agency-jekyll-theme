@@ -2,13 +2,13 @@
 
 ## Nikola
 
-- [ ] Make sure all weeks are in tables
+- [ ] Terms Of Use - Ask GPT?
+- [X] Make sure all weeks are in tables
 - [ ] High resolution images for the workouts
 - [ ] Finish about
 - [ ] Make sure everything looks good on mobile device
-- [ ] Remove the kitchen for now. We will put it back later
 - [X] Fast scrolling
-- [ ] Remove other YouTube Channels and put ours  
+- [X] Remove other YouTube Channels and put ours  
 - [ ] Make a kitches section
 - [ ] Put kitchen in the taskbar
 - [ ] Change the color of welcome to busy life
