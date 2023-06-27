@@ -22,7 +22,15 @@
                         <a href="#donate">Donate</a>
                     </li>
                     <li>
-                        <a  href="#dayTable">Day Table</a>
+                        {% if page.subtitle == "1 week" %}
+                            <a  href="#dayTable">Day Table</a>
+                        {% elsif page.subtitle == "3 weeks"%}
+                            <a  href="#dayTable">Day Table</a>
+                        {% elsif page.subtitle == "6 weeks"%}
+                            <a  href="#dayTable">Day Table</a>  
+                        {% else %}
+                            <a  href="#dayTable">Day Table</a>
+                        {% endif %}    
                     </li>
                     {% if page.has_coach == "yes" %}
                         <li>
