@@ -9,7 +9,7 @@ coach_name: Daniel
 coach_last_name: Grundl
 coach_phone: 17203358762
 coach_email: grundl1396@gmail.com
-modal-id: 3
+modal-id: 101
 date: 2022-02-07
 img_path: portfolio/daniel.jpg
 img: daniel.jpg
