@@ -4,7 +4,7 @@ subtitle: 4 weeks
 layout: default
 permalink: high-impact/
 modal-id: 6
-date: 2022-12-09
+date: 2023-06-27
 img: jacked.jpeg
 thumbnail: jacked.jpeg
 alt: image-alt
