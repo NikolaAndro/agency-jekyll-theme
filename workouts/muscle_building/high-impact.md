@@ -2,7 +2,7 @@
 title: High Impact
 subtitle: 4 weeks
 layout: page
-modal-id: 9
+modal-id: 6
 date: 2022-12-09
 img_path: portfolio/jacked.jpeg
 img: jacked.jpeg
