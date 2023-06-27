@@ -4,7 +4,7 @@ subtitle: 1 week
 layout: page
 canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/the_ultimate_diet_workout/
 url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/the_ultimate_diet_workout/
-modal-id: 6
+modal-id: 102
 has_coach: no
 date: 2022-07-24
 img_path: portfolio/ultimate-diet-inside.png
