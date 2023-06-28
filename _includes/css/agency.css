@@ -4,25 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-table {
-/*   font-family: arial, sans-serif; */
-  color: DodgerBlue;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: center;
-  padding: 8px;
-  color: DodgerBlue;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-
 #hyperlinksExercise{
     color: #1E90FF; 
     font-weight: bold;
