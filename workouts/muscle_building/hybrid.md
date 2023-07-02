@@ -1624,47 +1624,47 @@ mon8_exc11_reps: 15 min.
 mon8_exc11_rest: 
 mon8_exc11_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 day51_num: Day 51 -
-day51: Tuesday
-tu8_exc1: 
-tu8_exc1_sets: 
-tu8_exc1_reps: 
-tu8_exc1_rest: 
-tu8_exc1_notes: 
-tu8_exc2: 
-tu8_exc2_sets: 
-tu8_exc2_reps: 
-tu8_exc2_rest: 
-tu8_exc2_notes: 
-tu8_exc3: 
-tu8_exc3_sets: 
-tu8_exc3_reps: 
-tu8_exc3_rest: 
-tu8_exc3_notes: 
-tu8_exc4: 
-tu8_exc4_sets: 
-tu8_exc4_reps: 
-tu8_exc4_rest: 
-tu8_exc4_notes: 
-tu8_exc5: 
-tu8_exc5_sets: 
-tu8_exc5_reps: 
-tu8_exc5_rest: 
-tu8_exc5_notes: 
-tu8_exc6: 
-tu8_exc6_sets: 
-tu8_exc6_reps: 
-tu8_exc6_rest: 
+day51: Tuesday (Legs)
+tu8_exc1: Barbell back squat
+tu8_exc1_sets: 5
+tu8_exc1_reps: 30/25/20/15/10
+tu8_exc1_rest: 90 sec.
+tu8_exc1_notes: Warm up first 2ith 2 sets. Use wider than shoulder-width stands.
+tu8_exc2: Barbel back squat extreme set
+tu8_exc2_sets: 5
+tu8_exc2_reps: 10/15/20/25/30
+tu8_exc2_rest: 10/15/20/25/30 sec.
+tu8_exc2_notes: Shoulder-width or slightly narrower stands.
+tu8_exc3: Hack Squat
+tu8_exc3_sets: 5
+tu8_exc3_reps: 30/25/20/15/10
+tu8_exc3_rest: NO REST
+tu8_exc3_notes: Narrow Stance. SUPERSET WITH THE NEXT EXCERCISE. 
+tu8_exc4: Barbell stiff-legged deadlift
+tu8_exc4_sets: 5
+tu8_exc4_reps: 30/25/20/15/10
+tu8_exc4_rest: 1 min.
+tu8_exc4_notes: Back to the hack squat.
+tu8_exc5: Hack Squat extreme set
+tu8_exc5_sets: 5
+tu8_exc5_reps: 10/15/20/25/30
+tu8_exc5_rest: 10/15/20/25/30 sec.
+tu8_exc5_notes: Stance wider than shoulder-width.
+tu8_exc6: Reverse hack squat
+tu8_exc6_sets: 5
+tu8_exc6_reps: 10/15/20/25/30
+tu8_exc6_rest: 10/15/20/25/30 sec.
 tu8_exc6_notes: 
-tu8_exc7: 
-tu8_exc7_sets: 
-tu8_exc7_reps: 
-tu8_exc7_rest: 
+tu8_exc7: Dumbbel Walking Lunge
+tu8_exc7_sets: 3
+tu8_exc7_reps: 40
+tu8_exc7_rest: 1 min.
 tu8_exc7_notes: 
-tu8_exc8: 
-tu8_exc8_sets: 
-tu8_exc8_reps: 
+tu8_exc8: Eliptical machine
+tu8_exc8_sets: 1
+tu8_exc8_reps: 15 min.
 tu8_exc8_rest: 
-tu8_exc8_notes: 
+tu8_exc8_notes: Alternate 3 min. light with 1 min. hard. You can choose another form of cardio.
 tu8_exc9: 
 tu8_exc9_sets: 
 tu8_exc9_reps: 
@@ -1681,7 +1681,7 @@ tu8_exc11_reps:
 tu8_exc11_rest: 
 tu8_exc11_notes: 
 day52_num: Day 52 -
-day52: Wednesday
+day52: Wednesday (Chest & Calves)
 wed8_exc1: 
 wed8_exc1_sets: 
 wed8_exc1_reps: 
