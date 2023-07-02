@@ -302,7 +302,7 @@ day7: Sunday
 week2_num: Week 2
 day8_num: Day 8 -
 day8: Monday
-mon2_exc1: 1 arm dumbbell row - propanated grip
+mon2_exc1: 1 arm dumbbell row - pronated grip
 mon2_exc1_sets: 4
 mon2_exc1_reps: 12 each
 mon2_exc1_rest: 1 min.
@@ -312,7 +312,7 @@ mon2_exc2_sets: 2
 mon2_exc2_reps: 15+5+5+5+5
 mon2_exc2_rest: 2 min.
 mon2_exc2_notes: Lean foreward during negative, lean back during positive and grip at the end of the bar.
-mon2_exc3: 1 arm cable row with fixed elbow - propanated
+mon2_exc3: 1 arm cable row with fixed elbow - pronated
 mon2_exc3_sets: 3
 mon2_exc3_reps: 15 each
 mon2_exc3_rest: NO REST
@@ -352,50 +352,50 @@ mon2_exc10_sets: 1
 mon2_exc10_reps: 
 mon2_exc10_rest: 
 mon2_exc10_notes: Use straps.
-day9_num: 
-day9: 
-tu2_exc1: 
-tu2_exc1_sets: 
-tu2_exc1_reps: 
-tu2_exc1_rest: 
-tu2_exc1_notes: 
-tu2_exc2: 
-tu2_exc2_sets: 
-tu2_exc2_reps: 
-tu2_exc2_rest: 
-tu2_exc2_notes: 
-tu2_exc3: 
-tu2_exc3_sets: 
-tu2_exc3_reps: 
-tu2_exc3_rest: 
-tu2_exc3_notes: 
-tu2_exc4: 
-tu2_exc4_sets: 
-tu2_exc4_reps: 
-tu2_exc4_rest: 
+day9_num: Day 9 - 
+day9: Tuesday (Chest, Triceps & Abs)
+tu2_exc1: Flat DB chest press
+tu2_exc1_sets: 2
+tu2_exc1_reps: 15+5+5+5+5
+tu2_exc1_rest: 2 min.
+tu2_exc1_notes: Pick a weight where you will fail on the 15th rep.
+tu2_exc2: Incline DB chest press
+tu2_exc2_sets: 2
+tu2_exc2_reps: 15+5+5+5+5
+tu2_exc2_rest: 2 min.
+tu2_exc2_notes: Inline 15 degrees.
+tu2_exc3: Decline Bench
+tu2_exc3_sets: 2
+tu2_exc3_reps: 20
+tu2_exc3_rest: 90 sec.
+tu2_exc3_notes: Arch your back to increase the angle.
+tu2_exc4: Cable fly - high to low
+tu2_exc4_sets: 2
+tu2_exc4_reps: 15+5+5+5+5
+tu2_exc4_rest: 2 min.
 tu2_exc4_notes: 
-tu2_exc5: 
-tu2_exc5_sets: 
-tu2_exc5_reps: 
-tu2_exc5_rest: 
-tu2_exc5_notes: 
-tu2_exc6: 
-tu2_exc6_sets: 
-tu2_exc6_reps: 
-tu2_exc6_rest: 
+tu2_exc5: Internally rotated DB Lateral Head
+tu2_exc5_sets: 3
+tu2_exc5_reps: 15 each
+tu2_exc5_rest: NO REST
+tu2_exc5_notes:  Triceps excercise. Keep the elbow high.
+tu2_exc6: Side arm DB french press
+tu2_exc6_sets: 3
+tu2_exc6_reps: 20 each side
+tu2_exc6_rest: NO REST
 tu2_exc6_notes: 
-tu2_exc7: 
-tu2_exc7_sets: 
-tu2_exc7_reps: 
-tu2_exc7_rest: 
-tu2_exc7_notes: 
-tu2_exc8: 
-tu2_exc8_sets: 
-tu2_exc8_reps: 
-tu2_exc8_rest: 
+tu2_exc7: Close grip press
+tu2_exc7_sets: 3
+tu2_exc7_reps: 12
+tu2_exc7_rest: 1 min.
+tu2_exc7_notes: Go heavy and do not lock out.
+tu2_exc8: Dip leg raise
+tu2_exc8_sets: 3
+tu2_exc8_reps: FAIL
+tu2_exc8_rest: 1 min.
 tu2_exc8_notes: 
-day10_num: 
-day10: 
+day10_num: Day 10 -
+day10: Wednesday (REST)
 wed2_exc1: 
 wed2_exc1_sets: 
 wed2_exc1_reps: 
@@ -436,149 +436,174 @@ wed2_exc8_sets:
 wed2_exc8_reps: 
 wed2_exc8_rest: 
 wed2_exc8_notes: 
-day11_num: 
-day11: 
-th2_exc1: 
-th2_exc1_sets: 
-th2_exc1_reps: 
-th2_exc1_rest: 
-th2_exc1_notes: 
-th2_exc2: 
-th2_exc2_sets: 
-th2_exc2_reps: 
-th2_exc2_rest: 
-th2_exc2_notes: 
-th2_exc3: 
-th2_exc3_sets: 
-th2_exc3_reps: 
-th2_exc3_rest: 
-th2_exc3_notes: 
-th2_exc4: 
-th2_exc4_sets: 
-th2_exc4_reps: 
-th2_exc4_rest: 
-th2_exc4_notes: 
-th2_exc5: 
-th2_exc5_sets: 
-th2_exc5_reps: 
-th2_exc5_rest: 
-th2_exc5_notes:
-th2_exc6: 
-th2_exc6_sets: 
-th2_exc6_reps: 
-th2_exc6_rest: 
-th2_exc6_notes:
-th2_exc7: 
-th2_exc7_sets: 
-th2_exc7_reps: 
-th2_exc7_rest: 
-th2_exc7_notes: 
-day12_num: 
-day12: 
-fri2_exc1: 
-fri2_exc1_sets: 
-fri2_exc1_reps: 
-fri2_exc1_rest: 
-fri2_exc1_notes: 
-fri2_exc2: 
-fri2_exc2_sets: 
-fri2_exc2_reps: 
-fri2_exc2_rest: 
+day11_num: Day 11 -
+day11: Thursday (Shoulders, Biceps & Calves)
+th2_exc1: Machine single arm rear delt raise
+th2_exc1_sets: 3
+th2_exc1_reps: 20 each
+th2_exc1_rest: NO REST
+th2_exc1_notes: Do this on lateral raise shoulder machine. Keep elbow close to the body.
+th2_exc2: Cable cross rear delt fly
+th2_exc2_sets: 4
+th2_exc2_reps: 15
+th2_exc2_rest: 1 min.
+th2_exc2_notes: It should feel like you are dragging your arms around yiour body.
+th2_exc3: Supinated barbel front raise
+th2_exc3_sets: 2
+th2_exc3_reps: 15+5+5+5+5
+th2_exc3_rest: 90 sec.
+th2_exc3_notes: Keep the elbow bent.
+th2_exc4: Incline bus driver
+th2_exc4_sets: 2
+th2_exc4_reps: 20 each way
+th2_exc4_rest: 90 sec.
+th2_exc4_notes: Incline the bench to 65 degrees.
+th2_exc5: Fixed elbow side lateral raises
+th2_exc5_sets: 2
+th2_exc5_reps: 15+5+5+5+5
+th2_exc5_rest: 90 sec.
+th2_exc5_notes: Keep your elbows higher than your hands.
+th2_exc6: Wide grip upright row
+th2_exc6_sets: 3
+th2_exc6_reps: 20
+th2_exc6_rest: 1 min.
+th2_exc6_notes: Go only as high as your delts allow you to.
+th2_exc7: Long head biceps curl
+th2_exc7_sets: 3
+th2_exc7_reps: 20
+th2_exc7_rest: NO REST
+th2_exc7_notes: You should feel the stretch on your short head.
+th2_exc8: Reverse grip straight bar curl
+th2_exc8_sets: 3
+th2_exc8_reps: 10
+th2_exc8_rest: NO REST
+th2_exc8_notes: SUPERSET WITH THE NEXT EXCERCISE.
+th2_exc9: Straight bar preacher curl
+th2_exc9_sets: 3
+th2_exc9_reps: FAIL
+th2_exc9_rest: 90 sec.
+th2_exc9_notes: Back to reverse grip straight bar curl.
+th2_exc10: Pronated concentration curls
+th2_exc10_sets: 3
+th2_exc10_reps: 20 each
+th2_exc10_rest: NO REST
+th2_exc10_notes: 
+th2_exc11: Leg press calf raises with toes in + toes out
+th2_exc11_sets: 3
+th2_exc11_reps: 50 each = 100
+th2_exc11_rest: 2 min.
+th2_exc11_notes: 
+th2_exc12: Y raises
+th2_exc12_sets: 2
+th2_exc12_reps: 20
+th2_exc12_rest: 1 min.
+th2_exc12_notes: 
+day12_num: Day 12 -
+day12: Friday (Quads, Hanstring & Glutes)
+fri2_exc1: Hip Thrust
+fri2_exc1_sets: 3
+fri2_exc1_reps: 20
+fri2_exc1_rest: 90 sec.
+fri2_exc1_notes: Hold on the top for a sec.
+fri2_exc2: Lying leg curls (toes in + toes out)
+fri2_exc2_sets: 4
+fri2_exc2_reps: 15 toes in + FAIL toes out
+fri2_exc2_rest: 90 sec.
 fri2_exc2_notes: 
-fri2_exc3: 
-fri2_exc3_sets: 
-fri2_exc3_reps: 
-fri2_exc3_rest: 
+fri2_exc3: Hyper extension toes out
+fri2_exc3_sets: 3
+fri2_exc3_reps: FAIL
+fri2_exc3_rest: 90 sec.
 fri2_exc3_notes: 
-fri2_exc4: 
-fri2_exc4_sets: 
-fri2_exc4_reps: 
-fri2_exc4_rest: 
+fri2_exc4: Hack squat low stance
+fri2_exc4_sets: 4
+fri2_exc4_reps: 20/10/8/30
+fri2_exc4_rest: 1 min. - 90 sec.
 fri2_exc4_notes:
-fri2_exc5: 
-fri2_exc5_sets: 
-fri2_exc5_reps: 
-fri2_exc5_rest: 
-fri2_exc5_notes: 
-fri2_exc6: 
-fri2_exc6_sets: 
-fri2_exc6_reps: 
-fri2_exc6_rest: 
-fri2_exc6_notes:
-fri2_exc7: 
-fri2_exc7_sets: 
-fri2_exc7_reps: 
-fri2_exc7_rest: 
-fri2_exc7_notes:
+fri2_exc5: Leg press low stance
+fri2_exc5_sets: 3
+fri2_exc5_reps: 30
+fri2_exc5_rest: 2 min.
+fri2_exc5_notes: Shift the loes over knees as long as you feel safe.
+fri2_exc6: Weighted walking lunges
+fri2_exc6_sets: 3
+fri2_exc6_reps: 40 steps
+fri2_exc6_rest: 90 sec.
+fri2_exc6_notes: Bring the dumbbels over the toes and make short strides to bias the quads.
+fri2_exc7: Leg extension 3/4
+fri2_exc7_sets: 3
+fri2_exc7_reps: 20+5+5+5+5
+fri2_exc7_rest: 90 sec.
+fri2_exc7_notes: Do not grip anything on the first set. Increase the weight on 2nd and 3rd and grip anything to get it up.
 fri2_exc8: 
 fri2_exc8_sets: 
 fri2_exc8_reps: 
 fri2_exc8_rest: 
 fri2_exc8_notes: 
-day13_num: 
-day13: 
-day14_num: 
-day14: 
-week3_num: 
-day15_num: 
-day15: 
-mon3_exc1: 
-mon3_exc1_sets: 
-mon3_exc1_reps: 
-mon3_exc1_rest: 
+day13_num: Day 13 -
+day13: Saturday (REST)
+day14_num: Day 14 -
+day14: Sunday (REST)
+week3_num: Week 3
+day15_num: Day 15 -
+day15: Monday (Back, Traps & Calves)
+mon3_exc1: Incline cable pullovers
+mon3_exc1_sets: 4
+mon3_exc1_reps: 20
+mon3_exc1_rest: 1 min.
 mon3_exc1_notes: 
-mon3_exc2: 
-mon3_exc2_sets: 
-mon3_exc2_reps: 
-mon3_exc2_rest: 
-mon3_exc2_notes: 
-mon3_exc3: 
-mon3_exc3_sets: 
-mon3_exc3_reps: 
-mon3_exc3_rest: 
+mon3_exc2: Barbell pullover
+mon3_exc2_sets: 3
+mon3_exc2_reps: 15+5+5+5+5
+mon3_exc2_rest: 90 sec.
+mon3_exc2_notes: Keep the elbows in line with the lat.
+mon3_exc3: Wide grip lat pulldown
+mon3_exc3_sets: 3
+mon3_exc3_reps: 15+5+5+5+5
+mon3_exc3_rest: 90 sec.
 mon3_exc3_notes: 
-mon3_exc4: 
-mon3_exc4_sets: 
-mon3_exc4_reps: 
-mon3_exc4_rest: 
-mon3_exc4_notes: 
-mon3_exc5: 
-mon3_exc5_sets: 
-mon3_exc5_reps: 
-mon3_exc5_rest: 
-mon3_exc5_notes: 
-mon3_exc6: 
-mon3_exc6_sets: 
-mon3_exc6_reps: 
-mon3_exc6_rest: 
-mon3_exc6_notes: 
-mon3_exc7: 
-mon3_exc7_sets: 
-mon3_exc7_reps: 
-mon3_exc7_rest: 
-mon3_exc7_notes: 
-mon3_exc8: 
-mon3_exc8_sets: 
-mon3_exc8_reps: 
-mon3_exc8_rest: 
+mon3_exc4: Pendlay row
+mon3_exc4_sets: 4
+mon3_exc4_reps: 15/10/8/8
+mon3_exc4_rest: 1 min.
+mon3_exc4_notes: To hit the mid trap, force your elbows really high.
+mon3_exc5: Seated dumbbell shrugs
+mon3_exc5_sets: 3
+mon3_exc5_reps: 20 + double drop set
+mon3_exc5_rest: 90 sec.
+mon3_exc5_notes: Lean slightly forward.
+mon3_exc6: Deadlift
+mon3_exc6_sets: 4
+mon3_exc6_reps: 15/8/6/6
+mon3_exc6_rest: 2 min.
+mon3_exc6_notes: Go heavy.
+mon3_exc7: Wide grip pull up
+mon3_exc7_sets: 3
+mon3_exc7_reps: FAIL
+mon3_exc7_rest: NO REST
+mon3_exc7_notes: SUPERSET WITH THE NEXT EXCERCISE.
+mon3_exc8: Hanging shrugs
+mon3_exc8_sets: 3
+mon3_exc8_reps: FAIL
+mon3_exc8_rest: 1 min.
 mon3_exc8_notes: 
-mon3_exc9: 
-mon3_exc9_sets: 
-mon3_exc9_reps: 
-mon3_exc9_rest: 
-mon3_exc9_notes: 
-mon3_exc10: 
-mon3_exc10_sets: 
-mon3_exc10_reps: 
-mon3_exc10_rest: 
+mon3_exc9: Seatedd calf raises
+mon3_exc9_sets: 2
+mon3_exc9_reps: 20 going up + fail going down
+mon3_exc9_rest: 90 sec.
+mon3_exc9_notes: Increase the weight on every 5 reps going up.
+mon3_exc10: Y raise
+mon3_exc10_sets: 2
+mon3_exc10_reps: 20
+mon3_exc10_rest: 1 min.
 mon3_exc10_notes: 
-mon3_exc11: 
-mon3_exc11_sets: 
-mon3_exc11_reps: 
+mon3_exc11: Hang
+mon3_exc11_sets: 1 
+mon3_exc11_reps: 60 sec.
 mon3_exc11_rest: 
 mon3_exc11_notes: 
-day16_num: 
-day16: 
+day16_num: Day 16 -
+day16: Tuesday (Chest, Triceps & Abs)
 tu3_exc1: 
 tu3_exc1_sets: 
 tu3_exc1_reps: 
