@@ -20,6 +20,7 @@
          background-color: #e5e5e5;
        }
 #exerciseTable {
+    color: black,
     width: 100%;
     border-bottom: 1px solid #dedede;
     border-bottom-width: 1px;
