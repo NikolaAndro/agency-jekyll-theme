@@ -1682,20 +1682,20 @@ tu8_exc11_rest:
 tu8_exc11_notes: 
 day52_num: Day 52 -
 day52: Wednesday (Chest & Calves)
-wed8_exc1: 
-wed8_exc1_sets: 
-wed8_exc1_reps: 
-wed8_exc1_rest: 
+wed8_exc1: Incline dumbbell bench press
+wed8_exc1_sets: 6
+wed8_exc1_reps: 30/25/20/15/10/5
+wed8_exc1_rest: 1 min.
 wed8_exc1_notes: 
-wed8_exc2: 
-wed8_exc2_sets: 
-wed8_exc2_reps: 
-wed8_exc2_rest: 
+wed8_exc2: Decline Dumbbell Fly
+wed8_exc2_sets: 6
+wed8_exc2_reps: 5/10/15/20/25/30
+wed8_exc2_rest: 5/10/15/20/25/30 sec.
 wed8_exc2_notes: 
-wed8_exc3: 
-wed8_exc3_sets: 
-wed8_exc3_reps: 
-wed8_exc3_rest: 
+wed8_exc3: Machine chest press
+wed8_exc3_sets: 5
+wed8_exc3_reps: 30/25/20/15/10
+wed8_exc3_rest: NO REST
 wed8_exc3_notes:
 wed8_exc4: 
 wed8_exc4_sets: 
