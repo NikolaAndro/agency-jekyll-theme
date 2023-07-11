@@ -27,22 +27,22 @@ mon1_exc2: Leg Press
 mon1_exc2_sets: 4
 mon1_exc2_reps: 8-12
 mon1_exc2_rest: 90 sec.
-mon1_exc2_notes: 
+mon1_exc2_notes: Feet high - hamstring focused.
 mon1_exc3: Hack Squat
 mon1_exc3_sets: 4
 mon1_exc3_reps: 8-12
 mon1_exc3_rest: 90 sec.
-mon1_exc3_notes: 
+mon1_exc3_notes: This should fire up your quads.
 mon1_exc4: Bulgarian Split Squat
 mon1_exc4_sets: 3
 mon1_exc4_reps: 8-12
 mon1_exc4_rest: 1 min.
-mon1_exc4_notes: No rest when switching legs.
+mon1_exc4_notes: No rest when switching legs. Knees over toes as much as comfortable - will fire your quads instead of hamstring that way.
 mon1_exc5: Barbell Stiff-legged Deadlift
 mon1_exc5_sets: 4
 mon1_exc5_reps: 8-12
 mon1_exc5_rest: 90 sec.
-mon1_exc5_notes:
+mon1_exc5_notes: Will activate hamstrings.
 mon1_exc6: Lying Leg Curl
 mon1_exc6_sets: 5
 mon1_exc6_reps: 8-12
