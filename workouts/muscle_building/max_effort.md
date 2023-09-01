@@ -952,40 +952,40 @@ fri3_exc16_reps: 12-15
 fri3_exc16_rest: 45 sec.
 fri3_exc16_notes:
 day20_num: Day 20 -
-day20: Saturday (Legs)
-sat3_exc1: Leg curl 
-sat3_exc1_sets: 2
+day20: Saturday (Hamstrings & Glutes)
+sat3_exc1: Barbell hip thrust 
+sat3_exc1_sets: 4
 sat3_exc1_reps: 10
 sat3_exc1_rest: 1 min.
-sat3_exc1_notes: Warm up sets. 
+sat3_exc1_notes:
 sat3_exc2: Leg curl 
-sat3_exc2_sets: 4
-sat3_exc2_reps: 15/12/12/10
+sat3_exc2_sets: 2
+sat3_exc2_reps: 10
 sat3_exc2_rest: 1 min.
-sat3_exc2_notes:
-sat3_exc3: Single leg leg press (left) 
-sat3_exc3_sets: 5
-sat3_exc3_reps: 20
-sat3_exc3_rest: NO REST
+sat3_exc2_notes: Warm up sets. 
+sat3_exc3: Leg curl 
+sat3_exc3_sets: 4
+sat3_exc3_reps: 15/12/12/10
+sat3_exc3_rest: 1 min.
 sat3_exc3_notes:
-sat3_exc4: Single leg leg press (right) 
+sat3_exc4: Single leg leg press (left) 
 sat3_exc4_sets: 5
 sat3_exc4_reps: 20
 sat3_exc4_rest: NO REST
 sat3_exc4_notes:
-sat3_exc5: Lying leg curl 
+sat3_exc5: Single leg leg press (right) 
 sat3_exc5_sets: 5
-sat3_exc5_reps: 15
-sat3_exc5_rest: 1 min.
+sat3_exc5_reps: 20
+sat3_exc5_rest: NO REST
 sat3_exc5_notes:
-sat3_exc6: Glute ham raise 
-sat3_exc6_sets: 3
-sat3_exc6_reps: 8
+sat3_exc6: Lying leg curl 
+sat3_exc6_sets: 5
+sat3_exc6_reps: 15
 sat3_exc6_rest: 1 min.
 sat3_exc6_notes:
-sat3_exc7: Barbell hip thrust 
+sat3_exc7: Glute ham raise 
 sat3_exc7_sets: 3
-sat3_exc7_reps: 10
+sat3_exc7_reps: 8
 sat3_exc7_rest: 1 min.
 sat3_exc7_notes:
 sat3_exc8:
