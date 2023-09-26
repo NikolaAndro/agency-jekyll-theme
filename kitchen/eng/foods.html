@@ -6,6 +6,11 @@ lang: eng
 <style>
   .food-section {
     display: flex;
+    flex-direction: column;
+  }
+
+  .food-lists {
+    display: flex;
     flex-direction: row;
   }
 
@@ -15,34 +20,38 @@ lang: eng
 </style>
 
 <div class="container">
-  <h2>Snacks</h2>
+  
 	
     <section id="snacks" class="food-section">
-    <div class="food-list">
-      <h3>Rich in Protein</h3>
-      <ul>
-        {% for item in site.data.kitchen_foods.snacks.protein %}
-          <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
-    </div>
+      <h2>Snacks</h2>
 
-    <div class="food-list">
-      <h3>Rich in Carbs</h3>
-      <ul>
-        {% for item in site.data.kitchen_foods.snacks.carbs %}
-          <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-
-    <div class="food-list">
-      <h3>Rich in Good Fats</h3>
-      <ul>
-        {% for item in site.data.kitchen_foods.snacks.good_fats %}
-          <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
+    <div class="food-lists">
+	    <div class="food-list">
+	      <h3>Rich in Protein</h3>
+	      <ul>
+	        {% for item in site.data.kitchen_foods.snacks.protein %}
+	          <li>{{ item }}</li>
+	        {% endfor %}
+	      </ul>
+	    </div>
+	
+	    <div class="food-list">
+	      <h3>Rich in Carbs</h3>
+	      <ul>
+	        {% for item in site.data.kitchen_foods.snacks.carbs %}
+	          <li>{{ item }}</li>
+	        {% endfor %}
+	      </ul>
+	    </div>
+	
+	    <div class="food-list">
+	      <h3>Rich in Good Fats</h3>
+	      <ul>
+	        {% for item in site.data.kitchen_foods.snacks.good_fats %}
+	          <li>{{ item }}</li>
+	        {% endfor %}
+	      </ul>
+	    </div>
     </div>
   </section>
 
