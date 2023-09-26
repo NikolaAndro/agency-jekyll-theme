@@ -1,0 +1,59 @@
+---
+layout: kitchen_default
+lang: eng
+---
+
+<div class="container">
+  <h1>Food Page</h1>
+
+  <section id="snacks">
+    <h2>Snacks</h2>
+    <div class="food-list">
+      <h3>Rich in Protein</h3>
+      <ul>
+        {% for item in site.data.foods.snacks.protein %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="food-list">
+      <h3>Rich in Carbs</h3>
+      <ul>
+        {% for item in site.data.foods.snacks.carbs %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="food-list">
+      <h3>Rich in Good Fats</h3>
+      <ul>
+        {% for item in site.data.foods.snacks.good_fats %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+<!-- Repeat the above structure for Breakfast and Lunch & Dinner sections -->
+
+</div>
+<!-- <section class="kitchen-posts">
+  
+	{% for post in site.posts %}
+		{% if post.category == "mealplan" %}
+			
+        
+			<article class="mealprep-item">
+			  <span class="mealprep-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
+			  <h4 class="mealprep-item-title">
+				  <a href="{{site.baseurl}}{{ post.mealplanurl }}" style="color: DodgerBlue;"><b>{{ post.calories | escape }}</b></a><br>
+			    		{{ post.macros | escape }}<br>
+			    		{{ post.meals | escape }}
+			  </h4>
+			</article>
+     
+		{% endif %}
+	{% endfor %}
+</section> -->
