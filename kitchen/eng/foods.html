@@ -26,7 +26,7 @@ lang: eng
     margin-bottom: 20px;
     flex-basis: calc(33.33% - 20px); /* Adjust as needed for spacing */
   }
-  
+
   h2 {
     text-align: center; /* Center the section headings */
   }
@@ -37,15 +37,34 @@ lang: eng
       flex-basis: calc(50% - 20px); /* 2 columns on smaller screens */
     }
   }
+
+  /* Style the word "Protein" in green, "Carbs" in orange, and "Fats" in yellow */
+  h3 {
+    font-size: 16px; /* Adjust font size as needed */
+  }
+
+  .protein {
+    color: green;
+  }
+
+  .carbs {
+    color: orange;
+  }
+
+  .fats {
+    color: yellow;
+  }
 </style>
 
 <div class="container">
+  <h1>Food Page</h1>
+
   <section id="snacks" class="food-section">
     <h2>Snacks</h2>
 
     <div class="food-lists">
       <div class="food-list">
-        <h3>Rich in Protein</h3>
+        <h3 class="protein">Rich in Protein</h3>
         <ul>
           {% for item in site.data.kitchen_foods.snacks.protein %}
             <li>{{ item }}</li>
@@ -54,7 +73,7 @@ lang: eng
       </div>
 
       <div class="food-list">
-        <h3>Rich in Carbs</h3>
+        <h3 class="carbs">Rich in Carbs</h3>
         <ul>
           {% for item in site.data.kitchen_foods.snacks.carbs %}
             <li>{{ item }}</li>
@@ -63,7 +82,7 @@ lang: eng
       </div>
 
       <div class="food-list">
-        <h3>Rich in Good Fats</h3>
+        <h3 class="fats">Rich in Good Fats</h3>
         <ul>
           {% for item in site.data.kitchen_foods.snacks.good_fats %}
             <li>{{ item }}</li>
@@ -76,7 +95,6 @@ lang: eng
   <!-- Repeat the above structure for Breakfast and Lunch & Dinner sections -->
   
 </div>
-
 <!-- <section class="kitchen-posts">
   
 	{% for post in site.posts %}
