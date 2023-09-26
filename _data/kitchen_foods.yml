@@ -1,16 +1,10 @@
 snacks:
   protein:
-    - Food Item 1
-    - Food Item 2
-    - Food Item 3
+    - Tuna
   carbs:
     - Rice cakes
-    - Food Item 5
-    - Food Item 6
   good_fats:
-    - Food Item 7
-    - Food Item 8
-    - Food Item 9
+    - Avocado
 breakfast:
   protein:
     - Eggs
