@@ -3,7 +3,18 @@ layout: kitchen_default
 lang: eng
 ---
 
+---
+layout: default
+title: Food Page
+---
+
 <style>
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
   .food-section {
     display: flex;
     flex-direction: column;
@@ -12,52 +23,67 @@ lang: eng
   .food-lists {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .food-list {
     margin-right: 20px;
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 20px); /* Adjust as needed for spacing */
+  }
+  
+  h2 {
+    text-align: center; /* Center the section headings */
+  }
+
+  /* Add media query for smaller screens like iPhone */
+  @media (max-width: 768px) {
+    .food-list {
+      flex-basis: calc(50% - 20px); /* 2 columns on smaller screens */
+    }
   }
 </style>
 
 <div class="container">
-  
-	
-    <section id="snacks" class="food-section">
-      <h2>Snacks</h2>
+  <h1>Food Page</h1>
+
+  <section id="snacks" class="food-section">
+    <h2>Snacks</h2>
 
     <div class="food-lists">
-	    <div class="food-list">
-	      <h3>Rich in Protein</h3>
-	      <ul>
-	        {% for item in site.data.kitchen_foods.snacks.protein %}
-	          <li>{{ item }}</li>
-	        {% endfor %}
-	      </ul>
-	    </div>
-	
-	    <div class="food-list">
-	      <h3>Rich in Carbs</h3>
-	      <ul>
-	        {% for item in site.data.kitchen_foods.snacks.carbs %}
-	          <li>{{ item }}</li>
-	        {% endfor %}
-	      </ul>
-	    </div>
-	
-	    <div class="food-list">
-	      <h3>Rich in Good Fats</h3>
-	      <ul>
-	        {% for item in site.data.kitchen_foods.snacks.good_fats %}
-	          <li>{{ item }}</li>
-	        {% endfor %}
-	      </ul>
-	    </div>
+      <div class="food-list">
+        <h3>Rich in Protein</h3>
+        <ul>
+          {% for item in site.data.kitchen_foods.snacks.protein %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="food-list">
+        <h3>Rich in Carbs</h3>
+        <ul>
+          {% for item in site.data.kitchen_foods.snacks.carbs %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="food-list">
+        <h3>Rich in Good Fats</h3>
+        <ul>
+          {% for item in site.data.kitchen_foods.snacks.good_fats %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- Repeat the above structure for Breakfast and Lunch & Dinner sections -->
   
 </div>
+
 <!-- <section class="kitchen-posts">
   
 	{% for post in site.posts %}
