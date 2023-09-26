@@ -3,11 +3,23 @@ layout: kitchen_default
 lang: eng
 ---
 
+<style>
+  .food-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .food-list {
+    margin-right: 20px;
+  }
+</style>
+
 <div class="container">
   <h1>Food Page</h1>
 
-  <section id="snacks">
+  <section id="snacks" class="food-section">
     <h2>Snacks</h2>
+
     <div class="food-list">
       <h3>Rich in Protein</h3>
       <ul>
@@ -36,8 +48,8 @@ lang: eng
     </div>
   </section>
 
-<!-- Repeat the above structure for Breakfast and Lunch & Dinner sections -->
-
+  <!-- Repeat the above structure for Breakfast and Lunch & Dinner sections -->
+  
 </div>
 <!-- <section class="kitchen-posts">
   
