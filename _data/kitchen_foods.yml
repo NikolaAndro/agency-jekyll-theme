@@ -4,7 +4,7 @@ snacks:
     - Food Item 2
     - Food Item 3
   carbs:
-    - Food Item 4
+    - Rice cakes
     - Food Item 5
     - Food Item 6
   good_fats:
@@ -13,9 +13,9 @@ snacks:
     - Food Item 9
 breakfast:
   protein:
-    - Food Item 10
-    - Food Item 11
-    - Food Item 12
+    - Eggs
+    - Egg whites
+    - 
   carbs:
     - Food Item 13
     - Food Item 14
