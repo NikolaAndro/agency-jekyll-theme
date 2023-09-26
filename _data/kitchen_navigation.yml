@@ -3,7 +3,7 @@
 # - name: About
 #   link: about/
 - name: Foods
-   link: foods/
+  link: foods/
 - name: MealPlans
   link: mealplans/
 # - name: Contact
