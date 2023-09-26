@@ -1,0 +1,39 @@
+snacks:
+  protein:
+    - Food Item 1
+    - Food Item 2
+    - Food Item 3
+  carbs:
+    - Food Item 4
+    - Food Item 5
+    - Food Item 6
+  good_fats:
+    - Food Item 7
+    - Food Item 8
+    - Food Item 9
+breakfast:
+  protein:
+    - Food Item 10
+    - Food Item 11
+    - Food Item 12
+  carbs:
+    - Food Item 13
+    - Food Item 14
+    - Food Item 15
+  good_fats:
+    - Food Item 16
+    - Food Item 17
+    - Food Item 18
+lunch_dinner:
+  protein:
+    - Food Item 19
+    - Food Item 20
+    - Food Item 21
+  carbs:
+    - Food Item 22
+    - Food Item 23
+    - Food Item 24
+  good_fats:
+    - Food Item 25
+    - Food Item 26
+    - Food Item 27
