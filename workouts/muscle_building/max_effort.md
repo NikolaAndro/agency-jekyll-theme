@@ -559,7 +559,7 @@ th2_exc12_sets: 4
 th2_exc12_reps: 12
 th2_exc12_rest: NO REST
 th2_exc12_notes: Back to left side.
-da12_num: Day 12 -
+day12_num: Day 12 -
 day12: Friday (Arms & Abs)
 fri2_exc1: Close-grip EZ-bar Curl
 fri2_exc1_sets: 2
@@ -756,7 +756,7 @@ tu3_exc9_reps: 12
 tu3_exc9_rest: 1 min.
 tu3_exc9_notes: 
 day17_num: Day 17 -
-day17: Wednesday (Legs & Abs)
+day17: Wednesday (Legs Quad Focused & Abs)
 wed3_exc1: Leg extension 
 wed3_exc1_sets: 2 
 wed3_exc1_reps: 10
@@ -1434,7 +1434,7 @@ tu5_exc10:
 tu5_exc11:
 tu5_exc12:
 day31_num: Day 31 -
-day31: Wednesday (Legs & Abs)
+day31: Wednesday (Legs Quads Focused & Abs)
 wed5_exc1: Barbell back squat 
 wed5_exc1_sets: 2
 wed5_exc1_reps: 10
@@ -1640,7 +1640,7 @@ fri5_exc15_reps: 12-15
 fri5_exc15_rest: 1 min.
 fri5_exc15_notes: Back to cable rope push down. 
 day34_num: Day 34 -
-day34: Saturday (Legs)
+day34: Saturday (Legs Hamstring Focused)
 sat5_exc1: Feet high leg press 
 sat5_exc1_sets: 2
 sat5_exc1_reps: 10
@@ -1693,6 +1693,7 @@ week6_num: Week 6
 day36_num: Day 36 -
 day36: Monday (Chest & Abs)
 mon6_exc1: Dumbbell Bench Press
+mon6_exc1_sets: 2
 mon6_exc1_reps: 10
 mon6_exc1_rest: 1 min.
 mon6_exc1_notes: Warm-up sets.
@@ -1756,7 +1757,7 @@ tu6_exc1_rest: 1 min.
 tu6_exc1_notes: Warmup sets.
 tu6_exc2: Dumbbell Bent Over Row 
 tu6_exc2_sets: 4
-tu6_exc2_reps: 12/10/10/1
+tu6_exc2_reps: 12/10/10/10
 tu6_exc2_rest: 1 min.
 tu6_exc2_notes: Double drop set after the final set.
 tu6_exc3: Neutral-grip Lat Pull Down
