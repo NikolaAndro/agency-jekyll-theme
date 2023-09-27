@@ -92,7 +92,73 @@ lang: eng
   </section>
 
   <!-- Repeat the above structure for Breakfast and Lunch & Dinner sections -->
-  
+  <section id="breakfast" class="food-section">
+    <h2>Breakfast</h2>
+
+    <div class="food-lists">
+      <div class="food-list">
+        <h3 class="protein">Rich in Protein</h3>
+        <ul>
+          {% for item in site.data.kitchen_foods.breakfast.protein %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="food-list">
+        <h3 class="carbs">Rich in Carbs</h3>
+        <ul>
+          {% for item in site.data.kitchen_foods.breakfast.carbs %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="food-list">
+        <h3 class="fats">Rich in Good Fats</h3>
+        <ul>
+          {% for item in site.data.kitchen_foods.breakfast.good_fats %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+<section id="lunch_and_dinner" class="food-section">
+    <h2>Lunch & Dinner</h2>
+
+    <div class="food-lists">
+      <div class="food-list">
+        <h3 class="protein">Rich in Protein</h3>
+        <ul>
+          {% for item in site.data.kitchen_foods.lunch_dinner.protein %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="food-list">
+        <h3 class="carbs">Rich in Carbs</h3>
+        <ul>
+          {% for item in site.data.kitchen_foods.lunch_dinner.carbs %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="food-list">
+        <h3 class="fats">Rich in Good Fats</h3>
+        <ul>
+          {% for item in site.data.kitchen_foods.lunch_dinner.good_fats %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+	
 </div>
 <!-- <section class="kitchen-posts">
   
