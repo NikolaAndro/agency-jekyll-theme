@@ -62,6 +62,21 @@ nav-kitchen a.active:hover{
 	color: #222;
 }
 
+/* Initially hide the navigation list on small screens */
+#navList {
+  display: none;
+}
+
+/* Style the toggle button */
+#toggleNav {
+  display: block;
+  background-color: #{{ site.data.template.color.secondary }};
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
 
 /************************************************  SELECT IN NAVBAR  ************************************************/
 /* Reset Select */
