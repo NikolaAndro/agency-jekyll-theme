@@ -3,14 +3,16 @@
 	
 <!-- 	<a class="navbar-brand page-scroll" href="#page-top">The Workout Corner </a> -->
 	
-	{% for link in site.data.kitchen_navigation %}
-    {% assign class = "" %}
-
+  <button id="toggleNav">Toggle Navigation</button>
+  <ul id="navList">
+    {% for link in site.data.kitchen_navigation %}
+      {% assign class = "" %}
       {% if link.link == page.url %}
         {% assign class = class | append: " active" %}
       {% endif %}
-      <a href="{% include kitchen-relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
-	{% endfor %}	
+      <li><a href="{% include kitchen-relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a></li>
+    {% endfor %}
+  </ul>	
 	<!--  Languages	 -->
 <!-- 	<div class="select">
 	     <select class="slct-lang">
@@ -20,3 +22,24 @@
 	     </select>      
 	</div> -->
 </nav-kitchen>
+
+<nav-kitchen>
+  
+</nav-kitchen>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById("toggleNav");
+  const navList = document.getElementById("navList");
+
+  toggleButton.addEventListener("click", function () {
+    if (navList.style.display === "block") {
+      navList.style.display = "none";
+      toggleButton.textContent = "Toggle Navigation";
+    } else {
+      navList.style.display = "block";
+      toggleButton.textContent = "Close Navigation";
+    }
+  });
+});
+</script>
