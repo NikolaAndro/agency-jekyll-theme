@@ -49,7 +49,7 @@
 	                    {% if link.link == page.url %}
 	                        {% assign class = class | append: " active" %}
 	                    {% endif %} -->
-	                    <li><a href="{% include kitchen-relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a></li>
+	                    <li><a href="{% include kitchen-relative-src.html src=link.link %}">{{ link.name }}</a></li>
 	                {% endfor %}
 	                <!-- End of kitchen navigation links -->
 			
