@@ -377,7 +377,7 @@ fieldset[disabled] .btn-xl.active {
 
 /* Nullify transparency for the specific nav with the "no-transparency" class */
 .navbar-default.no-transparency {
-    background-color: #your-color; /* Replace with the desired background color */
+    background-color: #222; 
     opacity: 1; /* Reset opacity to 1 for no transparency */
 }
 
