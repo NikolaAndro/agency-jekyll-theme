@@ -371,12 +371,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 /* Nullify or customize padding for the specific nav with the "custom-padding" class */
-.navbar.custom-padding {
+.navbar-default.custom-padding {
     padding: 0; 
 }
 
 /* Nullify transparency for the specific nav with the "no-transparency" class */
-.navbar.no-transparency {
+.navbar-default.no-transparency {
     background-color: #your-color; /* Replace with the desired background color */
     opacity: 1; /* Reset opacity to 1 for no transparency */
 }
