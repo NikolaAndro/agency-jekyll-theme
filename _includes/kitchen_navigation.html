@@ -1,9 +1,9 @@
-<nav-kitchen>
+<!-- <nav-kitchen> -->
 <!-- 	<a class="editor-link btn" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a> -->
 	
 <!-- 	<a class="navbar-brand page-scroll" href="#page-top">The Workout Corner </a> -->
 	
-  <button id="toggleNav">Toggle Navigation</button>
+<!--   <button id="toggleNav">Toggle Navigation</button>
   <ul id="navList">
     {% for link in site.data.kitchen_navigation %}
       {% assign class = "" %}
@@ -12,7 +12,7 @@
       {% endif %}
       <li><a href="{% include kitchen-relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a></li>
     {% endfor %}
-  </ul>	
+  </ul>	 -->
 	<!--  Languages	 -->
 <!-- 	<div class="select">
 	     <select class="slct-lang">
@@ -21,13 +21,65 @@
 		{% endfor %}	   
 	     </select>      
 	</div> -->
-</nav-kitchen>
+<!-- </nav-kitchen> -->
 
-<nav-kitchen>
-  
-</nav-kitchen>
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header ">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		    <span class="sr-only">Toggle navigation</span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand " href="#page-top">{{site.title}}</a>
+	    </div>
+	
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right">
+			<li class="hidden">
+				<a href="#page-top"></a>
+		    	</li>
+			<!-- Add your kitchen navigation links here -->
+	                {% for link in site.data.kitchen_navigation %}
+<!-- 	                    {% assign class = "" %}
+	                    {% if link.link == page.url %}
+	                        {% assign class = class | append: " active" %}
+	                    {% endif %} -->
+	                    <li><a href="{% include kitchen-relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a></li>
+	                {% endfor %}
+	                <!-- End of kitchen navigation links -->
+			
+			
+<!-- 		    <li class="hidden">
+			<a href="#page-top"></a>
+		    </li>
+		    <li>
+			<a  href="#donate">Donate</a>
+		    </li>
+		    <li>
+			<a  href="#workouts">Workouts</a>
+		    </li>
+		    <li>
+			<a  href="#about">About</a>
+		    </li>
+		    <li>
+			<a  href="#nutrition">Nutrition</a>
+		    </li>
+		    <li>
+			<a  href="#contact">Contact</a>
+		    </li> -->
+		</ul>
+	    </div>
+	    <!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+    </nav>
 
-<script>
+<!-- <script>
 document.addEventListener("DOMContentLoaded", function () {
   const toggleButton = document.getElementById("toggleNav");
   const navList = document.getElementById("navList");
@@ -42,4 +94,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-</script>
+</script> -->
