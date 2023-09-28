@@ -2,11 +2,11 @@
   link: /
 - name: Foods
   link: foods/
-- name: MealPlans
-  link: mealplans/
-- name: Suplements
+  - name: Suplements
   link: /
 - name: Notes
   link: /
+- name: MealPlans
+  link: mealplans/
 - name: Workouts
   link: https://nikolaandro.github.io/Workouts_Page/
