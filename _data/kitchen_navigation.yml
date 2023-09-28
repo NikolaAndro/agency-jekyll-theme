@@ -1,12 +1,12 @@
 - name: Kitchen
   link: /
-# - name: About
-#   link: about/
 - name: Foods
   link: foods/
 - name: MealPlans
   link: mealplans/
-# - name: Contact
-#   link: contact/
+- name: Suplements
+  link: /
+- name: Notes
+  link: /
 - name: Workouts
   link: https://nikolaandro.github.io/Workouts_Page/
