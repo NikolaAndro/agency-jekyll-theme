@@ -370,6 +370,17 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+/* Nullify or customize padding for the specific nav with the "custom-padding" class */
+.navbar.custom-padding {
+    padding: 0; 
+}
+
+/* Nullify transparency for the specific nav with the "no-transparency" class */
+.navbar.no-transparency {
+    background-color: #your-color; /* Replace with the desired background color */
+    opacity: 1; /* Reset opacity to 1 for no transparency */
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
