@@ -7,7 +7,7 @@ has_coach: no
 name: Max Effort
 subtitle: 9 weeks
 layout: page
-modal-id: 1
+modal-id: 100
 date: 2022-01-12
 img_path: portfolio/1.png
 img: 1.png
