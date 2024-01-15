@@ -285,68 +285,68 @@ fri1_exc1_notes: Shoulder width.
 fri1_exc2: Landmine RDL
 fri1_exc2_sets: 4
 fri1_exc2_reps: 12
-fri1_exc2_rest: 45 sec.
+fri1_exc2_rest: 1 min.
 fri1_exc2_notes:
 fri1_exc3: Hack Squat
 fri1_exc3_sets: 4
 fri1_exc3_reps: 12
-fri1_exc3_rest: 45 sec.
+fri1_exc3_rest: 1 min.
 fri1_exc3_notes:
 fri1_exc4: Leg Extensions
 fri1_exc4_sets: 4
 fri1_exc4_reps: 12
-fri1_exc4_rest: 45 sec.
+fri1_exc4_rest: 1 min.
 fri1_exc4_notes:
 fri1_exc5: Hanstrinig Curls
 fri1_exc5_sets: 4
 fri1_exc5_reps: 12
-fri1_exc5_rest: 45 sec.
+fri1_exc5_rest: 1 min.
 fri1_exc5_notes:
 fri1_exc6: Goblet Squat
-fri1_exc2_sets: 4
-fri1_exc2_reps: 12
-fri1_exc2_rest: 45 sec.
-fri1_exc2_notes:
+fri1_exc6_sets: 4
+fri1_exc6_reps: 12
+fri1_exc6_rest: 1 min.
+fri1_exc6_notes:
 fri1_exc7: Calf Raises
-fri1_exc2_sets: 4
-fri1_exc2_reps: 12
-fri1_exc2_rest: 45 sec.
-fri1_exc2_notes:
+fri1_exc7_sets: 4
+fri1_exc7_reps: 12
+fri1_exc7_rest: 1 min.
+fri1_exc7_notes:
 fri1_exc8: Shoulder Lateral Raise
-fri1_exc2_sets: 4
-fri1_exc2_reps: 12
-fri1_exc2_rest: 45 sec.
-fri1_exc2_notes:
+fri1_exc8_sets: 4
+fri1_exc8_reps: 12
+fri1_exc8_rest: 1 min.
+fri1_exc8_notes:
 fri1_exc9: Around The World Shoulder Raise
-fri1_exc2_sets: 4
-fri1_exc2_reps: 12
-fri1_exc2_rest: 45 sec.
-fri1_exc2_notes:
+fri1_exc9_sets: 4
+fri1_exc9_reps: 12
+fri1_exc9_rest: 45 sec.
+fri1_exc9_notes:
 fri1_exc10: Lateral Raise Machine
-fri1_exc2_sets: 4
-fri1_exc2_reps: 12
-fri1_exc2_rest: 45 sec.
-fri1_exc2_notes: Can substitute with dumbbells in elbows.
+fri1_exc10_sets: 4
+fri1_exc10_reps: 12
+fri1_exc10_rest: 1 min.
+fri1_exc10_notes: Can substitute with dumbbells in elbows.
 fri1_exc11: Dumbbells In Elbows Twists
-fri1_exc2_sets: 4
-fri1_exc2_reps: 12
-fri1_exc2_rest: 45 sec.
-fri1_exc2_notes: Start where you finished last exercise and decrease weight each set.
+fri1_exc11_sets: 4
+fri1_exc11_reps: 12
+fri1_exc11_rest: 1 min.
+fri1_exc11_notes: Start where you finished last exercise and decrease weight each set.
 fri1_exc12: Cable Face Pulls
-fri1_exc2_sets: 4
-fri1_exc2_reps: 12
-fri1_exc2_rest: 45 sec.
-fri1_exc2_notes:
+fri1_exc12_sets: 4
+fri1_exc12_reps: 12
+fri1_exc12_rest: 1 min.
+fri1_exc12_notes:
 fri1_exc13: Cable Front Raises
-fri1_exc2_sets: 4
-fri1_exc2_reps: 12
-fri1_exc2_rest: 45 sec.
-fri1_exc2_notes:
+fri1_exc13_sets: 4
+fri1_exc13_reps: 12
+fri1_exc13_rest: 1 min.
+fri1_exc13_notes:
 fri1_exc14: Machine Rear Delt Fly
-fri1_exc2_sets: 4
-fri1_exc2_reps: 12
-fri1_exc2_rest: 45 sec.
-fri1_exc2_notes:
+fri1_exc14_sets: 4
+fri1_exc14_reps: 12
+fri1_exc14_rest: 1 min.
+fri1_exc14_notes:
 day6_num: Day 6 -
 day6: Saturday (Chest & Triceps)
 sat1_exc1: Push-ups
@@ -424,21 +424,71 @@ day7: Sunday
 week2_num: Week 2
 day8_num: Day 8 -
 day8: Monday (Back & Biceps)
-sun1_exc1: REST
-mon2_exc1: V-rows - 4 x 12, NO REST 
-mon2_exc2: Squatting EZ-bar cable rows - 12 upper hand, 12 under hand x 4
-mon2_exc3: Cable sitting rows - 4 x 12 (upper grip pull towards hips)
-mon2_exc4: Single arm kneeling row (right)- 4 x 12 upper grip, 12 neutral grip (use single arm thing with longer strips)
-mon2_exc5: Single arm kneeling row (left)- 4 x 12 upper grip, 12 neutral grip + 15 upper grip and 15 neutral on the last set burnout (light weight)
-mon2_exc6: Standing Straight bar straight arm pull down - 4 x 12
-mon2_exc7: Standing cable-rope traight arm pull down - 4 x 12
-mon2_exc8: Rotating biceps curls - 4 x 12, dropp 5 lbs after each set
-mon2_exc9: Hammer curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set) 
-mon2_exc10: 45 degree bench biceps curls - 4 x 12 (start with whatever you used for the second set of the previous exercise) (drop 5 lbs each set)
-mon2_exc11: Cable rope biceps curls - 4 x 12
-mon2_exc12: EZ - bar cable biceps curls - 4 x 12
-mon2_exc13: Preacher biceps curls - 4 x 12
-mon2_exc14: Add any abs you wish and STRETCH
+mon2_exc1: V-rows
+mon2_exc1_sets: 4
+mon2_exc1_reps: 12
+mon2_exc1_rest: NO REST
+mon2_exc1_notes: Superset with the next exercise.
+mon2_exc2: Squatting EZ-bar Cable Rows
+mon2_exc2_sets: 4
+mon2_exc2_reps: 12 overhand + 12 underhand
+mon2_exc2_rest: 1 minute.
+mon2_exc2_notes: 
+mon2_exc3: Cable Sitting Rows
+mon2_exc3_sets: 4
+mon2_exc3_reps: 12
+mon2_exc3_rest: 
+mon2_exc3_notes: Use upper grip and pull towards hips.
+mon2_exc4: Single Arm Kneeling Row (right arm)
+mon2_exc4_sets: 4
+mon2_exc4_reps: 12 overhand + 12 neutral grip
+mon2_exc4_rest: NO REST - do left arm
+mon2_exc4_notes: Use single arm handle with longer straps.
+mon2_exc5: Single Arm Kneeling Row  (left arm)
+mon2_exc5_sets: 4
+mon2_exc5_reps: 12
+mon2_exc5_rest: 1 min.
+mon2_exc5_notes: Use single arm handle with longer straps.
+mon2_exc6: Standing Straight With Straight Arms Bar Pull-Down
+mon2_exc6_sets: 4
+mon2_exc6_reps: 12
+mon2_exc6_rest: 1 min.
+mon2_exc6_notes:
+mon2_exc7: Standing Cable-Rope Straight Arm Pull-Down
+mon2_exc7_sets: 4
+mon2_exc7_reps: 12
+mon2_exc7_rest: 1 min.
+mon2_exc7_notes: 
+mon2_exc8: Rotating Biceps Curls
+mon2_exc8_sets: 4
+mon2_exc8_reps: 12
+mon2_exc8_rest: 1 min.
+mon2_exc8_notes: Go heavy first and drop 5 lbs after every set.
+mon2_exc9: Hammer Curls
+mon2_exc9_sets: 4
+mon2_exc9_reps: 12
+mon2_exc9_rest: 1 min.
+mon2_exc9_notes: Start with the weight you used for the second set of the previous exercise. Drop 5 lbs each set.
+mon2_exc10: 45-degree Bench Biceps Curls
+mon2_exc10_sets: 4
+mon2_exc10_reps: 12
+mon2_exc10_rest: 1 min.
+mon2_exc10_notes: Start with the weight you used for the second set of the previous exercise. Drop 5 lbs each set.
+mon2_exc11: Cable Rope Biceps Curls
+mon2_exc11_sets: 4
+mon2_exc11_reps: 12
+mon2_exc11_rest: 1 min.
+mon2_exc11_notes:
+mon2_exc12: EZ - Cable-Bar Biceps Curls
+mon2_exc12_sets: 4
+mon2_exc12_reps: 12
+mon2_exc12_rest: 1 min.
+mon2_exc12_notes:
+mon2_exc13: Preacher Biceps Curls
+mon2_exc13_sets: 4
+mon2_exc13_reps: 12
+mon2_exc13_rest: 1 min.
+mon2_exc13_notes:
 day9_num: Day 9 -
 day9: Tuesday (Legs & Shoulders)
 tu2_exc1: Deadlift - 4 x 12
