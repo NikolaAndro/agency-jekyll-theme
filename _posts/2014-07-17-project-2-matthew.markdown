@@ -4,7 +4,7 @@ subtitle: 1 week
 layout: default
 modal-id: 2
 date: 2022-12-10
-img: portfolio/matthew2.png
+img: /matthew2.png
 thumbnail: matthew2.png
 permalink: a_week_with_mathew/
 alt: image-alt

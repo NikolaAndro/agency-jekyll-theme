@@ -39,3 +39,8 @@ Icon
 #adding comments
 jekyll-comments/
 comments_venv/
+
+# Whatever was generated after jekyll serve
+.firebaserc
+firebase-debug.log
+firebase.json
