@@ -8,13 +8,10 @@ lang: srb
 			<article class="mealprep-item">
 			  <span class="mealprep-item-date" style="color: DodgerBlue;">{{ post.calories | escape }}</span>
 			  <h4 class="mealprep-item-title">
-<!-- 			    		{{ post.macros | escape }}<br> -->
-				  <span style="color: green;">{{ post.protein | escape}}</span> |
-				  <span style="color: orange;">{{ post.carbs | escape}}</span> |
-				  <span style="color: red;">{{ post.fat | escape}}</span><br>
+				  <span style="color: green;"><strong>{{ post.protein | escape}}</strong></span> |
+				  <span style="color: orange;"><strong>{{ post.carbs | escape}}</strong></span> |
+				  <span style="color: red;"><strong>{{ post.fat | escape}}</strong></span><br>
 				  {{ post.meals | escape }}
-<!-- 				  	{{ post.protein | escape}} | {{ post.carbs | escape}} | {{ post.fat | escape}}<br>
-			    		{{ post.meals | escape }} -->
 			  </h4>
 			</article>
 		{% endif %}
