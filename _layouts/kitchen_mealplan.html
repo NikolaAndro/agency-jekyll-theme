@@ -10,7 +10,7 @@ lang: srb
 <article class="kitchen-post">
     <div class="mealplan-recipe-contents">
         {% for meal in page %}
-            {% if meal[0] starts with 'meal' %}
+            {% if meal[0] contains 'meal' %}
                 <div class="mealplan_ingredients">
                     {{ meal[1].ingredients_markdown | markdownify }}
                 </div>
@@ -31,7 +31,7 @@ lang: srb
             <th width="44%">Notes</th>
         </tr>
         {% for food in page %}
-            {% if food[0] starts with 'food' %}
+            {% if food[0] contains 'food' %}
                 <tr>
                     <td style="text-align:center"><input type="checkbox" class="cartCheckbox"></td>
                     <td>{{ food[1].name }}</td>
