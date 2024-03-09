@@ -30,14 +30,14 @@ lang: srb
             <th width="17%">7 Day Amount</th>
             <th width="44%">Notes</th>
         </tr>
-        {% for food in page %}
-            {% if food[0] contains 'food' %}
+        {% for food_key, food_data in page %}
+            {% if food_key contains 'food' %}
                 <tr>
                     <td style="text-align:center"><input type="checkbox" class="cartCheckbox"></td>
-                    <td>{{ food[1].name }}</td>
-                    <td>{{ food[1].amount }}</td>
-                    <td>{{ food[1].amount_7 }}</td>
-                    <td>{{ food[1].notes }}</td>
+                    <td>{{ food_data.name }}</td>
+                    <td>{{ food_data.amount }}</td>
+                    <td>{{ food_data.amount_7 }}</td>
+                    <td>{{ food_data.notes }}</td>
                 </tr>
             {% endif %}
         {% endfor %}
