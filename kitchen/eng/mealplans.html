@@ -6,8 +6,8 @@ lang: srb
 	{% for post in site.posts %}
 		{% if post.category == "mealplan" %}
 			<article class="mealprep-item">
-			  <span class="mealprep-item-date" style="color: DodgerBlue;">{{ post.calories | escape }}</span>
-			  <h4 class="mealprep-item-title">
+			  <span class="mealprep-item-date" style="color: DodgerBlue;" href="{{site.baseurl}}{{ post.mealplanurl }}">{{ post.calories | escape }}</span>
+			  <h4 class="mealprep-item-title" href="{{site.baseurl}}{{ post.mealplanurl }}">
 				  <span style="color: green;"><strong>{{ post.protein | escape}}</strong></span> |
 				  <span style="color: orange;"><strong>{{ post.carbs | escape}}</strong></span> |
 				  <span style="color: red;"><strong>{{ post.fat | escape}}</strong></span><br>
