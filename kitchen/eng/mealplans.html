@@ -2,21 +2,17 @@
 layout: kitchen_default
 lang: srb
 ---
-
 <section class="kitchen-posts">
 	{% for post in site.posts %}
 		{% if post.category == "mealplan" %}
-			
-        
 			<article class="mealprep-item">
 			  <span class="mealprep-item-date" style="color: DodgerBlue;">{{ post.calories | escape }}</span>
 			  <h4 class="mealprep-item-title">
-<!-- 				  <a href="{{site.baseurl}}{{ post.mealplanurl }}" style="color: DodgerBlue;"><b>{{ post.calories | escape }}</b></a><br> -->
 			    		{{ post.macros | escape }}<br>
+				  	{{ post.protein | escape}} | {{ post.carbs | escape}} | {{ post.fat | escape}}<br>
 			    		{{ post.meals | escape }}
 			  </h4>
 			</article>
-     
 		{% endif %}
 	{% endfor %}
 </section>
