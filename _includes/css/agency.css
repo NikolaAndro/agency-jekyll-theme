@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#kitchen{
+    background-image: url('{{ site.baseurl }}/img/kitchen/mealplan1.jpg');
+}
+
 #hyperlinksExercise{
     color: #1E90FF; 
     font-weight: bold;
