@@ -3,6 +3,10 @@ layout: kitchen_default
 lang: srb
 ---
 <section class="kitchen-posts">
+    <article class="mealprep-item">
+        <a>Number of Calories</a>
+        <h4>Name of the mealplan and its macros</h4>
+    </article>
     {% assign sorted_posts = site.posts | where: "category", "mealplan" | sort: "calories" %}
     {% for post in sorted_posts %}
         <article class="mealprep-item">
