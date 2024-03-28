@@ -4,8 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-section #kitchen{
-    background-image: url('{{ site.baseurl }}/img/kitchen/mealplan1.jpg');
+#kitchen{
+    background-image: url('{{ site.baseurl }}/img/kitchen/mealplan2.jpg');
 }
 
 #hyperlinksExercise{
