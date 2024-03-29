@@ -4,11 +4,11 @@ lang: srb
 ---
 <section class="kitchen-posts">
     <article class="mealprep-item">
-        <h3>
-            <a style="color: black text-align: center;">Number</a><br>
-            <a style="color: black text-align: center;">of</a><br>
-            <a style="color: black text-align: center;">Calories</a><br>
-        </h3>
+        <h4 style="text-align: center;">
+            Number<br>
+            Of<br>
+            Calories<br>
+        </h4>
         <h4 style="text-align: center;">Name of the mealplan<br>and its macros</h4>
     </article>
     {% assign sorted_posts = site.posts | where: "category", "mealplan" | sort: "calories" %}
