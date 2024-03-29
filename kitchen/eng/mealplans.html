@@ -3,13 +3,13 @@ layout: kitchen_default
 lang: srb
 ---
 <section class="kitchen-posts">
-    <article class="mealprep-item">
+    <article class="mealprep-item" style="display: flex flex-direction: row">
         <h4 style="text-align: center;">
             Number<br>
             Of<br>
             Calories<br>
         </h4>
-        <h4 style="text-align: center;">Name of the mealplan<br>and its macros</h4>
+        <h4 style="flex-grow: 1 text-align: center">Name of the mealplan<br>and its macros</h4>
     </article>
     {% assign sorted_posts = site.posts | where: "category", "mealplan" | sort: "calories" %}
     {% for post in sorted_posts %}
