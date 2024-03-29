@@ -24,8 +24,8 @@
                                 {% for day_num in range(1, 8) %}
                                     <tr>
                                         {% for week_num in range(1, 13) %}
-                                            {% set day_index = (week_num - 1) * 7 + day_num %}
-                                            {% set day_id = "day" ~ day_index ~ "w" ~ week_num %}
+                                            {% assign day_index = (week_num - 1) * 7 + day_num %}
+                                            {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
                                             <td><a href="#{{ day_id }}">Day {{ day_num }}</a></td>
                                         {% endfor %}
                                     </tr>
