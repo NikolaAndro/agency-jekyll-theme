@@ -13,7 +13,26 @@
                     <h2><a id="workout_title">{{ page.title }}</a></h2>
                     <hr class="star-primary">
                         <img src="/Workouts_Page/img/{{ page.img_path }}" class="img-responsive img-centered" alt="{{ page.alt }}">
-                        {% if page.subtitle == "1 week" %}
+
+                        {% if page.subtitle %}
+                            <table id="dayTable{{ page.subtitle|replace(' ', '') }}">
+                                <tr>
+                                    {% for week_num in range(1, 13) %}
+                                        <th><a href="#week{{ week_num }}">Week {{ week_num }}</a></th>
+                                    {% endfor %}
+                                </tr>
+                                {% for day_num in range(1, 8) %}
+                                    <tr>
+                                        {% for week_num in range(1, 13) %}
+                                            {% set day_index = (week_num - 1) * 7 + day_num %}
+                                            {% set day_id = "day" ~ day_index ~ "w" ~ week_num %}
+                                            <td><a href="#{{ day_id }}">Day {{ day_num }}</a></td>
+                                        {% endfor %}
+                                    </tr>
+                                {% endfor %}
+                            </table>
+                        {% endif %}
+                    <!--                         {% if page.subtitle == "1 week" %}
                             <table id="dayTable1day">
                         {% elsif page.subtitle == "3 weeks"%}
                             <table id="dayTable3day">
@@ -21,25 +40,8 @@
                             <table id="dayTable6weeks">       
                                 
                         {% else %}
-                        <table>
-                            <tr>
-                                {% for week_num in range(1, 13) %}
-                                    <th><a href="#week{{ week_num }}">{{ "Week " ~ week_num }}</a></th>
-                                {% endfor %}
-                            </tr>
-                            <tr>
-                                {% for week_num in range(1, 13) %}
-                                    <td>
-                                        {% for day_num in range(1, 8) %}
-                                            {% set day_index = (week_num - 1) * 7 + day_num %}
-                                            {% set day_id = "day" ~ day_index ~ "w" ~ week_num %}
-                                            <a href="#{{ day_id }}">Day {{ day_num }}</a>
-                                        {% endfor %}
-                                    </td>
-                                {% endfor %}
-                            </tr>
-                        </table>
-<!--                         <table id="dayTable">
+                        
+                        <table id="dayTable">
                         {% endif %}
                             <tr>
                                 <th><a href="#week1">Week 1 </a></th>
