@@ -91,7 +91,8 @@
                                                     {% if page[dynamic_variable] %}
                                                         {% for day_num in (1..7) %}
                                                             {% assign day_id = "day" | append: day_num | append: "w" | append: week_num %}
-                                                            <li class="day-link"><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
+                                                            {% assign day_index = (week_num - 1) * 7 + day_num %}
+                                                            <li class="day-link"><a href="#{{ day_id }}">Day {{ day_index }}</a></li>
                                                         {% endfor %}
                                                     {% endif %}
                                                 </ul>
