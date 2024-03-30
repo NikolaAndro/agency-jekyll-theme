@@ -99,6 +99,15 @@
          padding: 8px;
          width: 222.5px; /* Default width */
       }
+
+      .day-link {
+            width: 222.5px; /* Default width */
+        }
+
+      .collapse .day-link:nth-child(even) {
+            background-color: #dddddd; /* Set background color for even-numbered day links */
+        }
+      
       @media (max-width: 222.5px) {
            .week-table-button{
                width: 100%; /* When screen size is smaller than 222.5px, make it 100% of the container */
@@ -107,9 +116,8 @@
             .day-link {
                width: 100%; /* Make the day links match the width of the .week-table-button */
            }
-            .collapse li:nth-child(even) {
-               background-color: #dddddd; /* Set background color for even-numbered day links */
-           }
+
+            
        }
      
       #dayTable1week th{
