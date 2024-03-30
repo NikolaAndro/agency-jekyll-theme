@@ -107,7 +107,7 @@
                                             button.addEventListener("click", function() {
                                                 var weekNum = this.getAttribute("data-target").split("-").pop();
                                                 var icon = document.getElementById("caret-icon" + weekNum);
-                                                console.log("icon selected is: {{ icon }}");
+                                                console.log("Icon selected is: ", icon);
                                                 icon.classList.toggle("rotate");
                                             });
                                         });
