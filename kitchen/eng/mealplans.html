@@ -3,28 +3,12 @@ layout: kitchen_default
 lang: srb
 ---
 <section class="kitchen-posts">
-<!--     <article style="display: flex flex-direction: row">
-        <h4 style="text-align: center;">
-            Number<br>
-            Of<br>
-            Calories<br>
-        </h4>
-        <h4 style="flex-grow: 1 text-align: center">Name of the mealplan<br>and its macros</h4>
-    </article> -->
-<!--     <div style="display: flex; flex-direction: row">
-        <div style="text-align: center;">
-            <h4>Number<br>Of<br>Calories</h4>
-        </div>
-        <div style="flex-grow: 1; text-align: center;">
-            <h4>Name of the mealplan<br>and its macros</h4>
-        </div>
-    </div> -->
         <div style="display: flex; flex-direction: row;">
             <div style="text-align: center;">
                 <h4>Number<br>Of<br>Calories</h4>
             </div>
             <div style="flex-grow: 1; text-align: center;">
-                <h4>Name of the mealplan<br>and its macros</h4>
+                <h4>Name of the mealplan<br>and<br> its macros</h4>
             </div>
         </div>
     {% assign sorted_posts = site.posts | where: "category", "mealplan" | sort: "calories" %}
