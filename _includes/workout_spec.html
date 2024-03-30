@@ -19,6 +19,9 @@
                                 <tr>
                                     {% for week_num in (1..13) %}
                                         {% capture test_var %}page.mon{{ week_num }}_exc1{% endcapture %}
+                                        <script>
+                                          console.log("test_var: {{ test_var }}");
+                                        </script>
                                         {% if test_var %}
                                             <th><a href="#week{{ week_num }}">Week {{ week_num }}</a></th>
                                         {% endif %}
@@ -28,6 +31,9 @@
                                     <tr>
                                         {% for week_num in (1..13) %}
                                             {% capture test_var %}page.mon{{ week_num }}_exc1{% endcapture %}
+                                            <script>
+                                              console.log("test_var: {{ test_var }}");
+                                            </script>
                                             {% if test_var %}
                                                 {% assign day_index = (week_num - 1) * 7 + day_num %}
                                                 {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
