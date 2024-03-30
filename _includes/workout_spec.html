@@ -18,15 +18,21 @@
                             <table id="dayTable{{ page.subtitle | replace: ' ', '' }}"">
                                 <tr>
                                     {% for week_num in (1..13) %}
-                                        <th><a href="#week{{ week_num }}">Week {{ week_num }}</a></th>
+                                        {% capture test_var %}page.mon{{ week_num }}_exc1{% endcapture %}
+                                        {% if test_var %}
+                                            <th><a href="#week{{ week_num }}">Week {{ week_num }}</a></th>
+                                        {% endif %}
                                     {% endfor %}
                                 </tr>
                                 {% for day_num in (1..8) %}
                                     <tr>
                                         {% for week_num in (1..13) %}
-                                            {% assign day_index = (week_num - 1) * 7 + day_num %}
-                                            {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
-                                            <td><a href="#{{ day_id }}">Day {{ day_num }}</a></td>
+                                            {% capture test_var %}page.mon{{ week_num }}_exc1{% endcapture %}
+                                            {% if test_var %}
+                                                {% assign day_index = (week_num - 1) * 7 + day_num %}
+                                                {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
+                                                <td><a href="#{{ day_id }}">Day {{ day_num }}</a></td>
+                                            {% endif %}
                                         {% endfor %}
                                     </tr>
                                 {% endfor %}
