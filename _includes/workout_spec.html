@@ -34,9 +34,7 @@
                                     <tr>
                                         {% for week_num in (1..13) %}
                                             {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
-                                            <script>
-                                              console.log("test_var: {{ dynamic_variable }}");
-                                            </script>
+                                           
                                             {% if page[dynamic_variable] %}
                                                 {% assign day_index = (week_num - 1) * 7 + day_num %}
                                                 {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
@@ -83,6 +81,9 @@
                                         {% for week_num in (1..13) %}
                                             {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
                                             {% if page[dynamic_variable] %}
+                                                 <script>
+                                                  console.log("ulli: {{ dynamic_variable }}");
+                                                </script>
                                                 <ul class="day-list" style="display: none;"> <!-- Move the ul outside of the loop through th -->
                                                     {% for day_num in (1..8) %}
                                                         {% assign day_index = (week_num - 1) * 7 + day_num %}
