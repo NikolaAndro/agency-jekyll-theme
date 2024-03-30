@@ -123,61 +123,43 @@
                                         });
                                     });
                                 </script> -->
-
-                                <table id="dayTable{{ page.subtitle | replace: ' ', '' }}">
-    <tr>
-        {% for week_num in (1..13) %}
-            {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
-            {% if page[dynamic_variable] %}
-                <th>
-                    <a href="#week{{ week_num }}" class="week-link" data-week="{{ week_num }}">Week {{ week_num }}</a>
-                </th>
-            {% endif %}
-        {% endfor %}
-    </tr>
-</table>
-
-<!-- Move the ul outside of the loop through th -->
-<ul class="day-list" style="display: none;">
-    {% for week_num in (1..13) %}
-        {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
-        {% if page[dynamic_variable] %}
-            <script>
-                console.log("ulli: {{ dynamic_variable }}");
-            </script>
-            {% for day_num in (1..8) %}
-                {% assign day_index = (week_num - 1) * 7 + day_num %}
-                {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
-                <li><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-</ul>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var weekLinks = document.querySelectorAll(".week-link");
-        
-        weekLinks.forEach(function(link) {
-            link.addEventListener("click", function(event) {
-                event.preventDefault(); // Prevent default link behavior
-                
-                var weekNum = this.getAttribute("data-week");
-                var dayList = document.querySelector(".day-list[data-week='" + weekNum + "']");
-                
-                if (dayList) {
-                    if (dayList.style.display === "none") {
-                        dayList.style.display = "block"; // Show the list
-                    } else {
-                        dayList.style.display = "none"; // Hide the list
-                    }
-                } else {
-                    console.error("No day list found for week " + weekNum);
-                }
-            });
-        });
-    });
-</script>
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="hidden">
+                                            <a href="#page-top"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#donate">Donate</a>
+                                        </li>
+                                        <li>
+                                            {% if page.subtitle == "1 week" %}
+                                                <a  href="#dayTable">Day Table</a>
+                                            {% elsif page.subtitle == "3 weeks"%}
+                                                <a  href="#dayTable">Day Table</a>
+                                            {% elsif page.subtitle == "6 weeks"%}
+                                                <a  href="#dayTable">Day Table</a>  
+                                            {% else %}
+                                                <a  href="#dayTable">Day Table</a>
+                                            {% endif %}    
+                                        </li>
+                                        {% if page.has_coach == "yes" %}
+                                            <li>
+                                                <a  href="#coach">Creator</a>
+                                            </li>
+                                        {% else %}
+                                        {% endif %}
+                                        <li>
+                                            <a  id="exit" href="https://nikolaandro.github.io/Workouts_Page/">Back</a>
+                                        </li>
+                                    </ul>
+                                </div>
                         
                     <!--                         {% if page.subtitle == "1 week" %}
                             <table id="dayTable1day">
