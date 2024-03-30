@@ -79,21 +79,23 @@
                                 {% endfor %}
 
 
-                                {% for week_num in (1..13) %}
+                                 {% for week_num in (1..13) %}
                                     {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
                                     {% if page[dynamic_variable] %}
-                                        <button class="week-table-button" type="button" data-toggle="collapse" data-target="#weeks-table-collapse-{{ week_num }}" aria-expanded="false" aria-controls="weeks-table-collapse-{{ week_num }}">
-                                            <span>Week {{ week_num }} <i id="caret-icon-{{ week_num }}" class="fas fa-caret-down"></i></span>
-                                        </button>
-                                        <div class="collapse" id="weeks-table-collapse-{{ week_num }}">
-                                            <ul style="padding-left: 0px">
-                                                {% if page[dynamic_variable] %}
-                                                    {% for day_num in (1..7) %}
-                                                        {% assign day_id = "day" | append: day_num | append: "w" | append: week_num %}
-                                                        <li class="day-link"><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
-                                                    {% endfor %}
-                                                {% endif %}
-                                            </ul>
+                                        <div class="week-container">
+                                            <button class="week-table-button" type="button" data-toggle="collapse" data-target="#weeks-table-collapse-{{ week_num }}" aria-expanded="false" aria-controls="weeks-table-collapse-{{ week_num }}">
+                                                <span>Week {{ week_num }} <i id="caret-icon-{{ week_num }}" class="fas fa-caret-down"></i></span>
+                                            </button>
+                                            <div class="collapse" id="weeks-table-collapse-{{ week_num }}">
+                                                <ul style="padding-left: 0px">
+                                                    {% if page[dynamic_variable] %}
+                                                        {% for day_num in (1..7) %}
+                                                            {% assign day_id = "day" | append: day_num | append: "w" | append: week_num %}
+                                                            <li class="day-link"><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
+                                                        {% endfor %}
+                                                    {% endif %}
+                                                </ul>
+                                            </div>
                                         </div>
                                     {% endif %}
                                 {% endfor %}
@@ -113,6 +115,11 @@
                                 <style>
                                     .rotate {
                                         transform: rotate(90deg);
+                                    }
+
+                                    .week-container {
+                                        display: block;
+                                        margin-bottom: 10px; /* Adjust as needed */
                                     }
                                 </style>
                                 
