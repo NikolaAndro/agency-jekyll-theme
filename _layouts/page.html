@@ -91,8 +91,21 @@
          width: 33%;
          margin: 0px auto;
        }
+
+      .week-table-button{
+         background-color: #222;
+         border: 1px solid #dddddd;
+         text-align: center;
+         padding: 8px;
+         width: 222.5px; /* Default width */
+      }
+      @media (max-width: 222.5px) {
+        .week-table-button {
+            width: 100%; /* When screen size is smaller than 222.5px, make it 100% of the container */
+        }
+    }
       
-      #dayTable1week th, .week-table-button{
+      #dayTable1week th{
          background-color: #222;
          border: 1px solid #dddddd;
          text-align: center;
