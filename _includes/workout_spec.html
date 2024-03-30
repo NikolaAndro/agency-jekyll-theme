@@ -93,29 +93,30 @@
                                         });
                                     });
                                 </script> -->
-
-                                document.addEventListener("DOMContentLoaded", function() {
-                                    var weekLinks = document.querySelectorAll(".week-link");
-                                
-                                    weekLinks.forEach(function(link) {
-                                        link.addEventListener("click", function(event) {
-                                            event.preventDefault(); // Prevent default link behavior
-                                
-                                            var weekNum = this.getAttribute("data-week");
-                                            var dayList = document.querySelector(".day-list[data-week='" + weekNum + "']");
-                                
-                                            if (dayList) {
-                                                if (dayList.style.display === "none") {
-                                                    dayList.style.display = "block"; // Show the list
+                                <script>
+                                    document.addEventListener("DOMContentLoaded", function() {
+                                        var weekLinks = document.querySelectorAll(".week-link");
+                                    
+                                        weekLinks.forEach(function(link) {
+                                            link.addEventListener("click", function(event) {
+                                                event.preventDefault(); // Prevent default link behavior
+                                    
+                                                var weekNum = this.getAttribute("data-week");
+                                                var dayList = document.querySelector(".day-list[data-week='" + weekNum + "']");
+                                    
+                                                if (dayList) {
+                                                    if (dayList.style.display === "none") {
+                                                        dayList.style.display = "block"; // Show the list
+                                                    } else {
+                                                        dayList.style.display = "none"; // Hide the list
+                                                    }
                                                 } else {
-                                                    dayList.style.display = "none"; // Hide the list
+                                                    console.error("No day list found for week " + weekNum);
                                                 }
-                                            } else {
-                                                console.error("No day list found for week " + weekNum);
-                                            }
+                                            });
                                         });
                                     });
-                                });
+                                </script>
                         
                     <!--                         {% if page.subtitle == "1 week" %}
                             <table id="dayTable1day">
