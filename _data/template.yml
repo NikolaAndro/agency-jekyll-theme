@@ -10,3 +10,6 @@ color:
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  tertiary: 'Ethnocentric Rg-Italic, "Helvetica Neue", Helvetica, Arial, sans-serif'
+
+  
