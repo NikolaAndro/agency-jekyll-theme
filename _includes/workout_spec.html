@@ -30,11 +30,11 @@
                                 {% for day_num in (1..8) %}
                                     <tr>
                                         {% for week_num in (1..13) %}
-                                            {% capture test_var %}page.mon{{ week_num }}_exc1{% endcapture %}
+                                            {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
                                             <script>
-                                              console.log("test_var: {{ test_var }}");
+                                              console.log("test_var: {{ dynamic_variable }}");
                                             </script>
-                                            {% if page.mon{{ week_num }}_exc1 %}
+                                            {% if page[dynamic_variable] %}
                                                 {% assign day_index = (week_num - 1) * 7 + day_num %}
                                                 {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
                                                 <td><a href="#{{ day_id }}">Day {{ day_num }}</a></td>
