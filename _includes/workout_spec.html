@@ -139,18 +139,18 @@
                                                 <span><a href="#week{{ week_num }}">Week {{ week_num }}</a></span>
                                             </button>
                                             <div class="collapse" id="weeks-table-collapse">
-                                                    <li>
+                                                    <ul>
                                                         {% for week_num in (1..13) %}
                                                             {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
                                                             {% if page[dynamic_variable] %}
                                                                 {% for day_num in (1..7) %}
                                                                         {% assign day_index = (week_num - 1) * 7 + day_num %}
                                                                         {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
-                                                                        <a href="#{{ day_id }}">Day {{ day_num }}</a>
+                                                                        <li class="day-link"><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
                                                                 {% endfor %} <!-- End day_num for loop -->
                                                             {% endif %}
                                                         {% endfor %} <!-- End week_num for loop -->
-                                                    </li>
+                                                    </ul>
                                             </div>
                                     {% endif %}
                                 {% endfor %}
