@@ -55,7 +55,7 @@
                                             {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
                                             {% if page[dynamic_variable] %}
                                                 <th>
-                                                    <a href="#week{{ week_num }}" class="week-link" data-week="{{ week_num }}>Week {{ week_num }}"</a>
+                                                    <a href="#week{{ week_num }}" class="week-link" data-week="{{ week_num }}">Week {{ week_num }}</a>
                                                     <ul class="day-list" style="display: none;"> <!-- Add a nested unordered list for days -->
                                                         {% for day_num in (1..8) %}
                                                             {% assign day_index = (week_num - 1) * 7 + day_num %}
