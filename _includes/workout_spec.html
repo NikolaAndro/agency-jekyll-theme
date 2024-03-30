@@ -123,7 +123,33 @@
                                         });
                                     });
                                 </script> -->
+                                <div class="dropdown">
+                                    <button class="dropbtn">Day Table</button>
+                                    <div class="dropdown-content">
+                                        {% for week_num in (1..13) %}
+                                            {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
+                                            {% if page[dynamic_variable] %}
+                                                <a href="#week{{ week_num }}">Week {{ week_num }}</a>
+                                                <ul>
+                                                    {% for day_num in (1..8) %}
+                                                        {% assign day_index = (week_num - 1) * 7 + day_num %}
+                                                        {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
+                                                        <li><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
+                                                    {% endfor %}
+                                                </ul>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </div>
+                                </div>
 
+
+
+
+
+
+
+
+                                
                                 <div class="container">
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                         <span class="sr-only">Toggle navigation</span>
@@ -151,7 +177,7 @@
                                     </div>
                                 </div>
 
-
+                                
                                 
                                 <div class="container">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
