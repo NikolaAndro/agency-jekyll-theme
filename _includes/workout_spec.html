@@ -123,40 +123,41 @@
                                         });
                                     });
                                 </script> -->
-                               
-                                    <ul>
-                                        {% for week_num in (1..13) %}
-                                            {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
-                                            {% if page[dynamic_variable] %}
-                                                <li class="menu-item-{{ loop.index }}">
-                                                    <a href="#week{{ week_num }}">Week {{ week_num }}</a>
-                                                    {% for day_num in (1..8) %}
-                                                        {% assign day_index = (week_num - 1) * 7 + day_num %}
-                                                        {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
-                                                        <li><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
-                                                    {% endfor %}
-                                                </li>
-                                            {% endif %}
-                                        {% endfor %}
-                                    </ul>
 
-                                <ul>
-    {% for week_num in (1..13) %}
-        {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
-        {% if page[dynamic_variable] %}
-            <li class="menu-item-{{ loop.index }}">
-                <a href="#week{{ week_num }}">Week {{ week_num }}</a>
-                <ul>
-                    {% for day_num in (1..8) %}
-                        {% assign day_index = (week_num - 1) * 7 + day_num %}
-                        {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
-                        <li><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
-                    {% endfor %}
-                </ul>
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+                                <!-- data-toggle: This attribute specifies the type of toggle action that should be triggered 
+                                when the button is clicked. In this case, the value is set to "collapse", indicating that clicking 
+                                the button will collapse or expand the target element. 
+                                data-target: This attribute specifies the target element that should be affected when the button is clicked. 
+                                The value should be a valid CSS selector targeting the element you want to collapse or expand. In your example, 
+                                the value is "#weeks-table-collapse", which means that clicking the button will toggle the collapse state 
+                                of the element with the ID "weeks-table-collapse"
+                                -->
+                               <button type="button"  data-toggle="collapse" data-target="#weeks-table-collapse">
+                                   {% for week_num in (1..13) %}
+                                        {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
+                                        
+                                        {% if page[dynamic_variable] %}
+                                            <span><a href="#week{{ week_num }}">Week {{ week_num }}</a></span>
+                                        {% endif %}
+                                    {% endfor %}
+                                </button>
+                                <div class="collapse" id="weeks-table-collapse">
+                                    <ul>
+                                        <li>
+                                            {% for day_num in (1..8) %}
+                                                    {% for week_num in (1..13) %}
+                                                        {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
+                                                        {% if page[dynamic_variable] %}
+                                                            {% assign day_index = (week_num - 1) * 7 + day_num %}
+                                                            {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
+                                                            <a href="#{{ day_id }}">Day {{ day_num }}</a>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                            {% endfor %}
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
 
 
 
