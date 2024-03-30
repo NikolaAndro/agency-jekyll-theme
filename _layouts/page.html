@@ -100,10 +100,13 @@
          width: 222.5px; /* Default width */
       }
       @media (max-width: 222.5px) {
-        .week-table-button {
-            width: 100%; /* When screen size is smaller than 222.5px, make it 100% of the container */
-        }
-    }
+           .week-table-button, .week-table-button li {
+               width: 100%; /* When screen size is smaller than 222.5px, make it 100% of the container */
+           }
+       }
+      .week-table-button li:nth-child(even) {
+         background-color: #dddddd;
+       }
       
       #dayTable1week th{
          background-color: #222;
