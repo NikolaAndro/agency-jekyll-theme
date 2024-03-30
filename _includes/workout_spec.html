@@ -107,21 +107,12 @@
                                             button.addEventListener("click", function() {
                                                 var weekNum = this.getAttribute("data-target").split("-").pop();
                                                 var icon = document.getElementById("caret-icon" + weekNum);
+                                                console.log("icon selected is: {{ icon }}");
                                                 icon.classList.toggle("rotate");
                                             });
                                         });
                                     });
                                 </script>
-                                <style>
-                                    .rotate {
-                                        transform: rotate(90deg);
-                                    }
-
-                                    .week-container {
-                                        display: block;
-                                        margin-bottom: 10px; /* Adjust as needed */
-                                    }
-                                </style>
                                 
                         
                     <!--                         {% if page.subtitle == "1 week" %}
