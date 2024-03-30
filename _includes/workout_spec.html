@@ -18,7 +18,7 @@
                             <script>
                               console.log("Subtitle: {{ page.subtitle }}");
                             </script>
-                            <table id="dayTable{{ page.subtitle | replace(' ', '') }} | replace(' ', '') }}"">
+                            <table id="dayTable{{ page.subtitle | replace(' ', '') | replace(' ', '')}}"">
                                 <tr>
                                     {% for week_num in range(1, 13) %}
                                         <th><a href="#week{{ week_num }}">Week {{ week_num }}</a></th>
