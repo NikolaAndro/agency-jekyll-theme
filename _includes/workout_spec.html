@@ -61,7 +61,7 @@
                                  {% for week_num in (1..13) %}
                                     {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
                                     {% if page[dynamic_variable] %}
-                                        <div class="week-container">
+                                        <div class="week-container" id="week-container">
                                             <button class="week-table-button" type="button" data-toggle="collapse" data-target="#weeks-table-collapse-{{ week_num }}" aria-expanded="false" aria-controls="weeks-table-collapse-{{ week_num }}">
                                                 <span>Week {{ week_num }} <i id="caret-icon-{{ week_num }}" class="fas fa-caret-down"></i></span>
                                             </button>
