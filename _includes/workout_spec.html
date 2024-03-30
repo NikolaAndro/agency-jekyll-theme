@@ -107,6 +107,7 @@
                                         buttons.forEach(function(button) {
                                             button.addEventListener("click", function() {
                                                 var weekNum = this.getAttribute("data-target").split("-").pop();
+                                                console.log("weekNum is: ", weekNum);
                                                 var icon = document.getElementById("caret-icon" + weekNum);
                                                 console.log("Icon selected is: ", icon);
                                                 icon.classList.toggle("rotate");
