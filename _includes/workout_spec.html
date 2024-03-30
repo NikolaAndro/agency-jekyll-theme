@@ -53,29 +53,20 @@
                                     <tr>
                                         {% for week_num in (1..13) %}
                                             {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
-                                            <th>
-                                                <a href="#week{{ week_num }}">Week {{ week_num }}</a>
-                                                <ul> <!-- Add a nested unordered list for days -->
-                                                    {% for day_num in (1..8) %}
-                                                        {% assign day_index = (week_num - 1) * 7 + day_num %}
-                                                        {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
-                                                        <li><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
-                                                    {% endfor %}
-                                                </ul>
-                                            </th>
+                                            {% if page[dynamic_variable] %}
+                                                <th>
+                                                    <a href="#week{{ week_num }}">Week {{ week_num }}</a>
+                                                    <ul> <!-- Add a nested unordered list for days -->
+                                                        {% for day_num in (1..8) %}
+                                                            {% assign day_index = (week_num - 1) * 7 + day_num %}
+                                                            {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
+                                                            <li><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                </th>
+                                            {% endif %}
                                         {% endfor %}
                                     </tr>
-                                    <!-- Remove the outer loop for day_num -->
-                                    <!-- Keep the loop for week_num to generate rows for each week -->
-                                    {% for week_num in (1..13) %}
-                                        <tr>
-                                            {% for day_num in (1..8) %}
-                                                {% assign day_index = (week_num - 1) * 7 + day_num %}
-                                                {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
-                                                <td><a href="#{{ day_id }}">Day {{ day_num }}</a></td>
-                                            {% endfor %}
-                                        </tr>
-                                    {% endfor %}
                                 </table>
                         
                     <!--                         {% if page.subtitle == "1 week" %}
