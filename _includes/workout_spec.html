@@ -22,7 +22,7 @@
                                         <script>
                                           console.log("test_var: {{ test_var }}");
                                         </script>
-                                        {% if page.mon1_exc1 %}
+                                        {% if page.mon{{ week_num }}_exc1 %}
                                             <th><a href="#week{{ week_num }}">Week {{ week_num }}</a></th>
                                         {% endif %}
                                     {% endfor %}
@@ -34,7 +34,7 @@
                                             <script>
                                               console.log("test_var: {{ test_var }}");
                                             </script>
-                                            {% if page.mon1_exc1 %}
+                                            {% if page.mon{{ week_num }}_exc1 %}
                                                 {% assign day_index = (week_num - 1) * 7 + day_num %}
                                                 {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
                                                 <td><a href="#{{ day_id }}">Day {{ day_num }}</a></td>
