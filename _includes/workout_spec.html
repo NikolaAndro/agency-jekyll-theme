@@ -15,12 +15,9 @@
                         <img src="/Workouts_Page/img/{{ page.img_path }}" class="img-responsive img-centered" alt="{{ page.alt }}">
 
                         {% if page.subtitle %}
-                            <script>
-                              console.log("Subtitle: {{ page.subtitle }}");
-                            </script>
                             <table id="dayTable{{ page.subtitle | replace: ' ', '' }}"">
                                 <tr>
-                                    {% for week_num in range(1, 13) %}
+                                    {% for week_num in (1..13) %}
                                         <th><a href="#week{{ week_num }}">Week {{ week_num }}</a></th>
                                     {% endfor %}
                                 </tr>
@@ -34,6 +31,8 @@
                                     </tr>
                                 {% endfor %}
                             </table>
+                        {% else %}
+                            <table id="dayTable">
                         {% endif %}
                     <!--                         {% if page.subtitle == "1 week" %}
                             <table id="dayTable1day">
