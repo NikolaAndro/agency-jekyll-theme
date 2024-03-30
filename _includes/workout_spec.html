@@ -66,7 +66,7 @@
                                         {% endfor %}
                                     </tr>
                                 </table> -->
-                                <table id="dayTable{{ page.subtitle | replace: ' ', '' }}">
+<!--                                 <table id="dayTable{{ page.subtitle | replace: ' ', '' }}">
                                     <tr>
                                         {% for week_num in (1..13) %}
                                             {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
@@ -84,7 +84,7 @@
                                                  <script>
                                                   console.log("ulli: {{ dynamic_variable }}");
                                                 </script>
-                                                <ul class="day-list" style="display: none;"> <!-- Move the ul outside of the loop through th -->
+                                                <ul class="day-list" style="display: none;"> 
                                                     {% for day_num in (1..8) %}
                                                         {% assign day_index = (week_num - 1) * 7 + day_num %}
                                                         {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
@@ -95,32 +95,11 @@
                                         {% endfor %}
                                     </tr>
                                 </table>
-
+ -->
 <!--                                 aaaaaaaaaaaaaaaaaaa -->
 
-                              
-                                
+                            
 <!--                                 <script>
-                                    document.addEventListener("DOMContentLoaded", function() {
-                                        var weekLinks = document.querySelectorAll(".week-link");
-                                
-                                        weekLinks.forEach(function(link) {
-                                            link.addEventListener("click", function(event) {
-                                                event.preventDefault(); // Prevent default link behavior
-                                
-                                                var weekNum = this.getAttribute("data-week");
-                                                var dayList = document.querySelector(".day-list[data-week='" + weekNum + "']");
-                                
-                                                if (dayList.style.display === "none") {
-                                                    dayList.style.display = "block"; // Show the list
-                                                } else {
-                                                    dayList.style.display = "none"; // Hide the list
-                                                }
-                                            });
-                                        });
-                                    });
-                                </script> -->
-                                <script>
                                     document.addEventListener("DOMContentLoaded", function() {
                                         var weekLinks = document.querySelectorAll(".week-link");
                                     
@@ -143,7 +122,62 @@
                                             });
                                         });
                                     });
-                                </script>
+                                </script> -->
+
+                                <table id="dayTable{{ page.subtitle | replace: ' ', '' }}">
+    <tr>
+        {% for week_num in (1..13) %}
+            {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
+            {% if page[dynamic_variable] %}
+                <th>
+                    <a href="#week{{ week_num }}" class="week-link" data-week="{{ week_num }}">Week {{ week_num }}</a>
+                </th>
+            {% endif %}
+        {% endfor %}
+    </tr>
+</table>
+
+<!-- Move the ul outside of the loop through th -->
+<ul class="day-list" style="display: none;">
+    {% for week_num in (1..13) %}
+        {% assign dynamic_variable = "mon" | append: week_num | append: "_exc1" %}
+        {% if page[dynamic_variable] %}
+            <script>
+                console.log("ulli: {{ dynamic_variable }}");
+            </script>
+            {% for day_num in (1..8) %}
+                {% assign day_index = (week_num - 1) * 7 + day_num %}
+                {% assign day_id = "day" | append: day_index | append: "w" | append: week_num %}
+                <li><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var weekLinks = document.querySelectorAll(".week-link");
+        
+        weekLinks.forEach(function(link) {
+            link.addEventListener("click", function(event) {
+                event.preventDefault(); // Prevent default link behavior
+                
+                var weekNum = this.getAttribute("data-week");
+                var dayList = document.querySelector(".day-list[data-week='" + weekNum + "']");
+                
+                if (dayList) {
+                    if (dayList.style.display === "none") {
+                        dayList.style.display = "block"; // Show the list
+                    } else {
+                        dayList.style.display = "none"; // Hide the list
+                    }
+                } else {
+                    console.error("No day list found for week " + weekNum);
+                }
+            });
+        });
+    });
+</script>
                         
                     <!--                         {% if page.subtitle == "1 week" %}
                             <table id="dayTable1day">
