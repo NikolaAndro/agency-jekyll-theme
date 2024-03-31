@@ -2497,14 +2497,4 @@ sat6_exc25_notes: Abs of your choice.
 day42_num: Day 42 -
 day42: Sunday (REST)
 sun6_exc1: The Workout Is Completed! 
-sun6_exc2: 
-sun6_exc3: 
-sun6_exc4: 
-sun6_exc5: 
-sun6_exc6: 
-sun6_exc7: 
-sun6_exc8: 
-sun6_exc9: 
-sun6_exc10: 
-sun6_exc11: 
 ---
