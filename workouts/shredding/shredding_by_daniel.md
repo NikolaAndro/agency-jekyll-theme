@@ -420,7 +420,7 @@ sat1_exc14_reps: 15
 sat1_exc14_rest: 1 min.
 sat1_exc14_notes:
 day7_num: Day 7 -
-day7: Sunday
+day7: Sunday (REST)
 week2_num: Week 2
 day8_num: Day 8 -
 day8: Monday (Back & Biceps)
