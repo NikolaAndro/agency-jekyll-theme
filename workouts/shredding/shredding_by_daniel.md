@@ -22,7 +22,7 @@ description: This is a very intense workout for muscle building. There are going
 week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Back & Biceps)
-mon1_exc1: V-rows - 4 x 12, NO  
+mon1_exc1: V-rows
 mon1_exc1_sets: 4
 mon1_exc1_reps: 12
 mon1_exc1_rest: 30 sec.
@@ -62,7 +62,7 @@ mon1_exc8_sets: 4
 mon1_exc8_reps: 12
 mon1_exc8_rest: 30 sec.
 mon1_exc8_notes: Dropp 5 lbs after each set
-mon1_exc9: Hammer Curls - 4 x 12 ( 
+mon1_exc9: Hammer Curls
 mon1_exc9_sets: 4
 mon1_exc9_reps: 12
 mon1_exc9_rest: 30 sec.
