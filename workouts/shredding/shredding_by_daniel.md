@@ -22,7 +22,7 @@ description: This is a very intense workout for muscle building. There are going
 week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Back & Biceps)
-mon1_exc1: V-rows
+mon1_exc1: Seated close grip rows
 mon1_exc1_sets: 4
 mon1_exc1_reps: 12
 mon1_exc1_rest: 30 sec.
@@ -31,22 +31,22 @@ mon1_exc2: Squatting EZ-bar Cable Rows
 mon1_exc2_sets: 4
 mon1_exc2_reps: 24
 mon1_exc2_rest: 30 sec.
-mon1_exc2_notes: 12 pper hand, 12 under hand
-mon1_exc3: Cable Sitting Rows
+mon1_exc2_notes: 12 over hand, 12 under hand
+mon1_exc3: Sitting Rows With Rope
 mon1_exc3_sets: 4
 mon1_exc3_reps: 12
 mon1_exc3_rest: 30 sec.
 mon1_exc3_notes: Upper grip pull towards hips
-mon1_exc4: Single Arm Kneeling Row (right)
+mon1_exc4: Single Arm Kneeling Row (right arm)
 mon1_exc4_sets: 4
 mon1_exc4_reps: 24
 mon1_exc4_rest: NO REST
-mon1_exc4_notes: 12 upper grip, 12 neutral grip. Use single arg grip with long stripes.
-mon1_exc5: Single arm kneeling row (left)
+mon1_exc4_notes: 12 over-hand grip, 12 neutral grip. Use single arm grip with long stripes. Add 15 over-hand grip and 15 neutral on the last set burnout (light weight).
+mon1_exc5: Single arm kneeling row (left arm)
 mon1_exc5_sets: 4
 mon1_exc5_reps: 12
 mon1_exc5_rest: 30 sec.
-mon1_exc5_notes: 12 upper grip, 12 neutral grip + 15 upper grip and 15 neutral on the last set burnout (light weight)
+mon1_exc5_notes: 12 over-hand grip, 12 neutral grip. Add 15 over-hand grip and 15 neutral on the last set burnout (light weight).
 mon1_exc6: Standing Straight Bar Straight Arm Pull-Down
 mon1_exc6_sets: 4
 mon1_exc6_reps: 12
@@ -61,7 +61,7 @@ mon1_exc8: Rotating Biceps Curls
 mon1_exc8_sets: 4
 mon1_exc8_reps: 12
 mon1_exc8_rest: 30 sec.
-mon1_exc8_notes: Dropp 5 lbs after each set
+mon1_exc8_notes: Dropp 5 lbs after each set.
 mon1_exc9: Hammer Curls
 mon1_exc9_sets: 4
 mon1_exc9_reps: 12
@@ -72,26 +72,36 @@ mon1_exc10_sets: 4
 mon1_exc10_reps: 12
 mon1_exc10_rest: 30 sec.
 mon1_exc10_notes: Start with whatever you used for the second set of the previous exercise.Drop 5 lbs each set.
-mon1_exc11: Cable Rope Biceps Curls
+mon1_exc11: Rope Biceps Curls (SUPERSET PART 1)
 mon1_exc11_sets: 4
 mon1_exc11_reps: 12
-mon1_exc11_rest: 30 sec.
+mon1_exc11_rest: NO REST - onto the next excercise
 mon1_exc11_notes:
-mon1_exc12: EZ - Bar Cable Biceps Curls
+mon1_exc12: Weighted Crunches (SUPERSET PART 2)
 mon1_exc12_sets: 4
 mon1_exc12_reps: 12
-mon1_exc12_rest: 30 sec.
-mon1_exc12_notes:
-mon1_exc13: Preacher Biceps Curls
+mon1_exc12_rest: 1 min.
+mon1_exc12_notes: Back to rope biceps curls.
+mon1_exc13: EZ - Straight Bar Biceps Curls On Cable Machine (SUPERSET PART 1)
 mon1_exc13_sets: 4
 mon1_exc13_reps: 12
-mon1_exc13_rest: 30 sec.
+mon1_exc13_rest: NO REST - onto the next excercise
 mon1_exc13_notes:
-mon1_exc14: Choose any abs
+mon1_exc14: Weighted Leg Raises (SUPERSET PART 2)
 mon1_exc14_sets: 4
-mon1_exc14_reps: 50
-mon1_exc14_rest: 30 sec.
-mon1_exc14_notes:
+mon1_exc14_reps: 12
+mon1_exc14_rest: 1 min.
+mon1_exc14_notes: Back to straight bar biceps curls.
+mon1_exc15: Preacher Biceps Curls (SUPERSET PART 1)
+mon1_exc15_sets: 4
+mon1_exc15_reps: 12
+mon1_exc15_rest: NO REST - onto the next excercise
+mon1_exc15_notes:
+mon1_exc16: Windshield Wipers (SUPERSET PART 2)
+mon1_exc16_sets: 4
+mon1_exc16_reps: 24
+mon1_exc16_rest: 1 min.
+mon1_exc16_notes:
 day2_num: Day 2 -
 day2: Tuesday (Legs & Shoulders)
 tu1_exc1: Deadlift
