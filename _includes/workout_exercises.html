@@ -24,9 +24,11 @@
                             <a class="week_num" id="week{{ week_num }}">{{ page[weekNumber] }}</a><br><br>
 
                             {% for day_num in (1..7) %}
-                                <pday>
-                                    {% capture day_num_num %}{{"day" | append: day_num | append: "_num"}}{% endcapture %}
-                                    {% capture day_num_numy %}{{"day" | append: day_num}}{% endcapture %}
+                                {% capture day_num_num %}{{"day" | append: day_num | append: "_num"}}{% endcapture %}
+                                {% capture day_num_numy %}{{"day" | append: day_num}}{% endcapture %}
+                                {% capture day_id %}{{"day" | append: day_num | append: "w" | append: week_num_str}}{% endcapture %}
+                                <pday id="{{day_id}}">
+                                    
                                     <daynum>{{ page[day_num_num] }}</daynum>
                                     {{page[day_num_numy]}}
                                 </pday><br><br>

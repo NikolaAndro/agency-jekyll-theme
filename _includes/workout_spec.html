@@ -71,7 +71,11 @@
                                                         {% for day_num in (1..7) %}
                                                             {% assign day_id = "day" | append: day_num | append: "w" | append: week_num %}
 <!--                                                             {% assign day_index = (week_num - 1) * 7 + day_num %} -->
-                                                            <li class="day-link"><a href="#{{ day_id }}">Day {{ day_num }}</a></li>
+                                                            <!-- <li class="day-link"><a href="#{{ day_id }}">Day {{ day_num }}</a></li> -->
+                                                            <li class="day-link">
+                                                                <a style = "margin: 0px; display: block; width: 100%; height: 100%;" href="#{{ day_id }}">Day {{ day_num }}</a>
+                                                            </li>
+
                                                         {% endfor %}
                                                     {% endif %}
                                                 </ul>
