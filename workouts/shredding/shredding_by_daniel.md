@@ -18,7 +18,7 @@ alt: image-alt
 project-date: January 2022
 client: Start Bootstrap
 category: Body Building
-description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. <b>THERE IS NO REST BETWEEN THE SETS!!!</b><br><br>Note that every week you will workout the following groups of muscles in the following manner  <br><br> Monday ~ Back & Biceps <br> Tuesday ~ Legs & Shoulders <br> Wednesday ~ Chest & Triceps <br> Thursday ~ Back & Biceps <br> Friday ~ Legs & Shoulders <br> Saturday ~ Chest & Triceps <br> Sunday ~ rest <br><br> Also note that every week you workout each muscle group twice! The second time in the week you want to go a bit lower weight than you would go the first time in the week because you have more energy after your Sunday  day. <br><br> The most important part of shredding is your diet. Figure it out... I repeated this 4 times in a row = 3 months. <br><br> If you want Daniel as your personal trainer, feel free to contact him on the phone number bellow.
+description: This is a very intense workout for muscle building. There are going to be many supersets without rest. This a technique that body builders use to avoid cardio and still burn the same amount of calories. There are 6 workouts per week. About 1.5 h per workout on average. <b>THERE IS NO REST BETWEEN THE SETS!!!</b><br><br>Note that every week you will workout the following groups of muscles in the following manner  <br><br><span style="display:block; text-align:center;">Monday ~ Back & Biceps </span><span style="display:block; text-align:center;"> Tuesday ~ Legs & Shoulders</span> <span style="display:block; text-align:center;">Wednesday ~ Chest & Triceps</span>  <span style="display:block; text-align:center;"> Thursday ~ Back & Biceps</span>  <span style="display:block; text-align:center;">Friday ~ Legs & Shoulders </span> <span style="display:block; text-align:center;"> Saturday ~ Chest & Triceps</span>  <span style="display:block; text-align:center;"> Sunday ~ rest </span><br> Also note that every week you workout each muscle group twice! The second time in the week you want to go a bit lower weight than you would go the first time in the week because you have more energy after your Sunday  day. <br><br> The most important part of shredding is your diet. Figure it out... I repeated this 4 times in a row = 3 months. <br><br> If you want Daniel as your personal trainer, feel free to contact him on the phone number bellow.
 week1_num: Week 1
 day1_num: Day 1 -
 day1: Monday (Back & Biceps)
@@ -72,32 +72,38 @@ mon1_exc10_sets: 4
 mon1_exc10_reps: 12
 mon1_exc10_rest: 30 sec.
 mon1_exc10_notes: Start with whatever you used for the second set of the previous exercise.Drop 5 lbs each set.
-mon1_exc11: Rope Biceps Curls (SUPERSET PART 1)
+mon1_exc11: Rope Biceps Curls
+mon1_exc11_superset: SUPERSET PART 1
 mon1_exc11_sets: 4
 mon1_exc11_reps: 12
 mon1_exc11_rest: NO REST - onto the next excercise
 mon1_exc11_notes:
-mon1_exc12: Weighted Crunches (SUPERSET PART 2)
+mon1_exc12: Weighted Crunches
+mon1_exc12_superset: SUPERSET PART 2
 mon1_exc12_sets: 4
 mon1_exc12_reps: 12
 mon1_exc12_rest: 1 min.
 mon1_exc12_notes: Back to rope biceps curls.
-mon1_exc13: EZ - Straight Bar Biceps Curls On Cable Machine (SUPERSET PART 1)
+mon1_exc13: EZ - Straight Bar Biceps Curls On Cable Machine
+mon1_exc13_superset: SUPERSET PART 1
 mon1_exc13_sets: 4
 mon1_exc13_reps: 12
 mon1_exc13_rest: NO REST - onto the next excercise
 mon1_exc13_notes:
-mon1_exc14: Weighted Leg Raises (SUPERSET PART 2)
+mon1_exc14: Weighted Leg Raises
+mon1_exc14_superset: SUPERSET PART 2
 mon1_exc14_sets: 4
 mon1_exc14_reps: 12
 mon1_exc14_rest: 1 min.
 mon1_exc14_notes: Back to straight bar biceps curls.
-mon1_exc15: Preacher Biceps Curls (SUPERSET PART 1)
+mon1_exc15: Preacher Biceps Curls
+mon1_exc15_superset: SUPERSET PART 1
 mon1_exc15_sets: 4
 mon1_exc15_reps: 12
 mon1_exc15_rest: NO REST - onto the next excercise
 mon1_exc15_notes:
-mon1_exc16: Windshield Wipers (SUPERSET PART 2)
+mon1_exc16: Windshield Wipers
+mon1_exc16_superset: SUPERSET PART 2
 mon1_exc16_sets: 4
 mon1_exc16_reps: 24
 mon1_exc16_rest: 1 min.

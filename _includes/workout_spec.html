@@ -100,7 +100,13 @@
                                     });
                                 </script>                        
                         <br>
-                        <p>{{ page.description }}</p>
+                        <!-- <p>{{ page.description }}</p> -->
+                        {{% if page.description != empty%}}
+                            <div style="border: 2px solid red; padding: 10px; background-color: lightgray;">
+                                <h2 style="text-align: center; color: red; font-weight: bold; text-decoration: underline;">INSTRUCTIONS</h2>
+                                <p style="text-align: left; color: black;">{{ page.description }}</p>
+                            </div>
+                        {{% endif %}}
                 </div>
             </div>
         </div>

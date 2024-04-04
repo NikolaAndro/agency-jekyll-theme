@@ -68,7 +68,15 @@
                                                 {% assign exc = day_exc_prefix | append: exc_num %}
                                                 {% if page[exc] %}
                                                     <tr>
-                                                        <td>{{ page[exc] }}</td>
+                                                        {% assign superset = exc | append: "_superset" %}
+                                                        <td>
+                                                            {% if page[superset] %}
+                                                                <div style="color: red;">
+                                                                    {{ page[superset] }}<br> 
+                                                                </div>
+                                                            {% endif %}
+                                                            {{ page[exc] }}
+                                                        </td>
                                                         {% assign sets = exc | append: "_sets" %}
                                                         <td>{{ page[sets] }}</td> 
                                                         {% assign reps = exc | append: "_reps" %}
