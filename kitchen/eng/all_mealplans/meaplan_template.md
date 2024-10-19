@@ -1,3 +1,4 @@
+---
 meal1:
   ingredients_markdown: |-
     **Meal Title**
@@ -362,3 +363,5 @@ food50_name:
 food50_amount: 
 food50_amount_7: 
 food50_notes:
+
+---
