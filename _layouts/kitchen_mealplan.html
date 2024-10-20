@@ -27,14 +27,15 @@ lang: srb
           <th width="5%" style="text-align:center">In Cart</th>
           <th>Item</th>
           <th width="17%">Daily Amount</th>
-          <th width="17%">7 Day Amount</th>
-          <th width="17%">7 Day Amount</th>
+          <th width="17%">7 Days Amount</th>
+          <th width="17%">10 Days Amount</th>
           <th width="27%">Notes</th>
       </tr>
       {% for i in (1..50) %}
           {% assign food_name = "food" | append: i | downcase %}
           {% assign food_amount = "food" | append: i | append: "_amount" %}
           {% assign food_amount_7 = "food" | append: i | append: "_amount_7" %}
+	  {% assign food_amount_10 = "food" | append: i | append: "_amount_10" %}
           {% assign food_notes = "food" | append: i | append: "_notes" %}
           {% if page[food_name] %}
               <tr>
