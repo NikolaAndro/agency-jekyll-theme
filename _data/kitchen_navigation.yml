@@ -2,10 +2,12 @@
   link: /
 - name: Foods
   link: foods/
-- name: Suplements
-  link: /
-- name: Notes
-  link: /
+- name: Mealplan Generator
+  link: mealplan_generator/mealplan_generator
+# - name: Suplements
+#   link: /
+# - name: Notes
+#   link: /
 - name: MealPlans
   link: mealplans/
 - name: Workouts

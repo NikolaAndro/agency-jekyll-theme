@@ -1,0 +1,37 @@
+foods:
+  breakfast:
+    - name: "Peannut Butter Jelly"
+      image: "../food_images/pbj.png"
+      protein: 13.6
+      carbs: 38.3
+      fat: 25.1
+      calories: 412
+      description: "One slice of wheat bread, 96g of peanut butter, 20g of jelly."
+    - name: "Whole Milk"
+      image: "../food_images/milk.jpg"
+      protein: 8
+      carbs: 12
+      fat: 7.9
+      calories: 148.8
+      description: "One cup (240 ml) of whole milk."
+  lunch:
+    - name: "Chicken Breast"
+      image: "images/chicken_breast.jpg"
+      protein: 31
+      carbs: 0
+      fat: 3.6
+      calories: 165
+  dinner:
+    - name: "Brown Rice"
+      image: "images/brown_rice.jpg"
+      protein: 2.6
+      carbs: 23
+      fat: 0.9
+      calories: 111
+  snacks:
+    - name: "Apple"
+      image: "images/apple.jpg"
+      protein: 0.3
+      carbs: 25
+      fat: 0.2
+      calories: 95

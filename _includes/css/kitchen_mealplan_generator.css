@@ -1,0 +1,189 @@
+.mealplan_generator_container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.mealplan_generator_container h1 {
+    margin-bottom: 70px;
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.meal-section {
+    margin-bottom: 20px;
+}
+
+.food-option {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.food-option img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 10%;
+}
+
+.food-option img.selected {
+    opacity: 0.5;
+}
+
+.food-option.selected::after {
+    content: '✔';
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: green;
+    color: white;
+    /* border-radius: 50%; */
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.food-option p {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.food-option .description-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #fed136;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.food-option .description-button:hover {
+    background-color: #f0c117;
+}
+
+.food-option.selected {
+    border: 5px solid green;
+    position: relative;
+    border-radius: 10%;
+}
+
+.food-option.selected::after {
+    content: '✔';
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: green;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.quantity-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1; 
+}
+
+.deselect-button {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    z-index: 1; 
+}
+
+.deselect-button:hover {
+    background-color: #cc0000;
+}
+
+
+.food-option .macros p{
+    text-align: center;
+    text-transform: none;
+    margin-top: 0px;
+}
+
+.meal-category {
+    margin-bottom: 40px;
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.meal-category h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Modal for desacription button styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.modal-content h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
