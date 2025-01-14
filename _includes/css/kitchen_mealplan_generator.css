@@ -222,3 +222,19 @@
     margin: 5px 0;
     font-size: 16px;
 }
+
+.exceeds-goal-banner {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    /* background-color: red; */
+    font-size: 14px;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px 5px 0 0; /* Rounded corners at the top */
+    z-index: 10; /* Ensure the banner is above other content */
+}

@@ -94,6 +94,26 @@ lang: eng
         let totalCarbs = 0;
         let totalFat = 0;
         let totalCalories = 0;
+        let totalCaloriesGoal = 0;
+
+        const proteinInput = document.getElementById('protein');
+        const carbsInput = document.getElementById('carbs');
+        const fatInput = document.getElementById('fat');
+        const totalCaloriesLabel = document.getElementById('total-calories');
+
+        function updateTotalCaloriesGoal() {
+            const protein = parseFloat(proteinInput.value) || 0;
+            const carbs = parseFloat(carbsInput.value) || 0;
+            const fat = parseFloat(fatInput.value) || 0;
+
+            totalCaloriesGoal = (protein * 4) + (carbs * 4) + (fat * 9);
+            totalCaloriesLabel.textContent = totalCaloriesGoal.toFixed(2);
+            updateFoodOptions();
+        }
+
+        proteinInput.addEventListener('input', updateTotalCaloriesGoal);
+        carbsInput.addEventListener('input', updateTotalCaloriesGoal);
+        fatInput.addEventListener('input', updateTotalCaloriesGoal);
 
         function displayFoods(foods) {
             for (const [meal, items] of Object.entries(foods)) {
@@ -125,10 +145,33 @@ lang: eng
 
                     // Add click event listener to the image
                     foodDiv.querySelector('img').addEventListener('click', function() {
+                        if (foodDiv.querySelector('.exceeds-goal-banner')) {
+                            return; // Prevent selection if the banner is present
+                        }
                         showQuantityModal(foodDiv, item);
                     });
                 });
             }
+            updateFoodOptions();
+        }
+
+        function updateFoodOptions() {
+            document.querySelectorAll('.food-option').forEach(foodDiv => {
+                const itemCalories = parseFloat(foodDiv.querySelector('.calories').textContent.split(' ')[1]);
+                const banner = foodDiv.querySelector('.exceeds-goal-banner');
+                if (totalCalories + itemCalories > totalCaloriesGoal) {
+                    if (!banner) {
+                        const newBanner = document.createElement('div');
+                        newBanner.className = 'exceeds-goal-banner';
+                        newBanner.textContent = 'Exceeds Your Goal';
+                        foodDiv.appendChild(newBanner);
+                    }
+                } else {
+                    if (banner) {
+                        banner.remove();
+                    }
+                }
+            });
         }
 
         function showModal(name, description) {
@@ -142,9 +185,30 @@ lang: eng
             const modal = document.getElementById('quantityModal');
             modal.style.display = 'block';
 
-            // Handle quantity submission
-            document.getElementById('quantitySubmit').onclick = function() {
-                const quantity = parseInt(document.getElementById('quantityInput').value);
+            const quantityInput = document.getElementById('quantityInput');
+            quantityInput.value = '';
+
+            function addFood() {
+                const newQuantity = parseInt(quantityInput.value);
+                const oldQuantity = parseInt(foodDiv.dataset.quantity) || 0;
+
+                if (isNaN(newQuantity) || newQuantity <= 0) {
+                    alert('Please enter a valid quantity.');
+                    return;
+                }
+
+                if (newQuantity === oldQuantity) {
+                    modal.style.display = 'none';
+                    return; // No change in quantity, no need to update
+                }
+
+                if (totalCalories + (item.calories * newQuantity) - (item.calories * oldQuantity) > totalCaloriesGoal) {
+                    alert('Adding this item exceeds your total calories goal.');
+                    return;
+                }
+
+                console.log(`Item: ${item.name}, Old Quantity: ${oldQuantity}, New Quantity: ${newQuantity}`);
+
                 foodDiv.classList.add('selected');
                 foodDiv.querySelector('img').classList.add('selected');
                 let quantityLabel = foodDiv.querySelector('.quantity-label');
@@ -153,7 +217,7 @@ lang: eng
                     quantityLabel.className = 'quantity-label';
                     foodDiv.insertBefore(quantityLabel, foodDiv.firstChild);
                 }
-                quantityLabel.textContent = `Quantity: ${quantity}`;
+                quantityLabel.textContent = `Quantity: ${newQuantity}`;
 
                 // Create and insert the deselect button
                 let deselectButton = foodDiv.querySelector('.deselect-button');
@@ -162,6 +226,10 @@ lang: eng
                     deselectButton.className = 'deselect-button';
                     deselectButton.textContent = 'Deselect';
                     foodDiv.insertBefore(deselectButton, quantityLabel.nextSibling);
+                } else {
+                    // Remove existing event listener to avoid multiple triggers
+                    deselectButton.replaceWith(deselectButton.cloneNode(true));
+                    deselectButton = foodDiv.querySelector('.deselect-button');
                 }
 
                 // Add click event listener to the deselect button
@@ -174,12 +242,33 @@ lang: eng
                     if (deselectButton) {
                         deselectButton.remove();
                     }
-                    updateAggregatedValues(-item.protein * quantity, -item.carbs * quantity, -item.fat * quantity, -item.calories * quantity);
+                    console.log(`Deselecting - Item: ${item.name}, Old Quantity: ${foodDiv.dataset.quantity}, New Quantity: 0`);
+                    updateAggregatedValues(-item.protein * foodDiv.dataset.quantity, -item.carbs * foodDiv.dataset.quantity, -item.fat * foodDiv.dataset.quantity, -item.calories * foodDiv.dataset.quantity);
+                    foodDiv.dataset.quantity = 0; // Reset the quantity to zero
                 });
 
-                updateAggregatedValues(item.protein * quantity, item.carbs * quantity, item.fat * quantity, item.calories * quantity);
+                updateAggregatedValues(
+                    item.protein * newQuantity - item.protein * oldQuantity,
+                    item.carbs * newQuantity - item.carbs * oldQuantity,
+                    item.fat * newQuantity - item.fat * oldQuantity,
+                    item.calories * newQuantity - item.calories * oldQuantity
+                );
+
+                // Update the stored quantity
+                foodDiv.dataset.quantity = newQuantity;
+
                 modal.style.display = 'none';
-            };
+            }
+
+            // Handle quantity submission
+            document.getElementById('quantitySubmit').onclick = addFood;
+
+            // Add listener for "Return/Enter" key
+            quantityInput.addEventListener('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    addFood();
+                }
+            });
         }
 
         function updateAggregatedValues(protein, carbs, fat, calories) {
@@ -192,6 +281,8 @@ lang: eng
             document.getElementById('total-carbs').textContent = totalCarbs.toFixed(2);
             document.getElementById('total-fat').textContent = totalFat.toFixed(2);
             document.getElementById('total-aggregated-calories').textContent = totalCalories.toFixed(2);
+
+            updateFoodOptions();
         }
 
         // Close the modal
@@ -219,27 +310,5 @@ lang: eng
                 mealModal.style.display = 'none';
             }
         });
-    });
-</script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const proteinInput = document.getElementById('protein');
-        const carbsInput = document.getElementById('carbs');
-        const fatInput = document.getElementById('fat');
-        const totalCaloriesLabel = document.getElementById('total-calories');
-
-        function updateTotalCalories() {
-            const protein = parseFloat(proteinInput.value) || 0;
-            const carbs = parseFloat(carbsInput.value) || 0;
-            const fat = parseFloat(fatInput.value) || 0;
-
-            const totalCalories = (protein * 4) + (carbs * 4) + (fat * 9);
-            totalCaloriesLabel.textContent = totalCalories.toFixed(2);
-        }
-
-        proteinInput.addEventListener('input', updateTotalCalories);
-        carbsInput.addEventListener('input', updateTotalCalories);
-        fatInput.addEventListener('input', updateTotalCalories);
     });
 </script>
