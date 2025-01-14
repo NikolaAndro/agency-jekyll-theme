@@ -188,16 +188,10 @@ lang: eng
             totalFat += fat;
             totalCalories += calories;
 
-            console.log("Updating values:");
-            console.log("Total Protein: ", totalProtein.toFixed(2));
-            console.log("Total Carbs: ", totalCarbs.toFixed(2));
-            console.log("Total Fat: ", totalFat.toFixed(2));
-            console.log("Total Calories: ", totalCalories.toFixed(2));
-
             document.getElementById('total-protein').textContent = totalProtein.toFixed(2);
             document.getElementById('total-carbs').textContent = totalCarbs.toFixed(2);
             document.getElementById('total-fat').textContent = totalFat.toFixed(2);
-            document.getElementById('total-calories').textContent = totalCalories.toFixed(2);
+            document.getElementById('total-aggregated-calories').textContent = totalCalories.toFixed(2);
         }
 
         // Close the modal
