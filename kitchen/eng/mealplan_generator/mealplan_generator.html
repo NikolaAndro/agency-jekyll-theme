@@ -1,5 +1,5 @@
 ---
-layout: kitchen_default
+layout: kitchen_mealplan_generator
 lang: eng
 ---
 
@@ -9,28 +9,23 @@ lang: eng
     <h2 style="text-align: left; font-weight: bold; margin-bottom: 20px;">STEP 1 :  Enter your daily macronutrient goals:</h2>
 
     <form id="macro-form">
-        <div style="margin-bottom: 20px; display: flex; align-items: flex-start; min-width: 750px;">
+        <div style="margin-bottom: 40px; display: flex; align-items: flex-start; justify-content: center; min-width: 750px;">
             <div style="display: flex; align-items: center; margin-right: 20px;">
-                <label for="protein" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 100px; margin-right: 10px;">Protein (g):</label>
+                <label for="protein" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Protein Goal (g):</label>
                 <input type="number" id="protein" name="protein" aria-describedby="protein-helper" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 100px;">
             </div>
             <div style="display: flex; align-items: center; margin-right: 20px;">
-                <label for="carbs" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 100px; margin-right: 10px;">Carbs (g):</label>
+                <label for="carbs" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Carbs Goal (g):</label>
                 <input type="number" id="carbs" name="carbs" aria-describedby="carbs-helper" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 100px;">
             </div>
             <div style="display: flex; align-items: center;">
-                <label for="fat" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 100px; margin-right: 10px;">Fat (g):</label>
+                <label for="fat" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Fat Goal (g):</label>
                 <input type="number" id="fat" name="fat" aria-describedby="fat-helper" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 100px;">
             </div>
         </div>
-        <div style="margin-bottom: 20px; display: flex; align-items: center; justify-content: center; max-width: 500px; margin: 0 auto;">
-            <label for="calories" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; margin-right: 20px;">Total Calories:</label>
-            <input type="number" id="calories" name="calories" aria-describedby="calories-helper" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px;">
-            <label for="meals" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; margin-left: 20px; margin-right: 10px;">Number of meals:</label>
-            <input type="number" id="meals" name="meals" aria-describedby="meals-helper" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px;">
-        </div>
-        <div style="display: flex; justify-content: center; ">
-            <button type="submit" class="mt-4 bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; margin-bottom: 50px; width: 200px; margin-top: 30px; background-color: #fed136;">Next</button>
+        <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+            <label for="calories" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 18px; font-weight: bold; margin-right: 20px;">Total Calories Goal:</label>
+            <span id="total-calories" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 18px; font-weight: bold; margin-left: 10px;">0</span>
         </div>
     </form>
 
@@ -46,47 +41,23 @@ lang: eng
         <div class="meal-category">
             <h3>Lunch</h3>
             <div class="meal-options" id="lunch-options">
-                <!-- Lunch meal options will be dynamically added here -->
             </div>
         </div>
         <div class="meal-category">
             <h3>Dinner</h3>
             <div class="meal-options" id="dinner-options">
-                <!-- Dinner meal options will be dynamically added here -->
             </div>
         </div>
         <div class="meal-category">
             <h3>Snacks</h3>
             <div class="meal-options" id="snack-options">
-                <!-- Snack meal options will be dynamically added here -->
             </div>
         </div>
     </div>
 
     <div id="meal-sections" style="display:none;"></div>
 
-    <div id="summary">
-        <h2>Selected Meals</h2>
-        <table id="selected-meals">
-            <thead>
-                <tr>
-                    <th>Meal</th>
-                    <th>Food</th>
-                    <th>Protein</th>
-                    <th>Carbs</th>
-                    <th>Fat</th>
-                    <th>Calories</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-        <div id="totals">
-            <p>Total Protein: <span id="total-protein">0</span>g</p>
-            <p>Total Carbs: <span id="total-carbs">0</span>g</p>
-            <p>Total Fat: <span id="total-fat">0</span>g</p>
-            <p>Total Calories: <span id="total-calories">0</span></p>
-        </div>
-    </div>
+    
 
     <div id="mealModal" class="modal">
         <div class="modal-content">
@@ -108,9 +79,8 @@ lang: eng
     </div>
 
 </div>
-<!-- <script src="script.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         fetch('../foods.yaml')
@@ -120,9 +90,18 @@ lang: eng
                 displayFoods(foods);
             });
 
+        let totalProtein = 0;
+        let totalCarbs = 0;
+        let totalFat = 0;
+        let totalCalories = 0;
+
         function displayFoods(foods) {
             for (const [meal, items] of Object.entries(foods)) {
                 const mealOptions = document.getElementById(`${meal}-options`);
+                if (!mealOptions) {
+                    console.error(`Element with ID ${meal}-options not found.`);
+                    continue;
+                }
                 items.forEach(item => {
                     const foodDiv = document.createElement('div');
                     foodDiv.className = 'food-option';
@@ -146,7 +125,7 @@ lang: eng
 
                     // Add click event listener to the image
                     foodDiv.querySelector('img').addEventListener('click', function() {
-                        showQuantityModal(foodDiv);
+                        showQuantityModal(foodDiv, item);
                     });
                 });
             }
@@ -159,13 +138,13 @@ lang: eng
             modal.style.display = 'block';
         }
 
-        function showQuantityModal(foodDiv) {
+        function showQuantityModal(foodDiv, item) {
             const modal = document.getElementById('quantityModal');
             modal.style.display = 'block';
 
             // Handle quantity submission
             document.getElementById('quantitySubmit').onclick = function() {
-                const quantity = document.getElementById('quantityInput').value;
+                const quantity = parseInt(document.getElementById('quantityInput').value);
                 foodDiv.classList.add('selected');
                 foodDiv.querySelector('img').classList.add('selected');
                 let quantityLabel = foodDiv.querySelector('.quantity-label');
@@ -195,10 +174,30 @@ lang: eng
                     if (deselectButton) {
                         deselectButton.remove();
                     }
+                    updateAggregatedValues(-item.protein * quantity, -item.carbs * quantity, -item.fat * quantity, -item.calories * quantity);
                 });
 
+                updateAggregatedValues(item.protein * quantity, item.carbs * quantity, item.fat * quantity, item.calories * quantity);
                 modal.style.display = 'none';
             };
+        }
+
+        function updateAggregatedValues(protein, carbs, fat, calories) {
+            totalProtein += protein;
+            totalCarbs += carbs;
+            totalFat += fat;
+            totalCalories += calories;
+
+            console.log("Updating values:");
+            console.log("Total Protein: ", totalProtein.toFixed(2));
+            console.log("Total Carbs: ", totalCarbs.toFixed(2));
+            console.log("Total Fat: ", totalFat.toFixed(2));
+            console.log("Total Calories: ", totalCalories.toFixed(2));
+
+            document.getElementById('total-protein').textContent = totalProtein.toFixed(2);
+            document.getElementById('total-carbs').textContent = totalCarbs.toFixed(2);
+            document.getElementById('total-fat').textContent = totalFat.toFixed(2);
+            document.getElementById('total-calories').textContent = totalCalories.toFixed(2);
         }
 
         // Close the modal
@@ -216,5 +215,37 @@ lang: eng
                 event.target.style.display = 'none';
             }
         });
+
+        // Close the modal when pressing the Escape key
+        window.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                const quantityModal = document.getElementById('quantityModal');
+                const mealModal = document.getElementById('mealModal');
+                quantityModal.style.display = 'none';
+                mealModal.style.display = 'none';
+            }
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const proteinInput = document.getElementById('protein');
+        const carbsInput = document.getElementById('carbs');
+        const fatInput = document.getElementById('fat');
+        const totalCaloriesLabel = document.getElementById('total-calories');
+
+        function updateTotalCalories() {
+            const protein = parseFloat(proteinInput.value) || 0;
+            const carbs = parseFloat(carbsInput.value) || 0;
+            const fat = parseFloat(fatInput.value) || 0;
+
+            const totalCalories = (protein * 4) + (carbs * 4) + (fat * 9);
+            totalCaloriesLabel.textContent = totalCalories.toFixed(2);
+        }
+
+        proteinInput.addEventListener('input', updateTotalCalories);
+        carbsInput.addEventListener('input', updateTotalCalories);
+        fatInput.addEventListener('input', updateTotalCalories);
     });
 </script>
