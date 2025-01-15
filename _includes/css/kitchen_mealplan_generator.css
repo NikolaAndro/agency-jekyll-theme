@@ -91,6 +91,13 @@
     border-radius: 50%;
     padding: 5px;
 }
+
+#snacks-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .quantity-label {
     position: absolute;
     top: 10px;

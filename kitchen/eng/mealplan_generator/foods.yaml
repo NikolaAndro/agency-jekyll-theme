@@ -7,6 +7,16 @@ foods:
       fat: 25.1
       calories: 412
       description: "One slice of wheat bread, 96g of peanut butter, 20g of jelly."
+      ingredients:
+        - name: "Wheat Bread"
+          amount: 1
+          unit: "slice"
+        - name: "Peanut Butter"
+          amount: 96
+          unit: "g"
+        - name: "Jelly"
+          amount: 20
+          unit: "g"
     - name: "Whole Milk"
       image: "../food_images/milk.jpg"
       protein: 8
@@ -14,24 +24,56 @@ foods:
       fat: 7.9
       calories: 148.8
       description: "One cup (240 ml) of whole milk."
-  lunch:
-    - name: "Chicken Breast"
-      image: "images/chicken_breast.jpg"
-      protein: 31
-      carbs: 0
-      fat: 3.6
-      calories: 165
-  dinner:
-    - name: "Brown Rice"
-      image: "images/brown_rice.jpg"
-      protein: 2.6
-      carbs: 23
-      fat: 0.9
-      calories: 111
+      ingredients:
+        - name: "Whole Milk"
+          amount: 240
+          unit: "ml"
+    
+  # lunch:
+  #   - name: "Chicken Breast"
+  #     image: "images/chicken_breast.jpg"
+  #     protein: 31
+  #     carbs: 0
+  #     fat: 3.6
+  #     calories: 165
+  # dinner:
+  #   - name: "Brown Rice"
+  #     image: "images/brown_rice.jpg"
+  #     protein: 2.6
+  #     carbs: 23
+  #     fat: 0.9
+  #     calories: 111
   snacks:
-    - name: "Apple"
-      image: "images/apple.jpg"
-      protein: 0.3
-      carbs: 25
-      fat: 0.2
-      calories: 95
+    - name: "Protein Granola - Nature Valley"
+      image: "../food_images/protein-granola.png"
+      protein: 13
+      carbs: 40
+      fat: 7
+      calories: 210
+      description: "2/3 of a cup (65g) of Nature Valley Protein Granola."
+      ingredients:
+        - name: "Nature Valley Protein Granola"
+          amount: 65
+          unit: "g"
+    - name: "Oikos Triple Zero Greek Yogurt"
+      image: "../food_images/yogurt.jpeg"
+      protein: 17
+      carbs: 8
+      fat: 0
+      calories: 100
+      description: "One container (170g) of Oikos Triple Zero Greek Yogurt."
+      ingredients:
+        - name: "Oikos Triple Zero Greek Yogurt"
+          amount: 170
+          unit: "g"
+    - name: "Banana"
+      image: "../food_images/banana.jpg"
+      protein: 1.3
+      carbs: 27
+      fat: 0.4
+      calories: 105
+      description: "One medium banana."
+      ingredients:
+        - name: "Banana"
+          amount: 1
+          unit: "medium"

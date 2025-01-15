@@ -50,7 +50,7 @@ lang: eng
         </div>
         <div class="meal-category">
             <h3>Snacks</h3>
-            <div class="meal-options" id="snack-options">
+            <div class="meal-options" id="snacks-options">
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@ lang: eng
             <span class="close">&times;</span>
             <h2>Enter Quantity</h2>
             <div style="margin-bottom: 10px; display: flex; align-items: center; justify-content: center; max-width: 300px; margin: 0 auto;">
-                <input type="number" id="quantityInput" min="1" value="1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; margin-right: 10px;">
+                <input type="number" id="quantityInput" min="0.1" step="0.1" value="1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; margin-right: 10px;">
                 <button id="quantitySubmit" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; width: 100px; background-color: #fed136; margin-left: 20px;">Add</button>
             </div>
         </div>
@@ -187,12 +187,13 @@ lang: eng
 
             const quantityInput = document.getElementById('quantityInput');
             quantityInput.value = '';
+            quantityInput.focus(); // Set focus to the input field
 
             function addFood() {
-                const newQuantity = parseInt(quantityInput.value);
-                const oldQuantity = parseInt(foodDiv.dataset.quantity) || 0;
+                const newQuantity = parseFloat(quantityInput.value);
+                const oldQuantity = parseFloat(foodDiv.dataset.quantity) || 0;
 
-                if (isNaN(newQuantity) || newQuantity <= 0) {
+                if (isNaN(newQuantity) || newQuantity <= 0.1) {
                     alert('Please enter a valid quantity.');
                     return;
                 }
