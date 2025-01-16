@@ -1,6 +1,6 @@
 foods:
   breakfast:
-    - name: "Peannut Butter Jelly"
+    - name: "Peanut Butter Jelly"
       image: "../food_images/pbj.png"
       protein: 13.6
       carbs: 38.3
@@ -9,8 +9,8 @@ foods:
       description: "One slice of wheat bread, 96g of peanut butter, 20g of jelly."
       ingredients:
         - name: "Wheat Bread"
-          amount: 1
           unit: "slice"
+          amount: 1
         - name: "Peanut Butter"
           amount: 96
           unit: "g"
@@ -28,21 +28,155 @@ foods:
         - name: "Whole Milk"
           amount: 240
           unit: "ml"
-    
-  # lunch:
-  #   - name: "Chicken Breast"
-  #     image: "images/chicken_breast.jpg"
-  #     protein: 31
-  #     carbs: 0
-  #     fat: 3.6
-  #     calories: 165
-  # dinner:
-  #   - name: "Brown Rice"
-  #     image: "images/brown_rice.jpg"
-  #     protein: 2.6
-  #     carbs: 23
-  #     fat: 0.9
-  #     calories: 111
+    - name: "Peanutbutter Banana Oatmeal"
+      image: "../food_images/pb-banana-oats.png"
+      protein: 15
+      carbs: 60
+      fat: 19
+      calories: 449
+      description: "A delicious and nutritious breakfast combining oats, peanut butter, and banana."
+      ingredients:
+        - name: "Rolled Oats"
+          amount: 90
+          unit: "g"
+        - name: "Peanut Butter"
+          amount: 32
+          unit: "g"
+        - name: "Banana"
+          amount: 118
+          unit: "g"
+    - name: "Vanilla Yogurt Parfait"
+      image: "../food_images/vanilla_yogurt_parfait.png"
+      protein: 27
+      carbs: 46
+      fat: 5
+      calories: 312
+      description: "A delicious parfait made with non-fat Greek yogurt, mixed berries, and granola."
+      ingredients:
+        - name: "Non-fat Greek Yogurt"
+          amount: 245
+          unit: "g"
+        - name: "Mixed Berries"
+          amount: 75
+          unit: "g"
+        - name: "Granola"
+          amount: 30
+          unit: "g"
+  lunch:
+    - name: "Chicken Breast"
+      image: "../food_images/chicken_breast.png"
+      protein: 31
+      carbs: 0
+      fat: 3.6
+      calories: 165
+    - name: "Eggwhite Soup"
+      image: "../food_images/eggwhite_soup.jpg"
+      protein: 11
+      carbs: 24
+      fat: 3
+      calories: 178
+      description: "A light and nutritious eggwhite soup."
+      ingredients:
+        - name: "Eggwhite"
+          amount: 50
+          unit: "g"
+        - name: "Chicken Noodle Bear Creek"
+          amount: 1.25
+          unit: "servings"
+    - name: "Chicken-Alfredo"
+      image: "../food_images/chicken-alfredo.png"
+      protein: 82
+      carbs: 83
+      fat: 28
+      calories: 789
+      description: "A delicious Chicken Alfredo pasta dish."
+      ingredients:
+        - name: "Penne Pasta"
+          amount: 250
+          unit: "g"
+        - name: "Chicken Breasts"
+          amount: 300
+          unit: "g"
+        - name: "Alfredo Sauce"
+          amount: 100
+          unit: "g"
+    - name: "Salad"
+      image: "../food_images/salad.png"
+      protein: 140
+      carbs: 70
+      fat: 94
+      calories: 1695
+      description: "A hearty salad with kale, spring mix, chicken breasts, bacon, boiled eggs, avocado, cherry tomatoes, beets, sunflower seeds, pumpkin seeds, croutons, and Italian dressing."
+      ingredients:
+        - name: "Kale"
+          amount: 100
+          unit: "g"
+        - name: "Spring Mix"
+          amount: 100
+          unit: "g"
+        - name: "Chicken Breasts"
+          amount: 400
+          unit: "g"
+        - name: "Hickory Smoked Thick Sliced Bacon"
+          amount: 50
+          unit: "g"
+        - name: "Boiled Eggs"
+          amount: 2
+          unit: "pieces"
+        - name: "Avocado"
+          amount: 50
+          unit: "g"
+        - name: "Cherry Tomatoes"
+          amount: 100
+          unit: "g"
+        - name: "Beets"
+          amount: 50
+          unit: "g"
+        - name: "Sunflower Seeds"
+          amount: 25
+          unit: "g"
+        - name: "Pumpkin Seeds"
+          amount: 25
+          unit: "g"
+        - name: "Croutons"
+          amount: 50
+          unit: "g"
+        - name: "Italian Dressing"
+          amount: 62
+          unit: "g"
+    - name: "Chicken Avocado Melt"
+      image: "../food_images/chicken_avocado_melt.png"
+      protein: 40.5
+      carbs: 47.5
+      fat: 47
+      calories: 774
+      description: "A delicious Chicken Avocado Melt sandwich."
+      ingredients:
+        - name: "Ciabatta Roll"
+          amount: 1
+          unit: "piece"
+        - name: "Chicken Breasts"
+          amount: 120
+          unit: "g"
+        - name: "Smoked Gouda Cheese"
+          amount: 20
+          unit: "g"
+        - name: "Avocado"
+          amount: 25
+          unit: "g"
+        - name: "Roasted Red Bell Pepper"
+          amount: 30
+          unit: "g"
+        - name: "Chipotle Aioli Dip & Spread"
+          amount: 50
+          unit: "g"
+  dinner:
+    - name: "White Rice"
+      image: "../food_images/rice.png"
+      protein: 2.6
+      carbs: 23
+      fat: 0.9
+      calories: 111
   snacks:
     - name: "Protein Granola - Nature Valley"
       image: "../food_images/protein-granola.png"
@@ -77,3 +211,76 @@ foods:
         - name: "Banana"
           amount: 1
           unit: "medium"
+    - name: "R.W. Knudsen Family Just Tart Cherry Juice"
+      image: "../food_images/tart_cherry_juice.jpg"
+      protein: 1
+      carbs: 18
+      fat: 0
+      calories: 72
+      description: "120 ml of R.W. Knudsen Family Just Tart Cherry Juice."
+      ingredients:
+        - name: "R.W. Knudsen Family Just Tart Cherry Juice"
+          amount: 120
+          unit: "ml"
+    - name: "Natural Pure Honey"
+      image: "../food_images/honey.jpg"
+      protein: 0
+      carbs: 5.7
+      fat: 0
+      calories: 21
+      description: "One teaspoon of natural pure honey."
+      ingredients:
+        - name: "Natural Pure Honey"
+          amount: 1
+          unit: "tsp"
+    - name: "Gold Standard Whey Protein"
+      image: "../food_images/gold_standard_protein.jpg"
+      protein: 24
+      carbs: 3
+      fat: 1
+      calories: 120
+      description: "One scoop (30g) of Gold Standard Whey Protein."
+      ingredients:
+        - name: "Gold Standard Whey Protein"
+          amount: 30
+          unit: "g"
+    - name: "Cottage Cheese Bowl with Walnuts"
+      image: "../food_images/cottage_cheese.png"
+      protein: 33
+      carbs: 12
+      fat: 25
+      calories: 402
+      description: "A nutritious bowl of low-fat cottage cheese topped with walnuts."
+      ingredients:
+        - name: "Low-fat Cottage Cheese"
+          amount: 480
+          unit: "g"
+        - name: "Walnuts"
+          amount: 30
+          unit: "g"
+    - name: "Milk Shake 1"
+      image: "../food_images/milk_shake_1.png"
+      protein: 41
+      carbs: 48
+      fat: 28
+      calories: 605
+      description: "A high-calorie milk shake with vanilla protein, banana, walnuts, chia seeds, almonds, and whole milk."
+      ingredients:
+        - name: "Vanilla Protein"
+          amount: 31
+          unit: "g"
+        - name: "Banana"
+          amount: 100
+          unit: "g"
+        - name: "Walnuts"
+          amount: 10
+          unit: "g"
+        - name: "Chia Seeds"
+          amount: 8
+          unit: "g"
+        - name: "Almonds"
+          amount: 15
+          unit: "g"
+        - name: "Whole Milk"
+          amount: 300
+          unit: "g"
