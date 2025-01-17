@@ -4,11 +4,7 @@
   link: foods/
 - name: Mealplan Generator
   link: mealplan_generator/mealplan_generator
-# - name: Suplements
-#   link: /
-# - name: Notes
-#   link: /
 - name: MealPlans
   link: mealplans/
 - name: Workouts
-  link: https://nikolaandro.github.io/Workouts_Page/
+  link: ../..

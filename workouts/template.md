@@ -7,8 +7,8 @@ date: 2022-12-09
 img_path: portfolio/masa.png
 img: masa.png
 thumbnail: masa.png
-canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/hybrid/
-url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/hybrid/
+canonical_url: "{{site.baseurl}}workouts/muscle_building/hybrid/"
+url: "{{site.baseurl}}workouts/muscle_building/hybrid/"
 alt: 
 has_coach: no
 project-date: December 2022

@@ -7,8 +7,8 @@ date: 2022-12-09
 img_path: portfolio/jacked.jpeg
 img: jacked.jpeg
 thumbnail: 
-canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/high-impact/
-url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/high-impact/
+canonical_url: "{{site.baseurl}}workouts/muscle_building/high-impact/"
+url: "{{site.baseurl}}workouts/muscle_building/high-impact/"
 alt: 
 has_coach: no
 project-date: Jun 2023

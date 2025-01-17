@@ -284,3 +284,25 @@ foods:
         - name: "Whole Milk"
           amount: 300
           unit: "g"
+    - name: "Apple"
+      image: "../food_images/apple.jpg"
+      protein: 0.5
+      carbs: 25
+      fat: 0.5
+      calories: 95
+      description: "A medium-sized apple."
+      ingredients:
+      - name: "Apple"
+        amount: 1
+        unit: "medium"
+    - name: "Mandarin Oranges"
+      image: "../food_images/mandarin_oranges.png"
+      protein: 0.6
+      carbs: 10
+      fat: 0
+      calories: 28
+      description: "A smaller serving of about 80 grams of mandarin oranges."
+      ingredients:
+      - name: "Mandarin Oranges"
+        amount: 80
+        unit: "g"

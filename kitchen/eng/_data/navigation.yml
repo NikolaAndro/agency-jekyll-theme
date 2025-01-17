@@ -7,4 +7,4 @@
 - name: Контакт
   link: /contact/
 - name: Назад
-  link: https://nikolaandro.github.io/Workouts_Page/
+  link: {{site.baseurl}}

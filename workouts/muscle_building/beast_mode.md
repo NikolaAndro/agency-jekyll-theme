@@ -7,8 +7,8 @@ date: 2022-06-24
 img_path: portfolio/beast_mode.png
 img: beast_mode.png
 thumbnail: beast_mode.png
-canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/bloody_hell/
-url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/bloody_hell/
+canonical_url: "{{site.baseurl}}workouts/muscle_building/bloody_hell/"
+url: "{{site.baseurl}}workouts/muscle_building/bloody_hell/"
 alt: 
 has_coach: no
 project-date: July 2022

@@ -2,8 +2,8 @@
 title: Shredding by Daniel
 subtitle: 3 weeks
 layout: page
-canonical_url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/shredding_by_daniel/
-url: https://nikolaandro.github.io/Workouts_Page/workouts/muscle_building/shredding_by_daniel/
+canonical_url: "{{site.baseurl}}workouts/muscle_building/shredding_by_daniel/"
+url: "{{site.baseurl}}workouts/muscle_building/shredding_by_daniel/"
 has_coach: "yes"
 coach_name: Daniel
 coach_last_name: Grundl
