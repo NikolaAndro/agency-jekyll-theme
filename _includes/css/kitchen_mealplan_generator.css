@@ -245,3 +245,234 @@
     border-radius: 5px 5px 0 0; /* Rounded corners at the top */
     z-index: 10; /* Ensure the banner is above other content */
 }
+
+
+
+/* Calorie Calculator */
+
+.panel2 {
+    background-color: #eeeeee;
+    padding: 20px;
+    border-right: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    border-left: 1px solid #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#calinputtable,
+#standardheightweight,
+#metricheightweight,
+table {
+    width: 100%;
+    max-width: 500px;
+}
+
+#calinputtable td,
+#standardheightweight td,
+#metricheightweight td,
+table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle; /* Vertically align text */
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-row input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    height: 100%; /* Ensure the input takes the full height of the row */
+}
+
+.input-row span {
+    white-space: nowrap;
+}
+
+.custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 2.5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+}
+
+.custom-select:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    padding: 2.5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #fed136;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #f0c117;
+}
+
+.cbcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.cbcontainer input[type="radio"] {
+    display: none; /* Hide the default radio button */
+}
+
+.rbmark {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+}
+
+.rbmark:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+input[type="radio"]:checked + .rbmark {
+    background-color: #66afe9;
+}
+
+input[type="radio"]:checked + .rbmark:after {
+    opacity: 1;
+}
+
+#ccsettingtitle {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#ccsettingcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inuickspan,
+.inuipoundspan {
+    margin-left: -40px;
+    color: #888;
+}
+
+.inuifootspan {
+    margin-left: -50px;
+    color: #888;
+  }
+.inuiinchspan{
+    margin-left: -65px;
+    color: #888;
+  }
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inuifoot {
+    padding-right: 38px;
+  }
+  .inhalf {
+    width: 110px;
+  }
+.inuipoundspan{
+    margin-left: -80px;
+    color: #888;
+}
+
+#topmenu ul {
+    color: #000;
+    border-bottom: 1px solid #bbbbbb;
+    margin: 12px 0px 0px 0px;
+    padding: 0 0 8px 0;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #topmenu ul li {
+    display: inline;
+    overflow: hidden;
+    list-style-type: none;
+    margin-left: 0px;
+  }
+
+  #topmenu ul li a, #topmenu ul li a:visited {
+    color: black;
+    background: #fed136;
+    border: 1px solid #fed136;
+    padding: 8px 5px 11px 5px;
+    margin: 0;
+    text-decoration: none;
+  }
+
+  #topmenu ul #menuon a {
+    color: #000;
+    background: #eee;
+    border: 1px solid #bbbbbb;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(187, 187, 187);
+    padding: 8px 5px 11px 5px;
+    margin: 0;
+    text-decoration: none;
+    border-bottom: 2px solid #eee;
+  }
+  #topmenu ul #menuon a:hover {
+    background: #eee;
+  }
+
+  #topmenu ul li a:hover {
+    background: #eee;
+    color: #000;
+  }

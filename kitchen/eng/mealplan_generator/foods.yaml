@@ -306,3 +306,14 @@ foods:
       - name: "Mandarin Oranges"
         amount: 80
         unit: "g"
+    - name: "Fish Oil"
+      image: "../food_images/fish_oil.jpg"
+      protein: 0
+      carbs: 0
+      fat: 1
+      calories: 10
+      description: "One softgel of fish oil."
+      ingredients:
+      - name: "Fish Oil"
+        amount: 1
+        unit: "softgel"

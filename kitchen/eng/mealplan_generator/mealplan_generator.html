@@ -6,9 +6,177 @@ lang: eng
 <div class="mealplan_generator_container" id="mealplan-page">
     <h1>Meal Plan Generator</h1>
     
-    <h2 style="text-align: left; font-weight: bold; margin-bottom: 20px;">STEP 1 :  Enter your daily macronutrient goals:</h2>
+    <h2 style="text-align: left; font-weight: bold; margin-bottom: 20px;">STEP 1 :  Calculate your BMR (Basic Metabolic Rate - he amount of energy expended per day at rest) :</h2>
+   
+    <div id="topmenu">
+        <ul>
+            <li id="menuon"><a onclick="return popMenu('standard',1);">US Units</a></li>
+            <li><a onclick="return popMenu('metric',1);">Metric Units</a></li>
+        </ul>
+    </div>
+    <div class="panel2" style="padding:10px;">
+        <form action="calorie-calculator.html" name="calform">
+            <table id="calinputtable" width="420">
+                <tr>
+                    <td width="50">Age</td>
+                    <td width="370">
+                        <div class="input-row">
+                            <input type="text" name="cage" id="cage" value="25" class="inhalf" onkeyup="iptfieldCheck(this, 'r', 'pn');">
+                            <span style="display: flex; align-items: center; height: 100%;">ages 15 - 80</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <div class="input-row">
+                            <label for="csex1" class="cbcontainer" style="margin-right: 10%;">
+                                <input type="radio" name="csex" id="csex1" value="m" checked>
+                                <span class="rbmark"></span> male
+                            </label>
+                            <label for="csex2" class="cbcontainer">
+                                <input type="radio" name="csex" id="csex2" value="f">
+                                <span class="rbmark"></span> female
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table width="420" id="standardheightweight" style="display: none;">
+                <tr>
+                    <td width="50">Height</td>
+                    <td width="370">
+                        <div class="input-container">
+                            <div class="input-row" style="margin-right: 30px !important;">
+                                <input type="text" name="cheightfeet" id="cheightfeet" value="5" class="inhalf inuifoot" onkeyup="iptfieldCheck(this, '', 'pzn');">
+                                <span class="inuifootspan">feet</span>
+                            </div>
+                            <div class="input-row">
+                                <input type="text" name="cheightinch" id="cheightinch" value="10" class="inhalf inuiinch" onkeyup="iptfieldCheck(this, '', 'pzn');">
+                                <span class="inuiinchspan">inches</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>
+                        <div class="input-row">
+                            <input type="text" name="cpound" id="cpound" value="165" class="infull inuipound" onkeyup="iptfieldCheck(this, 'r', 'pn');">
+                            <span class="inuipoundspan">pounds</span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table width="420" id="metricheightweight" style="display: block;">
+                <tr>
+                    <td width="50">Height</td>
+                    <td width="370">
+                        <div class="input-row">
+                            <input type="text" name="cheightmeter" id="cheightmeter" value="180" class="infull inuick" onkeyup="iptfieldCheck(this, 'r', 'pn');">
+                            <span class="inuickspan">cm</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr id="metricweight">
+                    <td>Weight</td>
+                    <td>
+                        <div class="input-row">
+                            <input type="text" name="ckg" id="ckg" value="65" class="infull inuick" onkeyup="iptfieldCheck(this, 'r', 'pn');">
+                            <span class="inuickspan">kg</span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table width="500">
+                <tr>
+                    <td width="50">Activity</td>
+                    <td width="450">
+                        <div class="custom-select-wrapper">
+                            <select id="cactivity" name="cactivity" class="custom-select">
+                                <option value="1">Basal Metabolic Rate (BMR)</option>
+                                <option value="1.2">Sedentary: little or no exercise</option>
+                                <option value="1.375">Light: exercise 1-3 times/week</option>
+                                <option value="1.465" selected>Moderate: exercise 4-5 times/week</option>
+                                <option value="1.55">Active: daily exercise or intense exercise 3-4 times/week</option>
+                                <option value="1.725">Very Active: intense exercise 6-7 times/week</option>
+                                <option value="1.9">Extra Active: very intense exercise daily, or physical job</option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50">&nbsp;</td>
+                    <td width="450">
+                        <div id="ccsettingtitle" style="margin: 10px 0;">
+                            <b><a id="settingsToggle" onclick="return cshmoreoption(1);">+ Settings</a></b>
+                        </div>
+                        <div id="ccsettingcontent" style="display: none;">
+                            <input type="hidden" name="cmop" id="cmoreoption" value="0">
+                            <div style="padding-top:15px;"><b>BMR estimation formula:</b></div>
+                            <div>
+                                <div class="input-row" style="justify-content: left;"><label for="cformula1" class="cbcontainer" style="margin-bottom: 0px;"><input type="radio" name="cformula" id="cformula1" value="m" checked><span class="rbmark"></span> Mifflin St Jeor</label></div>
+                                <div class="input-row" style="justify-content: left;"><label for="cformula3" class="cbcontainer" style="margin-bottom: 0px;"><input type="radio" name="cformula" id="cformula3" value="h"><span class="rbmark"></span> Revised Harris-Benedict</label></div>
+                                <div class="input-row" style="justify-content: left;">
+                                    <label for="cformula2" class="cbcontainer" style="margin-bottom: 0px;">
+                                        <input type="radio" name="cformula" id="cformula2" value="k">
+                                        <span class="rbmark"></span> Katch-McArdle
+                                    </label> 
+                                    &nbsp;&nbsp;&nbsp; 
+                                    <a href="/body-fat-calculator.html">
+                                        Body Fat:
+                                    </a> 
+                                    &nbsp;&nbsp;
+                                    <input type="text" name="cfatpct" value="20" onkeyup="iptfieldCheck(this, '', 'pn');">                                        
+                                    <span class="inuickspan">%</span> 
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50">&nbsp;</td>
+                    <td width="450">
+                        <input name="printit" value="0" type="hidden">
+                        <input type="hidden" name="ctype" id="ctype" value="metric">
+                        <div style="display: flex; gap: 10px;">
+                            <input type="submit" name="x" value="Calculate" style="color: black; font-weight: bold;" onclick="calculateBMR(event);">
+                            <input type="button" value="Clear" onclick="clearForm(document.calform);" style="background-color: #444;font-weight: bold;">
+                        </div>
+                        <div id="bmr-result" style="margin-top: 20px; font-size: 18px; font-weight: bold;"></div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+    <h2 style="text-align: left; font-weight: bold; margin-bottom: 20px;">STEP 2 :  Enter your daily macronutrient goals:</h2>
+
+    
 
     <form id="macro-form">
+        <div style="margin-bottom: 20px; display: flex; align-items: center; justify-content: center;">
+            <label for="calorie-goal" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 200px; margin-right: 10px;">Calorie Goal (kcal):</label>
+            <input type="number" id="calorie-goal" name="calorie-goal" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 150px;">
+            <button type="button" id="get-suggestions" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; margin-left: 20px; background-color: #f0c117; color: black; font-weight: bold;" onclick="getSuggestions()">Get Suggestions</button>
+        </div>
+        <div style="width: 100%; display: flex; justify-content: center;">
+            <table style="background-color: #f0f0f0; width: 80%; margin-bottom: 20px; border-collapse: collapse;">
+            <tr>
+                <td style="padding: 10px; text-align: center; font-size: 14px; font-weight: bold;">Protein Instructions:</td>
+                <td style="padding: 10px; text-align: center; font-size: 14px;">1 g of protein per lb of body mass</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; text-align: center; font-size: 14px; font-weight: bold;">Fat Instructions:</td>
+                <td style="padding: 10px; text-align: center; font-size: 14px;">0.3 g of fat per lb of body weight at minimum</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; text-align: center; font-size: 14px; font-weight: bold;">Carbs Instructions:</td>
+                <td style="padding: 10px; text-align: center; font-size: 14px;">The rest are carbs</td>
+            </tr>
+            </table>
+        </div>
         <div style="margin-bottom: 40px; display: flex; align-items: flex-start; justify-content: center; min-width: 750px;">
             <div style="display: flex; align-items: center; margin-right: 20px;">
                 <label for="protein" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Protein Goal (g):</label>
@@ -23,7 +191,23 @@ lang: eng
                 <input type="number" id="fat" name="fat" aria-describedby="fat-helper" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 100px;">
             </div>
         </div>
-        <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+        <div style="margin-bottom: 40px; display: flex; align-items: flex-start; justify-content: center; min-width: 750px;">
+            <div style="display: flex; align-items: center; margin-right: 90px;">
+                <label for="protein-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Protein (%):</label>
+                <span id="protein-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px;">0%</span>
+            </div>
+            <div style="display: flex; align-items: center; margin-right: 90px;">
+                <label for="carbs-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Carbs (%):</label>
+                <span id="carbs-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px;">0%</span>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <label for="fat-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Fat (%):</label>
+                <span id="fat-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px;">0%</span>
+            </div>
+        </div>
+
+
+        <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 50px;">
             <label for="calories" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 18px; font-weight: bold; margin-right: 20px;">Total Calories Goal:</label>
             <span id="total-calories" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 18px; font-weight: bold; margin-left: 10px;">0</span>
         </div>
@@ -31,7 +215,7 @@ lang: eng
 
     <!-- Section that displays all meals for breakfast, lunchm dinner, and snacks -->
     <div id="meal-selections">
-        <h2 style="text-align: left; font-weight: bold; margin-bottom: 20px;">STEP 2 : Select your meals:</h2>
+        <h2 style="text-align: left; font-weight: bold; margin-bottom: 20px;">STEP 3 : Select your meals:</h2>
         <div class="meal-category">
             <h3>Breakfast</h3>
             <div class="meal-options" id="breakfast-options">
@@ -312,4 +496,218 @@ lang: eng
             }
         });
     });
+</script>
+
+<script>
+    function cshmoreoption(toggle) {
+        var content = document.getElementById('ccsettingcontent');
+        var moreOption = document.getElementById('cmoreoption');
+        var settingsToggle = document.getElementById('settingsToggle');
+
+        if (toggle) {
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                moreOption.value = '1';
+                settingsToggle.textContent = '- Settings';
+            } else {
+                content.style.display = 'none';
+                moreOption.value = '0';
+                settingsToggle.textContent = '+ Settings';
+            }
+        }
+        return false; // Prevent default link behavior
+    }
+</script>
+
+
+<!-- Selecting metric units -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var menuItems = document.querySelectorAll("#topmenu ul li a");
+
+        menuItems.forEach(function(item) {
+            item.addEventListener("click", function(event) {
+                event.preventDefault(); // Prevent default link behavior
+
+                // Remove the 'menuon' id from the currently active item
+                var activeItem = document.querySelector("#topmenu ul #menuon");
+                if (activeItem) {
+                    activeItem.removeAttribute("id");
+                }
+
+                // Set the 'menuon' id to the clicked item
+                this.parentElement.setAttribute("id", "menuon");
+
+                // Call the popMenu function with the appropriate parameters
+                var unitType = this.getAttribute("onclick").match(/'([^']+)'/)[1];
+                var unitValue = this.getAttribute("onclick").match(/,(\d+)\)/)[1];
+                popMenu(unitType, unitValue);
+            });
+        });
+
+        // Set the initial state
+        popMenu('standard', 1);
+    });
+
+    function popMenu(unitType, unitValue) {
+        var standardTable = document.getElementById('standardheightweight');
+        var metricTable = document.getElementById('metricheightweight');
+
+        if (unitType === 'standard') {
+            standardTable.style.display = 'block';
+            metricTable.style.display = 'none';
+        } else if (unitType === 'metric') {
+            standardTable.style.display = 'none';
+            metricTable.style.display = 'block';
+        }
+
+        return false; // Prevent default link behavior
+    }
+</script>
+
+<script>
+
+    function getSuggestions() { 
+        const calorieGoal = parseFloat(document.getElementById('calorie-goal').value);
+        const weightPounds = parseFloat(document.getElementById('cpound').value) || parseFloat(document.getElementById('ckg').value) * 2.20462;
+
+        if (isNaN(calorieGoal) || isNaN(weightPounds)) {
+            alert('Please enter valid values for calorie goal and weight.');
+            return;
+        }
+
+        const proteinGoal = weightPounds; // 1 g of protein per lb of body mass
+        const fatGoal = weightPounds * 0.3; // 0.3 g of fat per lb of body weight
+        const proteinCalories = proteinGoal * 4;
+        const fatCalories = fatGoal * 9;
+        const carbsCalories = calorieGoal - (proteinCalories + fatCalories);
+        const carbsGoal = carbsCalories / 4;
+
+        // Display macro goals
+        document.getElementById('protein').value = proteinGoal.toFixed(2);
+        document.getElementById('fat').value = fatGoal.toFixed(2);
+        document.getElementById('carbs').value = carbsGoal.toFixed(2);
+        document.getElementById('total-calories').textContent = calorieGoal.toFixed(2);
+
+        updatePercentages(calorieGoal);
+    }
+
+    function updatePercentages(calorieGoal) {
+        console.log('Updating percentages');
+        const protein = parseFloat(document.getElementById('protein').value) || 0;
+        const carbs = parseFloat(document.getElementById('carbs').value) || 0;
+        const fat = parseFloat(document.getElementById('fat').value) || 0;
+
+        const proteinPercentage = ((protein * 4) / calorieGoal) * 100;
+        const carbsPercentage = ((carbs * 4) / calorieGoal) * 100;
+        const fatPercentage = ((fat * 9) / calorieGoal) * 100;
+
+        document.getElementById('protein-percentage').textContent = proteinPercentage.toFixed(2) + '%';
+        document.getElementById('carbs-percentage').textContent = carbsPercentage.toFixed(2) + '%';
+        document.getElementById('fat-percentage').textContent = fatPercentage.toFixed(2) + '%';
+    }
+
+    document.getElementById('protein').addEventListener('input', function() {
+        updatePercentages(parseFloat(document.getElementById('calorie-goal').value));
+    });
+    document.getElementById('carbs').addEventListener('input', function() {
+        updatePercentages(parseFloat(document.getElementById('calorie-goal').value));
+    });
+    document.getElementById('fat').addEventListener('input', function() {
+        updatePercentages(parseFloat(document.getElementById('calorie-goal').value));
+    });
+            
+
+    function calculateBMR(event) {
+        event.preventDefault(); // Prevent form submission
+
+        const age = parseFloat(document.getElementById('cage').value);
+        const gender = document.querySelector('input[name="csex"]:checked').value;
+        const formula = document.querySelector('input[name="cformula"]:checked').value;
+        const unitType = document.querySelector('#topmenu ul #menuon a').getAttribute('onclick').match(/'([^']+)'/)[1];
+        const activityFactor = parseFloat(document.getElementById('cactivity').value);
+
+        let weight, height, bodyFat;
+        if (unitType === 'standard') {
+            const weightPounds = parseFloat(document.getElementById('cpound').value);
+            const heightFeet = parseFloat(document.getElementById('cheightfeet').value);
+            const heightInches = parseFloat(document.getElementById('cheightinch').value);
+
+            // Validation checks for standard units
+            if (isNaN(weightPounds) || isNaN(heightFeet) || isNaN(heightInches)) {
+                alert('Please enter valid values for weight, height (feet and inches).');
+                return;
+            }
+
+            weight = weightPounds * 0.453592; // Convert pounds to kg
+            height = (heightFeet * 12 + heightInches) * 2.54; // Convert feet and inches to cm
+        } else {
+            weight = parseFloat(document.getElementById('ckg').value);
+            height = parseFloat(document.getElementById('cheightmeter').value);
+
+            // Validation checks for metric units
+            if (isNaN(weight) || isNaN(height)) {
+                alert('Please enter valid values for weight and height.');
+                return;
+            }
+        }
+
+        // Validation check for age
+        if (isNaN(age)) {
+            alert('Please enter a valid age.');
+            return;
+        }
+
+        if (formula === 'k') {
+            bodyFat = parseFloat(document.querySelector('input[name="cfatpct"]').value) / 100;
+
+            // Validation check for body fat percentage
+            if (isNaN(bodyFat)) {
+                alert('Please enter a valid body fat percentage.');
+                return;
+            }
+        }
+
+        let bmr;
+        if (formula === 'm') {
+            // Mifflin-St Jeor Equation
+            if (gender === 'm') {
+                bmr = 10 * weight + 6.25 * height - 5 * age + 5;
+            } else {
+                bmr = 10 * weight + 6.25 * height - 5 * age - 161;
+            }
+        } else if (formula === 'h') {
+            // Revised Harris-Benedict Equation
+            if (gender === 'm') {
+                bmr = 13.397 * weight + 4.799 * height - 5.677 * age + 88.362;
+            } else {
+                bmr = 9.247 * weight + 3.098 * height - 4.330 * age + 447.593;
+            }
+        } else if (formula === 'k') {
+            // Katch-McArdle Formula
+            bmr = 370 + 21.6 * (1 - bodyFat) * weight;
+        }
+
+        // Multiply BMR by activity factor to get maintenance calories
+        const maintenanceCalories = bmr * activityFactor;
+
+        // Display the results
+        document.getElementById('bmr-result').innerHTML = `
+            Your BMR is ${bmr.toFixed(2)} calories/day.<br>
+            Your maintenance is ${maintenanceCalories.toFixed(2)} calories/day.<br>
+        `;
+    }
+
+    function clearForm(form) {
+        form.reset();
+        document.getElementById('bmr-result').textContent = '';
+
+        // Clear specific input fields
+        document.getElementById('cage').value = '';
+        document.getElementById('cpound').value = '';
+        document.getElementById('cheightfeet').value = '';
+        document.getElementById('cheightinch').value = '';
+        document.getElementById('ckg').value = '';
+        document.getElementById('cheightmeter').value = '';
+    }
 </script>
