@@ -62,6 +62,28 @@ foods:
         - name: "Granola"
           amount: 30
           unit: "g"
+    - name: "Croissant"
+      image: "../food_images/croissant.jpg"
+      protein: 8.2
+      carbs: 46
+      fat: 21
+      calories: 406
+      description: "A buttery and flaky croissant."
+      ingredients:
+        - name: "Croissant"
+          amount: 1
+          unit: "piece"
+    - name: "Cereal - Cinnamon Toast Crunch"
+      image: "../food_images/cinnamon_toast_crunch.jpeg"
+      protein: 1.7
+      carbs: 24
+      fat: 3.2
+      calories: 127
+      description: "One cup (31g) of Cinnamon Toast Crunch cereal."
+      ingredients:
+        - name: "Cinnamon Toast Crunch"
+          amount: 31
+          unit: "g"
   lunch:
     - name: "Chicken Breast"
       image: "../food_images/chicken_breast.png"
@@ -170,6 +192,28 @@ foods:
         - name: "Chipotle Aioli Dip & Spread"
           amount: 50
           unit: "g"
+    - name: "White Rice"
+      image: "../food_images/rice.png"
+      protein: 2.6
+      carbs: 23
+      fat: 0.9
+      calories: 111
+      description: "One cup (158g) of cooked white rice."
+      ingredients:
+        - name: "White Rice"
+          amount: 158
+          unit: "g"
+    - name: "Beets"
+      image: "../food_images/beets.jpg"
+      protein: 1.7
+      carbs: 10
+      fat: 0.2
+      calories: 44
+      description: "A serving of 100g of beets."
+      ingredients:
+        - name: "Beets"
+          amount: 100
+          unit: "g"
   dinner:
     - name: "White Rice"
       image: "../food_images/rice.png"
@@ -177,6 +221,35 @@ foods:
       carbs: 23
       fat: 0.9
       calories: 111
+      description: "One cup (158g) of cooked white rice."
+      ingredients:
+        - name: "White Rice"
+          amount: 158
+          unit: "g"
+    - name: "Beets"
+      image: "../food_images/beets.jpg"
+      protein: 1.7
+      carbs: 10
+      fat: 0.2
+      calories: 44
+      description: "A serving of 100g of beets."
+      ingredients:
+        - name: "Beets"
+          amount: 100
+          unit: "g"
+    - name: "Jack's Pepperoni Pizza"
+      image: "../food_images/jacks_pizza.jpg"
+      protein: 48.5
+      carbs: 106.1
+      fat: 45.5
+      calories: 1030.3
+      description: "One whole Jack's Pizza."
+      ingredients:
+        - name: "Jack's Pizza"
+          amount: 1
+          unit: "whole pizza"
+    
+    
   snacks:
     - name: "Protein Granola - Nature Valley"
       image: "../food_images/protein-granola.png"
@@ -317,3 +390,14 @@ foods:
       - name: "Fish Oil"
         amount: 1
         unit: "softgel"
+    - name: "Ice Cream - Dirt Cake by Ben & Jerry's"
+      image: "../food_images/ice_cream_dirt_cake.jpeg"
+      protein: 16
+      carbs: 140
+      fat: 69
+      calories: 1220
+      description: "A pint of Ben & Jerry's Dirt Cake ice cream."
+      ingredients:
+      - name: "Ice Cream - Dirt Cake by Ben & Jerry's"
+        amount: 1
+        unit: "pint"

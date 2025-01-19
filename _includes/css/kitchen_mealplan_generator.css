@@ -201,11 +201,11 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 300px; /* Adjust the width as needed */
+    width: 400px; /* Adjust the width as needed */
     height: 100%;
     overflow-y: auto; /* Enable scrolling within the sidebar if needed */
     background-color: #f8f9fa; /* Background color for the sidebar */
-    padding: 20px;
+    padding: 120px 20px 20px 20px;
     box-shadow: -2px 0 5px rgba(0,0,0,0.1); /* Optional: Add a shadow for better visibility */
     z-index: 1000; /* Ensure the sidebar is above other content */
     display: flex;
@@ -219,7 +219,8 @@
     margin-top: 20px;
 }
 
-.aggregated-values h3 {
+.aggregated-values h3 ,
+.selected-foods h3{
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
@@ -230,12 +231,62 @@
     font-size: 16px;
 }
 
+/* Sidebar Table Styles */
+.selected-foods table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.selected-foods th, .selected-foods td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.selected-foods th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.selected-foods td {
+    background-color: #fff;
+    color: #333;
+}
+
+.selected-foods tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.selected-foods tr:hover {
+    background-color: #f1f1f1;
+}
+
+.selected-foods th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.selected-foods td {
+    text-align: center;
+}
+
+.selected-foods h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 .exceeds-goal-banner {
     position: absolute;
     top: 20%;
-    left: 0;
-    width: 100%;
-    /* background-color: red; */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
     font-size: 14px;
     background-color: rgba(255, 0, 0, 0.5);
     color: black;
@@ -245,7 +296,6 @@
     border-radius: 5px 5px 0 0; /* Rounded corners at the top */
     z-index: 10; /* Ensure the banner is above other content */
 }
-
 
 
 /* Calorie Calculator */
@@ -476,3 +526,38 @@ input[type="radio"]:checked + .rbmark:after {
     background: #eee;
     color: #000;
   }
+
+
+
+  #grocery-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#grocery-list table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%; /* Adjust the width as needed */
+}
+
+#grocery-list th, #grocery-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#grocery-list th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+#grocery-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#grocery-list tr:hover {
+    background-color: #f1f1f1;
+}
