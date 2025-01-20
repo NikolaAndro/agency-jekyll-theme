@@ -1,0 +1,159 @@
+/* Styles for the step heading */
+.step-heading {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styles for the days input container */
+.days-input-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles for the days label */
+.days-label {
+    font-size: 14px;
+    width: 200px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styles for the days input */
+.days-input {
+    font-size: 14px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Styles for the generate button */
+.generate-button {
+    font-size: 14px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: #f0c117;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.generate-button i {
+    position: absolute;
+    left: 10px;
+}
+
+/* Styles for the grocery list */
+.grocery-list {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styles for the grocery buttons container */
+.grocery-buttons-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Styles for the grocery buttons */
+.grocery-button {
+    font-size: 14px;
+    padding: 10px 30px;
+    background-color: #f0c117;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.grocery-button i {
+    position: absolute;
+    left: 10px;
+}
+
+#grocery-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#grocery-list table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%; 
+}
+
+#grocery-list th, #grocery-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#grocery-list th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+#grocery-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#grocery-list tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .days-input-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .days-label,
+    .days-input,
+    .generate-button {
+        width: 100%;
+        max-width: 300px;
+        margin: 5px 0;
+        font-size: 20px;
+    }
+
+    .grocery-buttons-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grocery-button {
+        width: 100%;
+        max-width: 300px;
+        margin: 5px 0;
+        font-size: 16px;
+        padding: 10px 0px 10px 30px;
+    }
+
+    #grocery-list th, #grocery-list td {
+        font-size: 1.2em;
+    }
+}

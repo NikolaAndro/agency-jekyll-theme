@@ -1,0 +1,73 @@
+/* Sidebar Table Styles */
+.selected-foods-sidebar h3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sidebar-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.sidebar-table th, .sidebar-table td {
+    border: 1px solid #ddd;
+    padding: 6px; /* Adjust padding for sidebar */
+    text-align: center;
+    font-size: 12px; /* Adjust font size for sidebar */
+}
+
+.sidebar-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+.sidebar-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.sidebar-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.sidebar-table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.aggregated-values {
+    margin-top: 20px;
+}
+
+.aggregated-values h3{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.aggregated-values p {
+    margin: 5px 0;
+    font-size: 26px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .sidebar-table td {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        padding: 4px; /* Adjust padding for smaller screens */
+    }
+
+    .sidebar-table th{
+        font-size: 28px;
+        padding: 4px;
+    }
+}

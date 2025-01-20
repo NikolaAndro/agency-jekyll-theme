@@ -261,43 +261,6 @@ input[type="radio"]:checked + .rbmark:after {
     color: #000;
   }
 
-
-
-  #grocery-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#grocery-list table {
-    margin: 0 auto;
-    border-collapse: collapse;
-    width: 80%; 
-}
-
-#grocery-list th, #grocery-list td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-}
-
-#grocery-list th {
-    background-color: #f2f2f2;
-    color: #333;
-    font-weight: bold;
-}
-
-#grocery-list tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-#grocery-list tr:hover {
-    background-color: #f1f1f1;
-}
-
-
-
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     h2 {

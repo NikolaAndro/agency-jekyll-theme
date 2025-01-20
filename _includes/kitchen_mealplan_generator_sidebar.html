@@ -7,28 +7,15 @@
         <p>Calories: <span id="total-aggregated-calories">0</span> kcal</p>
     </div>
     
-    <div class="selected-foods">
+    <div class="selected-foods-sidebar">
         <h3>Selected Foods</h3>
-        <table>
+        <table class="sidebar-table">
             <tr>
-                <th style="text-align: center;">Breakfast</th>
+                <th>Breakfast</th>
             </tr>
             <tr>
                 <td>
-                    <table id="selected-breakfast">
-                        <tr>
-                            <th style="width: 50% !important; text-align: center;">Quantity</th>
-                            <th style="width: 50% !important; text-align: center;">Food</th>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <th style="text-align: center;">Lunch</th>
-            </tr>
-            <tr>
-                <td>
-                    <table id="selected-lunch">
+                    <table id="selected-breakfast" class="sidebar-table">
                         <tr>
                             <th>Quantity</th>
                             <th>Food</th>
@@ -37,11 +24,11 @@
                 </td>
             </tr>
             <tr>
-                <th style="text-align: center;">Dinner</th>
+                <th>Lunch</th>
             </tr>
             <tr>
                 <td>
-                    <table id="selected-dinner">
+                    <table id="selected-lunch" class="sidebar-table">
                         <tr>
                             <th>Quantity</th>
                             <th>Food</th>
@@ -50,11 +37,24 @@
                 </td>
             </tr>
             <tr>
-                <th style="text-align: center;">Snacks</th>
+                <th>Dinner</th>
             </tr>
             <tr>
                 <td>
-                    <table id="selected-snacks">
+                    <table id="selected-dinner" class="sidebar-table">
+                        <tr>
+                            <th>Quantity</th>
+                            <th>Food</th>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <th>Snacks</th>
+            </tr>
+            <tr>
+                <td>
+                    <table id="selected-snacks" class="sidebar-table">
                         <tr>
                             <th>Quantity</th>
                             <th>Food</th>

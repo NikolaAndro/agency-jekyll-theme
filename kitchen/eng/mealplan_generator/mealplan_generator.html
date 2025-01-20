@@ -259,25 +259,33 @@ lang: eng
             <span class="close">&times;</span>
             <h2>Enter Quantity</h2>
             <div style="margin-bottom: 10px; display: flex; align-items: center; justify-content: center; max-width: 300px; margin: 0 auto;">
-                <input type="number" id="quantityInput" min="0.1" step="0.1" value="1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; margin-right: 10px;">
+                <input type="number" id="quantityInput" min="0.1" step="0.1" value="1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required inputmode="numeric" style="font-size: 14px; margin-right: 10px;">
                 <button id="quantitySubmit" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; width: 100px; background-color: #fed136; margin-left: 20px;">Add</button>
             </div>
         </div>
     </div>
 
-    <h2 style="text-align: left; font-weight: bold; margin-bottom: 20px;">STEP 4 : Generate your grocery list:</h2>
-    <div style="margin-bottom: 20px; display: flex; align-items: center; justify-content: center;">
-        <label for="days" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 200px; margin-right: 10px;">Number of Days:</label>
-        <input type="number" id="days" name="days" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 150px;">
-        <button type="button" id="generate-grocery-list" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; margin-left: 20px; background-color: #f0c117; color: black; font-weight: bold;" onclick="generateGroceryList()">Generate Grocery List</button>
+    <h2 class="step-heading">STEP 4 : Generate your grocery list:</h2>
+    <div class="days-input-container">
+        <label for="days" class="days-label">Number of Days:</label>
+        <input type="number" id="days" name="days" class="days-input" required inputmode="numeric">
+        <button type="button" id="generate-grocery-list" class="generate-button" onclick="generateGroceryList()">
+            <i class="fas fa-list"></i> Generate Grocery List
+        </button>
     </div>
-    <div id="grocery-list" style="margin-top: 20px; font-size: 18px; font-weight: bold;"></div>
-    <div style="margin-top: 20px; display: flex; justify-content: center; gap: 20px;">
-        <button type="button" id="print-grocery-list" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; background-color: #f0c117; color: black; font-weight: bold;" onclick="printGroceryList()">Print Grocery List</button>
-        <button type="button" id="export-grocery-list" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; background-color: #f0c117; color: black; font-weight: bold;" onclick="exportGroceryList()">Export Grocery List</button>
-        <button type="button" id="open-grocery-list" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; background-color: #f0c117; color: black; font-weight: bold;" onclick="openGroceryList()">Open Grocery List in New Tab</button>
+    <div id="grocery-list" class="grocery-list"></div>
+    <div class="grocery-buttons-container">
+        <button type="button" id="print-grocery-list" class="grocery-button" onclick="printGroceryList()">
+            <i class="fas fa-print"></i> Print Grocery List
+        </button>
+        <button type="button" id="share-grocery-list" class="grocery-button" onclick="exportGroceryList()">
+            <i class="fas fa-share-alt"></i> Share Grocery List
+        </button>
+        <button type="button" id="open-grocery-list" class="grocery-button" onclick="openGroceryList()">
+            <i class="fas fa-external-link-alt"></i> Open Grocery List in New Tab
+        </button>
     </div>
-    
+
     <script>
         function generateGroceryList() {
             const days = parseFloat(document.getElementById('days').value);
@@ -306,10 +314,11 @@ lang: eng
             });
     
             const groceryListDiv = document.getElementById('grocery-list');
-            groceryListDiv.innerHTML = '<h3>Grocery List:</h3>';
+            groceryListDiv.innerHTML = '<h3 style="margin-bottom:20px">Grocery List:</h3>';
             const table = document.createElement('table');
             table.style.width = '100%';
             table.style.borderCollapse = 'collapse';
+            table.style.minWidth = '100%'; // Ensure table is full width on phone size
             const thead = document.createElement('thead');
             thead.innerHTML = '<tr><th>Ingredient</th><th>Quantity</th><th>Unit</th></tr>';
             table.appendChild(thead);
@@ -402,61 +411,73 @@ lang: eng
         }
 
         function openGroceryList() {
-        const groceryListDiv = document.getElementById('grocery-list');
-        const rows = groceryListDiv.querySelectorAll('table tbody tr');
-        const tableContent = Array.from(rows)
-            .map(row => {
-                const cells = row.querySelectorAll('td');
-                return `<tr>
-                            <td>${cells[1].innerText}</td>
-                            <td>${cells[2].innerText}</td>
-                            <td>${cells[0].innerText}</td>
-                            <td><input type="checkbox"></td>
-                        </tr>`;
-            })
-            .join('');
+            const groceryListDiv = document.getElementById('grocery-list');
+            const rows = groceryListDiv.querySelectorAll('table tbody tr');
+            const tableContent = Array.from(rows)
+                .map(row => {
+                    const cells = row.querySelectorAll('td');
+                    return `<tr>
+                                <td>${cells[1].innerText}</td>
+                                <td>${cells[2].innerText}</td>
+                                <td>${cells[0].innerText}</td>
+                                <td><input type="checkbox" style="transform: scale(2);"></td>
+                            </tr>`;
+                })
+                .join('');
 
-        const newTab = window.open('', '_blank');
-        newTab.document.write(`
-            <html>
-            <head>
-                <title>Grocery List</title>
-                <style>
-                    table {
-                        width: 100%;
-                        border-collapse: collapse;
-                    }
-                    th, td {
-                        border: 1px solid #ddd;
-                        padding: 8px;
-                        text-align: center;
-                    }
-                    th {
-                        background-color: #f2f2f2;
-                        font-weight: bold;
-                    }
-                </style>
-            </head>
-            <body>
-                <h3>Grocery List</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Quantity</th>
-                            <th>Unit</th>
-                            <th>Food Name</th>
-                            <th>Check</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        ${tableContent}
-                    </tbody>
-                </table>
-            </body>
-            </html>
-        `);
-        newTab.document.close();
-    }
+            const newTab = window.open('', '_blank');
+            newTab.document.write(`
+                <html>
+                <head>
+                    <title style="margin-bottom: 20px">Grocery List</title>
+                    <style>
+                        table {
+                            min-width: 100%;
+                            border-collapse: collapse;
+                        }
+                        th, td {
+                            border: 1px solid #ddd;
+                            padding: 8px;
+                            text-align: center;
+                            font-size: 1.6em;
+                        }
+                        th {
+                            background-color: #f2f2f2;
+                            font-weight: bold;
+                            font-size: 1.8em;
+                        }
+                        /* Media query for smaller screens */
+                        @media (max-width: 768px) {
+                            table {
+                                min-width: 100%; /* Ensure table is full width */
+                            }
+                            th, td {
+                                font-size: 1.5em; /* Increase font size for table cells */
+                                padding: 10px; /* Increase padding for better touch experience */
+                            }
+                        }
+                    </style>
+                </head>
+                <body>
+                    <h3 style="margin-bottom:20px; tex-align: center; font-size: 3.5em">Grocery List</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Quantity</th>
+                                <th>Unit</th>
+                                <th>Food Name</th>
+                                <th>Check</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${tableContent}
+                        </tbody>
+                    </table>
+                </body>
+                </html>
+            `);
+            newTab.document.close();
+        }
 
     </script>
 </div>
