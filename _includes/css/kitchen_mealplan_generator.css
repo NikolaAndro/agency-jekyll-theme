@@ -214,6 +214,45 @@
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
     text-align: center; /* Center text */
+    transition: transform 0.3s ease;
+}
+
+.toggle-sidebar {
+    margin-top: 50px;
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1002;
+    background-color: #f0c117;
+    color: black;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .mealplan-generator-sidebar {
+        transform: translateX(-100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: white;
+        z-index: 1001;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+    }
+
+    .mealplan-generator-sidebar.expanded {
+        transform: translateX(0);
+    }
+
+    .toggle-sidebar {
+        display: block;
+    }
 }
 
 .aggregated-values {

@@ -17,13 +17,28 @@ kitchen-header {
         display: block;	
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+	kitchen-header{
+	width: 765px;
+}
+}
+
 .kitchen-image img {
 	max-width: 100%;
 }
 
 kitchen-a {
-	text-decoration: none;
-	color: #007eff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the parent element has a height */
+    text-align: center; /* Center text content if any */
+}
+
+kitchen-a img {
+    max-width: 100%;
+    height: auto;
 }
 
 /************************************************  NAVIGATION  ************************************************/
@@ -32,7 +47,7 @@ nav-kitchen {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	background: #222; //rgba(255, 255, 255, .9);
+	background: #222;
 	z-index: 999;
 	font-family: 'Fira Sans', sans-serif;
 }
@@ -70,7 +85,7 @@ nav-kitchen a.active:hover{
 /* Style the toggle button */
 #toggleNav {
   display: block;
-  background-color: #{{ site.data.template.color.secondary }};
+  background-color: #222; /* Replace with a valid color value */
   color: #fff;
   border: none;
   padding: 10px;
@@ -152,6 +167,14 @@ select::-ms-expand {
 	padding: 0 30px 50px 30px;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .kitchen-main-content {
+	padding: 0 10px 50px 10px;
+	width: 765px;
+  }
+}
+
 @media screen and (min-width: 900px) {
   .kitchen-main-content {
 		display: flex;
@@ -210,7 +233,7 @@ select::-ms-expand {
 .kitchen-sidebar .social-icons svg {
 	width: 25px;
 	height: 25px;
-	fill: $light-grey;
+	fill: light-grey;
 }
 
 @media screen and (min-width: 900px) {

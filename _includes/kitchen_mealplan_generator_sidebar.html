@@ -1,4 +1,4 @@
-<aside class="mealplan-generator-sidebar push">
+<aside class="mealplan-generator-sidebar push" id="sidebar">
     <div class="aggregated-values" style="margin-bottom: 30px;">
         <h3>Aggregated Nutrients</h3>
         <p>Protein: <span id="total-protein">0</span> g</p>
@@ -65,3 +65,15 @@
         </table>
     </div>
 </aside>
+<button id="toggle-sidebar" class="toggle-sidebar">☰</button>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const sidebar = document.getElementById('sidebar');
+        const toggleButton = document.getElementById('toggle-sidebar');
+
+        toggleButton.addEventListener('click', function() {
+            sidebar.classList.toggle('expanded');
+        });
+    });
+</script>
