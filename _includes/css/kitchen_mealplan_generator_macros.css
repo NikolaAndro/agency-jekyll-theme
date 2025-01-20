@@ -1,0 +1,255 @@
+#calorieGoalDiv{
+    margin-bottom: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#calorieGoalDiv label{
+    margin-bottom:15px;
+}
+
+/* Styles for the instructions container and table */
+.instructions-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.instructions-table {
+    background-color: #f0f0f0;
+    /* width: 80%; */
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.instructions-table td {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.instruction-title {
+    font-weight: bold;
+}
+
+/* Container for macro goals and percentages */
+.macro-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+/* Styles for macro goals and percentages */
+.macro-goals, .macro-percentages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.macro-goal, .macro-percentage {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.macro-label {
+    font-size: 14px;
+    width: 100%; 
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.macro-input {
+    font-size: 14px;
+    width: 100%; /* Ensure full width */
+    max-width: 300px; /* Optional: Set a max width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.macro-value {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styles for the total calories container */
+.total-calories-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* Styles for the total calories label */
+.total-calories-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #333;
+}
+
+/* Styles for the total calories value */
+.total-calories-value {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #333;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .instructions-table td {
+        font-size: 1.5em; /* Increase font size for table cells */
+        padding: 10px 3px 0px 10px !important; /* Increase padding for better touch experience */
+    }
+
+    .instructions-table{
+        min-width: 100%;
+    }
+
+    #calorieGoalDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #calorieGoalDiv input,
+    #calorieGoalDiv button {
+        width: 100%;
+        max-width: 300px;
+        margin: 5px 0;
+    }
+
+    #calorieGoalDiv button {
+        margin-left: 0 !important;
+        font-size: 1.95em !important;
+    }
+
+    #macro-form {
+        width: 100%;
+    }
+
+    #macro-form label {
+        font-size: 1.8em !important;
+        width: auto !important;
+        margin-right: 10px !important;
+    }
+
+    #macro-form input[type="number"] {
+        font-size: 2em !important;
+        padding: 10px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #get-suggestions {
+        font-size: 1.5em;
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    #macro-form table {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #macro-form table td {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    #macro-form .percentages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #macro-form .percentages div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    #macro-form .percentages label {
+        font-size: 1.5em;
+        width: auto;
+        margin-right: 10px;
+    }
+
+    #macro-form .percentages span {
+        font-size: 1.5em;
+    }
+
+    #macro-form .total-calories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #macro-form .total-calories label {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    #macro-form .total-calories span {
+        font-size: 1.5em;
+    }
+
+    .macro-container {
+        flex-wrap: nowrap; /* Prevent wrapping */
+        overflow-x: auto; /* Allow horizontal scrolling if needed */
+    }
+
+    .macro-goals, .macro-percentages {
+        margin-right: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .macro-goal, .macro-percentage {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .macro-label {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+        width: 100%; /* Ensure full width */
+        margin-bottom: 5px; /* Add margin for spacing */
+    }
+
+    .macro-input {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+        width: 100%; /* Ensure full width */
+        max-width: 100%; /* Ensure input fields do not exceed container width */
+        margin-bottom: 10px; /* Add margin for spacing */
+    }
+
+    .macro-value {
+        font-size: 2.8em; 
+        margin-bottom: 8px;
+    }
+
+    .total-calories-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .total-calories-label,
+    .total-calories-value {
+        font-size: 3.5em;
+        margin: 5px 0; 
+    }
+}

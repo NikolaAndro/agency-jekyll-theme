@@ -90,7 +90,7 @@ table td {
     -webkit-appearance: none;
     -moz-appearance: none;
     width: 100%;
-    padding: 2.5px;
+    padding: 2.5px 2.5px 2.5px 7.5px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;

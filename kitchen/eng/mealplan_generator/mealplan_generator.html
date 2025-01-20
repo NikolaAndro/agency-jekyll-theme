@@ -156,60 +156,62 @@ lang: eng
     
 
     <form id="macro-form">
-        <div style="margin-bottom: 20px; display: flex; align-items: center; justify-content: center;">
+        <div id="calorieGoalDiv">
             <label for="calorie-goal" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 200px; margin-right: 10px;">Calorie Goal (kcal):</label>
-            <input type="number" id="calorie-goal" name="calorie-goal" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 150px;">
+            <input type="number" id="calorie-goal" name="calorie-goal" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 150px;" inputmode="numeric">
             <button type="button" id="get-suggestions" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; margin-left: 20px; background-color: #f0c117; color: black; font-weight: bold;" onclick="getSuggestions()">Get Suggestions</button>
         </div>
-        <div style="width: 100%; display: flex; justify-content: center;">
-            <table style="background-color: #f0f0f0; width: 80%; margin-bottom: 20px; border-collapse: collapse;">
-            <tr>
-                <td style="padding: 10px; text-align: center; font-size: 14px; font-weight: bold;">Protein Instructions:</td>
-                <td style="padding: 10px; text-align: center; font-size: 14px;">1 g of protein per lb of body mass</td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; text-align: center; font-size: 14px; font-weight: bold;">Fat Instructions:</td>
-                <td style="padding: 10px; text-align: center; font-size: 14px;">0.3 g of fat per lb of body weight at minimum</td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; text-align: center; font-size: 14px; font-weight: bold;">Carbs Instructions:</td>
-                <td style="padding: 10px; text-align: center; font-size: 14px;">The rest are carbs</td>
-            </tr>
+
+        <div class="instructions-container">
+            <table class="instructions-table">
+                <tr>
+                    <td class="instruction-title">Protein Instructions:</td>
+                    <td class="instruction-detail">1 g of protein per lb of body mass</td>
+                </tr>
+                <tr>
+                    <td class="instruction-title">Fat Instructions:</td>
+                    <td class="instruction-detail">0.3 g of fat per lb of body weight at minimum</td>
+                </tr>
+                <tr>
+                    <td class="instruction-title">Carbs Instructions:</td>
+                    <td class="instruction-detail">The rest are carbs</td>
+                </tr>
             </table>
         </div>
-        <div style="margin-bottom: 40px; display: flex; align-items: flex-start; justify-content: center; min-width: 750px;">
-            <div style="display: flex; align-items: center; margin-right: 20px;">
-                <label for="protein" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Protein Goal (g):</label>
-                <input type="number" id="protein" name="protein" aria-describedby="protein-helper" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 100px;">
+        <div class="macro-container">
+            <div class="macro-goals">
+                <div class="macro-goal">
+                    <label for="protein" class="macro-label">Protein Goal (g):</label>
+                    <input type="number" id="protein" name="protein" aria-describedby="protein-helper" class="macro-input" required inputmode="numeric">
+                </div>
+                <div class="macro-goal">
+                    <label for="carbs" class="macro-label">Carbs Goal (g):</label>
+                    <input type="number" id="carbs" name="carbs" aria-describedby="carbs-helper" class="macro-input" required inputmode="numeric">
+                </div>
+                <div class="macro-goal">
+                    <label for="fat" class="macro-label">Fat Goal (g):</label>
+                    <input type="number" id="fat" name="fat" aria-describedby="fat-helper" class="macro-input" required inputmode="numeric">
+                </div>
             </div>
-            <div style="display: flex; align-items: center; margin-right: 20px;">
-                <label for="carbs" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Carbs Goal (g):</label>
-                <input type="number" id="carbs" name="carbs" aria-describedby="carbs-helper" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 100px;">
-            </div>
-            <div style="display: flex; align-items: center;">
-                <label for="fat" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Fat Goal (g):</label>
-                <input type="number" id="fat" name="fat" aria-describedby="fat-helper" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required style="font-size: 14px; width: 100px;">
-            </div>
-        </div>
-        <div style="margin-bottom: 40px; display: flex; align-items: flex-start; justify-content: center; min-width: 750px;">
-            <div style="display: flex; align-items: center; margin-right: 90px;">
-                <label for="protein-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Protein (%):</label>
-                <span id="protein-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px;">0%</span>
-            </div>
-            <div style="display: flex; align-items: center; margin-right: 90px;">
-                <label for="carbs-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Carbs (%):</label>
-                <span id="carbs-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px;">0%</span>
-            </div>
-            <div style="display: flex; align-items: center;">
-                <label for="fat-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px; width: 120px; margin-right: 10px;">Fat (%):</label>
-                <span id="fat-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 14px;">0%</span>
+            <div class="macro-percentages">
+                <div class="macro-percentage">
+                    <label for="protein-percentage" class="macro-label">Protein (%):</label>
+                    <span id="protein-percentage" class="macro-value">0%</span>
+                </div>
+                <div class="macro-percentage">
+                    <label for="carbs-percentage" class="macro-label">Carbs (%):</label>
+                    <span id="carbs-percentage" class="macro-value">0%</span>
+                </div>
+                <div class="macro-percentage">
+                    <label for="fat-percentage" class="macro-label">Fat (%):</label>
+                    <span id="fat-percentage" class="macro-value">0%</span>
+                </div>
             </div>
         </div>
 
-
-        <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 50px;">
-            <label for="calories" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 18px; font-weight: bold; margin-right: 20px;">Total Calories Goal:</label>
-            <span id="total-calories" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" style="font-size: 18px; font-weight: bold; margin-left: 10px;">0</span>
+        <div class="total-calories-container">
+            <label for="calories" class="total-calories-label">Total Calories Goal:</label>
+            <span id="total-calories" class="total-calories-value">0</span>
         </div>
     </form>
 

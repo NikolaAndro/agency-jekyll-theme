@@ -6,4 +6,5 @@
 {% include css/kitchen_recipe.css%}
 {% include css/kitchen_mealplan_generator.css %}
 {% include css/kitchen_mealplan_generator_bmr_calculator.css %}
+{% include css/kitchen_mealplan_generator_macros.css %}
 {{ content }}
