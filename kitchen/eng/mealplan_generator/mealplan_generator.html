@@ -247,7 +247,8 @@ lang: eng
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2 id="mealName"></h2>
-            <p id="mealDescription"></p>
+            <p id="mealDescription"></p><br>
+            <img id="mealDescriptionImage" src="" alt="Description Image" style="display: none; max-width: 100%; margin-top: 10px;">
         </div>
     </div>
 
@@ -330,14 +331,6 @@ lang: eng
             printWindow.print();
         }
     
-        // function exportGroceryList() {
-        //     const groceryListDiv = document.getElementById('grocery-list');
-        //     const text = groceryListDiv.innerText;
-        //     const encodedText = encodeURIComponent(text);
-        //     const signalUrl = `sgnl://send?text=${encodedText}`;
-        //     window.open(signalUrl, '_blank');
-        // }
-
         function exportGroceryList() {
     const groceryListDiv = document.getElementById('grocery-list');
 
@@ -443,47 +436,47 @@ function shareViaApp(app, encodedText) {
         fatInput.addEventListener('input', updateTotalCaloriesGoal);
 
         function displayFoods(foods) {
-        for (const [meal, items] of Object.entries(foods)) {
-            const mealOptions = document.getElementById(`${meal}-options`);
-            if (!mealOptions) {
-                console.error(`Element with ID ${meal}-options not found.`);
-                continue;
+            for (const [meal, items] of Object.entries(foods)) {
+                const mealOptions = document.getElementById(`${meal}-options`);
+                if (!mealOptions) {
+                    console.error(`Element with ID ${meal}-options not found.`);
+                    continue;
+                }
+                items.forEach(item => {
+                    const foodDiv = document.createElement('div');
+                    foodDiv.className = 'food-option';
+                    foodDiv.dataset.ingredients = JSON.stringify(item.ingredients); // Set data-ingredients attribute
+                    foodDiv.innerHTML = `
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <img src="${item.image}" alt="${item.name}">
+                        </div>
+                        <button class="description-button" data-name="${item.name}" data-description="${item.description}" data-description-image="${item.description_image || ''}">View Description</button>
+                        <p>${item.name}</p>
+                        <div class="macros">
+                            <p>Protein: ${item.protein} g</p>
+                            <p>Carbs: ${item.carbs} g</p>
+                            <p>Fat: ${item.fat} g</p>
+                            <p class="calories">Calories: ${item.calories} kcal</p>
+                        </div>
+                    `;
+                    mealOptions.appendChild(foodDiv);
+
+                    // Add click event listener to the button
+                    foodDiv.querySelector('.description-button').addEventListener('click', function() {
+                        showModal(this.dataset.name, this.dataset.description, this.dataset.descriptionImage);
+                    });
+
+                    // Add click event listener to the image
+                    foodDiv.querySelector('img').addEventListener('click', function() {
+                        if (foodDiv.querySelector('.exceeds-goal-banner')) {
+                            return; // Prevent selection if the banner is present
+                        }
+                        showQuantityModal(foodDiv, item);
+                    });
+                });
             }
-            items.forEach(item => {
-                const foodDiv = document.createElement('div');
-                foodDiv.className = 'food-option';
-                foodDiv.dataset.ingredients = JSON.stringify(item.ingredients); // Set data-ingredients attribute
-                foodDiv.innerHTML = `
-                    <div style="display: flex; justify-content: center; align-items: center;">
-                        <img src="${item.image}" alt="${item.name}">
-                    </div>
-                    <button class="description-button" data-name="${item.name}" data-description="${item.description}">View Description</button>
-                    <p>${item.name}</p>
-                    <div class="macros">
-                        <p>Protein: ${item.protein} g</p>
-                        <p>Carbs: ${item.carbs} g</p>
-                        <p>Fat: ${item.fat} g</p>
-                        <p class="calories">Calories: ${item.calories} kcal</p>
-                    </div>
-                `;
-                mealOptions.appendChild(foodDiv);
-
-                // Add click event listener to the button
-                foodDiv.querySelector('.description-button').addEventListener('click', function() {
-                    showModal(this.dataset.name, this.dataset.description);
-                });
-
-                // Add click event listener to the image
-                foodDiv.querySelector('img').addEventListener('click', function() {
-                    if (foodDiv.querySelector('.exceeds-goal-banner')) {
-                        return; // Prevent selection if the banner is present
-                    }
-                    showQuantityModal(foodDiv, item);
-                });
-            });
+            updateFoodOptions();
         }
-        updateFoodOptions();
-    }
 
         function updateFoodOptions() {
             document.querySelectorAll('.food-option').forEach(foodDiv => {
@@ -535,10 +528,19 @@ function shareViaApp(app, encodedText) {
             }
         });
     }
-        function showModal(name, description) {
+        function showModal(name, description, descriptionImage) {
             const modal = document.getElementById('mealModal');
             document.getElementById('mealName').textContent = name;
             document.getElementById('mealDescription').textContent = description;
+
+            const descriptionImageElement = document.getElementById('mealDescriptionImage');
+            if (descriptionImage) {
+                descriptionImageElement.src = descriptionImage;
+                descriptionImageElement.style.display = 'block';
+            } else {
+                descriptionImageElement.style.display = 'none';
+            }
+
             modal.style.display = 'block';
         }
 

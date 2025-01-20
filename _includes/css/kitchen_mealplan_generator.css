@@ -155,7 +155,7 @@
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 1000; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -173,6 +173,7 @@
     width: 80%; /* Could be more or less, depending on screen size */
     max-width: 600px;
     border-radius: 10px;
+    z-index: 1001; /* Ensure the modal content is above the modal background */
 }
 
 .modal-content h2{
