@@ -273,6 +273,7 @@ lang: eng
     <div style="margin-top: 20px; display: flex; justify-content: center; gap: 20px;">
         <button type="button" id="print-grocery-list" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; background-color: #f0c117; color: black; font-weight: bold;" onclick="printGroceryList()">Print Grocery List</button>
         <button type="button" id="export-grocery-list" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; background-color: #f0c117; color: black; font-weight: bold;" onclick="exportGroceryList()">Export Grocery List</button>
+        <button type="button" id="open-grocery-list" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; background-color: #f0c117; color: black; font-weight: bold;" onclick="openGroceryList()">Open Grocery List in New Tab</button>
     </div>
     
     <script>
@@ -332,71 +333,129 @@ lang: eng
         }
     
         function exportGroceryList() {
-    const groceryListDiv = document.getElementById('grocery-list');
+            const groceryListDiv = document.getElementById('grocery-list');
 
-    // Extract and format text from the grocery list table
-    const rows = groceryListDiv.querySelectorAll('table tbody tr');
-    const formattedList = Array.from(rows)
-        .map(row => {
-            const cells = row.querySelectorAll('td');
-            return `${cells[0].innerText}: ${cells[1].innerText} ${cells[2].innerText}`;
-        })
-        .join('\n'); // Newline-separated list
+            // Extract and format text from the grocery list table
+            const rows = groceryListDiv.querySelectorAll('table tbody tr');
+            const formattedList = Array.from(rows)
+                .map(row => {
+                    const cells = row.querySelectorAll('td');
+                    return `${cells[0].innerText}: ${cells[1].innerText} ${cells[2].innerText}`;
+                })
+                .join('\n'); // Newline-separated list
 
-    const exportButton = document.getElementById('export-grocery-list'); // Get the button element
+            const exportButton = document.getElementById('export-grocery-list'); // Get the button element
 
-    if (navigator.share) {
-        // Use the Web Share API for mobile devices
-        navigator.share({
-            title: 'Grocery List',
-            text: formattedList,
-        })
-        .then(() => console.log('Grocery list shared successfully!'))
-        .catch(error => console.error('Error sharing the grocery list:', error));
-    } else {
-        // Fallback for unsupported browsers or desktops
-        const existingOptions = document.getElementById('share-options');
-        if (existingOptions) existingOptions.remove(); // Remove existing options if present
+            if (navigator.share) {
+                // Use the Web Share API for mobile devices
+                navigator.share({
+                    title: 'Grocery List',
+                    text: formattedList,
+                })
+                .then(() => console.log('Grocery list shared successfully!'))
+                .catch(error => console.error('Error sharing the grocery list:', error));
+            } else {
+                // Fallback for unsupported browsers or desktops
+                const existingOptions = document.getElementById('share-options');
+                if (existingOptions) existingOptions.remove(); // Remove existing options if present
 
-        const encodedText = encodeURIComponent(formattedList);
+                const encodedText = encodeURIComponent(formattedList);
 
-        // Get the position of the button
-        const rect = exportButton.getBoundingClientRect();
-        const top = rect.bottom + window.scrollY; // Bottom of the button
-        const left = rect.left + window.scrollX; // Left of the button
+                // Get the position of the button
+                const rect = exportButton.getBoundingClientRect();
+                const top = rect.bottom + window.scrollY; // Bottom of the button
+                const left = rect.left + window.scrollX; // Left of the button
 
-        const options = `
-            <div id="share-options" style="position: absolute; top: ${top}px; left: ${left}px; background: white; border: 1px solid #ccc; padding: 10px; z-index: 1000; box-shadow: 0px 4px 6px rgba(0,0,0,0.1);">
-                <button onclick="shareViaApp('signal', '${encodeURIComponent(formattedList)}')">Share via Signal</button><br>
-                <button onclick="shareViaApp('whatsapp', '${encodeURIComponent(formattedList)}')">Share via WhatsApp</button><br>
-                <button onclick="shareViaApp('email', '${encodeURIComponent(formattedList)}')">Share via Email</button><br>
-                <button onclick="document.getElementById('share-options').remove()">Cancel</button>
-            </div>
-        `;
-        document.body.insertAdjacentHTML('beforeend', options);
+                const options = `
+                    <div id="share-options" style="position: absolute; top: ${top}px; left: ${left}px; background: white; border: 1px solid #ccc; padding: 10px; z-index: 1000; box-shadow: 0px 4px 6px rgba(0,0,0,0.1);">
+                        <button onclick="shareViaApp('signal', '${encodeURIComponent(formattedList)}')">Share via Signal</button><br>
+                        <button onclick="shareViaApp('whatsapp', '${encodeURIComponent(formattedList)}')">Share via WhatsApp</button><br>
+                        <button onclick="shareViaApp('email', '${encodeURIComponent(formattedList)}')">Share via Email</button><br>
+                        <button onclick="document.getElementById('share-options').remove()">Cancel</button>
+                    </div>
+                `;
+                document.body.insertAdjacentHTML('beforeend', options);
+            }
+        }
+
+        function shareViaApp(app, encodedText) {
+            let url;
+            switch (app) {
+                case 'signal':
+                    url = `sgnl://send?text=${encodedText}`;
+                    break;
+                case 'whatsapp':
+                    url = `https://web.whatsapp.com/send?text=${encodedText}`;
+                    break;
+                case 'email':
+                    url = `mailto:?subject=Grocery%20List&body=${encodedText}`;
+                    break;
+                default:
+                    console.error('Unsupported app');
+                    return;
+            }
+            window.open(url, '_blank');
+            const shareOptions = document.getElementById('share-options');
+            if (shareOptions) shareOptions.remove(); // Clean up options menu
+        }
+
+        function openGroceryList() {
+        const groceryListDiv = document.getElementById('grocery-list');
+        const rows = groceryListDiv.querySelectorAll('table tbody tr');
+        const tableContent = Array.from(rows)
+            .map(row => {
+                const cells = row.querySelectorAll('td');
+                return `<tr>
+                            <td>${cells[1].innerText}</td>
+                            <td>${cells[2].innerText}</td>
+                            <td>${cells[0].innerText}</td>
+                            <td><input type="checkbox"></td>
+                        </tr>`;
+            })
+            .join('');
+
+        const newTab = window.open('', '_blank');
+        newTab.document.write(`
+            <html>
+            <head>
+                <title>Grocery List</title>
+                <style>
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                    }
+                    th, td {
+                        border: 1px solid #ddd;
+                        padding: 8px;
+                        text-align: center;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                        font-weight: bold;
+                    }
+                </style>
+            </head>
+            <body>
+                <h3>Grocery List</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Quantity</th>
+                            <th>Unit</th>
+                            <th>Food Name</th>
+                            <th>Check</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${tableContent}
+                    </tbody>
+                </table>
+            </body>
+            </html>
+        `);
+        newTab.document.close();
     }
-}
 
-function shareViaApp(app, encodedText) {
-    let url;
-    switch (app) {
-        case 'signal':
-            url = `sgnl://send?text=${encodedText}`;
-            break;
-        case 'whatsapp':
-            url = `https://web.whatsapp.com/send?text=${encodedText}`;
-            break;
-        case 'email':
-            url = `mailto:?subject=Grocery%20List&body=${encodedText}`;
-            break;
-        default:
-            console.error('Unsupported app');
-            return;
-    }
-    window.open(url, '_blank');
-    const shareOptions = document.getElementById('share-options');
-    if (shareOptions) shareOptions.remove(); // Clean up options menu
-}
     </script>
 </div>
 
@@ -499,35 +558,35 @@ function shareViaApp(app, encodedText) {
         }
 
         function updateSelectedFoods() {
-        const selectedBreakfast = document.getElementById('selected-breakfast');
-        const selectedLunch = document.getElementById('selected-lunch');
-        const selectedDinner = document.getElementById('selected-dinner');
-        const selectedSnacks = document.getElementById('selected-snacks');
+            const selectedBreakfast = document.getElementById('selected-breakfast');
+            const selectedLunch = document.getElementById('selected-lunch');
+            const selectedDinner = document.getElementById('selected-dinner');
+            const selectedSnacks = document.getElementById('selected-snacks');
 
-        selectedBreakfast.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
-        selectedLunch.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
-        selectedDinner.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
-        selectedSnacks.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
+            selectedBreakfast.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
+            selectedLunch.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
+            selectedDinner.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
+            selectedSnacks.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
 
-        document.querySelectorAll('.food-option.selected').forEach(foodDiv => {
-            const mealType = foodDiv.closest('.meal-category').querySelector('h3').textContent.toLowerCase();
-            const foodName = foodDiv.querySelector('p').textContent;
-            const quantity = foodDiv.querySelector('.quantity-label').textContent.split(': ')[1];
+            document.querySelectorAll('.food-option.selected').forEach(foodDiv => {
+                const mealType = foodDiv.closest('.meal-category').querySelector('h3').textContent.toLowerCase();
+                const foodName = foodDiv.querySelector('p').textContent;
+                const quantity = foodDiv.querySelector('.quantity-label').textContent.split(': ')[1];
 
-            const foodItem = document.createElement('tr');
-            foodItem.innerHTML = `<td>${quantity}</td><td>${foodName}</td>`;
+                const foodItem = document.createElement('tr');
+                foodItem.innerHTML = `<td>${quantity}</td><td>${foodName}</td>`;
 
-            if (mealType === 'breakfast') {
-                selectedBreakfast.appendChild(foodItem);
-            } else if (mealType === 'lunch') {
-                selectedLunch.appendChild(foodItem);
-            } else if (mealType === 'dinner') {
-                selectedDinner.appendChild(foodItem);
-            } else if (mealType === 'snacks') {
-                selectedSnacks.appendChild(foodItem);
-            }
-        });
-    }
+                if (mealType === 'breakfast') {
+                    selectedBreakfast.appendChild(foodItem);
+                } else if (mealType === 'lunch') {
+                    selectedLunch.appendChild(foodItem);
+                } else if (mealType === 'dinner') {
+                    selectedDinner.appendChild(foodItem);
+                } else if (mealType === 'snacks') {
+                    selectedSnacks.appendChild(foodItem);
+                }
+            });
+        }
         function showModal(name, description, descriptionImage) {
             const modal = document.getElementById('mealModal');
             document.getElementById('mealName').textContent = name;
@@ -763,7 +822,6 @@ function shareViaApp(app, encodedText) {
         document.getElementById('total-calories').textContent = calorieGoal.toFixed(2);
 
         updatePercentages(calorieGoal);
-        // updateFoodOptions(); // Call updateFoodOptions to remove banners
     }
 
     function updatePercentages(calorieGoal) {
