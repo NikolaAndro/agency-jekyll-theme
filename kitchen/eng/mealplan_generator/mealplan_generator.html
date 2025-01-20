@@ -21,7 +21,7 @@ lang: eng
                     <td width="50">Age</td>
                     <td width="370">
                         <div class="input-row">
-                            <input type="number" name="cage" id="cage" value="25" class="inhalf" onkeyup="iptfieldCheck(this, 'r', 'pn');">
+                            <input type="number" name="cage" id="cage" value="25" class="inhalf" onkeyup="iptfieldCheck(this, 'r', 'pn');"  inputmode="numeric">
                             <span style="display: flex; align-items: center; height: 100%;">ages 15 - 80</span>
                         </div>
                     </td>
@@ -48,11 +48,11 @@ lang: eng
                     <td width="370">
                         <div class="input-container">
                             <div class="input-row" style="margin-right: 30px !important;">
-                                <input type="number" name="cheightfeet" id="cheightfeet" value="5" class="inhalf inuifoot" onkeyup="iptfieldCheck(this, '', 'pzn');">
+                                <input type="number" name="cheightfeet" id="cheightfeet" value="5" class="inhalf inuifoot" onkeyup="iptfieldCheck(this, '', 'pzn');" inputmode="numeric">
                                 <span class="inuifootspan">feet</span>
                             </div>
                             <div class="input-row">
-                                <input type="number" name="cheightinch" id="cheightinch" value="10" class="inhalf inuiinch" onkeyup="iptfieldCheck(this, '', 'pzn');">
+                                <input type="number" name="cheightinch" id="cheightinch" value="10" class="inhalf inuiinch" onkeyup="iptfieldCheck(this, '', 'pzn');" inputmode="numeric">
                                 <span class="inuiinchspan">inches</span>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ lang: eng
                     <td>Weight</td>
                     <td>
                         <div class="input-row">
-                            <input type="text" name="cpound" id="cpound" value="165" class="infull inuipound" onkeyup="iptfieldCheck(this, 'r', 'pn');">
+                            <input type="number" name="cpound" id="cpound" value="165" class="infull inuipound" onkeyup="iptfieldCheck(this, 'r', 'pn');" inputmode="numeric">
                             <span class="inuipoundspan">pounds</span>
                         </div>
                     </td>
@@ -73,7 +73,7 @@ lang: eng
                     <td width="50">Height</td>
                     <td width="370">
                         <div class="input-row">
-                            <input type="number" name="cheightmeter" id="cheightmeter" value="180" class="infull inuick" onkeyup="iptfieldCheck(this, 'r', 'pn');">
+                            <input type="number" name="cheightmeter" id="cheightmeter" value="180" class="infull inuick" onkeyup="iptfieldCheck(this, 'r', 'pn');" inputmode="numeric">
                             <span class="inuickspan">cm</span>
                         </div>
                     </td>
@@ -82,7 +82,7 @@ lang: eng
                     <td>Weight</td>
                     <td>
                         <div class="input-row">
-                            <input type="number" name="ckg" id="ckg" value="65" class="infull inuick" onkeyup="iptfieldCheck(this, 'r', 'pn');">
+                            <input type="number" name="ckg" id="ckg" value="65" class="infull inuick" onkeyup="iptfieldCheck(this, 'r', 'pn');" inputmode="numeric">
                             <span class="inuickspan">kg</span>
                         </div>
                     </td>
@@ -140,10 +140,10 @@ lang: eng
                         <input name="printit" value="0" type="hidden">
                         <input type="hidden" name="ctype" id="ctype" value="metric">
                         <div style="display: flex; gap: 10px;">
-                            <input id="bmr-calculate-btn" type="submit" name="x" value="Calculate" style="color: black; font-weight: bold;" onclick="calculateBMR(event);">
+                            <input id="bmr-calculate-btn" type="submit" name="x" value="Calculate" class="calculate-btn" onclick="calculateBMR(event);">
                             <input id="bmr-clean-btn" type="button" value="Clear" onclick="clearForm(document.calform);" style="background-color: #444;font-weight: bold;">
                         </div>
-                        <div id="bmr-result" style="margin-top: 20px; font-size: 18px; font-weight: bold;"></div>
+                        <div id="bmr-result"></div>
                     </td>
                 </tr>
             </table>

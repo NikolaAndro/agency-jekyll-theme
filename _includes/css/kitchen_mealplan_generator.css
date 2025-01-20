@@ -340,6 +340,31 @@
 
 /* Calorie Calculator */
 
+.calculate-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black !important;
+    font-weight: bold;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    background-color: #fed136; /* Adjust background color as needed */
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px; /* Adjust font size as needed */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.calculate-btn:hover {
+    background-color: #e5b12e; /* Optional: Add hover effect */
+}
+
+#bmr-result{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 .panel2 {
     background-color: #eeeeee;
     padding: 20px;
@@ -377,12 +402,19 @@ table td {
     justify-content: center;
 }
 
-.input-row input[type="text"],
-.input-row input[type="number"] 
+.input-row input[type="text"]
 {
     flex: 1;
     margin-right: 10px;
     height: 100%; /* Ensure the input takes the full height of the row */
+    padding-left: 7px;
+}
+
+.input-row input[type="number"] 
+{
+    flex: 1;
+    margin-right: 10px;
+    padding-left: 7px;
 }
 
 .input-row span {
@@ -663,5 +695,9 @@ input[type="radio"]:checked + .rbmark:after {
     #bmr-calculate-btn,
     #bmr-clean-btn {
         font-size: 1em;
+    }
+
+    #bmr-result{
+        font-size: 26px;
     }
 }
