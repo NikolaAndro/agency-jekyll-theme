@@ -24,7 +24,7 @@
 
 /* Styles for the days input */
 .days-input {
-    font-size: 14px;
+    font-size: 18px; /* Ensure font size is at least 16px to prevent zoom */
     width: 150px;
     padding: 10px;
     border: 1px solid #ccc;

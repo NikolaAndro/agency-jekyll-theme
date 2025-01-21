@@ -155,7 +155,7 @@
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1000; /* Sit on top */
+    z-index: 1003; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -173,7 +173,7 @@
     width: 80%; /* Could be more or less, depending on screen size */
     max-width: 600px;
     border-radius: 10px;
-    z-index: 1001; /* Ensure the modal content is above the modal background */
+    z-index: 1004; /* Ensure the modal content is above the modal background */
 }
 
 .modal-content h2{
@@ -277,4 +277,13 @@
     .mealplan_generator_container {
         padding: 0px;
     }
+}
+
+/* Styles for the quantity modal input */
+#quantityModal input[type="number"] {
+    font-size: 18px; /* Ensure font size is at least 16px to prevent zoom */
+}
+
+#quantityModal button {
+    font-size: 18px; /* Ensure font size is at least 16px to prevent zoom */
 }

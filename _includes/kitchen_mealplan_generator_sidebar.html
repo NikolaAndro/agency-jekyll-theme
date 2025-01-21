@@ -65,7 +65,7 @@
         </table>
     </div>
 </aside>
-<button id="toggle-sidebar" class="toggle-sidebar">Current Selection   ☰</button>
+<button id="toggle-sidebar" class="toggle-sidebar">Current Selection ☰</button>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -74,6 +74,35 @@
 
         toggleButton.addEventListener('click', function() {
             sidebar.classList.toggle('expanded');
+        });
+
+        // Close sidebar when clicking outside of it
+        document.addEventListener('click', function(event) {
+            if (!sidebar.contains(event.target) && !toggleButton.contains(event.target)) {
+                sidebar.classList.remove('expanded');
+            }
+        });
+
+        // Swipe detection
+        let touchstartX = 0;
+        let touchendX = 0;
+
+        function handleGesture() {
+            if (touchendX < touchstartX) {
+                sidebar.classList.remove('expanded'); // Swipe left to close
+            }
+            if (touchendX > touchstartX) {
+                sidebar.classList.add('expanded'); // Swipe right to open
+            }
+        }
+
+        document.addEventListener('touchstart', function(event) {
+            touchstartX = event.changedTouches[0].screenX;
+        });
+
+        document.addEventListener('touchend', function(event) {
+            touchendX = event.changedTouches[0].screenX;
+            handleGesture();
         });
     });
 </script>
