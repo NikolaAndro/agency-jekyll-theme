@@ -537,9 +537,20 @@ lang: eng
         updateFoodOptions();
     }
 
-    proteinInput.addEventListener('input', updateTotalCaloriesGoal);
-    carbsInput.addEventListener('input', updateTotalCaloriesGoal);
-    fatInput.addEventListener('input', updateTotalCaloriesGoal);
+    proteinInput.addEventListener('input', debounce(updateTotalCaloriesGoal, 300));
+    carbsInput.addEventListener('input', debounce(updateTotalCaloriesGoal, 300));
+    fatInput.addEventListener('input', debounce(updateTotalCaloriesGoal, 300));
+
+    // Debounce function to limit the number of times the function is called
+    // Parameters: func - function to be called, wait - time to wait before calling the function
+    function debounce(func, wait) {
+        let timeout;
+        return function(...args) {
+            const context = this;
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(context, args), wait);
+        };
+    }
     
     /**
      * MutationObserver to handle changes in the input fields and total calories label
