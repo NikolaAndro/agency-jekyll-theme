@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const carbsInput = document.getElementById('carbs');
     const fatInput = document.getElementById('fat');
     const totalCaloriesLabel = document.getElementById('total-calories');
+    const updateButton = document.getElementById('update-total-calories');
 
     function updateTotalCaloriesGoal() {
         console.log('Updating total calories goal');
@@ -28,41 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         updateFoodOptions();
     }
 
-    proteinInput.addEventListener('input', updateTotalCaloriesGoal);
-    carbsInput.addEventListener('input', updateTotalCaloriesGoal);
-    fatInput.addEventListener('input', updateTotalCaloriesGoal);
-    
-    /**
-     * MutationObserver to handle changes in the input fields and total calories label
-    */
-    function handleMutation(mutationsList) {
-        for (let mutation of mutationsList) {
-            if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
-                updateTotalCaloriesGoal();
-            } else if (mutation.type === 'childList' || mutation.type === 'characterData') {
-                updateTotalCaloriesGoal();
-            }
-        }
-    }
-
-    // Create a MutationObserver instance
-    const observer = new MutationObserver(handleMutation);
-
-    // Configuration for the observer
-    const config = { attributes: true, childList: true, characterData: true, subtree: true };
-
-    // Observe the input elements
-    observer.observe(proteinInput, config);
-    observer.observe(carbsInput, config);
-    observer.observe(fatInput, config);
-
-    // Observe the total calories label
-    observer.observe(totalCaloriesLabel, config);
-
-    /*
-    * Done with the MutationObserver
-    */
-
+    updateButton.addEventListener('click', updateTotalCaloriesGoal);
 
     function displayFoods(foods) {
         for (const [meal, items] of Object.entries(foods)) {
@@ -74,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
             items.forEach(item => {
                 const foodDiv = document.createElement('div');
                 foodDiv.className = 'food-option';
-                foodDiv.dataset.ingredients = JSON.stringify(item.ingredients); // Set data-ingredients attribute
+                foodDiv.dataset.ingredients = JSON.stringify(item.ingredients);
                 foodDiv.innerHTML = `
                     <div style="display: flex; justify-content: center; align-items: center;">
                         <img src="${item.image}" alt="${item.name}">
@@ -90,15 +57,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 `;
                 mealOptions.appendChild(foodDiv);
 
-                // Add click event listener to the button
                 foodDiv.querySelector('.description-button').addEventListener('click', function() {
                     showModal(this.dataset.name, this.dataset.description, this.dataset.descriptionImage);
                 });
 
-                // Add click event listener to the image
                 foodDiv.querySelector('img').addEventListener('click', function() {
                     if (foodDiv.querySelector('.exceeds-goal-banner')) {
-                        return; // Prevent selection if the banner is present
+                        return;
                     }
                     showQuantityModal(foodDiv, item);
                 });
@@ -133,12 +98,19 @@ document.addEventListener("DOMContentLoaded", function() {
         const selectedDinner = document.getElementById('selected-dinner');
         const selectedSnacks = document.getElementById('selected-snacks');
 
+        // Clear the tables only once
         selectedBreakfast.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
         selectedLunch.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
         selectedDinner.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
         selectedSnacks.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
 
-        document.querySelectorAll('.food-option.selected').forEach(foodDiv => {
+        const selectedFoods = document.querySelectorAll('.food-option.selected');
+        const fragmentBreakfast = document.createDocumentFragment();
+        const fragmentLunch = document.createDocumentFragment();
+        const fragmentDinner = document.createDocumentFragment();
+        const fragmentSnacks = document.createDocumentFragment();
+
+        selectedFoods.forEach(foodDiv => {
             const mealType = foodDiv.closest('.meal-category').querySelector('h3').textContent.toLowerCase();
             const foodName = foodDiv.querySelector('p').textContent;
             const quantity = foodDiv.querySelector('.quantity-label').textContent.split(': ')[1];
@@ -147,16 +119,22 @@ document.addEventListener("DOMContentLoaded", function() {
             foodItem.innerHTML = `<td>${quantity}</td><td>${foodName}</td>`;
 
             if (mealType === 'breakfast') {
-                selectedBreakfast.appendChild(foodItem);
+                fragmentBreakfast.appendChild(foodItem);
             } else if (mealType === 'lunch') {
-                selectedLunch.appendChild(foodItem);
+                fragmentLunch.appendChild(foodItem);
             } else if (mealType === 'dinner') {
-                selectedDinner.appendChild(foodItem);
+                fragmentDinner.appendChild(foodItem);
             } else if (mealType === 'snacks') {
-                selectedSnacks.appendChild(foodItem);
+                fragmentSnacks.appendChild(foodItem);
             }
         });
+
+        selectedBreakfast.appendChild(fragmentBreakfast);
+        selectedLunch.appendChild(fragmentLunch);
+        selectedDinner.appendChild(fragmentDinner);
+        selectedSnacks.appendChild(fragmentSnacks);
     }
+
     function showModal(name, description, descriptionImage) {
         const modal = document.getElementById('mealModal');
         document.getElementById('mealName').textContent = name;
@@ -179,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const quantityInput = document.getElementById('quantityInput');
         quantityInput.value = '';
-        quantityInput.focus(); // Set focus to the input field
+        quantityInput.focus();
 
         function addFood() {
             const newQuantity = parseFloat(quantityInput.value);
@@ -192,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if (newQuantity === oldQuantity) {
                 modal.style.display = 'none';
-                return; // No change in quantity, no need to update
+                return;
             }
 
             if (totalCalories + (item.calories * newQuantity) - (item.calories * oldQuantity) > totalCaloriesGoal) {
@@ -212,7 +190,6 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             quantityLabel.textContent = `Quantity: ${newQuantity}`;
 
-            // Create and insert the deselect button
             let deselectButton = foodDiv.querySelector('.deselect-button');
             if (!deselectButton) {
                 deselectButton = document.createElement('button');
@@ -220,12 +197,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 deselectButton.textContent = 'Deselect';
                 foodDiv.insertBefore(deselectButton, quantityLabel.nextSibling);
             } else {
-                // Remove existing event listener to avoid multiple triggers
                 deselectButton.replaceWith(deselectButton.cloneNode(true));
                 deselectButton = foodDiv.querySelector('.deselect-button');
             }
 
-            // Add click event listener to the deselect button
             deselectButton.addEventListener('click', function() {
                 foodDiv.classList.remove('selected');
                 foodDiv.querySelector('img').classList.remove('selected');
@@ -235,9 +210,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (deselectButton) {
                     deselectButton.remove();
                 }
-                console.log(`Deselecting - Item: ${item.name}, Old Quantity: ${foodDiv.dataset.quantity}, New Quantity: 0`);
                 updateAggregatedValues(-item.protein * foodDiv.dataset.quantity, -item.carbs * foodDiv.dataset.quantity, -item.fat * foodDiv.dataset.quantity, -item.calories * foodDiv.dataset.quantity);
-                foodDiv.dataset.quantity = 0; // Reset the quantity to zero
+                foodDiv.dataset.quantity = 0;
             });
 
             updateAggregatedValues(
@@ -247,16 +221,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 item.calories * newQuantity - item.calories * oldQuantity
             );
 
-            // Update the stored quantity
             foodDiv.dataset.quantity = newQuantity;
-
             modal.style.display = 'none';
         }
 
-        // Handle quantity submission
         document.getElementById('quantitySubmit').onclick = addFood;
 
-        // Add listener for "Return/Enter" key
         quantityInput.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
                 addFood();
@@ -278,25 +248,25 @@ document.addEventListener("DOMContentLoaded", function() {
         updateFoodOptions();
     }
 
-    // Close the modal
     document.querySelectorAll('.modal .close').forEach(closeBtn => {
         closeBtn.addEventListener('click', function() {
+            console.log('Closing modal');
             this.closest('.modal').style.display = 'none';
         });
     });
 
-    // Close the modal when clicking outside of it
     window.addEventListener('click', function(event) {
         const quantityModal = document.getElementById('quantityModal');
         const mealModal = document.getElementById('mealModal');
         if (event.target === quantityModal || event.target === mealModal) {
+            console.log('Closing modal by clicking outside');
             event.target.style.display = 'none';
         }
     });
 
-    // Close the modal when pressing the Escape key
     window.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
+            console.log('Closing modal by pressing Escape');
             const quantityModal = document.getElementById('quantityModal');
             const mealModal = document.getElementById('mealModal');
             quantityModal.style.display = 'none';

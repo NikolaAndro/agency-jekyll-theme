@@ -1,4 +1,4 @@
-function getSuggestions() { 
+function getSuggestions() {
     const calorieGoal = parseFloat(document.getElementById('calorie-goal').value);
     const weightPounds = parseFloat(document.getElementById('cpound').value) || parseFloat(document.getElementById('ckg').value) * 2.20462;
 
@@ -18,13 +18,11 @@ function getSuggestions() {
     document.getElementById('protein').value = proteinGoal.toFixed(2);
     document.getElementById('fat').value = fatGoal.toFixed(2);
     document.getElementById('carbs').value = carbsGoal.toFixed(2);
-    document.getElementById('total-calories').textContent = calorieGoal.toFixed(2);
 
     updatePercentages(calorieGoal);
 }
 
 function updatePercentages(calorieGoal) {
-    console.log('Updating percentages');
     const protein = parseFloat(document.getElementById('protein').value) || 0;
     const carbs = parseFloat(document.getElementById('carbs').value) || 0;
     const fat = parseFloat(document.getElementById('fat').value) || 0;
@@ -46,4 +44,4 @@ document.getElementById('carbs').addEventListener('input', function() {
 });
 document.getElementById('fat').addEventListener('input', function() {
     updatePercentages(parseFloat(document.getElementById('calorie-goal').value));
-});    
+});

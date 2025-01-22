@@ -26,7 +26,6 @@
 .days-input {
     font-size: 18px; /* Ensure font size is at least 16px to prevent zoom */
     width: 150px;
-    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
@@ -132,12 +131,18 @@
     }
 
     .days-label,
-    .days-input,
     .generate-button {
         width: 100%;
         max-width: 300px;
         margin: 5px 0;
         font-size: 20px;
+    }
+
+    .days-input{
+        font-size: 2em;
+        width: 100%;
+        max-width: 300px;
+        margin: 5px 0;
     }
 
     .grocery-buttons-container {

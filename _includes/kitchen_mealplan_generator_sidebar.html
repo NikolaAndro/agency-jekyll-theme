@@ -87,6 +87,8 @@
         let touchstartX = 0;
         let touchendX = 0;
 
+        // The code bellow is for swipe detection, but it's being too sensitive
+        /* 
         function handleGesture() {
             if (touchendX < touchstartX) {
                 sidebar.classList.remove('expanded'); // Swipe left to close
@@ -104,5 +106,6 @@
             touchendX = event.changedTouches[0].screenX;
             handleGesture();
         });
+        */
     });
 </script>

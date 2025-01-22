@@ -266,7 +266,7 @@ lang: eng
             <span class="close">&times;</span>
             <h2>Enter Quantity</h2>
             <div style="margin-bottom: 10px; display: flex; align-items: center; justify-content: center; max-width: 300px; margin: 0 auto;">
-                <input type="number" id="quantityInput" min="0.1" step="0.1" value="1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required inputmode="numeric" style="font-size: 14px; margin-right: 10px;">
+                <input type="number" id="quantityInput" min="0.1" step="0.1" value="1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required inputmode="numeric" style="font-size: 2em; margin-right: 10px;">
                 <button id="quantitySubmit" class="bg-blue-500 text-white rounded-lg p-2.5" style="font-size: 14px; width: 100px; background-color: #fed136; margin-left: 20px;">Add</button>
             </div>
         </div>
@@ -293,15 +293,15 @@ lang: eng
         </button>
     </div>
 
-    <!-- <script src="{{ site.baseurl }}/kitchen/eng/js/mealplan_generator/step_1_bmr.js"></script>
+    <script src="{{ site.baseurl }}/kitchen/eng/js/mealplan_generator/step_1_bmr.js"></script>
     <script src="{{ site.baseurl }}/kitchen/eng/js/mealplan_generator/step_2_macros.js"></script>
     <script src="{{ site.baseurl }}/kitchen/eng/js/mealplan_generator/step_3_foodSelection.js"></script>
-    <script src="{{ site.baseurl }}/kitchen/eng/js/mealplan_generator/step_4_groceries.js"></script> -->
+    <script src="{{ site.baseurl }}/kitchen/eng/js/mealplan_generator/step_4_groceries.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 </div>
 
 <!-- BMR Calculator -->
-<script>
+<!-- <script>
     function calculateBMR(event) {
         console.log('calculateBMR function called');
         event.preventDefault(); // Prevent form submission
@@ -467,10 +467,10 @@ lang: eng
         console.log('cshmoreoption function completed');
         return false; // Prevent default link behavior
     }
-</script>
+</script> -->
 
 <!-- Calorie Calculator -->
-<script>
+<!-- <script>
     function getSuggestions() { 
         console.log('getSuggestions function called');
         const calorieGoal = parseFloat(document.getElementById('calorie-goal').value);
@@ -526,11 +526,11 @@ lang: eng
         console.log('Fat input event triggered');
         updatePercentages(parseFloat(document.getElementById('calorie-goal').value));
     });    
-</script>
+</script> -->
 
 <!-- Food Selection -->
 
-<script>
+<!-- <script>
     document.addEventListener("DOMContentLoaded", function() {
     console.log('DOMContentLoaded event fired');
     fetch('../foods.yaml')
@@ -817,10 +817,10 @@ lang: eng
         }
     });
 });
-</script>
+</script> -->
 
 <!-- Groceries -->
- <script>
+ <!-- <script>
     function generateGroceryList() {
         console.log('generateGroceryList function called');
         const days = parseFloat(document.getElementById('days').value);
@@ -1022,4 +1022,4 @@ lang: eng
         newTab.document.close();
         console.log('openGroceryList function completed');
     }
- </script>
+ </script> -->
