@@ -296,6 +296,7 @@ lang: eng
 <!-- BMR Calculator -->
 <script>
     function calculateBMR(event) {
+        console.log('calculateBMR function called');
         event.preventDefault(); // Prevent form submission
 
         const age = parseFloat(document.getElementById('cage').value);
@@ -373,9 +374,11 @@ lang: eng
             Your BMR is ${bmr.toFixed(2)} calories/day.<br>
             Your maintenance is ${maintenanceCalories.toFixed(2)} calories/day.<br>
         `;
+        console.log('BMR calculation completed');
     }
 
     function clearForm(form) {
+        console.log('clearForm function called');
         form.reset();
         document.getElementById('bmr-result').textContent = '';
 
@@ -386,13 +389,16 @@ lang: eng
         document.getElementById('cheightinch').value = '';
         document.getElementById('ckg').value = '';
         document.getElementById('cheightmeter').value = '';
+        console.log('Form cleared');
     }
 
     document.addEventListener("DOMContentLoaded", function() {
+        console.log('DOMContentLoaded event fired');
         var menuItems = document.querySelectorAll("#topmenu ul li a");
 
         menuItems.forEach(function(item) {
             item.addEventListener("click", function(event) {
+                console.log('Menu item clicked');
                 event.preventDefault(); // Prevent default link behavior
 
                 // Remove the 'menuon' id from the currently active item
@@ -413,9 +419,11 @@ lang: eng
 
         // Set the initial state
         popMenu('standard', 1);
+        console.log('Initial state set');
     });
 
     function popMenu(unitType, unitValue) {
+        console.log('popMenu function called with unitType:', unitType, 'and unitValue:', unitValue);
         var standardTable = document.getElementById('standardheightweight');
         var metricTable = document.getElementById('metricheightweight');
 
@@ -427,11 +435,13 @@ lang: eng
             metricTable.style.display = 'block';
         }
 
+        console.log('popMenu function completed');
         return false; // Prevent default link behavior
     }
 
     // settings toggle
     function cshmoreoption(toggle) {
+        console.log('cshmoreoption function called with toggle:', toggle);
         var content = document.getElementById('ccsettingcontent');
         var moreOption = document.getElementById('cmoreoption');
         var settingsToggle = document.getElementById('settingsToggle');
@@ -447,6 +457,7 @@ lang: eng
                 settingsToggle.textContent = '+ Settings';
             }
         }
+        console.log('cshmoreoption function completed');
         return false; // Prevent default link behavior
     }
 </script>
@@ -454,6 +465,7 @@ lang: eng
 <!-- Calorie Calculator -->
 <script>
     function getSuggestions() { 
+        console.log('getSuggestions function called');
         const calorieGoal = parseFloat(document.getElementById('calorie-goal').value);
         const weightPounds = parseFloat(document.getElementById('cpound').value) || parseFloat(document.getElementById('ckg').value) * 2.20462;
 
@@ -476,10 +488,11 @@ lang: eng
         document.getElementById('total-calories').textContent = calorieGoal.toFixed(2);
 
         updatePercentages(calorieGoal);
+        console.log('getSuggestions function completed');
     }
 
     function updatePercentages(calorieGoal) {
-        console.log('Updating percentages');
+        console.log('updatePercentages function called');
         const protein = parseFloat(document.getElementById('protein').value) || 0;
         const carbs = parseFloat(document.getElementById('carbs').value) || 0;
         const fat = parseFloat(document.getElementById('fat').value) || 0;
@@ -491,15 +504,19 @@ lang: eng
         document.getElementById('protein-percentage').textContent = proteinPercentage.toFixed(2) + '%';
         document.getElementById('carbs-percentage').textContent = carbsPercentage.toFixed(2) + '%';
         document.getElementById('fat-percentage').textContent = fatPercentage.toFixed(2) + '%';
+        console.log('updatePercentages function completed');
     }
 
     document.getElementById('protein').addEventListener('input', function() {
+        console.log('Protein input event triggered');
         updatePercentages(parseFloat(document.getElementById('calorie-goal').value));
     });
     document.getElementById('carbs').addEventListener('input', function() {
+        console.log('Carbs input event triggered');
         updatePercentages(parseFloat(document.getElementById('calorie-goal').value));
     });
     document.getElementById('fat').addEventListener('input', function() {
+        console.log('Fat input event triggered');
         updatePercentages(parseFloat(document.getElementById('calorie-goal').value));
     });    
 </script>
@@ -508,9 +525,11 @@ lang: eng
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
+    console.log('DOMContentLoaded event fired');
     fetch('../foods.yaml')
         .then(response => response.text())
         .then(data => {
+            console.log('Fetched foods.yaml data');
             const foods = jsyaml.load(data).foods;
             displayFoods(foods);
         });
@@ -541,8 +560,6 @@ lang: eng
     carbsInput.addEventListener('input', debounce(updateTotalCaloriesGoal, 300));
     fatInput.addEventListener('input', debounce(updateTotalCaloriesGoal, 300));
 
-    // Debounce function to limit the number of times the function is called
-    // Parameters: func - function to be called, wait - time to wait before calling the function
     function debounce(func, wait) {
         let timeout;
         return function(...args) {
@@ -551,11 +568,17 @@ lang: eng
             timeout = setTimeout(() => func.apply(context, args), wait);
         };
     }
-    
-    /**
-     * MutationObserver to handle changes in the input fields and total calories label
-    */
+
+    const observer = new MutationObserver(handleMutation);
+    const config = { attributes: true, childList: true, characterData: true, subtree: true };
+
+    observer.observe(proteinInput, config);
+    observer.observe(carbsInput, config);
+    observer.observe(fatInput, config);
+    observer.observe(totalCaloriesLabel, config);
+
     function handleMutation(mutationsList) {
+        console.log('Mutation observed');
         for (let mutation of mutationsList) {
             if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
                 updateTotalCaloriesGoal();
@@ -565,26 +588,8 @@ lang: eng
         }
     }
 
-    // Create a MutationObserver instance
-    const observer = new MutationObserver(handleMutation);
-
-    // Configuration for the observer
-    const config = { attributes: true, childList: true, characterData: true, subtree: true };
-
-    // Observe the input elements
-    observer.observe(proteinInput, config);
-    observer.observe(carbsInput, config);
-    observer.observe(fatInput, config);
-
-    // Observe the total calories label
-    observer.observe(totalCaloriesLabel, config);
-
-    /*
-    * Done with the MutationObserver
-    */
-
-
     function displayFoods(foods) {
+        console.log('Displaying foods');
         for (const [meal, items] of Object.entries(foods)) {
             const mealOptions = document.getElementById(`${meal}-options`);
             if (!mealOptions) {
@@ -594,7 +599,7 @@ lang: eng
             items.forEach(item => {
                 const foodDiv = document.createElement('div');
                 foodDiv.className = 'food-option';
-                foodDiv.dataset.ingredients = JSON.stringify(item.ingredients); // Set data-ingredients attribute
+                foodDiv.dataset.ingredients = JSON.stringify(item.ingredients);
                 foodDiv.innerHTML = `
                     <div style="display: flex; justify-content: center; align-items: center;">
                         <img src="${item.image}" alt="${item.name}">
@@ -610,15 +615,13 @@ lang: eng
                 `;
                 mealOptions.appendChild(foodDiv);
 
-                // Add click event listener to the button
                 foodDiv.querySelector('.description-button').addEventListener('click', function() {
                     showModal(this.dataset.name, this.dataset.description, this.dataset.descriptionImage);
                 });
 
-                // Add click event listener to the image
                 foodDiv.querySelector('img').addEventListener('click', function() {
                     if (foodDiv.querySelector('.exceeds-goal-banner')) {
-                        return; // Prevent selection if the banner is present
+                        return;
                     }
                     showQuantityModal(foodDiv, item);
                 });
@@ -628,6 +631,7 @@ lang: eng
     }
 
     function updateFoodOptions() {
+        console.log('Updating food options');
         document.querySelectorAll('.food-option').forEach(foodDiv => {
             const itemCalories = parseFloat(foodDiv.querySelector('.calories').textContent.split(' ')[1]);
             const banner = foodDiv.querySelector('.exceeds-goal-banner');
@@ -648,17 +652,25 @@ lang: eng
     }
 
     function updateSelectedFoods() {
+        console.log('Updating selected foods');
         const selectedBreakfast = document.getElementById('selected-breakfast');
         const selectedLunch = document.getElementById('selected-lunch');
         const selectedDinner = document.getElementById('selected-dinner');
         const selectedSnacks = document.getElementById('selected-snacks');
 
+        // Clear the tables only once
         selectedBreakfast.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
         selectedLunch.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
         selectedDinner.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
         selectedSnacks.innerHTML = '<tr><th>Quantity</th><th>Food</th></tr>';
 
-        document.querySelectorAll('.food-option.selected').forEach(foodDiv => {
+        const selectedFoods = document.querySelectorAll('.food-option.selected');
+        const fragmentBreakfast = document.createDocumentFragment();
+        const fragmentLunch = document.createDocumentFragment();
+        const fragmentDinner = document.createDocumentFragment();
+        const fragmentSnacks = document.createDocumentFragment();
+
+        selectedFoods.forEach(foodDiv => {
             const mealType = foodDiv.closest('.meal-category').querySelector('h3').textContent.toLowerCase();
             const foodName = foodDiv.querySelector('p').textContent;
             const quantity = foodDiv.querySelector('.quantity-label').textContent.split(': ')[1];
@@ -667,17 +679,24 @@ lang: eng
             foodItem.innerHTML = `<td>${quantity}</td><td>${foodName}</td>`;
 
             if (mealType === 'breakfast') {
-                selectedBreakfast.appendChild(foodItem);
+                fragmentBreakfast.appendChild(foodItem);
             } else if (mealType === 'lunch') {
-                selectedLunch.appendChild(foodItem);
+                fragmentLunch.appendChild(foodItem);
             } else if (mealType === 'dinner') {
-                selectedDinner.appendChild(foodItem);
+                fragmentDinner.appendChild(foodItem);
             } else if (mealType === 'snacks') {
-                selectedSnacks.appendChild(foodItem);
+                fragmentSnacks.appendChild(foodItem);
             }
         });
+
+        selectedBreakfast.appendChild(fragmentBreakfast);
+        selectedLunch.appendChild(fragmentLunch);
+        selectedDinner.appendChild(fragmentDinner);
+        selectedSnacks.appendChild(fragmentSnacks);
     }
+
     function showModal(name, description, descriptionImage) {
+        console.log('Showing modal for', name);
         const modal = document.getElementById('mealModal');
         document.getElementById('mealName').textContent = name;
         document.getElementById('mealDescription').textContent = description;
@@ -694,14 +713,16 @@ lang: eng
     }
 
     function showQuantityModal(foodDiv, item) {
+        console.log('Showing quantity modal for', item.name);
         const modal = document.getElementById('quantityModal');
         modal.style.display = 'block';
 
         const quantityInput = document.getElementById('quantityInput');
         quantityInput.value = '';
-        quantityInput.focus(); // Set focus to the input field
+        quantityInput.focus();
 
         function addFood() {
+            console.log('Adding food', item.name);
             const newQuantity = parseFloat(quantityInput.value);
             const oldQuantity = parseFloat(foodDiv.dataset.quantity) || 0;
 
@@ -712,7 +733,7 @@ lang: eng
 
             if (newQuantity === oldQuantity) {
                 modal.style.display = 'none';
-                return; // No change in quantity, no need to update
+                return;
             }
 
             if (totalCalories + (item.calories * newQuantity) - (item.calories * oldQuantity) > totalCaloriesGoal) {
@@ -732,7 +753,6 @@ lang: eng
             }
             quantityLabel.textContent = `Quantity: ${newQuantity}`;
 
-            // Create and insert the deselect button
             let deselectButton = foodDiv.querySelector('.deselect-button');
             if (!deselectButton) {
                 deselectButton = document.createElement('button');
@@ -740,13 +760,12 @@ lang: eng
                 deselectButton.textContent = 'Deselect';
                 foodDiv.insertBefore(deselectButton, quantityLabel.nextSibling);
             } else {
-                // Remove existing event listener to avoid multiple triggers
                 deselectButton.replaceWith(deselectButton.cloneNode(true));
                 deselectButton = foodDiv.querySelector('.deselect-button');
             }
 
-            // Add click event listener to the deselect button
             deselectButton.addEventListener('click', function() {
+                console.log('Deselecting', item.name);
                 foodDiv.classList.remove('selected');
                 foodDiv.querySelector('img').classList.remove('selected');
                 if (quantityLabel) {
@@ -755,9 +774,8 @@ lang: eng
                 if (deselectButton) {
                     deselectButton.remove();
                 }
-                console.log(`Deselecting - Item: ${item.name}, Old Quantity: ${foodDiv.dataset.quantity}, New Quantity: 0`);
                 updateAggregatedValues(-item.protein * foodDiv.dataset.quantity, -item.carbs * foodDiv.dataset.quantity, -item.fat * foodDiv.dataset.quantity, -item.calories * foodDiv.dataset.quantity);
-                foodDiv.dataset.quantity = 0; // Reset the quantity to zero
+                foodDiv.dataset.quantity = 0;
             });
 
             updateAggregatedValues(
@@ -767,16 +785,12 @@ lang: eng
                 item.calories * newQuantity - item.calories * oldQuantity
             );
 
-            // Update the stored quantity
             foodDiv.dataset.quantity = newQuantity;
-
             modal.style.display = 'none';
         }
 
-        // Handle quantity submission
         document.getElementById('quantitySubmit').onclick = addFood;
 
-        // Add listener for "Return/Enter" key
         quantityInput.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
                 addFood();
@@ -785,6 +799,7 @@ lang: eng
     }
 
     function updateAggregatedValues(protein, carbs, fat, calories) {
+        console.log('Updating aggregated values');
         totalProtein += protein;
         totalCarbs += carbs;
         totalFat += fat;
@@ -798,25 +813,25 @@ lang: eng
         updateFoodOptions();
     }
 
-    // Close the modal
     document.querySelectorAll('.modal .close').forEach(closeBtn => {
         closeBtn.addEventListener('click', function() {
+            console.log('Closing modal');
             this.closest('.modal').style.display = 'none';
         });
     });
 
-    // Close the modal when clicking outside of it
     window.addEventListener('click', function(event) {
         const quantityModal = document.getElementById('quantityModal');
         const mealModal = document.getElementById('mealModal');
         if (event.target === quantityModal || event.target === mealModal) {
+            console.log('Closing modal by clicking outside');
             event.target.style.display = 'none';
         }
     });
 
-    // Close the modal when pressing the Escape key
     window.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
+            console.log('Closing modal by pressing Escape');
             const quantityModal = document.getElementById('quantityModal');
             const mealModal = document.getElementById('mealModal');
             quantityModal.style.display = 'none';
@@ -829,195 +844,204 @@ lang: eng
 <!-- Groceries -->
  <script>
     function generateGroceryList() {
-    const days = parseFloat(document.getElementById('days').value);
-    if (isNaN(days) || days <= 0) {
-        alert('Please enter a valid number of days.');
-        return;
-    }
-
-    const groceryList = {};
-    document.querySelectorAll('.food-option.selected').forEach(foodDiv => {
-        const quantity = parseFloat(foodDiv.dataset.quantity) || 0;
-        const totalQuantity = quantity * days;
-
-        const ingredients = foodDiv.dataset.ingredients ? JSON.parse(foodDiv.dataset.ingredients) : [];
-        ingredients.forEach(ingredient => {
-            const ingredientName = ingredient.name;
-            const ingredientQuantity = ingredient.amount * totalQuantity;
-            const ingredientUnit = ingredient.unit;
-
-            if (groceryList[ingredientName]) {
-                groceryList[ingredientName].quantity += ingredientQuantity;
-            } else {
-                groceryList[ingredientName] = { quantity: ingredientQuantity, unit: ingredientUnit };
-            }
-        });
-    });
-
-    const groceryListDiv = document.getElementById('grocery-list');
-    groceryListDiv.innerHTML = '<h3 style="margin-bottom:20px">Grocery List:</h3>';
-    const table = document.createElement('table');
-    table.style.width = '100%';
-    table.style.borderCollapse = 'collapse';
-    table.style.minWidth = '100%'; // Ensure table is full width on phone size
-    const thead = document.createElement('thead');
-    thead.innerHTML = '<tr><th>Ingredient</th><th>Quantity</th><th>Unit</th></tr>';
-    table.appendChild(thead);
-    const tbody = document.createElement('tbody');
-    for (const [ingredient, { quantity, unit }] of Object.entries(groceryList)) {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `<td>${ingredient}</td><td>${quantity.toFixed(2)}</td><td>${unit}</td>`;
-        tbody.appendChild(tr);
-    }
-    table.appendChild(tbody);
-    groceryListDiv.appendChild(table);
-}
-
-function printGroceryList() {
-    const groceryListDiv = document.getElementById('grocery-list');
-    const printWindow = window.open('', '', 'height=600,width=800');
-    printWindow.document.write('<html><head><title>Grocery List</title>');
-    printWindow.document.write('</head><body >');
-    printWindow.document.write(groceryListDiv.innerHTML);
-    printWindow.document.write('</body></html>');
-    printWindow.document.close();
-    printWindow.print();
-}
-
-function exportGroceryList() {
-    const groceryListDiv = document.getElementById('grocery-list');
-
-    // Extract and format text from the grocery list table
-    const rows = groceryListDiv.querySelectorAll('table tbody tr');
-    const formattedList = Array.from(rows)
-        .map(row => {
-            const cells = row.querySelectorAll('td');
-            return `${cells[0].innerText}: ${cells[1].innerText} ${cells[2].innerText}`;
-        })
-        .join('\n'); // Newline-separated list
-
-    const exportButton = document.getElementById('export-grocery-list'); // Get the button element
-
-    if (navigator.share) {
-        // Use the Web Share API for mobile devices
-        navigator.share({
-            title: 'Grocery List',
-            text: formattedList,
-        })
-        .then(() => console.log('Grocery list shared successfully!'))
-        .catch(error => console.error('Error sharing the grocery list:', error));
-    } else {
-        // Fallback for unsupported browsers or desktops
-        const existingOptions = document.getElementById('share-options');
-        if (existingOptions) existingOptions.remove(); // Remove existing options if present
-
-        const encodedText = encodeURIComponent(formattedList);
-
-        // Get the position of the button
-        const rect = exportButton.getBoundingClientRect();
-        const top = rect.bottom + window.scrollY; // Bottom of the button
-        const left = rect.left + window.scrollX; // Left of the button
-
-        const options = `
-            <div id="share-options" style="position: absolute; top: ${top}px; left: ${left}px; background: white; border: 1px solid #ccc; padding: 10px; z-index: 1000; box-shadow: 0px 4px 6px rgba(0,0,0,0.1);">
-                <button onclick="shareViaApp('signal', '${encodeURIComponent(formattedList)}')">Share via Signal</button><br>
-                <button onclick="shareViaApp('whatsapp', '${encodeURIComponent(formattedList)}')">Share via WhatsApp</button><br>
-                <button onclick="shareViaApp('email', '${encodeURIComponent(formattedList)}')">Share via Email</button><br>
-                <button onclick="document.getElementById('share-options').remove()">Cancel</button>
-            </div>
-        `;
-        document.body.insertAdjacentHTML('beforeend', options);
-    }
-}
-
-function shareViaApp(app, encodedText) {
-    let url;
-    switch (app) {
-        case 'signal':
-            url = `sgnl://send?text=${encodedText}`;
-            break;
-        case 'whatsapp':
-            url = `https://web.whatsapp.com/send?text=${encodedText}`;
-            break;
-        case 'email':
-            url = `mailto:?subject=Grocery%20List&body=${encodedText}`;
-            break;
-        default:
-            console.error('Unsupported app');
+        console.log('generateGroceryList function called');
+        const days = parseFloat(document.getElementById('days').value);
+        if (isNaN(days) || days <= 0) {
+            alert('Please enter a valid number of days.');
             return;
+        }
+
+        const groceryList = {};
+        document.querySelectorAll('.food-option.selected').forEach(foodDiv => {
+            const quantity = parseFloat(foodDiv.dataset.quantity) || 0;
+            const totalQuantity = quantity * days;
+
+            const ingredients = foodDiv.dataset.ingredients ? JSON.parse(foodDiv.dataset.ingredients) : [];
+            ingredients.forEach(ingredient => {
+                const ingredientName = ingredient.name;
+                const ingredientQuantity = ingredient.amount * totalQuantity;
+                const ingredientUnit = ingredient.unit;
+
+                if (groceryList[ingredientName]) {
+                    groceryList[ingredientName].quantity += ingredientQuantity;
+                } else {
+                    groceryList[ingredientName] = { quantity: ingredientQuantity, unit: ingredientUnit };
+                }
+            });
+        });
+
+        const groceryListDiv = document.getElementById('grocery-list');
+        groceryListDiv.innerHTML = '<h3 style="margin-bottom:20px">Grocery List:</h3>';
+        const table = document.createElement('table');
+        table.style.width = '100%';
+        table.style.borderCollapse = 'collapse';
+        table.style.minWidth = '100%'; // Ensure table is full width on phone size
+        const thead = document.createElement('thead');
+        thead.innerHTML = '<tr><th>Ingredient</th><th>Quantity</th><th>Unit</th></tr>';
+        table.appendChild(thead);
+        const tbody = document.createElement('tbody');
+        for (const [ingredient, { quantity, unit }] of Object.entries(groceryList)) {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${ingredient}</td><td>${quantity.toFixed(2)}</td><td>${unit}</td>`;
+            tbody.appendChild(tr);
+        }
+        table.appendChild(tbody);
+        groceryListDiv.appendChild(table);
+        console.log('generateGroceryList function completed');
     }
-    window.open(url, '_blank');
-    const shareOptions = document.getElementById('share-options');
-    if (shareOptions) shareOptions.remove(); // Clean up options menu
-}
 
-function openGroceryList() {
-    const groceryListDiv = document.getElementById('grocery-list');
-    const rows = groceryListDiv.querySelectorAll('table tbody tr');
-    const tableContent = Array.from(rows)
-        .map(row => {
-            const cells = row.querySelectorAll('td');
-            return `<tr>
-                        <td>${cells[1].innerText}</td>
-                        <td>${cells[2].innerText}</td>
-                        <td>${cells[0].innerText}</td>
-                        <td><input type="checkbox" style="transform: scale(2);"></td>
-                    </tr>`;
-        })
-        .join('');
+    function printGroceryList() {
+        console.log('printGroceryList function called');
+        const groceryListDiv = document.getElementById('grocery-list');
+        const printWindow = window.open('', '', 'height=600,width=800');
+        printWindow.document.write('<html><head><title>Grocery List</title>');
+        printWindow.document.write('</head><body >');
+        printWindow.document.write(groceryListDiv.innerHTML);
+        printWindow.document.write('</body></html>');
+        printWindow.document.close();
+        printWindow.print();
+        console.log('printGroceryList function completed');
+    }
 
-    const newTab = window.open('', '_blank');
-    newTab.document.write(`
-        <html>
-        <head>
-            <title style="margin-bottom: 20px">Grocery List</title>
-            <style>
-                table {
-                    min-width: 100%;
-                    border-collapse: collapse;
-                }
-                th, td {
-                    border: 1px solid #ddd;
-                    padding: 8px;
-                    text-align: center;
-                    font-size: 1.6em;
-                }
-                th {
-                    background-color: #f2f2f2;
-                    font-weight: bold;
-                    font-size: 1.8em;
-                }
-                /* Media query for smaller screens */
-                @media (max-width: 768px) {
+    function exportGroceryList() {
+        console.log('exportGroceryList function called');
+        const groceryListDiv = document.getElementById('grocery-list');
+
+        // Extract and format text from the grocery list table
+        const rows = groceryListDiv.querySelectorAll('table tbody tr');
+        const formattedList = Array.from(rows)
+            .map(row => {
+                const cells = row.querySelectorAll('td');
+                return `${cells[0].innerText}: ${cells[1].innerText} ${cells[2].innerText}`;
+            })
+            .join('\n'); // Newline-separated list
+
+        const exportButton = document.getElementById('export-grocery-list'); // Get the button element
+
+        if (navigator.share) {
+            // Use the Web Share API for mobile devices
+            navigator.share({
+                title: 'Grocery List',
+                text: formattedList,
+            })
+            .then(() => console.log('Grocery list shared successfully!'))
+            .catch(error => console.error('Error sharing the grocery list:', error));
+        } else {
+            // Fallback for unsupported browsers or desktops
+            const existingOptions = document.getElementById('share-options');
+            if (existingOptions) existingOptions.remove(); // Remove existing options if present
+
+            const encodedText = encodeURIComponent(formattedList);
+
+            // Get the position of the button
+            const rect = exportButton.getBoundingClientRect();
+            const top = rect.bottom + window.scrollY; // Bottom of the button
+            const left = rect.left + window.scrollX; // Left of the button
+
+            const options = `
+                <div id="share-options" style="position: absolute; top: ${top}px; left: ${left}px; background: white; border: 1px solid #ccc; padding: 10px; z-index: 1000; box-shadow: 0px 4px 6px rgba(0,0,0,0.1);">
+                    <button onclick="shareViaApp('signal', '${encodeURIComponent(formattedList)}')">Share via Signal</button><br>
+                    <button onclick="shareViaApp('whatsapp', '${encodeURIComponent(formattedList)}')">Share via WhatsApp</button><br>
+                    <button onclick="shareViaApp('email', '${encodeURIComponent(formattedList)}')">Share via Email</button><br>
+                    <button onclick="document.getElementById('share-options').remove()">Cancel</button>
+                </div>
+            `;
+            document.body.insertAdjacentHTML('beforeend', options);
+        }
+        console.log('exportGroceryList function completed');
+    }
+
+    function shareViaApp(app, encodedText) {
+        console.log('shareViaApp function called with app:', app);
+        let url;
+        switch (app) {
+            case 'signal':
+                url = `sgnl://send?text=${encodedText}`;
+                break;
+            case 'whatsapp':
+                url = `https://web.whatsapp.com/send?text=${encodedText}`;
+                break;
+            case 'email':
+                url = `mailto:?subject=Grocery%20List&body=${encodedText}`;
+                break;
+            default:
+                console.error('Unsupported app');
+                return;
+        }
+        window.open(url, '_blank');
+        const shareOptions = document.getElementById('share-options');
+        if (shareOptions) shareOptions.remove(); // Clean up options menu
+        console.log('shareViaApp function completed');
+    }
+
+    function openGroceryList() {
+        console.log('openGroceryList function called');
+        const groceryListDiv = document.getElementById('grocery-list');
+        const rows = groceryListDiv.querySelectorAll('table tbody tr');
+        const tableContent = Array.from(rows)
+            .map(row => {
+                const cells = row.querySelectorAll('td');
+                return `<tr>
+                            <td>${cells[1].innerText}</td>
+                            <td>${cells[2].innerText}</td>
+                            <td>${cells[0].innerText}</td>
+                            <td><input type="checkbox" style="transform: scale(2);"></td>
+                        </tr>`;
+            })
+            .join('');
+
+        const newTab = window.open('', '_blank');
+        newTab.document.write(`
+            <html>
+            <head>
+                <title style="margin-bottom: 20px">Grocery List</title>
+                <style>
                     table {
-                        min-width: 100%; /* Ensure table is full width */
+                        min-width: 100%;
+                        border-collapse: collapse;
                     }
                     th, td {
-                        font-size: 1.5em; /* Increase font size for table cells */
-                        padding: 10px; /* Increase padding for better touch experience */
+                        border: 1px solid #ddd;
+                        padding: 8px;
+                        text-align: center;
+                        font-size: 1.6em;
                     }
-                }
-            </style>
-        </head>
-        <body>
-            <h3 style="margin-bottom:20px; tex-align: center; font-size: 3.5em">Grocery List</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Quantity</th>
-                        <th>Unit</th>
-                        <th>Food Name</th>
-                        <th>Check</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${tableContent}
-                </tbody>
-            </table>
-        </body>
-        </html>
-    `);
-    newTab.document.close();
-}
-
+                    th {
+                        background-color: #f2f2f2;
+                        font-weight: bold;
+                        font-size: 1.8em;
+                    }
+                    /* Media query for smaller screens */
+                    @media (max-width: 768px) {
+                        table {
+                            min-width: 100%; /* Ensure table is full width */
+                        }
+                        th, td {
+                            font-size: 1.5em; /* Increase font size for table cells */
+                            padding: 10px; /* Increase padding for better touch experience */
+                        }
+                    }
+                </style>
+            </head>
+            <body>
+                <h3 style="margin-bottom:20px; tex-align: center; font-size: 3.5em">Grocery List</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Quantity</th>
+                            <th>Unit</th>
+                            <th>Food Name</th>
+                            <th>Check</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${tableContent}
+                    </tbody>
+                </table>
+            </body>
+            </html>
+        `);
+        newTab.document.close();
+        console.log('openGroceryList function completed');
+    }
  </script>
