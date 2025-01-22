@@ -65,6 +65,14 @@
     color: #333;
 }
 
+.macro-percentage-label {
+    font-size: 28px;
+    width: 100%; 
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
 .macro-input {
     font-size: 14px;
     width: 100%; /* Ensure full width */
