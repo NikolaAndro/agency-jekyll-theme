@@ -45,6 +45,28 @@ foods:
         - name: "Banana"
           amount: 118
           unit: "g"
+    - name: "Egg"
+      image: "../food_images/egg.jpg"
+      protein: 6.3
+      carbs: 0.4
+      fat: 4.8
+      calories: 72
+      description: "One large egg (50g)."
+      ingredients:
+      - name: "Egg"
+        amount: 1
+        unit: "large (50g)"
+    - name: "Hickory Smoked Bacon"
+      image: "../food_images/hickory_smoked_bacon.jpg"
+      protein: 12
+      carbs: 0.6
+      fat: 12
+      calories: 161
+      description: "Three slices (35g) of hickory smoked bacon."
+      ingredients:
+        - name: "Hickory Smoked Bacon"
+          amount: 35
+          unit: "g"
     - name: "Vanilla Yogurt Parfait"
       image: "../food_images/vanilla_yogurt_parfait.png"
       protein: 27
@@ -203,6 +225,17 @@ foods:
         - name: "White Rice"
           amount: 158
           unit: "g"
+    - name: "Shrimp"
+      image: "../food_images/shrimp.jpg"
+      protein: 1.1
+      carbs: 0.1
+      fat: 0.1
+      calories: 6
+      description: "One shrimp (5g)."
+      ingredients:
+        - name: "Shrimp"
+          amount: 1
+          unit: "shrimp (5g)"
     - name: "Beets"
       image: "../food_images/beets.jpg"
       protein: 1.7

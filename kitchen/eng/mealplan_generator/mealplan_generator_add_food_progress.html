@@ -226,24 +226,252 @@ lang: eng
     <div id="meal-selections">
         <h2 style="text-align: left; font-weight: bold; margin-bottom: 20px;">STEP 3 : Select your meals:</h2>
         <div class="meal-category">
+            <div class="meal-header">
                 <h3>Breakfast</h3>
+                <button type="button" class="add-food-btn" data-meal-type="breakfast">
+                    <i class="fas fa-plus"></i> Add Food
+                </button>
+            </div>
             <div class="meal-options" id="breakfast-options">
                 <!-- Breakfast meal options will be dynamically added here -->
             </div>
         </div>
         <div class="meal-category">
+            <div class="meal-header">
                 <h3>Lunch</h3>
+                <button type="button" class="add-food-btn" data-meal-type="lunch">
+                    <i class="fas fa-plus"></i> Add Food
+                </button>
+            </div>
             <div class="meal-options" id="lunch-options">
             </div>
         </div>
         <div class="meal-category">
+            <div class="meal-header">
                 <h3>Dinner</h3>
+                <button type="button" class="add-food-btn" data-meal-type="dinner">
+                    <i class="fas fa-plus"></i> Add Food
+                </button>
+            </div>
             <div class="meal-options" id="dinner-options">
             </div>
         </div>
         <div class="meal-category">
+            <div class="meal-header">
                 <h3>Snacks</h3>
+                <button type="button" class="add-food-btn" data-meal-type="snacks">
+                    <i class="fas fa-plus"></i> Add Food
+                </button>
+            </div>
             <div class="meal-options" id="snacks-options">
+            </div>
+        </div>
+
+        <style>
+            #addFoodContent{
+                margin: 15% 5%;
+                max-width: 700px;
+                width: 100%;
+            }
+            .meal-header {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: 1rem;
+            }
+            
+            .add-food-btn {
+                padding: 0.5rem 1rem;
+                background-color: #f0c117;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 30px;
+                margin-left: auto;
+                margin-right: 5%
+            }
+            .form-group {
+                margin-bottom: 1rem;
+            }
+            
+            .form-group label {
+                display: block;
+                margin-bottom: 0.5rem;
+                font-size: 2em;
+            }
+            
+            .form-group input,
+            .form-group textarea {
+                width: 100%;
+                padding: 0.5rem;
+            }
+            
+            .ingredient-entry {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 15px;
+                width: 100%;
+            }
+
+            .ingredient-entry input {
+                padding: 8px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 1.5em;
+                transition: border-color 0.3s ease;
+            }
+
+            .ingredient-entry input:focus {
+                outline: none;
+                border-color: #f0c117;
+                box-shadow: 0 0 0 2px rgba(240, 193, 23, 0.2);
+            }
+
+            .ingredient-entry .ingredient-name {
+                flex: 3;
+            }
+
+            .ingredient-entry .ingredient-amount {
+                flex: 1;
+                max-width: 120px; /* Adjust as needed */
+            }
+
+            .ingredient-entry .ingredient-unit {
+                flex: 1;
+                max-width: 150px; /* Adjust as needed */
+            }
+
+            #ingredients h3 {
+                font-size: 2em;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            #addNewFoodTitle{
+                text-align: center;
+            }
+
+            #addFoodModal .modal-content{
+                background-color: #e4b100;
+            }
+
+            #addIngredient, #saveFood{
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                font-size: 1.5em;
+                padding: 10px 20px;
+                margin-bottom: 20px;
+            }
+            .addFoodButtons {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                margin-top: 20px;
+            }
+            .remove-ingredient {
+                background-color: #ff4444;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding: 8px 15px;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 1.5em;
+                transition: background-color 0.3s ease;
+            }
+
+            .remove-ingredient:hover {
+                background-color: #cc0000;
+            }
+      
+            .upload-btn {
+                padding: 0.5rem 1rem;
+                background-color: black;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+
+            .image-path-display {
+                margin-left: 10px;
+                font-size: 1em;
+                color: #333;
+                font-size: 1.5em;
+            }
+
+            #foodImageGroup {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                margin-top: 25px;
+                margin-bottom: 20px;
+
+            }
+
+            #addFoodForm input{
+                padding-left: 10px;
+                font-size: 24px;
+            }
+        </style>
+
+        <!-- Add Food Modal -->
+        <div id="addFoodModal" class="modal">
+            <div class="modal-content" id="addFoodContent">
+                <span class="close">&times;</span>
+                <h2 id="addNewFoodTitle">Add New Food</h2>
+                <form id="addFoodForm">
+                    <input type="hidden" id="mealType">
+                    <div class="form-group">
+                        <label for="foodName">Name:</label>
+                        <input type="text" id="foodName" required>
+                    </div>
+                    <div class="form-group" id="foodImageGroup">
+                        <label for="foodImage">Image Path:</label>
+                        <input type="file" id="foodImage" accept="image/*" style="display: none;" required>
+                        <button type="button" id="uploadImageButton" class="upload-btn">Upload Image</button>
+                        <span id="imagePathDisplay" class="image-path-display">No file chosen</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="foodProtein">Protein (g):</label>
+                        <input type="number" id="foodProtein" step="0.1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="foodCarbs">Carbs (g):</label>
+                        <input type="number" id="foodCarbs" step="0.1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="foodFat">Fat (g):</label>
+                        <input type="number" id="foodFat" step="0.1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="foodCalories">Calories:</label>
+                        <input type="number" id="foodCalories" step="0.1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="foodDescription">Description:</label>
+                        <textarea id="foodDescription" required></textarea>
+                    </div>
+                    <div id="ingredients">
+                        <h3>Ingredients</h3>
+                        <div class="ingredient-entry">
+                            <input type="text" class="ingredient-name" placeholder="Name" required>
+                            <input type="number" class="ingredient-amount" placeholder="Amount" required>
+                            <input type="text" class="ingredient-unit" placeholder="Unit" required>
+                            <button type="button" class="remove-ingredient">Remove</button>
+                        </div> 
+                    </div>
+                    <div class="addFoodButtons">
+                        <button type="button" id="addIngredient">Add Another Ingredient</button>
+                        <button type="submit" id="saveFood">Save Food</button>
+                    </div>
+                </form>
+    
             </div>
         </div>
     </div>
@@ -296,4 +524,116 @@ lang: eng
     <script src="{{ site.baseurl }}/kitchen/eng/js/mealplan_generator/step_3_foodSelection.js"></script>
     <script src="{{ site.baseurl }}/kitchen/eng/js/mealplan_generator/step_4_groceries.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const uploadImageButton = document.getElementById('uploadImageButton');
+            const foodImageInput = document.getElementById('foodImage');
+            const imagePathDisplay = document.getElementById('imagePathDisplay');
+
+            uploadImageButton.addEventListener('click', () => {
+                foodImageInput.click();
+            });
+
+            foodImageInput.addEventListener('change', () => {
+                const file = foodImageInput.files[0];
+                if (file) {
+                    imagePathDisplay.textContent = file.name;
+                } else {
+                    imagePathDisplay.textContent = 'No file chosen';
+                }
+            });
+            
+            const addFoodModal = document.getElementById('addFoodModal');
+            const addIngredientBtn = document.getElementById('addIngredient');
+            const form = document.getElementById('addFoodForm');
+            const mealTypeInput = document.getElementById('mealType');
+        
+            // Add click handlers for all add food buttons
+            document.querySelectorAll('.add-food-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    mealTypeInput.value = btn.dataset.mealType;
+                    addFoodModal.style.display = 'block';
+                });
+            });
+        
+            addIngredientBtn.addEventListener('click', () => {
+                const ingredientsDiv = document.getElementById('ingredients');
+                const newIngredient = document.createElement('div');
+                newIngredient.className = 'ingredient-entry';
+                newIngredient.innerHTML = `
+                    <input type="text" class="ingredient-name" placeholder="Name" required>
+                    <input type="number" class="ingredient-amount" placeholder="Amount" required>
+                    <input type="text" class="ingredient-unit" placeholder="Unit" required>
+                    <button type="button" class="remove-ingredient">Remove</button>
+                `;
+                ingredientsDiv.appendChild(newIngredient);
+            });
+        
+            document.addEventListener('click', (e) => {
+                if (e.target.classList.contains('remove-ingredient')) {
+                    e.target.parentElement.remove();
+                }
+            });
+        
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const foodData = {
+                    name: document.getElementById('foodName').value,
+                    image: document.getElementById('foodImage').value,
+                    protein: parseFloat(document.getElementById('foodProtein').value),
+                    carbs: parseFloat(document.getElementById('foodCarbs').value),
+                    fat: parseFloat(document.getElementById('foodFat').value),
+                    calories: parseFloat(document.getElementById('foodCalories').value),
+                    description: document.getElementById('foodDescription').value,
+                    ingredients: Array.from(document.querySelectorAll('.ingredient-entry')).map(entry => ({
+                        name: entry.querySelector('.ingredient-name').value,
+                        amount: parseFloat(entry.querySelector('.ingredient-amount').value),
+                        unit: entry.querySelector('.ingredient-unit').value
+                    }))
+                };
+        
+                try {
+                    const response = await fetch('/api/add-food', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            category: mealTypeInput.value,
+                            food: foodData
+                        })
+                    });
+        
+                    if (response.ok) {
+                        alert('Food added successfully!');
+                        addFoodModal.style.display = 'none';
+                        form.reset();
+                        location.reload();
+                    } else {
+                        throw new Error('Failed to add food');
+                    }
+                } catch (error) {
+                    alert('Error adding food: ' + error.message);
+                }
+            });
+        
+            // Close modal handlers
+            document.querySelectorAll('.modal .close').forEach(closeBtn => {
+                closeBtn.addEventListener('click', () => {
+                    addFoodModal.style.display = 'none';
+                    form.reset();
+                });
+            });
+        
+            window.addEventListener('click', (e) => {
+                if (e.target === addFoodModal) {
+                    addFoodModal.style.display = 'none';
+                    form.reset();
+                }
+            });
+        });
+        </script>
+
 </div>
