@@ -361,8 +361,90 @@ foods:
         - name: "Jack's Pizza"
           amount: 1
           unit: "whole pizza"
-    
-    
+    - name: "Rissoles"
+      image: "../food_images/rissoles.jpg"
+      protein: 12.5
+      carbs: 10
+      fat: 15
+      calories: 250
+      description: "A delicious serving of rissoles made with minced beef, onion, garlic, egg, breadcrumbs, ketchup, Worcestershire sauce, black pepper, and salt."
+      ingredients:
+      - name: "Minced Beef"
+        amount: 125
+        unit: "g"
+      - name: "Onion"
+        amount: 0.25
+        unit: "piece"
+      - name: "Garlic"
+        amount: 0.25
+        unit: "tsp"
+      - name: "Egg"
+        amount: 0.25
+        unit: "piece"
+      - name: "Breadcrumbs"
+        amount: 0.25
+        unit: "cup"
+      - name: "Ketchup"
+        amount: 0.25
+        unit: "tbsp"
+      - name: "Worcestershire Sauce"
+        amount: 0.25
+        unit: "tbsp"
+      - name: "Black Pepper"
+        amount: 0.125
+        unit: "tsp"
+      - name: "Salt"
+        amount: 0.25
+        unit: "tsp"
+      - name: "Olive Oil"
+        amount: 0.75
+        unit: "tbsp"
+
+    - name: "salmon"
+      image: "../food_images/salmon.jpg"
+      protein: 50
+      carbs: 0
+      fat: 28
+      calories: 468
+      description: "A serving of 227g of salmon."
+      ingredients:
+        - name: "Salmon"
+          amount: 227
+          unit: "g"
+    - name: "Green Beans"
+      image: "../food_images/green_beans.jpg"
+      protein: 2.4
+      carbs: 9.9
+      fat: 0.4
+      calories: 44
+      description: "A serving of 125g of green beans."
+      ingredients:
+        - name: "Green Beans"
+          amount: 125
+          unit: "g"
+    - name: "Sweet Peas"
+      image: "../food_images/sweet_peas.jpeg"
+      protein: 8.6
+      carbs: 25
+      fat: 0.4
+      calories: 134
+      description: "A serving of 160g of peas."
+      ingredients:
+        - name: "Peas"
+          amount: 160
+          unit: "g"
+    - name: "Mashed Potatoes"
+      image: "../food_images/mashed_potatoes.jpeg"
+      protein: 2
+      carbs: 20
+      fat: 3
+      calories: 110
+      description: "A serving of 150g of mashed potatoes."
+      ingredients:
+        - name: "Potatoes"
+          amount: 150
+          unit: "g"
+       
   snacks:
     - name: "Protein Granola - Nature Valley"
       image: "../food_images/protein-granola.png"
