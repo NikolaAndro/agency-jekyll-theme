@@ -29,7 +29,10 @@ document.addEventListener("DOMContentLoaded", function() {
         updateFoodOptions();
     }
 
-    updateButton.addEventListener('click', updateTotalCaloriesGoal);
+    updateButton.addEventListener('click', function() {
+        updateTotalCaloriesGoal();
+        updateAggregatedValuesGoals();
+    });
 
     function displayFoods(foods) {
         for (const [meal, items] of Object.entries(foods)) {
@@ -246,6 +249,20 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('total-aggregated-calories').textContent = totalCalories.toFixed(2);
 
         updateFoodOptions();
+    }   
+
+    function updateAggregatedValuesGoals(){
+        // Get goal values from input fields
+        const goalProtein = parseFloat(document.getElementById('protein').value) || 0;
+        const goalCarbs = parseFloat(document.getElementById('carbs').value) || 0;
+        const goalFat = parseFloat(document.getElementById('fat').value) || 0;
+        const goalCalories = (goalProtein * 4) + (goalCarbs * 4) + (goalFat * 9);
+    
+        // Update goal values in the table
+        document.getElementById('goal-protein').textContent = goalProtein.toFixed(2);
+        document.getElementById('goal-carbs').textContent = goalCarbs.toFixed(2);
+        document.getElementById('goal-fat').textContent = goalFat.toFixed(2);
+        document.getElementById('goal-calories').textContent = goalCalories.toFixed(2);
     }
 
     document.querySelectorAll('.modal .close').forEach(closeBtn => {

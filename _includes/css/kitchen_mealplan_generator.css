@@ -219,6 +219,8 @@
     align-items: center; /* Center content horizontally */
     text-align: center; /* Center text */
     transition: transform 0.3s ease;
+    box-sizing: border-box; /* Include padding in element's total width and height */
+
 }
 
 .toggle-sidebar {

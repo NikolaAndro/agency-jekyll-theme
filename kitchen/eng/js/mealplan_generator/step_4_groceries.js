@@ -12,10 +12,18 @@ function generateGroceryList() {
 
         const ingredients = foodDiv.dataset.ingredients ? JSON.parse(foodDiv.dataset.ingredients) : [];
         ingredients.forEach(ingredient => {
-            const ingredientName = ingredient.name;
-            const ingredientQuantity = ingredient.amount * totalQuantity;
-            const ingredientUnit = ingredient.unit;
+            const { name: ingredientName, amount: ingredientAmount, unit: ingredientUnit } = ingredient;
 
+            if (!ingredientName || !ingredientAmount || !ingredientUnit) {
+                console.error('Missing ingredient details:', ingredient);
+                return;
+            }
+
+            const ingredientQuantity = ingredientAmount * totalQuantity;
+            
+            // const ingredientName = ingredient.name;
+            // const ingredientQuantity = ingredient.amount * totalQuantity;
+            // const ingredientUnit = ingredient.unit;
             if (groceryList[ingredientName]) {
                 groceryList[ingredientName].quantity += ingredientQuantity;
             } else {

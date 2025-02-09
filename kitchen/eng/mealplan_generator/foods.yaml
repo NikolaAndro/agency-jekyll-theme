@@ -109,10 +109,15 @@ foods:
   lunch:
     - name: "Chicken Breast"
       image: "../food_images/chicken_breast.png"
-      protein: 31
+      protein: 43
       carbs: 0
-      fat: 3.6
-      calories: 165
+      fat: 5
+      calories: 227
+      description: "One raw chicken breast (189g)."
+      ingredients:
+        - name: "Chicken Breast"
+          amount: 189
+          unit: "g"
     - name: "Eggwhite Soup"
       image: "../food_images/eggwhite_soup.jpg"
       protein: 11
