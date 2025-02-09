@@ -75,7 +75,7 @@ foods:
       calories: 312
       description: "A delicious parfait made with non-fat Greek yogurt, mixed berries, and granola."
       ingredients:
-        - name: "Non-fat Greek Yogurt"
+        - name: "Non-fat Oikos Protein Yogurt"
           amount: 245
           unit: "g"
         - name: "Mixed Berries"

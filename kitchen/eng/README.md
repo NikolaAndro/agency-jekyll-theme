@@ -70,3 +70,11 @@ Treat is already optimised for adding, updating and removing recipes, navigation
 
 * Exposed as a data file to give clients better access.
 * Set in the *Data* / *Footer* section.
+
+# Ideas for improvement
+
+## Mealplan Generator
+
+1. The aggregated macros need to stay bellow the navbar
+2. Breakfast, lunch, dinner, and snacks can be clickable buttons on the side that when clicked will show the foods for that section to be selected
+3. When foods offered they can be split up in subsections such as fruits, dairy, etc...
