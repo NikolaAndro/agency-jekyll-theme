@@ -378,32 +378,32 @@ foods:
         amount: 125
         unit: "g"
       - name: "Onion"
-        amount: 0.25
-        unit: "piece"
+        amount: 25
+        unit: "g"
       - name: "Garlic"
-        amount: 0.25
-        unit: "tsp"
+        amount: 1.25
+        unit: "g"
       - name: "Egg"
-        amount: 0.25
-        unit: "piece"
+        amount: 12.5
+        unit: "g"
       - name: "Breadcrumbs"
-        amount: 0.25
-        unit: "cup"
+        amount: 30
+        unit: "g"
       - name: "Ketchup"
-        amount: 0.25
-        unit: "tbsp"
+        amount: 3.75
+        unit: "ml"
       - name: "Worcestershire Sauce"
-        amount: 0.25
-        unit: "tbsp"
+        amount: 3.75
+        unit: "ml"
       - name: "Black Pepper"
-        amount: 0.125
-        unit: "tsp"
+        amount: 0.625
+        unit: "g"
       - name: "Salt"
-        amount: 0.25
-        unit: "tsp"
+        amount: 1.5
+        unit: "g"
       - name: "Olive Oil"
-        amount: 0.75
-        unit: "tbsp"
+        amount: 11.25
+        unit: "ml"
 
     - name: "salmon"
       image: "../food_images/salmon.jpg"

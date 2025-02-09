@@ -74,7 +74,8 @@ Treat is already optimised for adding, updating and removing recipes, navigation
 # Ideas for improvement
 
 ## Mealplan Generator
-
-1. The aggregated macros need to stay bellow the navbar
-2. Breakfast, lunch, dinner, and snacks can be clickable buttons on the side that when clicked will show the foods for that section to be selected
-3. When foods offered they can be split up in subsections such as fruits, dairy, etc...
+- [x] The aggregated macros need to stay below the navbar
+- [ ] Breakfast, lunch, dinner, and snacks can be clickable buttons on the side that when clicked will show the foods for that section to be selected
+- [ ] When foods are offered, they can be split up into subsections such as fruits, dairy, etc.
+- [ ] Export mealplan button that will save the mealplan under mealplans tab
+- [ ] Move the foods into a firebase database

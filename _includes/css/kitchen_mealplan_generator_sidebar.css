@@ -45,7 +45,6 @@
 }
 
 .aggregated-values {
-    margin-top: 120px;
     padding: 0 20px; /* Add padding to ensure content stays within bounds */
     box-sizing: border-box; /* Include padding in element's total width and height */
 }

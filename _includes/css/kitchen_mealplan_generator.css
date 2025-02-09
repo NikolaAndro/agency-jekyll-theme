@@ -210,12 +210,12 @@
     height: 100%;
     overflow-y: auto; /* Enable scrolling within the sidebar if needed */
     background-color: #f8f9fa; /* Background color for the sidebar */
-    padding: 120px 20px 20px 20px;
+    padding: 170px 20px 20px 20px;
     box-shadow: -2px 0 5px rgba(0,0,0,0.1); /* Optional: Add a shadow for better visibility */
     z-index: 1000; /* Ensure the sidebar is above other content */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
+    justify-content: lex-start; /* Center content vertically */
     align-items: center; /* Center content horizontally */
     text-align: center; /* Center text */
     transition: transform 0.3s ease;
