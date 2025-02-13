@@ -20,31 +20,54 @@ foods:
     - name: "Whole Milk"
       image: "../food_images/milk.jpg"
       protein: 8
-      carbs: 12
-      fat: 7.9
-      calories: 148.8
+      carbs: 13
+      fat: 8
+      calories: 150
       description: "One cup (240 ml) of whole milk."
       ingredients:
         - name: "Whole Milk"
           amount: 240
           unit: "ml"
+          calories: 150
+          protein: 8
+          carbs: 13
+          fat: 8
     - name: "Peanutbutter Banana Oatmeal"
       image: "../food_images/pb-banana-oats.png"
-      protein: 15
-      carbs: 60
-      fat: 19
-      calories: 449
-      description: "A delicious and nutritious breakfast combining oats, peanut butter, and banana."
+      protein: 24
+      carbs: 100.6
+      fat: 26.1
+      calories: 670
+      description: "80 g of Quaker Rolled Oats,\n33 g of Peanut Butter,\n118 g of Banana,\nand 120 ml of whole milk."
       ingredients:
-        - name: "Rolled Oats"
-          amount: 90
+        - name: "Quaker Rolled Oats"
+          amount: 80
           unit: "g"
+          calories: 300
+          protein: 10
+          carbs: 54
+          fat: 6
         - name: "Peanut Butter"
-          amount: 32
+          amount: 33
           unit: "g"
+          calories: 190
+          protein: 7
+          carbs: 8
+          fat: 16
         - name: "Banana"
           amount: 118
           unit: "g"
+          calories: 105 
+          protein: 1.3
+          carbs: 27
+          fat: 0.4
+        - name: "Whole Milk"
+          amount: 120
+          unit: "ml"
+          calories: 75
+          protein: 4
+          carbs: 6.5
+          fat: 4
     - name: "Egg"
       image: "../food_images/egg.jpg"
       protein: 6.3
@@ -97,14 +120,14 @@ foods:
           unit: "piece"
     - name: "Cereal - Cinnamon Toast Crunch"
       image: "../food_images/cinnamon_toast_crunch.jpeg"
-      protein: 1.7
-      carbs: 24
-      fat: 3.2
-      calories: 127
-      description: "One cup (31g) of Cinnamon Toast Crunch cereal."
+      protein: 2
+      carbs: 33
+      fat: 4
+      calories: 170
+      description: "1 cup (41g) of Cinnamon Toast Crunch cereal."
       ingredients:
         - name: "Cinnamon Toast Crunch"
-          amount: 31
+          amount: 41
           unit: "g"
   lunch:
     - name: "Chicken Breast"
@@ -124,7 +147,7 @@ foods:
       carbs: 24
       fat: 3
       calories: 178
-      description: "A light and nutritious eggwhite soup."
+      description: "50 g of eggwhite and 1.25 servings of Chicken Noodle Bear Creek."
       ingredients:
         - name: "Eggwhite"
           amount: 50
@@ -134,28 +157,41 @@ foods:
           unit: "servings"
     - name: "Chicken-Alfredo"
       image: "../food_images/chicken-alfredo.png"
-      protein: 82
-      carbs: 83
-      fat: 28
-      calories: 789
-      description: "A delicious Chicken Alfredo pasta dish."
+      calories: 775
+      protein: 72.47
+      carbs: 89
+      fat: 14.43
+      description: "112 (raw) g of penne pasta, 250 (raw) g of chicken breasts, and 100 g of Classico Alfredo Sauce."
       ingredients:
         - name: "Penne Pasta"
-          amount: 250
-          unit: "g"
+          amount: 112
+          unit: "g (raw)"
+          calories: 400
+          protein: 14
+          carbs: 84
+          fat: 2
         - name: "Chicken Breasts"
-          amount: 300
-          unit: "g"
-        - name: "Alfredo Sauce"
+          amount: 250
+          unit: "g (raw)"
+          calories: 300
+          protein: 56.8
+          carbs: 0
+          fat: 6.6
+        - name: "Classico Alfredo Sauce"
           amount: 100
           unit: "g"
+          calories: 75
+          protein: 1.67
+          carbs: 5
+          fat: 5.83
+
     - name: "Salad"
       image: "../food_images/salad.png"
       protein: 140
       carbs: 70
       fat: 94
       calories: 1695
-      description: "A hearty salad with kale, spring mix, chicken breasts, bacon, boiled eggs, avocado, cherry tomatoes, beets, sunflower seeds, pumpkin seeds, croutons, and Italian dressing."
+      description: "100 g of kale, 100 g of spring mix, 400 g of chicken breasts, 50 g of hickory smoked bacon, 2 boiled eggs, 50 g of avocado, 100 g of cherry tomatoes, 50 g of beets, 25 g of sunflower seeds, 25 g of pumpkin seeds, 50 g of croutons, and 62 g of Italian dressing."
       ingredients:
         - name: "Kale"
           amount: 100
@@ -372,7 +408,7 @@ foods:
       carbs: 10
       fat: 15
       calories: 250
-      description: "A delicious serving of rissoles made with minced beef, onion, garlic, egg, breadcrumbs, ketchup, Worcestershire sauce, black pepper, and salt."
+      description: "125 (raw) g of minced beef, 25 g of onion, 1.25 g of garlic, 12.5 g of egg, 30 g of breadcrumbs, 3.75 ml of ketchup, 3.75 ml of Worcestershire sauce, 0.625 g of black pepper, 1.5 g of salt, and 11.25 ml of olive oil."
       ingredients:
       - name: "Minced Beef"
         amount: 125
@@ -442,13 +478,17 @@ foods:
       image: "../food_images/mashed_potatoes.jpeg"
       protein: 2
       carbs: 20
-      fat: 3
+      fat: 2.5
       calories: 110
-      description: "A serving of 150g of mashed potatoes."
+      description: "A serving of 140g of prepared Idahoan mashed potatoes."
       ingredients:
-        - name: "Potatoes"
-          amount: 150
-          unit: "g"
+        - name: "Idahoan Homestyle Mashed Potatoes"
+          amount: 140
+          unit: "g prepared"
+          calories: 110
+          protein: 2
+          carbs: 20
+          fat: 2.5
        
   snacks:
     - name: "Protein Granola - Nature Valley"

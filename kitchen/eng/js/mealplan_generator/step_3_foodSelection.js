@@ -45,11 +45,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 const foodDiv = document.createElement('div');
                 foodDiv.className = 'food-option';
                 foodDiv.dataset.ingredients = JSON.stringify(item.ingredients);
+                const description = item.description.replace(/\n/g, '<br>'); // Replace newline characters with <br> tags
                 foodDiv.innerHTML = `
                     <div style="display: flex; justify-content: center; align-items: center;">
                         <img src="${item.image}" alt="${item.name}">
                     </div>
-                    <button class="description-button" data-name="${item.name}" data-description="${item.description}" data-description-image="${item.description_image || ''}">View Description</button>
+                    <button class="description-button" data-name="${item.name}" data-description="${description}" data-description-image="${item.description_image || ''}">View Description</button>
                     <p>${item.name}</p>
                     <div class="macros">
                         <p>Protein: ${item.protein} g</p>
@@ -59,11 +60,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                 `;
                 mealOptions.appendChild(foodDiv);
-
+    
                 foodDiv.querySelector('.description-button').addEventListener('click', function() {
                     showModal(this.dataset.name, this.dataset.description, this.dataset.descriptionImage);
                 });
-
+    
                 foodDiv.querySelector('img').addEventListener('click', function() {
                     if (foodDiv.querySelector('.exceeds-goal-banner')) {
                         return;
@@ -141,8 +142,8 @@ document.addEventListener("DOMContentLoaded", function() {
     function showModal(name, description, descriptionImage) {
         const modal = document.getElementById('mealModal');
         document.getElementById('mealName').textContent = name;
-        document.getElementById('mealDescription').textContent = description;
-
+        document.getElementById('mealDescription').innerHTML = description; // Use innerHTML to render <br> tags
+    
         const descriptionImageElement = document.getElementById('mealDescriptionImage');
         if (descriptionImage) {
             descriptionImageElement.src = descriptionImage;
@@ -150,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             descriptionImageElement.style.display = 'none';
         }
-
+    
         modal.style.display = 'block';
     }
 

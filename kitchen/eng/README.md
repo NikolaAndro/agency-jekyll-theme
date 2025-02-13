@@ -79,3 +79,7 @@ Treat is already optimised for adding, updating and removing recipes, navigation
 - [ ] When foods are offered, they can be split up into subsections such as fruits, dairy, etc.
 - [ ] Export mealplan button that will save the mealplan under mealplans tab
 - [ ] Move the foods into a firebase database
+- [ ] Print/Export Mealplan schedule
+- [ ] View Recepie inside the food description
+- [ ] Add fiber to foods
+- [ ] Fix what happens when you enter quantity for food and then hit enter button
